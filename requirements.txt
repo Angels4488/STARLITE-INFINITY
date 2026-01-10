@@ -1,0 +1,32 @@
+# --- Core Deep Learning ---
+torch
+numpy
+einops # For architecture design
+
+# --- Hugging Face & LLM Ecosystem ---
+transformers
+accelerate
+bitsandbytes
+peft
+sentence-transformers # For creating embeddings
+
+# --- Data Handling & ML Utilities ---
+pandas
+datasets
+scikit-learn
+
+# --- Agent & RAG Frameworks ---
+langchain
+langchain-community
+llama-index
+# Choose one vector store to start, or both
+faiss-cpu # For NVIDIA GPUs
+chromadb
+
+# --- Training & Development Tools ---
+pytorch-lightning # For training from scratch
+timm # For SOTA building blocks
+jupyter
+wandb
+tqdm
+python-dotenv

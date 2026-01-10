@@ -1,0 +1,20 @@
+project_name: "Shadow AGI Lab"
+log_level: "INFO"
+
+llm:
+  model_name: "gpt2"
+  max_new_tokens: 256
+
+memory:
+  db_name: "shadow_memory.db"
+  degradation_interval_sec: 900   # seconds between maintenance cycles
+
+ethics:
+  autonomy_enabled: false
+  auto_apply_threshold: 0.97
+
+covenant:
+  repo_path: "./covenant_repo"
+  manifest_file: "COVENANT.md"
+  author: "ShadowAngel"
+  batch_commit_threshold: 5
