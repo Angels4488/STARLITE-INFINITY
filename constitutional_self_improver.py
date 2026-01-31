@@ -1,5 +1,5 @@
 import time
-from ..utils.recorder import Recorder
+# from .utils.recorder import Recorder
 
 class ConstitutionalSelfImprover:
     def __init__(self, principles, recorder=None):

@@ -1,32 +1,34 @@
-# --- Core Deep Learning ---
-torch
+# --- Deep Learning & Core ML ---
+torch>=2.0.0
 numpy
-einops # For architecture design
+scipy
+einops
 
 # --- Hugging Face & LLM Ecosystem ---
-transformers
-accelerate
-bitsandbytes
-peft
-sentence-transformers # For creating embeddings
+transformers>=4.30.0
+accelerate>=0.20.0
+bitsandbytes>=0.41.0
+peft>=0.4.0
+sentence-transformers>=2.2.0
 
-# --- Data Handling & ML Utilities ---
+# --- Data Processing ---
 pandas
-datasets
 scikit-learn
+datasets
 
-# --- Agent & RAG Frameworks ---
-langchain
-langchain-community
-llama-index
-# Choose one vector store to start, or both
-faiss-cpu # For NVIDIA GPUs
-chromadb
+# --- Vector Databases & RAG ---
+langchain>=0.1.0
+langchain-community>=0.0.1
+chromadb>=0.4.0
+faiss-cpu
 
-# --- Training & Development Tools ---
-pytorch-lightning # For training from scratch
-timm # For SOTA building blocks
+# --- Utilities & Development ---
+pytorch-lightning
+timm
 jupyter
 wandb
 tqdm
 python-dotenv
+pyyaml
+requests
+setuptools

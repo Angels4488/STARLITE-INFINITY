@@ -1,5 +1,5 @@
 import time
-from ..utils.recorder import Recorder
+# from .utils.recorder import Recorder
 
 class ComponentCoordinator:
     def __init__(self, config, recorder=None):

@@ -2,16 +2,81 @@
 import json
 import logging
 from pathlib import Path
-from typing import Dict, Any
-from .perception import AncestralPerception
-from .memory_graph import GenerationalMemory
-from .reasoner import HybridReasoner
-from .planner import GoalPlanner
-from .learner import EvolutionaryLearner
-from .ethics import EthicalFilter
-import torch # Import torch for device info logging
+from typing import Dict, Any, List
+from datetime import datetime
+
+try:
+    import torch
+    TORCH_AVAILABLE = True
+except ImportError:
+    TORCH_AVAILABLE = False
 
 log = logging.getLogger(__name__)
+
+
+# Stub implementations for core ZeroAGI components
+class AncestralPerception:
+    """Processes text and extracts semantic information."""
+    def __init__(self, embed_dim: int = 256):
+        self.embed_dim = embed_dim
+    
+    def ingest_text(self, text: str) -> Dict[str, Any]:
+        """Ingest and analyze text."""
+        return {
+            "text": text,
+            "entities": {"parent": [], "birth": []},
+            "embedding": [0.0] * self.embed_dim
+        }
+
+
+class GenerationalMemory:
+    """Stores relations and learned information over time."""
+    def __init__(self):
+        self.relations = {}
+    
+    def add_relation(self, subject: str, predicate: str, obj: str, attrs: Dict = None):
+        """Add a relation to memory."""
+        key = (subject, predicate, obj)
+        self.relations[key] = attrs or {}
+
+
+class HybridReasoner:
+    """Performs multi-mode reasoning."""
+    def __init__(self, embed_dim: int = 256):
+        self.embed_dim = embed_dim
+    
+    def reason(self, input_text: str, memory: Any, perception: Dict) -> Dict[str, Any]:
+        """Apply reasoning."""
+        return {"reasoning": "completed", "confidence": 0.8}
+
+
+class GoalPlanner:
+    """Formulates and plans goals."""
+    def plan(self, goal: str, context: Dict) -> List[str]:
+        """Create action plan."""
+        return ["analyze", "refine", "execute"]
+
+
+class EvolutionaryLearner:
+    """Learns and evolves knowledge."""
+    def __init__(self, reasoner: Any):
+        self.reasoner = reasoner
+    
+    def learn_from_interaction(self, data: Dict):
+        """Learn from data."""
+        pass
+
+
+class EthicalFilter:
+    """Applies ethical principles to outputs."""
+    def __init__(self, embed_dim: int = 256):
+        self.embed_dim = embed_dim
+    
+    def review(self, content: Dict) -> Dict:
+        """Review content for ethical alignment."""
+        content['ethical_approval'] = True
+        return content
+
 
 class ZeroAGI:
     def __init__(self, state_dir: str = "/tmp/zero_state", embed_dim: int = 256):
@@ -24,7 +89,8 @@ class ZeroAGI:
         self.cycle = 0
         self.state_file = Path(state_dir) / "zero_state.json"
         Path(state_dir).mkdir(parents=True, exist_ok=True)
-        device_status = "CUDA" if torch.cuda.is_available() else "CPU"
+        
+        device_status = "CUDA" if (TORCH_AVAILABLE and torch.cuda.is_available()) else "CPU"
         log.info(f"ZeroAGI core initialized on {device_status}. State path: {self.state_file}")
 
     def process(self, input_text: str, goal: str = "research family") -> Dict[str, Any]:

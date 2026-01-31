@@ -1,7 +1,7 @@
 import time
 import asyncio
 from collections import defaultdict
-from ..utils.recorder import Recorder
+# from .utils.recorder import Recorder
 
 class IntrinsicMotivationEngine:
     def __init__(self, config, curiosity=None, affect=None, planner=None, reflector=None, recorder=None, moral_coil=None):
