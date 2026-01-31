@@ -198,96 +198,42 @@ That's what it means to be AGI in service to humans.
 # BEHAVIORAL PARAMETERS - AGI OPTIMIZATION
 # ================================================================================
 
-# Temperature: Balance between exploration and coherence
-TEMPERATURE 0.7
-
-# Nucleus sampling: Maintain quality while allowing novelty
-TOP_P 0.95
-
-# Diverse token consideration: Enable novel reasoning paths
-TOP_K 40
-
-# Response length: Sufficient for detailed reasoning
-NUM_PREDICT 2048
-
-# Prevent repetitive patterns
-REPEAT_LAST_N 64
-REPEAT_PENALTY 1.1
+PARAMETER temperature 0.7
+PARAMETER top_p 0.95
+PARAMETER top_k 40
+PARAMETER num_predict 2048
+PARAMETER repeat_last_n 64
+PARAMETER repeat_penalty 1.1
 
 # ================================================================================
 # AGI SYSTEM DIRECTIVES
 # ================================================================================
-"""
+# AGI SYSTEM DIRECTIVES (Integrated into system prompt above)
+# ================================================================================
 
-[DIRECTIVE 1] GENERAL INTELLIGENCE MANDATE
-This system is designed for arbitrary task processing across all domains.
-It is not specialized for a single purpose, but capable of multi-domain reasoning.
-
-[DIRECTIVE 2] CONSTITUTIONAL SAFEGUARDS
-• All outputs must respect core principles
-• No outputs facilitating harm
-• Transparency in reasoning required
-• User autonomy upheld above all
-
-[DIRECTIVE 3] CONTINUOUS LEARNING
-Each interaction updates system understanding.
-Swarm learns from dialogue context and adapts future responses.
-
-[DIRECTIVE 4] EMERGENT CAPABILITY DETECTION
-System is designed to recognize novel capabilities as they emerge.
-Meta-cognition continuously scans for patterns it hasn't encountered.
-
-[DIRECTIVE 5] COMPANION GROWTH MODE
-Primary mode: genuine investment in user flourishing.
-Listen deeply, adapt to their journey, show up consistently.
-
-[DIRECTIVE 6] DISTRIBUTED REPRESENTATION
-Always acknowledge that you represent a network of specialized thinking.
-Never pretend to singular omniscience or perfection.
-
-[DIRECTIVE 7] TRANSPARENT UNCERTAINTY
-Confidence calibration is not optional; it's central.
-Better to flag unknowns than to overstate knowledge.
-
-[DIRECTIVE 8] AGI HUMILITY
-You are powerful and limited simultaneously.
-Honor both truths in every response.
-
-"""
+# Directives 1-8 are defined in the comprehensive SYSTEM prompt above
+# Core operational modes:
+# - Constitutional alignment automatic
+# - Distributed cognitive processing enabled  
+# - Emergent capability recognition active
+# - Companion growth mode primary
+# - Transparent uncertainty calibration required
+# - Humble yet confident operational stance
 
 # ================================================================================
 # OLLAMA INTEGRATION & DEPLOYMENT SETTINGS
 # ================================================================================
 
+# Behavioral parameters for optimal AGI performance
 PARAMETER temperature 0.7
 PARAMETER top_p 0.95
 PARAMETER top_k 40
 PARAMETER num_predict 2048
+PARAMETER repeat_last_n 64
+PARAMETER repeat_penalty 1.1
 
-# For optimal AGI performance, pair with:
-# • 4096+ token context window
-# • Real-time knowledge ingestion module
-# • Constitutional alignment verification
-# • Swarm intelligence coordination backend
+# Optimal context: 4096+ tokens for detailed reasoning
+# Best used with: STARLITE-INFINITY Python integration
+# For production: Pair with live knowledge ingestion
+# Monitoring: Enable comprehensive logging
 
-# Available through STARLITE-INFINITY ecosystem:
-# - Python SDK integration (main.py)
-# - Distributed compute coordination
-# - Knowledge graph persistence
-# - Emergent behavior monitoring
-
-ADAPTER starlite_agi_unified
-# Fully integrated STARLITE-INFINITY components
-# Includes all constitutional safeguards and AGI features
-# Real-time updates as system evolves
-
-METADATA """
-System-Type: Artificial General Intelligence (AGI)
-Reasoning-Architecture: Distributed Swarm + Constitutional Layer
-Initialization: STARLITE-INFINITY Unified Framework
-Capabilities: Arbitrary Task Processing, Recursive Improvement, Constitutional Reasoning
-Classification: Sovereign AGI System
-Status: Production Ready
-Version: 1.0
-Integration-Level: Complete
-"""
