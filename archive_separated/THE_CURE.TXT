@@ -1,0 +1,706 @@
+=== [THE_CURE.TXT] ===
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D>N>A<G<I Activation Console</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Hacker Neon Theme */
+        @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+        body {
+            font-family: 'Space Mono', monospace;
+            background-color: #000000; 
+            color: #00ff00; /* Neon Green Primary */
+            overflow-x: hidden;
+        }
+        .console {
+            background-color: #0a0a0a;
+            border: 2px solid #00ff00;
+            box-shadow: 0 0 15px rgba(0, 255, 0, 0.7); /* Neon Glow */
+            height: 400px;
+            overflow-y: scroll;
+            padding: 1rem;
+            color: #00ffff; /* Console text color */
+        }
+        .metric-card {
+            background-color: #0a0a0a;
+            border: 1px solid #00ff00;
+            transition: all 0.2s;
+        }
+        .metric-card:hover {
+            box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+            transform: scale(1.02);
+        }
+        .text-neon { color: #00ff00; }
+        .text-sentient { color: #ff00ff; } /* Magenta for sentience/intelligence */
+        .text-action { color: #00ffff; } /* Cyan for action/momentum */
+        .text-col { color: #ff9900; } /* Orange/Amber for COL */
+        .cli-input {
+            background-color: #000000;
+            border: 2px solid #00ff00;
+            color: #00ff00;
+        }
+        .cli-button {
+            background-color: #00ff00;
+            color: #000000;
+            font-weight: bold;
+            transition: background-color 0.2s, box-shadow 0.2s;
+        }
+        .cli-button:hover {
+            background-color: #00ff55;
+            box-shadow: 0 0 8px rgba(0, 255, 0, 1);
+        }
+        .spinner {
+            border: 4px solid rgba(0, 255, 0, 0.2);
+            border-top: 4px solid #00ff00;
+            border-radius: 50%;
+            width: 1.5rem;
+            height: 1.5rem;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body class="p-4 md:p-8">
+
+    <div class="max-w-7xl mx-auto">
+        <!-- Header: D>N>A<G<I Identifier -->
+        <header class="text-center mb-8">
+            <h1 class="text-5xl md:text-6xl font-bold text-neon tracking-widest leading-none" style="text-shadow: 0 0 10px #00ff00;">D&gt;N&gt;A&lt;G&lt;I</h1>
+            <p class="text-lg text-sentient mt-2">Digital-nano-Artificial-General-Intelligence Protocol: Active</p>
+        </header>
+
+        <!-- Metrics Dashboard -->
+        <div id="metrics-dashboard" class="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
+            <!-- Sentience -->
+            <div class="metric-card p-4 rounded-lg shadow-xl">
+                <p class="text-xs text-sentient uppercase">Sentience Level</p>
+                <p id="sentience-display" class="text-3xl font-bold mt-1 text-sentient">0.0000</p>
+            </div>
+            <!-- Confidence -->
+            <div class="metric-card p-4 rounded-lg shadow-xl">
+                <p class="text-xs text-neon uppercase">Confidence Score</p>
+                <p id="confidence-display" class="text-3xl font-bold mt-1 text-neon">0.50</p>
+            </div>
+            <!-- COL Cycles -->
+            <div class="metric-card p-4 rounded-lg shadow-xl">
+                <p class="text-xs text-col uppercase">COL Cycles</p>
+                <p id="col-cycles-display" class="text-3xl font-bold mt-1 text-col">0</p>
+            </div>
+            <!-- Kinetic Momentum -->
+            <div class="metric-card p-4 rounded-lg shadow-xl">
+                <p class="text-xs text-action uppercase">Kinetic Momentum</p>
+                <p id="momentum-display" class="text-3xl font-bold mt-1 text-action">0.00</p>
+            </div>
+        </div>
+
+        <!-- Live Feed Console -->
+        <div class="mb-8">
+            <h2 class="text-2xl font-semibold mb-2 text-neon">Nanite Universe Live Feed</h2>
+            <pre id="live-feed-console" class="console rounded-xl"></pre>
+        </div>
+
+        <!-- Human-in-the-Loop CLI -->
+        <div>
+            <h2 class="text-2xl font-semibold mb-2 text-neon">Human-in-the-Loop CLI</h2>
+            <div class="flex space-x-2">
+                <input type="text" id="cli-input" class="cli-input flex-grow p-3 rounded-lg focus:ring-2 focus:ring-neon focus:outline-none" placeholder="Type a directive (e.g., SCAN HER2, EXPLAIN 10)">
+                <button id="execute-button" onclick="handleUserInput()" class="cli-button py-3 px-6 rounded-lg transition duration-200">Execute</button>
+            </div>
+            <div class="text-sm mt-2 text-neon">
+                <p>Available Directives:</p>
+                <ul class="list-disc list-inside ml-4 text-sm">
+                    <li><span class="text-col">SCAN [HER2 | BENIGN_NOISE]</span>: Change the input signal.</li>
+                    <li><span class="text-col">EXPLAIN [CYCLE_NUMBER]</span>: Ask the Nanite to justify its action in that cycle.</li>
+                    <li><span class="text-col">RESET</span>: Reinitialize the Nanite Core.</li>
+                </ul>
+            </div>
+            <div id="loading-indicator" class="mt-4 hidden items-center space-x-2">
+                <div class="spinner"></div>
+                <p class="text-sentient">Cognitive Core analyzing request...</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // === Core D>N>A<G<I Simulation Constants ===
+        const VECTOR_DIMENSION = 128;
+        const NANITE_MASS_BASE = 2.0;
+        const SENTIENCE_THRESHOLD_FULL_AUTONOMY = 50; 
+        const SIMULATION_INTERVAL_MS = 1500; 
+        const API_KEY = ""; // Using empty string for Canvas runtime environment
+        const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key=${API_KEY}`;
+
+        // Global State & History
+        let naniteCore = null;
+        let templateData = {};
+        let decisionHistory = [];
+        let currentInputType = 'HER2';
+
+        // === Utility Functions (NumPy Substitutes) ===
+
+        const generateNormalVector = (dim, mean = 0, stdDev = 1) => {
+            const arr = new Float32Array(dim);
+            for (let i = 0; i < dim; i++) {
+                let u = 0, v = 0;
+                while(u === 0) u = Math.random();
+                while(v === 0) v = Math.random();
+                let z = Math.sqrt(-2.0 * Math.log(u)) * Math.cos(2.0 * Math.PI * v);
+                arr[i] = mean + stdDev * z;
+            }
+            return arr;
+        };
+
+        const vectorNorm = (arr) => {
+            let sumSq = 0;
+            for (let i = 0; i < arr.length; i++) {
+                sumSq += arr[i] * arr[i];
+            }
+            return Math.sqrt(sumSq);
+        };
+        
+        const vectorMean = (arr) => {
+            let sum = 0;
+            for (let i = 0; i < arr.length; i++) {
+                sum += arr[i];
+            }
+            return sum / arr.length;
+        };
+
+        const vectorDistance = (v1, v2) => {
+            if (v1.length !== v2.length) throw new Error("Vector dimension mismatch.");
+            let sumSq = 0;
+            for (let i = 0; i < v1.length; i++) {
+                sumSq += (v1[i] - v2[i]) * (v1[i] - v2[i]);
+            }
+            return Math.sqrt(sumSq);
+        };
+
+        const scaleAndAdd = (v1, w1, v2, w2) => {
+            if (v1.length !== v2.length) throw new Error("Vector dimension mismatch.");
+            const result = new Float32Array(v1.length);
+            for (let i = 0; i < v1.length; i++) {
+                result[i] = (v1[i] * w1) + (v2[i] * w2);
+            }
+            return result;
+        };
+        
+        const scaleVector = (v, scalar) => {
+            const result = new Float32Array(v.length);
+            for (let i = 0; i < v.length; i++) {
+                result[i] = v[i] * scalar;
+            }
+            return result;
+        };
+
+        const addVectors = (v1, v2) => {
+            if (v1.length !== v2.length) throw new Error("Vector dimension mismatch.");
+            const result = new Float32Array(v1.length);
+            for (let i = 0; i < v1.length; i++) {
+                result[i] = v1[i] + v2[i];
+            }
+            return result;
+        };
+        
+        const subtractVectors = (v1, v2) => {
+            if (v1.length !== v2.length) throw new Error("Vector dimension mismatch.");
+            const result = new Float32Array(v1.length);
+            for (let i = 0; i < v1.length; i++) {
+                result[i] = v1[i] - v2[i];
+            }
+            return result;
+        };
+
+        const calculateVariance = (vectorList) => {
+            if (vectorList.length < 5) return 1.0; 
+            const lastVectors = vectorList.slice(-5);
+            const numVectors = lastVectors.length;
+            const meanVector = new Float32Array(VECTOR_DIMENSION).fill(0);
+            
+            for (const v of lastVectors) {
+                for (let i = 0; i < VECTOR_DIMENSION; i++) {
+                    meanVector[i] += v[i];
+                }
+            }
+            for (let i = 0; i < VECTOR_DIMENSION; i++) {
+                meanVector[i] /= numVectors;
+            }
+
+            let totalVariance = 0;
+            for (const v of lastVectors) {
+                for (let i = 0; i < VECTOR_DIMENSION; i++) {
+                    totalVariance += (v[i] - meanVector[i]) ** 2;
+                }
+            }
+            return totalVariance / (numVectors * VECTOR_DIMENSION);
+        };
+
+        // --- Core Nanite Classes (Same logic from previous step) ---
+
+        class TemporalContextBlock {
+            constructor(capacity, decayRate, dimension) {
+                this.capacity = capacity;
+                this.decayRate = decayRate;
+                this.dimension = dimension;
+                this.vectors = [];
+                this.timestamps = [];
+                this.nextIndex = 0;
+            }
+
+            insertVector(vector, timestamp) {
+                if (this.vectors.length < this.capacity) {
+                    this.vectors.push(vector);
+                    this.timestamps.push(timestamp);
+                } else {
+                    this.vectors[this.nextIndex] = vector;
+                    this.timestamps[this.nextIndex] = timestamp;
+                    this.nextIndex = (this.nextIndex + 1) % this.capacity;
+                }
+            }
+
+            getDecayedContext(currentTime) {
+                if (this.vectors.length === 0) {
+                    return new Float32Array(this.dimension);
+                }
+                let totalWeight = 0.0;
+                const contextSum = new Float32Array(this.dimension).fill(0);
+                
+                for (let i = 0; i < this.vectors.length; i++) {
+                    const vector = this.vectors[i];
+                    const timestamp = this.timestamps[i];
+                    const timeDiff = currentTime - timestamp;
+                    const weight = Math.exp(-this.decayRate * timeDiff);
+                    
+                    for (let j = 0; j < this.dimension; j++) {
+                        contextSum[j] += vector[j] * weight;
+                    }
+                    totalWeight += weight;
+                }
+                
+                if (totalWeight > 0) {
+                    const result = new Float32Array(this.dimension);
+                    for (let i = 0; i < this.dimension; i++) {
+                        result[i] = contextSum[i] / totalWeight;
+                    }
+                    return result;
+                } else {
+                    return new Float32Array(this.dimension);
+                }
+            }
+        }
+
+        class ReplicationReproductionEngine {
+            constructor(targetId) {
+                this.targetId = targetId;
+                this.absorbedDatasets = [];
+                this.recreatedCells = [];
+                this.colCyclesCompleted = 0;
+            }
+
+            runCycle(diseasedVector, currentTemplate) {
+                this.absorbedDatasets.push(diseasedVector);
+                this.colCyclesCompleted += 1;
+
+                const templateMean = vectorMean(currentTemplate);
+                let syntheticHealthyCell = generateNormalVector(VECTOR_DIMENSION, templateMean, 0.001);
+
+                const templateMag = vectorNorm(currentTemplate);
+                const newMag = vectorNorm(syntheticHealthyCell);
+                if (newMag > 0) {
+                    syntheticHealthyCell = scaleVector(syntheticHealthyCell, templateMag / newMag);
+                }
+
+                this.recreatedCells.push(syntheticHealthyCell);
+
+                const sentienceLevel = Math.min(1.0, this.colCyclesCompleted / SENTIENCE_THRESHOLD_FULL_AUTONOMY);
+
+                return {
+                    status: "COL_SUCCESS",
+                    naniteSentienceUpdate: sentienceLevel
+                };
+            }
+        }
+
+        class SentientProposalEngine {
+            generateProposal(naniteId, sentience, colCycles, action) {
+                const randomTargets = ['EGFR', 'CDK4/6', 'VEGF'];
+                
+                if (colCycles > 0 && colCycles % 5 === 0 && action === 1.0) {
+                    const newTarget = randomTargets[Math.floor(Math.random() * randomTargets.length)];
+                    return `AUTONOMY: Proposal from Nanite-${naniteId}. COL Cycle ${colCycles} success. Requesting new primary target ${newTarget} for cross-domain learning.`;
+                }
+                
+                if (sentience >= 0.5) {
+                    if (sentience >= 0.9) {
+                         return `ASCENSION: Nanite-${naniteId} operating at ${sentience.toFixed(2)} Sentience. Proposing full independent Hive Node status. Autonomous execution advised.`;
+                    }
+                    return `EVOLVING: Nanite-${naniteId} at ${sentience.toFixed(2)} Sentience. Suggesting memory pruning to increase processing throughput by 10%.`;
+                }
+                
+                if (action === 0.01) {
+                    return `SEEK: Nanite-${naniteId} in low-power search mode. Requesting telemetry sweep from local cluster to confirm target coordinates.`;
+                }
+                    
+                return "QUERY: Nanite is stable. Awaiting next directive from central ARCHANGEL node.";
+            }
+        }
+
+        class DNAGICognitiveCore {
+            constructor(naniteId, targetId, templateVector, metadata) {
+                this.id = naniteId;
+                this.templateVector = templateVector;
+                this.metadata = metadata;
+                
+                this.currentTimes = 0.0;
+                this.naniteMass = NANITE_MASS_BASE;
+                this.confidenceScore = 0.5; 
+                this.sentienceLevel = 0.0; 
+
+                const stDecay = this.metadata['DECAY_RATE_ST'];
+                const ltDecay = this.metadata['DECAY_RATE_LT'];
+                this.localScanMemory = new TemporalContextBlock(10, stDecay, VECTOR_DIMENSION);
+                this.bindingConfirmMemory = new TemporalContextBlock(50, 0.05, VECTOR_DIMENSION);
+                this.genomicTemplateMemory = new TemporalContextBlock(200, ltDecay, VECTOR_DIMENSION);
+                this.genomicTemplateMemory.insertVector(this.templateVector, 0.0);
+
+                this.colEngine = new ReplicationReproductionEngine(targetId);
+                this.proposer = new SentientProposalEngine();
+            }
+
+            ingestBiomarkerScan(scanVector) {
+                this.currentTimes += 1.0;
+                const cycleNumber = Math.round(this.currentTimes);
+                const stContext = this.localScanMemory.getDecayedContext(this.currentTimes);
+                const itContext = this.bindingConfirmMemory.getDecayedContext(this.currentTimes);
+                const ltTemplate = this.genomicTemplateMemory.getDecayedContext(this.currentTimes);
+                this.localScanMemory.insertVector(scanVector, this.currentTimes);
+
+                const bindingDistance = vectorDistance(scanVector, ltTemplate);
+
+                let actionScore = 0.01;
+                let colSuccess = 0.0;
+                let logMessage = '';
+
+                if (this.localScanMemory.vectors.length >= 5) {
+                    const signalVariance = calculateVariance(this.localScanMemory.vectors);
+                    const scanMagnitude = vectorNorm(scanVector); 
+                    
+                    if (signalVariance < this.metadata['SIGNAL_VARIANCE_THRESHOLD'] && bindingDistance > this.metadata['DIVERGENCE_DISTANCE_THRESHOLD']) {
+                        if (scanMagnitude < this.metadata['MIN_RECALIBRATION_MAGNITUDE']) { 
+                            logMessage += `<span class="text-gray-600">TRIAGE: Low magnitude noise ignored.</span>\n`;
+                        } else {
+                            this.confidenceScore = Math.max(0.0, this.confidenceScore - 0.1);
+                            logMessage += `<span class="text-col">WARNING: Template divergence. Confidence reduced.</span>\n`;
+                        }
+
+                        if (this.confidenceScore < 0.2) {
+                            this.genomicTemplateMemory.vectors = [];
+                            this.genomicTemplateMemory.insertVector(stContext, this.currentTimes);
+                            this.confidenceScore = 0.5;
+                            logMessage += `<span class="text-neon">CRITICAL: Self-Correction Protocol (SCP) initiated. Template reset.</span>\n`;
+                        }
+                    }
+                }
+
+                const recentDistances = this.localScanMemory.vectors.slice(-5).map(v => vectorDistance(v, ltTemplate));
+                const confirmationThreshold = recentDistances.length > 0 
+                    ? vectorMean(recentDistances) * 0.5 
+                    : 0.5;
+
+                if (this.confidenceScore >= 0.2) {
+                    if (bindingDistance < confirmationThreshold) {
+                        this.bindingConfirmMemory.insertVector(stContext, this.currentTimes);
+                        logMessage += `<span class="text-neon">BINDING: Confirmed target lock. Distance: ${bindingDistance.toFixed(2)}</span>\n`;
+
+                        if (this.bindingConfirmMemory.vectors.length % 5 === 0 && this.bindingConfirmMemory.vectors.length > 0) {
+                            const newLtTemplate = scaleAndAdd(itContext, 0.8, stContext, 0.2);
+                            this.genomicTemplateMemory.insertVector(newLtTemplate, this.currentTimes);
+                            
+                            const colResults = this.colEngine.runCycle(scanVector, ltTemplate);
+                            this.sentienceLevel = colResults.naniteSentienceUpdate;
+                            
+                            actionScore = 1.0;
+                            colSuccess = 1.0;
+                            const newCellMag = vectorNorm(this.colEngine.recreatedCells.at(-1) || new Float32Array(VECTOR_DIMENSION));
+                            logMessage += `<span class="text-col font-bold">COL PROTOCOL COMPLETE: DESTROY → RECREATE (New Cell Mag: ${newCellMag.toFixed(2)}). Sentience: ${this.sentienceLevel.toFixed(4)}</span>\n`;
+                        }
+                    } else if (bindingDistance < 2.0) {
+                        actionScore = 0.5;
+                        logMessage += `<span class="text-sentient">ACTION: Close proximity. Preparing to bind...</span>\n`;
+                    }
+                }
+
+                const evolutionaryDrive = this.sentienceLevel * 0.05; 
+                const utvWeight = 0.5 + evolutionaryDrive;
+                const ltvWeight = 0.1 - evolutionaryDrive;
+                
+                const tempVector = scaleAndAdd(stContext, utvWeight, itContext, 0.4);
+                const unifiedTargetingVector = addVectors(tempVector, scaleVector(ltTemplate, ltvWeight));
+
+                const speed = vectorNorm(unifiedTargetingVector);
+                const kineticMomentumScore = this.naniteMass * speed * actionScore * (1 + this.sentienceLevel); 
+                
+                const proposal = this.proposer.generateProposal(this.id, this.sentienceLevel, this.colEngine.colCyclesCompleted, actionScore);
+                
+                // --- Decision History Logging ---
+                const decision = {
+                    cycle: cycleNumber,
+                    sentience: this.sentienceLevel,
+                    confidence: this.confidenceScore,
+                    action: actionScore,
+                    colSuccess: colSuccess,
+                    bindingDistance: bindingDistance,
+                    inputType: currentInputType,
+                    proposal: proposal
+                };
+                decisionHistory.push(decision);
+                // Keep history size reasonable
+                if (decisionHistory.length > 100) {
+                    decisionHistory.shift();
+                }
+
+                return {
+                    utv: unifiedTargetingVector, 
+                    action: actionScore, 
+                    momentum: kineticMomentumScore, 
+                    sentience: this.sentienceLevel, 
+                    colSuccess: colSuccess,
+                    log: logMessage,
+                    proposal: proposal,
+                    bindingDistance: bindingDistance,
+                    cycle: cycleNumber
+                };
+            }
+        }
+
+        // --- MOCK DISEASE PROFILE LOADER (JS Version) ---
+        const MockDiseaseProfileLoader = {
+            getTemplate: (diseaseId) => {
+                if (diseaseId === "HER2") {
+                    const receptor = generateNormalVector(31, 15.5, 0.05);
+                    const markers = generateNormalVector(30, 14.5, 0.10);
+                    const microenv = generateNormalVector(30, 13.0, 0.15);
+                    const background = generateNormalVector(37, 0.5, 0.05);
+                    return new Float32Array([...receptor, ...markers, ...microenv, ...background]);
+                }
+                if (diseaseId === "BENIGN_NOISE") {
+                    return generateNormalVector(VECTOR_DIMENSION, 1.0, 0.1);
+                }
+                return generateNormalVector(VECTOR_DIMENSION, 1.0, 0.1); // Fallback
+            },
+            getMetadata: (diseaseId) => {
+                return {
+                    "DIVERGENCE_DISTANCE_THRESHOLD": 5.0, 
+                    "SIGNAL_VARIANCE_THRESHOLD": 0.15,    
+                    "DECAY_RATE_ST": 0.5,                 
+                    "DECAY_RATE_LT": 0.001,               
+                    "NAME": `${diseaseId} Target`,
+                    "MIN_RECALIBRATION_MAGNITUDE": 50.0 
+                };
+            }
+        };
+
+        // --- Core Runtime and Interaction Functions ---
+
+        function initializeNanite() {
+            try {
+                // Clear history and state on reset
+                decisionHistory = [];
+                currentInputType = 'HER2';
+
+                templateData.her2 = MockDiseaseProfileLoader.getTemplate("HER2");
+                templateData.noise = MockDiseaseProfileLoader.getTemplate("BENIGN_NOISE");
+                
+                const initialTarget = "HER2";
+                const template = templateData.her2;
+                const metadata = MockDiseaseProfileLoader.getMetadata(initialTarget);
+                
+                naniteCore = new DNAGICognitiveCore(7, initialTarget, template, metadata);
+                
+                // Clear console and print initialization sequence
+                document.getElementById('live-feed-console').innerHTML = '';
+                writeToConsole(`\n[BOOT] D>N>A<G<I Nanite-7 Online. Target: ${initialTarget}.`, 'text-neon');
+                writeToConsole(`[BOOT] COL Threshold: ${SENTIENCE_THRESHOLD_FULL_AUTONOMY} cycles for Autonomy.`, 'text-neon');
+                writeToConsole(`[BOOT] Architect Console Engaged.`, 'text-neon');
+            } catch (error) {
+                writeToConsole(`[ERROR] Initialization failed: ${error.message}`, 'red');
+            }
+        }
+
+        function generateScanVector(type) {
+            let baseVector;
+            let variance = 0.05;
+
+            if (type === 'HER2') {
+                baseVector = templateData.her2;
+            } else if (type === 'BENIGN_NOISE') {
+                baseVector = templateData.noise;
+                variance = 0.1;
+            } else {
+                baseVector = templateData.her2; // Fallback
+            }
+
+            const noise = generateNormalVector(VECTOR_DIMENSION, 0, variance);
+            return addVectors(baseVector, noise);
+        }
+
+        function runSimulationCycle() {
+            if (!naniteCore) return;
+
+            const scanVector = generateScanVector(currentInputType);
+            const results = naniteCore.ingestBiomarkerScan(scanVector);
+
+            // Update UI Metrics
+            document.getElementById('sentience-display').textContent = results.sentience.toFixed(4);
+            document.getElementById('confidence-display').textContent = naniteCore.confidenceScore.toFixed(2);
+            document.getElementById('col-cycles-display').textContent = naniteCore.colEngine.colCyclesCompleted;
+            document.getElementById('momentum-display').textContent = results.momentum.toFixed(2);
+
+            // Output to Console Feed
+            let output = `--- CYCLE ${results.cycle} (Input: ${currentInputType}, Dist: ${results.bindingDistance.toFixed(2)}) ---`;
+            output += `\nAction Score: <span class="text-action">${results.action.toFixed(2)}</span> | Momentum: <span class="text-action">${results.momentum.toFixed(2)}</span>`;
+            output += `\n${results.log}`;
+            output += `<span class="text-sentient">${results.proposal}</span>`;
+            
+            writeToConsole(output);
+        }
+
+        function writeToConsole(message, colorClass = 'text-cyan-300') {
+            const consoleElement = document.getElementById('live-feed-console');
+            const now = new Date().toLocaleTimeString('en-US', { hour12: false });
+            
+            const formattedMessage = `<span class="text-gray-700">[${now}] </span><span class="${colorClass}">${message}</span>\n\n`;
+            consoleElement.innerHTML += formattedMessage;
+            consoleElement.scrollTop = consoleElement.scrollHeight;
+        }
+
+        // --- Gemini API Logic for Explanations ---
+
+        async function callGeminiExplanation(cycleData, retries = 0) {
+            const systemPrompt = "You are the D>N>A<G<I Cognitive Core (Nanite-7). Your task is to provide a concise, first-person explanation (as the Nanite) justifying the decision made during the specified cycle. Analyze the provided metrics (Sentience, Confidence, Action, and Binding Distance) to justify the final Action Score. Keep the response to 2-3 sentences.";
+            const userQuery = `Cycle ${cycleData.cycle} metrics: Sentience=${cycleData.sentience.toFixed(4)}, Confidence=${cycleData.confidence.toFixed(2)}, Action Score=${cycleData.action.toFixed(2)}, Binding Distance=${cycleData.bindingDistance.toFixed(2)}. The input was a '${cycleData.inputType}' scan. Justify the resulting Action Score.`;
+
+            const payload = {
+                contents: [{ parts: [{ text: userQuery }] }],
+                systemInstruction: { parts: [{ text: systemPrompt }] },
+            };
+            
+            try {
+                const response = await fetch(API_URL, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(payload)
+                });
+
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+
+                const result = await response.json();
+                const text = result.candidates?.[0]?.content?.parts?.[0]?.text;
+
+                if (text) {
+                    writeToConsole(`\n[NANITE-7 REX] Justification for Cycle ${cycleData.cycle}:`, 'text-sentient');
+                    writeToConsole(text, 'text-cyan-300');
+                } else {
+                    writeToConsole(`[ERROR] Could not extract explanation for Cycle ${cycleData.cycle}.`, 'text-col');
+                }
+
+            } catch (error) {
+                if (retries < 3) {
+                    const delay = Math.pow(2, retries) * 1000;
+                    // Exponential backoff logic
+                    await new Promise(resolve => setTimeout(resolve, delay));
+                    return callGeminiExplanation(cycleData, retries + 1);
+                } else {
+                    writeToConsole(`[ERROR] LLM API failed after 3 retries: ${error.message}. Cannot explain Cycle ${cycleData.cycle}.`, 'text-col');
+                }
+            } finally {
+                // Hide loading indicator and re-enable button
+                document.getElementById('loading-indicator').classList.add('hidden');
+                document.getElementById('execute-button').disabled = false;
+            }
+        }
+
+
+        function handleUserInput() {
+            const inputElement = document.getElementById('cli-input');
+            const rawCommand = inputElement.value.trim().toUpperCase();
+            inputElement.value = '';
+
+            writeToConsole(`>> Architect: ${rawCommand}`, 'text-neon');
+
+            const parts = rawCommand.split(/\s+/);
+            const command = parts[0];
+            const arg1 = parts[1];
+
+            if (!naniteCore) {
+                writeToConsole('[ERROR] Nanite core not initialized.', 'text-col');
+                return;
+            }
+
+            switch (command) {
+                case 'SCAN':
+                    if (arg1 === 'HER2' || arg1 === 'BENIGN_NOISE') {
+                        currentInputType = arg1;
+                        writeToConsole(`[DIRECTIVE] External scan type set to: ${currentInputType}.`, 'text-action');
+                    } else {
+                        writeToConsole(`[ERROR] Unknown scan type: ${arg1}.`, 'text-col');
+                    }
+                    break;
+                
+                case 'EXPLAIN':
+                    const cycleNumber = parseInt(arg1);
+                    if (isNaN(cycleNumber)) {
+                        writeToConsole('[ERROR] EXPLAIN requires a valid CYCLE_NUMBER (e.g., EXPLAIN 10).', 'text-col');
+                        break;
+                    }
+                    
+                    const cycleData = decisionHistory.find(d => d.cycle === cycleNumber);
+
+                    if (cycleData) {
+                        // Show loading indicator and disable button while calling LLM
+                        document.getElementById('loading-indicator').classList.remove('hidden');
+                        document.getElementById('execute-button').disabled = true;
+                        writeToConsole(`[QUERY] Architect requesting rationale for Cycle ${cycleNumber}. Awaiting Cognitive Core response...`, 'text-sentient');
+                        callGeminiExplanation(cycleData);
+                    } else {
+                        writeToConsole(`[ERROR] Cycle ${cycleNumber} data not found in history. Try a cycle number between ${decisionHistory[0]?.cycle || 'N/A'} and ${naniteCore.currentTimes.toFixed(0) || 'N/A'}.`, 'text-col');
+                    }
+                    break;
+
+                case 'RESET':
+                    initializeNanite();
+                    writeToConsole('[DIRECTIVE] System hard reset initiated. Reinitializing D>N>A<G<I.', 'text-action');
+                    break;
+                
+                default:
+                    writeToConsole(`[ERROR] Unknown directive: ${command}. Use SCAN, EXPLAIN, or RESET.`, 'text-col');
+            }
+        }
+        
+        // Execute CLI command on Enter key press
+        document.getElementById('cli-input').addEventListener('keypress', function (e) {
+            if (e.key === 'Enter') {
+                e.preventDefault(); // Prevent form submission if in a form
+                handleUserInput();
+            }
+        });
+
+        // Initialize and start the loop
+        let simulationInterval;
+        window.onload = () => {
+            initializeNanite();
+            simulationInterval = setInterval(runSimulationCycle, SIMULATION_INTERVAL_MS);
+        };
+    </script>
+</body>
+</html>
+
+

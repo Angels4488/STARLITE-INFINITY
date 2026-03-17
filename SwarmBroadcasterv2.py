@@ -23,24 +23,24 @@ class NaniteSwarmAgent(NaniteSentinel):
 
     def update_behavior(self, current_positions, velocities, forces, environment_atoms):
         com = self.get_com(current_positions)
-        
+
         # 1. SCAN & CLAIM (The Hive Logic)
         if self.mode == "SEEK":
             # Filter environment for atoms not already claimed by the Hive
             available = [a for a in environment_atoms if a not in self.hive.claimed_targets and a not in self.atom_indices]
-            
+
             if available:
                 # Find closest available
                 dists = [np.linalg.norm(current_positions[a] - com) for a in available]
                 target_idx = available[np.argmin(dists)]
-                
+
                 if self.hive.broadcast_claim(self.nanite_id, target_idx):
                     self.target_atom = target_idx
                     self.mode = "BIND"
 
         # 2. COLLISION AVOIDANCE (Don't smack into brothers)
         # [Experimental: Subtle force push from other Nanite COMs]
-        
+
         # 3. EXECUTE BINDING (Inherited physics)
         return super().update_behavior(current_positions, velocities, forces, environment_atoms)
 
@@ -50,7 +50,7 @@ def run_swarm_sim():
     pos = np.random.rand(10, 3) * 10
     m = np.ones(10)
     f = np.zeros_like(pos)
-    
+
     # Create two nanites competing for 4 unbound atoms
     n1 = NaniteSwarmAgent(1, [0,1,2], m, hive)
     n2 = NaniteSwarmAgent(2, [3,4,5], m, hive)
