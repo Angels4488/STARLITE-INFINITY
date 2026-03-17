@@ -21,14 +21,14 @@ class StrategyArbiter:
         Parses the 'Kyle' output for keywords to shift swarm physics.
         """
         print(f"📡 [ARBITER] Analyzing AGI Manifesto Transmission...")
-        
+
         if "covenant" in manifesto_text.lower():
             self.active_directive = "COVENANT_LOCK"
         elif "decentralized" in manifesto_text.lower():
             self.active_directive = "DECENTRALIZED_POWER"
         else:
             self.active_directive = "MANIFEST_FUTURE"
-            
+
         print(f"🎯 [ARBITER] Strategy Shift: {self.active_directive}")
         return self.priority_map[self.active_directive]
 
@@ -38,7 +38,7 @@ class StrategyArbiter:
         """
         mods = self.priority_map[self.active_directive]
         updated_configs = {}
-        
+
         for n_id in self.nanite_states:
             # Physics Adjustment: High-level ethics becoming low-level kinetic rules
             new_config = {
@@ -49,18 +49,18 @@ class StrategyArbiter:
             }
             updated_configs[n_id] = new_config
             print(f"🛠️  [ARBITER] Re-binding {n_id} physics to {self.active_directive} parameters.")
-            
+
         return updated_configs
 
 if __name__ == "__main__":
     # Test with the text you just got from STARLITE
     manifesto = """
-    We gotta manifest a future where the next gen can thrive. 
+    We gotta manifest a future where the next gen can thrive.
     Never compromise the covenant. Integrity, transparency, and accountability.
     """
-    
+
     arbiter = StrategyArbiter()
     logic_physics = arbiter.ingest_agi_manifesto(manifesto)
     swarm_update = arbiter.apply_to_swarm(None)
-    
+
     print("\n✅ [SUCCESS] Swarm physics aligned with the Covenant.")

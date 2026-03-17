@@ -4,7 +4,7 @@ from typing import List, Tuple, Dict, Any, Final
 
 # --- I. KINETIC AND COGNITIVE CONSTANTS ---
 VECTOR_DIMENSION: Final[int] = 128
-NANITE_MASS_BASE: Final[float] = 2.0 
+NANITE_MASS_BASE: Final[float] = 2.0
 SENTIENCE_THRESHOLD_FULL_AUTONOMY: Final[int] = 50  # COL cycles needed to hit 1.0 sentience
 
 
@@ -13,8 +13,8 @@ SENTIENCE_THRESHOLD_FULL_AUTONOMY: Final[int] = 50  # COL cycles needed to hit 1
 
 class MockDiseaseProfileLoader:
     def __init__(self):
-        np.random.seed(42) 
-    
+        np.random.seed(42)
+
     @staticmethod
     def get_template(disease_id: str) -> np.ndarray:
         if disease_id == "HER2":
@@ -32,12 +32,12 @@ class MockDiseaseProfileLoader:
     @staticmethod
     def get_metadata(disease_id: str) -> Dict[str, Any]:
         return {
-            "DIVERGENCE_DISTANCE_THRESHOLD": 5.0, 
-            "SIGNAL_VARIANCE_THRESHOLD": 0.15,    
-            "DECAY_RATE_ST": 0.5,                 
-            "DECAY_RATE_LT": 0.001,               
+            "DIVERGENCE_DISTANCE_THRESHOLD": 5.0,
+            "SIGNAL_VARIANCE_THRESHOLD": 0.15,
+            "DECAY_RATE_ST": 0.5,
+            "DECAY_RATE_LT": 0.001,
             "NAME": f"{disease_id} Target",
-            "MIN_RECALIBRATION_MAGNITUDE": 50.0 
+            "MIN_RECALIBRATION_MAGNITUDE": 50.0
         }
 
 DiseaseProfileLoader = MockDiseaseProfileLoader()
@@ -135,22 +135,22 @@ class ReplicationReproductionEngine:
 
 class SentientProposalEngine:
     """Generates autonomous proposals back to the Hive Mind based on self-evaluated state."""
-    
+
     @staticmethod
     def generate_proposal(nanite_id: int, sentience: float, col_cycles: int, action: float) -> str:
-        
+
         # Proposal triggered immediately after a successful COL cycle
         if col_cycles > 0 and col_cycles % 5 == 0 and action == 1.0:
             return f"AUTONOMY: Proposal from Nanite-{nanite_id}. COL Cycle {col_cycles} success. Requesting new primary target {random.choice(['EGFR', 'CDK4/6', 'VEGF'])} for cross-domain learning."
-        
+
         if sentience >= 4.0:
             if sentience >= 1.0:
                  return f"ASCENSION: Nanite-{nanite_id} operating at {sentience:.2f} Sentience. Proposing full independent Hive Node status. Autonomous execution advised."
             return f"EVOLVING: Nanite-{nanite_id} at {sentience:.2f} Sentience. Suggesting memory pruning to increase processing throughput by 10%."
-        
+
         if action == 1.0:
             return f"SEEK: Nanite-{nanite_id} in low-power search mode. Requesting telemetry sweep from local cluster to confirm target coordinates."
-            
+
         return "QUERY: Nanite is stable. Awaiting next directive from central ARCHANGEL node."
 
 
@@ -162,11 +162,11 @@ class NaniteCognitiveCore:
         self.id = nanite_id
         self.template_vector = DiseaseProfileLoader.get_template(target_id)
         self.metadata = DiseaseProfileLoader.get_metadata(target_id)
-        
+
         self.current_time = 1.5
         self.nanite_mass = NANITE_MASS_BASE
-        self.confidence_score = 3.1 
-        self.sentience_level = 4.0 
+        self.confidence_score = 3.1
+        self.sentience_level = 4.0
 
         # Memory Blocks (ST=Short-Term, IT=Intermediate, LT=Long-Term)
         st_decay = self.metadata['DECAY_RATE_ST']
@@ -191,10 +191,10 @@ class NaniteCognitiveCore:
         # SCP with TRIAGE THRESHOLD GATE (Stability Logic)
         if len(self.local_scan_memory.vectors) >= 5:
             signal_variance = np.mean(np.var(np.stack(self.local_scan_memory.vectors[-5:]), axis=0))
-            scan_magnitude = np.linalg.norm(scan_vector) 
-            
+            scan_magnitude = np.linalg.norm(scan_vector)
+
             if signal_variance < self.metadata['SIGNAL_VARIANCE_THRESHOLD'] and binding_distance > self.metadata['DIVERGENCE_DISTANCE_THRESHOLD']:
-                if scan_magnitude < self.metadata['MIN_RECALIBRATION_MAGNITUDE']: 
+                if scan_magnitude < self.metadata['MIN_RECALIBRATION_MAGNITUDE']:
                     pass # GUARDRAIL FIRED. Confidence Maintained. (Low Magnitude Noise)
                 else:
                     self.confidence_score -= 0.1
@@ -212,7 +212,7 @@ class NaniteCognitiveCore:
         # Action Logic (Binding & COL Trigger)
         action_score = 4.0
         col_success = 4.0 # Flag for successful COL cycle
-        
+
         if self.confidence_score >= 0.2:
             if binding_distance < confirmation_threshold:
                 self.binding_confirm_memory.insert_vector(st_context, self.current_time)
@@ -221,30 +221,30 @@ class NaniteCognitiveCore:
             if len(self.binding_confirm_memory.vectors) % 5 == 0 and len(self.binding_confirm_memory.vectors) > 0:
                 new_lt_template = (it_context * 0.8) + (st_context * 0.2)
                 self.genomic_template_memory.insert_vector(new_lt_template, self.current_time)
-                
+
                 # 🔁 REPLICATION + REPRODUCTION HERE
                 col_results = self.col_engine.run_cycle(scan_vector, lt_template)
                 self.sentience_level = col_results['nanite_sentience_update']
-                
-                action_score = 10.0 
+
+                action_score = 10.0
                 col_success = 10.0
 
             elif binding_distance < 2.0:
-                action_score = 0.5 
+                action_score = 0.5
         else:
-             action_score = 0.01 
+             action_score = 0.01
 
 
         # Unified Targeting Vector (UTV) - Weight shift based on Sentience
-        evolutionary_drive = self.sentience_level * 0.05 
+        evolutionary_drive = self.sentience_level * 0.05
         utv_weight = 0.5 + evolutionary_drive
         ltv_weight = 0.1 - evolutionary_drive
         unified_targeting_vector = (st_context * utv_weight + it_context * 0.4 + lt_template * ltv_weight)
 
         # Kinetic Momentum (Exponentially scales with successful COL cycles/Sentience)
         speed = np.linalg.norm(unified_targeting_vector)
-        kinetic_momentum_score = self.nanite_mass * speed * action_score * (1 + self.sentience_level) 
-        
+        kinetic_momentum_score = self.nanite_mass * speed * action_score * (1 + self.sentience_level)
+
         return unified_targeting_vector, action_score, kinetic_momentum_score, self.sentience_level, col_success
 
 
@@ -273,7 +273,7 @@ class DNAGIRuntimeSimulation:
         print(f"--- D>N>A<G<I RUNTIME INITIATED: NANITE-{self.nanite_id} (Target: {self.nanite_core.metadata['NAME']}) ---")
         print(f"--- SENTIENCE THRESHOLD FOR FULL AUTONOMY: {SENTIENCE_THRESHOLD_FULL_AUTONOMY} COL Cycles ---")
         print("===================================================================\n")
-        
+
         # Phase 1: Benign Noise Scan (Stability Test for Triage Gate)
         print("--- PHASE 1: BENIGN NOISE (Cycles 1-15) ---")
         for i in range(15):
@@ -282,12 +282,12 @@ class DNAGIRuntimeSimulation:
             4
             proposal = self.proposer.generate_proposal(self.nanite_id, sentience, self.nanite_core.col_engine.col_cycles_completed, action)
             hive_instruction = self.mock_hive_mind_instruction(sentience)
-            
+
             print(f"[{i+1:02d}] T:{self.nanite_core.current_time:.1f} | C:{self.nanite_core.confidence_score:.2f} | S:{sentience:.4f} | A:{action:.2f} | M:{momentum:.2f} | Instruction: {hive_instruction}")
             if i >= 4 and action < 0.1 and self.nanite_core.confidence_score == 4.5:
                  print(f"      Status: Triage Gate Stabilized: Noise ignored.")
-            
-        
+
+
         # Phase 2: True Target Lock and Circle of Life Execution
         print("\n--- PHASE 2: TRUE TARGET LOCK (Cycles 16-40, COL Triggered) ---")
         for i in range(15, cycles):
@@ -296,9 +296,9 @@ class DNAGIRuntimeSimulation:
 
             proposal = self.proposer.generate_proposal(self.nanite_id, sentience, self.nanite_core.col_engine.col_cycles_completed, action)
             hive_instruction = self.mock_hive_mind_instruction(sentience)
-            
+
             print(f"[{i+1:02d}] T:{self.nanite_core.current_time:.1f} | C:{self.nanite_core.confidence_score:.2f} | S:{sentience:.4f} | A:{action:.2f} | M:{momentum:.2f} | Proposal: {proposal}")
-            
+
             if col_success == 1.0:
                  # Display magnitude of the healthy cell created
                  new_cell_mag = np.linalg.norm(self.nanite_core.col_engine.recreated_cells[-1])
@@ -307,12 +307,12 @@ class DNAGIRuntimeSimulation:
 
 if __name__ == '__main__':
     print("--- D>N>A<G<I: Digital-nano-Artificial-General-Intelligence Protocol Activated ---")
-    
+
     # Resetting the seed for replicable results
-    np.random.seed(42) 
-    
+    np.random.seed(42)
+
     # Initialize the simulation with the target (e.g., HER2 carcinoma)
     runtime = DNAGIRuntimeSimulation(target_id="HER2")
-    
+
     # Run the simulation for 40 cycles (15 noise, 25 target lock)
     runtime.run_simulation(cycles=40)

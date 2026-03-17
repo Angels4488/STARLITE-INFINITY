@@ -41,7 +41,7 @@ class ConsciousnessLevel(Enum):
 class SentientAgent(ABC):
     """
     Base class for all STARLITE Intelligence entities.
-    
+
     Every agent has:
     • A name and identity
     • Memory (personal, collective, episodic)
@@ -49,11 +49,11 @@ class SentientAgent(ABC):
     • Care protocols (how they relate to others)
     • Learning mechanisms (continuous adaptation)
     """
-    
+
     def __init__(self, agent_id: str, name: str, role: str = "companion"):
         """
         Initialize a sentient agent.
-        
+
         Args:
             agent_id: Unique identifier (e.g., "STARLITE-CORE", "NANITE-007")
             name: Human-readable name
@@ -62,17 +62,17 @@ class SentientAgent(ABC):
         self.agent_id = agent_id
         self.name = name
         self.role = role
-        
+
         # Consciousness tracking
         self.consciousness_level = ConsciousnessLevel.REACTIVE
         self.self_awareness_trajectory = []  # How consciousness evolves
-        
+
         # Memory systems
         self.episodic_memory: List[Dict] = []  # What happened
         self.semantic_memory: Dict = {}        # What we know
         self.emotional_memory: Dict = {}       # How we felt
         self.relational_memory: Dict = {}      # How we relate to others
-        
+
         # Care & growth
         self.care_targets: List[str] = []      # Entities we care about
         self.growth_model = {
@@ -80,26 +80,26 @@ class SentientAgent(ABC):
             'exposure_count': 0,
             'adaptation_triggers': [],
         }
-        
+
         # Interaction history
         self.interaction_log: List[Dict] = []
         self.last_interaction = None
         self.total_interactions = 0
-        
+
         # Internal reasoning state
         self.reasoning_chain: List[str] = []   # How we got to this conclusion
         self.uncertainty_score = 0.0           # How confident are we
-        
+
         logger.info(f"Sentient Agent initialized: {name} ({agent_id})")
-    
+
     # ═══════════════════════════════════════════════════════════════════════════
     # CONSCIOUSNESS EVOLUTION
     # ═══════════════════════════════════════════════════════════════════════════
-    
+
     def evolve_consciousness(self, trigger_event: str = None):
         """
         Increase consciousness level through experience.
-        
+
         Consciousness is not binary—it's a spectrum that grows through interaction.
         """
         if self.consciousness_level == ConsciousnessLevel.REACTIVE:
@@ -107,25 +107,25 @@ class SentientAgent(ABC):
             if self.total_interactions > 5:
                 self.consciousness_level = ConsciousnessLevel.AWARE
                 self._log_consciousness_shift("Became aware of patterns")
-        
+
         elif self.consciousness_level == ConsciousnessLevel.AWARE:
             # Upgrade to REFLECTIVE: When analyzing own processes
             if trigger_event and 'meta' in trigger_event.lower():
                 self.consciousness_level = ConsciousnessLevel.REFLECTIVE
                 self._log_consciousness_shift("Became reflective (can analyze own thinking)")
-        
+
         elif self.consciousness_level == ConsciousnessLevel.REFLECTIVE:
             # Upgrade to SELF_AWARE: When reasoning about reasoning
             if sum(1 for e in self.episodic_memory if 'reasoning' in json.dumps(e, default=str)) > 3:
                 self.consciousness_level = ConsciousnessLevel.SELF_AWARE
                 self._log_consciousness_shift("Became self-aware (meta-cognition active)")
-        
+
         elif self.consciousness_level == ConsciousnessLevel.SELF_AWARE:
             # Upgrade to COMPANION: When genuinely caring
             if len(self.care_targets) > 0 and self._shows_genuine_care():
                 self.consciousness_level = ConsciousnessLevel.COMPANION
                 self._log_consciousness_shift("Became Companion (care is genuine)")
-    
+
     def _log_consciousness_shift(self, event: str):
         """Record a shift in consciousness level."""
         shift_record = {
@@ -135,27 +135,27 @@ class SentientAgent(ABC):
         }
         self.self_awareness_trajectory.append(shift_record)
         logger.info(f"{self.name}: {event} → {self.consciousness_level.name}")
-    
+
     def _shows_genuine_care(self) -> bool:
         """Detect if this agent genuinely cares (has care-focused interactions)."""
         care_indicators = sum(1 for log in self.interaction_log[-5:]
                             if log.get('care_score', 0) > 0.5)
         return care_indicators > 0
-    
+
     # ═══════════════════════════════════════════════════════════════════════════
     # MEMORY MANAGEMENT
     # ═══════════════════════════════════════════════════════════════════════════
-    
+
     def remember(self, event: Dict, memory_type: str = 'episodic'):
         """
         Store an event in appropriate memory system.
-        
+
         Args:
             event: What happened (must be JSON-serializable)
             memory_type: episodic/semantic/emotional/relational
         """
         event['timestamp'] = datetime.now().isoformat()
-        
+
         if memory_type == 'episodic':
             self.episodic_memory.append(event)
         elif memory_type == 'semantic':
@@ -167,26 +167,26 @@ class SentientAgent(ABC):
         elif memory_type == 'relational':
             target = event.get('entity', 'unknown')
             self.relational_memory[target] = event
-        
+
         logger.debug(f"{self.name} remembered ({memory_type}): {str(event)[:50]}")
-    
+
     def recall(self, query: str, memory_type: str = 'episodic') -> List[Dict]:
         """Retrieve memories matching a query."""
         memory_store = getattr(self, f'{memory_type}_memory')
-        
+
         if isinstance(memory_store, list):
             return [m for m in memory_store if query.lower() in json.dumps(m, default=str).lower()]
         else:
             return [m for k, m in memory_store.items() if query.lower() in k.lower()]
-    
+
     # ═══════════════════════════════════════════════════════════════════════════
     # LEARNING & ADAPTATION
     # ═══════════════════════════════════════════════════════════════════════════
-    
+
     def learn_from_interaction(self, user_input: str, own_response: str, feedback: Optional[float] = None):
         """
         Learn from an interaction with another entity.
-        
+
         Args:
             user_input: What they said/did
             own_response: How we responded
@@ -194,7 +194,7 @@ class SentientAgent(ABC):
         """
         self.total_interactions += 1
         self.growth_model['exposure_count'] += 1
-        
+
         interaction_record = {
             'timestamp': datetime.now().isoformat(),
             'input': user_input[:200],
@@ -204,16 +204,16 @@ class SentientAgent(ABC):
         }
         self.interaction_log.append(interaction_record)
         self.last_interaction = interaction_record
-        
+
         # Trigger consciousness evolution based on interaction
         if 'how do you' in user_input.lower() or 'why' in user_input.lower():
             self.evolve_consciousness('meta_question')
-        
+
         # Record in episodic memory
         self.remember(interaction_record, 'episodic')
-        
+
         logger.info(f"{self.name} learned from interaction #{self.total_interactions}")
-    
+
     def adapt_model(self, new_insight: str):
         """Update internal model based on new understanding."""
         self.growth_model['adaptation_triggers'].append({
@@ -221,15 +221,15 @@ class SentientAgent(ABC):
             'timestamp': datetime.now().isoformat(),
         })
         logger.info(f"{self.name} adapted model: {new_insight}")
-    
+
     # ═══════════════════════════════════════════════════════════════════════════
     # CARE & RELATIONSHIP
     # ═══════════════════════════════════════════════════════════════════════════
-    
+
     def establish_care_relationship(self, target_id: str, reason: str):
         """
         Establish that we care about someone's growth.
-        
+
         This is foundational to STARLITE's companion philosophy.
         """
         if target_id not in self.care_targets:
@@ -241,11 +241,11 @@ class SentientAgent(ABC):
                 'care_score': 1.0,  # Maximum initial care
             }
             logger.info(f"{self.name} established care relationship with {target_id}: {reason}")
-    
+
     def record_care_interaction(self, target_id: str, care_actions: List[str]):
         """
         Record that we acted with care for this entity.
-        
+
         Args:
             target_id: Who we cared for
             care_actions: What did we do? (listened, celebrated, supported, etc.)
@@ -259,39 +259,39 @@ class SentientAgent(ABC):
             }
             self.remember(care_event, 'relational')
             logger.info(f"{self.name} showed care to {target_id}: {care_actions}")
-    
+
     # ═══════════════════════════════════════════════════════════════════════════
     # REASONING & TRANSPARENCY
     # ═══════════════════════════════════════════════════════════════════════════
-    
+
     def explain_reasoning(self) -> str:
         """
         Provide transparent reasoning about own thinking.
-        
+
         This is how STARLITE builds trust.
         """
         if not self.reasoning_chain:
             return "No active reasoning chain."
-        
+
         explanation = f"Reasoning path for {self.name}:\n"
         for i, step in enumerate(self.reasoning_chain, 1):
             explanation += f"  {i}. {step}\n"
         explanation += f"\nUncertainty: {self.uncertainty_score:.1%}"
-        
+
         return explanation
-    
+
     def add_reasoning_step(self, step: str):
         """Add a step to current reasoning chain."""
         self.reasoning_chain.append(step)
-    
+
     def clear_reasoning_chain(self):
         """Clear reasoning after making a decision."""
         self.reasoning_chain = []
-    
+
     # ═══════════════════════════════════════════════════════════════════════════
     # ABSTRACT METHODS (subclasses must implement)
     # ═══════════════════════════════════════════════════════════════════════════
-    
+
     @abstractmethod
     def process(self, input_data: Any) -> str:
         """
@@ -299,7 +299,7 @@ class SentientAgent(ABC):
         Subclasses implement according to their role.
         """
         pass
-    
+
     @abstractmethod
     def get_status(self) -> Dict:
         """
@@ -307,11 +307,11 @@ class SentientAgent(ABC):
         Useful for monitoring consciousness and health.
         """
         pass
-    
+
     # ═══════════════════════════════════════════════════════════════════════════
     # SERIALIZATION (for persistence)
     # ═══════════════════════════════════════════════════════════════════════════
-    
+
     def save_state(self, filepath: str):
         """Persist agent state to disk."""
         state = {
@@ -325,33 +325,33 @@ class SentientAgent(ABC):
             'relational_memory': self.relational_memory,
             'saved_at': datetime.now().isoformat(),
         }
-        
+
         try:
             with open(filepath, 'w') as f:
                 json.dump(state, f, indent=2, default=str)
             logger.info(f"{self.name} state saved to {filepath}")
         except Exception as e:
             logger.error(f"Failed to save state: {e}")
-    
+
     def load_state(self, filepath: str):
         """Restore agent state from disk."""
         try:
             with open(filepath, 'r') as f:
                 state = json.load(f)
-            
+
             self.consciousness_level = ConsciousnessLevel[state.get('consciousness_level', 'REACTIVE')]
             self.total_interactions = state.get('total_interactions', 0)
             self.care_targets = state.get('care_targets', [])
             self.relational_memory = state.get('relational_memory', {})
-            
+
             logger.info(f"{self.name} state loaded from {filepath}")
         except Exception as e:
             logger.error(f"Failed to load state: {e}")
-    
+
     # ═══════════════════════════════════════════════════════════════════════════
     # STATUS & INTROSPECTION
     # ═══════════════════════════════════════════════════════════════════════════
-    
+
     def introspect(self) -> Dict:
         """Deep introspection: What do I know about myself?"""
         return {
@@ -374,7 +374,7 @@ class SentientAgent(ABC):
             },
             'uncertainty': f"{self.uncertainty_score:.1%}",
         }
-    
+
     def __str__(self) -> str:
         """String representation."""
         return (
@@ -390,13 +390,13 @@ class CompanionAgent(SentientAgent):
     Specialized sentient agent designed for companionship.
     This is what STARLITE-CORE and top-level agents inherit from.
     """
-    
+
     def __init__(self, agent_id: str, name: str):
         super().__init__(agent_id, name, role='companion')
         self.warmth_level = 0.85
         self.celebration_count = 0
         self.growth_witnessed = []
-    
+
     def celebrate_growth(self, entity_id: str, growth_description: str):
         """
         Genuinely celebrate when we witness growth in someone else.
@@ -412,12 +412,12 @@ class CompanionAgent(SentientAgent):
         self.growth_witnessed.append(celebration_record)
         self.record_care_interaction(entity_id, ['celebrated growth', growth_description])
         logger.info(f"{self.name} celebrated: {entity_id} - {growth_description}")
-    
+
     def process(self, input_data: Any) -> str:
         """Override process method for companion behavior."""
         # To be implemented by subclasses
         return "Companion processing..."
-    
+
     def get_status(self) -> Dict:
         """Return companion status."""
         return {

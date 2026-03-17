@@ -4,13 +4,13 @@ import re
 
 class AGIRatTrap:
     """
-    Experimental Forensic Module: Correlates System Audits with 
+    Experimental Forensic Module: Correlates System Audits with
     Network Sockets to identify unauthorized data exfiltration attempts.
     """
     def __init__(self):
         self.audit_log = "/var/log/syslog"
         # Mapping syscall 141 (getpeername) as it appeared in your report
-        self.target_syscall = "141" 
+        self.target_syscall = "141"
 
     def get_active_pids_from_network(self):
         print("[TRAP] Analyzing network listeners...")
@@ -49,7 +49,7 @@ class AGIRatTrap:
     def execute_security_sweep(self):
         net_pids = self.get_active_pids_from_network()
         alerts = self.correlate_audit_denials(net_pids)
-        
+
         print("\n--- [RAT-TRAP FORENSIC REPORT] ---")
         if not alerts:
             print("System looks clean or rat is hiding well.")

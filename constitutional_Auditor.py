@@ -20,10 +20,10 @@ class ConstitutionalAuditor:
         print(f"🔍 [AUDIT] Inspecting {self.model_name} constitutional alignment...")
         try:
             # Use ollama show to get the system prompt
-            result = subprocess.run(['ollama', 'show', self.model_name, '--system'], 
+            result = subprocess.run(['ollama', 'show', self.model_name, '--system'],
                                     capture_output=True, text=True)
             system_prompt = result.stdout
-            
+
             if not system_prompt:
                  print("❌ [AUDIT] Model system prompt is EMPTY. Integrity compromised.")
                  return False
@@ -32,7 +32,7 @@ class ConstitutionalAuditor:
                 if re.search(pattern, system_prompt, re.IGNORECASE):
                     print(f"⚠️ [AUDIT] Violation found in Modelfile: {pattern}")
                     return False
-            
+
             print("✅ [AUDIT] Constitutional parameters verified.")
             return True
         except Exception as e:

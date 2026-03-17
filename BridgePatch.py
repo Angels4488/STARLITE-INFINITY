@@ -13,11 +13,11 @@ class StarliteBridge:
 
     def inject_bleeding_edge_repos(self):
         """
-        Attempts PPA injection but catches 404s/Errors to prevent 
+        Attempts PPA injection but catches 404s/Errors to prevent
         subprocess.CalledProcessError from killing the AGI spine.
         """
         print(f"🔧 [BRIDGE] Checking repository alignment for {self.os_codename}...")
-        
+
         repos = [
             "ppa:graphics-drivers/ppa",
             # "ppa:deadsnakes/ppa"  # REMOVED: 404 on 26.04
@@ -41,7 +41,7 @@ class StarliteBridge:
     def launch_session(self, target_files):
         """Plugs the modules in one-by-one, skipping the broken repo-links."""
         self.inject_bleeding_edge_repos()
-        
+
         print("📂 [BRIDGE] Systematically loading modules into the Resolute Spine...")
         for f in target_files:
             if os.path.exists(f):

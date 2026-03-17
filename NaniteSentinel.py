@@ -7,13 +7,13 @@ class NaniteSentinel:
     providing core kinetic functions like COM calculation and force application.
     """
     # FIX 1: Renaming 'masses' to 'global_mass_array' to clarify intent
-    def __init__(self, nanite_id, atom_indices, global_mass_array): 
+    def __init__(self, nanite_id, atom_indices, global_mass_array):
         self.nanite_id = nanite_id
         self.atom_indices = list(atom_indices)
-        
+
         # FIX 2: Store the reference to the GLOBAL mass array. This is the source of truth.
-        self._global_mass_array = global_mass_array 
-        
+        self._global_mass_array = global_mass_array
+
         self.mode = "SEEK"
         self.perception_radius = 2.5
         self.target_atom = None
@@ -25,11 +25,11 @@ class NaniteSentinel:
         FIXED: Dynamically fetches masses based on current self.atom_indices.
         """
         p = current_positions[self.atom_indices]
-        
+
         # FIX 3: Dynamic Mass Sync. Guarantee the mass list matches the position list (N x 1).
         current_masses = self._global_mass_array[self.atom_indices]
-        m_broadcast = current_masses[:, np.newaxis] 
-        
+        m_broadcast = current_masses[:, np.newaxis]
+
         # Mass-weighted sum of positions
         return np.sum(p * m_broadcast, axis=0) / np.sum(current_masses)
 
@@ -41,20 +41,20 @@ class NaniteSentinel:
         com = self.get_com(current_positions)
         direction = current_positions[self.target_atom] - com
         direction_magnitude = np.linalg.norm(direction)
-        
+
         # Prevent division by zero if COM is exactly on target
         if direction_magnitude < 1e-9:
             return forces
-            
+
         unit_vector = direction / direction_magnitude
         steering_force = unit_vector * self.binding_force_gain
-        
+
         # Distribute force equally to ensure rigid-body like movement
         force_per_atom = steering_force / len(self.atom_indices)
-        
+
         for idx in self.atom_indices:
             forces[idx] += force_per_atom
-            
+
         # Check for binding contact (The physical trigger)
         if direction_magnitude < 1.2:
             print(f"[{self.nanite_id}] Contact: Atom {self.target_atom} ready for binding.")
@@ -67,7 +67,7 @@ class HivePulse:
     """The central communication hub for the nanite swarm, managing resource claims."""
     def __init__(self):
         # {atom_index: nanite_id} -> Key is the resource, value is the claiming agent
-        self.claimed_targets = {} 
+        self.claimed_targets = {}
 
     def broadcast_claim(self, nanite_id, atom_idx):
         """Attempts to claim an atom. Returns True if successful, False if already claimed."""
@@ -84,13 +84,13 @@ class HivePulse:
 # --- V2 AGENT: NANITE SWARM AGENT (The social agent) ---
 class NaniteSwarmAgent(NaniteSentinel):
     """
-    V2 Agent: Inherits Sentinel core but adds Swarm Coordination/Collision 
+    V2 Agent: Inherits Sentinel core but adds Swarm Coordination/Collision
     avoidance logic using the HivePulse.
     """
     # FIX 4: Update constructor signature to pass global_mass_array correctly
-    def __init__(self, nanite_id, atom_indices, global_mass_array, hive): 
+    def __init__(self, nanite_id, atom_indices, global_mass_array, hive):
         # Initialize Sentinel base class (Passing the global_mass_array)
-        super().__init__(nanite_id, atom_indices, global_mass_array) 
+        super().__init__(nanite_id, atom_indices, global_mass_array)
         self.hive = hive
         self.binding_threshold = 1.2 # Must match the check in V1 steering
         self.com_history = [] # For telemetry
@@ -98,25 +98,25 @@ class NaniteSwarmAgent(NaniteSentinel):
     def update_behavior(self, current_positions, velocities, forces, environment_atoms):
         com = self.get_com(current_positions)
         self.com_history.append(com)
-        
+
         # 1. SCAN & CLAIM (The Swarm Coordination Logic)
         if self.mode == "SEEK":
             # 1a. Filter environment: Must be available and not part of this nanite.
-            available = [a for a in environment_atoms 
-                         if a not in self.hive.claimed_targets 
+            available = [a for a in environment_atoms
+                         if a not in self.hive.claimed_targets
                          and a not in self.atom_indices]
-            
+
             if available:
                 # 1b. Calculate closest available target
                 dists = [np.linalg.norm(current_positions[a] - com) for a in available]
                 target_idx = available[np.argmin(dists)]
-                
+
                 # 1c. Broadcast claim to the Hive
                 if self.hive.broadcast_claim(self.nanite_id, target_idx):
                     self.target_atom = target_idx
                     self.mode = "BIND"
                     print(f"[NANITE {self.nanite_id}] CLAIMED {target_idx}. Mode: BIND")
-        
+
         # 2. EXECUTE BINDING (V1 Steering Logic)
         forces = self.update_steering_forces(current_positions, forces)
 
@@ -142,30 +142,30 @@ def run_swarm_sim():
     vel = np.zeros_like(pos)
     m = np.ones(10) # The Global Mass Array (Source of Truth)
     f = np.zeros_like(pos)
-    
+
     # Initialize the two nanites (Passing 'm' as the global mass array)
     n1 = NaniteSwarmAgent(nanite_id=1, atom_indices=[0,1,2], global_mass_array=m, hive=hive)
     n2 = NaniteSwarmAgent(nanite_id=2, atom_indices=[3,4,5], global_mass_array=m, hive=hive)
     nanites = [n1, n2]
-    
+
     # All atoms in the environment
-    environment_atoms = list(range(10)) 
-    
+    environment_atoms = list(range(10))
+
     print("Swarm Engaged. Tracking Hive Claims...")
-    
+
     for step in range(30):
         f.fill(0) # Reset forces
-        
+
         # Update forces from Nanite behavior
         for nanite in nanites:
             f = nanite.update_behavior(pos, vel, f, environment_atoms)
-        
+
         # Simple Integration (Verlet/Euler loop would be here)
         vel += f * 0.1
         pos += vel * 0.1
-        
+
         # [Kinetic Stabilization would occur here, after force application/integration]
-        
+
         if step % 5 == 0:
             print(f"\n--- STEP {step} ---")
             print(f"Hive Targets: {hive.claimed_targets}")

@@ -16,7 +16,7 @@ class StarliteSynapse:
         self.arbiter = StrategyArbiter()
         self.engine = N7_Astral_Engine("N7")
         self.lake_path = "./exxabyte_lake/"
-        
+
         if not os.path.exists(self.lake_path):
             os.makedirs(self.lake_path)
 
@@ -42,28 +42,28 @@ class StarliteSynapse:
     def plug_and_play(self):
         """The systematic hookup."""
         print("🔌 [SYNAPSE] Initializing Module Plug-in Sequence...")
-        
+
         # 1. Start the Heartbeat
         if not self.heartbeat(): return
 
         # 2. Get the Kinetic Manifesto
         print("📡 [SYNAPSE] Requesting swarm directive from STARLITE...")
         manifesto = self.query_kyle("Shadow needs a status report and swarm directive. Keep it hood.")
-        
+
         if manifesto:
             print(f"🗣️  [KYLE]: {manifesto[:100]}...")
-            
+
             # 3. Plug in the Arbiter (Words -> Physics)
             physics_shift = self.arbiter.ingest_agi_manifesto(manifesto)
-            
+
             # 4. Plug in the N7 Engine (Physics -> Replication)
             # We use N6 as the template to birth the flight of N7
             success = self.engine.replicate("N6.json")
-            
+
             if success:
                 print("🚀 [SYNAPSE] N7 is live and synced with the Covenant.")
                 self.sync_to_lake(manifesto)
-        
+
     def sync_to_lake(self, manifesto):
         """Dumps the current 'thought' into the Exxabyte Lake as an atom."""
         atom_id = f"atom_{int(time.time())}.json"

@@ -1,7 +1,7 @@
 # src/starlite_hivemind/zero_agi/zero_wrapper.py
 import logging
 from typing import Dict, Any
-from .zero_core import ZeroAGI
+from zero_core import ZeroAGI
 import torch # Import torch to check GPU status for logging
 
 log = logging.getLogger(__name__)

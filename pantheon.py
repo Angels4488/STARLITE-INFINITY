@@ -24,7 +24,7 @@ class UniversalIntelligenceModel:
     def __init__(self, device: str = "cpu", model_name: str = "default"):
         self.device = device
         self.model_name = model_name
-    
+
     def generate(self, prompt: str) -> str:
         """Generate response from prompt."""
         return f"Generated response for: {prompt[:50]}..."
@@ -34,7 +34,7 @@ class CognitiveSubstrate:
     """The capability mixing board (UNITY)."""
     def __init__(self, uim: UniversalIntelligenceModel):
         self.uim = uim
-    
+
     def excite(self, perception: str, weights: dict) -> str:
         """Process perception through cognitive substrate."""
         return self.uim.generate(perception)
@@ -44,7 +44,7 @@ class NLPProcessor:
     """Conversational engine (AetherJarvis)."""
     def __init__(self, model_name: str = "default"):
         self.model_name = model_name
-    
+
     def get_response(self, input_text: str) -> str:
         """Get NLP response."""
         return f"Response: {input_text[:50]}..."
@@ -55,7 +55,7 @@ if TORCH_AVAILABLE:
         """RL-based subconscious optimizer (AetherDreamer)."""
         def __init__(self):
             super().__init__()
-        
+
         def forward(self, x):
             return x
 
@@ -64,7 +64,7 @@ if TORCH_AVAILABLE:
         """Recurrent world model (C.H.A.R.M.)."""
         def __init__(self):
             super().__init__()
-        
+
         def forward(self, context, hidden):
             return context, hidden
 else:
@@ -72,15 +72,15 @@ else:
         """RL-based subconscious optimizer (AetherDreamer) - Stub."""
         def __init__(self):
             pass
-        
+
         def forward(self, x):
             return x
-    
+
     class PredictiveStateGenerator:
         """Recurrent world model (C.H.A.R.M.) - Stub."""
         def __init__(self):
             pass
-        
+
         def forward(self, context, hidden):
             return context, hidden
 
@@ -94,11 +94,11 @@ class Conductor:
     def __init__(self, uim: UniversalIntelligenceModel, ethos: str = "growth"):
         self.uim = uim
         self.ethos = ethos
-    
+
     def formulate_plan(self, mission: str) -> List[str]:
         """Formulate action plan from mission."""
         return ["analyze", "plan", "execute", "reflect"]
-    
+
     def execute_mission(self, mission: str) -> str:
         """Execute a mission."""
         return f"Mission '{mission}' executed."
@@ -108,7 +108,7 @@ class ExecutiveController:
     """High-level cognitive orchestrator (C.H.A.R.M.)."""
     def __init__(self, system: Dict = None):
         self.system = system or {}
-    
+
     def reason_and_act(self, inputs: Dict) -> Dict:
         """Reason about inputs and decide actions."""
         return {"decision": "processed", "action": "pending"}
@@ -136,11 +136,11 @@ class VectorMemory:
     """Semantic vector storage (UNITY)."""
     def __init__(self):
         self.storage = {}
-    
+
     def store(self, text: str, meta: Dict = None):
         """Store text with metadata."""
         self.storage[text] = meta or {}
-    
+
     def recall(self, query: str) -> str:
         """Recall relevant information."""
         return f"Recalled: {query}"
@@ -150,7 +150,7 @@ class CrossModalAssociativeMemory:
     """Multimodal embedding space (C.H.A.R.M.)."""
     def __init__(self):
         pass
-    
+
     def forward(self, inputs: Dict) -> Dict:
         """Process multimodal inputs."""
         return inputs
@@ -160,7 +160,7 @@ class ResonanceMemory:
     """Legacy log-based memory."""
     def __init__(self):
         self.traces = []
-    
+
     def add_trace(self, data: Dict):
         """Add memory trace."""
         self.traces.append(data)
@@ -170,7 +170,7 @@ class DecisionLogger:
     """Black-box flight recorder."""
     def __init__(self):
         self.decisions = []
-    
+
     def log(self, perception: str, decision: str, outcome: str):
         """Log decision cycle."""
         self.decisions.append({
@@ -188,7 +188,7 @@ class SelfConcept:
     """The ego and core identity."""
     def __init__(self):
         self.principles = []
-    
+
     def update_principles(self, new_principle: str):
         """Update core principles."""
         self.principles.append(new_principle)
@@ -205,11 +205,11 @@ class GrowthEngine:
     """Developmental stage manager."""
     def __init__(self):
         self.stage = "INITIALIZATION"
-    
+
     def tick_stimulus(self):
         """Process stimulus for growth."""
         pass
-    
+
     def get_stage(self) -> str:
         """Get current development stage."""
         return self.stage
@@ -252,7 +252,7 @@ class PerceptionModule:
     def process_text(self, text: str) -> Dict:
         """Process text input."""
         return {"type": "text", "content": text}
-    
+
     def process_image(self, img) -> Dict:
         """Process image input."""
         return {"type": "image", "content": "processed"}
@@ -312,11 +312,11 @@ class PantheonOrchestrator:
     """Master orchestrator for all systems."""
     def __init__(self):
         self.initialized = True
-    
+
     def synchronize(self) -> bool:
         """Synchronize all systems."""
         return True
-    
+
     def orchestrate(self, mission: str) -> Dict[str, Any]:
         """Orchestrate complete system."""
         return {
@@ -339,7 +339,7 @@ class UnityAGI:
         self.conductor = Conductor(self.brain)
         self.memory = VectorMemory()
         self.ethics = EthosAnchor()
-    
+
     def initialize(self) -> bool:
         """Initialize all components."""
         return True
@@ -350,7 +350,7 @@ class SystemIntegrationManager:
     def __init__(self):
         self.orchestrator = PantheonOrchestrator()
         self.agi = UnityAGI()
-    
+
     def initialize_all_systems(self) -> Dict[str, bool]:
         """Initialize all systems."""
         return {

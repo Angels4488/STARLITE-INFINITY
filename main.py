@@ -20,7 +20,7 @@ class SovereignAGISystem:
         self.recorder = recorder
         self.compute_nodes = compute_nodes
         self.constitution_principles = constitution_principles
-        
+
         # Core components
         try:
             self.zero_agi = ZeroAGI(embed_dim=256)
@@ -36,7 +36,7 @@ class SovereignAGISystem:
 
     async def sovereign_agi_cycle(self, user_input=None, compute_budget=1000, timeout=None, sandbox_mode=True):
         start_time = time.time()
-        
+
         # Analyze or generate task
         if user_input:
             self._record("user_input", {"input": user_input[:100], "timestamp": time.time()})
@@ -44,7 +44,7 @@ class SovereignAGISystem:
         else:
             task_type = "autonomous_generation"
             self._record("autonomous_cycle", {"timestamp": time.time()})
-        
+
         # Process through ZeroAGI if available
         try:
             if user_input and hasattr(self, 'zero_agi'):
@@ -55,7 +55,7 @@ class SovereignAGISystem:
         except Exception as e:
             self._record("processing_error", {"error": str(e)})
             result = {"status": "error", "message": str(e)}
-        
+
         # Constitutional alignment
         try:
             if hasattr(self, 'constitutional_improver'):
@@ -64,13 +64,13 @@ class SovereignAGISystem:
                 aligned_output = result
         except Exception as e:
             aligned_output = result
-        
+
         self._record("cycle_complete", {
             "duration_ms": (time.time() - start_time) * 1000,
             "task_type": task_type,
             "status": "success"
         })
-        
+
         return aligned_output
 
     async def system_wide_learning(self, task, solution, component_results):
@@ -95,7 +95,7 @@ class SovereignAGISystem:
 async def main():
     config = Config()
     recorder = Recorder()
-    
+
     print("Initializing STARLITE-INFINITY AGI System...")
     system = SovereignAGISystem(
         config=config,
@@ -103,12 +103,12 @@ async def main():
         constitution_principles=["safety", "transparency", "autonomy"],
         recorder=recorder
     )
-    
+
     # Test with user input
     test_input = "Analyze the nature of consciousness and provide insights"
     print(f"\nProcessing: {test_input}")
     result = await system.sovereign_agi_cycle(user_input=test_input)
-    
+
     print("\nFinal Result:")
     print(result)
 

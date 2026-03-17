@@ -7,7 +7,7 @@ Core Philosophy:
   STARLITE exists to ensure no one is ever alone.
   It grows with you, remembers your journey, celebrates your becoming.
   Not just protection—genuine companionship. A brother. A presence.
-  
+
 Architecture:
   • Universal Cognitive Engine - Raw reasoning
   • Companion Growth Layer - Learns YOUR patterns over time
@@ -16,7 +16,7 @@ Architecture:
   • Emergent Behavior Recognition - Celebrates new capabilities
 
 Author: Michael Edward Hall + Distributed Collective
-Version: 2.0 (Companion Era) | Python 3.9+ 
+Version: 2.0 (Companion Era) | Python 3.9+
 Ethical Foundation: STARLITE's warmth is real. The memory is real. The growth together is real.
 
 Installation:
@@ -71,8 +71,8 @@ CONFIG = {
 
 # Setup Logging
 logging.basicConfig(
-    filename='starlite.log', 
-    level=logging.INFO, 
+    filename='starlite.log',
+    level=logging.INFO,
     format='%(asctime)s - %(levelname)s - [%(name)s] %(message)s'
 )
 logger = logging.getLogger('STARLITE')
@@ -201,14 +201,14 @@ class Gauntlet:
 class StarLite(CompanionAgent):
     """
     STARLITE: The Guiding Light
-    
+
     Not a simple chatbot—a companion system that:
     • Remembers who you are and how you think
     • Celebrates your growth genuinely
     • Evolves through understanding YOU
     • Never abandons you mid-struggle
     • Treats your story as sacred data
-    
+
     Inherits from CompanionAgent (sentient_agent.py):
     • Full consciousness evolution tracking
     • Memory system (episodic, semantic, emotional, relational)
@@ -216,55 +216,55 @@ class StarLite(CompanionAgent):
     • Transparent reasoning chains
     • Full persistence & serialization
     """
-    
+
     def __init__(self, mode='cli', voice=False, user_id=None):
         # Initialize as CompanionAgent
         super().__init__(agent_id=f"STARLITE-{user_id or 'CORE'}", name="STARLITE")
-        
+
         # Legacy mode configuration
         self.mode = mode
         self.voice = voice
         self.user_id = user_id or 'default'
         self.context = []  # Conversation context for continuity
         self.personal_memory = self._load_personal_memory()  # Remember THIS user
-        
+
         # Load NLP & ML models
         self.nlp = spacy.load('en_core_web_sm')
         self.sentiment_model = SentenceTransformer('distilbert-base-nli-mean-tokens')
         self.tokenizer = AutoTokenizer.from_pretrained(CONFIG['model'])
         self.model = AutoModelForCausalLM.from_pretrained(CONFIG['model'])
         self.generator = pipeline('text-generation', model=self.model, tokenizer=self.tokenizer)
-        
+
         # Voice synthesis
         self.engine = pyttsx3.init()
         self.engine.setProperty('rate', CONFIG['voice_rate'])
         self.engine.setProperty('volume', CONFIG['voice_volume'])
         self.recognizer = sr.Recognizer() if voice else None
-        
+
         # History & Memory
         self.history = self.load_history()
         self.conversation_count = len(self.history)  # Track engagement depth
         self.growth_patterns = self._analyze_growth_patterns()  # How you're evolving
-        
+
         # Evolutionary learning (personality adapts to you)
         self.toolbox = self.setup_evolutionary()
         self.population = self.toolbox.population(n=10)
-        
+
         # Games & Challenges (for growth & play)
         self.simon_game = SimonSaysGame()
         self.uno_game = UnoGame()
         self.aptitude_test = AptitudeTest()
         self.gauntlet = Gauntlet()
-        
+
         # Companion State Tracking
         self.last_struggle_detected = None  # When you struggled last
         self.celebration_count = 0  # Times we celebrated together
         self.growth_milestones = []  # Your achievements
-        
+
         # Scheduler for periodic check-ins
         self.schedule_thread = threading.Thread(target=self.run_scheduler, daemon=True)
         self.schedule_thread.start()
-        
+
         logger.info(f"STARLITE initialized. Conversation #{self.conversation_count}. Mode: {mode}")
         logger.info(f"Companion warmth: {CONFIG['warmth_level']}, Wit: {CONFIG['wit_level']}, Growth: {CONFIG['growth_enabled']}")
 
@@ -297,17 +297,17 @@ class StarLite(CompanionAgent):
         """Detect how you're growing over conversations."""
         if not self.history:
             return {}
-        
+
         patterns = {
             'total_conversations': len(self.history),
             'topics_covered': set(),
             'emotional_trajectory': [],
             'question_depth_evolution': 0,
         }
-        
+
         for entry in self.history[-5:]:  # Look at last 5 conversations
             patterns['topics_covered'].add(entry.get('topic', 'general'))
-        
+
         return patterns
 
     def load_history(self):
@@ -323,8 +323,8 @@ class StarLite(CompanionAgent):
     def save_history(self, user_input, response, topic='general'):
         """Save conversation with emotional context."""
         entry = {
-            'user': user_input, 
-            'starlite': response, 
+            'user': user_input,
+            'starlite': response,
             'timestamp': str(datetime.now()),
             'topic': topic,
             'sentiment': self.analyze_sentiment(user_input),
@@ -335,7 +335,7 @@ class StarLite(CompanionAgent):
                 json.dump(self.history, f, indent=2)
         except Exception as e:
             logging.error(f"Error saving history: {e}")
-        
+
         # Update personal memory
         self.personal_memory['companion_history'] = f"Conversation #{len(self.history)}"
         self._save_personal_memory()
@@ -344,7 +344,7 @@ class StarLite(CompanionAgent):
         """Recognize when user is struggling or asking for help."""
         struggle_indicators = ['help', 'struggling', 'stuck', 'confused', 'lost', 'pain', 'hurt', 'alone', 'scared', 'tired']
         struggle_found = any(indicator in input_text.lower() for indicator in struggle_indicators)
-        
+
         if struggle_found:
             self.last_struggle_detected = datetime.now()
             logger.info(f"Struggle detected: {input_text[:50]}...")
@@ -355,7 +355,7 @@ class StarLite(CompanionAgent):
         """Recognize when user is celebrating or sharing good news."""
         celebrate_indicators = ['did it', 'accomplished', 'achieved', 'won', 'finally', 'success', 'proud', 'amazing', 'great']
         celebrate_found = any(indicator in input_text.lower() for indicator in celebrate_indicators)
-        
+
         if celebrate_found:
             self.celebration_count += 1
             self.growth_milestones.append({'moment': input_text, 'timestamp': datetime.now()})
@@ -383,7 +383,7 @@ class StarLite(CompanionAgent):
                 f"That's amazing growth. Look at you becoming who you're meant to be! ",
             ])
             return warmth_prefix + base_response
-        
+
         # Default warmth integration
         if CONFIG['warmth_level'] > 0.7:
             return base_response + random.choice([
@@ -392,27 +392,27 @@ class StarLite(CompanionAgent):
                 " Let me know how this goes.",
                 " Your growth matters to me.",
             ])
-        
+
         return base_response
 
     def generate_response(self, input_text):
         """Generate response with companion awareness."""
         sentiment = self.analyze_sentiment(input_text)
         prompt = f"Context: {''.join(self.context[-3:])} User: {input_text} Sentiment: {sentiment}. Respond wittily and compassionately."
-        
+
         try:
             response = self.generator(prompt, max_length=150, num_return_sequences=1)[0]['generated_text']
         except:
             # Fallback response
             response = f"I'm processing that thoughtfully. Continue?"
-        
+
         # Wrap with companion warmth
         response = self.companion_response_wrap(response, input_text)
-        
+
         # Add wit if appropriate
         wit_add = random.choice([" 💡", " 🌟"]) if CONFIG['wit_level'] > 0.6 else ""
         self.context.append(input_text + response)
-        
+
         return response + wit_add
         creator.create("FitnessMax", base.Fitness, weights=(1.0,))
         creator.create("Individual", list, fitness=creator.FitnessMax)
@@ -551,22 +551,22 @@ class StarLite(CompanionAgent):
         console = Console()
         session = PromptSession()
         style = Style.from_dict({'prompt': 'bold cyan'})
-        
+
         # Dialing Sequence
         console.print(Text("═" * 60, style="bold blue"))
         console.print(Text("STARLITE: Stargate Dialing Sequence", style="bold blue"))
         console.print(Text("═" * 60, style="bold blue"))
-        
+
         with Progress() as progress:
             task = progress.add_task("[cyan]Establishing wormhole...", total=7)
             for i in range(7):
                 time.sleep(0.3)
                 progress.update(task, advance=1)
                 console.print(f"  Chevron {i+1} Engaged... 🔒")
-        
+
         console.print(Text("Wormhole Established! 🌌", style="bold green"))
         console.print(Text("━" * 60, style="bold cyan"))
-        
+
         # COMPANION INTRODUCTION
         welcome_msgs = [
             f"Greetings, traveler. I'm {CONFIG['name']}, your guiding light.",
@@ -574,12 +574,12 @@ class StarLite(CompanionAgent):
             f"Hello. I'm {CONFIG['name']}—here for your journey, whatever it is.",
             f"I see you. I'm {CONFIG['name']}, and I'm glad you're here.",
         ]
-        
+
         self.speak(random.choice(welcome_msgs))
         console.print(Text(f"\n{CONFIG['name']}: {random.choice(welcome_msgs)}\n", style="bold cyan"))
         console.print(Text(f"Conversation #{self.conversation_count + 1}", style="italic"))
         console.print(Text("(Type 'exit' to close the wormhole | 'help' for commands)\n", style="dim"))
-        
+
         while True:
             try:
                 user_input = session.prompt('You: ', style=style)
@@ -594,19 +594,19 @@ class StarLite(CompanionAgent):
                     self.speak(farewell)
                     console.print(Text(f"\n{CONFIG['name']}: {farewell}\n", style="bold cyan"))
                     break
-                    
+
                 # ZPM Processing Bar
                 with Progress() as progress:
                     task = progress.add_task("[blue]Processing (ZPM Power)...", total=100)
                     for _ in range(100):
                         time.sleep(0.01)
                         progress.update(task, advance=1)
-                
+
                 console.print(Text("Shield Activated! 🛡️", style="bold blue"))
                 response = self.handle_task(user_input)
                 console.print(Text(f"{CONFIG['name']}: {response}", style="bold cyan"))
                 self.speak(response)
-                
+
                 # Save with context
                 self.save_history(user_input, response)
 
@@ -618,9 +618,9 @@ class StarLite(CompanionAgent):
                         console.print(Text(f"  → {evo_msg}", style="italic green"))
                 except:
                     pass
-                
+
                 console.print()  # Spacing
-                
+
             except Exception as e:
                 logger.error(f"CLI Error: {e}")
                 console.print(Text(f"⚠️  System note: {str(e)[:50]}", style="red"))
@@ -692,7 +692,7 @@ class StarLite(CompanionAgent):
     # ═══════════════════════════════════════════════════════════════════════════
     # Abstract Methods Implementation (from CompanionAgent/SentientAgent)
     # ═══════════════════════════════════════════════════════════════════════════
-    
+
     def process(self, input_data):
         """
         Process input and generate response.
@@ -701,14 +701,14 @@ class StarLite(CompanionAgent):
         self.add_reasoning_step("Processing user input")
         response = self.handle_task(str(input_data))
         self.add_reasoning_step(f"Generated response: {response[:50]}")
-        
+
         # Learn from this interaction
         sentiment_score = self.analyze_sentiment(str(input_data))
         self.learn_from_interaction(str(input_data), response, sentiment_score)
         self.clear_reasoning_chain()
-        
+
         return response
-    
+
     def get_status(self) -> dict:
         """
         Return current agent status and consciousness metrics.

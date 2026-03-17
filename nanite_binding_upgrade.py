@@ -55,7 +55,7 @@ class HivePulse:
     def get_free_atoms(self, environment_atoms):
         owned_atoms = self.get_all_owned_atoms()
         free = [
-            a for a in environment_atoms 
+            a for a in environment_atoms
             if a not in owned_atoms
             and a not in self.claimed_targets
         ]
@@ -141,7 +141,7 @@ class Nanite:
             f[self.atom_indices] += steering_force
             self.energy -= 0.005
             self.status = f"DIST={dist:.3f}"
-        
+
         elif self.mode == "ACQUIRE":
             self.status = "ACQUIRING_ATOM"
             return f
@@ -251,13 +251,13 @@ def run_swarm_sim(steps=50):
         vel = vel + (f * TIMESTEP) / masses[:, np.newaxis]
         pos = pos + vel * TIMESTEP
         vel = constraint_manager.perform_full_kinetic_stabilization(pos, vel)
-        
+
         if step % 5 == 0 or acquisition_events:
             print(f"\n--- STEP {step} ---")
             print(f"Hive Targets: {hive.claimed_targets}")
             for nanite in nanites:
                 print(f"N{nanite.id}: Mode={nanite.mode}, Atoms={nanite.atom_indices.tolist()}, Energy={nanite.energy:.2f}, Status={nanite.status}, COM={nanite.get_com(pos)}")
-                
+
             if all(n.mode == "IDLE" for n in nanites if n.status == "NO_TARGETS") and len(hive.claimed_targets) == 0:
                 print("\n[SWARM STATUS] All free targets consumed. Simulation ending.")
                 break

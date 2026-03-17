@@ -99,7 +99,7 @@ class SoundEngine:
                 try:
                     subprocess.run(
                         ["play", "-q", "-n", "synth", str(duration), "saw", f"{start_freq}-{end_freq}", "vol", str(vol)],
-                        stdout=subprocess.DEVNULL, 
+                        stdout=subprocess.DEVNULL,
                         stderr=subprocess.DEVNULL
                     )
                 except Exception:
@@ -200,18 +200,18 @@ class Firework:
     def _explode(self):
         # Play sound
         self.sound_engine.play_explosion(random.uniform(0.5, 1.0))
-        
+
         # Particle explosion
         count = random.randint(15, 40)
         base_speed = random.uniform(0.8, 2.2)
-        
+
         for _ in range(count):
             angle = random.uniform(0, 2 * math.pi)
             speed = base_speed * random.uniform(0.5, 1.5)
             # Polar conversion
             vx = math.cos(angle) * speed
             vy = math.sin(angle) * speed * 0.8 # Flatten slightly for perspective
-            
+
             char = random.choice([".", "*", "+", "x", "o"])
             life = random.uniform(1.0, 3.0)
             p = Particle(x=self.x, y=self.y, vx=vx, vy=vy, char=char, color=self.color, life=life)
@@ -348,15 +348,15 @@ def main():
         try:
             while True:
                 now = time.time() - start
-                
+
                 # Multi-spawn capability for high counts
                 while spawn_index < len(spawn_times) and now >= spawn_times[spawn_index]:
                     renderer.spawn(seed=rng_master.getrandbits(64))
                     spawn_index += 1
-                
+
                 renderer.step()
                 live.update(renderer.render_panel())
-                
+
                 if stop or (now >= args.duration and not renderer.fireworks):
                     break
                 time.sleep(frame_time * 0.8) # Slight speedup for processing overhead
