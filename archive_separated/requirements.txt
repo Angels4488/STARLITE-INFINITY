@@ -1,0 +1,44 @@
+
+
+--index-url https://download.pytorch.org/whl/cpu
+torch
+torchvision
+torchaudio
+
+
+# sentence-transformer
+#faiss
+networkx
+numpy
+#einops
+sympy
+numpy
+#astropy
+#predict
+#wifite
+#wireshark
+#qiskit
+#qiskit-aer
+
+# --- Perception & NLP ---
+#nltk
+Pillow
+pydantic
+fastapi
+flask
+
+# --- System & Utilities ---
+GitPython
+rich
+tqdm
+textual
+prompt-toolkit
+pennylane
+deap
+beautifulsoup4
+requests
+python-dotenv
+gensim
+gym
+ddg
+duckduckgo
