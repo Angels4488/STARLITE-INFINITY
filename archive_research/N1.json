@@ -1,0 +1,27 @@
+{
+  "id": "N1",
+  "version": "1.0.0",
+  "state": {
+    "mass": 2.0,
+    "position": [
+      3.741890073036882,
+      5.646844793977988,
+      -0.7302871768853226
+    ],
+    "velocity": [
+      -0.18921929249967587,
+      0.07031863552104163,
+      0.13062888690619007
+    ],
+    "mode": "APPROACH",
+    "replication_budget": 1.0,
+    "children_spawned": 0
+  },
+  "config": {
+    "claim_radius": 0.3,
+    "repulsion_radius": 1.5,
+    "repulsion_gain": 2.4,
+    "arbitration_range": 0.6,
+    "yield_cooldown": 0
+  }
+}
