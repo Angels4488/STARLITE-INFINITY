@@ -1,0 +1,45 @@
+# --- Core AGI Dependencies ---
+torch
+torchvision
+torchaudio
+transformers
+sentence-transformers
+faiss-cpu
+numpy
+scipy
+networkx
+nltk
+qiskit
+qiskit-aer
+optuna
+deap
+gym
+
+# --- Perception & NLP ---
+spacy
+Pillow
+pydantic
+fastapi
+flask
+beautifulsoup4
+requests
+python-dotenv
+gensim
+duckduckgo-search
+
+# --- UI & Voice ---
+pyttsx3
+gTTS
+playsound
+SpeechRecognition
+rich
+tqdm
+prompt-toolkit
+textual
+
+# --- System & Utilities ---
+GitPython
+schedule
+pennylane
+sympy
+einops

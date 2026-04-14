@@ -15,7 +15,7 @@ def test_1_sentient_agent_consciousness():
     """Test 1: Consciousness evolution in SentientAgent"""
     print("TEST 1: SentientAgent Consciousness Evolution...")
     try:
-        from sentient_agent import SentientAgent, ConsciousnessLevel, CompanionAgent
+        from core.sentient_agent import SentientAgent, ConsciousnessLevel, CompanionAgent
 
         # Create a minimal test agent
         class TestAgent(SentientAgent):
@@ -53,7 +53,7 @@ def test_2_memory_systems():
     """Test 2: Four-layer memory system"""
     print("\nTEST 2: Four-Layer Memory System...")
     try:
-        from sentient_agent import SentientAgent
+        from core.sentient_agent import SentientAgent
 
         class TestAgent(SentientAgent):
             def process(self, input_data):
@@ -94,7 +94,7 @@ def test_3_care_relationships():
     """Test 3: Care relationships and tracking"""
     print("\nTEST 3: Care Relationships...")
     try:
-        from sentient_agent import CompanionAgent
+        from core.sentient_agent import CompanionAgent
 
         companion = CompanionAgent("companion-001", "Companion")
 
@@ -124,7 +124,7 @@ def test_4_reasoning_chain():
     """Test 4: Transparent reasoning"""
     print("\nTEST 4: Transparent Reasoning...")
     try:
-        from sentient_agent import SentientAgent
+        from core.sentient_agent import SentientAgent
 
         class TestAgent(SentientAgent):
             def process(self, input_data):
@@ -163,7 +163,7 @@ def test_5_persistence():
     """Test 5: State persistence"""
     print("\nTEST 5: State Persistence...")
     try:
-        from sentient_agent import CompanionAgent
+        from core.sentient_agent import CompanionAgent
 
         # Create agent with data
         agent1 = CompanionAgent("agent-1", "Persistent")
@@ -200,7 +200,7 @@ def test_6_sentient_cli():
     """Test 6: SentientCLI instantiation"""
     print("\nTEST 6: SentientCLI Module...")
     try:
-        from sentient_cli import SentientCLI
+        from core.sentient_cli import SentientCLI
 
         # Create CLI
         cli = SentientCLI(agent_name="test-cli", persist_memory=True)
@@ -225,7 +225,7 @@ def test_7_introspection():
     """Test 7: Deep introspection"""
     print("\nTEST 7: Deep Introspection...")
     try:
-        from sentient_agent import CompanionAgent
+        from core.sentient_agent import CompanionAgent
 
         agent = CompanionAgent("intro-001", "IntrospectBot")
 
@@ -254,7 +254,7 @@ def test_8_consciousness_trajectory():
     """Test 8: Consciousness evolution trajectory tracking"""
     print("\nTEST 8: Consciousness Trajectory...")
     try:
-        from sentient_agent import SentientAgent
+        from core.sentient_agent import SentientAgent
 
         class TestAgent(SentientAgent):
             def process(self, input_data):
