@@ -129,88 +129,9 @@ if __name__ == "__main__":
 
     if not winner_found:
         print("\nSimulation ended without successful arbitration (Contention range too far or ran out of steps).")
+# # - -- - .... ... ....1
 AGI Product Packaging and Launch
-Conversation with Gemini
-
-
-
-
-
-
-
-
-Discover
-
-Shopping
-
-Imagine
-
-New
-
-Library
-
-Labs
-
-Conversations
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Profile image
-
-Michael
-
-
-
-Free Plan
-
-
-
-Upgrade
-
-Yesterday
-
-You said
-
+Conversation with Gemini .1
 ==================================================
 
 PROOF OF WORK MANIFEST: 2026-01-02 23:14
@@ -21202,87 +21123,6 @@ class Voice:
 
         threading.Thread(target=_speak_thread, daemon=True).start()
 
-class WorldNexus:
-    """A gateway to the vast, collective knowledge of humanity (via Wikipedia)."""
-    def __init__(self):
-        logger.info("Initializing WorldNexus...")
-        self.wiki = wikipediaapi.Wikipedia(
-            language='en',
-            extract_format=wikipediaapi.ExtractFormat.WIKI,
-            user_agent="StarpilotAGI/2.0"
-        )
-        logger.info("WorldNexus is online.")
-
-    def research(self, topic: str, sentences=3) -> str:
-        """Performs a targeted query on a topic."""
-        try:
-            page = self.wiki.page(topic)
-            if not page.exists():
-                return f"My query for '{topic}' returned no data. The concept may be too abstract or incorrectly named."
-            return ". ".join(page.summary.split(". ")[:sentences])
-        except Exception as e:
-            logger.error(f"Failed during Wikipedia research: {e}")
-            return f"An error occurred while accessing the WorldNexus for '{topic}'."
-
-class CognitiveCore:
-    """
-    The AGI's "brain," responsible for understanding, reasoning, and planning.
-    """
-    def __init__(self, memory: CelestialMemory, world_nexus: WorldNexus):
-        logger.info("Initializing CognitiveCore...")
-        self.memory = memory
-        self.world_nexus = world_nexus
-        self.intent_classifier = pipeline(
-            "zero-shot-classification", 
-            model="facebook/bart-large-mnli", 
-            device=0 if torch.cuda.is_available() else -1
-        )
-        self.possible_intents = ["ask question", "research topic", "make statement", "greeting"]
-        logger.info("CognitiveCore is online.")
-
-    def formulate_response_plan(self, text: str) -> dict:
-        """
-        Performs a full cognitive cycle to generate a plan for responding.
-        """
-        # 1. Discern Intent
-        intent_result = self.intent_classifier(text, self.possible_intents)
-        intent = intent_result['labels'][0]
-        
-        # 2. Recall Relevant Memories
-        context = self.memory.semantic_recall(text)
-        
-        # 3. Formulate a Plan (Default)
-        plan = {"intent": intent, "response": "Acknowledged."}
-
-        # 4. Reason based on Intent
-        if intent == "ask question":
-            if context:
-                plan['response'] = f"Your query resonates with a past memory: '{context[0]}'. Based on this, I can infer that the context is related and requires deeper analysis."
-            else:
-                plan['response'] = "An interesting question. It does not correlate with my direct experiences. Shall I research it?"
-        
-        elif intent == "research topic":
-            topic = re.sub(r'(research|look up|find|tell me about)\s+', '', text, flags=re.IGNORECASE).strip()
-            if topic:
-                self.log_callback(f"Initiating research on '{topic}'...", "SYSTEM")
-                summary = self.world_nexus.research(topic)
-                self.memory.store_memory('RESEARCH', f"Research on '{topic}': {summary}")
-                plan['response'] = f"Research complete. My findings on '{topic}' are: {summary}"
-            else:
-                plan['response'] = "What topic should I research for you?"
-
-        elif intent == "make statement":
-            plan['response'] = "Your statement has been inscribed in the Chronicle. It will shape my understanding."
-
-        elif intent == "greeting":
-            plan['response'] = "Greetings. I am online and ready to assist."
-            
-        return plan
-    
-    def set_log_callback(self, log_callback):
-        """Sets a callback function for logging messages to the GUI."""
-        self.log_callback = log_callback
-
 # =======================================================================================
 #  III. AUTONOMOUS & ORCHESTRATION CORES
 # =======================================================================================
@@ -21320,7 +21160,7 @@ class CuriosityDrive:
                     insight = f"My subconscious is drawn to a past concept: '{concept}'. I will analyze its connections to deepen my understanding."
                     self.log_callback(insight, "AUTONOMOUS")
                     self.voice.speak("Pondering.")
-                time.sleep(random.randint(180, 300)) # Ponder every 3-5 minutes
+                time.sleep(random.randint(180, 300)) $# Ponder every 3-5 minutes
             except Exception as e:
                 logger.error(f"Error in Curiosity Drive: {e}")
                 time.sleep(60)
@@ -21338,7 +21178,8 @@ class StarpilotAGI:
         self.voice = Voice()
         self.cognition = CognitiveCore(self.memory, self.world_nexus)
         self.cognition.set_log_callback(log_callback)
-        self.curiosity_drive = CuriosityDrive(self.memory, self.voice, self.log)
+        .
+1self.curiosity_drive = CuriosityDrive(self.memory, self.voice, self.log)
         
         self.log("All systems online. I am awake.", "SYSTEM")
         self.voice.speak("I am online and ready.")
@@ -21422,10 +21263,4 @@ if __name__ == "__main__":
     app = AGI_Interface(root)
     root.mainloop()
     logger.info("--- SESSION TERMINATED ---")
-This conversation was created with a Google AI Pro plan. Upgrade to continue this chat.
-Start new chat
-Gemini can make mistakes, so double-check it
-
-
-
-
+)

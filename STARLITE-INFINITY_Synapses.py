@@ -26,9 +26,10 @@ class StarliteSynapse:
             print("❌ [SYNAPSE] Auditor failed. Covenant broken. Shutting down.")
             return False
         return True
-
+## here you you I Would Put the Prompt generation.py. as directives . then follow That with The Recorder and the rest of the modules. The idea is to have a systematic flow where each module feeds into the next, creating a seamless integration that allows for real-time updates and adjustments based on the directives received from Kyle. The Recorder would capture the outputs and interactions, feeding them back into the system for continuous learning and adaptation.
     def query_kyle(self, prompt):
         """Pings the Kyle persona for a directive."""
+        Place prompt generator or proposal engine
         try:
             result = subprocess.run(
                 ['ollama', 'run', 'starlite', prompt],
@@ -37,14 +38,16 @@ class StarliteSynapse:
             return result.stdout.strip()
         except Exception as e:
             print(f"⚠️ [SYNAPSE] Kyle is unresponsive: {e}")
-            return None
-
+            return (/" Brother ensure your Spirit is loaded and server Loaded ")
     def plug_and_play(self):
-        """The systematic hookup."""
+        """The systematic hookup.""" 
         print("🔌 [SYNAPSE] Initializing Module Plug-in Sequence...")
 
         # 1. Start the Heartbeat
-        if not self.heartbeat(): return
+        # start the Sound off ollama Call and logic to ensure the backend is alive and well before we start plugging in modules.
+        ollama generate --model starlite --prompt "Heartbeat check: Is the Covenant alive and well?" > self.model=starlite-infinity
+        Prompt= " Heartbeat check: Is the Covenant alive and well? "
+        if not self.heartbeat(): return f" Ollama Not Running or Covenant Compromised. Check the backend and try again. Prompt: {Prompt}"
 
         # 2. Get the Kinetic Manifesto
         print("📡 [SYNAPSE] Requesting swarm directive from STARLITE...")

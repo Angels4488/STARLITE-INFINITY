@@ -69897,6 +69897,7 @@ class AnalystAgent(BaseAgent):
 """Agent specialized in analysis, logic, and systematic thinking"""
 
 
+
 def __init__(self, toolkit: Optional[ToolKit] = None, shared_memory: Optional[SharedMemory] = None):
 
 super().__init__(
