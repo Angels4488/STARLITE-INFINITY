@@ -1,18 +1,18 @@
 import asyncio
 import time
-from config import Config
-from recorder import Recorder
-from system_state import SystemState
+from core.config import Config
+from core.recorder import Recorder
+from core.system_state import SystemState
 
 # Import STARLITE-INFINITY core components
-from zero_core import ZeroAGI
-from sentient_agent import SentientAgent
-from pantheon import UniversalIntelligenceModel, CognitiveSubstrate
-from intrinsic_motivation_engine import IntrinsicMotivationEngine
-from emergent_behavior_manager import EmergentBehaviorManager
-from constitutional_self_improver import ConstitutionalSelfImprover
-from distributed_compute_fabric import DistributedComputeFabric
-from component_coordinator import ComponentCoordinator
+from core.zero_core import ZeroAGI
+from core.sentient_agent import SentientAgent
+from core.pantheon import UniversalIntelligenceModel, CognitiveSubstrate
+from core.intrinsic_motivation_engine import IntrinsicMotivationEngine
+from core.emergent_behavior_manager import EmergentBehaviorManager
+from core.constitutional_self_improver import ConstitutionalSelfImprover
+from core.distributed_compute_fabric import DistributedComputeFabric
+from core.component_coordinator import ComponentCoordinator
 
 class SovereignAGISystem:
     def __init__(self, config, compute_nodes, constitution_principles, recorder=None):

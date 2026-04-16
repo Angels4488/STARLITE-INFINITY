@@ -1,34 +1,45 @@
-# --- Deep Learning & Core ML ---
-torch>=2.0.0
+# --- Core AGI Dependencies ---
+torch
+torchvision
+torchaudio
+transformers
+sentence-transformers
+faiss-cpu
 numpy
 scipy
-einops
+networkx
+nltk
+qiskit
+qiskit-aer
+optuna
+deap
+gym
 
-# --- Hugging Face & LLM Ecosystem ---
-transformers>=4.30.0
-accelerate>=0.20.0
-bitsandbytes>=0.41.0
-peft>=0.4.0
-sentence-transformers>=2.2.0
-
-# --- Data Processing ---
-pandas
-scikit-learn
-datasets
-
-# --- Vector Databases & RAG ---
-langchain>=0.1.0
-langchain-community>=0.0.1
-chromadb>=0.4.0
-faiss-cpu
-
-# --- Utilities & Development ---
-pytorch-lightning
-timm
-jupyter
-wandb
-tqdm
-python-dotenv
-pyyaml
+# --- Perception & NLP ---
+spacy
+Pillow
+pydantic
+fastapi
+flask
+beautifulsoup4
 requests
-setuptools
+python-dotenv
+gensim
+duckduckgo-search
+
+# --- UI & Voice ---
+pyttsx3
+gTTS
+playsound
+SpeechRecognition
+rich
+tqdm
+prompt-toolkit
+textual
+
+# --- System & Utilities ---
+GitPython
+schedule
+pennylane
+sympy
+einops

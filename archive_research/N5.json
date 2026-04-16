@@ -1,0 +1,27 @@
+{
+  "id": "N5",
+  "version": "1.0.0",
+  "state": {
+    "mass": 1.0,
+    "position": [
+      4.726551447442125,
+      6.54827358461722,
+      -0.08159188389433755
+    ],
+    "velocity": [
+      0.02959517101584122,
+      0.025211933649222463,
+      -0.09441153838268962
+    ],
+    "mode": "APPROACH",
+    "replication_budget": 0.0,
+    "children_spawned": 0
+  },
+  "config": {
+    "claim_radius": 0.3,
+    "repulsion_radius": 1.5,
+    "repulsion_gain": 2.4,
+    "arbitration_range": 0.6,
+    "yield_cooldown": 0
+  }
+}
