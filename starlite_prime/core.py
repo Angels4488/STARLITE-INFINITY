@@ -21,10 +21,10 @@ class StarliteCore:
         self.memory = SemanticMemory(self.db)
         self.nlp = NLPEngine(self.memory)
         self.voice = VoiceModule()
-        
+
         self.input_queue = queue.Queue()
         self.output_queue = queue.Queue() # For UI communication
-        
+
         self.rl_process = None
         self.rl_status_queue = None
         self.rl_control_queue = None
@@ -34,7 +34,7 @@ class StarliteCore:
             'hidden_layers': 2,
             'layer_size': 64
         }
-        
+
         self.is_running = False
 
     def start(self):
@@ -56,7 +56,7 @@ class StarliteCore:
             try:
                 user_input = self.input_queue.get(timeout=0.1)
                 intent = self.nlp.detect_intent(user_input)
-                
+
                 if intent == "train_rl":
                     self._start_rl_process(train_rl_core, (self.best_rl_params,))
                     self.output_queue.put(('status', f"Starting RL training with params: {self.best_rl_params}"))
@@ -69,7 +69,7 @@ class StarliteCore:
                     self.memory.add_memory(db_id, user_input)
                     self.output_queue.put(('response', response))
                     self.voice.speak(response)
-                    
+
             except queue.Empty:
                 continue
             except Exception as e:
@@ -83,10 +83,10 @@ class StarliteCore:
 
         self.rl_status_queue = multiprocessing.Queue()
         self.rl_control_queue = multiprocessing.Queue()
-        
+
         # We need to pass the queues to the target function
         full_args = (self.rl_status_queue, self.rl_control_queue) + args
-        
+
         self.rl_process = multiprocessing.Process(target=target_func, args=full_args)
         self.rl_process.start()
         self.output_queue.put(('rl_started', True))

@@ -35,7 +35,7 @@ logger = logging.getLogger(__name__)
 class StarpilotAGI:
     def __init__(self):
         logger.info("=== AGI_TWINS FULL STACK AWAKENING ===")
-        
+
         # Initializing the mycelium memory layer
         self.memory = MyceliumMemory()
         self.plasticity = NeuralPlasticityEngine()

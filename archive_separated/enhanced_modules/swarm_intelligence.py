@@ -27,12 +27,12 @@ class Nanite:
     def update_state(self):
         """Update physics and cognitive state based on proximity to target."""
         distance = np.linalg.norm(self.position - TARGET_COORDINATE)
-        
+
         # Physics-based momentum calculation
         velocity = max(0.1, 10.0 / (distance + 0.1))
         confidence = min(1.0, 0.5 + (1.0 / (distance + 1.0)))
         mass = NANITE_MASS_BASE + np.random.uniform(-0.05, 0.05)
-        
+
         self.momentum_score = mass * velocity * confidence
 
         # Contention Logic
@@ -64,17 +64,17 @@ class KineticArbiterProtocol:
         # The core enhancement: Selection based on kinetic potential
         self.winner = max(self.contention_pool, key=lambda n: n.momentum_score)
         self.winner.action = "PAYLOAD_RELEASE"
-        
+
         for n in self.contention_pool:
             if n is not self.winner:
                 n.action = "HOLD_POSITION"
-        
+
         return self.winner
 
 class QuantumEntanglementTaskProtocol:
     """Non-local consensus for High Value Targets (HVTs)."""
     HVT_THRESHOLD: float = 15.0 # Momentum requirement for HVT
-    
+
     def __init__(self, hive_id: str):
         self.hive_id = hive_id
         self.assignments: Dict[int, int] = {} # {hvt_id: nanite_id}
@@ -100,7 +100,7 @@ class HiveMindOrchestrator:
         self.swarm = [Nanite(i) for i in range(num_nanites)]
         self.arbiter = KineticArbiterProtocol()
         self.qetp = QuantumEntanglementTaskProtocol("Hive-01")
-        
+
         # Entangle half the swarm
         for n in self.swarm[:num_nanites//2]:
             self.qetp.entangle(n.id)
@@ -111,7 +111,7 @@ class HiveMindOrchestrator:
         for n in self.swarm:
             n.update_state()
             self.arbiter.register(n)
-            
+
         winner = self.arbiter.arbitrate()
         if winner:
             logger.info(f"Cycle {step}: Winner Nanite {winner.id} released payload (Momentum: {winner.momentum_score:.2f})")

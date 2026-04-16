@@ -39,7 +39,7 @@ class LibrarianV2:
                     self.visited_urls.add(url)
                     task = asyncio.create_task(self.process_url(url, depth))
                     tasks.append(task)
-            
+
             # Wait for any task to complete
             if tasks:
                 done, tasks = await asyncio.wait(tasks, return_when=asyncio.FIRST_COMPLETED)
@@ -51,7 +51,7 @@ class LibrarianV2:
                                 await self.queue.put(link)
                     except Exception as e:
                         logger.error(f"Scrape error: {e}")
-            
+
             # Slow down for politeness and resource management
             await asyncio.sleep(0.1)
 
@@ -64,7 +64,7 @@ class LibrarianV2:
                         if response.status == 200:
                             html = await response.text()
                             soup = BeautifulSoup(html, 'html.parser')
-                            
+
                             # Distillation Logic
                             text = self.distill_content(soup)
                             if text:
@@ -84,7 +84,7 @@ class LibrarianV2:
         # Remove scripts, styles, etc.
         for script in soup(["script", "style"]):
             script.decompose()
-        
+
         # Extract meaningful text
         text = soup.get_text(separator=' ')
         # Simple cleanup

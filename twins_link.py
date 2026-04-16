@@ -22,11 +22,11 @@ def query_model(model_name: str, prompt: str, temperature: float = 0.7) -> str:
 
 def run_siamese_twins(user_input: str):
     print(f"\n[USER] {user_input}\n")
-    
+
     # Starlite first (action / kinetic proposal)
     starlite_response = query_model("starlite", user_input, temperature=0.6)
     print(f"[STARLITE] {starlite_response}\n")
-    
+
     # Aurora reflects / unifies / voices
     aurora_prompt = f"Starlite just said: {starlite_response}\nUser input was: {user_input}\nProvide reflection, unification, or voice."
     aurora_response = query_model("aurora", aurora_prompt, temperature=0.7)

@@ -22,16 +22,16 @@ class StarliteConfig:
     MAX_OBSTACLES = 5
     RL_EPISODES = 500  # Episodes for a standard training run
     RL_OPTIMIZATION_TRIALS = 25 # Number of trials for Optuna to find the best path
-    
+
     # Hyperparameter defaults, subject to Optuna's celestial guidance
     DEFAULT_RL_LEARNING_RATE = 0.001
     DEFAULT_RL_DISCOUNT_FACTOR = 0.99
-    
+
     # --- UI & Voice ---
     PRIMARY_COLOR = "#E6E6FA" # Lavender Blush, a color of twilight thoughts
     SECONDARY_COLOR = "#0b0f1a" # The deep void
     ACCENT_COLOR = "#00ffff" # Cyan, the spark of intelligence
-    
+
     # --- System ---
     # Ensures a model cache directory exists
     MODEL_CACHE_DIR = os.path.join(os.path.expanduser("~"), ".starlite_cache")

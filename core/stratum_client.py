@@ -15,7 +15,7 @@ class StratumClient:
     StratumClient: Manages JSON-RPC connection to a mining pool.
     Supports mining.subscribe, mining.authorize, and mining.submit.
     """
-    
+
     def __init__(self, host: str, port: int, worker_name: str, password: str = "x"):
         self.host = host
         self.port = port
@@ -37,10 +37,10 @@ class StratumClient:
             self.sock.connect((self.host, self.port))
             self.running = True
             logger.info(f"Connected to {self.host}:{self.port}")
-            
+
             # Start message listener thread
             threading.Thread(target=self._listen, daemon=True).start()
-            
+
             # Step 1: Subscribe
             self.send_request("mining.subscribe", [])
             return True

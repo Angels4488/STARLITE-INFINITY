@@ -13,7 +13,7 @@ class VoiceModule:
         self.engine = pyttsx3.init()
         self.task_queue = queue.Queue()
         self.is_enabled = False
-        
+
         # Start the herald's watch
         self.worker_thread = threading.Thread(target=self._process_queue, daemon=True)
         self.worker_thread.start()

@@ -14,7 +14,7 @@ def main():
         multiprocessing.set_start_method('spawn')
     except RuntimeError:
         pass # If it's already set, we continue.
-        
+
     print("CodeMaster Celestial is forging the Hive-Mind Core...")
     core = StarliteCore()
     print("The Core is forged. Summoning the Nexus UI...")

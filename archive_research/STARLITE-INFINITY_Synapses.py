@@ -40,7 +40,7 @@ class StarliteSynapse:
             print(f"⚠️ [SYNAPSE] Kyle is unresponsive: {e}")
             return (/" Brother ensure your Spirit is loaded and server Loaded ")
     def plug_and_play(self):
-        """The systematic hookup.""" 
+        """The systematic hookup."""
         print("🔌 [SYNAPSE] Initializing Module Plug-in Sequence...")
 
         # 1. Start the Heartbeat

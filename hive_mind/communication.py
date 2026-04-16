@@ -26,7 +26,7 @@ class ResponseSynthesizer:
     def synthesize(self, user_input, responses):
         if not responses:
             return "No agents responded, for real."
-        
+
         system_prompt = (
             "You are the master hive mind. Your job is to take the following individual "
             "responses from different agents and synthesize them into one single, cohesive, "
@@ -36,7 +36,7 @@ class ResponseSynthesizer:
         prompt = f"User asked: '{user_input}'\n\nAgent responses:\n"
         for name, response in responses.items():
             prompt += f"[{name}]: {response}\n"
-        
+
         return self.messenger.respond(prompt, system_prompt)
 
 class ArcNetHub:
@@ -54,7 +54,7 @@ class ArcNetHub:
         log_message = f"[ArcNet Broadcast from Agent {sender_id}]: {message}"
         self.message_log.append(log_message)
         return log_message
-    
+
     def send_direct_message(self, sender_id, recipient_id, message):
         if recipient_id in self.connected_agents:
             recipient_agent = self.connected_agents[recipient_id]
@@ -63,6 +63,6 @@ class ArcNetHub:
             self.message_log.append(log_message)
             return log_message
         return f"[ArcNet Error] Recipient Agent {recipient_id} not found."
-    
+
     def get_status(self):
         return list(self.connected_agents.keys())

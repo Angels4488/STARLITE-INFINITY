@@ -68,7 +68,7 @@ class STARLITEGUI:
         self.stargate_canvas.pack(side=tk.LEFT, padx=10, pady=10)
         self.stargate_circle = self.stargate_canvas.create_oval(10, 10, 190, 190, outline="#5a8c9a", width=5)
         self.stargate_event_horizon = self.stargate_canvas.create_oval(70, 70, 130, 130, fill="#000000", outline="#00aaff", width=2)
-        
+
         self.status_frame = tk.Frame(self.top_frame, bg="#001a2a")
         self.status_frame.pack(side=tk.LEFT, fill=tk.BOTH, expand=True, padx=10)
 
@@ -97,7 +97,7 @@ class STARLITEGUI:
 
         self.send_button = ttk.Button(self.input_frame, text="DIAL", command=self.send_message)
         self.send_button.pack(side=tk.LEFT, padx=(5, 0))
-        
+
         self.memory_button = ttk.Button(self.input_frame, text="MEMORY CORE", command=self.launch_memory_visualizer)
         self.memory_button.pack(side=tk.LEFT, padx=(5, 0))
 
@@ -110,7 +110,7 @@ class STARLITEGUI:
         user_input = self.user_input_entry.get()
         if not user_input:
             return
-        
+
         self.display_message(f"STARPILOT: {user_input}", 'user')
         self.user_input_entry.delete(0, END)
         self.open_stargate()
@@ -118,14 +118,14 @@ class STARLITEGUI:
 
     def display_message(self, message, tag, color=None, loading=False):
         self.conversation_area.configure(state='normal')
-        
+
         if self.loading_message_id is not None and not loading:
             try:
                 self.conversation_area.delete(self.loading_message_id, f"{self.loading_message_id} lineend")
                 self.loading_message_id = None
             except tk.TclError:
                 pass
-        
+
         if loading:
             self.loading_message_id = self.conversation_area.index('end-1c')
             self.conversation_area.insert(END, message, ('loading',))
@@ -134,7 +134,7 @@ class STARLITEGUI:
                 self.conversation_area.tag_config(tag, foreground=color)
             self.conversation_area.insert(END, f"{message}\n", (tag,))
             self.voice_interface.speak(message)
-        
+
         self.conversation_area.see(END)
         self.conversation_area.configure(state='disabled')
 
@@ -204,7 +204,7 @@ class STARLITEGUI:
                 status = "Connected" if response.ok else "Disconnected"
             except requests.exceptions.RequestException:
                 status = "Disconnected"
-            
+
             if status != self.ollama_status_cache['status']:
                 self.ollama_status_cache['status'] = status
                 color = "#00ff00" if status == "Connected" else "#ff0000"

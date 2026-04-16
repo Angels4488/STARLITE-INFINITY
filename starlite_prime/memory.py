@@ -51,10 +51,10 @@ class SemanticMemory:
         interactions = self.db.get_all_interactions()
         if not interactions:
             return
-            
+
         embeddings = self.embedding_model.encode([text for _, text in interactions])
         self.index.add(np.array(embeddings, dtype='float32'))
-        
+
         for i, (db_id, _) in enumerate(interactions):
             self.faiss_map[i] = db_id
 
@@ -80,7 +80,7 @@ class SemanticMemory:
 
         query_embedding = self.embedding_model.encode([query])
         _, indices = self.index.search(np.array(query_embedding, dtype='float32'), k)
-        
+
         recalled_texts = []
         with self.db.conn:
             for i in indices[0]:

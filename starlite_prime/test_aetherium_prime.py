@@ -11,7 +11,7 @@ class TestAetheriumPrime(unittest.TestCase):
     Each test is a question posed to the fabric of its reality, ensuring its
     integrity and correctness.
     """
-    
+
     @classmethod
     def setUpClass(cls):
         """A ritual performed once before all trials to prepare the sacred grounds."""
@@ -24,12 +24,12 @@ class TestAetheriumPrime(unittest.TestCase):
         """Trial of Chronicles: Does the AGI remember what has been spoken?"""
         print("\nRunning Trial of Chronicles...")
         db = ConversationDB(db_path=self.test_db_path)
-        
+
         # Test logging
         log_id = db.log_interaction("What is a star?", "A luminous sphere of plasma.", "No context.")
         self.assertIsInstance(log_id, int, "Log ID should be an integer.")
         self.assertGreater(log_id, 0, "Log ID should be positive.")
-        
+
         # Test retrieval
         with sqlite3.connect(self.test_db_path) as conn:
             cursor = conn.execute("SELECT user_input, response FROM conversations WHERE id = ?", (log_id,))
@@ -37,7 +37,7 @@ class TestAetheriumPrime(unittest.TestCase):
             self.assertIsNotNone(row, "The logged interaction was not found.")
             self.assertEqual(row[0], "What is a star?")
             self.assertEqual(row[1], "A luminous sphere of plasma.")
-        
+
         db.close()
         print("Trial Passed.")
 
@@ -45,18 +45,18 @@ class TestAetheriumPrime(unittest.TestCase):
         """Trial of Movement: Does the agent perceive and move within its world correctly?"""
         print("\nRunning Trial of Movement...")
         env = GridWorld(size=5)
-        
+
         # Test state shape
         initial_state = env.reset()
         self.assertEqual(initial_state.shape[0], 3 * 5 * 5, "State vector shape is incorrect.")
-        
+
         # Test movement
         env.agent_pos = [2, 2]
         # Action 0 is 'Up'
         state, reward, done = env.step(action=0)
         self.assertEqual(env.agent_pos, [1, 2], "Agent did not move 'Up' correctly.")
         self.assertFalse(done, "Game should not be done after one move.")
-        
+
         # Test goal condition
         env.agent_pos = [1, 1]
         env.goal_pos = [1, 2]

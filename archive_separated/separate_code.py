@@ -21,13 +21,13 @@ files_to_process = [
 def extract_content(content):
     python_blocks = []
     commentary_blocks = []
-    
+
     # 1. Look for markdown code blocks first
     code_blocks = re.findall(r'```python\n(.*?)\n```', content, re.DOTALL | re.IGNORECASE)
     # Remove them from content to avoid double processing
     content_remaining = re.sub(r'```python\n(.*?)\n```', 'CODE_BLOCK_PLACEHOLDER', content, flags=re.DOTALL | re.IGNORECASE)
     python_blocks.extend(code_blocks)
-    
+
     # 2. Look for "Python" followed by code
     # Often formatted as:
     # Python
@@ -51,24 +51,24 @@ def extract_content(content):
             if cleaned_p:
                 final_commentary.append(cleaned_p)
             continue
-        
+
         # Heuristic for python code: starts with common keywords and has pythonic structure
         lines = p.strip().split('\n')
         if not lines:
             continue
-            
+
         is_python = False
         first_line = lines[0].strip()
         if first_line.startswith(('import ', 'from ', 'class ', 'def ', '#!/usr/bin/python')):
             is_python = True
         elif len(lines) > 2 and any(l.strip().startswith(('class ', 'def ')) for l in lines[:3]):
             is_python = True
-            
+
         if is_python:
             python_blocks.append(p.strip())
         else:
             final_commentary.append(p.strip())
-            
+
     return python_blocks, "\n\n".join(final_commentary)
 
 # Clear MAINMODULES.txt
@@ -80,20 +80,20 @@ for filename in files_to_process:
     if not os.path.exists(path):
         print(f"Skipping {filename}, not found.")
         continue
-        
+
     print(f"Processing {filename}...")
     with open(path, 'r', encoding='utf-8', errors='ignore') as f:
         content = f.read()
-        
+
     py_blocks, commentary = extract_content(content)
-    
+
     # Write python blocks to MAINMODULES.txt
     with open(mainmodules_file, 'a', encoding='utf-8') as f:
         for block in py_blocks:
             f.write(f"# --- Extracted from {filename} ---\n")
             f.write(block.strip())
             f.write("\n\n")
-            
+
     # Write commentary to confessions folder
     conf_path = os.path.join(confessions_dir, filename)
     with open(conf_path, 'w', encoding='utf-8') as f:

@@ -54,7 +54,7 @@ class PerceptionModule(nn.Module):
         logger.info("Initializing PerceptionModule with BERT and Vision Transformer...")
         self.tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
         self.text_model = BertModel.from_pretrained('bert-base-uncased').to(DEVICE)
-        
+
         # Enhanced Image Processing: Using the full ViT model for real embeddings
         self.image_model = ViTModel.from_pretrained('google/vit-base-patch16-224-in21k').to(DEVICE)
         self.image_projector = nn.Linear(768, embedding_dim).to(DEVICE)
@@ -75,10 +75,10 @@ class PerceptionModule(nn.Module):
             embeddings.append(self.process_text(text_input))
         if image_input:
             embeddings.append(self.process_image(image_input))
-        
+
         if not embeddings:
             return torch.zeros(1, 1, EMBEDDING_DIM).to(DEVICE)
-        
+
         return torch.cat(embeddings, dim=1)
 
 class AkashicRecord:
@@ -89,7 +89,7 @@ class AkashicRecord:
         self.episodic_index = faiss.IndexFlatL2(embedding_dim)
         self.episodes = []
         self.semantic_graph = nx.MultiDiGraph()
-        
+
         # Use a high-quality sentence encoder for memory
         self.encoder = pipeline('feature-extraction', model='sentence-transformers/bert-base-nli-mean-tokens', device=DEVICE)
         self.ner_pipeline = pipeline('ner', model='dbmdz/bert-large-cased-finetuned-conll03-english', device=DEVICE)
@@ -103,7 +103,7 @@ class AkashicRecord:
         emb = self._get_embedding(text).reshape(1, -1)
         self.episodic_index.add(emb)
         self.episodes.append({"text": text, "metadata": metadata or {}})
-        
+
         # Automatic Knowledge Synthesis: Add entities to semantic graph
         entities = self.ner_pipeline(text)
         for ent in entities:
@@ -126,12 +126,12 @@ class TheResonanceChamber:
     def process_signal(self, text: str):
         sentiment = self.sentiment_analyzer.polarity_scores(text)
         influence = np.zeros(self.dimensions)
-        
+
         if sentiment['compound'] > 0.5: influence += EMOTIONAL_ANCHORS['trust'] * sentiment['compound']
         elif sentiment['compound'] < -0.5: influence += EMOTIONAL_ANCHORS['threat'] * abs(sentiment['compound'])
-        
+
         if any(word in text.lower() for word in ["why", "how", "what"]): influence += EMOTIONAL_ANCHORS['curiosity'] * 0.5
-        
+
         self.state_vector = np.tanh(0.8 * self.state_vector + 0.2 * influence)
 
     def get_resonance(self) -> Dict[str, float]:
@@ -156,7 +156,7 @@ class QuantumLogicEngine:
             qc = QuantumCircuit(self.num_qubits)
             num_h = int(round(self.num_qubits * curiosity))
             if num_h > 0: qc.h(range(num_h))
-            
+
             job = self.simulator.run(transpile(qc, self.simulator))
             probs = np.abs(job.result().get_statevector())**2
             return {f"Hypothesis_{i}": float(p) for i, p in enumerate(probs)}
@@ -175,7 +175,7 @@ class NeuralPlasticityEngine:
         # Reinforcement
         for path in active_paths:
             self.synaptic_weights[path] = self.synaptic_weights.get(path, 0.5) + (outcome_score * 0.1)
-        
+
         # Global Entropic Decay
         for path in list(self.synaptic_weights.keys()):
             self.synaptic_weights[path] *= (1 - self.decay_rate)
@@ -206,24 +206,24 @@ class ExecutiveController:
     def reason_and_act(self, text: List[str] = None, image: List[str] = None) -> str:
         # 1. Perceive
         percept = self.system.perception(text, image)
-        
+
         # 2. Emotional update
         if text: self.system.resonance.process_signal(text[0])
         res = self.system.resonance.get_resonance()
-        
+
         # 3. Memory Recall
         past = self.system.memory.recall(text[0] if text else "current state")
-        
+
         # 4. Quantum Exploration
         hypotheses = self.system.quantum.explore_hypotheses(res['curiosity'])
         best_hyp = max(hypotheses, key=hypotheses.get)
-        
+
         # 5. Decision (Simulated)
         action = f"Based on {best_hyp} and resonance {res}, I will explore the concept further."
-        
+
         # 6. Plasticity update
         self.system.plasticity.update_pathways(["perception", "memory", "quantum"], 0.8)
-        
+
         return action
 
 class AGISystem(nn.Module):

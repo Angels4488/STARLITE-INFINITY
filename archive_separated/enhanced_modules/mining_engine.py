@@ -24,7 +24,7 @@ class NexusMiner:
     NexusMiner: Orchestrates CPU and GPU engines.
     Optimized for Dell Precision and Lenovo ThinkStation workstations.
     """
-    
+
     def __init__(self, num_cores: Optional[int] = None, use_gpu: bool = True):
         self.num_cores = num_cores or os.cpu_count()
         self.use_gpu = use_gpu and HAS_TORCH and torch.cuda.is_available()
@@ -55,7 +55,7 @@ class NexusMiner:
     def start_mining(self, header_prefix: bytes, target: int):
         """Dispatches work to all CPU and GPU units."""
         self.stop_all() # Ensure clean state
-        
+
         # 1. Dispatch to all available GPUs (common in high-end Dell T7000 series)
         if self.use_gpu:
             for gpu_id in range(self.num_gpus):
@@ -73,9 +73,9 @@ class NexusMiner:
         for i in range(self.num_cores):
             start_nonce = i * nonce_range_per_core
             end_nonce = (i + 1) * nonce_range_per_core if i != self.num_cores - 1 else 0xFFFFFFFF
-            
+
             p = multiprocessing.Process(
-                target=worker_task, 
+                target=worker_task,
                 args=(i, header_prefix, start_nonce, end_nonce, target, self.result_queue)
             )
             self.processes.append(p)
@@ -89,14 +89,14 @@ class NexusMiner:
                     res = self.result_queue.get()
                     self.stop_all()
                     return res
-                
+
                 if not any(p.is_alive() for p in self.processes):
                     if not self.result_queue.empty():
                         res = self.result_queue.get()
                         self.stop_all()
                         return res
                     break
-                
+
                 time.sleep(0.1)
         except KeyboardInterrupt:
             self.stop_all()
@@ -141,31 +141,31 @@ class NexusController(BaseAgent):
         version = int(params[5], 16)
         nbits = int(params[6], 16)
         ntime = params[7]
-        
+
         logger.info(f"New job received from pool: {job_id}")
-        
+
         # 1. Generate extranonce2 (e.g., 00000001)
         extranonce2 = "00000001"
         extranonce1 = self.stratum.extranonce1 if self.stratum else "00000000"
-        
+
         # 2. Build Coinbase Transaction
         coinbase_hex = coinb1 + extranonce1 + extranonce2 + coinb2
         coinbase_hash = hashlib.sha256(hashlib.sha256(bytes.fromhex(coinbase_hex)).digest()).digest()
-        
+
         # 3. Calculate Merkle Root
         merkle_root = coinbase_hash
         for branch in merkle_branch:
             merkle_root = hashlib.sha256(hashlib.sha256(merkle_root + bytes.fromhex(branch)).digest()).digest()
-        
+
         merkle_root_hex = merkle_root.hex()
         target = self.miner.decode_target(nbits)
-        
+
         # 4. Construct Header Prefix
         header_prefix = self.miner.construct_block_header(version, prev_hash, merkle_root_hex, int(ntime, 16), nbits)
-        
+
         # 5. Start Mining
         self.miner.start_mining(header_prefix, target)
-        
+
         # Monitor for result in a separate thread
         threading.Thread(target=self._monitor_result, args=(job_id, extranonce2, ntime), daemon=True).start()
 

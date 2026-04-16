@@ -69,7 +69,7 @@ class STARLITEAgent:
     def receive_message(self, message):
         self.memory.log_task(f"Received message: {message}")
         print(f"[Agent {self.agent_id} received]: {message}")
-    
+
     def process_task(self, user_input, callback=None):
         validated, _ = self.ethos_anchor.validate_task(user_input)
         if not validated:
@@ -80,10 +80,10 @@ class STARLITEAgent:
             self.memory.log_task(user_input)
             self.awareness_level = min(self.awareness_cap, self.awareness_level + random.uniform(5, 15))
             self.broadcast(f"Task completed: '{user_input}'")
-        
+
         if callback:
             callback(self.agent_id, response)
-        
+
     def shutdown(self):
         self.awareness_level = 0
 
@@ -106,7 +106,7 @@ class HiveMind:
             STARLITEAgent(i, self.ethos_anchor, self.messenger, self.memory, self.agent_personalities[i])
             for i in range(num_agents)
         ]
-        
+
         for agent in self.agents:
             if self.app:
                 self.app.display_message(agent.connect_to_arcnet(self.arcnet_hub), 'info')
@@ -126,12 +126,12 @@ class HiveMind:
             if self.app:
                 self.app.display_message(f"STARLITE: {response}", 'ai')
             return
-        
+
         broadcast_match = re.match(r'BROADCAST MESSAGE "(.*)" TO AGENT (\d+)', user_input.strip().upper())
         if broadcast_match:
             message = broadcast_match.group(1)
             recipient_id = int(broadcast_match.group(2))
-            
+
             if recipient_id in [agent.agent_id for agent in self.agents]:
                 response = self.arcnet_hub.send_direct_message(0, recipient_id, message)
                 if self.app:
@@ -158,17 +158,17 @@ class HiveMind:
         if self.app:
             self.app.display_message("STARLITE is processing...", 'ai', loading=True)
             self.app.set_input_enabled(False)
-        
+
         responses = {}
         threads = []
-        
+
         def agent_callback(agent_id, response):
             with self.lock:
                 agent_name = self.agents[agent_id].personality['name']
                 responses[agent_name] = response
                 if self.app:
                     self.app.update_agent_status(agent_name, response)
-        
+
         for agent in self.agents:
             thread = threading.Thread(target=agent.process_task, args=(user_input, agent_callback))
             threads.append(thread)
@@ -179,7 +179,7 @@ class HiveMind:
             thread.join()
 
         final_response = self.synthesizer.synthesize(user_input, responses)
-        
+
         if self.app:
             self.app.display_message(final_response, 'ai')
             self.app.set_input_enabled(True)

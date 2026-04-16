@@ -19,7 +19,7 @@ class NonceEngine:
     High-performance Nonce Engine designed for Lenovo ThinkStation P330.
     Optimized for multi-core CPU execution.
     """
-    
+
     def __init__(self, core_id: int):
         self.core_id = core_id
         self.running = False
@@ -33,19 +33,19 @@ class NonceEngine:
         """Iterates through a range of nonces to find a valid hash."""
         self.running = True
         logger.info(f"Core-{self.core_id} started mining range {start_nonce} to {end_nonce}")
-        
+
         for nonce in range(start_nonce, end_nonce):
             if not self.running:
                 break
-                
+
             # Construct the header with the current nonce (4 bytes, little-endian)
             nonce_bytes = nonce.to_bytes(4, 'little')
             header = header_prefix + nonce_bytes
-            
+
             # Double SHA-256
             hash_result = self.double_sha256(header)
             hash_int = int.from_bytes(hash_result, 'big')
-            
+
             if hash_int < target:
                 logger.info(f"Core-{self.core_id} FOUND VALID NONCE: {nonce}")
                 logger.info(f"Hash: {hash_result.hex()}")
@@ -98,7 +98,7 @@ def worker_task(core_id: int, header_prefix: bytes, start_nonce: int, end_nonce:
 def gpu_worker_task(device_id: int, header_prefix: bytes, start_nonce: int, end_nonce: int, target: int, result_queue: multiprocessing.Queue):
     engine = VectorizedNonceEngine(device=f"cuda:{device_id}" if HAS_TORCH and torch.cuda.is_available() else "cpu")
     # Increased batch size for Zotac/XFX performance
-    batch_size = 50000 
+    batch_size = 50000
     for current_start in range(start_nonce, end_nonce, batch_size):
         found_nonce = engine.mine_batch(header_prefix, current_start, batch_size, target)
         if found_nonce is not None:

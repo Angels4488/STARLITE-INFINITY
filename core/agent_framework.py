@@ -75,7 +75,7 @@ if __name__ == "__main__":
     hive.add_agent(BAEAgent("BAE-Prime"))
     hive.add_agent(CortanaAgent("Cortana-V2"))
     hive.add_agent(SovereignAgent("TheSovereign"))
-    
+
     print("\n--- AGENT FRAMEWORK DEMONSTRATION ---")
     results = hive.dispatch("Optimize distributed AGI memory allocation.")
     for name, res in results.items():

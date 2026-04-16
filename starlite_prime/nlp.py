@@ -18,7 +18,7 @@ class NLPEngine:
         """
         self.memory = memory
         self.device = "cuda" if torch.cuda.is_available() else "cpu"
-        
+
         self.tokenizer = AutoTokenizer.from_pretrained(
             StarliteConfig.LLM_MODEL, cache_dir=StarliteConfig.MODEL_CACHE_DIR
         )
@@ -47,18 +47,18 @@ class NLPEngine:
         through the language model to generate a new piece of wisdom.
         """
         context = self.memory.recall_memories(user_input)
-        
+
         prompt = self._format_prompt(user_input, context)
-        
+
         inputs = self.tokenizer(prompt, return_tensors="pt", return_attention_mask=False).to(self.device)
-        
+
         with torch.no_grad():
             outputs = self.model.generate(**inputs, max_length=512, pad_token_id=self.tokenizer.eos_token_id)
 
         full_response = self.tokenizer.decode(outputs[0], skip_special_tokens=True)
         # Extract only the newly generated text after the prompt
         response_text = full_response[len(prompt):].strip()
-        
+
         return response_text, context
 
     def _format_prompt(self, user_input: str, context: str) -> str:

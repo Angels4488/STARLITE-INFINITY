@@ -19,7 +19,7 @@ class NeuralPlasticityEngine:
         # Reinforcement
         for path in active_paths:
             self.synaptic_weights[path] = self.synaptic_weights.get(path, 0.5) + (outcome_score * 0.1)
-        
+
         # Global Entropic Decay
         for path in list(self.synaptic_weights.keys()):
             self.synaptic_weights[path] *= (1 - self.decay_rate)

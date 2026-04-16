@@ -40,7 +40,7 @@ class StarliteUI:
         main_frame.pack(fill="both", expand=True)
 
         ttk.Label(main_frame, text="STARPILOT AGI", style='Header.TLabel').pack(pady=10)
-        
+
         # Conversation Area
         self.conversation = scrolledtext.ScrolledText(main_frame, height=15, bg="#1c2536", fg=StarliteConfig.PRIMARY_COLOR, font=("Consolas", 11), wrap=tk.WORD, relief=tk.FLAT)
         self.conversation.pack(fill="both", expand=True, pady=10)
@@ -56,13 +56,13 @@ class StarliteUI:
         self.input_entry.bind("<Return>", lambda e: self._send_input())
         submit_btn = ttk.Button(input_frame, text="Send", command=self._send_input)
         submit_btn.pack(side="right", padx=5)
-        
+
         # Control Panel
         control_frame = ttk.Frame(main_frame)
         control_frame.pack(fill='x', pady=5)
         ttk.Button(control_frame, text="Train RL Agent", command=lambda: self._send_command("train rl agent")).pack(side='left', padx=5)
         ttk.Button(control_frame, text="Optimize RL Agent", command=lambda: self._send_command("optimize rl agent")).pack(side='left', padx=5)
-        
+
         self.voice_var = tk.BooleanVar(value=False)
         voice_check = ttk.Checkbutton(control_frame, text="Enable Voice", variable=self.voice_var, command=self._toggle_voice)
         voice_check.pack(side='right', padx=5)
@@ -85,7 +85,7 @@ class StarliteUI:
         self.input_entry.delete(0, "end")
         self._log_message(f"You: {user_input}", "user")
         self.core.input_queue.put(user_input)
-    
+
     def _log_message(self, message: str, tag: str):
         self.conversation.insert("end", f"{message}\n\n", tag)
         self.conversation.see("end")
@@ -121,21 +121,21 @@ class StarliteUI:
                         self._log_message(f"Optimization Found Best Params: {data}", "system")
             except queue.Empty:
                 pass
-        
+
         self.after_id = self.root.after(100, self._process_queues)
 
     def _draw_grid(self, data: dict):
         self.rl_canvas.delete("all")
         size = StarliteConfig.GRID_SIZE
         cell_size = 400 / size
-        
+
         for obs in data['obstacles']:
             x0, y0 = obs[1] * cell_size, obs[0] * cell_size
             self.rl_canvas.create_rectangle(x0, y0, x0 + cell_size, y0 + cell_size, fill="#c0392b", outline="")
-        
+
         gx, gy = data['goal_pos'][1] * cell_size, data['goal_pos'][0] * cell_size
         self.rl_canvas.create_rectangle(gx+2, gy+2, gx+cell_size-2, gy+cell_size-2, fill="#f1c40f", outline="")
-        
+
         ax, ay = data['agent_pos'][1] * cell_size, data['agent_pos'][0] * cell_size
         self.rl_canvas.create_oval(ax+4, ay+4, ax+cell_size-4, ay+cell_size-4, fill="#2ecc71", outline="")
 
