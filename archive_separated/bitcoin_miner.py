@@ -163,7 +163,7 @@ class BitcoinMiner:
     """
     def __init__(
         self,
-        target_bits: Optional[int] = None,
+        target_bits: Optional[int] = 1,
         db_path: str = "/media/agi/bitcoin_mining.db",
         max_nonce: int = 2**32 - 1,
         timestamp_step: int = 1,
@@ -295,7 +295,7 @@ if __name__ == "__main__":
     # Block hash from explorer: 00000000000000000000abb5f60029926dc111a1657644fee8f7d206e040ab89
     # We need the full 80‑byte header – fetch it from a public API or a known fixture.
     # For demo we use a known header hex for block 500000 (source: blockchain.com):
-    header_hex_500k = (
+    header_hex_500 = (
         "02000000" # version
         "6a625f06636b8bb6ac7b960a8d03705d1ace08b1a19da3fdcc99ddbd" # prev_block
         "9480b5e91ef6b1bd178fee2e668f9ba3ef201a6ac6f5ef749cb6434ef63309b6d" # merkle_root
@@ -303,18 +303,18 @@ if __name__ == "__main__":
         "f1c14f1a" # nbits = 0x1a4fc1f1
         "d5c59505" # nonce = 0x0595c5d5 = 1560058197
     )
-    header_500k = BitcoinHeader.from_hex(header_hex_500k)
-    print("Block #500000 validation:", BitcoinMiner.validate_header(header_500k)) # should be True
-    print("Hash:", header_500k.block_hash_hex())
-    print("Target (from nbits):", hex(nbits_to_target(header_500k.nbits)))
+    header_500 = BitcoinHeader.from_hex('header_hex_500')
+    print("Block #500000 validation:", BitcoinMiner.validate_header(header_500)) # should be True
+    print("Hash:", header_500.block_hash_hex())
+    print("Target (from nbits):", hex(nbits_to_target(header_500.nbits)))
     # Example 2: Mine a block with artificially low difficulty (e.g., 20 leading zero bits)
     # Start from the same header but lower the target to make mining fast.
     synth_header = BitcoinHeader(
-        version=header_500k.version,
-        prev_block=header_500k.prev_block,
-        merkle_root=header_500k.merkle_root,
-        timestamp=header_500k.timestamp,
-        nbits=header_500k.nbits, # will be ignored if target_bits set
+        version='header_500'.version,
+        prev_block='header_500'.prev_block,
+        merkle_root='header_500'.merkle_root,
+        timestamp='header_500'.timestamp,
+        nbits='header_500'.nbits, # will be ignored if target_bits set
         nonce=header_500k.nonce,
     )
     miner = BitcoinMiner(target_bits=20) # ~1M hashes expected
