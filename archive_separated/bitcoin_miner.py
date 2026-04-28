@@ -211,7 +211,7 @@ class BitcoinMiner:
         self,
         header: BitcoinHeader,
         run_label: str = "btc_mine",
-        mode: str = "simulated_mine",
+        mode: str = "live",
         allow_timestamp_roll: bool = True,
         progress_cb: Optional[Callable[[int], None]] = None,
     ) -> Dict[str, Any]:
@@ -305,7 +305,7 @@ if __name__ == "__main__":
         "d5c59505" # nonce = 0x0595c5d5 = 1560058197
     )
     header_500 = BitcoinHeader.from_hex('header_hex_500')
-    print("Block #500000 validation:", BitcoinMiner.validate_header(header_500)) # should be True
+    print("Block 500000 validation:", BitcoinMiner.validate_header(header_500)) # should be True
     print("Hash:", header_500.block_hash_hex())
     print("Target (from nbits):", hex(nbits_to_target(header_500.nbits)))
     # Example 2: Mine a block with artificially low difficulty (e.g., 20 leading zero bits)

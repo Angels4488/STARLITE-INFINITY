@@ -1,0 +1,16 @@
+--2026-04-28 12:35:28--  https://cryptotabfarm.com/download/farm_miner_lsjuw6
+Resolving cryptotabfarm.com (cryptotabfarm.com)... 104.21.95.113, 172.67.144.167, 2606:4700:3036::ac43:90a7, ...
+Connecting to cryptotabfarm.com (cryptotabfarm.com)|104.21.95.113|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: /en/download/farm_miner_lsjuw6/ [following]
+--2026-04-28 12:35:29--  https://cryptotabfarm.com/en/download/farm_miner_lsjuw6/
+Reusing existing connection to cryptotabfarm.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘farm_miner_lsjuw6.1’
+
+     0K .......... .......... .......... .......... .......... 12.4M
+    50K .......... .......... .......... ........              1.52M=0.03s
+
+2026-04-28 12:35:31 (3.02 MB/s) - ‘farm_miner_lsjuw6.1’ saved [90382]
+

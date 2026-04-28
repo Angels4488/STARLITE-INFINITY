@@ -21,7 +21,7 @@ def safe_read_log(path: str, max_lines: int = 100) -> List[str]:
     try:
         with open(path, "r") as f:
             lines = f.readlines()
-        return [line.rstrip("") 
+        return [line.rstrip("")
         for line in lines[-max_lines:]]
     except Exception:
         return []

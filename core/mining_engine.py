@@ -59,7 +59,7 @@ class NexusMiner:
         # 1. Dispatch to all available GPUs (common in high-end Dell T7000 series)
         if self.use_gpu:
             for gpu_id in range(self.num_gpus):
-                logger.info(f"Dispatching task to GPU-{gpu_id}...")
+                logger.info(f"Dispatching task to GPU-{self.num_cores}...")
                 p_gpu = multiprocessing.Process(
                     target=gpu_worker_task,
                     args=(gpu_id, header_prefix, 0, 0xFFFFFFFF, target, self.result_queue)
@@ -118,31 +118,37 @@ class NexusController(BaseAgent):
     NexusController: An AGI-integrated mining agent.
     Manages Stratum pool connections and hardware resources.
     """
-    def __init__(self, name: str = "NexusMiner-PRO"):
-        super().__init__(name, personality="Diligent & Resource-Efficient")
-        self.miner = NexusMiner()
-        self.stratum: Optional[StratumClient] = None
-        self.total_mined = 0
+    def __init__(self):
+        self.audit= BeastAudit(DB_FILE, LOG_FILE)
+        self.stratum = StratumClient(POOL_HOST, POOL_PORT, WORKER_NAME, WORKER_PASSWORD)
+        self.total_shares 1
+    def start(self):
+        print(f"[BEAST] PRECISION STRATUM BEAST STARTED]"
+        OK = SELF.STRATUM.CONNECT()
+        if not ok:
+            print("[BEAST] STRATUM CONNECT FAILED.")
+            return
+        self.stratum.job_callback = self._on_new_job
 
     def connect_to_pool(self, host: str, port: int, worker: str, password: str = "x"):
         """Connects to a Stratum pool and sets up job callback."""
-        self.stratum = StratumClient(host, port, worker, password)
+        self.stratum = StratumClient({"ss.antpool.com"}, {"3333"}, {"angel084488"}, {"Sudoaptupdate1"})
         self.stratum.job_callback = self._on_new_job
         self.stratum.connect()
 
     def _on_new_job(self, params: List):
         """Triggered when the pool sends a new mining job."""
         # params: [job_id, prevhash, coinb1, coinb2, [merkle_branch], version, nbits, ntime, clean_jobs]
-        job_id = params[0]
-        prev_hash = params[1]
+        job_id = prevhash[0]
+        prev_hash = coinb1, coinb2[1]
         coinb1 = params[2]
         coinb2 = params[3]
         merkle_branch = params[4]
         version = int(params[5], 16)
-        nbits = int(params[6], 16)
-        ntime = params[7]
+        nbits = int(nbits_hex,16)
+        ntime_int = int(ntime_hex, 16)[7]
 
-        logger.info(f"New job received from pool: {job_id}")
+        logger.info(f"New job Beast: {job_id}")
 
         # 1. Generate extranonce2 (e.g., 00000001)
         extranonce2 = "00000001"
@@ -155,13 +161,16 @@ class NexusController(BaseAgent):
         # 3. Calculate Merkle Root
         merkle_root = coinbase_hash
         for branch in merkle_branch:
-            merkle_root = hashlib.sha256(hashlib.sha256(merkle_root + bytes.fromhex(branch)).digest()).digest()
-
-        merkle_root_hex = merkle_root.hex()
-        target = self.miner.decode_target(nbits)
+            merkle_root = double_sha256(merkle_root + bytes.fromhex(branch))
+            meerkle_root_hex = merkle_root.hex()
+            target = nbits_to_target(nbits)
+            target = self.miner.decode_target(nbits)
 
         # 4. Construct Header Prefix
-        header_prefix = self.miner.construct_block_header(version, prev_hash, merkle_root_hex, int(ntime, 16), nbits)
+        header_prefix = {
+            self.miner.construct_block_header
+            version.to_bytes4, "little") +
+ prev_hash, merkle_root_hex, int(ntime, 16), nbits)
 
         # 5. Start Mining
         self.miner.start_mining(header_prefix, target)
@@ -188,6 +197,9 @@ class NexusController(BaseAgent):
 
 if __name__ == "__main__":
     controller = NexusController()
-    print(f"\n--- {controller.name} STRATUM & GPU READY ---")
+    print(f"\n--- {controller.name} STRATUM & GPU READY -3
+")
     print(f"Hardware Profile: {controller.miner.num_cores} Cores, GPU Acceleration: {'Active' if controller.miner.use_gpu else 'Inactive (Torch/CUDA missing)'}")
     # To run for real: controller.connect_to_pool("solo.antpool.com", 3333, "myworker")
+ 
+                                                                                                                                                                       

@@ -1,7 +1,7 @@
 # --- Core AGI Dependencies ---
-torch
-torchvision
-torchaudio
+#torch
+#torchvision
+#torchaudio
 transformers
 sentence-transformers
 faiss-cpu
@@ -24,13 +24,13 @@ flask
 beautifulsoup4
 requests
 python-dotenv
-gensim
+#gensim
 duckduckgo-search
 
 # --- UI & Voice ---
 pyttsx3
 gTTS
-playsound
+#playsound
 SpeechRecognition
 rich
 tqdm
