@@ -1,7 +1,6 @@
 # bitcoin_miner.py
 import hashlib
 import time
-import json
 import sqlite3
 from dataclasses import dataclass
 from typing import Optional, Callable, Dict, Any
@@ -235,6 +234,8 @@ class BitcoinMiner:
         )
         while True:
             result = self._mine_once(work_header)
+            if result is not None:
+                break
             if progress_cb:
                 progress_cb(total_attempts)
             if result is not None:
@@ -310,12 +311,12 @@ if __name__ == "__main__":
     # Example 2: Mine a block with artificially low difficulty (e.g., 20 leading zero bits)
     # Start from the same header but lower the target to make mining fast.
     synth_header = BitcoinHeader(
-        version='header_500'.version,
-        prev_block='header_500'.prev_block,
-        merkle_root='header_500'.merkle_root,
-        timestamp='header_500'.timestamp,
-        nbits='header_500'.nbits, # will be ignored if target_bits set
-        nonce=header_500k.nonce,
+        version=header_500.version,
+        prev_block=header_500.prev_block,
+        merkle_root=header_500.merkle_root,
+        timestamp=header_500.timestamp,
+        nbits=header_500.nbits, # will be ignored if target_bits set
+        nonce=header_500.nonce,
     )
     miner = BitcoinMiner(target_bits=20) # ~1M hashes expected
     print("\nMining with target_bits=20 (synthetic easy)...")
