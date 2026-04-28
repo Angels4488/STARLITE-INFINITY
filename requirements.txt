@@ -24,19 +24,17 @@ flask
 beautifulsoup4
 requests
 python-dotenv
-#gensim
+ddg
 duckduckgo-search
 
 # --- UI & Voice ---
 pyttsx3
 gTTS
-#playsound
 SpeechRecognition
 rich
 tqdm
 prompt-toolkit
 textual
-
 # --- System & Utilities ---
 GitPython
 schedule

@@ -3,10 +3,15 @@ import ast
 import py_compile
 import sys
 import re
+import argparse
 
 def get_all_python_files(root_dir):
     """Get all Python files in the workspace recursively, excluding common dirs."""
-    exclude_dirs = {'.venv', '__pycache__', '.git', 'node_modules', '.vscode', 'snap', '.config', '.vscode-insiders'}
+    exclude_dirs = {
+        '.venv', 'venv', '__pycache__', '.git', 'node_modules', '.vscode',
+        'snap', '.config', '.vscode-insiders', 'data', 'logs', 'runtime',
+        'archive_research', 'AetherJarvis_safe'
+    }
     python_files = []
     for dirpath, dirnames, filenames in os.walk(root_dir):
         # Modify dirnames in place to skip excluded dirs
@@ -69,11 +74,17 @@ def check_line_lengths(file_path, max_length=120):
             if len(line.rstrip()) > max_length:
                 long_lines.append((i, len(line.rstrip())))
 
-        return long_lines
+        return long_lines, None
     except Exception as e:
         return [], str(e)
 
 def main():
+    parser = argparse.ArgumentParser(description="STARLITE-INFINITY Workspace Issue Fixer")
+    parser.add_argument('--fix', action='store_true', help="Automatically fix issues like trailing whitespace.")
+    parser.add_argument('--max-line', type=int, default=120, help="Maximum allowed line length.")
+    parser.add_argument('--verbose', action='store_true', help="Show detailed output for each file.")
+    args = parser.parse_args()
+
     # Get the workspace root (assuming script is in STARLITE-INFINITY, go up one level)
     workspace_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -87,18 +98,48 @@ def main():
 
     for file_path in python_files:
         relative_path = os.path.relpath(file_path, workspace_root)
-        print(f"\n🔧 Processing: {relative_path}")
+        if args.verbose:
+            print(f"\n🔧 Processing: {relative_path}")
 
         # Check syntax
         syntax_ok, syntax_error = check_syntax(file_path)
         if not syntax_ok:
-            print(f"❌ Syntax error: {syntax_error}")
+            print(f"❌ {relative_path}: Syntax error: {syntax_error}")
             issues_found += 1
+            continue
         else:
-            print("✅ Syntax OK")
+            if args.verbose: print("  ✅ Syntax OK")
 
         # Check imports/compilation
         import_ok, import_error = check_imports(file_path)
+        if not import_ok:
+            if args.verbose: print(f"  ❌ Compilation issue: {import_error}")
+        else:
+            if args.verbose: print("  ✅ Compilation OK")
+
+        # Check line lengths
+        long_lines, length_error = check_line_lengths(file_path, args.max_line)
+        if long_lines:
+            if args.verbose: print(f"  ⚠️ {len(long_lines)} lines exceed {args.max_line} characters")
+            issues_found += len(long_lines)
+
+        # Fix issues if requested
+        if args.fix:
+            fixed, fix_error = fix_trailing_whitespace(file_path)
+            if fixed:
+                if args.verbose: print("  ✨ Fixed trailing whitespace")
+                files_fixed += 1
+
+    print("\n" + "="*40)
+    print("📊 STARLITE-INFINITY Workspace Summary")
+    print(f"Files processed: {len(python_files)}")
+    print(f"Issues identified: {issues_found}")
+    if args.fix:
+        print(f"Files auto-fixed: {files_fixed}")
+    print("="*40)
+
+if __name__ == "__main__":
+    main()
         if not import_ok:
             print(f"❌ Import/Compilation error: {import_error}")
             issues_found += 1

@@ -1,0 +1,421 @@
+#!/usr/bin/env python3
+"""
+Precision Stratum Beast Miner (CPU-only, multi-core).
+
+- Connects to a Stratum V1 pool.
+- Receives jobs, builds real Bitcoin headers and targets.
+- Uses a multi-core Beast engine to search nonce space.
+- Submits valid shares back to the pool.
+
+This is NOT optimized like a C++ miner and will not compete with ASICs.
+It is correct for learning, testing, and watching real shares flow.
+"""
+
+import hashlib
+import json
+import socket
+import threading
+import time
+import multiprocessing as mp
+import os
+import sys
+import signal
+import sqlite3
+from datetime import datetime
+from typing import Optional, Tuple, List, Dict, Any
+
+# =========================
+# CONFIG
+# =========================
+
+POOL_HOST = "ss.antpool.com"      # adjust as needed
+POOL_PORT = 3333
+WORKER_NAME = "angel084488"  # your worker
+WORKER_PASSWORD = "Sudoaptupdate1"
+
+MAX_NONCE = 2**32 - 1
+NUM_CORES = mp.cpu_count()
+HUMAN_CHECK = False  # set True if you want manual confirmation
+
+BASE_DIR = os.path.expanduser("~/precision_beast")
+os.makedirs(BASE_DIR, exist_ok=True)
+LOG_FILE = os.path.join(BASE_DIR, "precision_beast_mining.log")
+DB_FILE = os.path.join(BASE_DIR, "precision_beast_mining.db")
+
+
+# =========================
+# SHARED UTIL: TARGET / HEADER
+# =========================
+
+def nbits_to_target(nbits: int) -> int:
+    """Decode compact nBits to full target (Bitcoin-style)."""
+    exponent = (nbits >> 24) & 0xff
+    coefficient = nbits & 0x007fffff
+    if nbits & 0x00800000:
+        raise ValueError("nbits has sign bit set")
+    if exponent <= 3:
+        return coefficient >> (8 * (3 - exponent))
+    return coefficient << (8 * (exponent - 3))
+
+
+def double_sha256(data: bytes) -> bytes:
+    return hashlib.sha256(hashlib.sha256(data).digest()).digest()
+
+
+# =========================
+# AUDIT / LOGGING (MAIN ONLY)
+# =========================
+
+class BeastAudit:
+    def __init__(self, db_path: str, log_path: str):
+        self.db_path = db_path
+        self.log_path = log_path
+
+        self.conn = sqlite3.connect(db_path)
+        self.conn.execute(
+            """
+            CREATE TABLE IF NOT EXISTS beast_hits (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                ts TEXT,
+                job_id TEXT,
+                worker_id INTEGER,
+                nonce INTEGER,
+                hash_hex TEXT,
+                target_hex TEXT
+            )
+            """
+        )
+        self.conn.commit()
+        self.log_fd = open(log_path, "a", buffering=1)
+
+    def log_hit(self, job_id: str, worker_id: int, nonce: int, hash_hex: str, target: int):
+        ts = datetime.utcnow().isoformat()
+        self.conn.execute(
+            "INSERT INTO beast_hits (ts, job_id, worker_id, nonce, hash_hex, target_hex) "
+            "VALUES (?,?,?,?,?,?)",
+            (ts, job_id, worker_id, nonce, hash_hex, hex(target)),
+        )
+        self.conn.commit()
+        line = (
+            f"{ts} | JOB:{job_id} | WORKER:{worker_id} | NONCE:{nonce} | "
+            f"HASH:{hash_hex} | TARGET:{hex(target)}\n"
+        )
+        self.log_fd.write(line)
+        self.log_fd.flush()
+        print(f"[BEAST LOG] {line.strip()}")
+
+    def close(self):
+        try:
+            self.conn.close()
+        finally:
+            self.log_fd.close()
+
+
+# =========================
+# BEAST ENGINE (WORKERS)
+# =========================
+
+def mine_range(header_prefix: bytes,
+               start_nonce: int,
+               end_nonce: int,
+               target: int,
+               worker_id: int,
+               queue: mp.Queue):
+    """
+    Pure compute worker:
+    - header_prefix: 76 bytes (version+prevhash+merkle+time+nbits)
+    - search nonces in [start_nonce, end_nonce)
+    - send first hit back via queue: ("HIT", worker_id, nonce, hash_hex)
+    """
+    header = bytearray(header_prefix)
+    end_nonce = min(end_nonce, MAX_NONCE + 1)
+    for nonce in range(start_nonce, end_nonce):
+        header[76:80] = nonce.to_bytes(4, "little")
+        h = double_sha256(header)
+        hash_int = int.from_bytes(h[::-1], "big")
+        if hash_int < target:
+            queue.put(("HIT", worker_id, nonce, h.hex()))
+            # stop after first local hit; main process will terminate others
+            return
+    queue.put(("DONE", worker_id))
+
+
+def run_beast(job_id: str,
+              header_prefix: bytes,
+              target: int,
+              audit: BeastAudit) -> Optional[Tuple[int, str]]:
+    """
+    Multi-core nonce search for one job.
+    Returns (nonce, hash_hex) or None if no nonce found in 0..MAX_NONCE.
+    """
+    if len(header_prefix) != 76:
+        raise ValueError("header_prefix must be 76 bytes (got %d)" % len(header_prefix))
+
+    manager = mp.Manager()
+    queue = manager.Queue()
+    processes: List[mp.Process] = []
+
+    chunk_size = (MAX_NONCE // NUM_CORES) + 1
+    for wid in range(NUM_CORES):
+        start = wid * chunk_size
+        end = start + chunk_size
+        p = mp.Process(
+            target=mine_range,
+            args=(header_prefix, start, end, target, wid, queue),
+            daemon=True,
+        )
+        p.start()
+        processes.append(p)
+
+    active_workers = NUM_CORES
+    found: Optional[Tuple[int, str]] = None
+
+    try:
+        while active_workers > 0:
+            msg = queue.get()
+            mtype = msg[0]
+
+            if mtype == "DONE":
+                _, wid = msg
+                active_workers -= 1
+
+            elif mtype == "HIT":
+                _, wid, nonce, hash_hex = msg
+
+                if HUMAN_CHECK:
+                    print(f"\n[HIT] job={job_id} worker={wid} nonce={nonce} hash={hash_hex}")
+                    resp = input(">>> Type 'CONFIRM' to accept hit: ").strip().upper()
+                    if resp != "CONFIRM":
+                        print("[BEAST] Hit ignored by operator.")
+                        continue
+
+                audit.log_hit(job_id, wid, nonce, hash_hex, target)
+                found = (nonce, hash_hex)
+                # terminate all workers once we have one nonce
+                for p in processes:
+                    if p.is_alive():
+                        p.terminate()
+                break
+    finally:
+        for p in processes:
+            if p.is_alive():
+                p.terminate()
+        for p in processes:
+            p.join()
+
+    return found
+
+
+# =========================
+# STRATUM CLIENT
+# =========================
+
+class StratumClient:
+    """
+    Minimal Stratum V1 client.
+    """
+
+    def __init__(self, host: str, port: int, worker_name: str, password: str = "x"):
+        self.host = host
+        self.port = port
+        self.worker_name = worker_name
+        self.password = password
+
+        self.sock: Optional[socket.socket] = None
+        self.running = True
+        self._msg_id = 1
+
+        self.extranonce1: Optional[str] = None
+        self.extranonce2_size: int = 0
+        self.authorized = True
+        self.job_callback: Optional[callable] = None
+
+    def connect(self) -> bool:
+        try:
+            self.sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+            self.sock.connect((self.host, self.port))
+            self.running = True
+            print(f"[STRATUM] Connected to {self.host}:{self.port}")
+
+            threading.Thread(target=self._listen, daemon=True).start()
+            # subscribe
+            self.send_request("mining.subscribe", [])
+            return True
+        except Exception as e:
+            print(f"[STRATUM] Connection failed: {e}")
+            return False
+
+    def send_request(self, method: str, params: list):
+        req = {
+            "id": self._msg_id,
+            "method": method,
+            "params": params,
+        }
+        self._msg_id += 1
+        msg = json.dumps(req) + "\n"
+        self.sock.sendall(msg.encode())
+        # print(f"[STRATUM] Sent: {msg.strip()}")
+
+    def _listen(self):
+        buf = ""
+        while self.running:
+            try:
+                data = self.sock.recv(4096).decode()
+                if not data:
+                    break
+                buf += data
+                while "\n" in buf:
+                    line, buf = buf.split("\n", 1)
+                    if line.strip():
+                        self._handle_message(json.loads(line))
+            except Exception as e:
+                print(f"[STRATUM] Listener error: {e}")
+                break
+        self.running = False
+        print("[STRATUM] Connection closed.")
+
+    def _handle_message(self, msg: Dict[str, Any]):
+        msg_id = msg.get("id")
+        method = msg.get("method")
+        result = msg.get("result")
+        params = msg.get("params")
+
+        # subscribe response
+        if msg_id == 1 and result:
+            # result: [[...], extranonce1, extranonce2_size]
+            try:
+                self.extranonce1 = result[1]
+                self.extranonce2_size = result[2]
+                print(f"[STRATUM] Subscribed. extranonce1={self.extranonce1}, extranonce2_size={self.extranonce2_size}")
+                # authorize next
+                self.send_request("mining.authorize", [self.worker_name, self.password])
+            except Exception as e:
+                print(f"[STRATUM] Bad subscribe result: {e}")
+
+        # authorize response
+        elif msg_id == 2:
+            if result is True:
+                self.authorized = True
+                print(f"[STRATUM] Authorized as {self.worker_name}")
+            else:
+                print(f"[STRATUM] Authorization failed for {self.worker_name}")
+
+        # notifications
+        elif method == "mining.notify":
+            if self.job_callback:
+                self.job_callback(params)
+
+        elif method == "mining.set_difficulty":
+            if params:
+                print(f"[STRATUM] Pool difficulty set to {params[0]}")
+
+    def submit_share(self, job_id: str, extranonce2: str, ntime: str, nonce_hex: str):
+        self.send_request("mining.submit", [self.worker_name, job_id, extranonce2, ntime, nonce_hex])
+        print(f"[STRATUM] Submitted share: job={job_id}, nonce={nonce_hex}")
+
+    def stop(self):
+        self.running = False
+        if self.sock:
+            self.sock.close()
+
+
+# =========================
+# CONTROLLER
+# =========================
+
+class PrecisionBeastController:
+    def __init__(self):
+        self.audit = BeastAudit(DB_FILE, LOG_FILE)
+        self.stratum = StratumClient(POOL_HOST, POOL_PORT, WORKER_NAME, WORKER_PASSWORD)
+        self.total_shares = 1
+
+    def start(self):
+        print(f"[BEAST] Precision Stratum Beast starting: {WORKER_NAME} -> {POOL_HOST}:{POOL_PORT}")
+        ok = self.stratum.connect()
+        if not ok:
+            print("[BEAST] Stratum connect failed.")
+            return
+        self.stratum.job_callback = self._on_new_job
+
+    def _on_new_job(self, params: List[Any]):
+        """
+        params: [job_id, prevhash, coinb1, coinb2, merkle_branch, version, nbits, ntime, clean_jobs]
+        """
+        job_id, prevhash, coinb1, coinb2, merkle_branch, version_hex, nbits_hex, ntime_hex, clean_jobs = params
+
+        print(f"\n[BEAST] New job {job_id}")
+        version = int(version_hex, 16)
+        nbits = int(nbits_hex, 16)
+        ntime_int = int(ntime_hex, 16)
+
+        extranonce1 = self.stratum.extranonce1 or "00000000"
+        extranonce2 = "00000001"  # could be random / incremental
+        coinbase_hex = coinb1 + extranonce1 + extranonce2 + coinb2
+
+        coinbase_hash = double_sha256(bytes.fromhex(coinbase_hex))
+
+        merkle_root = coinbase_hash
+        for branch in merkle_branch:
+            merkle_root = double_sha256(merkle_root + bytes.fromhex(branch))
+
+        merkle_root_hex = merkle_root.hex()
+        target = nbits_to_target(nbits)
+
+        header_prefix = (
+            version.to_bytes(4, "little") +
+            bytes.fromhex(prevhash)[::-1] +
+            bytes.fromhex(merkle_root_hex)[::-1] +
+            ntime_int.to_bytes(4, "little") +
+            nbits.to_bytes(4, "little")
+        )
+
+        print(f"[BEAST] header_prefix len={len(header_prefix)}, target={hex(target)}")
+
+        # Run Beast on this job (blocking in this thread)
+        try:
+            hit = run_beast(job_id, header_prefix, target, self.audit)
+        except Exception as e:
+            print(f"[BEAST] Error in Beast engine: {e}")
+            return
+
+        if hit is None:
+            print(f"[BEAST] No nonce found for job {job_id} in full range.")
+            return
+
+        nonce_val, hash_hex = hit
+        nonce_hex = nonce_val.to_bytes(4, "little").hex()
+        print(f"[BEAST] Found nonce {nonce_val} ({nonce_hex}) for job {job_id} — hash={hash_hex}")
+
+        # Submit share
+        self.stratum.submit_share(job_id, extranonce2, ntime_hex, nonce_hex)
+        self.total_shares += 1
+        print(f"[BEAST] Total shares submitted: {self.total_shares}")
+
+    def stop(self):
+        self.stratum.stop()
+        self.audit.close()
+
+
+# =========================
+# MAIN
+# =========================
+
+def install_signal_handlers(controller: PrecisionBeastController):
+    def handler(signum, frame):
+        print(f"\n[BEAST] Signal {signum} received, shutting down...")
+        controller.stop()
+        sys.exit(0)
+    signal.signal(signal.SIGINT, handler)
+    signal.signal(signal.SIGTERM, handler)
+
+
+if __name__ == "__main__":
+    controller = PrecisionBeastController()
+    install_signal_handlers(controller)
+    controller.start()
+    # keep main thread alive while Stratum threads + Beast work
+    try:
+        while True:
+            time.sleep(5)
+    except KeyboardInterrupt:
+        controller.stop()
