@@ -13,7 +13,7 @@ class StarliteModel(nn.Module):
         self.models_path.mkdir(parents=True, exist_ok=True)
         logger.info(f"StarliteModel loader ready on path → {self.models_path}")
 
-    def load_or_create(self, name="base_manifold"):
+    def load_or_create(self, name="Zero"):
         model_path = self.models_path / f"{name}.pt"
         if model_path.exists():
             model = torch.load(model_path, weights_only=False, map_location='cpu')
