@@ -1631,3 +1631,20 @@ Gemini can make mistakes, so double-check it
 
 A
 
+for nonce in range(self.max_nonce + 1):
+            if progress_cb and nonce % 200_000 == 0:
+                progress_cb(nonce)
+
+attempt = payload + nonce.to_bytes(4, 'little')
+            digest = hashlib.sha256(hashlib.sha256(attempt).digest()).hexdigest()
+            if int(digest, 16) < self.target:
+                elapsed = time.perf_counter() - start
+                result = MineResult(nonce, digest, attempts + 1, elapsed, self.difficulty_bits)
+                self.db.log(module, payload, result, bitcoin_height, bitcoin_hash)
+                return result
+            attempts += 1
+
+# Timestamp roll (extraNonce)
+        # ... (full implementation would continue with timestamp roll)
+
+raise RuntimeError("Nonce space exhausted")

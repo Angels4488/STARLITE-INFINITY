@@ -110512,7 +110512,7 @@ def main():
             hive_mind.shutdown()
         log.info("============================================")
         log.info("=          HIVE MIND SHUTDOWN COMPLETE     =")
-        log.ginfo("============================================")
+        log.info("============================================")
 
 if __name__ == "__main__":
     main()
@@ -122771,7 +122771,11 @@ from datetime import datetime
 
 # Make sure we can find our other modules
 from utils.logger import get_logger
-from config import AetherConfig
+from core.config import AetherConfig
+from core.config import AetherConfig
+from core.config import AetherConfig
+from core.config import AetherConfig
+from core.config import AetherConfig
 
 class CovenantScribe:
     """
@@ -125871,6 +125875,3 @@ Start new chat
 You're now using Gemini 3 Pro
 We've upgraded you from the previous model to 3 Pro, our newest model.
 Gemini can make mistakes, so double-check it
-
-
-

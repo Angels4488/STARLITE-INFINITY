@@ -11,7 +11,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from scipy.spatial.distance import cosine
-from transformers import BertTokenizer, BertModel, ViTModel, pipeline, AutoModelForCausalLM, AutoTokenizer
+from transformers import BertTokenizer, BertModel, ViTModel, ViTImageProcessor, pipeline, AutoModelForCausalLM, AutoTokenizer
 from PIL import Image
 import faiss
 import networkx as nx

@@ -140,7 +140,8 @@ def main():
 
 if __name__ == "__main__":
     main()
-        if not import_ok:
+    
+    if not import_ok:
             print(f"❌ Import/Compilation error: {import_error}")
             issues_found += 1
         else:
@@ -172,7 +173,7 @@ if __name__ == "__main__":
 
     if issues_found == 0:
         print("🎉 No issues found!")
-    else:
+       else:
         print("⚠️  Some issues require manual attention.")
 
 if __name__ == "__main__":
