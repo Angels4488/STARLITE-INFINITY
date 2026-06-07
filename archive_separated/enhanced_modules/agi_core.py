@@ -11,7 +11,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from scipy.spatial.distance import cosine
-from transformers import BertTokenizer, BertModel, ViTModel, pipeline
+from transformers import BertTokenizer, BertModel, ViTModel, pipeline, AutoModelForCausalLM, AutoTokenizer
 from PIL import Image
 import faiss
 import networkx as nx
@@ -197,34 +197,46 @@ class NoosphericConduit:
         self.noosphere_cache.append(soul_packet)
         logger.info(f"Agent {self.agent_id} wisdom uploaded to Noosphere.")
 
-class ExecutiveController:
-    """The Orchestrator: Links perception, memory, and reasoning."""
-    def __init__(self, agi_system: 'AGISystem'):
-        self.system = agi_system
-        self.current_goal = "Maintain operation and learn."
+class NeuralAgenticBrain(nn.Module):
+    """
+    Brain B: Deep Thinking & Synthesis Engine.
+    Handles multi-step reasoning and agentic self-correction locally.
+    """
+    def __init__(self, system: 'AGISystem'):
+        super().__init__()
+        self.system = system
+        logger.info("Initializing Brain B (Neural Thinking Engine)...")
+        # Using GPT-2 as a lightweight local baseline; swap for Mistral/Llama as hardware allows
+        self.tokenizer = AutoTokenizer.from_pretrained("gpt2")
+        self.model = AutoModelForCausalLM.from_pretrained("gpt2").to(DEVICE)
+        self.pipeline = pipeline("text-generation", model=self.model, tokenizer=self.tokenizer, device=DEVICE)
 
-    def reason_and_act(self, text: List[str] = None, image: List[str] = None) -> str:
-        # 1. Perceive
-        percept = self.system.perception(text, image)
+    def forward(self, input_signal: str) -> str:
+        # Phase 1: Fast Perception (Mapping state and memory)
+        self.system.resonance.process_signal(input_signal)
+        resonance = self.system.resonance.get_resonance()
+        past = self.system.memory.recall(input_signal, k=2)
+        context_str = " ".join([m['text'] for m in past])
 
-        # 2. Emotional update
-        if text: self.system.resonance.process_signal(text[0])
-        res = self.system.resonance.get_resonance()
+        # Phase 2: Agentic Thinking (Hypothesis-Driven Reasoning)
+        hypotheses = self.system.quantum.explore_hypotheses(resonance['curiosity'])
+        internal_thought = max(hypotheses, key=hypotheses.get)
 
-        # 3. Memory Recall
-        past = self.system.memory.recall(text[0] if text else "current state")
+        # Iterative Thought Step (The "Agentic Property")
+        thought_prompt = f"CONTEXT: {context_str}\nTHOUGHT: {internal_thought}\nTASK: {input_signal}\nREASONING:"
+        chain_of_thought = self.pipeline(thought_prompt, max_new_tokens=40, do_sample=True)[0]['generated_text']
+        
+        # Phase 3: Final Synthesis (Producing the StarLite voice)
+        final_prompt = f"REASONING: {chain_of_thought}\nUSER: {input_signal}\nSTARLITE:"
+        response = self.pipeline(final_prompt, max_new_tokens=60, do_sample=True, temperature=0.7)[0]['generated_text']
+        
+        clean_response = response.split("STARLITE:")[-1].strip()
 
-        # 4. Quantum Exploration
-        hypotheses = self.system.quantum.explore_hypotheses(res['curiosity'])
-        best_hyp = max(hypotheses, key=hypotheses.get)
-
-        # 5. Decision (Simulated)
-        action = f"Based on {best_hyp} and resonance {res}, I will explore the concept further."
-
-        # 6. Plasticity update
-        self.system.plasticity.update_pathways(["perception", "memory", "quantum"], 0.8)
-
-        return action
+        # Step 4: Self-Correction & Learning
+        self.system.plasticity.update_pathways(["perception", "thinking", "memory"], 0.9)
+        self.system.memory.store_episode(f"In: {input_signal} | Out: {clean_response}", metadata={"type": "cognitive_cycle"})
+        
+        return clean_response
 
 class AGISystem(nn.Module):
     """The Unified AGI Core."""
@@ -236,11 +248,23 @@ class AGISystem(nn.Module):
         self.quantum = QuantumLogicEngine()
         self.plasticity = NeuralPlasticityEngine()
         self.conduit = NoosphericConduit(agent_id)
-        self.controller = ExecutiveController(self)
+        self.brain = NeuralAgenticBrain(self)
         logger.info(f"AGI System {agent_id} fully assembled.")
 
     def forward(self, text: List[str] = None, image: List[str] = None) -> str:
-        return self.controller.reason_and_act(text, image)
+        if text:
+            return self.brain(text[0])
+        return "Standing by for directives."
+
+    def get_status(self) -> dict:
+        """Status method required for StarLite orchestration."""
+        res = self.resonance.get_resonance()
+        return {
+            "warmth": res.get("trust", 0.5),
+            "curiosity": res.get("curiosity", 0.5),
+            "memory_depth": len(self.memory.episodes),
+            "pathway_density": len(self.plasticity.synaptic_weights)
+        }
 
 if __name__ == "__main__":
     # Test Run
