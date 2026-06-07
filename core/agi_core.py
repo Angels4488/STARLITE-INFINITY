@@ -11,7 +11,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from scipy.spatial.distance import cosine
-from transformers import BertTokenizer, BertModel, ViTModel, pipeline
+from transformers import BertTokenizer, BertModel, ViTModel, ViTImageProcessor, pipeline
 from PIL import Image
 import faiss
 import networkx as nx
@@ -63,11 +63,19 @@ class PerceptionModule(nn.Module):
         inputs = self.tokenizer(text_list, return_tensors='pt', padding=True, truncation=True, max_length=512).to(DEVICE)
         return self.text_model(**inputs).last_hidden_state
 
-    def process_image(self, image_paths: List[str]) -> torch.Tensor:
-        # Simplified for demonstration - in a real scenario, use ViTFeatureExtractor
-        # We project the output of ViT to our unified embedding space
-        dummy_features = torch.randn(len(image_paths), 768).to(DEVICE) # Placeholder for ViT forward pass
-        return self.image_projector(dummy_features).unsqueeze(1)
+    def process_image(self, image_input: List[str]) -> torch.Tensor:
+        processor = ViTImageProcessor.from_pretrained('google/vit-base-patch16-224-in21k')
+        processed_images = []
+        for path in image_input:
+            try:
+                img = Image.open(path).convert("RGB")
+                inputs = processor(images=img, return_tensors="pt").to(DEVICE)
+                with torch.no_grad():
+                    outputs = self.image_model(**inputs)
+                processed_images.append(self.image_projector(outputs.last_hidden_state.mean(dim=1)))
+            except Exception as e:
+                logger.error(f"Image processing failed for {path}: {e}")
+        return torch.stack(processed_images) if processed_images else torch.zeros(1, 1, EMBEDDING_DIM).to(DEVICE)
 
     def forward(self, text_input: Optional[List[str]] = None, image_input: Optional[List[str]] = None) -> torch.Tensor:
         embeddings = []
@@ -114,6 +122,19 @@ class AkashicRecord:
         emb = self._get_embedding(query).reshape(1, -1)
         distances, indices = self.episodic_index.search(emb, k)
         return [self.episodes[i] for i in indices[0] if i != -1]
+
+class KineticArbiter:
+    """Resource contention management based on momentum."""
+    def __init__(self, range_um: float = 0.5):
+        self.arbitration_range = range_um
+        self.active_tasks = {}
+
+    def arbitrate(self, task_id: str, momentum: float):
+        # Logic to prevent task collision and prioritize high-momentum signals
+        if task_id not in self.active_tasks or momentum > self.active_tasks[task_id]:
+            self.active_tasks[task_id] = momentum
+            return True
+        return False
 
 class TheResonanceChamber:
     """Enhanced Emotional Core using VADER Sentiment Analysis."""

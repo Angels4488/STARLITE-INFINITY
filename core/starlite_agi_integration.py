@@ -11,6 +11,7 @@ import asyncio
 import json
 import logging
 import sys
+import os
 import time
 from datetime import datetime
 from typing import Dict, List, Optional, Any, Callable
@@ -94,7 +95,6 @@ class STARLITEIntegrationCore:
             ]
 
             logger.info("Verifying component files...")
-            import os
 
             for filename, description in components_to_load:
                 if os.path.exists(filename):

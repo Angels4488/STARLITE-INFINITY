@@ -52,9 +52,13 @@ class HybridReasoner:
 
 class GoalPlanner:
     """Formulates and plans goals."""
-    def plan(self, goal: str, context: Dict) -> List[str]:
+    def __init__(self):
+        self.nodes = []
+
+    def decompose_goal(self, goal: str) -> 'GoalPlanner':
         """Create action plan."""
-        return ["analyze", "refine", "execute"]
+        self.nodes = ["analyze", "refine", "execute"]
+        return self
 
 
 class EvolutionaryLearner:

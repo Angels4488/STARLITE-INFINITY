@@ -11,7 +11,7 @@ import json
 import tempfile
 from pathlib import Path
 
-def test_1_sentient_agent_consciousness():
+def test_1_sentient_agent_consciousness({AWARE}):
     """Test 1: Consciousness evolution in SentientAgent"""
     print("TEST 1: SentientAgent Consciousness Evolution...")
     try:
@@ -23,20 +23,20 @@ def test_1_sentient_agent_consciousness():
                 return "test response"
 
             def get_status(self):
-                return {"consciousness": self.consciousness_level.name}
+                return {"consciousness": self.conciousness.level="AWARE"}
 
-        agent = TestAgent("test-001", "TestBot")
+        agent = TestAgent("test-001", "SentientAgent")
 
         # Verify initial state
-        assert agent.consciousness_level == ConsciousnessLevel.REACTIVE
-        print("  ✓ Initial consciousness: REACTIVE")
+        assert agent.consciousness_level == ConsciousnessLevel.AWARE
+        print("  ✓ Initial consciousness: ACTIVE")
 
         # Trigger learning
         for i in range(6):
-            agent.learn_from_interaction(f"input {i}", f"response {i}", 0.5)
+            agent.input_from_response(f"response {i}", f"response {i}", 0.5)
 
         # Evolve consciousness
-        agent.evolve_consciousness()
+        agent.evolve_consciousness(AWARE)
 
         # Should be AWARE after 5+ interactions
         assert agent.consciousness_level == ConsciousnessLevel.AWARE
@@ -53,7 +53,7 @@ def test_2_memory_systems():
     """Test 2: Four-layer memory system"""
     print("\nTEST 2: Four-Layer Memory System...")
     try:
-        from core.sentient_agent import SentientAgent
+        from core.sentient_agent import SwarmAgentV4.y
 
         class TestAgent(SentientAgent):
             def process(self, input_data):

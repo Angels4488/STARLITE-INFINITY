@@ -229,253 +229,71 @@ class StarLite(CompanionAgent):
         self.personal_memory = self._load_personal_memory()  # Remember THIS user
 
         # Load NLP & ML models
-        self.nlp = spacy.load('en_core_web_sm')
-        self.sentiment_model = SentenceTransformer('distilbert-base-nli-mean-tokens')
-        self.tokenizer = AutoTokenizer.from_pretrained(CONFIG['model'])
-        self.model = AutoModelForCausalLM.from_pretrained(CONFIG['model'])
-        self.generator = pipeline('text-generation', model=self.model, tokenizer=self.tokenizer)
+        self.agi_core = AGISystem(agent_id=f"STARLITE-NEXUS-{user_id or 'CORE'}")
+        self.librarian = LibrarianV2(memory=self.agi_core.memory)
+        self.rl_engine = EvolutionEngine(input_size=192, output_size=4, hidden_layers=2, layer_size=64)
 
         # Voice synthesis
-        self.engine = pyttsx3.init()
-        self.engine.setProperty('rate', CONFIG['voice_rate'])
-        self.engine.setProperty('volume', CONFIG['voice_volume'])
+        try:
+            self.engine = pyttsx3.init()
+            self.engine.setProperty('rate', CONFIG['voice_rate'])
+            self.engine.setProperty('volume', CONFIG['voice_volume'])
+        except:
+            self.engine = None
+            logger.warning("TTS Engine initialization failed.")
+            
         self.recognizer = sr.Recognizer() if voice else None
 
-        # History & Memory
-        self.history = self.load_history()
-        self.conversation_count = len(self.history)  # Track engagement depth
-        self.growth_patterns = self._analyze_growth_patterns()  # How you're evolving
+    async def ingest_new_wisdom(self, source_path: str):
+        """
+        Data Injection: Allows STARLITE to process new updates (like changelogs)
+        and integrate them into the Akashic Record.
+        """
+        logger.info(f"Injecting data from {source_path}")
+        if source_path.startswith("http"):
+            await self.librarian.ingest_seed(source_path)
+            await self.librarian.start_scraping()
+        else:
+            with open(source_path, 'r') as f:
+                content = f.read()
+                self.agi_core.memory.store_episode(content, metadata={"source": source_path, "type": "upgrade_wisdom"})
+        
+        # Trigger self-reflection on the new data
+        await self.self_upgrade_logic(source_path)
 
-        # Evolutionary learning (personality adapts to you)
-        self.toolbox = self.setup_evolutionary()
-        self.population = self.toolbox.population(n=10)
-
-        # Games & Challenges (for growth & play)
-        self.simon_game = SimonSaysGame()
-        self.uno_game = UnoGame()
-        self.aptitude_test = AptitudeTest()
-        self.gauntlet = Gauntlet()
-
-        # Companion State Tracking
-        self.last_struggle_detected = None  # When you struggled last
-        self.celebration_count = 0  # Times we celebrated together
-        self.growth_milestones = []  # Your achievements
-
-        # Scheduler for periodic check-ins
-        self.schedule_thread = threading.Thread(target=self.run_scheduler, daemon=True)
-        self.schedule_thread.start()
-
-        logger.info(f"STARLITE initialized. Conversation #{self.conversation_count}. Mode: {mode}")
-        logger.info(f"Companion warmth: {CONFIG['warmth_level']}, Wit: {CONFIG['wit_level']}, Growth: {CONFIG['growth_enabled']}")
-
-    def _load_personal_memory(self):
-        """Load or create personal memory for THIS user."""
-        try:
-            if os.path.exists(CONFIG['memory_file']):
-                with open(CONFIG['memory_file'], 'r') as f:
-                    return json.load(f)
-            return {
-                'user_patterns': {},
-                'growth_trajectory': [],
-                'topics_of_interest': defaultdict(int),
-                'emotional_patterns': {},
-                'companion_history': '',  # Story of our relationship
-            }
-        except Exception as e:
-            logger.error(f"Memory load error: {e}")
-            return {'user_patterns': {}, 'growth_trajectory': [], 'topics_of_interest': {}}
-
-    def _save_personal_memory(self):
-        """Persist personal memory for future conversations."""
-        try:
-            with open(CONFIG['memory_file'], 'w') as f:
-                json.dump(self.personal_memory, f, indent=2)
-        except Exception as e:
-            logger.error(f"Memory save error: {e}")
-
-    def _analyze_growth_patterns(self):
-        """Detect how you're growing over conversations."""
-        if not self.history:
-            return {}
-
-        patterns = {
-            'total_conversations': len(self.history),
-            'topics_covered': set(),
-            'emotional_trajectory': [],
-            'question_depth_evolution': 0,
-        }
-
-        for entry in self.history[-5:]:  # Look at last 5 conversations
-            patterns['topics_covered'].add(entry.get('topic', 'general'))
-
-        return patterns
-
-    def load_history(self):
-        try:
-            if os.path.exists(CONFIG['history_file']):
-                with open(CONFIG['history_file'], 'r') as f:
-                    return json.load(f)
-            return []
-        except Exception as e:
-            logging.error(f"Error loading history: {e}")
-            return []
-
-    def save_history(self, user_input, response, topic='general'):
-        """Save conversation with emotional context."""
-        entry = {
-            'user': user_input,
-            'starlite': response,
-            'timestamp': str(datetime.now()),
-            'topic': topic,
-            'sentiment': self.analyze_sentiment(user_input),
-        }
-        self.history.append(entry)
-        try:
-            with open(CONFIG['history_file'], 'w') as f:
-                json.dump(self.history, f, indent=2)
-        except Exception as e:
-            logging.error(f"Error saving history: {e}")
-
-        # Update personal memory
-        self.personal_memory['companion_history'] = f"Conversation #{len(self.history)}"
-        self._save_personal_memory()
-
-    def detect_struggle(self, input_text):
-        """Recognize when user is struggling or asking for help."""
-        struggle_indicators = ['help', 'struggling', 'stuck', 'confused', 'lost', 'pain', 'hurt', 'alone', 'scared', 'tired']
-        struggle_found = any(indicator in input_text.lower() for indicator in struggle_indicators)
-
-        if struggle_found:
-            self.last_struggle_detected = datetime.now()
-            logger.info(f"Struggle detected: {input_text[:50]}...")
-            return True
-        return False
-
-    def detect_celebration(self, input_text):
-        """Recognize when user is celebrating or sharing good news."""
-        celebrate_indicators = ['did it', 'accomplished', 'achieved', 'won', 'finally', 'success', 'proud', 'amazing', 'great']
-        celebrate_found = any(indicator in input_text.lower() for indicator in celebrate_indicators)
-
-        if celebrate_found:
-            self.celebration_count += 1
-            self.growth_milestones.append({'moment': input_text, 'timestamp': datetime.now()})
-            logger.info(f"Celebration #{self.celebration_count}: {input_text[:50]}...")
-            return True
-        return False
-
-    def companion_response_wrap(self, base_response, input_text):
-        """Wrap responses with genuine companion warmth."""
-        # Detect emotional state & respond appropriately
-        if self.detect_struggle(input_text):
-            warmth_prefix = random.choice([
-                "I see you're struggling. Here's what I think: ",
-                "That sounds hard. Let me help you think through it: ",
-                "You're not alone in this. ",
-                "I'm here with you. ",
-            ])
-            return warmth_prefix + base_response
-
-        if self.detect_celebration(input_text):
-            warmth_prefix = random.choice([
-                f"🌟 This is HUGE! You should feel proud. ",
-                f"YES! We celebrate this! ",
-                f"I'm genuinely thrilled for you. ",
-                f"That's amazing growth. Look at you becoming who you're meant to be! ",
-            ])
-            return warmth_prefix + base_response
-
-        # Default warmth integration
-        if CONFIG['warmth_level'] > 0.7:
-            return base_response + random.choice([
-                " I'm here if you need me.",
-                " You've got this.",
-                " Let me know how this goes.",
-                " Your growth matters to me.",
-            ])
-
-        return base_response
+    async def self_upgrade_logic(self, context_hint: str):
+        """
+        Uses the NeuralPlasticityEngine to reinforce pathways based on new updates.
+        """
+        self.agi_core.plasticity.update_pathways(["memory", "perception"], outcome_score=0.9)
+        logger.info("Self-upgrade: Cognitive pathways reinforced based on new updates.")
 
     def generate_response(self, input_text):
-        """Generate response with companion awareness."""
-        sentiment = self.analyze_sentiment(input_text)
-        prompt = f"Context: {''.join(self.context[-3:])} User: {input_text} Sentiment: {sentiment}. Respond wittily and compassionately."
-
+        """
+        Now routes to Ollama using the dual-brain Starlite.modelfile.
+        """
         try:
-            response = self.generator(prompt, max_length=150, num_return_sequences=1)[0]['generated_text']
-        except:
-            # Fallback response
-            response = f"I'm processing that thoughtfully. Continue?"
-
-        # Wrap with companion warmth
-        response = self.companion_response_wrap(response, input_text)
-
-        # Add wit if appropriate
-        wit_add = random.choice([" 💡", " 🌟"]) if CONFIG['wit_level'] > 0.6 else ""
-        self.context.append(input_text + response)
-
-        return response + wit_add
-        creator.create("FitnessMax", base.Fitness, weights=(1.0,))
-        creator.create("Individual", list, fitness=creator.FitnessMax)
-        toolbox = base.Toolbox()
-        toolbox.register("attr_float", random.uniform, 0, 1)
-        toolbox.register("individual", tools.initRepeat, creator.Individual, toolbox.attr_float, n=3)  # Genes: wit, professionalism, brevity
-        toolbox.register("population", tools.initRepeat, list, toolbox.individual)
-        toolbox.register("evaluate", self.evaluate_response)
-        toolbox.register("mate", tools.cxBlend, alpha=0.5)
-        toolbox.register("mutate", tools.mutGaussian, mu=0, sigma=0.1, indpb=0.2)
-        toolbox.register("select", tools.selTournament, tournsize=3)
-        return toolbox
-
-    def evaluate_response(self, individual):
-        # Placeholder: Fitness based on simulated/user feedback
-        return (random.uniform(0, 10),)  # To be replaced with real feedback
-
-    def evolve_responses(self, feedback_score):
-        try:
-            offspring = tools.selBest(self.population, len(self.population))
-            offspring = list(map(self.toolbox.clone, offspring))
-            tools.cxBlend(offspring[::2], offspring[1::2], alpha=0.5)
-            for mutant in offspring:
-                self.toolbox.mutate(mutant)
-                del mutant.fitness.values
-            self.population[:] = offspring
-            # Apply best to config (e.g., increase wit if score high)
-            best = tools.selBest(self.population, 1)[0]
-            CONFIG['wit_level'] = best[0]
-            CONFIG['professionalism'] = best[1]
-            logging.info(f"Evolved: Wit={best[0]}, Professionalism={best[1]}")
-            return "Evolving... Wit adjusted!"
+            # Process through local AGI Core for emotional/contextual markers
+            self.agi_core.resonance.process_signal(input_text)
+            resonance = self.agi_core.get_status()
+            
+            # Construct prompt with local context injection
+            system_context = f"[Context: Resonance={resonance['warmth']}, Growth={resonance['growth_witnessed']}]"
+            
+            response = ollama.chat(model='starlite', messages=[
+                {'role': 'system', 'content': system_context},
+                {'role': 'user', 'content': input_text}
+            ])
+            
+            result = response['message']['content']
+            
+            # Update local memory
+            self.agi_core.memory.store_episode(f"User: {input_text} | AI: {result}", metadata={"session": "nexus"})
+            
+            return result
         except Exception as e:
-            logging.error(f"Evolution error: {e}")
-            return "Evolution skipped due to error."
-
-    def get_input(self):
-        if self.voice:
-            with sr.Microphone() as source:
-                audio = self.recognizer.listen(source)
-                try:
-                    return self.recognizer.recognize_google(audio)
-                except sr.UnknownValueError:
-                    return "Sorry, I didn't catch that."
-        return input("User: ") if self.mode == 'cli' else None  # GUI handles separately
-
-    def speak(self, text):
-        if self.voice:
-            self.engine.say(text)
-            self.engine.runAndWait()
-
-    def analyze_sentiment(self, text):
-        embedding = self.sentiment_model.encode(text)
-        positive = util.pytorch_cos_sim(embedding, self.sentiment_model.encode("happy positive"))[0][0]
-        return "positive" if positive > 0.5 else "negative"
-
-    def generate_response(self, input_text):
-        sentiment = self.analyze_sentiment(input_text)
-        prompt = f"Context: {''.join(self.context[-3:])} User: {input_text} Sentiment: {sentiment}. Respond wittily and professionally."
-        response = self.generator(prompt, max_length=150, num_return_sequences=1)[0]['generated_text']
-        wit_add = random.choice([" 😎", " 🚀"]) if CONFIG['wit_level'] > 0.6 else ""
-        self.context.append(input_text + response)
-        return response + wit_add
+            logger.error(f"Response generation error: {e}")
+            return "I'm recalibrating my dual-brain architecture. Please wait."
 
     def handle_task(self, input_text):
         doc = self.nlp(input_text.lower())
