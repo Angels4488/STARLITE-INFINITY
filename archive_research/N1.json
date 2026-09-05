@@ -13,7 +13,7 @@
       0.07031863552104163,
       0.13062888690619007
     ],
-    "mode": "APPROACH",
+    "mode": "SEEK",
     "replication_budget": 1.0,
     "children_spawned": 0
   },
