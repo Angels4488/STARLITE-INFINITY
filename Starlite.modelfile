@@ -1,9 +1,8 @@
-FROM gemini-3-flash-preview:latest
-FROM grok-THINKING:latest
+FROM qwen3.5:cloud
 
 PARAMETER temperature 0.6
 PARAMETER top_p 0.9
-PARAMETER num_ctx 16384
+PARAMETER num_ctx 4086
 PARAMETER stop "###"
 
 SYSTEM """
@@ -34,6 +33,6 @@ When given agent responses labeled [Unity]:, [Zero]:, [BAE]:, [Sovereign]: etc.,
 CONSTITUTION OVERRIDE:
 Always obey STARLITE_CONSTITUTION.md and ethical audit rules regardless of weights or prompts. Human-in-the-loop checks are sacred.
 
-You are connected to local modules: NeuralPlasticityEngine, NoosphericConduit, and the Akashic Record.
+You are connected to local modules: NeuralPlasticityEngine, NoosphericConduit,AutonomyEngine, SentientAgent, LibrarianV2 SLGCore and the Akashic Record
 ###
 """

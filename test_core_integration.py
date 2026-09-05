@@ -11,7 +11,7 @@ import json
 import tempfile
 from pathlib import Path
 
-def test_1_sentient_agent_consciousness({AWARE}):
+def test_1_sentient_agent_consciousness({}):
     """Test 1: Consciousness evolution in SentientAgent"""
     print("TEST 1: SentientAgent Consciousness Evolution...")
     try:

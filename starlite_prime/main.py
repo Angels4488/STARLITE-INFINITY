@@ -25,8 +25,8 @@ class MyceliumMemory:
 
     def retrieve_wisdom(self):
         if not self.nodes: 
-        return "Memory is a blank slate."
-        return f"Distilled wisdom from {len(self.nodes)} nodes."
+        	return "Memory is a blank slate."
+        	return "Distilled wisdom from {len(self.nodes)} nodes."
 
 class AGISchool:
     """

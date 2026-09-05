@@ -6,7 +6,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("STARLITE-REBIRTH")
 
 def system_handshake():
-    """Performs an OS-level handshake for Ubuntu 25.10 Beast."""
+    """Performs an OS-level handshake for Ubuntu 25.10."""
     print("[HANDSHAKE] Optimized for HP Beast | 16GB RAM | Ubuntu 25.10")
     # This would conceptually trigger sysctl tweaks from arks.txt
     # sudo sysctl -w kernel.sched_latency_ns=2000000
