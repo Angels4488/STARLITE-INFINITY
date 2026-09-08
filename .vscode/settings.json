@@ -1,4 +1,8 @@
 {
+    "files.associations": {
+        "Modelfile": "plaintext",
+        "*.modelfile": "plaintext"
+    },
     "python-envs.pythonProjects": [
         {
             "path": "core/nonce_engine.py",
