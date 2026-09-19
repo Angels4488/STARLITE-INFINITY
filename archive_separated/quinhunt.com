@@ -1,4 +1,1 @@
-quinhunt.com 
-gps quest for location
-just need id.
-roughly around 200 a month on bike,
+Archived commentary removed from the active repo. The original transcript was preserved in the backup archive for reference only.
