@@ -1,5 +1,4 @@
-# Archive cleanup notice
+# Repository cleanup marker
 
-This folder was used for transcript/commentary dumps and generated archive material.
-
-The content was cleaned out of the active project view and preserved only in the backup archive.
+Legacy archive/commentary files are retained only as offline backups. Active
+runtime code must not import from this directory.

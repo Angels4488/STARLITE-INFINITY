@@ -1,5 +1,4 @@
-# Research archive cleanup notice
+# Repository cleanup marker
 
-This folder contained historical research notes, transcripts, and generated artifacts.
-
-It has been reduced to a minimal archive marker to keep the working repo clean.
+Historical research and transcript material is retained only as an offline
+backup. Active runtime code must not import from this directory.

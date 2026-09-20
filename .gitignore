@@ -1,25 +1,42 @@
-.aider*
+# Python and tooling caches
 __pycache__/
+*.py[cod]
+*$py.class
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
-*.coverage
-*.pyc
-*.pyo
-*.whl
+.coverage
+htmlcov/
+
+# Environments and secrets
 .venv/
 venv/
+env/
 .env
-*.log
-.DS_Store
+.env.*
+!.env.example
+
+# Editors and OS files
+.vscode/
+.idea/
 *.swp
 *.swo
 *~
-.archive_research/
-.archive_separated/
-.starlite-infinity_env/
-.starlite_env/
-.starpilot_agi.py.swp
-.twins_link.py.swp
-.sentientcore.py.swp
-.noospheric_conduit.py.swp
+.DS_Store
+Thumbs.db
+
+# Build/package artifacts
+build/
+dist/
+*.egg-info/
+*.whl
+*.tar.gz
+*.zip
+*.iso
+
+# Logs and local runtime data
+*.log
+*.sqlite
+*.db
+
+# Archive working directories are intentionally not imported as active modules
