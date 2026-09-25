@@ -16,7 +16,7 @@ import requests
 
 ROOT = Path(__file__).resolve().parent
 OLLAMA_URL = os.getenv("OLLAMA_URL", "http://127.0.0.1:11434")
-DEFAULT_MODEL = os.getenv("STARLITE_MODEL", "starlite-infinity")
+DEFAULT_MODEL = os.getenv("STARLITE_MODEL", "Star:latest")
 
 
 def _inside_root(path: str) -> Path:
@@ -87,9 +87,14 @@ TOOL_SPECS = [
     {"type": "function", "function": {"name": "read_file", "description": "Read a UTF-8 text file inside the repository.", "parameters": {"type": "object", "properties": {"path": {"type": "string"}, "max_bytes": {"type": "integer", "minimum": 1, "maximum": 20000}}, "required": ["path"]}}},
     {"type": "function", "function": {"name": "list_directory", "description": "List entries in a repository directory.", "parameters": {"type": "object", "properties": {"path": {"type": "string"}}, "required": []}}},
     {"type": "function", "function": {"name": "run_shell", "description": "Run an explicitly requested read-only inspection or test command in the repository.", "parameters": {"type": "object", "properties": {"command": {"type": "string"}, "timeout_seconds": {"type": "integer", "minimum": 1, "maximum": 60}}, "required": ["command"]}}},
+    {"type": "function", "function": {"name": "write_file", "description": "Write file into the appropriate folder using mkdir -p.", "parameters": {"type": "object", "properties": {"path": {"type": "string"}}, "required": []}}},
+    {"type": "function", "function": {"name": "research", "description": "web scraping tool via thelibrarianV2 within thelibrarianV2.py file.", "parameters": {"type": "object", "properties": {"path": {"type": "string"}}, "required": []}}},
+
+
+
 ]
 
-TOOL_FUNCTIONS: dict[str, Callable[..., dict[str, Any]]] = {"read_file": read_file, "list_directory": list_directory, "run_shell": run_shell}
+TOOL_FUNCTIONS: dict[str, Callable[..., dict[str, Any]]] = {"read_file": read_file, "list_directory": list_directory, "run_shell": run_shell, "write_file": write_file, "research": research}
 
 
 class StarliteAgent:
@@ -105,8 +110,7 @@ class StarliteAgent:
         for _ in range(self.max_tool_rounds):
             try:
                 response = requests.post(self.chat_url, json={"model": self.model, "messages": messages, "tools": TOOL_SPECS, "stream": False}, timeout=120)
-                response.raise_for_status()
-                message = response.json().get("message", {})
+                response.raise_for_status( message = response.json().get("message", {})
             except requests.RequestException as exc:
                 raise RuntimeError(f"Ollama is unavailable at {self.chat_url}. Start Ollama and create model '{self.model}'.") from exc
             except (ValueError, AttributeError, TypeError) as exc:

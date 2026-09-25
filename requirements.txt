@@ -1,5 +1,5 @@
 # --- Core AGI Dependencies ---
-#torch
+torch
 #torchvision
 #torchaudio
 transformers
@@ -41,3 +41,25 @@ schedule
 pennylane
 sympy
 einops
+
+#[ethereum]
+web3>=5
+
+#[extra]
+Pillow>=10
+
+#[full]
+Pillow>=10
+PyQt5
+hidapi>=0.7.99.post20
+stellar-sdk>=6
+web3>=5
+
+#[hidapi]
+hidapi>=0.7.99.post20
+
+#[qt-widgets]
+PyQt5
+
+#[stellar]
+stellar-sdk>=6

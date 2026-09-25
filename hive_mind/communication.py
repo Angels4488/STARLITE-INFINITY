@@ -2,7 +2,7 @@ import requests
 import threading
 
 class STARLITEMessenger:
-    def __init__(self, model="llama3"):
+    def __init__(self, model="STARLITE-CLEAN:latest"):
         self.model = model
         self.api_url = "http://localhost:11434/api/generate"
 
