@@ -1,0 +1,1179 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: electrum\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-02 08:02+0000\n"
+"PO-Revision-Date: 2026-07-02 08:02\n"
+"Last-Translator: \n"
+"Language-Team: Danish\n"
+"Language: da_DK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Qt-Contexts: true\n"
+"X-Electrum-SourceStringCount: 2738\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: electrum\n"
+"X-Crowdin-Project-ID: 20482\n"
+"X-Crowdin-Language: da\n"
+"X-Crowdin-File: /electrum-client/messages.pot\n"
+"X-Crowdin-File-ID: 68\n"
+
+msgid "Error"
+msgstr "Fejl"
+
+msgid "Warning"
+msgstr "Advarsel"
+
+msgid "Not enough funds"
+msgstr "Ikke nok penge"
+
+msgid "Amount"
+msgstr "Beløb"
+
+msgid "Synchronizing..."
+msgstr "Synkroniserer …"
+
+msgid "Network"
+msgstr "Netværk"
+
+msgid "Show/Hide"
+msgstr "Vis/Skjul"
+
+msgid "Close"
+msgstr "Luk"
+
+msgid "Address"
+msgstr "Adresse"
+
+msgid "Public keys"
+msgstr "Offentlige nøgler"
+
+msgid "Unused"
+msgstr "Ubrugte"
+
+msgid "Fiat"
+msgstr "Fiat"
+
+msgid "Type"
+msgstr "Type"
+
+msgid "Balance"
+msgstr "Saldo"
+
+msgid "Details"
+msgstr "Detaljer"
+
+msgid "Private key"
+msgstr "Privat nøgle"
+
+msgid "View on block explorer"
+msgstr "Vis på blokudforsker"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Delete"
+msgstr "Slet"
+
+msgid "Preferences"
+msgstr "Indstillinger"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Use change addresses"
+msgstr "Brug byttepengeadresser"
+
+msgid "Using change addresses makes it more difficult for other people to track your transactions."
+msgstr "Brug af byttepengeadresser gør det mere besværligt for andre at spore dine transaktioner."
+
+msgid "Use multiple change addresses"
+msgstr "Brug adskillige byttepengeadresser"
+
+msgid "Bitcoin transactions are in general not free. A transaction fee is paid by the sender of the funds."
+msgstr "Bitcoin-transaktioner er generelt ikke gratis. Et transaktionsgebyr betales af afsenderen."
+
+msgid "The amount of fee can be decided freely by the sender. However, transactions with low fees take more time to be processed."
+msgstr "Størrelsen på gebyret kan frit bestemmes af afsenderen. Overførsler med lave gebyrer tager dog længere tid om at blive behandlet."
+
+msgid "A suggested fee is automatically added to this field. You may override it. The suggested fee increases with the size of the transaction."
+msgstr "Et foreslået gebyr er automatisk blevet tilføjet til dette felt. Du kan overskrive det. Det foreslåede gebyr forøger transaktionens størrelse."
+
+msgid "Warning!"
+msgstr "Advarsel!"
+
+msgid "Name"
+msgstr "Navn"
+
+msgid "Pay to"
+msgstr "Betal til"
+
+msgid "Import"
+msgstr "Importér"
+
+msgid "Export"
+msgstr "Eksportér"
+
+msgid " confirmation"
+msgstr " bekræftelse"
+
+msgid "Value"
+msgstr "Værdi"
+
+msgid "Date"
+msgstr "Dato"
+
+msgid "Description"
+msgstr "Beskrivelse"
+
+msgid "All"
+msgstr "Alle"
+
+msgid "From"
+msgstr "Fra"
+
+msgid "&Summary"
+msgstr "&Opsummering"
+
+msgid "&Plot"
+msgstr "&Plot"
+
+msgid "&Export"
+msgstr "&Eksportér"
+
+msgid "Select date"
+msgstr "Vælg dato"
+
+msgid "Copy"
+msgstr "Kopiér"
+
+msgid "Remove"
+msgstr "Fjern"
+
+msgid "Transaction ID"
+msgstr "Overførsels-ID"
+
+msgid "Export History"
+msgstr "Eksportér historik"
+
+msgid "Select file to export your wallet transactions to"
+msgstr "Vælg fil, som din tegnebogs overførsler skal eksporteres til"
+
+msgid "Electrum was unable to produce a transaction export."
+msgstr "Electrum kunne ikke eksportere overførslen."
+
+msgid "Unable to export history"
+msgstr "Kunne ikke eksportere historik"
+
+msgid "Your wallet history has been successfully exported."
+msgstr "Din tegnebogshistorik er problemfrit blevet eksporteret."
+
+msgid "Unknown"
+msgstr "Ukendt"
+
+msgid "Message"
+msgstr "Besked"
+
+msgid "History"
+msgstr "Historik"
+
+msgid "Send"
+msgstr "Send"
+
+msgid "Receive"
+msgstr "Modtag"
+
+msgid "&Addresses"
+msgstr "&Adresser"
+
+msgid "Co&ins"
+msgstr "Co&ins"
+
+msgid "Con&tacts"
+msgstr "Kon&takter"
+
+msgid "Con&sole"
+msgstr "Kon&sol"
+
+msgid "Would you like to be notified when there is a newer version of Electrum available?"
+msgstr "Vil du underrettes når der findes en ny version af Electrum?"
+
+msgid "watching only"
+msgstr "kun kigge"
+
+msgid "Electrum was unable to copy your wallet file to the specified location."
+msgstr "Electrum kunne ikke kopiere din tegnebogsfil til det angivne sted."
+
+msgid "A copy of your wallet file was created in"
+msgstr "En kopi af din tegnebogsfil blev oprettet i"
+
+msgid "&File"
+msgstr "&Fil"
+
+msgid "&Recently open"
+msgstr "&Seneste åbne"
+
+msgid "&Open"
+msgstr "&Åbn"
+
+msgid "&New/Restore"
+msgstr "&Ny/genopret"
+
+msgid "&Quit"
+msgstr "&Afslut"
+
+msgid "&Wallet"
+msgstr "&Tegnebog"
+
+msgid "&Information"
+msgstr "&Information"
+
+msgid "&Password"
+msgstr "&Adgangskode"
+
+msgid "&Seed"
+msgstr "&Seed"
+
+msgid "&Private keys"
+msgstr "&Private nøgler"
+
+msgid "&Sweep"
+msgstr "&Ryd"
+
+msgid "&Import"
+msgstr "&Importér"
+
+msgid "&Labels"
+msgstr "&Mærkater"
+
+msgid "Find"
+msgstr "Find"
+
+msgid "&View"
+msgstr "&Vis"
+
+msgid "&Tools"
+msgstr "&Værktøjer"
+
+msgid "Electrum preferences"
+msgstr "Electrum-indstillinger"
+
+msgid "&Network"
+msgstr "&Netværk"
+
+msgid "&Plugins"
+msgstr "&Udvidelsesmoduler"
+
+msgid "&Sign/verify message"
+msgstr "&Underskriv/verificér besked"
+
+msgid "&Encrypt/decrypt message"
+msgstr "&Kryptér/afkryptér besked"
+
+msgid "&Load transaction"
+msgstr "&Indlæs transaktion"
+
+msgid "&From file"
+msgstr "&Fra fil"
+
+msgid "&From text"
+msgstr "&Fra tekst"
+
+msgid "&From the blockchain"
+msgstr "&Fra blokkæden"
+
+msgid "&From QR code"
+msgstr "&Fra QR-kode"
+
+msgid "&Help"
+msgstr "&Hjælp"
+
+msgid "&About"
+msgstr "&Om"
+
+msgid "&Check for updates"
+msgstr "&Søg efter opdateringer"
+
+msgid "&Official website"
+msgstr "&Officiel hjemmeside"
+
+msgid "&Documentation"
+msgstr "&Dokumentation"
+
+msgid "&Report Bug"
+msgstr "&Rapportér programfejl"
+
+msgid "&Donate to server"
+msgstr "&Donation til server"
+
+msgid "Version"
+msgstr "Version"
+
+msgid "Electrum's focus is speed, with low resource usage and simplifying Bitcoin."
+msgstr "Electrums fokus ligger i hastighed med lavt ressourceforbrug og simplificering af Bitcoin."
+
+msgid "Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the Bitcoin system."
+msgstr "Opstartstider er øjeblikkelige, fordi den samarbejder med højtydende servere, som tager sig af de mest komplicerede dele af Bitcoin-systemet."
+
+msgid "Reporting Bugs"
+msgstr "Rapportering af programfejl"
+
+msgid "Offline"
+msgstr "Offline"
+
+msgid "Not connected"
+msgstr "Ikke forbundet"
+
+msgid "Invalid Address"
+msgstr "Ugyldig adresse"
+
+msgid "Outputs"
+msgstr "Outputs"
+
+msgid "Expires"
+msgstr "Udløber"
+
+msgid "Password"
+msgstr "Adgangskode"
+
+msgid "Seed"
+msgstr "Seed"
+
+msgid "Reset"
+msgstr "Nulstil"
+
+msgid "Failed to update password"
+msgstr "Opdatering af adgangskode mislykkedes"
+
+msgid "Password was updated successfully"
+msgstr "Adgangskoden blev opdateret problemfrit"
+
+msgid "Success"
+msgstr "Succes"
+
+msgid "New Contact"
+msgstr "Ny kontakt"
+
+msgid "This wallet has no seed"
+msgstr "Denne tegnebog har intet seed"
+
+msgid "QR code"
+msgstr "QR-kode"
+
+msgid "Signature verified"
+msgstr "Signatur verificeret"
+
+msgid "Sign/verify Message"
+msgstr "Signér/verificér besked"
+
+msgid "Signature"
+msgstr "Signatur"
+
+msgid "Sign"
+msgstr "Signér"
+
+msgid "Verify"
+msgstr "Verificér"
+
+msgid "Encrypt/decrypt Message"
+msgstr "Kryptér/afkryptér besked"
+
+msgid "Public key"
+msgstr "Offentlig nøgle"
+
+msgid "Encrypted"
+msgstr "Krypteret"
+
+msgid "Encrypt"
+msgstr "Kryptér"
+
+msgid "Decrypt"
+msgstr "Afkryptér"
+
+msgid "Electrum was unable to parse your transaction"
+msgstr "Electrum kunne ikke læse din overførsel"
+
+msgid "Select your transaction file"
+msgstr "Vælg din overførselsfil"
+
+msgid "Electrum was unable to open your transaction file"
+msgstr "Electrum kunne ikke åbne din overførselsfil"
+
+msgid "Unable to read file or no transaction found"
+msgstr "Kunne ikke læse fil eller ingen overførsel fundet"
+
+msgid "Input raw transaction"
+msgstr "Input rå transaktion"
+
+msgid "Transaction:"
+msgstr "Overførsel:"
+
+msgid "Load transaction"
+msgstr "Indlæs overførsel"
+
+msgid "Lookup transaction"
+msgstr "Slå transaktion op"
+
+msgid "This is a watching-only wallet"
+msgstr "Dette er en kigge-tegnebog"
+
+msgid "Private keys"
+msgstr "Private nøgler"
+
+msgid "WARNING: ALL your private keys are secret."
+msgstr "ADVARSEL: ALLE dine private nøgler er hemmelige."
+
+msgid "Exposing a single private key can compromise your entire wallet!"
+msgstr "Afsløring af en enkelt privat nøgle kan kompromittere hele din tegnebog!"
+
+msgid "In particular, DO NOT use 'redeem private key' services proposed by third parties."
+msgstr "Brug specielt IKKE tjenesterne vedr. \"redeem private key\", der foreslås af tredjepart."
+
+msgid "Select file to export your private keys to"
+msgstr "Vælg fil, som dine private nøgler skal eksporteres til"
+
+msgid "Electrum was unable to produce a private key-export."
+msgstr "Electrum kunne ikke eksportere en privat nøgle."
+
+msgid "Unable to create csv"
+msgstr "Kunne ikke oprette CSV"
+
+msgid "Private keys exported."
+msgstr "Private nøgler er eksporteret."
+
+msgid "Sweep private keys"
+msgstr "Ryd private nøgler"
+
+msgid "Sweep"
+msgstr "Ryd"
+
+msgid "The following addresses were added"
+msgstr "De følgende adresser blev tilføjet"
+
+msgid "The following inputs could not be imported"
+msgstr "De følgende inputs kunne ikke importeres"
+
+msgid "Import private keys"
+msgstr "Importér private nøgler"
+
+msgid "Enter private keys"
+msgstr "Indtast private nøgler"
+
+msgid "Please restart Electrum to activate the new GUI settings"
+msgstr "Genstart venligst Electrum for at aktivere de nye indstillinger for den grafiske brugergrænseflade"
+
+msgid "Expired"
+msgstr "Udløbet"
+
+msgid "Server"
+msgstr "Server"
+
+msgid "Height"
+msgstr "Højde"
+
+msgid "Blockchain"
+msgstr "Blokkæde"
+
+msgid "Clear"
+msgstr "Ryd"
+
+msgid "Leave this field empty if you want to disable encryption."
+msgstr "Lad feltet være tomt, hvis du ønsker at deaktivere kryptering."
+
+msgid "Enter Password"
+msgstr "Indtast adgangskode"
+
+msgid "Change Password"
+msgstr "Skift adgangskode"
+
+msgid "New Password:"
+msgstr "Ny adgangskode:"
+
+msgid "Password:"
+msgstr "Adgangskode:"
+
+msgid "Confirm Password:"
+msgstr "Bekræft adgangskode:"
+
+msgid "Current Password:"
+msgstr "Nuværende adgangskode:"
+
+msgid "Password Strength"
+msgstr "Adgangskodens styrke"
+
+msgid "Please enter your password"
+msgstr "Indtast venligst din adgangskode"
+
+msgid "Requires"
+msgstr "Kræver"
+
+msgid "Settings"
+msgstr "Opsætning"
+
+msgid "Enabled"
+msgstr "Aktiveret"
+
+msgid "Electrum Plugins"
+msgstr "Electrum-udvidelsesmoduler"
+
+msgid "Save"
+msgstr "Gem"
+
+msgid "Show as QR code"
+msgstr "Vis som QR-kode"
+
+msgid "Payment Request"
+msgstr "Betalingsanmodning"
+
+msgid "Requested amount"
+msgstr "Anmodet beløb"
+
+msgid "No more addresses in your wallet."
+msgstr "Ikke flere adresser i din tegnebog."
+
+msgid ""
+"Warning: The next address will not be recovered automatically if you restore your wallet from seed; you may need to add it manually.\n"
+"\n"
+"This occurs because you have too many unused addresses in your wallet. To avoid this situation, use the existing addresses first.\n"
+"\n"
+"Create anyway?"
+msgstr ""
+"Advarsel: Den næste adresse vil ikke automatisk blive genskabt, hvis du genskaber din tegnebog fra seed; du kan være nødt til at tilføje den manuelt.\n"
+"\n"
+"Dette sker, fordi du har for mange ubrugte adresser i din tegnebog. Brug de eksisterende adresser først for at undgå denne situation.\n"
+"\n"
+"Opret alligevel?"
+
+msgid "This seed will allow you to recover your wallet in case of computer failure."
+msgstr "Dette seed vil lade dig genskabe din tegnebog, hvis din computer går i stykker."
+
+msgid "WARNING"
+msgstr "ADVARSEL"
+
+msgid "Recipient of the funds."
+msgstr "Modtager af pengene."
+
+msgid "Description of the transaction (not mandatory)."
+msgstr "Beskrivelse af transaktionen (ikke obligatorisk)."
+
+msgid "The description is not sent to the recipient of the funds. It is stored in your wallet file, and displayed in the 'History' tab."
+msgstr "Beskrivelsen sendes ikke til modtageren af pengene. Den gemmes i din tegnebogsfil og vises i fanebladet \"Historik\"."
+
+msgid "Note that if you have frozen some of your addresses, the available funds will be lower than your total balance."
+msgstr "Vær opmærksom på, at hvis nogle af dine adresser er frosne, vil dine tilgængelige pengemidler være lavere end din totale saldo."
+
+msgid "Keyboard shortcut: type \"!\" to send all your coins."
+msgstr "Tastaturgenvej: Tast \"!\" for at sende alle dine coins."
+
+msgid "Invoices"
+msgstr "Fakturaer"
+
+msgid "&Pay to many"
+msgstr "&Betal til mange"
+
+msgid "No outputs"
+msgstr "Ingen outputs"
+
+msgid "Bitcoin Address is None"
+msgstr "Bitcoin-adresse mangler"
+
+msgid "Invalid Amount"
+msgstr "Ugyldigt beløb"
+
+msgid "Invalid Lines found:"
+msgstr "Ugyldige linjer fundet:"
+
+msgid "Payment request has expired"
+msgstr "Betalingsanmodning er udløbet"
+
+msgid "Payment sent."
+msgstr "Betaling sendt."
+
+msgid "Base unit of your wallet."
+msgstr "Din tegnebogs baseenhed."
+
+msgid "Base unit"
+msgstr "Baseenhed"
+
+msgid "Light"
+msgstr "Lyst"
+
+msgid "Dark"
+msgstr "Mørkt"
+
+msgid "Fiat currency"
+msgstr "Fiat-valuta"
+
+msgid "Source"
+msgstr "Kilde"
+
+msgid "Fee"
+msgstr "Gebyr"
+
+msgid "Inputs"
+msgstr "Inputs"
+
+msgid "Transaction ID:"
+msgstr "Overførsels-ID:"
+
+msgid "Broadcast"
+msgstr "Rundsend"
+
+msgid "This transaction is not saved. Close anyway?"
+msgstr "Denne overførsel er ikke gemt. Vil du lukke alligevel?"
+
+msgid "Copy to clipboard"
+msgstr "Kopiér til udklipsholder"
+
+msgid "Transaction"
+msgstr "Overførsel"
+
+msgid "Date: {}"
+msgstr "Dato: {}"
+
+msgid "Transaction unrelated to your wallet"
+msgstr "Overførslen er ikke relateret til din tegnebog"
+
+msgid "unknown"
+msgstr "ukendt"
+
+msgid "Cancel"
+msgstr "Annullér"
+
+msgid "Information"
+msgstr "Information"
+
+msgid "Question"
+msgstr "Spørgsmål"
+
+msgid "Format"
+msgstr "Format"
+
+msgid "CSV"
+msgstr "CSV"
+
+msgid "json"
+msgstr "json"
+
+msgid "File"
+msgstr "Fil"
+
+msgid "Open {} file"
+msgstr "Åbn {}-fil"
+
+msgid "Master Public Key"
+msgstr "Offentlig hovednøgle"
+
+msgid "Next"
+msgstr "Næste"
+
+msgid "Electrum wallet"
+msgstr "Electrum tegnebog"
+
+msgid "Wallet"
+msgstr "Tegnebog"
+
+msgid "Your seed is important!"
+msgstr "Dit seed er vigtigt!"
+
+msgid "To make sure that you have properly saved your seed, please retype it here."
+msgstr "Tast dit seed igen her for at være sikker på, at du har gemt det rigtigt."
+
+msgid "Select a device"
+msgstr "Vælg en enhed"
+
+msgid "Addresses"
+msgstr "Adresser"
+
+msgid "Contacts"
+msgstr "Kontakter"
+
+msgid "Quit"
+msgstr "Afslut"
+
+msgid "Invalid Bitcoin Address"
+msgstr "Ugyldig Bitcoin-adresse"
+
+msgid "Default"
+msgstr "Standard"
+
+msgid "Paid"
+msgstr "Betalt"
+
+msgid "Never"
+msgstr "Aldrig"
+
+msgid "1 hour"
+msgstr "1 time"
+
+msgid "1 day"
+msgstr "1 dag"
+
+msgid "1 week"
+msgstr "1 uge"
+
+msgid "Accept Word"
+msgstr "Accepter ord"
+
+msgid "Yes"
+msgstr "Ja"
+
+msgid "Language"
+msgstr "Sprog"
+
+msgid "Apply"
+msgstr "Anvend"
+
+msgid "Advanced"
+msgstr "Avanceret"
+
+msgid "Your labels have been synchronised."
+msgstr "Dine mærkater er blevet synkroniseret."
+
+msgid "Select server automatically"
+msgstr "Vælg server automatisk"
+
+msgid "Zeros after decimal point"
+msgstr "Nuller efter decimaltegn"
+
+msgid "Number of zeros displayed after the decimal point. For example, if this is set to 2, \"1.\" will be displayed as \"1.00\""
+msgstr "Antallet af nuller, der vises efter decimaltegnet. Hvis dette for eksempel er sat til 2, vil \"1.\" blive vist som \"1.00\""
+
+msgid "Online Block Explorer"
+msgstr "Online blokudforsker"
+
+msgid "Choose which online block explorer to use for functions that open a web browser"
+msgstr "Vælg hvilken online blokudforsker, der skal bruges til funktioner, som åbner en webbrowser"
+
+msgid "Video Device"
+msgstr "Videoenhed"
+
+msgid "Select which language is used in the GUI (after restart)."
+msgstr "Vælg hvilket sprog, der skal bruges i den grafiske brugergrænseflade (efter genstart)."
+
+msgid "Insufficient funds"
+msgstr "Ikke nok dækning"
+
+msgctxt "About|"
+msgid "About Electrum"
+msgstr "Om Electrum"
+
+msgctxt "About|"
+msgid "Version"
+msgstr "Version"
+
+msgctxt "About|"
+msgid "Developers"
+msgstr "Udviklere"
+
+msgctxt "AddressDetails|"
+msgid "Address"
+msgstr "Adresse"
+
+msgctxt "AddressDetails|"
+msgid "Balance"
+msgstr "Saldo"
+
+msgctxt "AddressDetails|"
+msgid "Transactions"
+msgstr "Transaktioner"
+
+msgctxt "AddressDetails|"
+msgid "Public keys"
+msgstr "Offentlige nøgler"
+
+msgctxt "AddressDetails|"
+msgid "Public key"
+msgstr "Offentlig nøgle"
+
+msgctxt "AddressDetails|"
+msgid "Private key"
+msgstr "Privat nøgle"
+
+msgctxt "AddressDetails|"
+msgid "Delete"
+msgstr "Slet"
+
+msgctxt "Addresses|"
+msgid "Addresses"
+msgstr "Adresser"
+
+msgctxt "BalanceSummary|"
+msgid "Balance"
+msgstr "Saldo"
+
+msgctxt "BtcField|"
+msgid "Amount"
+msgstr "Beløb"
+
+msgctxt "ConfirmTxDialog|"
+msgid "Fee"
+msgstr "Gebyr"
+
+msgctxt "ConfirmTxDialog|"
+msgid "Use multiple change addresses"
+msgstr "Brug adskillige byttepengeadresser"
+
+msgctxt "ExceptionDialog|"
+msgid "Error"
+msgstr "Fejl"
+
+msgctxt "ExportTxDialog|"
+msgid "Copy"
+msgstr "Kopiér"
+
+msgctxt "FiatField|"
+msgid "Amount"
+msgstr "Beløb"
+
+msgctxt "GenericShareDialog|"
+msgid "Copy"
+msgstr "Kopiér"
+
+msgctxt "ImportAddressesKeysDialog|"
+msgid "Import"
+msgstr "Importér"
+
+msgctxt "InvoiceDialog|"
+msgid "Address"
+msgstr "Adresse"
+
+msgctxt "InvoiceDialog|"
+msgid "Description"
+msgstr "Beskrivelse"
+
+msgctxt "InvoiceDialog|"
+msgid "Save"
+msgstr "Gem"
+
+msgctxt "InvoiceDialog|"
+msgid "Payment sent."
+msgstr "Betaling sendt."
+
+msgctxt "Invoices|"
+msgid "Delete"
+msgstr "Slet"
+
+msgctxt "LightningPaymentDetails|"
+msgid "Paid"
+msgstr "Betalt"
+
+msgctxt "LightningPaymentDetails|"
+msgid "Date"
+msgstr "Dato"
+
+msgctxt "LnurlPayRequestDialog|"
+msgid "Description"
+msgstr "Beskrivelse"
+
+msgctxt "LnurlPayRequestDialog|"
+msgid "Amount"
+msgstr "Beløb"
+
+msgctxt "LnurlPayRequestDialog|"
+msgid "Message"
+msgstr "Besked"
+
+msgctxt "LnurlWithdrawRequestDialog|"
+msgid "Description"
+msgstr "Beskrivelse"
+
+msgctxt "LnurlWithdrawRequestDialog|"
+msgid "Amount"
+msgstr "Beløb"
+
+msgctxt "MessageDialog|"
+msgid "Question"
+msgstr "Spørgsmål"
+
+msgctxt "MessageDialog|"
+msgid "Message"
+msgstr "Besked"
+
+msgctxt "MessageDialog|"
+msgid "Yes"
+msgstr "Ja"
+
+msgctxt "NetworkOverview|"
+msgid "Network"
+msgstr "Netværk"
+
+msgctxt "NetworkOverview|"
+msgid "Status"
+msgstr "Status"
+
+msgctxt "NetworkOverview|"
+msgid "Server"
+msgstr "Server"
+
+msgctxt "NewWalletWizard|"
+msgid "Error"
+msgstr "Fejl"
+
+msgctxt "NostrSwapServersDialog|"
+msgid "Fee"
+msgstr "Gebyr"
+
+msgctxt "OpenChannelDialog|"
+msgid "Error"
+msgstr "Fejl"
+
+msgctxt "OpenWalletDialog|"
+msgid "Password"
+msgstr "Adgangskode"
+
+msgctxt "PasswordDialog|"
+msgid "Enter Password"
+msgstr "Indtast adgangskode"
+
+msgctxt "PasswordDialog|"
+msgid "Password"
+msgstr "Adgangskode"
+
+msgctxt "Preferences|"
+msgid "Preferences"
+msgstr "Indstillinger"
+
+msgctxt "Preferences|"
+msgid "Language"
+msgstr "Sprog"
+
+msgctxt "Preferences|"
+msgid "Please restart Electrum to activate the new GUI settings"
+msgstr "Genstart venligst Electrum for at aktivere de nye indstillinger for den grafiske brugergrænseflade"
+
+msgctxt "Preferences|"
+msgid "Base unit"
+msgstr "Baseenhed"
+
+msgctxt "Preferences|"
+msgid "Advanced"
+msgstr "Avanceret"
+
+msgctxt "ProxyConfig|"
+msgid "Address"
+msgstr "Adresse"
+
+msgctxt "ProxyConfig|"
+msgid "Username"
+msgstr "Brugernavn"
+
+msgctxt "ProxyConfig|"
+msgid "Password"
+msgstr "Adgangskode"
+
+msgctxt "ReceiveDetailsDialog|"
+msgid "Message"
+msgstr "Besked"
+
+msgctxt "ReceiveDetailsDialog|"
+msgid "Amount"
+msgstr "Beløb"
+
+msgctxt "ReceiveDialog|"
+msgid "Status"
+msgstr "Status"
+
+msgctxt "ReceiveDialog|"
+msgid "Message"
+msgstr "Besked"
+
+msgctxt "ReceiveDialog|"
+msgid "Amount"
+msgstr "Beløb"
+
+msgctxt "ReceiveDialog|"
+msgid "Payment Request"
+msgstr "Betalingsanmodning"
+
+msgctxt "ReceiveRequests|"
+msgid "Delete"
+msgstr "Slet"
+
+msgctxt "RequestExpiryComboBox|"
+msgid "1 hour"
+msgstr "1 time"
+
+msgctxt "RequestExpiryComboBox|"
+msgid "1 day"
+msgstr "1 dag"
+
+msgctxt "RequestExpiryComboBox|"
+msgid "1 week"
+msgstr "1 uge"
+
+msgctxt "RequestExpiryComboBox|"
+msgid "Never"
+msgstr "Aldrig"
+
+msgctxt "ScanDialog|"
+msgid "Cancel"
+msgstr "Annullér"
+
+msgctxt "ServerConfig|"
+msgid "Server"
+msgstr "Server"
+
+msgctxt "ServerConnectWizard|"
+msgid "Next"
+msgstr "Næste"
+
+msgctxt "SignVerifyMessageDialog|"
+msgid "Address"
+msgstr "Adresse"
+
+msgctxt "SignVerifyMessageDialog|"
+msgid "Message"
+msgstr "Besked"
+
+msgctxt "SignVerifyMessageDialog|"
+msgid "Signature"
+msgstr "Signatur"
+
+msgctxt "SignVerifyMessageDialog|"
+msgid "Sign"
+msgstr "Signér"
+
+msgctxt "SignVerifyMessageDialog|"
+msgid "Verify"
+msgstr "Verificér"
+
+msgctxt "SwapDialog|"
+msgid "Cancel"
+msgstr "Annullér"
+
+msgctxt "SweepDialog|"
+msgid "Sweep private keys"
+msgstr "Ryd private nøgler"
+
+msgctxt "TermsOfUseWizard|"
+msgid "Next"
+msgstr "Næste"
+
+msgctxt "TxDetails|"
+msgid "Status"
+msgstr "Status"
+
+msgctxt "TxDetails|"
+msgid "Date"
+msgstr "Dato"
+
+msgctxt "TxDetails|"
+msgid "Transaction ID"
+msgstr "Overførsels-ID"
+
+msgctxt "TxDetails|"
+msgid "Sign"
+msgstr "Signér"
+
+msgctxt "TxDetails|"
+msgid "Broadcast"
+msgstr "Rundsend"
+
+msgctxt "TxDetails|"
+msgid "Save"
+msgstr "Gem"
+
+msgctxt "TxDetails|"
+msgid "Error"
+msgstr "Fejl"
+
+msgctxt "WCConfirmSeed|"
+msgid "Your seed is important!"
+msgstr "Dit seed er vigtigt!"
+
+msgctxt "WCConfirmSeed|"
+msgid "To make sure that you have properly saved your seed, please retype it here."
+msgstr "Tast dit seed igen her for at være sikker på, at du har gemt det rigtigt."
+
+msgctxt "WCCreateSeed|"
+msgid "This seed will allow you to recover your wallet in case of computer failure."
+msgstr "Dette seed vil lade dig genskabe din tegnebog, hvis din computer går i stykker."
+
+msgctxt "WCCreateSeed|"
+msgid "WARNING"
+msgstr "ADVARSEL"
+
+msgctxt "WCServerConfig|"
+msgid "Server"
+msgstr "Server"
+
+msgctxt "WalletDetails|"
+msgid "Encrypted"
+msgstr "Krypteret"
+
+msgctxt "WalletDetails|"
+msgid "Seed"
+msgstr "Seed"
+
+msgctxt "WalletDetails|"
+msgid "Name"
+msgstr "Navn"
+
+msgctxt "WalletDetails|"
+msgid "unknown"
+msgstr "ukendt"
+
+msgctxt "WalletDetails|"
+msgid "Master Public Key"
+msgstr "Offentlig hovednøgle"
+
+msgctxt "WalletDetails|"
+msgid "Change Password"
+msgstr "Skift adgangskode"
+
+msgctxt "WalletDetails|"
+msgid "Success"
+msgstr "Succes"
+
+msgctxt "WalletDetails|"
+msgid "Error"
+msgstr "Fejl"
+
+msgctxt "WalletDetails|"
+msgid "Warning"
+msgstr "Advarsel"
+
+msgctxt "WalletMainView|"
+msgid "Sweep"
+msgstr "Ryd"
+
+msgctxt "WalletMainView|"
+msgid "Receive"
+msgstr "Modtag"
+
+msgctxt "WalletMainView|"
+msgid "Send"
+msgstr "Send"
+
+msgctxt "WalletMainView|"
+msgid "Error"
+msgstr "Fejl"
+
+msgctxt "Wizard|"
+msgid "Cancel"
+msgstr "Annullér"
+
+msgctxt "Wizard|"
+msgid "Next"
+msgstr "Næste"
+
+msgctxt "main|"
+msgid "Network"
+msgstr "Netværk"
+
+msgctxt "main|"
+msgid "Preferences"
+msgstr "Indstillinger"
+
+msgctxt "main|"
+msgid "About"
+msgstr "Om"
+
+msgctxt "main|"
+msgid "Error"
+msgstr "Fejl"

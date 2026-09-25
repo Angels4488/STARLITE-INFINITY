@@ -1,0 +1,315 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: electrum\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-02 08:02+0000\n"
+"PO-Revision-Date: 2026-07-02 08:02\n"
+"Last-Translator: \n"
+"Language-Team: Belarusian\n"
+"Language: be_BY\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Qt-Contexts: true\n"
+"X-Electrum-SourceStringCount: 2738\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || n%10>=5 && n%10<=9 || n%100>=11 && n%100<=14 ? 2 : 3);\n"
+"X-Crowdin-Project: electrum\n"
+"X-Crowdin-Project-ID: 20482\n"
+"X-Crowdin-Language: be\n"
+"X-Crowdin-File: /electrum-client/messages.pot\n"
+"X-Crowdin-File-ID: 68\n"
+
+msgid "  (No FX rate available)"
+msgstr "  (Курсы валют недаступныя)"
+
+msgid "Dark/Light"
+msgstr "Цёмна/Светла"
+
+msgid "Address"
+msgstr "Адрас"
+
+msgid "Lightning"
+msgstr "Lightning"
+
+msgid "Also, dust is not kept as change, but added to the fee."
+msgstr "Таксама дробязь (dust) не вяртаецца ў рэшце, але дадаецца ў камісійную ўзнагароду."
+
+msgid "Additional {} satoshis are going to be added."
+msgstr "Дададзена {} дадатковых сатошы."
+
+msgid "A suggested fee is automatically added to this field. You may override it. The suggested fee increases with the size of the transaction."
+msgstr "Прапанаваны памер камісіі аўтаматычнае дадаецца ў гэтае поле. Вы можаце змяніць яго. Памер залежыць ад памеру трансакцыі."
+
+msgid "Additional fees"
+msgstr "Дадатковыя камісіі"
+
+msgid " confirmation"
+msgstr " пацвярджэнне"
+
+msgid "Acquisition price"
+msgstr "Кошт набыцця"
+
+msgid "All"
+msgstr "Усе"
+
+msgid "&Summary"
+msgstr "&Зводка"
+
+msgid "&Plot"
+msgstr "&Дыяграма"
+
+msgid "&Export"
+msgstr "&Экспарт"
+
+msgid "&Addresses"
+msgstr "&Адрасы"
+
+msgid "A copy of your wallet file was created in"
+msgstr "Копія вашага гаманца была створаная ў"
+
+msgid "&File"
+msgstr "&Файл"
+
+msgid "&Recently open"
+msgstr "&Нядаўна адкрытыя"
+
+msgid "&Open"
+msgstr "&Адкрыць"
+
+msgid "&New/Restore"
+msgstr "&Стварыць/Аднавіць"
+
+msgid "&Save backup"
+msgstr "&Захаваць рэзервовую копію"
+
+msgid "&Quit"
+msgstr "&Выхад"
+
+msgid "&Wallet"
+msgstr "&Гаманец"
+
+msgid "&Information"
+msgstr "&Інфармацыя"
+
+msgid "&Password"
+msgstr "&Пароль"
+
+msgid "&Seed"
+msgstr "&Сід"
+
+msgid "&Private keys"
+msgstr "&Асабісты ключ"
+
+msgid "&Sweep"
+msgstr "&Прыбраць"
+
+msgid "&Import"
+msgstr "&Імпарт"
+
+msgid "&Labels"
+msgstr "&Адмеціны"
+
+msgid "&View"
+msgstr "&Выгляд"
+
+msgid "&Tools"
+msgstr "&Інструменты"
+
+msgid "&Network"
+msgstr "&Сетка"
+
+msgid "&Plugins"
+msgstr "&Убудовы"
+
+msgid "&Sign/verify message"
+msgstr "&Падпісаць/пацвердзіць паведамленне"
+
+msgid "&Encrypt/decrypt message"
+msgstr "&Зашыфраваць/расшыфраваць паведамленне"
+
+msgid "&Load transaction"
+msgstr "&Загрузіць трансакцыю"
+
+msgid "&From file"
+msgstr "&З файла"
+
+msgid "&From text"
+msgstr "&З тэксту"
+
+msgid "&From the blockchain"
+msgstr "&З ланцужка блокаў"
+
+msgid "&From QR code"
+msgstr "&З QR-кода"
+
+msgid "&Help"
+msgstr "&Даведка"
+
+msgid "&About"
+msgstr "&Пра праграму"
+
+msgid "&Check for updates"
+msgstr "&Праверка наяўнасці абнаўленняў"
+
+msgid "&Official website"
+msgstr "&Афіцыйны вэб-сайт"
+
+msgid "&Documentation"
+msgstr "&Дакументацыя"
+
+msgid "&Bitcoin Paper"
+msgstr "&Bitcoin Paper"
+
+msgid "&Report Bug"
+msgstr "&Паведаміць пра хібу"
+
+msgid "&Donate to server"
+msgstr "&Ахвяраваць на абслугоўванне сервера"
+
+msgid "Address not in wallet."
+msgstr "Адрас адсутнічае ў гаманцы."
+
+msgid "&Flip horizontally"
+msgstr "&Flip horizontally"
+
+msgid "&Close"
+msgstr "&Закрыць"
+
+msgid "&Pay to many"
+msgstr "&Заплаціць некалькім"
+
+msgid "Address Details"
+msgstr "Звесткі пра адрас"
+
+msgid "Already up to date"
+msgstr "Ужо абноўлена"
+
+msgid "Address is frozen"
+msgstr "Адрас замарожаны"
+
+msgid "A few examples"
+msgstr "Некалькі прыкладаў"
+
+msgid "Add a cosigner to your multi-sig wallet"
+msgstr "Дадаць даручальніка да вашага гаманца са складаным подпісам"
+
+msgid "Addresses"
+msgstr "Адрасы"
+
+msgid "10 minutes"
+msgstr "10 хвілін"
+
+msgid "1 hour"
+msgstr "1 гадзіна"
+
+msgid "1 day"
+msgstr "1 дзень"
+
+msgid "1 week"
+msgstr "1 тыдзень"
+
+msgid "A library is probably missing."
+msgstr "Здаецца, бібліятэка адсутнічае."
+
+msgid "A backup is saved automatically when generating a new wallet."
+msgstr "Рэзервовая копія аўтаматычна ствараецца пры стварэнні новага гаманца."
+
+msgid "(Touch {} of {})"
+msgstr "(Націсніце {} з {})"
+
+msgid "Accept Word"
+msgstr "Ухваліць слова"
+
+msgid "Advanced"
+msgstr "Дадаткова"
+
+msgid "2. Align your Revealer borderlines to the dashed lines on the top and left."
+msgstr "2. Выраўняйце межы Revealer адносна ліній зверху і злева."
+
+msgid "3. Press slightly the Revealer against the paper and read the numbers that best match on the opposite sides. "
+msgstr "3. Крыху прыцісніце Revealer да паперы, і прачытайце лічбы, што лепш за ўсё адпавядаюць на супрацьлеглых баках. "
+
+msgid "4. Type the numbers in the software"
+msgstr "4. Увядзіце нумары ў праграме"
+
+msgid "A small fee will be charged on each transaction that uses the remote server.  You may check and modify your billing preferences once the installation is complete."
+msgstr "Пры кожнай трансацыі праз адлеглы сервер будзе спаганяцца невялічкая камісія. Пасля завяршэння ўсталёўкі вы зможаце праглядзець і змяніць плацежныя налады."
+
+msgctxt "About|"
+msgid "About Electrum"
+msgstr "Пра Electrum"
+
+msgctxt "AddressDetails|"
+msgid "Address"
+msgstr "Адрас"
+
+msgctxt "Addresses|"
+msgid "Addresses"
+msgstr "Адрасы"
+
+msgctxt "BalanceDetails|"
+msgid "Lightning"
+msgstr "Lightning"
+
+msgctxt "BalanceSummary|"
+msgid "Lightning"
+msgstr "Lightning"
+
+msgctxt "InvoiceDialog|"
+msgid "Address"
+msgstr "Адрас"
+
+msgctxt "NetworkOverview|"
+msgid "Lightning"
+msgstr "Lightning"
+
+msgctxt "Preferences|"
+msgid "Lightning"
+msgstr "Lightning"
+
+msgctxt "Preferences|"
+msgid "Advanced"
+msgstr "Дадаткова"
+
+msgctxt "ProxyConfig|"
+msgid "Address"
+msgstr "Адрас"
+
+msgctxt "ReceiveDetailsDialog|"
+msgid "Lightning"
+msgstr "Lightning"
+
+msgctxt "RequestExpiryComboBox|"
+msgid "10 minutes"
+msgstr "10 хвілін"
+
+msgctxt "RequestExpiryComboBox|"
+msgid "1 hour"
+msgstr "1 гадзіна"
+
+msgctxt "RequestExpiryComboBox|"
+msgid "1 day"
+msgstr "1 дзень"
+
+msgctxt "RequestExpiryComboBox|"
+msgid "1 week"
+msgstr "1 тыдзень"
+
+msgctxt "SignVerifyMessageDialog|"
+msgid "Address"
+msgstr "Адрас"
+
+msgctxt "SweepDialog|"
+msgid "A few examples"
+msgstr "Некалькі прыкладаў"
+
+msgctxt "WalletDetails|"
+msgid "Lightning"
+msgstr "Lightning"
+
+msgctxt "main|"
+msgid "About"
+msgstr "Пра праграму"

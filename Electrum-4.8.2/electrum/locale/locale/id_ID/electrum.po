@@ -1,0 +1,2772 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: electrum\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-02 08:02+0000\n"
+"PO-Revision-Date: 2026-07-02 08:02\n"
+"Last-Translator: \n"
+"Language-Team: Indonesian\n"
+"Language: id_ID\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Qt-Contexts: true\n"
+"X-Electrum-SourceStringCount: 2738\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: electrum\n"
+"X-Crowdin-Project-ID: 20482\n"
+"X-Crowdin-Language: id\n"
+"X-Crowdin-File: /electrum-client/messages.pot\n"
+"X-Crowdin-File-ID: 68\n"
+
+msgid "Sorry!"
+msgstr "Maaf!"
+
+msgid "To help us diagnose and fix the problem, you can send us a bug report that contains useful debug information:"
+msgstr "Untuk membantu kami mendiagnosis dan memperbaiki masalah, Anda dapat mengirimkan laporan masalah yang berisi informasi debug yang berguna:"
+
+msgid "Please briefly describe what led to the error (optional):"
+msgstr "Silakan jelaskan secara singkat apa yang menyebabkan kesalahan tersebut (pilihan lain):"
+
+msgid "Do you want to send this report?"
+msgstr "Anda ingin mengirimkan laporan ini?"
+
+msgid "Do not enter sensitive/private information here. The report will be visible on the public issue tracker."
+msgstr "Jangan masukkan informasi sensitif/pribadi di sini. Laporan akan terlihat di pelacak masalah publik."
+
+msgid "Missing report URL."
+msgstr "URL laporan hilang."
+
+msgid "Thanks for reporting this issue!"
+msgstr "Terima kasih telah melaporkan masalah ini!"
+
+msgid "unknown parser {!r} (choices: {})"
+msgstr "parser {!r} tidak dikenal (pilihan: {})"
+
+msgid "Unexpected password hash version"
+msgstr "Versi kata sandi yang tidak terduga"
+
+msgid "  (No FX rate available)"
+msgstr "  (Tidak ada FX rate yg tersedia)"
+
+msgid "ETA"
+msgstr "EWT"
+
+msgid "Mempool"
+msgstr "Mempool"
+
+msgid "Low fee"
+msgstr "Biaya rendah"
+
+msgid "In the next block"
+msgstr "Pada block selanjutnya"
+
+msgid "Current rate"
+msgstr "Nilai tukar saat ini"
+
+msgid "Fixed rate"
+msgstr "Biaya tetap"
+
+msgid "Please note that channel backups cannot be used to restore your channels."
+msgstr "Mohon perhatikan bahwa cadangan saluran tidak dapatt digunakan untuk memulihkan saluran Anda."
+
+msgid "Please report this issue manually"
+msgstr "Silakan laporkan isu ini secara manual"
+
+msgid "If you force-close this channel, the funds you have in it will not be available for {} blocks."
+msgstr "Jika Anda menutup paksa kanal ini, dana-dana yang Anda miliki di dalamnya akan tidak tersedia untuk {} blocks."
+
+msgid "Could not close channel: "
+msgstr "Tidak dapat menutup saluran: "
+
+msgid "Open Lightning channel?"
+msgstr "Buka saluran Lightning?"
+
+msgid "Problem deleting wallet"
+msgstr "Masalah menghapus wallet"
+
+msgid "Insufficient balance"
+msgstr "Saldo tidak mencukupi"
+
+msgid "Initializing..."
+msgstr "Menginisialisasi..."
+
+msgid "Error"
+msgstr "Kesalahan"
+
+msgid "Select one of the available swap providers."
+msgstr "Pilih salah satu penyedia swap yang tersedia."
+
+msgid "You are offline."
+msgstr "Kamu offline."
+
+msgid "Are you sure you want to remove this transaction?"
+msgstr "Apa anda sudah pasti untuk menghapus transaksi ini?"
+
+msgid "Are you sure you want to remove this transaction and {} child transactions?"
+msgstr "Apa anda sudah pasti untuk menghapus transaksi ini dan {} transaksi anak?"
+
+msgid "Warning"
+msgstr "Peringatan"
+
+msgid "Can't CPFP: unknown fee for parent transaction."
+msgstr "Tidak dapat CPFP: biaya tidak diketahui untuk transaksi induk."
+
+msgid "Max fee exceeded"
+msgstr "Diatas biaya maksimum"
+
+msgid "Not enough funds"
+msgstr "Dana tidak mencukupi"
+
+msgid "Amount"
+msgstr "Jumlah"
+
+msgid "Synchronizing..."
+msgstr "Menyinkronisasikan..."
+
+msgid "Network"
+msgstr "Jaringan"
+
+msgid "Show/Hide"
+msgstr "Tampilkan/Sembunyikan"
+
+msgid "Close"
+msgstr "Tutup"
+
+msgid "Dark/Light"
+msgstr "Tampilan Malam / Terang"
+
+msgid "Exit Electrum"
+msgstr "Keluar dari Electrum"
+
+msgid "Cannot load wallet"
+msgstr "Tidak dapat memuat dompet"
+
+msgid "Address"
+msgstr "Alamat"
+
+msgid "Public keys"
+msgstr "Kunci publik"
+
+msgid "Redeem Script"
+msgstr "Gunakan Script"
+
+msgid "Funded"
+msgstr "Didanai"
+
+msgid "Funded or Unused"
+msgstr "Didanai atau tidak digunakan"
+
+msgid "Receiving"
+msgstr "Menerima"
+
+msgid "Change"
+msgstr "Perubahan"
+
+msgid "Fiat"
+msgstr "Uang yang disahkan oleh sebuah negara sebagai alat pembayaran"
+
+msgid "Label"
+msgstr "Label"
+
+msgid "Balance"
+msgstr "Saldo"
+
+msgid "Details"
+msgstr "Detail"
+
+msgid "Edit {}"
+msgstr "Edit {}"
+
+msgid "Private key"
+msgstr "Kunci Privat"
+
+msgid "Sign/verify message"
+msgstr "Tanda tangani/verifikasi pesan"
+
+msgid "View on block explorer"
+msgstr "Lihat di blok eksplorer"
+
+msgid "Lightning"
+msgstr "Kilat"
+
+msgid "BIP39 Recovery"
+msgstr "Pemulihan BIP39"
+
+msgid "Choose an account to restore."
+msgstr "Pilih akun untuk memulihkan."
+
+msgid "Channel Backup"
+msgstr "Cadangan Saluran"
+
+msgid "A backup does not contain information about your local balance in the channel."
+msgstr "Cadangan tidak berisi informasi tentang saldo lokal di saluran Anda."
+
+msgid "CLTV expiry"
+msgstr "CLTV kedaluwarsa"
+
+msgid "Channel ID"
+msgstr "ID saluran"
+
+msgid "Capacity"
+msgstr "Kapasitas"
+
+msgid "Channel type:"
+msgstr "Jenis saluran:"
+
+msgid "Initiator:"
+msgstr "Inisiator:"
+
+msgid "Can send"
+msgstr "Dapat mengirim"
+
+msgid "Can receive"
+msgstr "Dapat menerima"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Please wait..."
+msgstr "Harap tunggu..."
+
+msgid "After that delay, funds will be swept to an address derived from your wallet seed."
+msgstr "Setelah penundaan itu, dana akan disapu ke alamat yang berasal dari benih dompet Anda."
+
+msgid "Are you sure you want to delete this channel? This will purge associated transactions from your wallet history."
+msgstr "Apa anda sudah pasti untuk menghapus channel ini? Ini akan menyapu bersih transaksi yang terkait dari riwayat wallet anda."
+
+msgid "Channel is frozen for sending"
+msgstr "Saluran dibekukan untuk dikirim"
+
+msgid "Force-close"
+msgstr "Tutup paksa"
+
+msgid "Export backup"
+msgstr "Ekspor cadangan"
+
+msgid "Delete"
+msgstr "Hapus"
+
+msgid "Channels"
+msgstr "Saluran"
+
+msgid "At most 100 satoshis might be lost due to this rounding."
+msgstr "paling maksimal 100 unit satoshi mungkin bisa hangus dikarenakan rounding ini."
+
+msgid "Preferences"
+msgstr "Pengaturan"
+
+msgid "Also, dust is not kept as change, but added to the fee."
+msgstr "dan juga. dust tidak akan disimpan sebagai pengganti, tetapi akan ditambahkan sebagai biaya."
+
+msgid "Also, when batching RBF transactions, BIP 125 imposes a lower bound on the fee."
+msgstr "dan juga, ketika memborong transaksi RBF, BIP 125 akan membebankan batas bawah pada biaya."
+
+msgid "Fee rounding"
+msgstr "Pembulatan biaya"
+
+msgid "Additional {} satoshis are going to be added."
+msgstr " Satoshi {} sambilan akan di tambahkan."
+
+msgid "OK"
+msgstr "Oke"
+
+msgid "Not available for this wallet."
+msgstr "Tidak tersedia untuk dompet ini."
+
+msgid "Use change addresses"
+msgstr "Gunakan alamat kembalian"
+
+msgid "Using change addresses makes it more difficult for other people to track your transactions."
+msgstr "Menggunakan alamat kembalian membuat orang lain lebih sulit untuk mengikuti transaksi-transaksi Anda."
+
+msgid "Use multiple change addresses"
+msgstr "Gunakan beberapa alamat dompet"
+
+msgid "In some cases, use up to 3 change addresses in order to break up large coin amounts and obfuscate the recipient address."
+msgstr "Dalam beberapa kasus, gunakan hingga 3 alamat yang berubah-ubah dalam rangka untuk memecah jumlah koin yang besar dan mengaburkan alamat penerima."
+
+msgid "This may result in higher transactions fees."
+msgstr "Hal ini dapat mengakibatkan biaya transaksi yang lebih tinggi."
+
+msgid "Mining fee"
+msgstr "Bebas menambang koin"
+
+msgid "Fees are paid by the sender."
+msgstr "Biaya dibayarkan oleh pengirim"
+
+msgid "Amount to be sent"
+msgstr "Jumlah yang akan dikirimkan"
+
+msgid "Bitcoin transactions are in general not free. A transaction fee is paid by the sender of the funds."
+msgstr "Transaksi Bitcoin secara umum tidaklah gratis. Biaya transaksi dibayarkan oleh pengirim."
+
+msgid "The amount of fee can be decided freely by the sender. However, transactions with low fees take more time to be processed."
+msgstr "Besarnya biaya kirim dapat ditentukan sesuka hati oleh pengirim. Akan tetapi, transaksi dengan biaya rendah akan membutuhkan waktu lebih lama untuk diproses."
+
+msgid "A suggested fee is automatically added to this field. You may override it. The suggested fee increases with the size of the transaction."
+msgstr "Biaya yang disarankan akan ditambahkan secara otomatis ke kolom ini. Anda boleh menggantinya. Biaya yang disarankan akan meningkat seiring dengan ukuran data transaksi."
+
+msgid "Additional fees"
+msgstr "Biaya tambahan"
+
+msgid "Do not paste code here that you don't understand. Executing the wrong code could lead to your coins being irreversibly lost."
+msgstr "Jangan menempelkan kode yang tidak Anda pahami di sini. Menjalankan kode yang salah dapat mengakibatkan koin Anda benar-benar hilang."
+
+msgid "Click here to hide this message."
+msgstr "Klik di sini untuk menyembunyikan pesan ini."
+
+msgid "Name"
+msgstr "Nama"
+
+msgid "Copy {}"
+msgstr "Salin {}"
+
+msgid "Pay to"
+msgstr "Bayar ke"
+
+msgid "&New contact"
+msgstr "&Kontak baru"
+
+msgid "Import"
+msgstr "Impor"
+
+msgid "Export"
+msgstr "Ekspor"
+
+msgid "An Error Occurred"
+msgstr "Terjadi sebuah kesalahan"
+
+msgid "Send Bug Report"
+msgstr "Kirim Laporan Bug"
+
+msgid "Not Now"
+msgstr "Tidak Sekarang"
+
+msgid "Crash report"
+msgstr "Laporan Masalah"
+
+msgid "ETA: fee rate is based on average confirmation time estimates"
+msgstr "EWT: kurs biaya adalah berdasarkan rata-rata konfirmasi dan estimasi waktu"
+
+msgid " confirmation"
+msgstr "Konfirmasi"
+
+msgid "Acquisition price"
+msgstr "Harga perolehan"
+
+msgid "Capital Gains"
+msgstr "keuntungan modal"
+
+msgid "Date"
+msgstr "Tanggal"
+
+msgid "Description"
+msgstr "Keterangan"
+
+msgid "All"
+msgstr "Semua"
+
+msgid "Custom"
+msgstr "Kustom"
+
+msgid "None"
+msgstr "Tidak ada"
+
+msgid "From"
+msgstr "Dari"
+
+msgid "&Summary"
+msgstr "&Ringkasan"
+
+msgid "&Plot"
+msgstr "&Alur"
+
+msgid "&Export"
+msgstr "&Ekspor"
+
+msgid "Select date"
+msgstr "Pilih tanggal"
+
+msgid "Nothing to summarize."
+msgstr "Tidak ada yang dapat disimpulkan."
+
+msgid "Summary"
+msgstr "Rangkuman"
+
+msgid "Begin"
+msgstr "Mulai"
+
+msgid "End"
+msgstr "Akhiri"
+
+msgid "BTC balance"
+msgstr "saldo BTC"
+
+msgid "BTC Fiat price"
+msgstr "Harga BTC Fiat"
+
+msgid "BTC incoming"
+msgstr "BTC masuk"
+
+msgid "BTC outgoing"
+msgstr "BTC keluar"
+
+msgid "Cash flow"
+msgstr "Arus kas"
+
+msgid "Copy"
+msgstr "Salin"
+
+msgid "Remove"
+msgstr "Hapus"
+
+msgid "Transaction ID"
+msgstr "ID Transaksi"
+
+msgid "Increase fee"
+msgstr "Meningkatkan biaya mining"
+
+msgid "Child pays for parent"
+msgstr "Anak membayar untuk orang tua"
+
+msgid "Cancel (double-spend)"
+msgstr "Batalkan (pembelanjaan ganda)"
+
+msgid "Please confirm"
+msgstr "Silahkan konfirmasi"
+
+msgid "Export History"
+msgstr "Ekspor Riwayat"
+
+msgid "Select file to export your wallet transactions to"
+msgstr "Pilih berkas kemana Anda ingin mengekspor transaksi dompet Anda"
+
+msgid "Electrum was unable to produce a transaction export."
+msgstr "Electrum tidak dapat menghasilkan ekspor transaksi."
+
+msgid "Unable to export history"
+msgstr "Tidak dapat mengekspor riwayat"
+
+msgid "Unknown"
+msgstr "Tidak diketahui"
+
+msgid "Batch pay invoices"
+msgstr "faktur pembayaran batch"
+
+msgid "Delete invoices"
+msgstr "Hapus faktur"
+
+msgid "Pay"
+msgstr "Bayar"
+
+msgid "Retry"
+msgstr "Coba lagi"
+
+msgid "Message"
+msgstr "Pesan"
+
+msgid "Connected to {} peers"
+msgstr "Terhubung ke {} rekan"
+
+msgid "Raw"
+msgstr "Mentah"
+
+msgid "Block height"
+msgstr "Tinggi blok"
+
+msgid "History"
+msgstr "Riwayat"
+
+msgid "Send"
+msgstr "Kirim"
+
+msgid "Receive"
+msgstr "Terima"
+
+msgid "&Addresses"
+msgstr "&Alamat"
+
+msgid "Co&ins"
+msgstr "Ko&in"
+
+msgid "Con&tacts"
+msgstr "Kon&tak"
+
+msgid "Con&sole"
+msgstr "Kon&sol"
+
+msgid "&Notes"
+msgstr "&Catatan"
+
+msgid "For security reasons we advise that you always use the latest version of Electrum."
+msgstr "Untuk alasan keamanan kami sarankan Anda menggunakan versi terbaru Electrum."
+
+msgid "watching only"
+msgstr "Hanya dapat dilihat"
+
+msgid "This wallet is watching-only."
+msgstr "Dompet ini hanya dapat dilihat saja."
+
+msgid "This means you will not be able to spend Bitcoins with it."
+msgstr "Ini artinya Anda tidak akan dapat menghabiskan Bitcoins dengan itu."
+
+msgid "Make sure you own the seed phrase or the private keys, before you request Bitcoins to be sent to this wallet."
+msgstr "Pastikan anda memiliki frase biji atau kunci pribadi, sebelum Anda meminta Bitcoins untuk dikirim ke alamat ini."
+
+msgid "Don't show this again."
+msgstr "Jangan tampilkan lagi."
+
+msgid "File Backup"
+msgstr "File cadangan"
+
+msgid "Backup directory"
+msgstr "direktori cadangan"
+
+msgid "Please select a backup directory"
+msgstr "Silakan pilih direktori cadangan"
+
+msgid "Channel backups can only be used to request your channels to be closed."
+msgstr "Cadangan saluran hanya dapat digunakan untuk meminta saluran Anda ditutup."
+
+msgid "Backup not configured"
+msgstr "Cadangan tidak dikonfigurasi"
+
+msgid "Electrum was unable to copy your wallet file to the specified location."
+msgstr "Electrum tidak dapat menyalin berkas wallet Anda ke lokasi tersebut."
+
+msgid "Unable to create backup"
+msgstr "Tidak dapat membuat cadangan"
+
+msgid "A copy of your wallet file was created in"
+msgstr "Salinan dompet Anda dibuat di"
+
+msgid "Wallet backup created"
+msgstr "Membuat backup dompet anda"
+
+msgid "&File"
+msgstr "&Berkas"
+
+msgid "&Recently open"
+msgstr "&Terakhir dibuka"
+
+msgid "&Open"
+msgstr "&Buka"
+
+msgid "&New/Restore"
+msgstr "&Buat baru/Pemulihan"
+
+msgid "&Save backup"
+msgstr "&Simpan cadangan"
+
+msgid "&Quit"
+msgstr "&Keluar"
+
+msgid "&Wallet"
+msgstr "&Dompet"
+
+msgid "&Information"
+msgstr "&Informasi"
+
+msgid "&Password"
+msgstr "&Kata sandi"
+
+msgid "&Seed"
+msgstr "&Benih"
+
+msgid "&Private keys"
+msgstr "&Kunci privat"
+
+msgid "&Sweep"
+msgstr "&Sapu"
+
+msgid "&Import"
+msgstr "&Impor"
+
+msgid "Import addresses"
+msgstr "Impor alamat"
+
+msgid "&Labels"
+msgstr "&Label"
+
+msgid "Find"
+msgstr "Cari"
+
+msgid "&View"
+msgstr "&Lihat"
+
+msgid "&Tools"
+msgstr "&Alat"
+
+msgid "Electrum preferences"
+msgstr "Pengaturan Electrum"
+
+msgid "&Network"
+msgstr "&Jaringan"
+
+msgid "&Plugins"
+msgstr "&Plugin"
+
+msgid "&Sign/verify message"
+msgstr "&Tanda tangani/verifikasi pesan"
+
+msgid "&Encrypt/decrypt message"
+msgstr "&Enkripsi/dekripsi pesan"
+
+msgid "&Load transaction"
+msgstr "&Muat transaksi"
+
+msgid "&From file"
+msgstr "&Dari berkas"
+
+msgid "&From text"
+msgstr "&Dari teks"
+
+msgid "&From the blockchain"
+msgstr "&Dari blockchain"
+
+msgid "&From QR code"
+msgstr "&Dari kode QR"
+
+msgid "&Help"
+msgstr "&Bantuan"
+
+msgid "&About"
+msgstr "&Tentang"
+
+msgid "&Check for updates"
+msgstr "&Memeriksa pembaruan"
+
+msgid "&Official website"
+msgstr "&Website resmi"
+
+msgid "&Documentation"
+msgstr "&Panduan"
+
+msgid "&Bitcoin Paper"
+msgstr "Kertas Bitcoin"
+
+msgid "&Report Bug"
+msgstr "&Laporkan Masalah"
+
+msgid "&Donate to server"
+msgstr "&Donasi ke server"
+
+msgid "No donation address for this server"
+msgstr "Tidak ada alamat sumbangan untuk server ini"
+
+msgid "Version"
+msgstr "Versi"
+
+msgid "Electrum's focus is speed, with low resource usage and simplifying Bitcoin."
+msgstr "Fokus Electrum ada pada kecepatannya, dengan penggunaan sumber daya yang rendah dan menyederhanakan Bitcoin."
+
+msgid "Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the Bitcoin system."
+msgstr "Waktu memulai nya sangat cepat karena bekerja dengan dibantu server-server berperforma tinggi yang menjalankan bagian kompleks dari sistem Bitcoin."
+
+msgid "Uses icons from the Icons8 icon pack (icons8.com)."
+msgstr "Gunakan ikon dari Icon8 ikon pack (icon8.com)."
+
+msgid "Please report any bugs as issues on github:<br/>"
+msgstr "Silakan laporkan apapun bug sebagai isu di github:<br/>"
+
+msgid "Before reporting a bug, upgrade to the most recent version of Electrum (latest release or git HEAD), and include the version number in your report."
+msgstr "Sebelum melaporkan sebuah kutu, harap tingkatkan Electrum ke versi yang terbaru (rilis terbaru atau git HEAD), dan masukan nomor versi dalam laporan Anda."
+
+msgid "Try to explain not only what the bug is, but how it occurs."
+msgstr "Cobalah untuk menjelaskan tidak hanya ada bug tersebut, tapi bagaimana itu bisa terjadi."
+
+msgid "Reporting Bugs"
+msgstr "Laporkan masalah"
+
+msgid "Offline"
+msgstr "Luring"
+
+msgid "Connected"
+msgstr "terhubung"
+
+msgid "Not connected"
+msgstr "Tidak terhubung"
+
+msgid "Payment sent"
+msgstr "Pembayaran terkirim"
+
+msgid "Signing transaction..."
+msgstr "Transaksi sedang ditandatangani..."
+
+msgid "Could not open channel: {}"
+msgstr "Tidak dapat membuka saluran: {}"
+
+msgid "Opening channel..."
+msgstr "Membuka saluran..."
+
+msgid "Alternatively, you can save a backup of your wallet file from the File menu"
+msgstr "Atau, Anda dapat menyimpan cadangan file dompet Anda dari menu File"
+
+msgid "Channel established."
+msgstr "Saluran dibuat."
+
+msgid "Do you want to remove {} from your wallet?"
+msgstr "Anda ingin menghapus {} dari dompet?"
+
+msgid "Invalid Address"
+msgstr "Alamat Salah"
+
+msgid "Outputs"
+msgstr "Keluaran"
+
+msgid "Expires"
+msgstr "Kedaluwarsa"
+
+msgid "Creation time"
+msgstr "Waktu pembuatan"
+
+msgid "Features"
+msgstr "Fitur"
+
+msgid "Text"
+msgstr "Teks"
+
+msgid "Password"
+msgstr "Kata Sandi"
+
+msgid "Seed"
+msgstr "Benih"
+
+msgid "Reset"
+msgstr "Atur ulang"
+
+msgid "Failed to update password"
+msgstr "Gagal memperbaharui kata kunci"
+
+msgid "Password was updated successfully"
+msgstr "Kata Sandi berhasil diperbaharui"
+
+msgid "Password is disabled, this wallet is not protected"
+msgstr "Sandi dinonaktifkan, dompet ini tidak terlindungi"
+
+msgid "Success"
+msgstr "Berhasil"
+
+msgid "New Contact"
+msgstr "Kontak Baru"
+
+msgid "Delete wallet file?"
+msgstr "Hapus file dompet?"
+
+msgid "If your wallet contains funds, make sure you have saved its seed."
+msgstr "Jika dompet Anda memiliki dana, pastikan Anda menyimpan seed tersebut."
+
+msgid "This wallet has no seed"
+msgstr "Dompet ini tidak memiliki benih"
+
+msgid "QR code"
+msgstr "Kode QR"
+
+msgid "Script type"
+msgstr "Jenis script"
+
+msgid "Address not in wallet."
+msgstr "Alamat tidak tertera didalam wallet."
+
+msgid "Cannot sign messages with this type of address:"
+msgstr "Tipe alamat tesebut tidak bisa tanda tangani pesan."
+
+msgid "Signature verified"
+msgstr "Tanda tangan terverifikasi"
+
+msgid "Wrong signature"
+msgstr "Tanda tangan salah"
+
+msgid "Sign/verify Message"
+msgstr "&Tanda Tangani/verifikasi pesan"
+
+msgid "Signature"
+msgstr "Tanda Tangan"
+
+msgid "Sign"
+msgstr "Tanda Tangani"
+
+msgid "Verify"
+msgstr "Verifikasi"
+
+msgid "Encrypt/decrypt Message"
+msgstr "&Enkripsi/dekripsi Pesan"
+
+msgid "Public key"
+msgstr "Kunci publik"
+
+msgid "Encrypted"
+msgstr "Terenkripsi"
+
+msgid "Encrypt"
+msgstr "Enkripsi"
+
+msgid "Decrypt"
+msgstr "Dekripsi"
+
+msgid "Electrum was unable to parse your transaction"
+msgstr "Electrum tidak dapat membaca transaksi Anda"
+
+msgid "Select your transaction file"
+msgstr "Pilih file transaksi Anda"
+
+msgid "Electrum was unable to open your transaction file"
+msgstr "Electrum tidak dapat membuka berkas transaksi Anda"
+
+msgid "Unable to read file or no transaction found"
+msgstr "Tidak dapat membaca berkas atau transaksi tidak ditemukan"
+
+msgid "Input raw transaction"
+msgstr "Masukan transaksi mentah"
+
+msgid "Transaction:"
+msgstr "Transaksi:"
+
+msgid "Load transaction"
+msgstr "Muat transaksi"
+
+msgid "Input channel backup"
+msgstr "Masukkan cadangan kanal"
+
+msgid "Channel Backup:"
+msgstr "Cadangan Saluran:"
+
+msgid "Lookup transaction"
+msgstr "Cari transaksi"
+
+msgid "This is a watching-only wallet"
+msgstr "Ini adalah dompet hanya-lihat"
+
+msgid "Private keys"
+msgstr "Kunci Privat"
+
+msgid "WARNING: ALL your private keys are secret."
+msgstr "PERINGATAN: SEMUA kunci privat Anda adalah rahasia."
+
+msgid "Exposing a single private key can compromise your entire wallet!"
+msgstr "Memperlihatkan sebuah kunci privat dapat membahayakan keseluruhan isi dompet Anda!"
+
+msgid "In particular, DO NOT use 'redeem private key' services proposed by third parties."
+msgstr "Secara khusus, JANGAN menggunakan pilihan 'cairkan dari kunci privat' yang ditawarkan oleh pihak ketiga."
+
+msgid "Select file to export your private keys to"
+msgstr "Pilih berkas kemana Anda ingin mengekspor kunci privat"
+
+msgid "Electrum was unable to produce a private key-export."
+msgstr "Electrum tidak dapat menghasilkan ekspor kunci privat."
+
+msgid "Unable to create csv"
+msgstr "Tidak dapat membuat CSV"
+
+msgid "Private keys exported."
+msgstr "Kunci privat di ekspor."
+
+msgid "Sweep private keys"
+msgstr "Sapu kunci privat"
+
+msgid "Sweep"
+msgstr "Sapu"
+
+msgid "The following addresses were added"
+msgstr "Alamat berikut sudah ditambahkan"
+
+msgid "The following inputs could not be imported"
+msgstr "Masukan berikut tidak dapat di impor"
+
+msgid "Enter addresses"
+msgstr "Masukkan alamat dompet"
+
+msgid "Import private keys"
+msgstr "Impor kunci privat"
+
+msgid "Enter private keys"
+msgstr "Masukkan kunci privat"
+
+msgid "Please restart Electrum to activate the new GUI settings"
+msgstr "Harap hidupkan ulang Electrum untuk mengaktifkan pengaturan antar muka yang baru"
+
+msgid "Child Pays for Parent"
+msgstr "Anak membayar untuk orang tua"
+
+msgid "A CPFP is a transaction that sends an unconfirmed output back to yourself, with a high fee. The goal is to have miners confirm the parent transaction in order to get the fee attached to the child transaction."
+msgstr "CPFP adalah transaksi yang mengirimkan kembali output yang belum dikonfirmasi ke diri Anda sendiri, dengan biaya tinggi.  Tujuannya adalah agar penambang mengkonfirmasi transaksi induk untuk mendapatkan biaya yang melekat pada transaksi anak."
+
+msgid "The proposed fee is computed using your fee/kB settings, applied to the total size of both child and parent transactions. After you broadcast a CPFP transaction, it is normal to see a new unconfirmed transaction in your history."
+msgstr "Pengajuan biaya terhitung menggunakan pengaturan fee/kB Anda, yang diterapkan kepada jumlah total kedua transaksi child dan parent. Setelah Anda menyiarkan transaksi CPFP, adalah hal normal untuk melihat transaksi yang belum dikonfirmasi pada riwayat Anda."
+
+msgid "Total size"
+msgstr "Ukuran total"
+
+msgid "Input amount"
+msgstr "Masukkan jumlah"
+
+msgid "Output amount"
+msgstr "Jumlah output"
+
+msgid "Certificate mismatch"
+msgstr "Ketidakcocokan sertifikat"
+
+msgid "Electrum will now exit."
+msgstr "Electrum akan keluar sekarang."
+
+msgid "Expired"
+msgstr "Sudah kedaluwarsa"
+
+msgid "Server"
+msgstr "Server"
+
+msgid "Proxy"
+msgstr "Proxy"
+
+msgid "Height"
+msgstr "Tinggi"
+
+msgid "Use as server"
+msgstr "Gunakan sebagai server"
+
+msgid "Bookmark this server"
+msgstr "Tandai server ini"
+
+msgid "Follow this branch"
+msgstr "Ikuti cabang ini"
+
+msgid "Connected nodes"
+msgstr "Node yang terhubung"
+
+msgid "Other known servers"
+msgstr "Server lain yang dikenal"
+
+msgid "This is the height of your local copy of the blockchain."
+msgstr "Ini adalah salinan dari file di penympanan lokal dengan blockchain tertinggi."
+
+msgid "Blockchain"
+msgstr "Blockchain"
+
+msgid "Open Channel"
+msgstr "Buka Saluran"
+
+msgid "Choose a remote node and an amount to fund the channel."
+msgstr "Pilih node jarak jauh dan jumlah untuk mendanai saluran."
+
+msgid "Max"
+msgstr "Maksimal"
+
+msgid "Clear"
+msgstr "Hapus"
+
+msgid "Amount too low"
+msgstr "Jumlahnya terlalu rendah"
+
+msgid "Choose a password to encrypt your wallet keys."
+msgstr "Silahkan buat sebuah kata sandi untuk mengenkripsi kunci dompet Anda."
+
+msgid "Leave this field empty if you want to disable encryption."
+msgstr "Tinggalkan kolom ini dalam keadaan kosong jika Anda ingin menonaktifkan enkripsi."
+
+msgid "Enter Password"
+msgstr "Masukan kata sandi"
+
+msgid "Change Password"
+msgstr "Ubah sandi"
+
+msgid "Enter Passphrase"
+msgstr "Masukkan kata sandi"
+
+msgid "Passphrase:"
+msgstr "Frasa sandi:"
+
+msgid "Confirm Passphrase:"
+msgstr "Konfirmasi kalimat sandi:"
+
+msgid "New Password:"
+msgstr "Kata Sandi Baru:"
+
+msgid "Password:"
+msgstr "Password:"
+
+msgid "Confirm Password:"
+msgstr "Konfirmasi Kata Sandi:"
+
+msgid "Current Password:"
+msgstr "Kata Sandi Saat Ini:"
+
+msgid "Password Strength"
+msgstr "Kekuatan Kata Sandi"
+
+msgid "Your wallet is not protected."
+msgstr "Dompet anda tidak dilindungi."
+
+msgid "Use this dialog to add a password to your wallet."
+msgstr "Gunakan dialog ini untuk menambahkan password pada dompet Anda."
+
+msgid "Your bitcoins are password protected. However, your wallet file is not encrypted."
+msgstr "Bitcoins Anda dilindungi oleh passworld. Namun, file dompet Anda tidak di enkripsi."
+
+msgid "Your wallet is password protected and encrypted."
+msgstr "Dompet anda telah dilindungi oleh kata sandi dan di enkripsi."
+
+msgid "Use this dialog to change your password."
+msgstr "Gunakan dialog ini untuk mengubah sandi Anda."
+
+msgid "Please enter your password"
+msgstr "Silahkan masukan kata sandi Anda"
+
+msgid "Requires"
+msgstr "Dibutuhkan"
+
+msgid "Enable"
+msgstr "Aktifkan"
+
+msgid "Settings"
+msgstr "Pengaturan"
+
+msgid "Enabled"
+msgstr "Aktif"
+
+msgid "Disabled"
+msgstr "Dinonaktifkan"
+
+msgid "Electrum Plugins"
+msgstr "Plugin Electrum"
+
+msgid "Help"
+msgstr "Bantuan"
+
+msgid "Select where to save file"
+msgstr "Pilih lokasi untuk menyimpan file"
+
+msgid "QR code saved to file"
+msgstr "Kode QR disimpan ke berkas"
+
+msgid "QR code copied to clipboard"
+msgstr "Kode QR disalin ke clipboard"
+
+msgid "Copy Image"
+msgstr "Salin Gambar"
+
+msgid "Copy Text"
+msgstr "Salin Teks"
+
+msgid "QR Reader Error"
+msgstr "Kesalahan pada pembaca QR"
+
+msgid "&Flip horizontally"
+msgstr "&Balik secara horizontal"
+
+msgid "&Close"
+msgstr "&Tutup"
+
+msgid "Cannot start QR scanner, no usable camera found."
+msgstr "Tidak dapat memulai pemindai QR, tidak ditemukan kamera yang dapat digunakan."
+
+msgid "Show as QR code"
+msgstr "Tampilkan sebagai kode QR"
+
+msgid "Payment Request"
+msgstr "Permintaan pembayaran"
+
+msgid "Current fee"
+msgstr "Biaya saat ini:"
+
+msgid "The recipient will receive {} less."
+msgstr "Penerima akan mendapatkan kurang dari {}"
+
+msgid "Increase your transaction's fee to improve its position in mempool."
+msgstr "Tingkatkan biaya transaksi Anda untuk meningkatkan posisinya pada mempool."
+
+msgid "Bump Fee"
+msgstr "Naikkan biaya transaksi"
+
+msgid "Cancel an unconfirmed transaction by replacing it with a higher-fee transaction that spends back to your wallet."
+msgstr "Batalkan transaksi yang belum dikonfirmasi dengan menggantinya dengan transaksi berbiaya lebih tinggi yang dibelanjakan kembali ke dompet Anda."
+
+msgid "Cancel transaction"
+msgstr "Batalkan transaksi"
+
+msgid "Requested amount"
+msgstr "Jumlah yang diminta"
+
+msgid "Expiry"
+msgstr "Kadaluwarsa"
+
+msgid "This information is seen by the recipient if you send them a signed payment request."
+msgstr "Informasi ini dilihat oleh penerima jika Anda mengirimkan permintaan pembayaran yang telah ditandatangani."
+
+msgid "The bitcoin address never expires and will always be part of this electrum wallet."
+msgstr "Alamat bitcoin tidak akan kadaluarsa dan akan selalu menjadi bagian dari dompet elektrum."
+
+msgid "Bitcoin URI"
+msgstr "Bitcoin URI"
+
+msgid "Amount too small to be received onchain"
+msgstr "Jumlahnya terlalu kecil untuk diterima di rantai"
+
+msgid "No more addresses in your wallet."
+msgstr "Tidak ada alamat lagi pada dompet Anda."
+
+msgid "You are using a non-deterministic wallet, which cannot create new addresses."
+msgstr "Anda menggunakan dompet non-deterministik, yang tidak dapat membuat alamat baru."
+
+msgid "If you want to create new addresses, use a deterministic wallet instead."
+msgstr "Jika Anda ingin membuat alamat baru, gunakan dompet yang bukan deterministik."
+
+msgid ""
+"Warning: The next address will not be recovered automatically if you restore your wallet from seed; you may need to add it manually.\n"
+"\n"
+"This occurs because you have too many unused addresses in your wallet. To avoid this situation, use the existing addresses first.\n"
+"\n"
+"Create anyway?"
+msgstr ""
+"Perhatian: Alamat berikutnya tidak akan dikembalikan secara otomatis ketika Anda mengembalikan dompet dari benih; Anda harus menambahkannya secara manual.\n"
+"\n"
+"Ini terjadi karena Anda memiliki terlalu banyak alamat yang tidak digunakan pada dompet Anda. Untuk menghindari hal ini, gunakan alamat yang sudah ada dulu.\n"
+"\n"
+"Tetap ingin buat alamat baru?"
+
+msgid "Delete requests"
+msgstr "Hapus permintaan"
+
+msgid "Please save these {0} words on paper (order is important). "
+msgstr "Silakan simpan kata-kata berikut {0} pada kertas (urutan itu penting)."
+
+msgid "This seed will allow you to recover your wallet in case of computer failure."
+msgstr "Benih ini memungkinkan Anda untuk memulihkan kembali dompet Anda bilamana komputer Anda rusak."
+
+msgid "WARNING"
+msgstr "PERINGATAN"
+
+msgid "Never disclose your seed."
+msgstr "Jangan pernah membuka kunci benih."
+
+msgid "Never type it on a website."
+msgstr "Jangan pernah mengetik pada sebuah situs website."
+
+msgid "Do not store it electronically."
+msgstr "Jangan menyimpan secara elektronik."
+
+msgid "BIP39 seed"
+msgstr "Benih BIP39"
+
+msgid "Options"
+msgstr "Pilihan"
+
+msgid "Your seed extension is"
+msgstr "kunci benih yang anda tambahkan adalah"
+
+msgid "Extend this seed with custom words"
+msgstr "Memperpanjang seed ini dengan kata-kata yang dikustomisasi"
+
+msgid "Seed type"
+msgstr "Jenis seed"
+
+msgid "BIP39 seeds can be imported in Electrum, so that users can access funds locked in other wallets."
+msgstr "Kode BIP39 bisa di import ke Electrum sehingga pengguna dapat mengakses saldo yang terkunci di dompet lain."
+
+msgid "However, we do not generate BIP39 seeds, because they do not meet our safety standard."
+msgstr "Sayangnya, kami tidak membuat seed BIP39, karena itu tidak memenuhi standar kemanan kami."
+
+msgid "BIP39 seeds do not include a version number, which compromises compatibility with future software."
+msgstr "Nomor versi tidak termasuk dalam kode BIP39. Oleh karena itu, kompatibilitas dengan software yang digunakan di masa depan akan terganggu."
+
+msgid "We do not guarantee that BIP39 imports will always be supported in Electrum."
+msgstr "Kami tidak menjamin bahwa impor BIP39 akan selalu didukung oleh Elactrum."
+
+msgid "However, we do not generate SLIP39 seeds."
+msgstr "Sayangnya, kami tidak membuat seed SLIP39."
+
+msgid "Seed Type"
+msgstr "Ketik sandi benih"
+
+msgid "Standard wallet"
+msgstr "Dompet standar"
+
+msgid "If unsure, try restoring as '{}'."
+msgstr "Jika tidak yakin, coba pulihkan sebagai '{}'."
+
+msgid "Your wallet generation seed is:"
+msgstr "Benih untuk memulihkan wallet Anda adalah:"
+
+msgid "Recipient of the funds."
+msgstr "Penerima dana."
+
+msgid "- a Bitcoin address or BIP21 URI"
+msgstr "- alamat Bitcoin atau BIP21 URI"
+
+msgid "Format: address, amount"
+msgstr "Format: alamat, jumlah"
+
+msgid "Description of the transaction (not mandatory)."
+msgstr "Keterangan transaksi (opsional)."
+
+msgid "The description is not sent to the recipient of the funds. It is stored in your wallet file, and displayed in the 'History' tab."
+msgstr "Deskripsi idak dikirim ke alamat penerima. Deskripsi disimpan di berkas wallet Anda, dan ditampilkan di tab 'Riwayat'."
+
+msgid "Note that if you have frozen some of your addresses, the available funds will be lower than your total balance."
+msgstr "Harap diperhatikan jika Anda sudah membekukan beberapa alamat bitcoin Anda, jumlah saldo yang tersedia akan lebih sedikit dibandingkan saldo keseluruhan Anda."
+
+msgid "Keyboard shortcut: type \"!\" to send all your coins."
+msgstr "Pintasan keyboard: tekan \"!\" untuk mengirim semua koin Anda."
+
+msgid "Invoices"
+msgstr "Tagihan-Tagihan"
+
+msgid "&Pay to many"
+msgstr "&Kirim ke banyak"
+
+msgid "2fa fee: {} (for the next batch of transactions)"
+msgstr "untuk batch transaksi berikutnya"
+
+msgid "No outputs"
+msgstr "Tidak ada keluaran"
+
+msgid "Bitcoin Address is None"
+msgstr "Alamat Bitcoin kosong"
+
+msgid "Invalid Amount"
+msgstr "Jumlah Salah"
+
+msgid "Invalid Lines found:"
+msgstr "Baris tidak valid ditemukan:"
+
+msgid "Do you wish to continue?"
+msgstr "Apakah anda ingin melanjutkan?"
+
+msgid "Payment request has expired"
+msgstr "Permintaan pembayaran sudah kadaluarsa"
+
+msgid "Payment sent."
+msgstr "Pembayaran terkirim."
+
+msgid "Broadcasting transaction..."
+msgstr "Menyiarkan transaksi..."
+
+msgid "Enter a list of outputs in the 'Pay to' field."
+msgstr "Masukkan daftar pengiriman ke dalam 'Bayar ke' pada kolom."
+
+msgid "One output per line."
+msgstr "Satu output per baris."
+
+msgid "You may load a CSV file using the file icon."
+msgstr "Anda mungkin memuat file CSV menggunakan ikon file."
+
+msgid "Base unit of your wallet."
+msgstr "Satuan dasar dompet Anda."
+
+msgid "Base unit"
+msgstr "Satuan dasar"
+
+msgid "Light"
+msgstr "Ringan"
+
+msgid "Dark"
+msgstr "Gelap"
+
+msgid "Custom URL"
+msgstr "URL kustom"
+
+msgid "Fiat currency"
+msgstr "Nilai tukar mata uang"
+
+msgid "Source"
+msgstr "Sumber"
+
+msgid "Appearance"
+msgstr "Penampilan"
+
+msgid "Fee"
+msgstr "Biaya transaksi"
+
+msgid "Change Address"
+msgstr "Ganti Alamat"
+
+msgid "Wallet change address"
+msgstr "Mengubah alamat dompet"
+
+msgid "Inputs"
+msgstr "Masukan"
+
+msgid "Address Details"
+msgstr "Rincian Alamat"
+
+msgid "Copy Address"
+msgstr "Salin Alamat"
+
+msgid "Transaction ID:"
+msgstr "ID Transaksi:"
+
+msgid "Broadcast"
+msgstr "Kirim"
+
+msgid "Combine"
+msgstr "Gabungkan"
+
+msgid "This transaction is not saved. Close anyway?"
+msgstr "Transaksi ini belum disimpan. Tutup?"
+
+msgid "Copy to clipboard"
+msgstr "Salin ke clipboard"
+
+msgid "Transaction"
+msgstr "Transaksi"
+
+msgid "Select where to save your transaction"
+msgstr "Pilih lokasi untuk menyimpan transaksi Anda"
+
+msgid "Date: {}"
+msgstr "Tanggal: {}"
+
+msgid "At block height: {}"
+msgstr "Pada ketinggian blok: {}"
+
+msgid "Transaction unrelated to your wallet"
+msgstr "Transaksi tidak berhubungan dengan dompet Anda"
+
+msgid "unknown"
+msgstr "tidak diketahui"
+
+msgid "Current version: {}"
+msgstr "Versi saat ini: {}"
+
+msgid "Sorry, but we were unable to check for updates. Please try again later."
+msgstr "Maaf, kami tidak dapat mengecek update. Coba lagi nanti."
+
+msgid "Already up to date"
+msgstr "Sudah yang paling terbaru."
+
+msgid "Checking for updates..."
+msgstr "Memeriksa pembaruan..."
+
+msgid "Please wait while Electrum checks for available updates."
+msgstr "Silakan tunggu selagi Electrum memerika update yang tersedia."
+
+msgid "Info"
+msgstr "Informasi"
+
+msgid "Copy and Close"
+msgstr "Salin dan Tutup"
+
+msgid "Cancel"
+msgstr "Batal"
+
+msgid "Critical Error"
+msgstr "Terjadi Kesalahan Kritis"
+
+msgid "Information"
+msgstr "Informasi"
+
+msgid "Question"
+msgstr "Pertanyaan"
+
+msgid "Please wait"
+msgstr "Harap tunggu"
+
+msgid "Format"
+msgstr "Format"
+
+msgid "File"
+msgstr "Berkas"
+
+msgid "Paste from clipboard"
+msgstr "Tempel dari clipboard"
+
+msgid "Read file"
+msgstr "Membaca data"
+
+msgid "Other options"
+msgstr "Pilihan lainnya"
+
+msgid "Open {} file"
+msgstr "Buka {} file"
+
+msgid "Select file to save your {}"
+msgstr "Pilih file untuk menyimpan {} Anda"
+
+msgid "Coin control active"
+msgstr "Kontrol koin aktif"
+
+msgid "Coin selected to be spent"
+msgstr "Koin dipilih untuk dibelanjakan"
+
+msgid "Address is frozen"
+msgstr "Alamat dibekukan"
+
+msgid "Seed available"
+msgstr "Seed tersedia"
+
+msgid "Master Public Key"
+msgstr "Kunci Publik Utama"
+
+msgid "Next"
+msgstr "Berikutnya"
+
+msgid "A few examples"
+msgstr "Beberapa contoh"
+
+msgid "Your accounts have been moved to"
+msgstr "Akun anda telah dipindahkan ke"
+
+msgid "Do you want to delete the old file"
+msgstr "Apakah anda ingin menghapus file yang lama"
+
+msgid "The file was removed"
+msgstr "File telah dihapus"
+
+msgid "Electrum wallet"
+msgstr "Dompet Electum"
+
+msgid "Wallet"
+msgstr "Dompet"
+
+msgid "Choose..."
+msgstr "Pilih..."
+
+msgid "Cannot read file"
+msgstr "Tidak bisa membaca berkas"
+
+msgid "This file does not exist."
+msgstr "File ini sudah tidak ada."
+
+msgid "Press 'Next' to create this wallet, or choose another file."
+msgstr "Tekan 'Next' untuk membuat dompet, atau memilih file yang lain."
+
+msgid "Press 'Next' to choose device to decrypt."
+msgstr "Tekan \"Lanjutkan' untuk memilih perangkat untuk mendekripsi."
+
+msgid "Create new wallet"
+msgstr "Buat dompet baru"
+
+msgid "Import Bitcoin addresses or private keys"
+msgstr "Import alamat Bitcoin atau kunci rahasia"
+
+msgid "I already have a seed"
+msgstr "Saya sudah memiliki seed"
+
+msgid "Confirm Seed"
+msgstr "Konfirmasi Benih"
+
+msgid "Your seed is important!"
+msgstr "Benih dompet Anda penting!"
+
+msgid "If you lose your seed, your money will be permanently lost."
+msgstr "Jika Anda kehilangan benih Anda, uang Anda akan hilang secara permanen."
+
+msgid "To make sure that you have properly saved your seed, please retype it here."
+msgstr "Untuk memastikan bahwa Anda sudah menyimpan benih dengan benar, harap ketik ulang benih Anda disini."
+
+msgid "If you do not know what this is, leave this field empty."
+msgstr "Jika Anda tidak yakin dengan ini, tinggalkan kolom ini dengan tidak diubah."
+
+msgid "Confirm Seed Extension"
+msgstr "konfirmasi ekstensi SEED"
+
+msgid "Please type it here."
+msgstr "Silakan ketik di sini."
+
+msgid "Enter Seed"
+msgstr "Masukkan kata kunci rahasia anda"
+
+msgid "Please enter your seed phrase in order to restore your wallet."
+msgstr "Masukkan frase benih Anda untuk memulihkan dompet Anda."
+
+msgid "Choose the type of addresses in your wallet."
+msgstr "Pilih jenis alamat di dompet Anda."
+
+msgid "If you are not sure what this is, leave this field unchanged."
+msgstr "Jika Anda tidak yakin dengan ini, tinggalkan kolom ini dengan tidak diubah."
+
+msgid "Detect Existing Accounts"
+msgstr "Deteksi akun saat ini"
+
+msgid "Or"
+msgstr "Atau"
+
+msgid "Add a cosigner to your multi-sig wallet"
+msgstr "Tambahkan pengirim barang ke multi-sig wallet milik anda"
+
+msgid "Please enter the master public key (xpub) of your cosigner."
+msgstr "Silahkan masukan kunci publik master (xpub) dari cosigner dompet Anda."
+
+msgid "Enter their master private key (xprv) if you want to be able to sign for them."
+msgstr "Masukkan kunci master privat (xprv) jika ingin dapat masuk kembali."
+
+msgid "Multi-Signature Wallet"
+msgstr "Dompet dengan banyak tanda tangan"
+
+msgid "Choose the number of signatures needed to unlock funds in your wallet:"
+msgstr "Pilih jumlah tanda tangan yang dibutuhkan untuk membuka saldo yang ada di dompet Anda:"
+
+msgid "Enter a list of Bitcoin addresses (this will create a watching-only wallet), or a list of private keys."
+msgstr "Masukkan daftar alamat Bitcoin (tindakan ini akan membuat dompet lihat-saja), atau daftar kunci privat."
+
+msgid "An unnamed {}"
+msgstr "tanpa nama {}"
+
+msgid "Select a device"
+msgstr "Pilih perangkat"
+
+msgid "Scanning devices..."
+msgstr "Memindai perangkat..."
+
+msgid "If your device is not detected on Windows, go to \"Settings\", \"Devices\", \"Connected devices\", and do \"Remove device\". Then, plug your device again."
+msgstr "Jika perangkat Anda tidak terdeteksi pada Windows, pergi ke \"Pengaturan\", \"Perangkat\", \"Perangkat terhubung\", dan lakukan \"Hapus perangkat\". Lalu, hubungakan kembali perangkat Anda."
+
+msgid "Back"
+msgstr "Kembali"
+
+msgid "Addresses"
+msgstr "Alamat"
+
+msgid "Coins"
+msgstr "Koin"
+
+msgid "Contacts"
+msgstr "Kontak"
+
+msgid "Banner"
+msgstr "Spanduk"
+
+msgid "Quit"
+msgstr "Keluar"
+
+msgid "Invalid Bitcoin Address"
+msgstr "Alamat Bitcoin Salah"
+
+msgid "Amount for OP_RETURN output must be zero."
+msgstr "Jumlah untuk keluaran OP_RETURN harus kosong."
+
+msgid "Ignore and continue?"
+msgstr "Abaikan dan lanjutkan?"
+
+msgid "Please check your {} device"
+msgstr "Silakan periksa perangkat {} Anda"
+
+msgid "Outdated device firmware"
+msgstr "Perangkat firmware lama"
+
+msgid "Default"
+msgstr "Default"
+
+msgid "Paid"
+msgstr "Lunas"
+
+msgid "In progress"
+msgstr "Dalam proses"
+
+msgid "Broadcasting"
+msgstr "Penyiaran berlangsung"
+
+msgid "Broadcast successfully"
+msgstr "Siaran berhasil"
+
+msgid "Failed"
+msgstr "Gagal"
+
+msgid "Computing route..."
+msgstr "rute komputer"
+
+msgid "Never"
+msgstr "Jangan pernah"
+
+msgid "10 minutes"
+msgstr "10 menit"
+
+msgid "1 hour"
+msgstr "1 jam"
+
+msgid "1 day"
+msgstr "1 hari"
+
+msgid "1 week"
+msgstr "1 minggu"
+
+msgid "Close channel"
+msgstr "Tutup saluran"
+
+msgid "A payment was already initiated for this invoice"
+msgstr "Pembayaran sebelumnya sudah telah di laksanakan untuk invoice ini"
+
+msgid "A previous attempt to pay this invoice did not clear"
+msgstr "Upaya sebelumnya untuk membayar faktur ini tidak jelas"
+
+msgid "Disconnected"
+msgstr "Terputus"
+
+msgid "Connected to {0} nodes."
+msgstr "Connected to {0} nodes."
+
+msgid "Connected to {0} node."
+msgstr "Terhubung ke {0} simpul."
+
+msgid "A library is probably missing."
+msgstr "Perpustakaanya mungkin saja hilang."
+
+msgid "Please insert your {}"
+msgstr "Silakan masukkan {} Anda"
+
+msgid "Please select which {} device to use:"
+msgstr "Silakan pilih perangkat {} yang akan digunakan:"
+
+msgid "Or click cancel to skip this keystore instead."
+msgstr "Atau klik batalkan untuk melewati keystroke ini."
+
+msgid "Audio Modem Settings"
+msgstr "Pengaturan Modem Audio"
+
+msgid "Bit rate [kbps]: "
+msgstr "Kecepatan bit [kbps]:"
+
+msgid "Showing address ..."
+msgstr "Menampilkan alamat ..."
+
+msgid "Show on {}"
+msgstr "Tampilkan pada {}"
+
+msgid "BitBox02 Status"
+msgstr "BitBox02"
+
+msgid "Coldcard Status"
+msgstr "Status Kartu Dingin"
+
+msgid "Master Fingerprint"
+msgstr "Sidik jari utama"
+
+msgid "Firmware Version"
+msgstr "Versi Firmware"
+
+msgid "Build Date"
+msgstr "Tanggal Pembuatan"
+
+msgid "Bootloader"
+msgstr "bootloader"
+
+msgid "Device communication error. Please unplug and replug your Digital Bitbox."
+msgstr "Kesalahan komunikasi perangkat. Lepas dan pasang kembali Digital Bitbox Anda."
+
+msgid "Enter the password used when the backup was created:"
+msgstr "Masukkan kata sandi yang digunakan saat cadangan dibuat:"
+
+msgid "Enter password:"
+msgstr "Masukkan kata sandi:"
+
+msgid "An uninitialized Digital Bitbox is detected."
+msgstr "Sebuah Digital Bitbox yang tidak berinisial terdeteksi."
+
+msgid "Enter a new password below."
+msgstr "Masukkan kata sandi baru di bawah."
+
+msgid "A backup is saved automatically when generating a new wallet."
+msgstr "Cadangan akan tersimpan automatis ketika membuat sebuah wallet baru."
+
+msgid "Enter your Digital Bitbox password:"
+msgstr "Masukkan kata sandi Digital Bitbox Anda:"
+
+msgid "Incorrect password entered."
+msgstr "Kata sandi yang dimasukkan salah."
+
+msgid "Create a wallet using the current seed"
+msgstr "membuat dompet menggunakan seed saat ini"
+
+msgid "Erase the Digital Bitbox"
+msgstr "Hapus Digital Bitbox"
+
+msgid "Choose how to initialize your Digital Bitbox:"
+msgstr "Pilih cara untuk menginialisasi Digital Bitbox Anda:"
+
+msgid "Generate a new random wallet"
+msgstr "Buat dompet acak baru"
+
+msgid "Are you sure you want to erase the Digital Bitbox?"
+msgstr "Apa anda sudah pasti untuk menghapus Digital Bitbox?"
+
+msgid "Choose a backup file:"
+msgstr "Pilih file cadangan:"
+
+msgid "(Touch {} of {})"
+msgstr "(Sentuh {} ke {})"
+
+msgid "Confirm the transaction output on your {} device"
+msgstr "Konfirmasikan keluaran transaksi pada perangkat {} Anda"
+
+msgid "Confirm internal entropy on your {} device to begin"
+msgstr "Konfirmasikan entropi internal pada perangkat {} Anda untuk memulai"
+
+msgid "Confirm on your {} that you want to wipe it clean"
+msgstr "Konfirmasi di {} bahwa Anda ingin menghapus secara keseluruhan"
+
+msgid "Confirm on your {} device the message to sign"
+msgstr "Konfirmasi pesan di perangkat {} Anda untuk masuk"
+
+msgid "Confirm the total amount spent and the transaction fee on your {} device"
+msgstr "Konfirmasikan jumlah total yang dibelanjakan dan biaya transaksi pada perangkat {} Anda"
+
+msgid "Confirm wallet address on your {} device"
+msgstr "Konfirmasi alamat dompet di perangkat {} Anda"
+
+msgid "Check your {} device to continue"
+msgstr "Periksa perangkat {} Anda untuk melanjutkan"
+
+msgid "Enter a new PIN for your {}:"
+msgstr "Masukkan PIN untuk {} Anda:"
+
+msgid "Enter your current {} PIN:"
+msgstr "Masukkan PIN {} saat ini:"
+
+msgid "Enter a passphrase to generate this wallet.  Each time you use this wallet your {} will prompt you for the passphrase.  If you forget the passphrase you cannot access the bitcoins in the wallet."
+msgstr "Masukkan passphrase untuk membuat dompet ini.  Setiap Anda menggunakan dompet ini, {} akan meminta Anda untuk memasukkan passphrase.  Jika Anda lupa passphrase Anda tidak akan dapat mengakses bitcoin di dompet tersebut."
+
+msgid "Enter the passphrase to unlock this wallet:"
+msgstr "Masukkan passphrase untuk membuka dompet ini:"
+
+msgid "Confirm on your {} device to disable passphrases"
+msgstr "Konfirmasi di perangkat {} Anda untuk menonaktifkan passphrase"
+
+msgid "Confirm on your {} device to enable passphrases"
+msgstr "Konfirmasi di perangkat {} Anda untuk mengaktifkan passphrase"
+
+msgid "Confirm the new label on your {} device"
+msgstr "Konfirmasi label baru di perangkat {} Anda"
+
+msgid "Confirm on your {} device to change your home screen"
+msgstr "Konfirmasi di perangkat {} Anda untuk mengganti home screen"
+
+msgid "Confirm on your {} device to disable PIN protection"
+msgstr "Konfirmasi di perangkat {} Anda untuk menonaktifkan perlindungan PIN"
+
+msgid "Confirm on your {} device to change your PIN"
+msgstr "Konfirmasi di perangkat {} Anda untuk mengubah PIN"
+
+msgid "Confirm on your {} device to set a PIN"
+msgstr "Konfirmasi di perangkat {} Anda untuk mengatur PIN"
+
+msgid "If you forget a passphrase you will be unable to access any bitcoins in the wallet behind it.  A passphrase is not a PIN. Only change this if you are sure you understand it."
+msgstr "Jika Anda lupa passphrase, Anda tidak dapat mengakses semua bitcoin pada dompet di dalamnya. Passphrase tidak sama dengan PIN. Hanya ubah ini jika Anda benar-benar paham."
+
+msgid "Accept Word"
+msgstr "Terima kata"
+
+msgid "Seed Entered"
+msgstr "Seed dimasukkan"
+
+msgid "Enter PIN"
+msgstr "Masukan PIN"
+
+msgid "Enter a label to name your device:"
+msgstr "Masukkan label untuk menamai perangkat Anda:"
+
+msgid "Select your seed length:"
+msgstr "Pilih panjang seed Anda:"
+
+msgid "Enable PIN protection"
+msgstr "Aktifkan proteksi PIN"
+
+msgid "Enable passphrases"
+msgstr "Aktifkan kombinasi kata sandi"
+
+msgid "Enable Passphrases"
+msgstr "Aktifkan kombinasi kata sandi"
+
+msgid "Disable Passphrases"
+msgstr "Nonaktifkan Passphrases"
+
+msgid "Change PIN"
+msgstr "Ubah PIN"
+
+msgid "Confirm Toggle Passphrase Protection"
+msgstr "Konfirmasikan Toggle Passphrase Protection"
+
+msgid "Are you sure you want to proceed?"
+msgstr "Apa anda sudah pasti untuk melanjutkan ke proses selanjutnya?"
+
+msgid "Confirm Device Wipe"
+msgstr "konfirmasi penghapusan total pada device."
+
+msgid ""
+"Are you SURE you want to wipe the device?\n"
+"Your wallet still has bitcoins in it!"
+msgstr ""
+"Apa anda sudah PASTI untuk menghapus perangkat anda?\n"
+"Wallet anda masih ada bitcoin tersisa didalamnya!"
+
+msgid "Device Label"
+msgstr "Label Perangkat"
+
+msgid "Device ID"
+msgstr "ID Perangkat"
+
+msgid "Bootloader Hash"
+msgstr "Bootloader Hash"
+
+msgid "Language"
+msgstr "Bahasa"
+
+msgid "Initialized"
+msgstr "Inisialisasi"
+
+msgid "Apply"
+msgstr "Terapkan"
+
+msgid "Clear the session after the specified period of inactivity.  Once a session has timed out, your PIN and passphrase (if enabled) must be re-entered to use the device."
+msgstr "Hapus sesi setelah tidak aktif selama periode waktu tertentu.  Setelah sesi berakhir, Anda harus memasukkan kembali PIN dan passphrase (jika diaktifkan) untuk menggunakan perangkat."
+
+msgid "Disable PIN"
+msgstr "Nonaktifkan PIN"
+
+msgid "If you disable your PIN, anyone with physical access to your {} device can spend your bitcoins."
+msgstr "Jika Anda menonaktifkan PIN, siapa pun dengan akses fisik ke perangkat Anda {} dapat menggunakan bitcoin Anda."
+
+msgid "Advanced"
+msgstr "Lanjutan"
+
+msgid ""
+"Choose how you want to initialize your {}.\n"
+"\n"
+"The first two methods are secure as no secret information is entered into your computer.\n"
+"\n"
+"For the last two methods you input secrets on your keyboard and upload them to your {}, and so you should only do those on a computer you know to be trustworthy and free of malware."
+msgstr ""
+"Pilih cara untuk menginisialisasi {} Anda.\n"
+"\n"
+"Dua metode pertama merupakan metode yang aman karena tidak ada informasi rahasia yang dimasukkan ke komputer Anda.\n"
+"\n"
+"Untuk dua metode terakhir, Anda akan mengetikkan rahasia Anda di keyboard dan mengunggahnya ke {}, sehingga Anda harus melakukannya hanya di komputer terpercaya dan bebas malware."
+
+msgid "Your labels have been synchronised."
+msgstr "Label-label Anda berhasil disinkronisasi."
+
+msgid "Confirm Transaction on your Ledger device..."
+msgstr "Konfirmasi Transaksi di perangkat Buku Besar Anda..."
+
+msgid "Cancelled by user"
+msgstr "Dibatalkan oleh pengguna"
+
+msgid "Ledger Status"
+msgstr "Status Ledger"
+
+msgid "Do you want to open it now?"
+msgstr "Anda ingin membukanya sekarang?"
+
+msgid "Always check your backups."
+msgstr "Selalu periksa data cadangan."
+
+msgid "Calibration sheet"
+msgstr "lembar kalibrasi"
+
+msgid "Instructions:"
+msgstr "Petunjuk:"
+
+msgid "1. Place this paper on a flat and well illuminated surface."
+msgstr "1. Letakkan kertas ini di permukaan yang rata dan terang."
+
+msgid "2. Align your Revealer borderlines to the dashed lines on the top and left."
+msgstr "Sejajarkan garis Revealer dengan garis putus putus diatas dan sebelah kiri"
+
+msgid "3. Press slightly the Revealer against the paper and read the numbers that best match on the opposite sides. "
+msgstr "3. Tekan perlahan Penyingkap terhadap kertasnya dan bacalah angka-angka yang paling cocok di sisi yang berlawanan. "
+
+msgid "4. Type the numbers in the software"
+msgstr "4. Ketik jumlahnya dalam software"
+
+msgid "If you have an old printer, or want optimal precision"
+msgstr "Jika Anda memiliki printer tua, atau menginginkan presisi yang optimal."
+
+msgid "Calibration values:"
+msgstr "Nilai kalibrasi:"
+
+msgid "Bottom"
+msgstr "Bawah"
+
+msgid "Choose on your {} device where to enter your passphrase"
+msgstr "Pilih di perangkat {} Anda tempat memasukkan frasa sandi Anda"
+
+msgid "Choose Homescreen"
+msgstr "Pilih Layar Beranda"
+
+msgid "Change..."
+msgstr "Mengubah..."
+
+msgid "Complete the initialization process on your {} device"
+msgstr "Selesaikan proses inisialisasi di perangkat {} Anda"
+
+msgid "Please enter your passphrase on the {} device"
+msgstr "Silakan masukkan passphrase Anda pada perangkat {}"
+
+msgid "Enter passphrase on device?"
+msgstr "Masukkan passphrase di perangkat?"
+
+msgid "Enter Passphrase on Device"
+msgstr "Masukkan kombinasi kata sandi pada perangkat"
+
+msgid "Select backup type:"
+msgstr "Pilih jenis cadangan"
+
+msgid "Select seed length:"
+msgstr "Pilih panjang seed:"
+
+msgid "Select recovery type:"
+msgstr "Pilih tipe pemulihan:"
+
+msgid "Scrambled words"
+msgstr "Kata acak"
+
+msgid "Choose how you want to initialize your {}."
+msgstr "Pilih cara untuk menginisialisasi {} Anda."
+
+msgid "Please enter your Google Authenticator code:"
+msgstr "Silakan masukkan kode Google Authenticator Anda:"
+
+msgid "Authorization"
+msgstr "Otorisasi"
+
+msgid "Please enter your Google Authenticator code"
+msgstr "Silakan masukkan kode Google Authenticator Anda"
+
+msgid "Code"
+msgstr "Kode"
+
+msgid "If you have lost your second factor, you need to restore your wallet from seed in order to request a new code."
+msgstr "Jika Anda menghilangkan faktor kedua, Anda harus memulihkan dompet Anda dari seed untuk memohon kode baru."
+
+msgid "If you keep experiencing network problems, try using a Tor proxy."
+msgstr "Jika Anda terus mengalami gangguan jaringan, coba gunakan Tor proxy."
+
+msgid "For more information, visit"
+msgstr "Untuk info lengkap, kunjungi"
+
+msgid "Create or restore"
+msgstr "Buat atau pulihkan"
+
+msgid "Google Authenticator code:"
+msgstr "Kode Google Authenticator"
+
+msgid "Restore 2FA wallet"
+msgstr "Pulihkan dompet 2FA"
+
+msgid "A small fee will be charged on each transaction that uses the remote server.  You may check and modify your billing preferences once the installation is complete."
+msgstr "Biaya kecil akan diminta pada setiap transaksi yang menggunakan remote server. Kamu bisa melihat dan mengubah pengaturan billing anda setelah instalasi selasai."
+
+msgid "The next step will generate the seed of your wallet.  This seed will NOT be saved in your computer, and it must be stored on paper.  To be safe from malware, you may want to do this on an offline computer, and move your wallet later to an online computer."
+msgstr "Langkah selanjutnya akan membuat seed untuk dompet Anda. Seed ini TIDAK akan tersimpan pada komputer Anda, dan harus disimpan pada kertas. Agar aman dari malware, Anda mungkin menginginkan melakukan ini pada komputer offline, dan pindahkan dompet Anda pada komputer online setelahnya."
+
+msgid "Cannot start QR scanner: initialization failed."
+msgstr "Tidak dapat memulai pemindai QR: inisialisasi gagal."
+
+msgid "Select server automatically"
+msgstr "Pilih server secara otomatis"
+
+msgid "Spend only confirmed coins"
+msgstr "Hanya habiskan koin yang dikonfirmasi"
+
+msgid "Spend only confirmed inputs."
+msgstr "Hanya habiskan input yang dikonfirmasi."
+
+msgid "Color theme"
+msgstr "tema warna"
+
+msgid "Zeros after decimal point"
+msgstr "Jumlah nol dibelakang koma"
+
+msgid "Number of zeros displayed after the decimal point. For example, if this is set to 2, \"1.\" will be displayed as \"1.00\""
+msgstr "Jumlah nol yang ditampilkan setelah titik desimal. Contohnya, jika ini diset ke 2, angka \"1.\" akan ditampilkan sebagai \"1.00\""
+
+msgid "Add thousand separators to bitcoin amounts"
+msgstr "Tambahkan ribuan pemisah ke jumlah bitcoin"
+
+msgid "Online Block Explorer"
+msgstr "Blok Eksplorer Online"
+
+msgid "Choose which online block explorer to use for functions that open a web browser"
+msgstr "Pilih penjelajah blok online mana yang akan digunakan saat membuka peramban web"
+
+msgid "Video Device"
+msgstr "Perangkat Video"
+
+msgid "For scanning QR codes."
+msgstr "Untuk memindai kode QR"
+
+msgid "Install the zbar package to enable this."
+msgstr "Pasang paket zbar untuk mengaktifkan ini."
+
+msgid "OpenAlias record, used to receive coins and to sign payment requests."
+msgstr "Rekaman OpenAlias​, digunakan untuk menerima koin dan menandatangani permintaan pembayaran."
+
+msgid "The following alias providers are available:"
+msgstr "Penyedia alias berikut tersedia:"
+
+msgid "Automatically check for software updates"
+msgstr "Memeriksa pembaruan perangkat lunak secara otomatis"
+
+msgid "Select which language is used in the GUI (after restart)."
+msgstr "Pilih bahasa yang ingin digunakan di antar muka (setelah dihidupkan ulang)."
+
+msgid "Insufficient funds"
+msgstr "Dana tidak mencukupi"
+
+msgid "Incorrect password"
+msgstr "Kata sandi salah"
+
+msgid "Invalid JSON code."
+msgstr "kode JSON tidak valid"
+
+msgid "Not yet available"
+msgstr "Belum tersedia saat ini"
+
+msgid "Not Verified"
+msgstr "Tidak Terverifikasi"
+
+msgid "Not enough funds on address."
+msgstr "Dana tidak mencukupi pada alamat."
+
+msgid "Cannot bump fee"
+msgstr "Tidak bisa meningkatkan biaya."
+
+msgid "Cannot cancel transaction"
+msgstr "Tidak bisa membatalkan transaksi."
+
+msgid "Cannot create child transaction"
+msgstr "Transaksi oleh anak kecil tidak bisa di proses."
+
+msgid "Not verified"
+msgstr "Tidak terverifikasi"
+
+msgid "Signed"
+msgstr "Ditanda tangani"
+
+msgid "Could not find suitable outputs"
+msgstr "Tidak bisa meneumukan hasil yang cocok."
+
+msgid "Could not find suitable output"
+msgstr "Tidak bisa meneumukan hasil yang cocok."
+
+msgid "Could not find coins for output"
+msgstr "tidak bisa menemukan coin untuk hasil."
+
+msgid "The fee for this transaction seems unusually high."
+msgstr "Biaya untuk transaksi ini sepertinya terlalu tinggi."
+
+msgctxt "About|"
+msgid "About Electrum"
+msgstr "Tentang Electrum"
+
+msgctxt "About|"
+msgid "Version"
+msgstr "Versi"
+
+msgctxt "About|"
+msgid "Homepage"
+msgstr "Beranda"
+
+msgctxt "About|"
+msgid "Developers"
+msgstr "Para Pengembang"
+
+msgctxt "AddressDetails|"
+msgid "Address"
+msgstr "Alamat"
+
+msgctxt "AddressDetails|"
+msgid "Balance"
+msgstr "Saldo"
+
+msgctxt "AddressDetails|"
+msgid "Transactions"
+msgstr "Transaksi"
+
+msgctxt "AddressDetails|"
+msgid "Label"
+msgstr "Label"
+
+msgctxt "AddressDetails|"
+msgid "Script type"
+msgstr "Jenis script"
+
+msgctxt "AddressDetails|"
+msgid "Public keys"
+msgstr "Kunci publik"
+
+msgctxt "AddressDetails|"
+msgid "Public key"
+msgstr "Kunci publik"
+
+msgctxt "AddressDetails|"
+msgid "Private key"
+msgstr "Kunci Privat"
+
+msgctxt "AddressDetails|"
+msgid "Delete"
+msgstr "Hapus"
+
+msgctxt "Addresses|"
+msgid "Addresses"
+msgstr "Alamat"
+
+msgctxt "Addresses|"
+msgid "Coins"
+msgstr "Koin"
+
+msgctxt "BIP39RecoveryDialog|"
+msgid "Choose an account to restore."
+msgstr "Pilih akun untuk memulihkan."
+
+msgctxt "BalanceDetails|"
+msgid "Lightning"
+msgstr "Kilat"
+
+msgctxt "BalanceDetails|"
+msgid "Can send"
+msgstr "Dapat mengirim"
+
+msgctxt "BalanceDetails|"
+msgid "Can receive"
+msgstr "Dapat menerima"
+
+msgctxt "BalanceDetails|"
+msgid "Open Channel"
+msgstr "Buka Saluran"
+
+msgctxt "BalanceSummary|"
+msgid "Balance"
+msgstr "Saldo"
+
+msgctxt "BalanceSummary|"
+msgid "Lightning"
+msgstr "Kilat"
+
+msgctxt "BtcField|"
+msgid "Amount"
+msgstr "Jumlah"
+
+msgctxt "ChannelDetails|"
+msgid "Channel Backup"
+msgstr "Cadangan Saluran"
+
+msgctxt "ChannelDetails|"
+msgid "Capacity"
+msgstr "Kapasitas"
+
+msgctxt "ChannelDetails|"
+msgid "Can send"
+msgstr "Dapat mengirim"
+
+msgctxt "ChannelDetails|"
+msgid "Can receive"
+msgstr "Dapat menerima"
+
+msgctxt "ChannelDetails|"
+msgid "Backup"
+msgstr "Cadangan"
+
+msgctxt "ChannelDetails|"
+msgid "Close channel"
+msgstr "Tutup saluran"
+
+msgctxt "Channels|"
+msgid "Open Channel"
+msgstr "Buka Saluran"
+
+msgctxt "CloseChannelDialog|"
+msgid "Close channel"
+msgstr "Tutup saluran"
+
+msgctxt "CloseChannelDialog|"
+msgid "Channel closed"
+msgstr "Saluran ditutup"
+
+msgctxt "ConfirmTxDialog|"
+msgid "Fee"
+msgstr "Biaya transaksi"
+
+msgctxt "ConfirmTxDialog|"
+msgid "Options"
+msgstr "Pilihan"
+
+msgctxt "ConfirmTxDialog|"
+msgid "Use multiple change addresses"
+msgstr "Gunakan beberapa alamat dompet"
+
+msgctxt "ConfirmTxDialog|"
+msgid "In some cases, use up to 3 change addresses in order to break up large coin amounts and obfuscate the recipient address."
+msgstr "Dalam beberapa kasus, gunakan hingga 3 alamat yang berubah-ubah dalam rangka untuk memecah jumlah koin yang besar dan mengaburkan alamat penerima."
+
+msgctxt "ConfirmTxDialog|"
+msgid "This may result in higher transactions fees."
+msgstr "Hal ini dapat mengakibatkan biaya transaksi yang lebih tinggi."
+
+msgctxt "CpfpBumpFeeDialog|"
+msgid "Bump Fee"
+msgstr "Naikkan biaya transaksi"
+
+msgctxt "CpfpBumpFeeDialog|"
+msgid "A CPFP is a transaction that sends an unconfirmed output back to yourself, with a high fee. The goal is to have miners confirm the parent transaction in order to get the fee attached to the child transaction."
+msgstr "CPFP adalah transaksi yang mengirimkan kembali output yang belum dikonfirmasi ke diri Anda sendiri, dengan biaya tinggi.  Tujuannya adalah agar penambang mengkonfirmasi transaksi induk untuk mendapatkan biaya yang melekat pada transaksi anak."
+
+msgctxt "CpfpBumpFeeDialog|"
+msgid "Total size"
+msgstr "Ukuran total"
+
+msgctxt "ExceptionDialog|"
+msgid "Sorry!"
+msgstr "Maaf!"
+
+msgctxt "ExceptionDialog|"
+msgid "To help us diagnose and fix the problem, you can send us a bug report that contains useful debug information:"
+msgstr "Untuk membantu kami mendiagnosis dan memperbaiki masalah, Anda dapat mengirimkan laporan masalah yang berisi informasi debug yang berguna:"
+
+msgctxt "ExceptionDialog|"
+msgid "Please briefly describe what led to the error (optional):"
+msgstr "Silakan jelaskan secara singkat apa yang menyebabkan kesalahan tersebut (pilihan lain):"
+
+msgctxt "ExceptionDialog|"
+msgid "Do you want to send this report?"
+msgstr "Anda ingin mengirimkan laporan ini?"
+
+msgctxt "ExceptionDialog|"
+msgid "Send Bug Report"
+msgstr "Kirim Laporan Bug"
+
+msgctxt "ExceptionDialog|"
+msgid "Not Now"
+msgstr "Tidak Sekarang"
+
+msgctxt "ExceptionDialog|"
+msgid "Error"
+msgstr "Kesalahan"
+
+msgctxt "ExportTxDialog|"
+msgid "Copy"
+msgstr "Salin"
+
+msgctxt "FeeMethodComboBox|"
+msgid "ETA"
+msgstr "EWT"
+
+msgctxt "FeeMethodComboBox|"
+msgid "Mempool"
+msgstr "Mempool"
+
+msgctxt "FeePicker|"
+msgid "Mining fee"
+msgstr "Bebas menambang koin"
+
+msgctxt "FiatField|"
+msgid "Amount"
+msgstr "Jumlah"
+
+msgctxt "GenericShareDialog|"
+msgid "Copy"
+msgstr "Salin"
+
+msgctxt "History|"
+msgid "Mempool"
+msgstr "Mempool"
+
+msgctxt "ImportAddressesKeysDialog|"
+msgid "Import"
+msgstr "Impor"
+
+msgctxt "InvoiceDialog|"
+msgid "Address"
+msgstr "Alamat"
+
+msgctxt "InvoiceDialog|"
+msgid "Description"
+msgstr "Keterangan"
+
+msgctxt "InvoiceDialog|"
+msgid "Max"
+msgstr "Maksimal"
+
+msgctxt "InvoiceDialog|"
+msgid "Payment sent."
+msgstr "Pembayaran terkirim."
+
+msgctxt "Invoices|"
+msgid "Delete"
+msgstr "Hapus"
+
+msgctxt "LightningPaymentDetails|"
+msgid "Paid"
+msgstr "Lunas"
+
+msgctxt "LightningPaymentDetails|"
+msgid "Date"
+msgstr "Tanggal"
+
+msgctxt "LightningPaymentDetails|"
+msgid "Label"
+msgstr "Label"
+
+msgctxt "LnurlPayRequestDialog|"
+msgid "Description"
+msgstr "Keterangan"
+
+msgctxt "LnurlPayRequestDialog|"
+msgid "Amount"
+msgstr "Jumlah"
+
+msgctxt "LnurlPayRequestDialog|"
+msgid "Message"
+msgstr "Pesan"
+
+msgctxt "LnurlWithdrawRequestDialog|"
+msgid "Description"
+msgstr "Keterangan"
+
+msgctxt "LnurlWithdrawRequestDialog|"
+msgid "Amount"
+msgstr "Jumlah"
+
+msgctxt "MessageDialog|"
+msgid "Question"
+msgstr "Pertanyaan"
+
+msgctxt "MessageDialog|"
+msgid "Message"
+msgstr "Pesan"
+
+msgctxt "NetworkOverview|"
+msgid "Network"
+msgstr "Jaringan"
+
+msgctxt "NetworkOverview|"
+msgid "Status"
+msgstr "Status"
+
+msgctxt "NetworkOverview|"
+msgid "Server"
+msgstr "Server"
+
+msgctxt "NetworkOverview|"
+msgid "Lightning"
+msgstr "Kilat"
+
+msgctxt "NetworkOverview|"
+msgid "Gossip"
+msgstr "Gossip"
+
+msgctxt "NetworkOverview|"
+msgid "Proxy"
+msgstr "Proxy"
+
+msgctxt "NewWalletWizard|"
+msgid "Error"
+msgstr "Kesalahan"
+
+msgctxt "NostrSwapServersDialog|"
+msgid "Fee"
+msgstr "Biaya transaksi"
+
+msgctxt "OpenChannelDialog|"
+msgid "Max"
+msgstr "Maksimal"
+
+msgctxt "OpenChannelDialog|"
+msgid "Open Channel"
+msgstr "Buka Saluran"
+
+msgctxt "OpenChannelDialog|"
+msgid "Error"
+msgstr "Kesalahan"
+
+msgctxt "OpenChannelDialog|"
+msgid "Channel established."
+msgstr "Saluran dibuat."
+
+msgctxt "OpenWalletDialog|"
+msgid "Password"
+msgstr "Kata Sandi"
+
+msgctxt "PasswordDialog|"
+msgid "Enter Password"
+msgstr "Masukan kata sandi"
+
+msgctxt "PasswordDialog|"
+msgid "Password"
+msgstr "Kata Sandi"
+
+msgctxt "Preferences|"
+msgid "Preferences"
+msgstr "Pengaturan"
+
+msgctxt "Preferences|"
+msgid "Language"
+msgstr "Bahasa"
+
+msgctxt "Preferences|"
+msgid "Please restart Electrum to activate the new GUI settings"
+msgstr "Harap hidupkan ulang Electrum untuk mengaktifkan pengaturan antar muka yang baru"
+
+msgctxt "Preferences|"
+msgid "Base unit"
+msgstr "Satuan dasar"
+
+msgctxt "Preferences|"
+msgid "Lightning"
+msgstr "Kilat"
+
+msgctxt "Preferences|"
+msgid "Advanced"
+msgstr "Lanjutan"
+
+msgctxt "ProxyConfig|"
+msgid "Address"
+msgstr "Alamat"
+
+msgctxt "ProxyConfig|"
+msgid "Port"
+msgstr "Port"
+
+msgctxt "ProxyConfig|"
+msgid "Password"
+msgstr "Kata Sandi"
+
+msgctxt "RbfBumpFeeDialog|"
+msgid "Bump Fee"
+msgstr "Naikkan biaya transaksi"
+
+msgctxt "RbfBumpFeeDialog|"
+msgid "Options"
+msgstr "Pilihan"
+
+msgctxt "RbfBumpFeeDialog|"
+msgid "In some cases, use up to 3 change addresses in order to break up large coin amounts and obfuscate the recipient address."
+msgstr "Dalam beberapa kasus, gunakan hingga 3 alamat yang berubah-ubah dalam rangka untuk memecah jumlah koin yang besar dan mengaburkan alamat penerima."
+
+msgctxt "RbfBumpFeeDialog|"
+msgid "This may result in higher transactions fees."
+msgstr "Hal ini dapat mengakibatkan biaya transaksi yang lebih tinggi."
+
+msgctxt "ReceiveDetailsDialog|"
+msgid "Message"
+msgstr "Pesan"
+
+msgctxt "ReceiveDetailsDialog|"
+msgid "Amount"
+msgstr "Jumlah"
+
+msgctxt "ReceiveDetailsDialog|"
+msgid "Lightning"
+msgstr "Kilat"
+
+msgctxt "ReceiveDetailsDialog|"
+msgid "Amount too low"
+msgstr "Jumlahnya terlalu rendah"
+
+msgctxt "ReceiveDialog|"
+msgid "Status"
+msgstr "Status"
+
+msgctxt "ReceiveDialog|"
+msgid "Message"
+msgstr "Pesan"
+
+msgctxt "ReceiveDialog|"
+msgid "Amount"
+msgstr "Jumlah"
+
+msgctxt "ReceiveDialog|"
+msgid "Payment Request"
+msgstr "Permintaan pembayaran"
+
+msgctxt "ReceiveRequests|"
+msgid "Delete"
+msgstr "Hapus"
+
+msgctxt "RequestExpiryComboBox|"
+msgid "10 minutes"
+msgstr "10 menit"
+
+msgctxt "RequestExpiryComboBox|"
+msgid "1 hour"
+msgstr "1 jam"
+
+msgctxt "RequestExpiryComboBox|"
+msgid "1 day"
+msgstr "1 hari"
+
+msgctxt "RequestExpiryComboBox|"
+msgid "1 week"
+msgstr "1 minggu"
+
+msgctxt "RequestExpiryComboBox|"
+msgid "Never"
+msgstr "Jangan pernah"
+
+msgctxt "ScanDialog|"
+msgid "Cancel"
+msgstr "Batal"
+
+msgctxt "ServerConfig|"
+msgid "Server"
+msgstr "Server"
+
+msgctxt "ServerConfig|"
+msgid "Connected"
+msgstr "terhubung"
+
+msgctxt "ServerConfig|"
+msgid "Other known servers"
+msgstr "Server lain yang dikenal"
+
+msgctxt "ServerConnectWizard|"
+msgid "Next"
+msgstr "Berikutnya"
+
+msgctxt "SignVerifyMessageDialog|"
+msgid "Address"
+msgstr "Alamat"
+
+msgctxt "SignVerifyMessageDialog|"
+msgid "Message"
+msgstr "Pesan"
+
+msgctxt "SignVerifyMessageDialog|"
+msgid "Signature"
+msgstr "Tanda Tangan"
+
+msgctxt "SignVerifyMessageDialog|"
+msgid "Sign"
+msgstr "Tanda Tangani"
+
+msgctxt "SignVerifyMessageDialog|"
+msgid "Verify"
+msgstr "Verifikasi"
+
+msgctxt "SwapDialog|"
+msgid "Mining fee"
+msgstr "Bebas menambang koin"
+
+msgctxt "SwapDialog|"
+msgid "Cancel"
+msgstr "Batal"
+
+msgctxt "SweepDialog|"
+msgid "Sweep private keys"
+msgstr "Sapu kunci privat"
+
+msgctxt "SweepDialog|"
+msgid "A few examples"
+msgstr "Beberapa contoh"
+
+msgctxt "TermsOfUseWizard|"
+msgid "Next"
+msgstr "Berikutnya"
+
+msgctxt "TxDetails|"
+msgid "Amount received in channels"
+msgstr "Jumlah yang diterima dalam channel"
+
+msgctxt "TxDetails|"
+msgid "Amount withdrawn from channels"
+msgstr "Jumlah yang ditarik dalam channel"
+
+msgctxt "TxDetails|"
+msgid "Status"
+msgstr "Status"
+
+msgctxt "TxDetails|"
+msgid "Date"
+msgstr "Tanggal"
+
+msgctxt "TxDetails|"
+msgid "Label"
+msgstr "Label"
+
+msgctxt "TxDetails|"
+msgid "Transaction ID"
+msgstr "ID Transaksi"
+
+msgctxt "TxDetails|"
+msgid "Sign"
+msgstr "Tanda Tangani"
+
+msgctxt "TxDetails|"
+msgid "Broadcast"
+msgstr "Kirim"
+
+msgctxt "TxDetails|"
+msgid "Error"
+msgstr "Kesalahan"
+
+msgctxt "WCConfirmSeed|"
+msgid "Your seed is important!"
+msgstr "Benih dompet Anda penting!"
+
+msgctxt "WCConfirmSeed|"
+msgid "If you lose your seed, your money will be permanently lost."
+msgstr "Jika Anda kehilangan benih Anda, uang Anda akan hilang secara permanen."
+
+msgctxt "WCConfirmSeed|"
+msgid "To make sure that you have properly saved your seed, please retype it here."
+msgstr "Untuk memastikan bahwa Anda sudah menyimpan benih dengan benar, harap ketik ulang benih Anda disini."
+
+msgctxt "WCCreateSeed|"
+msgid "This seed will allow you to recover your wallet in case of computer failure."
+msgstr "Benih ini memungkinkan Anda untuk memulihkan kembali dompet Anda bilamana komputer Anda rusak."
+
+msgctxt "WCCreateSeed|"
+msgid "WARNING"
+msgstr "PERINGATAN"
+
+msgctxt "WCCreateSeed|"
+msgid "Never disclose your seed."
+msgstr "Jangan pernah membuka kunci benih."
+
+msgctxt "WCCreateSeed|"
+msgid "Never type it on a website."
+msgstr "Jangan pernah mengetik pada sebuah situs website."
+
+msgctxt "WCCreateSeed|"
+msgid "Do not store it electronically."
+msgstr "Jangan menyimpan secara elektronik."
+
+msgctxt "WCCreateSeed|"
+msgid "Your wallet generation seed is:"
+msgstr "Benih untuk memulihkan wallet Anda adalah:"
+
+msgctxt "WCHaveMasterKey|"
+msgid "Please enter the master public key (xpub) of your cosigner."
+msgstr "Silahkan masukan kunci publik master (xpub) dari cosigner dompet Anda."
+
+msgctxt "WCHaveMasterKey|"
+msgid "Enter their master private key (xprv) if you want to be able to sign for them."
+msgstr "Masukkan kunci master privat (xprv) jika ingin dapat masuk kembali."
+
+msgctxt "WCHaveSeed|"
+msgid "BIP39 seeds can be imported in Electrum, so that users can access funds locked in other wallets."
+msgstr "Kode BIP39 bisa di import ke Electrum sehingga pengguna dapat mengakses saldo yang terkunci di dompet lain."
+
+msgctxt "WCHaveSeed|"
+msgid "BIP39 seeds do not include a version number, which compromises compatibility with future software."
+msgstr "Nomor versi tidak termasuk dalam kode BIP39. Oleh karena itu, kompatibilitas dengan software yang digunakan di masa depan akan terganggu."
+
+msgctxt "WCHaveSeed|"
+msgid "Seed Type"
+msgstr "Ketik sandi benih"
+
+msgctxt "WCImport|"
+msgid "Enter a list of Bitcoin addresses (this will create a watching-only wallet), or a list of private keys."
+msgstr "Masukkan daftar alamat Bitcoin (tindakan ini akan membuat dompet lihat-saja), atau daftar kunci privat."
+
+msgctxt "WCKeystoreType|"
+msgid "I already have a seed"
+msgstr "Saya sudah memiliki seed"
+
+msgctxt "WCProxyConfig|"
+msgid "Proxy"
+msgstr "Proxy"
+
+msgctxt "WCScriptAndDerivation|"
+msgid "Choose the type of addresses in your wallet."
+msgstr "Pilih jenis alamat di dompet Anda."
+
+msgctxt "WCScriptAndDerivation|"
+msgid "If you are not sure what this is, leave this field unchanged."
+msgstr "Jika Anda tidak yakin dengan ini, tinggalkan kolom ini dengan tidak diubah."
+
+msgctxt "WCScriptAndDerivation|"
+msgid "Detect Existing Accounts"
+msgstr "Deteksi akun saat ini"
+
+msgctxt "WCServerConfig|"
+msgid "Server"
+msgstr "Server"
+
+msgctxt "WCWalletType|"
+msgid "Import Bitcoin addresses or private keys"
+msgstr "Import alamat Bitcoin atau kunci rahasia"
+
+msgctxt "WalletDetails|"
+msgid "Encrypted"
+msgstr "Terenkripsi"
+
+msgctxt "WalletDetails|"
+msgid "Lightning"
+msgstr "Kilat"
+
+msgctxt "WalletDetails|"
+msgid "Seed"
+msgstr "Benih"
+
+msgctxt "WalletDetails|"
+msgid "Name"
+msgstr "Nama"
+
+msgctxt "WalletDetails|"
+msgid "unknown"
+msgstr "tidak diketahui"
+
+msgctxt "WalletDetails|"
+msgid "Master Public Key"
+msgstr "Kunci Publik Utama"
+
+msgctxt "WalletDetails|"
+msgid "Change Password"
+msgstr "Ubah sandi"
+
+msgctxt "WalletDetails|"
+msgid "Enter new password"
+msgstr "Masukkan kata sandi baru"
+
+msgctxt "WalletDetails|"
+msgid "Success"
+msgstr "Berhasil"
+
+msgctxt "WalletDetails|"
+msgid "Error"
+msgstr "Kesalahan"
+
+msgctxt "WalletDetails|"
+msgid "Warning"
+msgstr "Peringatan"
+
+msgctxt "WalletMainView|"
+msgid "Sweep"
+msgstr "Sapu"
+
+msgctxt "WalletMainView|"
+msgid "Channels"
+msgstr "Saluran"
+
+msgctxt "WalletMainView|"
+msgid "Receive"
+msgstr "Terima"
+
+msgctxt "WalletMainView|"
+msgid "Send"
+msgstr "Kirim"
+
+msgctxt "WalletMainView|"
+msgid "Error"
+msgstr "Kesalahan"
+
+msgctxt "Wizard|"
+msgid "Cancel"
+msgstr "Batal"
+
+msgctxt "Wizard|"
+msgid "Back"
+msgstr "Kembali"
+
+msgctxt "Wizard|"
+msgid "Next"
+msgstr "Berikutnya"
+
+msgctxt "main|"
+msgid "Network"
+msgstr "Jaringan"
+
+msgctxt "main|"
+msgid "Preferences"
+msgstr "Pengaturan"
+
+msgctxt "main|"
+msgid "About"
+msgstr "Tentang"
+
+msgctxt "main|"
+msgid "Error"
+msgstr "Kesalahan"

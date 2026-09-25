@@ -1,0 +1,128 @@
+{
+    "source_string_count": 2738,
+    "translations": {
+        "ar_SA": {
+            "string_count": 466
+        },
+        "az_AZ": {
+            "string_count": 705
+        },
+        "be_BY": {
+            "string_count": 92
+        },
+        "bg_BG": {
+            "string_count": 981
+        },
+        "bn_BD": {
+            "string_count": 10
+        },
+        "cs_CZ": {
+            "string_count": 2736
+        },
+        "da_DK": {
+            "string_count": 348
+        },
+        "de_DE": {
+            "string_count": 2679
+        },
+        "el_GR": {
+            "string_count": 685
+        },
+        "eo_UY": {
+            "string_count": 60
+        },
+        "es_ES": {
+            "string_count": 2124
+        },
+        "fa_IR": {
+            "string_count": 329
+        },
+        "fr_FR": {
+            "string_count": 1331
+        },
+        "he_IL": {
+            "string_count": 1158
+        },
+        "hu_HU": {
+            "string_count": 2257
+        },
+        "hy_AM": {
+            "string_count": 259
+        },
+        "id_ID": {
+            "string_count": 849
+        },
+        "it_IT": {
+            "string_count": 2557
+        },
+        "ja_JP": {
+            "string_count": 2265
+        },
+        "ko_KR": {
+            "string_count": 1571
+        },
+        "ky_KG": {
+            "string_count": 144
+        },
+        "lv_LV": {
+            "string_count": 1135
+        },
+        "nb_NO": {
+            "string_count": 481
+        },
+        "nl_NL": {
+            "string_count": 2648
+        },
+        "pl_PL": {
+            "string_count": 701
+        },
+        "pt_BR": {
+            "string_count": 2561
+        },
+        "pt_PT": {
+            "string_count": 887
+        },
+        "ro_RO": {
+            "string_count": 460
+        },
+        "ru_RU": {
+            "string_count": 1624
+        },
+        "si_LK": {
+            "string_count": 1424
+        },
+        "sk_SK": {
+            "string_count": 1213
+        },
+        "sl_SI": {
+            "string_count": 71
+        },
+        "sr_CS": {
+            "string_count": 1
+        },
+        "sv_SE": {
+            "string_count": 610
+        },
+        "ta_IN": {
+            "string_count": 39
+        },
+        "th_TH": {
+            "string_count": 255
+        },
+        "tr_TR": {
+            "string_count": 1011
+        },
+        "uk_UA": {
+            "string_count": 1187
+        },
+        "vi_VN": {
+            "string_count": 196
+        },
+        "zh_CN": {
+            "string_count": 2738
+        },
+        "zh_TW": {
+            "string_count": 560
+        }
+    }
+}

@@ -1,0 +1,5 @@
+LC_MESSAGES/
+.idea
+**/*.pyc
+/build/
+__pycache__/

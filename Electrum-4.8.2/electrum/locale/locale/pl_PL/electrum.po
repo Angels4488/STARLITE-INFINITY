@@ -1,0 +1,2305 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: electrum\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-02 08:02+0000\n"
+"PO-Revision-Date: 2026-07-02 08:02\n"
+"Last-Translator: \n"
+"Language-Team: Polish\n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Qt-Contexts: true\n"
+"X-Electrum-SourceStringCount: 2738\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+"X-Crowdin-Project: electrum\n"
+"X-Crowdin-Project-ID: 20482\n"
+"X-Crowdin-Language: pl\n"
+"X-Crowdin-File: /electrum-client/messages.pot\n"
+"X-Crowdin-File-ID: 68\n"
+
+msgid "Do you want to send this report?"
+msgstr "Czy chcesz wysłać ten raport?"
+
+msgid "Do not enter sensitive/private information here. The report will be visible on the public issue tracker."
+msgstr "Nie wpisuj tutaj wrażliwych/prywatnych informacji. Raport będzie widoczny w publicznym dzienniku problemów."
+
+msgid "  (No FX rate available)"
+msgstr "  (Kursy waluty niedostępne)"
+
+msgid "No data"
+msgstr "Brak danych"
+
+msgid "ETA"
+msgstr "Szacowany czas dotarcia"
+
+msgid "Mempool"
+msgstr "Mempool"
+
+msgid "Low fee"
+msgstr "Niska prowizja"
+
+msgid "Current rate"
+msgstr "Aktualna stawka"
+
+msgid "Fixed rate"
+msgstr "Stały przelicznik"
+
+msgid "Estimate"
+msgstr "Oszacuj"
+
+msgid "&Undo"
+msgstr "Anuluj"
+
+msgid "&Redo"
+msgstr "Popraw"
+
+msgid "&Copy"
+msgstr "&Kopiuj"
+
+msgid "&Paste"
+msgstr "Wklej"
+
+msgid "Could not close channel: "
+msgstr "Nie zamknięto kanału: "
+
+msgid "Error"
+msgstr "Błąd"
+
+msgid "Are you sure you want to remove this transaction?"
+msgstr "Czy na pewno chcesz usunąć tę transakcję?"
+
+msgid "Are you sure you want to remove this transaction and {} child transactions?"
+msgstr "Czy na pewno chcesz usunąć tę transakcję i {} transakcji pochodnych?"
+
+msgid "Warning"
+msgstr "Ostrzeżenie"
+
+msgid "Max fee exceeded"
+msgstr "Maksymalna prowizja przekroczona"
+
+msgid "Not enough funds"
+msgstr "Niewystarczające środki"
+
+msgid "Amount"
+msgstr "Kwota"
+
+msgid "Synchronizing..."
+msgstr "Synchronizowanie..."
+
+msgid "Network"
+msgstr "Sieć"
+
+msgid "Show/Hide"
+msgstr "Pokaż/Ukryj"
+
+msgid "Close"
+msgstr "Zamknij"
+
+msgid "Dark/Light"
+msgstr "Ciemny/Jasny"
+
+msgid "Exit Electrum"
+msgstr "Wyjdź z Electrum"
+
+msgid "Cannot load wallet"
+msgstr "Nie można załadować portfela „{}”"
+
+msgid "Address"
+msgstr "Adres"
+
+msgid "Public keys"
+msgstr "Klucze publiczne"
+
+msgid "Redeem Script"
+msgstr "Zrealizuj skrypt"
+
+msgid "Funded"
+msgstr "Opłacone"
+
+msgid "Change"
+msgstr "Reszty"
+
+msgid "Fiat"
+msgstr "Waluta"
+
+msgid "Balance"
+msgstr "Saldo"
+
+msgid "change"
+msgstr "reszta"
+
+msgid "{} addresses"
+msgstr "{} adresy"
+
+msgid "Details"
+msgstr "Szczegóły"
+
+msgid "Edit {}"
+msgstr "Edytuj {}"
+
+msgid "Private key"
+msgstr "Klucz prywatny"
+
+msgid "Encrypt/decrypt message"
+msgstr "Zaszyfruj/odszyfruj wiadomość"
+
+msgid "View on block explorer"
+msgstr "Wyświetl w eksploratorze bloków"
+
+msgid "Freeze"
+msgstr "Zamroź"
+
+msgid "BIP39 Recovery"
+msgstr "Odzyskiwanie BIP39"
+
+msgid "Error: Account discovery failed."
+msgstr "Błąd: Nie wykryto konta."
+
+msgid "Channel Backup"
+msgstr "Kopia zapasowa kanału"
+
+msgid "CLTV expiry"
+msgstr "Data ważności CLTV"
+
+msgid "Channel ID"
+msgstr "Id kanału"
+
+msgid "Capacity"
+msgstr "Pojemność"
+
+msgid "Can send"
+msgstr "Można wysłać"
+
+msgid "Current feerate"
+msgstr "Aktualna stawka prowizji"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Please wait..."
+msgstr "Proszę czekać..."
+
+msgid "Are you sure you want to delete this channel? This will purge associated transactions from your wallet history."
+msgstr ""
+"Jesteś pewien że chcesz usunąć ten kanał?\n"
+"To wyczyścić tranzakcje z historii Twojego portfela."
+
+msgid "Delete"
+msgstr "Usuń"
+
+msgid "Nodes"
+msgstr "Węzły"
+
+msgid "Channels"
+msgstr "Kanały"
+
+msgid "At most 100 satoshis might be lost due to this rounding."
+msgstr "Podczas zaokrąglania może zostać stracone co najwyżej 100 satoshi."
+
+msgid "Preferences"
+msgstr "Ustawienia"
+
+msgid "Also, dust is not kept as change, but added to the fee."
+msgstr "Ponadto, dust nie jest zwracany jako reszta, tylko dodawany do opłaty transakcyjne."
+
+msgid "Also, when batching RBF transactions, BIP 125 imposes a lower bound on the fee."
+msgstr "Dodatkowo, podczas grupowania transakcji RBF, BIP 125 narzuca mniejsze ograniczenia na prowizję."
+
+msgid "Additional {} satoshis are going to be added."
+msgstr "Dodatkowe {} satoshi będą dodane."
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Use change addresses"
+msgstr "Używaj adresów reszty"
+
+msgid "Using change addresses makes it more difficult for other people to track your transactions."
+msgstr "Używanie adresów reszty utrudnia innym śledzenie twoich transakcji."
+
+msgid "Use multiple change addresses"
+msgstr "Używaj wielu adresów reszty"
+
+msgid "In some cases, use up to 3 change addresses in order to break up large coin amounts and obfuscate the recipient address."
+msgstr "W niektórych przypadkach można użyć maksymalnie 3 adresów reszty w celu podzielenia dużych kwot i zaciemnienia adresu odbiorcy."
+
+msgid "This may result in higher transactions fees."
+msgstr "Może to powodować wyższe opłaty za transakcje."
+
+msgid "Mining fee"
+msgstr "Prowizja górnicza"
+
+msgid "Amount to be sent"
+msgstr "Kwota do wysłania"
+
+msgid "Bitcoin transactions are in general not free. A transaction fee is paid by the sender of the funds."
+msgstr "Transakcje Bitcoin generalnie nie są darmowe. Prowizję od transakcji pokrywa nadawca."
+
+msgid "The amount of fee can be decided freely by the sender. However, transactions with low fees take more time to be processed."
+msgstr "Wysokość prowizji może być dowolnie ustalona przez nadawcę. Jednak im niższa opłata, tym transakcja może dłużej oczekiwać na potwierdzenie."
+
+msgid "A suggested fee is automatically added to this field. You may override it. The suggested fee increases with the size of the transaction."
+msgstr "Sugerowana opłata za transakcję jest automatycznie dodawana do tego pola. Możesz ją zmienić. Sugerowana opłata rośnie wraz z rozmiarem transakcji."
+
+msgid "Mining Fee"
+msgstr "Prowizja górnicza"
+
+msgid "Fee policy"
+msgstr "Warunki prowizji"
+
+msgid "Additional fees"
+msgstr "Dodatkowe prowizje"
+
+msgid "Do not paste code here that you don't understand. Executing the wrong code could lead to your coins being irreversibly lost."
+msgstr "Nie wklejaj tutaj kodu którego nie rozumiesz. Wykonanie niewłaściwego kodu może spowodować nieodwracalną utratę twoich monet."
+
+msgid "Click here to hide this message."
+msgstr "Kliknij tutaj, by ukryć tę wiadomość."
+
+msgid "Name"
+msgstr "Nazwa"
+
+msgid "Copy {}"
+msgstr "Kopiuj {}"
+
+msgid "Pay to"
+msgstr "Odbiorca"
+
+msgid "&New contact"
+msgstr "Nowy kontakt"
+
+msgid "Import"
+msgstr "Importuj"
+
+msgid "Export"
+msgstr "Eksportuj"
+
+msgid "An Error Occurred"
+msgstr "Wystąpił Błąd"
+
+msgid "Crash report"
+msgstr "Raport o błędach"
+
+msgid " confirmation"
+msgstr " potwierdzenie"
+
+msgid "Acquisition price"
+msgstr "Cena pozyskania"
+
+msgid "Capital Gains"
+msgstr "Zyski z kapitału"
+
+msgid "Date"
+msgstr "Data"
+
+msgid "Description"
+msgstr "Opis"
+
+msgid "All"
+msgstr "Wszystko"
+
+msgid "Custom"
+msgstr "Niestandardowe"
+
+msgid "None"
+msgstr "Brak"
+
+msgid "From"
+msgstr "Od"
+
+msgid "To"
+msgstr "Do"
+
+msgid "&Summary"
+msgstr "&Podsumowanie"
+
+msgid "&Plot"
+msgstr "&Wykres"
+
+msgid "&Export"
+msgstr "&Eksportuj"
+
+msgid "Copy"
+msgstr "Kopiuj"
+
+msgid "Remove"
+msgstr "Usuń"
+
+msgid "Transaction ID"
+msgstr "ID transakcji"
+
+msgid "Increase fee"
+msgstr "Zwiększ prowizję"
+
+msgid "Child pays for parent"
+msgstr "Dziecko płaci za rodzica"
+
+msgid "Export History"
+msgstr "Eksportuj Historię"
+
+msgid "Select file to export your wallet transactions to"
+msgstr "Wybierz plik aby wyeksportować swoje transakcje do"
+
+msgid "Electrum was unable to produce a transaction export."
+msgstr "Electrum nie był w stanie wyprodukować eksportu transakcji."
+
+msgid "Unable to export history"
+msgstr "Nie można eksportować historii"
+
+msgid "Your wallet history has been successfully exported."
+msgstr "Historia twojego portfela została pomyślnie eksportowana."
+
+msgid "Unknown"
+msgstr "Nieznany"
+
+msgid "Delete invoices"
+msgstr "Usunąć rachunki?"
+
+msgid "Pay"
+msgstr "Zapłać"
+
+msgid "Message"
+msgstr "Wiadomość"
+
+msgid "Block height"
+msgstr "Numer bloku"
+
+msgid "History"
+msgstr "Historia"
+
+msgid "Send"
+msgstr "Wyślij"
+
+msgid "Receive"
+msgstr "Odbierz"
+
+msgid "&Addresses"
+msgstr "&Adresy"
+
+msgid "Co&ins"
+msgstr "Mo&nety"
+
+msgid "Con&tacts"
+msgstr "Kon&takty"
+
+msgid "Con&sole"
+msgstr "Kon&sola"
+
+msgid "&Notes"
+msgstr "Notatki"
+
+msgid "watching only"
+msgstr "tylko obserwowana"
+
+msgid "This wallet is watching-only."
+msgstr "Ten portfel jest tylko obserwowany."
+
+msgid "This means you will not be able to spend Bitcoins with it."
+msgstr "Oznacza to że nie będziesz mógł wydać bitcoinów."
+
+msgid "Make sure you own the seed phrase or the private keys, before you request Bitcoins to be sent to this wallet."
+msgstr "Upewnij się że posiadasz szyfr ziarna lub klucze prywatne, zanim zażądasz bitcoiny aby zostały wysłane do tego portfela."
+
+msgid "Don't show this again."
+msgstr "Nie pokazuj tego ponownie."
+
+msgid "Backup directory"
+msgstr "Ścieżka kopii zapasowej"
+
+msgid "Electrum was unable to copy your wallet file to the specified location."
+msgstr "Electrum nie był w stanie skopiować pliku portfela do określonej lokalizacji."
+
+msgid "Unable to create backup"
+msgstr "Nie można utworzyć kopii zapasowej"
+
+msgid "A copy of your wallet file was created in"
+msgstr "Kopia twojego portfela została utworzona w"
+
+msgid "Wallet backup created"
+msgstr "Utworzono kopię portfela"
+
+msgid "&File"
+msgstr "&Plik"
+
+msgid "&Recently open"
+msgstr "&Ostatnio otwarte"
+
+msgid "&Open"
+msgstr "&Otwórz"
+
+msgid "&New/Restore"
+msgstr "&Nowy/Przywróć"
+
+msgid "&Save backup"
+msgstr "Zapisz kopie zapasowe"
+
+msgid "&Quit"
+msgstr "&Wyjście"
+
+msgid "&Wallet"
+msgstr "&Portfel"
+
+msgid "&Information"
+msgstr "&Informacja"
+
+msgid "&Password"
+msgstr "&Hasło"
+
+msgid "&Unlock"
+msgstr "&Odblokuj"
+
+msgid "&Seed"
+msgstr "&Ziarno"
+
+msgid "&Private keys"
+msgstr "Klucze &prywatne"
+
+msgid "&Sweep"
+msgstr "&Opróżnij"
+
+msgid "&Import"
+msgstr "&Importuj"
+
+msgid "Import addresses"
+msgstr "Importuj adresy"
+
+msgid "&Labels"
+msgstr "&Etykiety"
+
+msgid "Find"
+msgstr "Znajdź"
+
+msgid "&View"
+msgstr "&Widok"
+
+msgid "&Tools"
+msgstr "&Narzędzia"
+
+msgid "Electrum preferences"
+msgstr "Opcje Electrum"
+
+msgid "&Network"
+msgstr "&Sieć"
+
+msgid "&Plugins"
+msgstr "&Wtyczki"
+
+msgid "&Sign/verify message"
+msgstr "&Podpisz/zweryfikuj wiadomość"
+
+msgid "&Encrypt/decrypt message"
+msgstr "&Zaszyfruj/odszyfruj wiadomość"
+
+msgid "&Load transaction"
+msgstr "&Wczytaj transakcję"
+
+msgid "&From file"
+msgstr "&Z pliku"
+
+msgid "&From text"
+msgstr "&Z tekstu"
+
+msgid "&From the blockchain"
+msgstr "&Z łańcucha bloków"
+
+msgid "&From QR code"
+msgstr "&Z kodu QR"
+
+msgid "&Help"
+msgstr "&Pomoc"
+
+msgid "&About"
+msgstr "&O programie"
+
+msgid "&Check for updates"
+msgstr "&Sprawdź dostępne aktualizacje"
+
+msgid "&Official website"
+msgstr "&Oficjalna strona WWW"
+
+msgid "&Documentation"
+msgstr "&Dokumentacja"
+
+msgid "&Report Bug"
+msgstr "&Zgłoś Błąd"
+
+msgid "&Donate to server"
+msgstr "&Wesprzyj serwer"
+
+msgid "No donation address for this server"
+msgstr "Brak adresu do wsparcia dla tego serwera"
+
+msgid "Version"
+msgstr "Wersja"
+
+msgid "Electrum's focus is speed, with low resource usage and simplifying Bitcoin."
+msgstr "Największym celem Electron'u jest prędkość z niskim użytkowaniem zasobów komputerowych i uproszczanie Bitcoina."
+
+msgid "Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the Bitcoin system."
+msgstr "Czas uruchomienia jest natychmiastowy, ponieważ system działa w połączeniu z serwerami o wysokiej wydajności, które obsługują najbardziej skomplikowane części systemu Bitcoin."
+
+msgid "Uses icons from the Icons8 icon pack (icons8.com)."
+msgstr "Używa ikon z paczki ikon Icons8 (icons8.com)."
+
+msgid "Please report any bugs as issues on github:<br/>"
+msgstr "Proszę zgłaszać błędy i problemy na githubie:<br/>"
+
+msgid "Before reporting a bug, upgrade to the most recent version of Electrum (latest release or git HEAD), and include the version number in your report."
+msgstr "Przed zgłoszeniem błędu, zaktualizuj Electrum do najnowszej wersji (najnowsze wydanie lub git HEAD), oraz dołącz numer wersji do twojego raportu."
+
+msgid "Try to explain not only what the bug is, but how it occurs."
+msgstr "Spróbuj wyjaśnić nie tylko jaki to błąd, ale jak do niego doszło."
+
+msgid "Reporting Bugs"
+msgstr "Zgłaszanie błędów"
+
+msgid "Offline"
+msgstr "Offline"
+
+msgid "Not connected"
+msgstr "Niepołączony"
+
+msgid "Signing transaction..."
+msgstr "Podpisywanie transakcji..."
+
+msgid "Do you want to remove {} from your wallet?"
+msgstr "Czy chcesz usunąć {} ze swojego portfela?"
+
+msgid "Invalid Address"
+msgstr "Niepoprawny Adres"
+
+msgid "Outputs"
+msgstr "Wyjścia"
+
+msgid "Expires"
+msgstr "Wygasa"
+
+msgid "Password"
+msgstr "Hasło"
+
+msgid "Seed"
+msgstr "Ziarno"
+
+msgid "Failed to update password"
+msgstr "Niepowodzenie aktualizacji hasła"
+
+msgid "Password was updated successfully"
+msgstr "Hasło zaktualizowane pomyślnie"
+
+msgid "Password is disabled, this wallet is not protected"
+msgstr "Hasło jest wyłączone, ten portfel nie jest chroniony"
+
+msgid "Success"
+msgstr "Powodzenie"
+
+msgid "New Contact"
+msgstr "Nowy kontakt"
+
+msgid "Delete wallet file?"
+msgstr "Usunąć plik portfela?"
+
+msgid "This wallet has no seed"
+msgstr "Ten portfel nie ma ziarna"
+
+msgid "QR code"
+msgstr "Kod QR"
+
+msgid "Address not in wallet."
+msgstr "Adresu nie ma w portfelu."
+
+msgid "Cannot sign messages with this type of address:"
+msgstr "Nie można podpisywać wiadomości przy użyciu tego typu adresu."
+
+msgid "Signature verified"
+msgstr "Sygnatura zweryfikowana"
+
+msgid "Wrong signature"
+msgstr "Nieprawidłowy podpis"
+
+msgid "Sign/verify Message"
+msgstr "Podpisz/zweryfikuj wiadomość"
+
+msgid "Signature"
+msgstr "Podpis"
+
+msgid "Sign"
+msgstr "Podpisz"
+
+msgid "Verify"
+msgstr "Weryfikuj"
+
+msgid "Encrypt/decrypt Message"
+msgstr "Szyfrowanie/deszyfrowanie wiadomości"
+
+msgid "Public key"
+msgstr "Klucz publiczny"
+
+msgid "Encrypted"
+msgstr "Zaszyfrowany"
+
+msgid "Encrypt"
+msgstr "Zaszyfruj"
+
+msgid "Decrypt"
+msgstr "Odszyfruj"
+
+msgid "Electrum was unable to parse your transaction"
+msgstr "Electrum nie był w stanie odczytać twojej transakcji"
+
+msgid "Select your transaction file"
+msgstr "Wybierz swój plik transakcji"
+
+msgid "Electrum was unable to open your transaction file"
+msgstr "Electrum nie był w stanie otworzyć pliku transakcji"
+
+msgid "Unable to read file or no transaction found"
+msgstr "Nie można odczytać pliku lub nie znaleziono transakcji"
+
+msgid "Input raw transaction"
+msgstr "Wprowadź surową transakcję"
+
+msgid "Transaction:"
+msgstr "Transakcja:"
+
+msgid "Load transaction"
+msgstr "Wczytaj transakcję"
+
+msgid "Channel Backup:"
+msgstr "Kopia zapasowa kanału:"
+
+msgid "Lookup transaction"
+msgstr "Wyszukaj transakcję"
+
+msgid "Error getting transaction from network"
+msgstr "Błąd pobierania transakcji z sieci"
+
+msgid "This is a watching-only wallet"
+msgstr "To jest tylko obserwowany portfel"
+
+msgid "Private keys"
+msgstr "Klucze prywatne"
+
+msgid "WARNING: ALL your private keys are secret."
+msgstr "UWAGA: WSZYSTKIE twoje klucze prywatne są tajne."
+
+msgid "Exposing a single private key can compromise your entire wallet!"
+msgstr "Ujawniając klucz prywatny możesz stracić cały twój portfel!"
+
+msgid "In particular, DO NOT use 'redeem private key' services proposed by third parties."
+msgstr "Absolutnie nie używaj usług typu \"wypłacanie BTC z kluczy prywatnych\" oferowanych przez osoby trzecie."
+
+msgid "Select file to export your private keys to"
+msgstr "Wybierz plik aby wyeksportować swoje prywatne klucze"
+
+msgid "Electrum was unable to produce a private key-export."
+msgstr "Electrum nie był w stanie wyprodukować prywatnego klucza-eksportu."
+
+msgid "Unable to create csv"
+msgstr "Nie można utworzyć csv"
+
+msgid "Private keys exported."
+msgstr "Klucze prywatne wyeksportowane."
+
+msgid "Sweep private keys"
+msgstr "Opróżnij klucze prywatne"
+
+msgid "Sweep"
+msgstr "Opróżnij"
+
+msgid "The following addresses were added"
+msgstr "Następujące adresy zostały dodane"
+
+msgid "The following inputs could not be imported"
+msgstr "Następujące wejścia nie mogą zostać zaimportowane"
+
+msgid "Enter addresses"
+msgstr "Wprowadź adresy"
+
+msgid "Import private keys"
+msgstr "Importuj klucze prywatne"
+
+msgid "Enter private keys"
+msgstr "Wprowadź klucze prywatne"
+
+msgid "Please restart Electrum to activate the new GUI settings"
+msgstr "Proszę uruchomić ponownie Electrum, aby aktywować nowe ustawienia Interfejsu"
+
+msgid "Child Pays for Parent"
+msgstr "Dziecko Płaci za Rodzica"
+
+msgid "Total size"
+msgstr "Łączny rozmiar"
+
+msgid "Input amount"
+msgstr "Podaj wartość"
+
+msgid "Output amount"
+msgstr "Kwota wyjściowa"
+
+msgid "Certificate mismatch"
+msgstr "Niezgodność certyfikatu"
+
+msgid "Expired"
+msgstr "Wygasło"
+
+msgid "Server"
+msgstr "Serwer"
+
+msgid "Proxy"
+msgstr "Proxy"
+
+msgid "Height"
+msgstr "Wielkość"
+
+msgid "Use as server"
+msgstr "Użyj jako serwer"
+
+msgid "Follow this branch"
+msgstr "Śledź ten oddział"
+
+msgid "Connected nodes"
+msgstr "Połączone węzły"
+
+msgid "This is the height of your local copy of the blockchain."
+msgstr "Rozmiar lokalnej kopii łańcucha bloków."
+
+msgid "Blockchain"
+msgstr "Łańcuch bloków"
+
+msgid "Max"
+msgstr "Maks"
+
+msgid "Clear"
+msgstr "Wyczyść"
+
+msgid "Choose a password to encrypt your wallet keys."
+msgstr "Wybierz hasło do zaszyfrowania kluczy w Twoim portfelu."
+
+msgid "Leave this field empty if you want to disable encryption."
+msgstr "Zostaw to pole puste jeżeli nie chcesz używać szyfrowania."
+
+msgid "Enter Password"
+msgstr "Podaj hasło"
+
+msgid "Change Password"
+msgstr "Zmień hasło"
+
+msgid "Enter Passphrase"
+msgstr "Wprowadź tekst szyfrujący"
+
+msgid "Passphrase:"
+msgstr "Tekst szyfrujący:"
+
+msgid "Confirm Passphrase:"
+msgstr "Potwierdź tekst szyfrujący:"
+
+msgid "New Password:"
+msgstr "Nowe hasło:"
+
+msgid "Password:"
+msgstr "Hasło:"
+
+msgid "Confirm Password:"
+msgstr "Potwierdź hasło:"
+
+msgid "Current Password:"
+msgstr "Aktualne hasło:"
+
+msgid "Password Strength"
+msgstr "Siła hasła"
+
+msgid "Your wallet is not protected."
+msgstr "Twój portfel nie jest zabezpieczony."
+
+msgid "Use this dialog to add a password to your wallet."
+msgstr "Użyj tego okna aby dodać hasło do twojego portfela."
+
+msgid "Your bitcoins are password protected. However, your wallet file is not encrypted."
+msgstr "Twoje bitcoiny s zabezpieczone hasłem. Jednakże, twój portfel nie jest szyfrowany."
+
+msgid "Your wallet is password protected and encrypted."
+msgstr "Twój portfel jest zabezpieczony hasłem i zaszyfrowany."
+
+msgid "Use this dialog to change your password."
+msgstr "Użyj tego okna aby zmienić swoje hasło."
+
+msgid "Please enter your password"
+msgstr "Wprowadź swoje hasło"
+
+msgid "Requires"
+msgstr "Wymaga"
+
+msgid "Settings"
+msgstr "Ustawienia"
+
+msgid "Enabled"
+msgstr "Aktywne"
+
+msgid "Disabled"
+msgstr "Wyłączony"
+
+msgid "Electrum Plugins"
+msgstr "Wtyczki Electrum"
+
+msgid "Help"
+msgstr "Pomoc"
+
+msgid "QR code saved to file"
+msgstr "Zapisano kod QR do pliku"
+
+msgid "QR code copied to clipboard"
+msgstr "Kod QR skopiowany do schowka"
+
+msgid "Text copied to clipboard"
+msgstr "Tekst został skopiowany do schowka"
+
+msgid "Copy Image"
+msgstr "Skopiuj obraz"
+
+msgid "Copy Text"
+msgstr "Skopiuj tekst"
+
+msgid "Save"
+msgstr "Zapisz"
+
+msgid "&Flip horizontally"
+msgstr "Przerzuć w poziomie"
+
+msgid "&Close"
+msgstr "&Zamknij"
+
+msgid "Show as QR code"
+msgstr "Wyświetl jako kod QR"
+
+msgid "Payment Request"
+msgstr "Żądanie płatności"
+
+msgid "Bump Fee"
+msgstr "Podbij prowizję"
+
+msgid "Cancel transaction"
+msgstr "Anuluj transakcję"
+
+msgid "Requested amount"
+msgstr "Żądana kwota"
+
+msgid "Expiry"
+msgstr "Wygasa"
+
+msgid "This information is seen by the recipient if you send them a signed payment request."
+msgstr "Ta informacja jest widoczna przez odbiorcę jeśli wyślesz im podpisaną wiadomość."
+
+msgid "The bitcoin address never expires and will always be part of this electrum wallet."
+msgstr "Adres bitcoin nigdy nie wygasa i będzie zawsze częścią portfela electrum."
+
+msgid "Error adding payment request"
+msgstr "Błąd dodawania żądania płatności"
+
+msgid "No more addresses in your wallet."
+msgstr "Nie ma więcej adresów w portfelu."
+
+msgid "You are using a non-deterministic wallet, which cannot create new addresses."
+msgstr "Używasz Nie deterministycznego portfela, który nie może tworzyć nowych adresów."
+
+msgid "If you want to create new addresses, use a deterministic wallet instead."
+msgstr "Jeśli chcesz utworzyć nowe adresy, użyj deterministycznego portfela."
+
+msgid ""
+"Warning: The next address will not be recovered automatically if you restore your wallet from seed; you may need to add it manually.\n"
+"\n"
+"This occurs because you have too many unused addresses in your wallet. To avoid this situation, use the existing addresses first.\n"
+"\n"
+"Create anyway?"
+msgstr ""
+"Ostrzeżenie: następny adres nie zostanie automatycznie odzyskany, jeśli przywrócisz portfel z ziarna; Może być konieczne dodanie go ręcznie.\n"
+"\n"
+"Dzieje się tak, ponieważ w portfelu masz zbyt wiele nieużywanych adresów. Aby uniknąć tej sytuacji, najpierw należy używać istniejących adresów.\n"
+"\n"
+"Utworzyć mimo to?"
+
+msgid "Delete requests"
+msgstr "Usuń żądania"
+
+msgid "Due to a bug, old versions of Electrum will NOT be creating the same wallet as newer versions or other software."
+msgstr "Z powodu błędu, stare wersje Electrum NIE będą tworzyły takich samych portfeli jak nowe wersje lub inne oprogramowanie."
+
+msgid "This seed will allow you to recover your wallet in case of computer failure."
+msgstr "To ziarno pozwoli ci na odzyskanie swojego portfela w przypadku problemów z komputerem."
+
+msgid "WARNING"
+msgstr "OSTRZEŻENIE"
+
+msgid "Never disclose your seed."
+msgstr "Nigdy nie ujawniaj swojego ziarna."
+
+msgid "Never type it on a website."
+msgstr "Nigdy nie wpisuj go na stronie internetowej."
+
+msgid "Do not store it electronically."
+msgstr "Nie przechowuj go w sposób elektroniczny."
+
+msgid "BIP39 seed"
+msgstr "Ziarno BIP39"
+
+msgid "Options"
+msgstr "Ustawienia"
+
+msgid "Your seed extension is"
+msgstr "Rozszerzenie twojego ziarna to"
+
+msgid "Extend this seed with custom words"
+msgstr "Rozszerz to ziarno własnymi słowami"
+
+msgid "BIP39 seeds can be imported in Electrum, so that users can access funds locked in other wallets."
+msgstr "Ziarna BIP39 można zaimportować do Electrum, więc użytkownicy mogą uzyskać dostęp do funduszy zablokowanych w innych portfelach."
+
+msgid "However, we do not generate BIP39 seeds, because they do not meet our safety standard."
+msgstr "Jednakże nie generujemy ziaren BIP39, ponieważ nie spełniają one naszych standardów bezpieczeństwa."
+
+msgid "BIP39 seeds do not include a version number, which compromises compatibility with future software."
+msgstr "Ziarna BIP39 nie zawierają numeru wersji, co zagraża kompatybilności w przyszłych wersjach portfelu."
+
+msgid "We do not guarantee that BIP39 imports will always be supported in Electrum."
+msgstr "Nie gwarantujemy, że import BIP39 będzie zawsze obsługiwany w Electrum."
+
+msgid "Seed Type"
+msgstr "Rodzaj ziarna"
+
+msgid "Your wallet generation seed is:"
+msgstr "Twoje ziarno z portfela to:"
+
+msgid "Recipient of the funds."
+msgstr "Odbiorca środków."
+
+msgid "Format: address, amount"
+msgstr "Format: adres, wartość"
+
+msgid "Description of the transaction (not mandatory)."
+msgstr "Opis transakcji (opcjonalne)."
+
+msgid "The description is not sent to the recipient of the funds. It is stored in your wallet file, and displayed in the 'History' tab."
+msgstr "Opis nie jest wysyłany do odbiorcy. Zapisywany jest natomiast w pliku portfela i wyświetlany jest w zakładce \"Historia\"."
+
+msgid "Note that if you have frozen some of your addresses, the available funds will be lower than your total balance."
+msgstr "Pamiętaj, że jeśli zamrożono niektóre adresy, dostępne fundusze będą niższe od łącznego salda."
+
+msgid "Keyboard shortcut: type \"!\" to send all your coins."
+msgstr "Skrót klawiaturowy: wpisz \"!\" aby wysłać wszystkie swoje monety."
+
+msgid "Paste"
+msgstr "Wklej"
+
+msgid "Invoices"
+msgstr "Rachunki"
+
+msgid "&Pay to many"
+msgstr "&Wiele odbiorców"
+
+msgid "No outputs"
+msgstr "Brak wyjść"
+
+msgid "Bitcoin Address is None"
+msgstr "Nie podano adresu"
+
+msgid "Invalid Amount"
+msgstr "Nieprawidłowa kwota"
+
+msgid "Invalid Lines found:"
+msgstr "Znaleziono nieprawidłowe linie:"
+
+msgid "Do you wish to continue?"
+msgstr "Czy chcesz kontynuować?"
+
+msgid "Payment request has expired"
+msgstr "Żądanie płatności wygasło"
+
+msgid "Payment sent."
+msgstr "Płatność wysłana."
+
+msgid "Broadcasting transaction..."
+msgstr "Przekazywanie transakcji..."
+
+msgid "Enter a list of outputs in the 'Pay to' field."
+msgstr "Wprowadź listę wyjść w polu 'Odbiorca'."
+
+msgid "One output per line."
+msgstr "Jedno wyjście na linię."
+
+msgid "You may load a CSV file using the file icon."
+msgstr "Możesz wczytać plik CSV używając ikony pliku."
+
+msgid "Base unit of your wallet."
+msgstr "Podstawowa jednostka w portfelu."
+
+msgid "Base unit"
+msgstr "Jednostka podstawowa"
+
+msgid "Light"
+msgstr "Jasny"
+
+msgid "Dark"
+msgstr "Ciemny"
+
+msgid "Custom URL"
+msgstr "Własny URL"
+
+msgid "Fiat currency"
+msgstr "Pieniądz fiducjarny"
+
+msgid "Source"
+msgstr "Źródło"
+
+msgid "Fee"
+msgstr "Prowizja"
+
+msgid "Change Address"
+msgstr "Zmień adres"
+
+msgid "Wallet change address"
+msgstr "Adres reszty portfela"
+
+msgid "Inputs"
+msgstr "Wejścia"
+
+msgid "Address Details"
+msgstr "Dane adresowe"
+
+msgid "Copy Address"
+msgstr "Kopiuj adres"
+
+msgid "Electrum was unable to deserialize the transaction:"
+msgstr "Electrum nie był w stanie odczytać twojej transakcji:"
+
+msgid "Transaction ID:"
+msgstr "ID transakcji:"
+
+msgid "Broadcast"
+msgstr "Transmituj"
+
+msgid "This transaction is not saved. Close anyway?"
+msgstr "Transakcja nie została zapisana. Zamknąć mimo tego?"
+
+msgid "Copy to clipboard"
+msgstr "Skopiuj do schowka"
+
+msgid "Transaction"
+msgstr "Transakcja"
+
+msgid "Date: {}"
+msgstr "Data: {}"
+
+msgid "At block height: {}"
+msgstr "Na bloku o numerze: {}"
+
+msgid "Transaction unrelated to your wallet"
+msgstr "Transakcja niezwiązana z twoim portfelem"
+
+msgid "unknown"
+msgstr "nieznana"
+
+msgid "Current version: {}"
+msgstr "Bieżąca wersja: {}"
+
+msgid "Latest version: {}"
+msgstr "Najnowsza wersja: {}"
+
+msgid "Already up to date"
+msgstr "Właściwie już zaktualizowane"
+
+msgid "Copy and Close"
+msgstr "Skopiuj i zamknij"
+
+msgid "Cancel"
+msgstr "Anuluj"
+
+msgid "Critical Error"
+msgstr "Błąd krytyczny"
+
+msgid "Information"
+msgstr "Informacja"
+
+msgid "Question"
+msgstr "Pytanie"
+
+msgid "Please wait"
+msgstr "Proszę czekać"
+
+msgid "Format"
+msgstr "Format"
+
+msgid "CSV"
+msgstr "CSV"
+
+msgid "json"
+msgstr "json"
+
+msgid "File"
+msgstr "Plik"
+
+msgid "Error opening file"
+msgstr "Błąd podczas otwierania pliku"
+
+msgid "Paste from clipboard"
+msgstr "Wklej ze schowka"
+
+msgid "Read file"
+msgstr "Odczytaj plik"
+
+msgid "Address is frozen"
+msgstr "Adres jest zamrożony"
+
+msgid "Master Public Key"
+msgstr "Główny klucz publiczny"
+
+msgid "Next"
+msgstr "Dalej"
+
+msgid "A few examples"
+msgstr "Kilka przykładów"
+
+msgid "Your accounts have been moved to"
+msgstr "Twoje konta zostały przeniesione do"
+
+msgid "Do you want to delete the old file"
+msgstr "Czy na pewno chcesz usunąć stary plik"
+
+msgid "The file was removed"
+msgstr "Plik został usunięty"
+
+msgid "Electrum wallet"
+msgstr "Portfel Electrum"
+
+msgid "Wallet"
+msgstr "Portfel"
+
+msgid "Choose..."
+msgstr "Wybierz..."
+
+msgid "Cannot read file"
+msgstr "Nie można odczytać pliku"
+
+msgid "This file does not exist."
+msgstr "Ten plik nie istnieje."
+
+msgid "Press 'Next' to create this wallet, or choose another file."
+msgstr "Wciśnij 'Dalej' aby stworzyć ten portfel, lub wybierz inny plik."
+
+msgid "Create new wallet"
+msgstr "Utwórz nowy portfel"
+
+msgid "Do you want to create a new seed, or to restore a wallet using an existing seed?"
+msgstr "Czy chcesz stworzyć nowe ziarno czy odtworzyć portfel używając istniejącego ziarna?"
+
+msgid "Create a new seed"
+msgstr "Stwórz nowe ziarno"
+
+msgid "I already have a seed"
+msgstr "Mam już ziarno"
+
+msgid "Confirm Seed"
+msgstr "Potwierdź Ziarno"
+
+msgid "Your seed is important!"
+msgstr "Twoje ziarno jest ważne!"
+
+msgid "If you lose your seed, your money will be permanently lost."
+msgstr "Jeżeli zgubisz swoje ziarno, twoje pieniądze przepadną."
+
+msgid "To make sure that you have properly saved your seed, please retype it here."
+msgstr "Aby udowodnić, że ziarno został prawidłowo zachowane, przepisz go tutaj."
+
+msgid "Confirm Seed Extension"
+msgstr "Potwierdź rozszerzenie ziarna"
+
+msgid "Enter Seed"
+msgstr "Wprowadź ziarno"
+
+msgid "Please enter your seed phrase in order to restore your wallet."
+msgstr "Podaj szyfr twojego ziarna aby odtworzyć twój portfel."
+
+msgid "Detect Existing Accounts"
+msgstr "Wykryj istniejące konta"
+
+msgid "Add a cosigner to your multi-sig wallet"
+msgstr "Dodaj współpodpis do twojego portfela z wieloma podpisami"
+
+msgid "Cosign with hardware device"
+msgstr "Współpodpisz z urządzeniem sprzętowym"
+
+msgid "Create keystore from a master key"
+msgstr "Utwórz nową przechowalnię kluczy z klucza głównego"
+
+msgid "Please enter the master public key (xpub) of your cosigner."
+msgstr "Proszę podać główny klucz publiczny (xpub) lub twój współpodpis."
+
+msgid "Enter their master private key (xprv) if you want to be able to sign for them."
+msgstr "Wprowadź ich główny prywatny klucz (xprv) jeśli chcesz mieć możliwość podpisania ich."
+
+msgid "Multi-Signature Wallet"
+msgstr "Portfel z wieloma podpisami"
+
+msgid "From {0} cosigners"
+msgstr "Od {0} współpodpisów"
+
+msgid "Choose the number of signatures needed to unlock funds in your wallet:"
+msgstr "Wybierz liczbę podpisów potrzebnych do odblokowania funduszy w twoim portfelu:"
+
+msgid "An unnamed {}"
+msgstr "Nienazwany {}"
+
+msgid "Error scanning devices"
+msgstr "Błąd skanowania urządzeń"
+
+msgid "Debug message"
+msgstr "Wiadomość do debugowania"
+
+msgid "Back"
+msgstr "Wstecz"
+
+msgid "Addresses"
+msgstr "Adresy"
+
+msgid "Contacts"
+msgstr "Kontakty"
+
+msgid "Banner"
+msgstr "Transparent"
+
+msgid "Quit"
+msgstr "Wyjdź"
+
+msgid "[Paste]"
+msgstr "[Wklej]"
+
+msgid "Invalid Bitcoin Address"
+msgstr "Nieprawidłowy adres Bitcoin"
+
+msgid "Amount for OP_RETURN output must be zero."
+msgstr "Kwota dla wyjścia OP_RETURN musi być zero."
+
+msgid "Default"
+msgstr "Domyślne"
+
+msgid "Consider trying to connect to a different server, or updating Electrum."
+msgstr "Rozważ połączenie z innym serwerem lub zainstalowanie nowszej wersji Electrum."
+
+msgid "Unpaid"
+msgstr "Niewydane"
+
+msgid "Paid"
+msgstr "Zapłacone"
+
+msgid "In progress"
+msgstr "W trakcie"
+
+msgid "Computing route..."
+msgstr "Obliczanie trasy..."
+
+msgid "Never"
+msgstr "Nigdy"
+
+msgid "10 minutes"
+msgstr "10 minut"
+
+msgid "1 hour"
+msgstr "1 godzinę"
+
+msgid "1 day"
+msgstr "1 dzień"
+
+msgid "1 week"
+msgstr "1 tydzień"
+
+msgid "Disconnected"
+msgstr "Rozłączony"
+
+msgid "Connected to {0} nodes."
+msgstr "Połączono z {0} węzłami."
+
+msgid "Connected to {0} node."
+msgstr "Połączono z węzłem {0}."
+
+msgid "Error parsing URI"
+msgstr "Błąd parsowania URI"
+
+msgid "A library is probably missing."
+msgstr "Prawdopodobnie brakuje biblioteki."
+
+msgid ""
+"Electrum cannot pair with your {}.\n"
+"\n"
+"Before you request bitcoins to be sent to addresses in this wallet, ensure you can pair with your device, or that you have its seed (and passphrase, if any).  Otherwise all bitcoins you receive will be unspendable."
+msgstr ""
+"Electrum nie może zostać sparowane z twoim {}.\n"
+"\n"
+"Zanim poprosisz aby bitcoiny zostały wysłane na adresy w tym portfelu, upewnij się, że możesz sparować się z twoim urządzeniem lub że posiadasz jego ziarno (i hasło jeśli istnieje). W przeciwnym wypadku bitcoiny które otrzymasz nie będą mogły zostać wydane."
+
+msgid "Audio Modem Settings"
+msgstr "Ustawienia Modemu Audio"
+
+msgid "Bit rate [kbps]: "
+msgstr "Szybkość transmisji [kb/s]: "
+
+msgid "BitBox02 Status"
+msgstr "Status BitBox02"
+
+msgid "Error showing address"
+msgstr "Błąd wyświetlenia adresu"
+
+msgid "Firmware Version"
+msgstr "Wersja oprogramowania"
+
+msgid "Build Date"
+msgstr "Data Kompilacji"
+
+msgid "Bootloader"
+msgstr "Bootloader"
+
+msgid "Device communication error. Please unplug and replug your Digital Bitbox."
+msgstr "Błąd komunikacji urządzenia. Odłącz i podłącz swój Digital Bitbox."
+
+msgid "Enter password:"
+msgstr "Wprowadź hasło:"
+
+msgid "An uninitialized Digital Bitbox is detected."
+msgstr "Wykryto niezainicjalizowany Digital Bitbox."
+
+msgid "Enter a new password below."
+msgstr "Wprowadź nowe hasło poniżej."
+
+msgid "A backup is saved automatically when generating a new wallet."
+msgstr "Kopia zapasowa jest zapisywana automatycznie podczas generowania nowego portfela."
+
+msgid "Create a wallet using the current seed"
+msgstr "Stwórz portfel używając aktualnego ziarna"
+
+msgid "Full 2FA enabled. This is not supported yet."
+msgstr "Pełne 2FA włączone. Ta funkcja nie jest jeszcze wspierana."
+
+msgid "Generate a new random wallet"
+msgstr "Wygeneruj nowy, losowy portfel"
+
+msgid "Do not pair"
+msgstr "Nie paruj"
+
+msgid "Are you sure you want to erase the Digital Bitbox?"
+msgstr "Czy na pewno chcesz usunąć Digital Bitbox?"
+
+msgid "Choose a backup file:"
+msgstr "Wybierz plik kopii zapasowej:"
+
+msgid "Could not sign message."
+msgstr "Nie można podpisać wiadomości."
+
+msgid "Could not sign message"
+msgstr "Nie można podpisać wiadomości"
+
+msgid "(Touch {} of {})"
+msgstr "(Dotknij {} z {})"
+
+msgid "Confirm the transaction output on your {} device"
+msgstr "Potwierdź dane wyjściowe transakcji na twoim urządzeniu {}"
+
+msgid "Confirm internal entropy on your {} device to begin"
+msgstr "Potwierdź wewnętrzną entropię na twoim urządzeniu {} aby rozpocząć"
+
+msgid "Confirm on your {} that you want to wipe it clean"
+msgstr "Potwierdź na twoim {}, że chcesz je wyczyścić"
+
+msgid "Confirm on your {} device the message to sign"
+msgstr "Potwierdź na twoim urządzeniu {} wiadomość do podpisania"
+
+msgid "Confirm the total amount spent and the transaction fee on your {} device"
+msgstr "Potwierdź całkowitą kwotę i opłatę transakcyjną na twoim urządzeniu {}"
+
+msgid "Confirm wallet address on your {} device"
+msgstr "Potwierdź adres portfela na twoim urządzeniu {}"
+
+msgid "Enter a new PIN for your {}:"
+msgstr "Wprowadź nowy kod PIN dla {}:"
+
+msgid "Confirm on your {} device to disable passphrases"
+msgstr "Potwierdź na twoim urządzeniu {}, aby wyłączyć hasła"
+
+msgid "Confirm on your {} device to enable passphrases"
+msgstr "Potwierdź na twoim urządzeniu {}, aby włączyć hasła"
+
+msgid "Confirm the new label on your {} device"
+msgstr "Potwierdź nową etykietę na twoim urządzeniu {}"
+
+msgid "Confirm on your {} device to change your home screen"
+msgstr "Potwierdź na twoim urządzeniu {}, aby zmienić ekran główny"
+
+msgid "Confirm on your {} device to disable PIN protection"
+msgstr "Potwierdź na twoim urządzeniu {} wyłączenie ochrony PIN"
+
+msgid "Confirm on your {} device to change your PIN"
+msgstr "Potwierdź na twoim urządzeniu {} zmianę kodu PIN"
+
+msgid "Confirm on your {} device to set a PIN"
+msgstr "Potwierdź na twoim urządzeniu {}, aby ustawić PIN"
+
+msgid "Accept Word"
+msgstr "Zaakceptuj słowo"
+
+msgid "Enter PIN"
+msgstr "Wprowadź PIN"
+
+msgid "Enable PIN protection"
+msgstr "Włącz ochronę PIN"
+
+msgid "Enable passphrases"
+msgstr "Włącz hasła"
+
+msgid "No"
+msgstr "Nie"
+
+msgid "Yes"
+msgstr "Tak"
+
+msgid "Disable Passphrases"
+msgstr "Wyłącz hasła"
+
+msgid "Change PIN"
+msgstr "Zmień PIN"
+
+msgid "Confirm Toggle Passphrase Protection"
+msgstr "Potwierdź przełączenie ochrony hasłem"
+
+msgid "Are you sure you want to proceed?"
+msgstr "Czy na pewno chcesz kontynuować?"
+
+msgid "Confirm Device Wipe"
+msgstr "Potwierdź wyczyszczenie urządzenia"
+
+msgid ""
+"Are you SURE you want to wipe the device?\n"
+"Your wallet still has bitcoins in it!"
+msgstr ""
+"Czy NA PEWNO chcesz wyczyścić to urządzenie?\n"
+"Twój portfel nadal ma w sobie bitcoiny!"
+
+msgid "Device Label"
+msgstr "Etykieta Urządzenia"
+
+msgid "Passphrases"
+msgstr "Hasła"
+
+msgid "Device ID"
+msgstr "ID urządzenia"
+
+msgid "Bootloader Hash"
+msgstr "Hash Bootloadera"
+
+msgid "Language"
+msgstr "Język"
+
+msgid "Apply"
+msgstr "Zastosuj"
+
+msgid "Disable PIN"
+msgstr "Wyłącz PIN"
+
+msgid "Advanced"
+msgstr "Zaawansowane"
+
+msgid "Error connecting to {} server"
+msgstr "Błąd połączenia z serwerem {}"
+
+msgid "Your labels have been synchronised."
+msgstr "Twoje etykiety zostały zsynchronizowane."
+
+msgid "Error synchronising labels"
+msgstr "Błąd synchronizacji etykiet"
+
+msgid "Firmware version too old. Please update at"
+msgstr "Wersja oprogramowania zbyt stara. Wgraj nową wersję na"
+
+msgid "Firmware version (or \"Bitcoin\" app) too old for Segwit support. Please update at"
+msgstr "Wersja oprogramowania (lub aplikacji \"Bitcoin\") zbyt stara aby wspiera Segwit. Wgraj nową wersję na"
+
+msgid "Confirm Transaction on your Ledger device..."
+msgstr "Potwierdź transakcję na twoim urządzeniu Ledger..."
+
+msgid "Cancelled by user"
+msgstr "Anulowane przez użytkownika"
+
+msgid "Do you want to open it now?"
+msgstr "Czy chcesz to teraz otworzyć?"
+
+msgid "Always check your backups."
+msgstr "Zawsze sprawdzaj swoje kopie zapasowe."
+
+msgid "Digital Revealer ({}_{}) saved as PNG and PDF at:"
+msgstr "Digital Revealer ({}_{}) zapisany jako PNG oraz PDF w:"
+
+msgid "Custom secret"
+msgstr "Niestandardowy sekret"
+
+msgid "Calibration sheet"
+msgstr "Kalibracje"
+
+msgid "2. Align your Revealer borderlines to the dashed lines on the top and left."
+msgstr "2. Wyrównaj linie graniczne Revealer'a do przerywanych linii u góry i z lewej."
+
+msgid "3. Press slightly the Revealer against the paper and read the numbers that best match on the opposite sides. "
+msgstr "3. Delikatnie przyciśnij Revealer do papieru i odczytaj liczby które najlepiej odpowiadają przeciwnym stronom. "
+
+msgid "4. Type the numbers in the software"
+msgstr "4. Wpisz liczby w programie"
+
+msgid "Calibration values:"
+msgstr "Ustawianie wartości:"
+
+msgid "Bottom"
+msgstr "Koniec"
+
+msgid "Choose Homescreen"
+msgstr "Wybierz Ekran Startowy"
+
+msgid "Homescreen"
+msgstr "Ekran główny"
+
+msgid "Change..."
+msgstr "Zmień..."
+
+msgid "Complete the initialization process on your {} device"
+msgstr "Dokończ proces inicjalizacji na swoim urządzeniu {}"
+
+msgid "Error connecting to server"
+msgstr "Błąd połączenia z serwerem"
+
+msgid "Authorization"
+msgstr "Autoryzacja"
+
+msgid "Code"
+msgstr "Kod"
+
+msgid "Error getting TrustedCoin account info."
+msgstr "Błąd pobierania informacji o koncie TrustedCoin."
+
+msgid "For more information, visit"
+msgstr "Aby uzyskać więcej informacji odwiedź {}"
+
+msgid "Create or restore"
+msgstr "Stwórz lub przywróć"
+
+msgid "Google Authenticator code:"
+msgstr "Kod Google Authenticator:"
+
+msgid "A small fee will be charged on each transaction that uses the remote server.  You may check and modify your billing preferences once the installation is complete."
+msgstr "Mała prowizja będzie pobrana od każdej transakcji która używa zewnętrznego serwera. Możesz sprawdzić i zmodyfikować swoje preferencje płatności gdy instalacja dobiegnie końca."
+
+msgid "Select server automatically"
+msgstr "Wybierz serwer automatycznie"
+
+msgid "Merge duplicate outputs"
+msgstr "Połącz zdublowane wyjścia"
+
+msgid "Spend only confirmed coins"
+msgstr "Wydaj tylko potwierdzone monety"
+
+msgid "Spend only confirmed inputs."
+msgstr "Wydaj tylko potwierdzone wejścia."
+
+msgid "Color theme"
+msgstr "Kolor motywu"
+
+msgid "Show inputs and outputs"
+msgstr "Pokaż wejścia i wyjścia"
+
+msgid "Zeros after decimal point"
+msgstr "Liczba zer po przecinku"
+
+msgid "Number of zeros displayed after the decimal point. For example, if this is set to 2, \"1.\" will be displayed as \"1.00\""
+msgstr "Liczba zer wyświetlana po przecinku. Np. jeśli wpiszesz tutaj \"2\", to zamiast \"1,\" zobaczysz \"1,00\""
+
+msgid "Online Block Explorer"
+msgstr "Eksplorator bloków"
+
+msgid "Choose which online block explorer to use for functions that open a web browser"
+msgstr "Wybierz których eksplorator bloków ma być użyty do funkcji które otwierają się w przeglądarce"
+
+msgid "Video Device"
+msgstr "Urządzenie wideo"
+
+msgid "Install the zbar package to enable this."
+msgstr "Zainstaluj pakiet zbar, aby to włączyć."
+
+msgid "OpenAlias record, used to receive coins and to sign payment requests."
+msgstr "Rekord OpenAlias, służący do otrzymywania monet i podpisywania żądań płatności."
+
+msgid "The following alias providers are available:"
+msgstr "Dostępne są następujący dostawcy aliasów:"
+
+msgid "Automatically check for software updates"
+msgstr "Automatycznie sprawdzaj dostępne aktualizacje"
+
+msgid "Select which language is used in the GUI (after restart)."
+msgstr "Wybierz język używany w programie (wymagany restart)."
+
+msgid "Insufficient funds"
+msgstr "Niewystarczająca ilość środków"
+
+msgid "Dynamic fee estimates not available"
+msgstr "Dynamiczna estymacja prowizji nie jest dostępna"
+
+msgid "Incorrect password"
+msgstr "Nieprawidłowe hasło"
+
+msgid "Cannot bump fee"
+msgstr "Nie można podbić prowizji"
+
+msgid "Cannot cancel transaction"
+msgstr "Nie można anulować transakcji"
+
+msgid "The fee for this transaction seems unusually high."
+msgstr "Prowizja dla tej transakcji wydaje się wyjątkowo wysoka."
+
+msgid "(feerate: {})"
+msgstr "(stawka prowizji: {})"
+
+msgctxt "About|"
+msgid "About Electrum"
+msgstr "O Electrum"
+
+msgctxt "About|"
+msgid "Version"
+msgstr "Wersja"
+
+msgctxt "About|"
+msgid "Homepage"
+msgstr "Strona główna"
+
+msgctxt "About|"
+msgid "Developers"
+msgstr "Deweloperzy"
+
+msgctxt "About|"
+msgid "Distributed by Electrum Technologies GmbH"
+msgstr "Dystrybutorem jest Electrum Technologies GmbH"
+
+msgctxt "AddressDetails|"
+msgid "Address"
+msgstr "Adres"
+
+msgctxt "AddressDetails|"
+msgid "Balance"
+msgstr "Saldo"
+
+msgctxt "AddressDetails|"
+msgid "Transactions"
+msgstr "Transakcje"
+
+msgctxt "AddressDetails|"
+msgid "Public keys"
+msgstr "Klucze publiczne"
+
+msgctxt "AddressDetails|"
+msgid "Public key"
+msgstr "Klucz publiczny"
+
+msgctxt "AddressDetails|"
+msgid "Private key"
+msgstr "Klucz prywatny"
+
+msgctxt "AddressDetails|"
+msgid "Delete"
+msgstr "Usuń"
+
+msgctxt "Addresses|"
+msgid "Addresses"
+msgstr "Adresy"
+
+msgctxt "Addresses|"
+msgid "Freeze"
+msgstr "Zamroź"
+
+msgctxt "Addresses|"
+msgid "change addresses"
+msgstr "adresy reszty"
+
+msgctxt "BalanceDetails|"
+msgid "Can send"
+msgstr "Można wysłać"
+
+msgctxt "BalanceSummary|"
+msgid "Balance"
+msgstr "Saldo"
+
+msgctxt "BtcField|"
+msgid "Amount"
+msgstr "Kwota"
+
+msgctxt "ChannelDetails|"
+msgid "Channel Backup"
+msgstr "Kopia zapasowa kanału"
+
+msgctxt "ChannelDetails|"
+msgid "Capacity"
+msgstr "Pojemność"
+
+msgctxt "ChannelDetails|"
+msgid "Can send"
+msgstr "Można wysłać"
+
+msgctxt "ChannelDetails|"
+msgid "Freeze"
+msgstr "Zamroź"
+
+msgctxt "ChannelDetails|"
+msgid "Current feerate"
+msgstr "Aktualna stawka prowizji"
+
+msgctxt "CloseChannelDialog|"
+msgid "Channel closed"
+msgstr "Zamknięto kanał"
+
+msgctxt "ConfirmTxDialog|"
+msgid "Fee"
+msgstr "Prowizja"
+
+msgctxt "ConfirmTxDialog|"
+msgid "Options"
+msgstr "Ustawienia"
+
+msgctxt "ConfirmTxDialog|"
+msgid "Use multiple change addresses"
+msgstr "Używaj wielu adresów reszty"
+
+msgctxt "ConfirmTxDialog|"
+msgid "In some cases, use up to 3 change addresses in order to break up large coin amounts and obfuscate the recipient address."
+msgstr "W niektórych przypadkach można użyć maksymalnie 3 adresów reszty w celu podzielenia dużych kwot i zaciemnienia adresu odbiorcy."
+
+msgctxt "ConfirmTxDialog|"
+msgid "This may result in higher transactions fees."
+msgstr "Może to powodować wyższe opłaty za transakcje."
+
+msgctxt "CpfpBumpFeeDialog|"
+msgid "Bump Fee"
+msgstr "Podbij prowizję"
+
+msgctxt "CpfpBumpFeeDialog|"
+msgid "Total size"
+msgstr "Łączny rozmiar"
+
+msgctxt "ExceptionDialog|"
+msgid "Do you want to send this report?"
+msgstr "Czy chcesz wysłać ten raport?"
+
+msgctxt "ExceptionDialog|"
+msgid "Error"
+msgstr "Błąd"
+
+msgctxt "ExportTxDialog|"
+msgid "Copy"
+msgstr "Kopiuj"
+
+msgctxt "FeeMethodComboBox|"
+msgid "ETA"
+msgstr "Szacowany czas dotarcia"
+
+msgctxt "FeeMethodComboBox|"
+msgid "Mempool"
+msgstr "Mempool"
+
+msgctxt "FeePicker|"
+msgid "Mining fee"
+msgstr "Prowizja górnicza"
+
+msgctxt "FeePicker|"
+msgid "Fee rate"
+msgstr "Stawka prowizji"
+
+msgctxt "FiatField|"
+msgid "Amount"
+msgstr "Kwota"
+
+msgctxt "GenericShareDialog|"
+msgid "Copy"
+msgstr "Kopiuj"
+
+msgctxt "History|"
+msgid "Mempool"
+msgstr "Mempool"
+
+msgctxt "ImportAddressesKeysDialog|"
+msgid "Enter, paste or scan additional addresses"
+msgstr "Wprowadź, wklej lub zeskanuj dodatkowe adresy"
+
+msgctxt "ImportAddressesKeysDialog|"
+msgid "Enter, paste or scan additional private keys"
+msgstr "Wprowadź, wklej lub zeskanuj dodatkowe klucze prywatne"
+
+msgctxt "ImportAddressesKeysDialog|"
+msgid "Import"
+msgstr "Importuj"
+
+msgctxt "InvoiceDialog|"
+msgid "Address"
+msgstr "Adres"
+
+msgctxt "InvoiceDialog|"
+msgid "Description"
+msgstr "Opis"
+
+msgctxt "InvoiceDialog|"
+msgid "Max"
+msgstr "Maks"
+
+msgctxt "InvoiceDialog|"
+msgid "Save"
+msgstr "Zapisz"
+
+msgctxt "InvoiceDialog|"
+msgid "Payment sent."
+msgstr "Płatność wysłana."
+
+msgctxt "Invoices|"
+msgid "Delete"
+msgstr "Usuń"
+
+msgctxt "LightningPaymentDetails|"
+msgid "Paid"
+msgstr "Zapłacone"
+
+msgctxt "LightningPaymentDetails|"
+msgid "Date"
+msgstr "Data"
+
+msgctxt "LnurlPayRequestDialog|"
+msgid "Description"
+msgstr "Opis"
+
+msgctxt "LnurlPayRequestDialog|"
+msgid "Amount"
+msgstr "Kwota"
+
+msgctxt "LnurlPayRequestDialog|"
+msgid "Message"
+msgstr "Wiadomość"
+
+msgctxt "LnurlWithdrawRequestDialog|"
+msgid "Description"
+msgstr "Opis"
+
+msgctxt "LnurlWithdrawRequestDialog|"
+msgid "Amount"
+msgstr "Kwota"
+
+msgctxt "MessageDialog|"
+msgid "Question"
+msgstr "Pytanie"
+
+msgctxt "MessageDialog|"
+msgid "Message"
+msgstr "Wiadomość"
+
+msgctxt "MessageDialog|"
+msgid "No"
+msgstr "Nie"
+
+msgctxt "MessageDialog|"
+msgid "Yes"
+msgstr "Tak"
+
+msgctxt "NetworkOverview|"
+msgid "Network"
+msgstr "Sieć"
+
+msgctxt "NetworkOverview|"
+msgid "Status"
+msgstr "Status"
+
+msgctxt "NetworkOverview|"
+msgid "Server"
+msgstr "Serwer"
+
+msgctxt "NetworkOverview|"
+msgid "Proxy"
+msgstr "Proxy"
+
+msgctxt "NewWalletWizard|"
+msgid "Error"
+msgstr "Błąd"
+
+msgctxt "NostrSwapServersDialog|"
+msgid "Fee"
+msgstr "Prowizja"
+
+msgctxt "OpenChannelDialog|"
+msgid "Paste or scan node uri/pubkey"
+msgstr "Wklej lub zeskanuj URI węzła/klucz publiczny"
+
+msgctxt "OpenChannelDialog|"
+msgid "Max"
+msgstr "Maks"
+
+msgctxt "OpenChannelDialog|"
+msgid "Error"
+msgstr "Błąd"
+
+msgctxt "OpenWalletDialog|"
+msgid "Password"
+msgstr "Hasło"
+
+msgctxt "PasswordDialog|"
+msgid "Enter Password"
+msgstr "Podaj hasło"
+
+msgctxt "PasswordDialog|"
+msgid "Password"
+msgstr "Hasło"
+
+msgctxt "Preferences|"
+msgid "Preferences"
+msgstr "Ustawienia"
+
+msgctxt "Preferences|"
+msgid "Language"
+msgstr "Język"
+
+msgctxt "Preferences|"
+msgid "Please restart Electrum to activate the new GUI settings"
+msgstr "Proszę uruchomić ponownie Electrum, aby aktywować nowe ustawienia Interfejsu"
+
+msgctxt "Preferences|"
+msgid "Base unit"
+msgstr "Jednostka podstawowa"
+
+msgctxt "Preferences|"
+msgid "Advanced"
+msgstr "Zaawansowane"
+
+msgctxt "ProxyConfig|"
+msgid "Address"
+msgstr "Adres"
+
+msgctxt "ProxyConfig|"
+msgid "Port"
+msgstr "Port"
+
+msgctxt "ProxyConfig|"
+msgid "Username"
+msgstr "Nazwa użytkownika"
+
+msgctxt "ProxyConfig|"
+msgid "Password"
+msgstr "Hasło"
+
+msgctxt "RbfBumpFeeDialog|"
+msgid "Bump Fee"
+msgstr "Podbij prowizję"
+
+msgctxt "RbfBumpFeeDialog|"
+msgid "Options"
+msgstr "Ustawienia"
+
+msgctxt "RbfBumpFeeDialog|"
+msgid "In some cases, use up to 3 change addresses in order to break up large coin amounts and obfuscate the recipient address."
+msgstr "W niektórych przypadkach można użyć maksymalnie 3 adresów reszty w celu podzielenia dużych kwot i zaciemnienia adresu odbiorcy."
+
+msgctxt "RbfBumpFeeDialog|"
+msgid "This may result in higher transactions fees."
+msgstr "Może to powodować wyższe opłaty za transakcje."
+
+msgctxt "ReceiveDetailsDialog|"
+msgid "Message"
+msgstr "Wiadomość"
+
+msgctxt "ReceiveDetailsDialog|"
+msgid "Amount"
+msgstr "Kwota"
+
+msgctxt "ReceiveDialog|"
+msgid "Status"
+msgstr "Status"
+
+msgctxt "ReceiveDialog|"
+msgid "Message"
+msgstr "Wiadomość"
+
+msgctxt "ReceiveDialog|"
+msgid "Amount"
+msgstr "Kwota"
+
+msgctxt "ReceiveDialog|"
+msgid "Payment Request"
+msgstr "Żądanie płatności"
+
+msgctxt "ReceiveRequests|"
+msgid "Delete"
+msgstr "Usuń"
+
+msgctxt "RequestExpiryComboBox|"
+msgid "10 minutes"
+msgstr "10 minut"
+
+msgctxt "RequestExpiryComboBox|"
+msgid "1 hour"
+msgstr "1 godzinę"
+
+msgctxt "RequestExpiryComboBox|"
+msgid "1 day"
+msgstr "1 dzień"
+
+msgctxt "RequestExpiryComboBox|"
+msgid "1 week"
+msgstr "1 tydzień"
+
+msgctxt "RequestExpiryComboBox|"
+msgid "Never"
+msgstr "Nigdy"
+
+msgctxt "ScanDialog|"
+msgid "Cancel"
+msgstr "Anuluj"
+
+msgctxt "SendDialog|"
+msgid "Paste"
+msgstr "Wklej"
+
+msgctxt "ServerConfig|"
+msgid "Server"
+msgstr "Serwer"
+
+msgctxt "ServerConnectWizard|"
+msgid "Next"
+msgstr "Dalej"
+
+msgctxt "SignVerifyMessageDialog|"
+msgid "Address"
+msgstr "Adres"
+
+msgctxt "SignVerifyMessageDialog|"
+msgid "Message"
+msgstr "Wiadomość"
+
+msgctxt "SignVerifyMessageDialog|"
+msgid "Signature"
+msgstr "Podpis"
+
+msgctxt "SignVerifyMessageDialog|"
+msgid "Sign"
+msgstr "Podpisz"
+
+msgctxt "SignVerifyMessageDialog|"
+msgid "Verify"
+msgstr "Weryfikuj"
+
+msgctxt "SwapDialog|"
+msgid "Mining fee"
+msgstr "Prowizja górnicza"
+
+msgctxt "SwapDialog|"
+msgid "Cancel"
+msgstr "Anuluj"
+
+msgctxt "SweepDialog|"
+msgid "Sweep private keys"
+msgstr "Opróżnij klucze prywatne"
+
+msgctxt "SweepDialog|"
+msgid "A few examples"
+msgstr "Kilka przykładów"
+
+msgctxt "TermsOfUseWizard|"
+msgid "Next"
+msgstr "Dalej"
+
+msgctxt "TxDetails|"
+msgid "Status"
+msgstr "Status"
+
+msgctxt "TxDetails|"
+msgid "Mempool depth"
+msgstr "Głębokość mempoola"
+
+msgctxt "TxDetails|"
+msgid "Date"
+msgstr "Data"
+
+msgctxt "TxDetails|"
+msgid "Transaction ID"
+msgstr "ID transakcji"
+
+msgctxt "TxDetails|"
+msgid "Sign"
+msgstr "Podpisz"
+
+msgctxt "TxDetails|"
+msgid "Broadcast"
+msgstr "Transmituj"
+
+msgctxt "TxDetails|"
+msgid "Save"
+msgstr "Zapisz"
+
+msgctxt "TxDetails|"
+msgid "Error"
+msgstr "Błąd"
+
+msgctxt "WCConfirmSeed|"
+msgid "Your seed is important!"
+msgstr "Twoje ziarno jest ważne!"
+
+msgctxt "WCConfirmSeed|"
+msgid "If you lose your seed, your money will be permanently lost."
+msgstr "Jeżeli zgubisz swoje ziarno, twoje pieniądze przepadną."
+
+msgctxt "WCConfirmSeed|"
+msgid "To make sure that you have properly saved your seed, please retype it here."
+msgstr "Aby udowodnić, że ziarno został prawidłowo zachowane, przepisz go tutaj."
+
+msgctxt "WCCreateSeed|"
+msgid "This seed will allow you to recover your wallet in case of computer failure."
+msgstr "To ziarno pozwoli ci na odzyskanie swojego portfela w przypadku problemów z komputerem."
+
+msgctxt "WCCreateSeed|"
+msgid "WARNING"
+msgstr "OSTRZEŻENIE"
+
+msgctxt "WCCreateSeed|"
+msgid "Never disclose your seed."
+msgstr "Nigdy nie ujawniaj swojego ziarna."
+
+msgctxt "WCCreateSeed|"
+msgid "Never type it on a website."
+msgstr "Nigdy nie wpisuj go na stronie internetowej."
+
+msgctxt "WCCreateSeed|"
+msgid "Do not store it electronically."
+msgstr "Nie przechowuj go w sposób elektroniczny."
+
+msgctxt "WCCreateSeed|"
+msgid "Your wallet generation seed is:"
+msgstr "Twoje ziarno z portfela to:"
+
+msgctxt "WCHaveMasterKey|"
+msgid "Please enter the master public key (xpub) of your cosigner."
+msgstr "Proszę podać główny klucz publiczny (xpub) lub twój współpodpis."
+
+msgctxt "WCHaveMasterKey|"
+msgid "Enter their master private key (xprv) if you want to be able to sign for them."
+msgstr "Wprowadź ich główny prywatny klucz (xprv) jeśli chcesz mieć możliwość podpisania ich."
+
+msgctxt "WCHaveSeed|"
+msgid "BIP39 seeds can be imported in Electrum, so that users can access funds locked in other wallets."
+msgstr "Ziarna BIP39 można zaimportować do Electrum, więc użytkownicy mogą uzyskać dostęp do funduszy zablokowanych w innych portfelach."
+
+msgctxt "WCHaveSeed|"
+msgid "BIP39 seeds do not include a version number, which compromises compatibility with future software."
+msgstr "Ziarna BIP39 nie zawierają numeru wersji, co zagraża kompatybilności w przyszłych wersjach portfelu."
+
+msgctxt "WCHaveSeed|"
+msgid "Seed Type"
+msgstr "Rodzaj ziarna"
+
+msgctxt "WCKeystoreType|"
+msgid "Create a new seed"
+msgstr "Stwórz nowe ziarno"
+
+msgctxt "WCKeystoreType|"
+msgid "I already have a seed"
+msgstr "Mam już ziarno"
+
+msgctxt "WCProxyConfig|"
+msgid "Proxy"
+msgstr "Proxy"
+
+msgctxt "WCScriptAndDerivation|"
+msgid "Detect Existing Accounts"
+msgstr "Wykryj istniejące konta"
+
+msgctxt "WCServerConfig|"
+msgid "Server"
+msgstr "Serwer"
+
+msgctxt "WalletDetails|"
+msgid "Encrypted"
+msgstr "Zaszyfrowany"
+
+msgctxt "WalletDetails|"
+msgid "Seed"
+msgstr "Ziarno"
+
+msgctxt "WalletDetails|"
+msgid "Name"
+msgstr "Nazwa"
+
+msgctxt "WalletDetails|"
+msgid "unknown"
+msgstr "nieznana"
+
+msgctxt "WalletDetails|"
+msgid "Master Public Key"
+msgstr "Główny klucz publiczny"
+
+msgctxt "WalletDetails|"
+msgid "Change Password"
+msgstr "Zmień hasło"
+
+msgctxt "WalletDetails|"
+msgid "Success"
+msgstr "Powodzenie"
+
+msgctxt "WalletDetails|"
+msgid "Error"
+msgstr "Błąd"
+
+msgctxt "WalletDetails|"
+msgid "Warning"
+msgstr "Ostrzeżenie"
+
+msgctxt "WalletMainView|"
+msgid "Sweep"
+msgstr "Opróżnij"
+
+msgctxt "WalletMainView|"
+msgid "Channels"
+msgstr "Kanały"
+
+msgctxt "WalletMainView|"
+msgid "Receive"
+msgstr "Odbierz"
+
+msgctxt "WalletMainView|"
+msgid "Send"
+msgstr "Wyślij"
+
+msgctxt "WalletMainView|"
+msgid "Error"
+msgstr "Błąd"
+
+msgctxt "Wizard|"
+msgid "Cancel"
+msgstr "Anuluj"
+
+msgctxt "Wizard|"
+msgid "Back"
+msgstr "Wstecz"
+
+msgctxt "Wizard|"
+msgid "Next"
+msgstr "Dalej"
+
+msgctxt "main|"
+msgid "Network"
+msgstr "Sieć"
+
+msgctxt "main|"
+msgid "Preferences"
+msgstr "Ustawienia"
+
+msgctxt "main|"
+msgid "About"
+msgstr "O programie"
+
+msgctxt "main|"
+msgid "Error"
+msgstr "Błąd"

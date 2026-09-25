@@ -1,0 +1,50 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: electrum\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-02 08:02+0000\n"
+"PO-Revision-Date: 2026-07-02 08:02\n"
+"Last-Translator: \n"
+"Language-Team: Bengali\n"
+"Language: bn_BD\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Qt-Contexts: true\n"
+"X-Electrum-SourceStringCount: 2738\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: electrum\n"
+"X-Crowdin-Project-ID: 20482\n"
+"X-Crowdin-Language: bn\n"
+"X-Crowdin-File: /electrum-client/messages.pot\n"
+"X-Crowdin-File-ID: 68\n"
+
+msgid "&Addresses"
+msgstr "ঠিকানা"
+
+msgid "&Open"
+msgstr "খোলা "
+
+msgid "&Quit"
+msgstr "বন্ধ "
+
+msgid "&Information"
+msgstr "তথ্য "
+
+msgid "&Private keys"
+msgstr "ব্যক্তিগত চাবি "
+
+msgid "&Import"
+msgstr "আমদানি "
+
+msgid "&Help"
+msgstr "সাহায্য "
+
+msgid "&About"
+msgstr "সম্পর্কে "
+
+msgid "&Close"
+msgstr "বন্ধ "

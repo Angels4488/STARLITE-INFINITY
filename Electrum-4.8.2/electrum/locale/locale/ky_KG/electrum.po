@@ -1,0 +1,521 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: electrum\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-02 08:02+0000\n"
+"PO-Revision-Date: 2026-07-02 08:02\n"
+"Last-Translator: \n"
+"Language-Team: Kyrgyz\n"
+"Language: ky_KG\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Qt-Contexts: true\n"
+"X-Electrum-SourceStringCount: 2738\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: electrum\n"
+"X-Crowdin-Project-ID: 20482\n"
+"X-Crowdin-Language: ky\n"
+"X-Crowdin-File: /electrum-client/messages.pot\n"
+"X-Crowdin-File-ID: 68\n"
+
+msgid "Error"
+msgstr "Ката"
+
+msgid "Warning"
+msgstr "Эскертүү"
+
+msgid "Amount"
+msgstr "Сумма"
+
+msgid "Synchronizing..."
+msgstr "Синхрондоштурууда..."
+
+msgid "Network"
+msgstr "Тармак"
+
+msgid "Show/Hide"
+msgstr "Көрсөтүү/Жашыруу"
+
+msgid "Close"
+msgstr "Жабуу"
+
+msgid "Exit Electrum"
+msgstr "Electrum-дан чыгуу"
+
+msgid "Address"
+msgstr "Дарек"
+
+msgid "Balance"
+msgstr "Баланс"
+
+msgid "Private key"
+msgstr "Жеке ачкыч"
+
+msgid "Delete"
+msgstr "Өчүрүү"
+
+msgid "Preferences"
+msgstr "Касиеттери"
+
+msgid "OK"
+msgstr "Жарайт"
+
+msgid "Import"
+msgstr "Импорттоо"
+
+msgid "Date"
+msgstr "Дата"
+
+msgid "Description"
+msgstr "Баяндамасы"
+
+msgid "&Export"
+msgstr "&Экспорттоо"
+
+msgid "Copy"
+msgstr "Көчүрүү"
+
+msgid "Remove"
+msgstr "Өчүрүү"
+
+msgid "Message"
+msgstr "Билдирүү"
+
+msgid "History"
+msgstr "Тарых"
+
+msgid "Send"
+msgstr "Жөнөтүү"
+
+msgid "&File"
+msgstr "&Файл"
+
+msgid "&Open"
+msgstr "&Ачуу"
+
+msgid "&Quit"
+msgstr "&Чыгуу"
+
+msgid "&Wallet"
+msgstr "&Капчык"
+
+msgid "&Import"
+msgstr "&Импорттоо"
+
+msgid "&Tools"
+msgstr "&Аспаптар"
+
+msgid "&Load transaction"
+msgstr "Транзакцияны &жүктөө"
+
+msgid "&From file"
+msgstr "&Файлдан"
+
+msgid "&From text"
+msgstr "&Тексттен"
+
+msgid "&From QR code"
+msgstr "QR-&коддон"
+
+msgid "&Help"
+msgstr "&Жардам"
+
+msgid "&About"
+msgstr "Electrum &тууралуу"
+
+msgid "&Documentation"
+msgstr "&Документация"
+
+msgid "&Report Bug"
+msgstr "Катаны маалымдоо"
+
+msgid "Version"
+msgstr "Версия"
+
+msgid "Reporting Bugs"
+msgstr "Каталарды маалымдоо"
+
+msgid "Invalid Address"
+msgstr "Дареги туура эмес"
+
+msgid "Outputs"
+msgstr "Чыгыштар"
+
+msgid "Password"
+msgstr "Сырсөзү"
+
+msgid "Seed"
+msgstr "Seed"
+
+msgid "Success"
+msgstr "Ийгиликтүү"
+
+msgid "QR code"
+msgstr "QR-код"
+
+msgid "Verify"
+msgstr "Текшерүү"
+
+msgid "Select your transaction file"
+msgstr "Транзакция файлыңызды тандаңыз"
+
+msgid "Transaction:"
+msgstr "Транзакция:"
+
+msgid "Load transaction"
+msgstr "Транзакцияны жүктөө"
+
+msgid "Server"
+msgstr "Сервери"
+
+msgid "Clear"
+msgstr "Тазалоо"
+
+msgid "Enter Password"
+msgstr "Пароль киргизиңиз"
+
+msgid "Confirm Password:"
+msgstr "Сыр сөздү кайталаңыз:"
+
+msgid "Current Password:"
+msgstr "Кезектеги пароль:"
+
+msgid "Settings"
+msgstr "Ырастоолор"
+
+msgid "Save"
+msgstr "Сактоо"
+
+msgid "WARNING"
+msgstr "ЭСКЕРТҮҮ"
+
+msgid "Seed Type"
+msgstr "Seed түрү"
+
+msgid "&Pay to many"
+msgstr "&Көп адамдарга төлөө"
+
+msgid "Inputs"
+msgstr "Кириштер"
+
+msgid "Transaction"
+msgstr "Транзакция"
+
+msgid "Copy and Close"
+msgstr "Көчүрүп жабуу"
+
+msgid "Cancel"
+msgstr "Жокко чыгаруу"
+
+msgid "CSV"
+msgstr "CSV"
+
+msgid "json"
+msgstr "json"
+
+msgid "Next"
+msgstr "Кийинки"
+
+msgid "Back"
+msgstr "Артка"
+
+msgid "Contacts"
+msgstr "Байланыштар"
+
+msgid "1 hour"
+msgstr "1 саат"
+
+msgid "1 day"
+msgstr "1 күн"
+
+msgid "1 week"
+msgstr "1 жума"
+
+msgid "Language"
+msgstr "Тил"
+
+msgid "Select server automatically"
+msgstr "Серверди автоматтуу түрдө тандоо"
+
+msgid "Video Device"
+msgstr "Видео түзмөк"
+
+msgctxt "About|"
+msgid "Version"
+msgstr "Версия"
+
+msgctxt "AddressDetails|"
+msgid "Address"
+msgstr "Дарек"
+
+msgctxt "AddressDetails|"
+msgid "Balance"
+msgstr "Баланс"
+
+msgctxt "AddressDetails|"
+msgid "Transactions"
+msgstr "Транзакциялар"
+
+msgctxt "AddressDetails|"
+msgid "Private key"
+msgstr "Жеке ачкыч"
+
+msgctxt "AddressDetails|"
+msgid "Delete"
+msgstr "Өчүрүү"
+
+msgctxt "BalanceSummary|"
+msgid "Balance"
+msgstr "Баланс"
+
+msgctxt "BtcField|"
+msgid "Amount"
+msgstr "Сумма"
+
+msgctxt "ExceptionDialog|"
+msgid "Error"
+msgstr "Ката"
+
+msgctxt "ExportTxDialog|"
+msgid "Copy"
+msgstr "Көчүрүү"
+
+msgctxt "FiatField|"
+msgid "Amount"
+msgstr "Сумма"
+
+msgctxt "GenericShareDialog|"
+msgid "Copy"
+msgstr "Көчүрүү"
+
+msgctxt "ImportAddressesKeysDialog|"
+msgid "Import"
+msgstr "Импорттоо"
+
+msgctxt "InvoiceDialog|"
+msgid "Address"
+msgstr "Дарек"
+
+msgctxt "InvoiceDialog|"
+msgid "Description"
+msgstr "Баяндамасы"
+
+msgctxt "InvoiceDialog|"
+msgid "Save"
+msgstr "Сактоо"
+
+msgctxt "Invoices|"
+msgid "Delete"
+msgstr "Өчүрүү"
+
+msgctxt "LightningPaymentDetails|"
+msgid "Date"
+msgstr "Дата"
+
+msgctxt "LnurlPayRequestDialog|"
+msgid "Description"
+msgstr "Баяндамасы"
+
+msgctxt "LnurlPayRequestDialog|"
+msgid "Amount"
+msgstr "Сумма"
+
+msgctxt "LnurlPayRequestDialog|"
+msgid "Message"
+msgstr "Билдирүү"
+
+msgctxt "LnurlWithdrawRequestDialog|"
+msgid "Description"
+msgstr "Баяндамасы"
+
+msgctxt "LnurlWithdrawRequestDialog|"
+msgid "Amount"
+msgstr "Сумма"
+
+msgctxt "MessageDialog|"
+msgid "Message"
+msgstr "Билдирүү"
+
+msgctxt "NetworkOverview|"
+msgid "Network"
+msgstr "Тармак"
+
+msgctxt "NetworkOverview|"
+msgid "Server"
+msgstr "Сервери"
+
+msgctxt "NewWalletWizard|"
+msgid "Error"
+msgstr "Ката"
+
+msgctxt "OpenChannelDialog|"
+msgid "Error"
+msgstr "Ката"
+
+msgctxt "OpenWalletDialog|"
+msgid "Password"
+msgstr "Сырсөзү"
+
+msgctxt "PasswordDialog|"
+msgid "Enter Password"
+msgstr "Пароль киргизиңиз"
+
+msgctxt "PasswordDialog|"
+msgid "Password"
+msgstr "Сырсөзү"
+
+msgctxt "Preferences|"
+msgid "Preferences"
+msgstr "Касиеттери"
+
+msgctxt "Preferences|"
+msgid "Language"
+msgstr "Тил"
+
+msgctxt "ProxyConfig|"
+msgid "Address"
+msgstr "Дарек"
+
+msgctxt "ProxyConfig|"
+msgid "Password"
+msgstr "Сырсөзү"
+
+msgctxt "ReceiveDetailsDialog|"
+msgid "Message"
+msgstr "Билдирүү"
+
+msgctxt "ReceiveDetailsDialog|"
+msgid "Amount"
+msgstr "Сумма"
+
+msgctxt "ReceiveDialog|"
+msgid "Message"
+msgstr "Билдирүү"
+
+msgctxt "ReceiveDialog|"
+msgid "Amount"
+msgstr "Сумма"
+
+msgctxt "ReceiveRequests|"
+msgid "Delete"
+msgstr "Өчүрүү"
+
+msgctxt "RequestExpiryComboBox|"
+msgid "1 hour"
+msgstr "1 саат"
+
+msgctxt "RequestExpiryComboBox|"
+msgid "1 day"
+msgstr "1 күн"
+
+msgctxt "RequestExpiryComboBox|"
+msgid "1 week"
+msgstr "1 жума"
+
+msgctxt "ScanDialog|"
+msgid "Cancel"
+msgstr "Жокко чыгаруу"
+
+msgctxt "ServerConfig|"
+msgid "Server"
+msgstr "Сервери"
+
+msgctxt "ServerConnectWizard|"
+msgid "Next"
+msgstr "Кийинки"
+
+msgctxt "SignVerifyMessageDialog|"
+msgid "Address"
+msgstr "Дарек"
+
+msgctxt "SignVerifyMessageDialog|"
+msgid "Message"
+msgstr "Билдирүү"
+
+msgctxt "SignVerifyMessageDialog|"
+msgid "Verify"
+msgstr "Текшерүү"
+
+msgctxt "SwapDialog|"
+msgid "Cancel"
+msgstr "Жокко чыгаруу"
+
+msgctxt "TermsOfUseWizard|"
+msgid "Next"
+msgstr "Кийинки"
+
+msgctxt "TxDetails|"
+msgid "Date"
+msgstr "Дата"
+
+msgctxt "TxDetails|"
+msgid "Save"
+msgstr "Сактоо"
+
+msgctxt "TxDetails|"
+msgid "Error"
+msgstr "Ката"
+
+msgctxt "WCCreateSeed|"
+msgid "WARNING"
+msgstr "ЭСКЕРТҮҮ"
+
+msgctxt "WCHaveSeed|"
+msgid "Seed Type"
+msgstr "Seed түрү"
+
+msgctxt "WCServerConfig|"
+msgid "Server"
+msgstr "Сервери"
+
+msgctxt "WalletDetails|"
+msgid "Seed"
+msgstr "Seed"
+
+msgctxt "WalletDetails|"
+msgid "Success"
+msgstr "Ийгиликтүү"
+
+msgctxt "WalletDetails|"
+msgid "Error"
+msgstr "Ката"
+
+msgctxt "WalletDetails|"
+msgid "Warning"
+msgstr "Эскертүү"
+
+msgctxt "WalletMainView|"
+msgid "Send"
+msgstr "Жөнөтүү"
+
+msgctxt "WalletMainView|"
+msgid "Error"
+msgstr "Ката"
+
+msgctxt "Wizard|"
+msgid "Cancel"
+msgstr "Жокко чыгаруу"
+
+msgctxt "Wizard|"
+msgid "Back"
+msgstr "Артка"
+
+msgctxt "Wizard|"
+msgid "Next"
+msgstr "Кийинки"
+
+msgctxt "main|"
+msgid "Network"
+msgstr "Тармак"
+
+msgctxt "main|"
+msgid "Preferences"
+msgstr "Касиеттери"
+
+msgctxt "main|"
+msgid "Error"
+msgstr "Ката"

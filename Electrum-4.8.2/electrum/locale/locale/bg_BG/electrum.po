@@ -1,0 +1,3278 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: electrum\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-02 08:02+0000\n"
+"PO-Revision-Date: 2026-07-02 08:02\n"
+"Last-Translator: \n"
+"Language-Team: Bulgarian\n"
+"Language: bg_BG\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Qt-Contexts: true\n"
+"X-Electrum-SourceStringCount: 2738\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: electrum\n"
+"X-Crowdin-Project-ID: 20482\n"
+"X-Crowdin-Language: bg\n"
+"X-Crowdin-File: /electrum-client/messages.pot\n"
+"X-Crowdin-File-ID: 68\n"
+
+msgid "Something went wrong while executing Electrum."
+msgstr "Нещо се обърка при изпълнението на Electrum."
+
+msgid "Sorry!"
+msgstr "Съжаляваме!"
+
+msgid "To help us diagnose and fix the problem, you can send us a bug report that contains useful debug information:"
+msgstr "За да ни помогнете да диагностицираме и отстраним проблема, можете да ни изпратите доклад за грешка, който съдържа полезна информация:"
+
+msgid "Do you want to send this report?"
+msgstr "Искате ли да изпратите този доклад?"
+
+msgid "Do not enter sensitive/private information here. The report will be visible on the public issue tracker."
+msgstr "Тук не въвеждайте чувствителна/лична информация. Докладът ще бъде видим на публичния тракер."
+
+msgid "Thanks for reporting this issue!"
+msgstr "Благодарим ви, че съобщихте за този проблем!"
+
+msgid "You are most likely using an outdated version of Electrum. Please update."
+msgstr "Най-вероятно използвате остаряла версия на Electrum. Моля, актуализирайте."
+
+msgid "  (No FX rate available)"
+msgstr "  (Няма наличен курс за обмяна)"
+
+msgid "In the next block"
+msgstr "В следващия блок"
+
+msgid "&Undo"
+msgstr "&Отмени"
+
+msgid "&Redo"
+msgstr "&Повтори"
+
+msgid "Cu&t"
+msgstr "Из&режи"
+
+msgid "&Copy"
+msgstr "&Копирай"
+
+msgid "&Paste"
+msgstr "&Постави"
+
+msgid "In the Electrum mobile app, use the 'Send' button to scan this QR code."
+msgstr "В мобилното приложение Electrum използвайте бутона „Изпрати“, за да сканирате този QR код."
+
+msgid "Auto-connect"
+msgstr "Авто-свързване"
+
+msgid "There was a problem with the automatic reporting:"
+msgstr "Имаше проблем с автоматичното докладване:"
+
+msgid "Please report this issue manually"
+msgstr "Моля, докладвайте този проблем ръчно"
+
+msgid "Not a master key"
+msgstr "Не е главен ключ"
+
+msgid "To prevent that, please save this channel backup."
+msgstr "За да предотвратите това, моля, запазете резервно копие на канала."
+
+msgid "Close Lightning channel?"
+msgstr "Затваряне на Lightning канала?"
+
+msgid "Minimum required amount: {}"
+msgstr "Минимално изисквана сума: {}"
+
+msgid "File not found"
+msgstr "Файлът не е намерен"
+
+msgid "Could not read/write file"
+msgstr "Не може да се чете/записва файл"
+
+msgid "Could not open wallet: {}"
+msgstr "Не може да се отвори портфейлът: {}"
+
+msgid "There are still channels that are not fully closed"
+msgstr "Все още има канали, които не са напълно затворени"
+
+msgid "There are still coins present in this wallet. Really delete?"
+msgstr "Все още има монети в този портфейл. Наистина ли изтривате?"
+
+msgid "Enter the amount you want to send"
+msgstr "Въведете сумата, която искате да изпратите"
+
+msgid "Payment in progress..."
+msgstr "Извършва се плащане..."
+
+msgid "waiting for confirmation"
+msgstr "в очакване на потвърждение"
+
+msgid "Cannot pay less than the amount specified in the invoice"
+msgstr "Не може да се плати по-малко от сумата, посочена във фактурата"
+
+msgid "Insufficient balance"
+msgstr "Недостатъчен баланс"
+
+msgid "Detected valid Lightning invoice, but Lightning not enabled for wallet and no fallback address found."
+msgstr "Открита е валидна Lightning фактура, но Lightning не е активиран за портфейла и не е намерен резервен адрес."
+
+msgid "Detected valid Lightning invoice, but there are no open channels"
+msgstr "Открита е валидна Lightning фактура, но няма отворени канали"
+
+msgid "The platform QR detection library is not available."
+msgstr "Системната библиотека за четене на QR не е налична."
+
+msgid "Error"
+msgstr "Грешка"
+
+msgid "Success!"
+msgstr "Успех!"
+
+msgid "Are you sure you want to remove this transaction?"
+msgstr "Сигурни ли сте, че искате да премахнете тази транзакция?"
+
+msgid "Warning"
+msgstr "Внимание"
+
+msgid "The new fee rate needs to be higher than the old fee rate."
+msgstr "Новата такса трябва да е по-висока от старата."
+
+msgid "Not enough funds"
+msgstr "Недостатъчно средства"
+
+msgid "Amount"
+msgstr "Сума"
+
+msgid "Synchronizing..."
+msgstr "Синхронизиране..."
+
+msgid "To see the list, press and hold the Receive button."
+msgstr "За да видите списъка, натиснете и задръжте бутона Получаване."
+
+msgid "Error creating payment request"
+msgstr "Грешка при създаване на заявка за плащане"
+
+msgid "Network"
+msgstr "Мрежа"
+
+msgid "Lightning Network"
+msgstr "Lightning мрежа"
+
+msgid "Show/Hide"
+msgstr "Показване/Скриване"
+
+msgid "Close"
+msgstr "Затваряне"
+
+msgid "Dark/Light"
+msgstr "Тъмна/светла"
+
+msgid "Exit Electrum"
+msgstr "Изход от Electrum"
+
+msgid "Cannot load wallet"
+msgstr "Не може да се зареди портфейлът"
+
+msgid "Text copied to Clipboard"
+msgstr "Текстът е копиран в клипборда"
+
+msgid "{} copied to Clipboard"
+msgstr "{} копирани в клипборда"
+
+msgid "Address"
+msgstr "Адрес"
+
+msgid "Public keys"
+msgstr "Публични ключове"
+
+msgid "Public Key"
+msgstr "Публичен ключ"
+
+msgid "Used"
+msgstr "Употребявано"
+
+msgid "All types"
+msgstr "Всички типове"
+
+msgid "Change"
+msgstr "Ресто"
+
+msgid "Type"
+msgstr "Тип"
+
+msgid "Label"
+msgstr "Етикет"
+
+msgid "Balance"
+msgstr "Баланс"
+
+msgid "change"
+msgstr "ресто"
+
+msgid "{} addresses"
+msgstr "{} адреса"
+
+msgid "Details"
+msgstr "Подробности"
+
+msgid "Edit {}"
+msgstr "Редактирай {}"
+
+msgid "Private key"
+msgstr "Частен ключ"
+
+msgid "View on block explorer"
+msgstr "Преглед в блок-експлорера"
+
+msgid "Lightning"
+msgstr "Lightning"
+
+msgid "Choose an account to restore."
+msgstr "Изберете акаунт за възстановяване."
+
+msgid "Channel ID"
+msgstr "ID на Канал"
+
+msgid "State"
+msgstr "Състояние"
+
+msgid "Capacity"
+msgstr "Капацитет"
+
+msgid "Channel type:"
+msgstr "Тип канал:"
+
+msgid "Total sent"
+msgstr "Общо изпратени"
+
+msgid "Node alias"
+msgstr "Псевдоним на възел"
+
+msgid "Status"
+msgstr "Състояние"
+
+msgid "Please wait..."
+msgstr "Почакайте..."
+
+msgid "Please create a backup of your wallet file!"
+msgstr "Моля, създайте резервно копие на вашия портфейлен файл!"
+
+msgid "To prevent that, you should save a backup of your wallet on another device."
+msgstr "За да предотвратите това, трябва да запазите резервно копие на портфейла си на друго устройство."
+
+msgid "Node ID"
+msgstr "ID на възел"
+
+msgid "Delete"
+msgstr "Изтрий"
+
+msgid "Import channel backup"
+msgstr "Импорт резервно копие на канала"
+
+msgid "New Channel"
+msgstr "Нов канал"
+
+msgid "Nodes"
+msgstr "Възли"
+
+msgid "Channels"
+msgstr "Канали"
+
+msgid "At most 100 satoshis might be lost due to this rounding."
+msgstr "Най-много 100 satoshi може да бъдат загубени поради това закръгляне."
+
+msgid "You can disable this setting in '{}'."
+msgstr "Можете да деактивирате тази настройка в „{}“."
+
+msgid "Preferences"
+msgstr "Настройки"
+
+msgid "Additional {} satoshis are going to be added."
+msgstr "Допълнителни {} сатоши ще бъдат добавени."
+
+msgid "OK"
+msgstr "ОК"
+
+msgid "Use change addresses"
+msgstr "Използване на адреси за ресто"
+
+msgid "Using change addresses makes it more difficult for other people to track your transactions."
+msgstr "Използването на адреси за ресто затруднява другите хора да проследяват вашите транзакции."
+
+msgid "You need to set a lower fee."
+msgstr "Трябва да зададете по-ниска такса."
+
+msgid "The amount to be received by the recipient."
+msgstr "Сумата, която трябва да получи получателят."
+
+msgid "Amount to be sent"
+msgstr "Сума за изпращане"
+
+msgid "Bitcoin transactions are in general not free. A transaction fee is paid by the sender of the funds."
+msgstr "Принципно Биткойн транзакциите не са безплатни. Таксата за транзакцията се плаща от изпращача на средствата."
+
+msgid "The amount of fee can be decided freely by the sender. However, transactions with low fees take more time to be processed."
+msgstr "Сумата за таксата може да се реши от изпращача без ограничения. Естествено, на транзакциите с ниски такси ще е необходимо повече време за обработка."
+
+msgid "A suggested fee is automatically added to this field. You may override it. The suggested fee increases with the size of the transaction."
+msgstr "Предложената такса ще бъде автоматично прибавена към това поле. Можете да я отмените. Предложената такса нараства с размера на транзакцията."
+
+msgid "Additional fees"
+msgstr "Допълнителни такси"
+
+msgid "Warning!"
+msgstr "Внимание!"
+
+msgid "Do not paste code here that you don't understand. Executing the wrong code could lead to your coins being irreversibly lost."
+msgstr "Не въвеждайте тук код, който не разбирате. Изпълнението на грешен код може да доведе до необратимa загуба на вашите монети."
+
+msgid "Click here to hide this message."
+msgstr "Кликнете тук, за да скриете това съобщение."
+
+msgid "Name"
+msgstr "Име"
+
+msgid "Copy {}"
+msgstr "Копирай {}"
+
+msgid "Pay to"
+msgstr "Плащане към"
+
+msgid "&New contact"
+msgstr "&Нов контакт"
+
+msgid "Import"
+msgstr "Импортиране"
+
+msgid "Export"
+msgstr "Експортиране"
+
+msgid "An Error Occurred"
+msgstr "Възникна грешка"
+
+msgid "Not Now"
+msgstr "Не сега"
+
+msgid "Crash report"
+msgstr "Доклад за срив"
+
+msgid " confirmation"
+msgstr " потвърждаване"
+
+msgid "{} transactions"
+msgstr "{} транзакции"
+
+msgid "Value"
+msgstr "Стойност"
+
+msgid "Acquisition price"
+msgstr "Цена на придобиване"
+
+msgid "Capital Gains"
+msgstr "Капиталови печалби"
+
+msgid "Date"
+msgstr "Дата"
+
+msgid "Description"
+msgstr "Описание"
+
+msgid "All"
+msgstr "Всичко"
+
+msgid "Custom"
+msgstr "По избор"
+
+msgid "From"
+msgstr "От"
+
+msgid "To"
+msgstr "До"
+
+msgid "Filter by Date"
+msgstr "Филтър по дата"
+
+msgid "&Summary"
+msgstr "&Обобщение"
+
+msgid "&Plot"
+msgstr "&Диаграма"
+
+msgid "&Export"
+msgstr "&Експортиране"
+
+msgid "Select date"
+msgstr "Избор на дата"
+
+msgid "Nothing to summarize."
+msgstr "Нищо за обобщение."
+
+msgid "Begin"
+msgstr "Начало"
+
+msgid "End"
+msgstr "Край"
+
+msgid "BTC Fiat price"
+msgstr "Цена на BTC"
+
+msgid "BTC incoming"
+msgstr "Входящи BTC"
+
+msgid "BTC outgoing"
+msgstr "Изходящи BTC"
+
+msgid "Cash flow"
+msgstr "Паричен поток"
+
+msgid "Copy"
+msgstr "Копиране"
+
+msgid "Remove"
+msgstr "Премахване"
+
+msgid "Transaction ID"
+msgstr "ID на транзакция"
+
+msgid "Edit"
+msgstr "Редактирай"
+
+msgid "{}"
+msgstr "{}"
+
+msgid "Please confirm"
+msgstr "Моля, потвърдете"
+
+msgid "Export History"
+msgstr "История на експортирането"
+
+msgid "Select file to export your wallet transactions to"
+msgstr "Изберете файл за експортиране на вашите транзакции от портфейла"
+
+msgid "Electrum was unable to produce a transaction export."
+msgstr "Electrum не успя да експортира трансакцията."
+
+msgid "Unable to export history"
+msgstr "Невъзможно експортиране на историята"
+
+msgid "Your wallet history has been successfully exported."
+msgstr "Историята на вашият портфейл беше успешно експортирана."
+
+msgid "Unknown"
+msgstr "Неизвестно"
+
+msgid "Pay"
+msgstr "Плати"
+
+msgid "Retry"
+msgstr "Опитай пак"
+
+msgid "Message"
+msgstr "Съобщение"
+
+msgid "{} nodes"
+msgstr "{} възли"
+
+msgid "{} channels"
+msgstr "{} канала"
+
+msgid "Fee: {}"
+msgstr "Такса: {}"
+
+msgid "Description:"
+msgstr "Описание:"
+
+msgid "History"
+msgstr "История"
+
+msgid "Send"
+msgstr "Изпращане"
+
+msgid "Receive"
+msgstr "Получаване"
+
+msgid "&Addresses"
+msgstr "&Адреси"
+
+msgid "Co&ins"
+msgstr "Мо&нети"
+
+msgid "Con&tacts"
+msgstr "Кон&такти"
+
+msgid "Con&sole"
+msgstr "Кон&зола"
+
+msgid "&Notes"
+msgstr "&Бележки"
+
+msgid "For security reasons we advise that you always use the latest version of Electrum."
+msgstr "От съображения за сигурност ви съветваме винаги да използвате най-новата версия на Electrum."
+
+msgid "Would you like to be notified when there is a newer version of Electrum available?"
+msgstr "Искате ли да получавате известия, когато има налична по-нова версия на Electrum?"
+
+msgid "Update to Electrum {} is available"
+msgstr "Налична е актуализация до Electrum {}"
+
+msgid "Unlock"
+msgstr "Отключи"
+
+msgid "watching only"
+msgstr "само за наблюдение"
+
+msgid "This means you will not be able to spend Bitcoins with it."
+msgstr "Това означава, че няма да можете да харчите Bitcoins с него."
+
+msgid "You are in testnet mode."
+msgstr "Вие сте в тестов режим."
+
+msgid "Testnet coins are worthless."
+msgstr "Монетите на Testnet не струват нищо."
+
+msgid "Don't show this again."
+msgstr "Не показвай отново."
+
+msgid "Testnet"
+msgstr "Testnet"
+
+msgid "Backup directory"
+msgstr "Директория за резервни копия"
+
+msgid "Please select a backup directory"
+msgstr "Моля, изберете директория за резервно копие"
+
+msgid "Backup not configured"
+msgstr "Архивирането не е настроено"
+
+msgid "Electrum was unable to copy your wallet file to the specified location."
+msgstr "Electrum не успя да копира файла на вашият портфейл в зададеното местоположение."
+
+msgid "Unable to create backup"
+msgstr "Невъзможно създаване на резервно копие"
+
+msgid "A copy of your wallet file was created in"
+msgstr "Създадено беше копие на ваш портфейл"
+
+msgid "Wallet backup created"
+msgstr "Резервно копие на портфейла е създадено"
+
+msgid "&File"
+msgstr "&Файл"
+
+msgid "&Recently open"
+msgstr "&Наскоро отваряно"
+
+msgid "&Open"
+msgstr "&Отваряне"
+
+msgid "&New/Restore"
+msgstr "&Нов/Възстановяване"
+
+msgid "&Save backup"
+msgstr "&Резервно копие"
+
+msgid "&Quit"
+msgstr "&Изход"
+
+msgid "&Wallet"
+msgstr "&Портфейл"
+
+msgid "&Information"
+msgstr "&Информация"
+
+msgid "&Password"
+msgstr "&Парола"
+
+msgid "&Seed"
+msgstr "&Сийд"
+
+msgid "&Private keys"
+msgstr "&Частни ключове"
+
+msgid "&Sweep"
+msgstr "&Усвояване"
+
+msgid "&Import"
+msgstr "&Импортиране"
+
+msgid "&Labels"
+msgstr "&Етикети"
+
+msgid "Find"
+msgstr "Търсене"
+
+msgid "&View"
+msgstr "&Изглед"
+
+msgid "&Tools"
+msgstr "&Инструменти"
+
+msgid "Electrum preferences"
+msgstr "Настройки на Electrum"
+
+msgid "&Network"
+msgstr "&Мрежа"
+
+msgid "&Plugins"
+msgstr "&Разширения"
+
+msgid "&Sign/verify message"
+msgstr "&Подписване/потвърждаване на съобщение"
+
+msgid "&Encrypt/decrypt message"
+msgstr "&Шифриране/разшифриране на съобщение"
+
+msgid "&Load transaction"
+msgstr "&Зареждане на транзакция"
+
+msgid "&From file"
+msgstr "&От файл"
+
+msgid "&From text"
+msgstr "&От текст"
+
+msgid "&From the blockchain"
+msgstr "&От блок-веригата"
+
+msgid "&From QR code"
+msgstr "&От QR код"
+
+msgid "&Help"
+msgstr "&Помощ"
+
+msgid "&About"
+msgstr "&Относно"
+
+msgid "&Check for updates"
+msgstr "Проверка за нови версии"
+
+msgid "&Official website"
+msgstr "&Официален уебсайт"
+
+msgid "&Documentation"
+msgstr "&Документация"
+
+msgid "&Bitcoin Paper"
+msgstr "&Документ за Bitcoin"
+
+msgid "&Report Bug"
+msgstr "&Докладване на грешки"
+
+msgid "&Donate to server"
+msgstr "&Дарете за сървъра"
+
+msgid "No donation address for this server"
+msgstr "За този сървър няма адрес за дарение"
+
+msgid "Version"
+msgstr "Версия"
+
+msgid "Electrum's focus is speed, with low resource usage and simplifying Bitcoin."
+msgstr "Фокусът на Electrum е скоростта, с занижено използване на ресурси и опростяването на Bitcoin."
+
+msgid "Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the Bitcoin system."
+msgstr "Времето за стартиране е мигновено, защото работи във връзка с високопроизводителни сървъри, които обработват най-сложните части на системата на Bitcoin."
+
+msgid "Uses icons from the Icons8 icon pack (icons8.com)."
+msgstr "Използва икони от пакета Icons8 (icons8.com)."
+
+msgid "Please report any bugs as issues on github:<br/>"
+msgstr "Моля, докладвайте за грешки в github:<br/>"
+
+msgid "Before reporting a bug, upgrade to the most recent version of Electrum (latest release or git HEAD), and include the version number in your report."
+msgstr "Преди докладване на грешка, обновете до последната версия на Electrum (последното издание или git HEAD) и включете номера на версията в доклада си."
+
+msgid "Try to explain not only what the bug is, but how it occurs."
+msgstr "Опитайте се да обясните не само какво представлява грешката, но и как се появява."
+
+msgid "Reporting Bugs"
+msgstr "Докладване на грешки"
+
+msgid "Offline"
+msgstr "Офлайн"
+
+msgid "Connected"
+msgstr "Свързан"
+
+msgid "Not connected"
+msgstr "Няма връзка"
+
+msgid "Electrum uses Nostr in order to find liquidity providers."
+msgstr "Electrum използва Nostr за намиране на доставчици на ликвидност."
+
+msgid "Do you want to enable Nostr?"
+msgstr "Желаете ли да включите Nostr?"
+
+msgid "Could not open channel: {}"
+msgstr "Не може да се отвори канал: {}"
+
+msgid "Alternatively, you can save a backup of your wallet file from the File menu"
+msgstr "Като алтернатива можете да запазите резервно копие на файла на вашия портфейл от менюто Файл"
+
+msgid "Do you want to remove {} from your wallet?"
+msgstr "Искате ли да премахнете {} от портфейла си?"
+
+msgid "Invalid Address"
+msgstr "Невалиден адрес"
+
+msgid "Outputs"
+msgstr "Изходящи"
+
+msgid "Expires"
+msgstr "Валидност"
+
+msgid "Features"
+msgstr "Функции"
+
+msgid "Fallback address"
+msgstr "Резервен адрес"
+
+msgid "Text"
+msgstr "Текст"
+
+msgid "Password"
+msgstr "Парола"
+
+msgid "Seed"
+msgstr "Сийд"
+
+msgid "Tor"
+msgstr "Tor"
+
+msgid "The Lightning Network graph is fully synced."
+msgstr "Lightning мрежата е напълно синхронизирана."
+
+msgid "Failed to update password"
+msgstr "Неуспешна промяна на парола"
+
+msgid "Password was updated successfully"
+msgstr "Паролата беше успешно променена"
+
+msgid "Success"
+msgstr "Успешно"
+
+msgid "You need at least {} to open a channel."
+msgstr "Трябват ви поне {}, за да отворите канал."
+
+msgid "Do you want to create your first channel?"
+msgstr "Искате ли да създадете първия си канал?"
+
+msgid "New Contact"
+msgstr "Нов контакт"
+
+msgid "Lightning is not enabled because this wallet was created with an old version of Electrum. Create lightning keys?"
+msgstr "Lightning не е активиран, защото този портфейл е създаден със стара версия на Electrum. Създаване на ключове за Lightning?"
+
+msgid "Lightning keys have been initialized."
+msgstr "Ключовете за  Lightning са инициализирани."
+
+msgid "This wallet has no seed"
+msgstr "Този портфейл няма сийд"
+
+msgid "QR code"
+msgstr "QR код"
+
+msgid "The operation is undefined. Not just in Electrum, but in general."
+msgstr "Операцията е недефинирана. Не само в Electrum, но като цяло."
+
+msgid "Invalid Bitcoin address."
+msgstr "Невалиден Bitcoin адрес."
+
+msgid "Address not in wallet."
+msgstr "Адресът не е в портфейла."
+
+msgid "Cannot sign messages with this type of address:"
+msgstr "Не може да се подписват съобщения с този тип адрес:"
+
+msgid "Signature verified"
+msgstr "Подписът е потвърден"
+
+msgid "Sign/verify Message"
+msgstr "Подписване/потвърждаване на съобщение"
+
+msgid "Signature"
+msgstr "Подпис"
+
+msgid "Sign"
+msgstr "Подпис"
+
+msgid "Verify"
+msgstr "Потвърждаване"
+
+msgid "Invalid Public key"
+msgstr "Невалиден публичен ключ"
+
+msgid "Encrypt/decrypt Message"
+msgstr "Шифриране/дешифриране на съобщение"
+
+msgid "Public key"
+msgstr "Публичен ключ"
+
+msgid "Encrypted"
+msgstr "Шифрирано"
+
+msgid "Encrypt"
+msgstr "Шифриране"
+
+msgid "Decrypt"
+msgstr "Дешифриране"
+
+msgid "Electrum was unable to parse your transaction"
+msgstr "Electrum не успя да анализира вашата транзакция"
+
+msgid "Select your transaction file"
+msgstr "Изберете вашият файл за транзакцията"
+
+msgid "Electrum was unable to open your transaction file"
+msgstr "Electrum не успя да отвори вашият файл с транзакции"
+
+msgid "Unable to read file or no transaction found"
+msgstr "Невъзможно четене на файл или не е открита транзакция"
+
+msgid "Input raw transaction"
+msgstr "Внасяне на необработена транзакция"
+
+msgid "Transaction:"
+msgstr "Транзакция:"
+
+msgid "Load transaction"
+msgstr "Зареждане на транзакция"
+
+msgid "Lookup transaction"
+msgstr "Търсене на транзакция"
+
+msgid "This is a watching-only wallet"
+msgstr "Този портфейл е само за наблюдение"
+
+msgid "Private keys"
+msgstr "Частни ключове"
+
+msgid "WARNING: ALL your private keys are secret."
+msgstr "ВНИМАНИЕ: Всички ваши частни ключове са тайни."
+
+msgid "Exposing a single private key can compromise your entire wallet!"
+msgstr "Разкриването на един частен ключ може да компрометира целият ви портфейл!"
+
+msgid "In particular, DO NOT use 'redeem private key' services proposed by third parties."
+msgstr "В случая НЕ ПОЛЗВАЙТЕ услугите 'възстановяване на частен ключ', предлагани от трети лица."
+
+msgid "Select file to export your private keys to"
+msgstr "Изберете файл за експортиране на вашите частни ключове"
+
+msgid "Electrum was unable to produce a private key-export."
+msgstr "Electrum не успя да експортира частния ключ."
+
+msgid "Unable to create csv"
+msgstr "Невъзможно създаване на csv"
+
+msgid "Private keys exported."
+msgstr "Частните ключове са експортирани."
+
+msgid "labels"
+msgstr "етикети"
+
+msgid "contacts"
+msgstr "контакти"
+
+msgid "Sweep private keys"
+msgstr "Усвояване на частни ключове"
+
+msgid "Sweep"
+msgstr "Усвояване"
+
+msgid "The following addresses were added"
+msgstr "Бяха добавени следните адреси"
+
+msgid "The following inputs could not be imported"
+msgstr "Следните входове не могат да бъдат импортирани"
+
+msgid "Enter addresses"
+msgstr "Въведете адреси"
+
+msgid "Import private keys"
+msgstr "Импортиране на частни ключове"
+
+msgid "Enter private keys"
+msgstr "Въведете частни ключове"
+
+msgid "Please restart Electrum to activate the new GUI settings"
+msgstr "Моля, рестартирайте Electrum, за да активирате новите настройки на графичния интерфейс"
+
+msgid "Total size"
+msgstr "Общ размер"
+
+msgid "Certificate mismatch"
+msgstr "Несъответствие на сертификата"
+
+msgid "Electrum will now exit."
+msgstr "Electrum сега ще излезе."
+
+msgid "Expired"
+msgstr "Изтекъл"
+
+msgid "Server"
+msgstr "Сървър"
+
+msgid "Proxy"
+msgstr "Прокси"
+
+msgid "Height"
+msgstr "Височина"
+
+msgid "Bookmark this server"
+msgstr "Маркирайте този сървър"
+
+msgid "Connected nodes"
+msgstr "Свързани възли"
+
+msgid "Other known servers"
+msgstr "Други познати сървъри"
+
+msgid "Blockchain"
+msgstr "Блокчейн"
+
+msgid "Clear"
+msgstr "Изчистване"
+
+msgid "Amount too low"
+msgstr "Твърде ниска сума"
+
+msgid "Choose a password to encrypt your wallet keys."
+msgstr "Изберете парола за шифриране на ключовете на портфейла ви."
+
+msgid "Enter Password"
+msgstr "Въведете парола"
+
+msgid "Change Password"
+msgstr "Промяна на парола"
+
+msgid "Enter Passphrase"
+msgstr "Въведете тайната фраза"
+
+msgid "Passphrase:"
+msgstr "Тайна фраза:"
+
+msgid "Confirm Passphrase:"
+msgstr "Потвърдете тайната фраза:"
+
+msgid "New Password:"
+msgstr "Нова парола:"
+
+msgid "Password:"
+msgstr "Парола:"
+
+msgid "Confirm Password:"
+msgstr "Потвърдете паролата:"
+
+msgid "Current Password:"
+msgstr "Текуща парола:"
+
+msgid "Password Strength"
+msgstr "Сложност на паролата"
+
+msgid "Your wallet is not protected."
+msgstr "Вашият портфейл не е защитен."
+
+msgid "Please enter your password"
+msgstr "Моля, въведете паролата си"
+
+msgid "Author"
+msgstr "Автор"
+
+msgid "Requires"
+msgstr "Изисква"
+
+msgid "Settings"
+msgstr "Настройки"
+
+msgid "Electrum Plugins"
+msgstr "Разширения на Electrum"
+
+msgid "Help"
+msgstr "Помощ"
+
+msgid "QR code copied to clipboard"
+msgstr "QR кодът копиран в клипборда"
+
+msgid "Text copied to clipboard"
+msgstr "Текстът е копиран в клипборда"
+
+msgid "Copy Image"
+msgstr "Копирай"
+
+msgid "Save"
+msgstr "Запазване"
+
+msgid "QR Reader Error"
+msgstr "QR Reader Error"
+
+msgid "QR reader failed to load. This may happen if you are using an older version of PyQt."
+msgstr "QR четецът не успя да се зареди. Това може да стане, ако използвате по-стара версия на PyQt."
+
+msgid "Scan QR Code"
+msgstr "Сканирай QR код"
+
+msgid "&Flip horizontally"
+msgstr "&Хоризонтално обръщане"
+
+msgid "&Close"
+msgstr "&Затвори"
+
+msgid "Cannot start QR scanner, no usable camera found."
+msgstr "Не може да се стартира QR скенер, не е намерена използваема камера."
+
+msgid "Show as QR code"
+msgstr "Показване като QR код"
+
+msgid "Read QR code from screen"
+msgstr "Прочети QR код от екран"
+
+msgid "Read QR code from file"
+msgstr "Прочети QR код от файл"
+
+msgid "Read text from file"
+msgstr "Прочети текст от файл"
+
+msgid "Method"
+msgstr "Метод"
+
+msgid "You will pay {} more."
+msgstr "Ще платите още {}."
+
+msgid "The recipient will receive {} less."
+msgstr "Получателят ще получи {} по-малко."
+
+msgid "From channel"
+msgstr "От канал"
+
+msgid "Requested amount"
+msgstr "Заявена сума"
+
+msgid "You can reuse a bitcoin address any number of times but it is not good for your privacy."
+msgstr "Можете да използвате повторно bitcoin адрес произволен брой пъти, но това не е добре за вашата поверителност."
+
+msgid "Bitcoin URI"
+msgstr "Bitcoin URI"
+
+msgid "No more addresses in your wallet."
+msgstr "Няма повече адреси в портфейла ви."
+
+msgid ""
+"Warning: The next address will not be recovered automatically if you restore your wallet from seed; you may need to add it manually.\n"
+"\n"
+"This occurs because you have too many unused addresses in your wallet. To avoid this situation, use the existing addresses first.\n"
+"\n"
+"Create anyway?"
+msgstr ""
+"Внимание: Следните адреси няма да бъдат възстановени автоматично, ако възстановявате вашият портфейл чрез сийд; може да е необходимо да ги възстановите ръчно.\n"
+"\n"
+"Това се случва, защото имате твърде много неизползвани адреси в портфейла си. За да избегнете тази ситуация, ползвайте първо съществуващите адреси.\n"
+"\n"
+"Създаване въпреки това?"
+
+msgid "Please save these {0} words on paper (order is important). "
+msgstr "Моля, запишете тези {0} думи на хартия (редът е важен). "
+
+msgid "This seed will allow you to recover your wallet in case of computer failure."
+msgstr "Този сийд ще ви позволи да възстановите вашият портфейл в случай на сриване на компютъра ви."
+
+msgid "WARNING"
+msgstr "ВНИМАНИЕ"
+
+msgid "Never type it on a website."
+msgstr "Никога не го пишете в уеб сайт."
+
+msgid "Do not store it electronically."
+msgstr "Не го съхранявай електронно."
+
+msgid "BIP39 seed"
+msgstr "BIP39 сийд"
+
+msgid "Options"
+msgstr "Опции"
+
+msgid "Wallet with two-factor authentication"
+msgstr "Портфейл с двуфакторно удостоверяване"
+
+msgid "Standard wallet"
+msgstr "Стандартен портфейл"
+
+msgid "If unsure, try restoring as '{}'."
+msgstr "Ако не сте сигурни, опитайте да възстановите като „{}“."
+
+msgid "Recipient of the funds."
+msgstr "Получател на средствата."
+
+msgid "This field can contain:"
+msgstr "Полето може да съдържа:"
+
+msgid "- a Bitcoin address or BIP21 URI"
+msgstr "- Bitcoin адрес или BIP21 URI"
+
+msgid "- a Lightning invoice"
+msgstr "- Lightning фактура"
+
+msgid "- a label from your list of contacts"
+msgstr "- етикет от списъка ви с контакти"
+
+msgid "- an openalias"
+msgstr "- OpenAlias"
+
+msgid "Format: address, amount"
+msgstr "Формат: адрес, сума"
+
+msgid "Description of the transaction (not mandatory)."
+msgstr "Описание на транзакцията (незадължително)."
+
+msgid "The description is not sent to the recipient of the funds. It is stored in your wallet file, and displayed in the 'History' tab."
+msgstr "Описанието не се изпраща на получателя на средствата. То се съхранява във файла на вашият портфейл и се вижда в раздел 'История'."
+
+msgid "Comment"
+msgstr "Коментар"
+
+msgid "Note that if you have frozen some of your addresses, the available funds will be lower than your total balance."
+msgstr "Забележете, че ако сте замразили някой от адресите си, наличните средства ще бъдат по-малко от общия ви баланс."
+
+msgid "Keyboard shortcut: type \"!\" to send all your coins."
+msgstr "Клавишна комбинация: напишете \"!\" за изпращане на всички ваши койни."
+
+msgid "Paste"
+msgstr "Постави"
+
+msgid "Paste invoice from clipboard"
+msgstr "Постави фактура от клипборда"
+
+msgid "Invoices"
+msgstr "Отчети"
+
+msgid "&Pay to many"
+msgstr "&Плащане към повече хора"
+
+msgid "Import invoices"
+msgstr "Импорт на фактури"
+
+msgid "Export invoices"
+msgstr "Експорт на фактури"
+
+msgid "Mining fee: {} (can be adjusted on next screen)"
+msgstr "Такса за копаене: {} (може да се коригира на следващия екран)"
+
+msgid "2fa fee: {} (for the next batch of transactions)"
+msgstr "2FA такса: {} (за следващата група транзакции)"
+
+msgid "Amount must be between {} and {} sat."
+msgstr "Сумата трябва да е между {} и {} sat."
+
+msgid "Invoice already paid"
+msgstr "Фактурата вече е платена"
+
+msgid "No outputs"
+msgstr "Няма изходящи"
+
+msgid "Bitcoin Address is None"
+msgstr "Биткойн адреса няма стойност"
+
+msgid "Invalid Amount"
+msgstr "Невалидна сума"
+
+msgid "Invalid Lines found:"
+msgstr "Открити са невалидни редове:"
+
+msgid "Do you wish to continue?"
+msgstr "Искате ли да продължите?"
+
+msgid "Payment request has expired"
+msgstr "Заявките за плащане са изтекли"
+
+msgid "Move funds between your channels in order to increase your sending capacity."
+msgstr "Местете средства между каналите си, за да увеличите капацитета си за изпращане."
+
+msgid "You cannot pay that invoice using Lightning."
+msgstr "Не можете да платите тази фактура, използвайки Lightning."
+
+msgid "Your channels can send {}."
+msgstr "Каналите ви могат да изпратят {}."
+
+msgid "Invoice has expired"
+msgstr "Фактурата е с изтекъл срок"
+
+msgid "Payment sent."
+msgstr "Плащането е изпратено."
+
+msgid "Broadcasting transaction..."
+msgstr "Излъчване на транзакция..."
+
+msgid "Enter a list of outputs in the 'Pay to' field."
+msgstr "Въведете списък с изходи в полето \"Плащане към\"."
+
+msgid "Without this option, Electrum will need to sync with the Lightning network on every start."
+msgstr "Без тази опция, Electrum ще трябва да се синхронизира с Lightning мрежата при всяко стартиране."
+
+msgid "Base unit of your wallet."
+msgstr "Основната единица на портфейла ви."
+
+msgid "Base unit"
+msgstr "Основна единица"
+
+msgid "Light"
+msgstr "Светла"
+
+msgid "Dark"
+msgstr "Тъмна"
+
+msgid "Source"
+msgstr "Източник"
+
+msgid "Appearance"
+msgstr "Външен вид"
+
+msgid "Units"
+msgstr "Единици"
+
+msgid "Misc"
+msgstr "Разни"
+
+msgid "Fee"
+msgstr "Такса"
+
+msgid "Inputs"
+msgstr "Входове"
+
+msgid "Address Details"
+msgstr "Детайли Адрес"
+
+msgid "Copy Address"
+msgstr "Копирай адрес"
+
+msgid "Transaction ID:"
+msgstr "ID на транзакция:"
+
+msgid "Broadcast"
+msgstr "Излъчване"
+
+msgid "Share"
+msgstr "Сподели"
+
+msgid "This transaction is not saved. Close anyway?"
+msgstr "Тази транзакция не е записана. Желаете ли да затворите?"
+
+msgid "Copy to clipboard"
+msgstr "Копиране в системния буфер"
+
+msgid "Save to file"
+msgstr "Запис във файл"
+
+msgid "Transaction"
+msgstr "Транзакция"
+
+msgid "Are you sure you want to sign this transaction?"
+msgstr "Сигурни ли сте, че искате да подпишете тази транзакция?"
+
+msgid "Status: {}"
+msgstr "Състояние: {}"
+
+msgid "Date: {}"
+msgstr "Дата: {}"
+
+msgid "Transaction unrelated to your wallet"
+msgstr "Транзакция без връзка с вашият портфейл"
+
+msgid "Amount received: {}"
+msgstr "Получена сума: {}"
+
+msgid "Amount sent: {}"
+msgstr "Изпратена сума: {}"
+
+msgid "error"
+msgstr "грешка"
+
+msgid "unknown"
+msgstr "неизвестен"
+
+msgid "Amount received in channels: {}"
+msgstr "Сума, получена в канали: {}"
+
+msgid "Amount withdrawn from channels: {}"
+msgstr "Сума, изтеглена от канали: {}"
+
+msgid "Update Check"
+msgstr "Проверка на актуализациите"
+
+msgid "Current version: {}"
+msgstr "Текуща версия: {}"
+
+msgid "Latest version: {}"
+msgstr "Последна версия: {}"
+
+msgid "Sorry, but we were unable to check for updates. Please try again later."
+msgstr "За съжаление не можахме да проверим за актуализации. Моля опитайте пак по-късно."
+
+msgid "There is a new update available"
+msgstr "Налице е нова актуализация"
+
+msgid "You can download the new version from {}."
+msgstr "Можете да изтеглите новата версия от {}."
+
+msgid "Already up to date"
+msgstr "Вече актуална"
+
+msgid "You are already on the latest version of Electrum."
+msgstr "Вече сте с последна версия на Electrum."
+
+msgid "Checking for updates..."
+msgstr "Проверка за актуализация..."
+
+msgid "Please wait while Electrum checks for available updates."
+msgstr "Моля, изчакайте, докато Electrum проверява за актуализации."
+
+msgid "Info"
+msgstr "Инфо"
+
+msgid "Copy and Close"
+msgstr "Копиране и затваряне"
+
+msgid "Cancel"
+msgstr "Отказ"
+
+msgid "Critical Error"
+msgstr "Критична грешка"
+
+msgid "Information"
+msgstr "Информация"
+
+msgid "Question"
+msgstr "Въпрос"
+
+msgid "Please wait"
+msgstr "Почакайте"
+
+msgid "Format"
+msgstr "Формат"
+
+msgid "CSV"
+msgstr "CSV"
+
+msgid "json"
+msgstr "json"
+
+msgid "File"
+msgstr "Файл"
+
+msgid "Read QR code with camera"
+msgstr "Прочети QR код с камера"
+
+msgid "More than one QR code was found on the screen."
+msgstr "Повече от един QR код беше открит на екрана."
+
+msgid "No QR code was found on the screen."
+msgstr "Не беше открит QR код на екрана."
+
+msgid "Error opening file"
+msgstr "Грешка при отваряне на файл"
+
+msgid "Paste from clipboard"
+msgstr "Постави от клипборда"
+
+msgid "Other options"
+msgstr "Други опции"
+
+msgid "Coin control active"
+msgstr "Coin control е активен"
+
+msgid "Address is frozen"
+msgstr "Адресът е замразен"
+
+msgid "in new channel"
+msgstr "в нов канал"
+
+msgid "Wallet name"
+msgstr "Име на портфейл"
+
+msgid "Cosigner"
+msgstr "Съподписващ"
+
+msgid "Keystore"
+msgstr "Хранилище за ключове"
+
+msgid "Next"
+msgstr "Напред"
+
+msgid "A few examples"
+msgstr "Няколко примери"
+
+msgid "Do you want to delete the old file"
+msgstr "Желаете ли да изтриете старият файл"
+
+msgid "The file was removed"
+msgstr "Файлът беше изтрит"
+
+msgid "Electrum wallet"
+msgstr "Electrum портфейл"
+
+msgid "Wallet"
+msgstr "Портфейл"
+
+msgid "Choose..."
+msgstr "Изберете..."
+
+msgid "Cannot read file"
+msgstr "Не може да се прочете файла"
+
+msgid "This file does not exist."
+msgstr "Файлът не съществува."
+
+msgid "Press 'Next' to create this wallet, or choose another file."
+msgstr "Натиснете „Напред“, за да създадете този портфейл, или изберете друг файл."
+
+msgid "This file is encrypted with a password."
+msgstr "Този файл е шифрован с парола."
+
+msgid "This file is encrypted using a hardware device."
+msgstr "Този файл е шифрован чрез хардуерно устройство."
+
+msgid "Press 'Next' to choose device to decrypt."
+msgstr "Натиснете „Напред“, за да изберете устройство за дешифриране."
+
+msgid "Press 'Finish' to open this wallet."
+msgstr "Натиснете „Готово“, за да отворите този портфейл."
+
+msgid "This file is already open in memory."
+msgstr "Този файл вече е отворен."
+
+msgid "Create new wallet"
+msgstr "Създай нов портфейл"
+
+msgid "What kind of wallet do you want to create?"
+msgstr "Какъв вид портфейл искате да създадете?"
+
+msgid "Multi-signature wallet"
+msgstr "Портфейл с множество подписи"
+
+msgid "Confirm Seed"
+msgstr "Потвърдете сийд"
+
+msgid "Your seed is important!"
+msgstr "Вашият сийд е важен!"
+
+msgid "To make sure that you have properly saved your seed, please retype it here."
+msgstr "За да сте сигурни, че правилно сте съхранили вашият сийд, моля препишете го тук."
+
+msgid "If you do not know what this is, leave this field empty."
+msgstr "Ако не знаете какво е това, оставете това поле празно."
+
+msgid "Confirm Seed Extension"
+msgstr "Потвърдете Seed разширение"
+
+msgid "Please type it here."
+msgstr "Пишете тук."
+
+msgid "Enter Seed"
+msgstr "Въведете сийд"
+
+msgid "Choose the type of addresses in your wallet."
+msgstr "Изберете типа адреси в портфейла си."
+
+msgid "If you are not sure what this is, leave this field unchanged."
+msgstr "Ако не сте сигурни какво е това, оставете това поле непроменено."
+
+msgid "Or"
+msgstr "Или"
+
+msgid "Enter cosigner key"
+msgstr "Въведете ключа на съподписващия"
+
+msgid "Cosign with hardware device"
+msgstr "Съвместно подписване с хардуерно устройство"
+
+msgid "Below is your master public key. Please share it with your cosigners"
+msgstr "По-долу е основният ви публичен ключ. Моля, споделете го с вашите съподписващи се лица"
+
+msgid "Please enter the master public key (xpub) of your cosigner."
+msgstr "Моля, въведете главният публичен ключ (xpub) на вашият съподписан портфейл."
+
+msgid "Enter their master private key (xprv) if you want to be able to sign for them."
+msgstr "Въведете главен частен ключ (xprv) ако искате да можете да се подписвате за тях."
+
+msgid "Multi-Signature Wallet"
+msgstr "Портфейл с множество подписи"
+
+msgid "Choose the number of signatures needed to unlock funds in your wallet:"
+msgstr "Изберете броя на подписите, необходими за отключване на средства в портфейла ви:"
+
+msgid "Choose Hardware Device"
+msgstr "Избери устройство"
+
+msgid "Error scanning devices"
+msgstr "Грешка при сканиране на устройства"
+
+msgid "You might have an incompatible library."
+msgstr "Може да имате несъвместима библиотека."
+
+msgid "While this is less than ideal, it might help if you run Electrum as Administrator."
+msgstr "Въпреки че това не е идеално, може да помогне, ако стартирате Electrum като администратор."
+
+msgid "On Linux, you might have to add a new permission to your udev rules."
+msgstr "В Linux може да се наложи да добавите ново разрешение към udev правилата."
+
+msgid "Debug message"
+msgstr "Дебъг съобщение"
+
+msgid "Hardware successfully unlocked"
+msgstr "Хардуерът е отключен успешно"
+
+msgid "Hardware keystore added to wallet"
+msgstr "Хардуерното хранилище за ключове е добавено към портфейла"
+
+msgid "Hardware not initialized"
+msgstr "Хардуерът не е инициализиран"
+
+msgid "Finish"
+msgstr "Готово"
+
+msgid "Back"
+msgstr "Обратно"
+
+msgid "Invalid Bitcoin address"
+msgstr "Невалиден Bitcoin адрес"
+
+msgid "Invalid Fee"
+msgstr "Невалидна такса"
+
+msgid "Addresses"
+msgstr "Адреси"
+
+msgid "Coins"
+msgstr "Монети"
+
+msgid "Contacts"
+msgstr "Контакти"
+
+msgid "Banner"
+msgstr "Банер"
+
+msgid "Quit"
+msgstr "Изход"
+
+msgid "[Paste]"
+msgstr "[Постави]"
+
+msgid "Invalid Bitcoin Address"
+msgstr "Невалиден биткойн адрес"
+
+msgid "Missing libraries for {}."
+msgstr "Липсват библиотеки за {}"
+
+msgid "Library version for '{}' is incompatible."
+msgstr "Версията на библиотеката за „{}“ е несъвместима."
+
+msgid "Amount for OP_RETURN output must be zero."
+msgstr "Сумата за изхода OP_RETURN трябва да е нула."
+
+msgid "Ignore and continue?"
+msgstr "Игнориране и продължаване?"
+
+msgid "Please check your {} device"
+msgstr "Моля, проверете вашето {} устройство"
+
+msgid "Default"
+msgstr "По подразбиране"
+
+msgid "Network request timed out."
+msgstr "Времето за изчакване на мрежовата заявка изтече."
+
+msgid "The transaction was rejected because it is too large (in bytes)."
+msgstr "Транзакцията беше отхвърлена, защото е твърде голяма (в байтове)."
+
+msgid "Unknown error"
+msgstr "Непозната грешка"
+
+msgid "Paid"
+msgstr "Платени"
+
+msgid "In progress"
+msgstr "В ход"
+
+msgid "Never"
+msgstr "Никога"
+
+msgid "10 minutes"
+msgstr "10 минути"
+
+msgid "1 hour"
+msgstr "1 час"
+
+msgid "1 day"
+msgstr "1 ден"
+
+msgid "1 week"
+msgstr "1 седмица"
+
+msgid ".onion address, but no proxy configured"
+msgstr ".onion адрес, но не е конфигуриран прокси"
+
+msgid "Hostname does not resolve (getaddrinfo failed)"
+msgstr "Името на хоста не се преобразува (getaddrinfo не успя)"
+
+msgid "Close channel"
+msgstr "Затваряне на канала"
+
+msgid "A payment was already initiated for this invoice"
+msgstr "Плащането за тази фактура вече е наредено"
+
+msgid "A previous attempt to pay this invoice did not clear"
+msgstr "Предишният опит за плащане на тази фактура не беше успешен"
+
+msgid "The server returned an error."
+msgstr "Сървърът върна грешка."
+
+msgid "Disconnected"
+msgstr "Разкачен"
+
+msgid "Connecting"
+msgstr "Свързване"
+
+msgid "Connected to {0} nodes."
+msgstr "Свързан към {0} възли."
+
+msgid "Connected to {0} node."
+msgstr "Свързан към {0} възел."
+
+msgid "Error parsing LNURL"
+msgstr "Грешка при анализа на LNURL"
+
+msgid "Error parsing URI"
+msgstr "Грешка при анализа на URI"
+
+msgid "Error parsing Lightning invoice"
+msgstr "Грешка при анализиране на Lightning фактура"
+
+msgid "Nothing to plot."
+msgstr "Нищо за начертаване."
+
+msgid "A library is probably missing."
+msgstr "Вероятно липсва библиотека."
+
+msgid "Please select which {} device to use:"
+msgstr "Моля, изберете кое {} устройство ще използвате:"
+
+msgid "Audio Modem Settings"
+msgstr "Настройки за аудио модем"
+
+msgid "Bit rate [kbps]: "
+msgstr "Скорост [kbps]: "
+
+msgid "The {} only supports message signing on mainnet."
+msgstr "{} поддържа само подписване на съобщения в Mainnet."
+
+msgid "BitBox02 Status"
+msgstr "Състояние на BitBox02"
+
+msgid "You might have to unplug and plug it in again."
+msgstr "Може да се наложи да го изключите и включите отново."
+
+msgid "Encryption and decryption are currently not supported for {}"
+msgstr "Понастоящем не се поддържат шифриране и дешифриране за {}"
+
+msgid "{} Settings"
+msgstr "{} Настройки"
+
+msgid "Firmware Version"
+msgstr "Версия на фърмуера"
+
+msgid "Build Date"
+msgstr "Дата на компилация"
+
+msgid "Upgrade"
+msgstr "Актуализация"
+
+msgid "Device communication error. Please unplug and replug your Digital Bitbox."
+msgstr "Грешка в комуникацията с устройството. Моля, изключете и включете отново вашия Digital Bitbox."
+
+msgid "Enter the password used when the backup was created:"
+msgstr "Въведете паролата, използвана при създаване на резервното копие:"
+
+msgid "Enter password:"
+msgstr "Въведете парола:"
+
+msgid "An uninitialized Digital Bitbox is detected."
+msgstr "Открит е неинициализиран Digital Bitbox."
+
+msgid "Enter a new password below."
+msgstr "Въведете нова парола по-долу."
+
+msgid "REMEMBER THE PASSWORD!"
+msgstr "ЗАПОМНЕТЕ ПАРОЛАТА!"
+
+msgid "You cannot access your coins or a backup without the password."
+msgstr "Нямате достъп до вашите монети или резервно копие без паролата."
+
+msgid "A backup is saved automatically when generating a new wallet."
+msgstr "Когато генерирате нов портфейл, автомотично се запазва копие."
+
+msgid "Enter your Digital Bitbox password:"
+msgstr "Въведете вашата парола за Digital Bitbox:"
+
+msgid "Incorrect password entered."
+msgstr "Въведена е грешна парола."
+
+msgid "Erase the Digital Bitbox"
+msgstr "Изтрийте Digital Bitbox"
+
+msgid "Choose how to initialize your Digital Bitbox:"
+msgstr "Изберете как да инициализирате своя Digital Bitbox:"
+
+msgid "Are you sure you want to erase the Digital Bitbox?"
+msgstr "Сигурни ли сте, че искате да изтриете Digital Bitbox?"
+
+msgid "To continue, touch the Digital Bitbox's light for 3 seconds."
+msgstr "За да продължите, докоснете светлината на Digital Bitbox за 3 секунди."
+
+msgid "Choose a backup file:"
+msgstr "Изберете резервен файл:"
+
+msgid "Could not sign message."
+msgstr "Съобщението не можа да бъде подписано."
+
+msgid "To continue, touch the Digital Bitbox's blinking light for 3 seconds."
+msgstr "За да продължите, докоснете мигащата светлина на Digital Bitbox за 3 секунди."
+
+msgid "Could not sign message"
+msgstr "Съобщението не можа да бъде подписано"
+
+msgid "(Touch {} of {})"
+msgstr "(Кликнете {} в {})"
+
+msgid "This function is only available after pairing your {} with a mobile device."
+msgstr "Тази функция е налична само след сдвояване на {} с мобилно устройство."
+
+msgid "Encryption and decryption are not implemented by {}"
+msgstr "Шифрирането и дешифрирането не се изпълняват от {}"
+
+msgid "The address generated by {} does not match!"
+msgstr "Генерираният от {} адрес не съвпада!"
+
+msgid "Confirm internal entropy on your {} device to begin"
+msgstr "Потвърдете вътрешната ентропия на вашето {} устройство, за да започнете"
+
+msgid "Confirm on your {} that you want to wipe it clean"
+msgstr "Потвърдете на вашия {}, че искате да го почистите"
+
+msgid "Confirm on your {} device the message to sign"
+msgstr "Потвърдете на {} устройството си съобщението за подписване"
+
+msgid "Check your {} device to continue"
+msgstr "Проверете вашето {} устройство, за да продължите"
+
+msgid "Enter a new PIN for your {}:"
+msgstr "Въведете нов PIN за вашия {}:"
+
+msgid "Enter your current {} PIN:"
+msgstr "Въведете текущия си PIN {}:"
+
+msgid "The PIN cannot be longer than 9 characters."
+msgstr "PIN не може да бъде по-дълъг от 9 знака."
+
+msgid "Enter the passphrase to unlock this wallet:"
+msgstr "Тайната фраза за отключване:"
+
+msgid "Too long passphrase ({} > 50 chars)."
+msgstr "Твърде дълга тайна фраза ({} > 50 знака)."
+
+msgid "Confirm on your {} device to disable passphrases"
+msgstr "Потвърдете на {} устройството си, за да деактивирате паролите"
+
+msgid "Confirm on your {} device to enable passphrases"
+msgstr "Потвърдете на {} устройството си, за да активирате паролите"
+
+msgid "Confirm the new label on your {} device"
+msgstr "Потвърдете новия етикет на вашето {} устройство"
+
+msgid "Confirm on your {} device to change your home screen"
+msgstr "Потвърдете на {} устройството си, за да промените началния си екран"
+
+msgid "Confirm on your {} device to disable PIN protection"
+msgstr "Потвърдете на {} устройството си, за да деактивирате защита с ПИН код"
+
+msgid "Confirm on your {} device to change your PIN"
+msgstr "Потвърдете на {} устройството си, за да промените своя ПИН"
+
+msgid "Confirm on your {} device to set a PIN"
+msgstr "Потвърдете на {} устройството си, за да зададете ПИН код"
+
+msgid "The device was disconnected."
+msgstr "Устройството беше изключено"
+
+msgid "Your device firmware is too old"
+msgstr "Устройството ви е с твърде стар firmware"
+
+msgid "Passphrases allow you to access new wallets, each hidden behind a particular case-sensitive passphrase."
+msgstr "Тайните фрази ви позволяват достъп до нови портфейли, всеки скрит зад определена тайна фраза, съдържаща главни и малки букви."
+
+msgid "Enter PIN"
+msgstr "Въведете ПИН код"
+
+msgid "Enter a label to name your device:"
+msgstr "Въведете етикет, за да наименувате устройството си:"
+
+msgid "{} words"
+msgstr "{} думи"
+
+msgid "Enter your PIN (digits 1-9):"
+msgstr "Въведете своя PIN (цифри 1-9):"
+
+msgid "No"
+msgstr "Не"
+
+msgid "Yes"
+msgstr "Да"
+
+msgid "Change PIN"
+msgstr "Смяна на ПИН кода"
+
+msgid "Are you sure you want to proceed?"
+msgstr "Сигурни ли сте, че искате да продължите?"
+
+msgid "Confirm Device Wipe"
+msgstr "Потвърдете изтриването на устройството"
+
+msgid "{:2d} minutes"
+msgstr "{:2d} минути"
+
+msgid "Passphrases"
+msgstr "Тайни фрази"
+
+msgid "Device ID"
+msgstr "ID на устройството"
+
+msgid "Language"
+msgstr "Език"
+
+msgid "Initialized"
+msgstr "Установено първ. състояние"
+
+msgid "Apply"
+msgstr "Прилагане"
+
+msgid "PIN Protection"
+msgstr "Защита с PIN"
+
+msgid "Clear the session after the specified period of inactivity.  Once a session has timed out, your PIN and passphrase (if enabled) must be re-entered to use the device."
+msgstr "Изчистете сесията след определения период на неактивност. Щом сесията изтече, вашият ПИН и парола (ако са активирани) трябва да бъдат въведени отново, за да използвате устройството."
+
+msgid "Advanced"
+msgstr "Разширени"
+
+msgid ""
+"Choose how you want to initialize your {}.\n"
+"\n"
+"The first two methods are secure as no secret information is entered into your computer.\n"
+"\n"
+"For the last two methods you input secrets on your keyboard and upload them to your {}, and so you should only do those on a computer you know to be trustworthy and free of malware."
+msgstr ""
+"Изберете как искате да инициализирате вашия {}.\n"
+"\n"
+"Първите два метода са сигурни, тъй като в компютъра ви не се въвежда секретна информация.\n"
+"\n"
+"За последните два метода въвеждате тайни на клавиатурата си и ги качвате на вашия {} , така че трябва да ги правите само на компютър, за който знаете, че е надежден и без зловреден софтуер."
+
+msgid "Error connecting to {} server"
+msgstr "Грешка при свързване към сървър {}"
+
+msgid "Your labels have been synchronised."
+msgstr "Етикетите ви бяха синхронизирани."
+
+msgid "Your Ledger is locked. Please unlock it."
+msgstr "Вашият Ledger е заключен. Моля, отключете го."
+
+msgid "Your device might not have support for this functionality."
+msgstr "Устройството ви може да не поддържа тази функционалност."
+
+msgid "Confirm Transaction on your Ledger device..."
+msgstr "Потвърдете транзакцията на Ledger устройството си..."
+
+msgid "Cancelled by user"
+msgstr "Анулирано от потребителя"
+
+msgid "Always check your backups."
+msgstr "Винаги проверявайте резервните си копия."
+
+msgid "Digital Revealer ({}_{}) saved as PNG and PDF at:"
+msgstr "Revealer ({}_{}) запазен като PNG и PDF на:"
+
+msgid "More info at: {}"
+msgstr "Още информация на: {}"
+
+msgid "This version supports a maximum of {} characters."
+msgstr "Тази версия поддържа най-много {} знака."
+
+msgid "Warning "
+msgstr "Внимание "
+
+msgid "Calibration sheet"
+msgstr "Калибриращ лист"
+
+msgid "Instructions:"
+msgstr "Указания:"
+
+msgid "4. Type the numbers in the software"
+msgstr "4. Въведете числата в програмата"
+
+msgid "If you have an old printer, or want optimal precision"
+msgstr "Ако имате стар принтер или искате оптимална прецизност"
+
+msgid "Calibration values:"
+msgstr "Калибриращи стойности:"
+
+msgid "Bottom"
+msgstr "Отдолу"
+
+msgid "Choose on your {} device where to enter your passphrase"
+msgstr "Изберете на {} устройството къде да въведете пропуска си"
+
+msgid "{:d} words"
+msgstr "{:d} думи"
+
+msgid "Choose Homescreen"
+msgstr "Избор на начален екран"
+
+msgid "Homescreen"
+msgstr "Начален екран"
+
+msgid "Change..."
+msgstr "Промяна..."
+
+msgid "Please enter your passphrase on the {} device"
+msgstr "Въведете тайна фраза на устройството {}"
+
+msgid "The PIN cannot be longer than {} characters."
+msgstr "PIN не може да бъде по-дълъг от {} знака."
+
+msgid "Select backup type:"
+msgstr "Изберете тип резервно копие:"
+
+msgid "Choose how you want to initialize your {}."
+msgstr "Изберете как искате да инициализирате вашия {}."
+
+msgid "Error connecting to server"
+msgstr "Грешка при свързване със сървъра"
+
+msgid "TrustedCoin"
+msgstr "TrustedCoin"
+
+msgid "Code"
+msgstr "Код"
+
+msgid "Error getting TrustedCoin account info."
+msgstr "Грешка при получаване на информация за акаунта в TrustedCoin."
+
+msgid "If you keep experiencing network problems, try using a Tor proxy."
+msgstr "Ако продължавате да имате проблеми с мрежата, опитайте да използвате Tor прокси."
+
+msgid "Server not reachable."
+msgstr "Сървърът не е достъпен."
+
+msgid "For more information, visit"
+msgstr "За повече информация, посетете"
+
+msgid "Terms and conditions"
+msgstr "Условия за ползване"
+
+msgid "This wallet is already registered with TrustedCoin."
+msgstr "Този портфейл е вече регистриран в TrustedCoin."
+
+msgid "Then, enter your Google Authenticator code:"
+msgstr "След това въведете своя код на Google Authenticator:"
+
+msgid "Google Authenticator code:"
+msgstr "Код на Google Authenticator:"
+
+msgid "You need to be online in order to complete the creation of your wallet. If you want to continue online, keep the checkbox checked and press Next."
+msgstr "Трябва да сте онлайн, за да завършите създаването на портфейла си. Ако искате да продължите онлайн, оставете отметката в квадратчето и натиснете „Напред\"."
+
+msgid "A small fee will be charged on each transaction that uses the remote server.  You may check and modify your billing preferences once the installation is complete."
+msgstr "За всяка транзакция, която използва отдалечения сървър, ще бъде начислена малка такса. Можете да проверите и промените предпочитанията си за таксуване, след като инсталацията приключи."
+
+msgid "Two-factor authentication is a service provided by TrustedCoin. To use it, you must have a separate device with Google Authenticator."
+msgstr "Двуфакторното удостоверяване е услуга, предоставяна от TrustedCoin. За да я използвате, трябва да имате отделно устройство с Google Authenticator."
+
+msgid "Cannot start QR scanner: zbar not available."
+msgstr "Не може да стартира QR скенер, ZBar не е наличнa."
+
+msgid "Cannot start QR scanner: initialization failed."
+msgstr "Не може да стартира QR скенер, неуспешна инициализация."
+
+msgid "Make sure you have a camera connected and enabled."
+msgstr "Уверете се, че камерата е свързана и активирана."
+
+msgid "Select server automatically"
+msgstr "Автоматичен избор на сървър"
+
+msgid "This might improve your privacy somewhat."
+msgstr "Това може донякъде да подобри поверителността ви."
+
+msgid "Avoid spending from used addresses"
+msgstr "Избягвай харчене от използвани адреси"
+
+msgid "Color theme"
+msgstr "Цветна тема"
+
+msgid "Zeros after decimal point"
+msgstr "Нули след десетичната точка"
+
+msgid "Number of zeros displayed after the decimal point. For example, if this is set to 2, \"1.\" will be displayed as \"1.00\""
+msgstr "Брой нули след десетичния знак. Например: ако зададете 2, \"1.\" ще бъде показвано \"1.00\""
+
+msgid "Online Block Explorer"
+msgstr "Онлайн блок-експлорер"
+
+msgid "Choose which online block explorer to use for functions that open a web browser"
+msgstr "Изберете кой онлайн блок-експлорер да се ползва за функциите, които отварят уеб браузъра"
+
+msgid "Video Device"
+msgstr "Видео-устройство"
+
+msgid "Install the zbar package to enable this."
+msgstr "Инсталирайте пакета zbar, за да активирате това."
+
+msgid "Automatically check for software updates"
+msgstr "Автоматична проверка за актуализации на софтуера"
+
+msgid "Write logs to file"
+msgstr "Писане на логове към файл"
+
+msgid "Select which language is used in the GUI (after restart)."
+msgstr "Изберете кой език да се използва в графичния интерфейс (след рестартиране)."
+
+msgid "Nostr relays"
+msgstr "Nostr ретранслатори"
+
+msgid "Invalid length."
+msgstr "Невалидна дължина."
+
+msgid "Insufficient funds"
+msgstr "Недостатъчно средства"
+
+msgid "The fee for the transaction is higher than the funds gained from it."
+msgstr "Таксата за транзакцията е по-висока от средствата, получени от нея."
+
+msgid "Incorrect password"
+msgstr "Грешна парола"
+
+msgid "No Data"
+msgstr "Няма данни"
+
+msgid "Invalid JSON code."
+msgstr "Невалиден JSON код."
+
+msgid "Cannot bump fee"
+msgstr "Не може да се удържи таксата"
+
+msgid "Invalid bitcoin address: {}"
+msgstr "Невалиден Bitcoin адрес: {}"
+
+msgid "Address not in wallet: {}"
+msgstr "Адресът не е в портфейла: {}"
+
+msgid "{} confirmations"
+msgstr "{} потвърждения"
+
+msgid ""
+"If you received this transaction from an untrusted device, do not accept to sign it more than once,\n"
+"otherwise you could end up paying a different fee."
+msgstr "Ако сте получили тази транзакция от ненадеждно устройство, не приемайте да я подпишете повече от веднъж, в противен случай ще платите различна такса."
+
+msgid "The fee for this transaction seems unusually high."
+msgstr "Таксата за тази транзакция изглежда необичайно висока."
+
+msgid "({}% of amount)"
+msgstr "({}% от сумата)"
+
+msgid "(feerate: {})"
+msgstr "(feerate: {})"
+
+msgid "This address has already been used. For better privacy, do not reuse it for new payments."
+msgstr "Този адрес вече е бил използван. За по-добра поверителност не го използвайте повторно за нови плащания."
+
+msgid "You must be online to receive Lightning payments."
+msgstr "Трябва да сте онлайн, за да получавате Lightning плащания."
+
+msgid "Heterogenous master keys"
+msgstr "Разнородни главни ключове"
+
+msgctxt "About|"
+msgid "About Electrum"
+msgstr "Относно Electrum"
+
+msgctxt "About|"
+msgid "Version"
+msgstr "Версия"
+
+msgctxt "About|"
+msgid "Protocol version"
+msgstr "Версия на протокола"
+
+msgctxt "About|"
+msgid "Qt Version"
+msgstr "Версия на Qt"
+
+msgctxt "About|"
+msgid "PyQt Version"
+msgstr "Версия на PyQt"
+
+msgctxt "About|"
+msgid "License"
+msgstr "Лиценз"
+
+msgctxt "About|"
+msgid "Homepage"
+msgstr "Начална страница"
+
+msgctxt "About|"
+msgid "Developers"
+msgstr "Разработчици"
+
+msgctxt "About|"
+msgid "Distributed by Electrum Technologies GmbH"
+msgstr "Разпространява се от Electrum Technologies GmbH"
+
+msgctxt "AddressDelegate|"
+msgid "<no label>"
+msgstr "<без етикет>"
+
+msgctxt "AddressDelegate|"
+msgid "tx"
+msgstr "tx"
+
+msgctxt "AddressDetails|"
+msgid "Address"
+msgstr "Адрес"
+
+msgctxt "AddressDetails|"
+msgid "Balance"
+msgstr "Баланс"
+
+msgctxt "AddressDetails|"
+msgid "Transactions"
+msgstr "Транзакция"
+
+msgctxt "AddressDetails|"
+msgid "Label"
+msgstr "Етикет"
+
+msgctxt "AddressDetails|"
+msgid "Technical Properties"
+msgstr "Технически свойства"
+
+msgctxt "AddressDetails|"
+msgid "Public keys"
+msgstr "Публични ключове"
+
+msgctxt "AddressDetails|"
+msgid "Public key"
+msgstr "Публичен ключ"
+
+msgctxt "AddressDetails|"
+msgid "Private key"
+msgstr "Частен ключ"
+
+msgctxt "AddressDetails|"
+msgid "Delete"
+msgstr "Изтрий"
+
+msgctxt "Addresses|"
+msgid "Addresses"
+msgstr "Адреси"
+
+msgctxt "Addresses|"
+msgid "Coins"
+msgstr "Монети"
+
+msgctxt "Addresses|"
+msgid "search"
+msgstr "търсене"
+
+msgctxt "BIP39RecoveryDialog|"
+msgid "Choose an account to restore."
+msgstr "Изберете акаунт за възстановяване."
+
+msgctxt "BalanceDetails|"
+msgid "Your wallet is not synchronized. The displayed balance may be inaccurate."
+msgstr "Портфейлът ви не е синхронизиран. Показаният баланс може да е неточен."
+
+msgctxt "BalanceDetails|"
+msgid "Your wallet is not connected to an Electrum server. The displayed balance may be outdated."
+msgstr "Портфейлът ви не е свързан към сървър на Electrum. Показаният баланс може да е остарял."
+
+msgctxt "BalanceDetails|"
+msgid "Lightning"
+msgstr "Lightning"
+
+msgctxt "BalanceDetails|"
+msgid "Total"
+msgstr "Общо"
+
+msgctxt "BalanceSummary|"
+msgid "Balance"
+msgstr "Баланс"
+
+msgctxt "BalanceSummary|"
+msgid "Lightning"
+msgstr "Lightning"
+
+msgctxt "BtcField|"
+msgid "Amount"
+msgstr "Сума"
+
+msgctxt "ChannelDetails|"
+msgid "Node name"
+msgstr "Име на възел"
+
+msgctxt "ChannelDetails|"
+msgid "State"
+msgstr "Състояние"
+
+msgctxt "ChannelDetails|"
+msgid "Capacity"
+msgstr "Капацитет"
+
+msgctxt "ChannelDetails|"
+msgid "Technical properties"
+msgstr "Технически свойства"
+
+msgctxt "ChannelDetails|"
+msgid "Channel type"
+msgstr "Тип канал"
+
+msgctxt "ChannelDetails|"
+msgid "Backup type"
+msgstr "Тип резервното копие"
+
+msgctxt "ChannelDetails|"
+msgid "Backup"
+msgstr "Архивиране"
+
+msgctxt "ChannelDetails|"
+msgid "Close channel"
+msgstr "Затваряне на канала"
+
+msgctxt "ChannelDetails|"
+msgid "Are you sure?"
+msgstr "Сигурни ли сте?"
+
+msgctxt "ChannelOpenProgressDialog|"
+msgid "Success!"
+msgstr "Успех!"
+
+msgctxt "Channels|"
+msgid "You have %1 open channels"
+msgstr "Имате %1 отворени канала"
+
+msgctxt "Channels|"
+msgid "You can send"
+msgstr "Можеш да пратиш"
+
+msgctxt "Channels|"
+msgid "You can receive"
+msgstr "Можеш да получиш"
+
+msgctxt "Channels|"
+msgid "Do you want to create your first channel?"
+msgstr "Искате ли да създадете първия си канал?"
+
+msgctxt "CloseChannelDialog|"
+msgid "Close channel"
+msgstr "Затваряне на канала"
+
+msgctxt "CloseChannelDialog|"
+msgid "Channel closed"
+msgstr "Каналът е затворен"
+
+msgctxt "ConfirmTxDialog|"
+msgid "Fee"
+msgstr "Такса"
+
+msgctxt "ConfirmTxDialog|"
+msgid "Extra fee"
+msgstr "Допълнителна такса"
+
+msgctxt "ConfirmTxDialog|"
+msgid "Options"
+msgstr "Опции"
+
+msgctxt "CpfpBumpFeeDialog|"
+msgid "Total"
+msgstr "Общо"
+
+msgctxt "CpfpBumpFeeDialog|"
+msgid "Total size"
+msgstr "Общ размер"
+
+msgctxt "CpfpBumpFeeDialog|"
+msgid "Ok"
+msgstr "ОК"
+
+msgctxt "ExceptionDialog|"
+msgid "Sorry!"
+msgstr "Съжаляваме!"
+
+msgctxt "ExceptionDialog|"
+msgid "Something went wrong while executing Electrum."
+msgstr "Нещо се обърка при изпълнението на Electrum."
+
+msgctxt "ExceptionDialog|"
+msgid "To help us diagnose and fix the problem, you can send us a bug report that contains useful debug information:"
+msgstr "За да ни помогнете да диагностицираме и отстраним проблема, можете да ни изпратите доклад за грешка, който съдържа полезна информация:"
+
+msgctxt "ExceptionDialog|"
+msgid "Do you want to send this report?"
+msgstr "Искате ли да изпратите този доклад?"
+
+msgctxt "ExceptionDialog|"
+msgid "Not Now"
+msgstr "Не сега"
+
+msgctxt "ExceptionDialog|"
+msgid "Error"
+msgstr "Грешка"
+
+msgctxt "ExportTxDialog|"
+msgid "Copy"
+msgstr "Копиране"
+
+msgctxt "ExportTxDialog|"
+msgid "Copied!"
+msgstr "Копирано!"
+
+msgctxt "ExportTxDialog|"
+msgid "Share"
+msgstr "Сподели"
+
+msgctxt "FeePicker|"
+msgid "Total"
+msgstr "Общо"
+
+msgctxt "FiatField|"
+msgid "Amount"
+msgstr "Сума"
+
+msgctxt "GenericShareDialog|"
+msgid "Copy"
+msgstr "Копиране"
+
+msgctxt "GenericShareDialog|"
+msgid "Copied!"
+msgstr "Копирано!"
+
+msgctxt "GenericShareDialog|"
+msgid "Share"
+msgstr "Сподели"
+
+msgctxt "History|"
+msgid "Today"
+msgstr "Днес"
+
+msgctxt "History|"
+msgid "Yesterday"
+msgstr "Вчера"
+
+msgctxt "History|"
+msgid "Last week"
+msgstr "Миналата седмица"
+
+msgctxt "History|"
+msgid "Last month"
+msgstr "Последен месец"
+
+msgctxt "History|"
+msgid "Older"
+msgstr "По-стари"
+
+msgctxt "History|"
+msgid "No transactions in this wallet yet"
+msgstr "Все още няма транзакции в този портфейл"
+
+msgctxt "HistoryItemDelegate|"
+msgid "<no label>"
+msgstr "<без етикет>"
+
+msgctxt "ImportAddressesKeysDialog|"
+msgid "Enter, paste or scan additional addresses"
+msgstr "Въведи, постави или сканирай допълнителен адрес"
+
+msgctxt "ImportAddressesKeysDialog|"
+msgid "Enter, paste or scan additional private keys"
+msgstr "Въведи, постави или сканирай допълнителен частен ключ"
+
+msgctxt "ImportAddressesKeysDialog|"
+msgid "Import"
+msgstr "Импортиране"
+
+msgctxt "InvoiceDialog|"
+msgid "Address"
+msgstr "Адрес"
+
+msgctxt "InvoiceDialog|"
+msgid "Description"
+msgstr "Описание"
+
+msgctxt "InvoiceDialog|"
+msgid "Technical properties"
+msgstr "Технически свойства"
+
+msgctxt "InvoiceDialog|"
+msgid "Fallback address"
+msgstr "Резервен адрес"
+
+msgctxt "InvoiceDialog|"
+msgid "Save"
+msgstr "Запазване"
+
+msgctxt "InvoiceDialog|"
+msgid "Payment sent."
+msgstr "Плащането е изпратено."
+
+msgctxt "Invoices|"
+msgid "Delete"
+msgstr "Изтрий"
+
+msgctxt "LightningPaymentDetails|"
+msgid "Paid"
+msgstr "Платени"
+
+msgctxt "LightningPaymentDetails|"
+msgid "Date"
+msgstr "Дата"
+
+msgctxt "LightningPaymentDetails|"
+msgid "Label"
+msgstr "Етикет"
+
+msgctxt "LightningPaymentDetails|"
+msgid "Technical properties"
+msgstr "Технически свойства"
+
+msgctxt "LnurlPayRequestDialog|"
+msgid "Amount must be between %1 and %2 %3"
+msgstr "Сумата трябва да е между %1 и %2 %3"
+
+msgctxt "LnurlPayRequestDialog|"
+msgid "Description"
+msgstr "Описание"
+
+msgctxt "LnurlPayRequestDialog|"
+msgid "Amount"
+msgstr "Сума"
+
+msgctxt "LnurlPayRequestDialog|"
+msgid "Message"
+msgstr "Съобщение"
+
+msgctxt "LnurlWithdrawRequestDialog|"
+msgid "Amount must be between %1 and %2 %3"
+msgstr "Сумата трябва да е между %1 и %2 %3"
+
+msgctxt "LnurlWithdrawRequestDialog|"
+msgid "Description"
+msgstr "Описание"
+
+msgctxt "LnurlWithdrawRequestDialog|"
+msgid "Amount"
+msgstr "Сума"
+
+msgctxt "MessageDialog|"
+msgid "Question"
+msgstr "Въпрос"
+
+msgctxt "MessageDialog|"
+msgid "Message"
+msgstr "Съобщение"
+
+msgctxt "MessageDialog|"
+msgid "Ok"
+msgstr "ОК"
+
+msgctxt "MessageDialog|"
+msgid "No"
+msgstr "Не"
+
+msgctxt "MessageDialog|"
+msgid "Yes"
+msgstr "Да"
+
+msgctxt "NetworkOverview|"
+msgid "Network"
+msgstr "Мрежа"
+
+msgctxt "NetworkOverview|"
+msgid "Status"
+msgstr "Състояние"
+
+msgctxt "NetworkOverview|"
+msgid "Server"
+msgstr "Сървър"
+
+msgctxt "NetworkOverview|"
+msgid "Mempool fees"
+msgstr "Mempool такси"
+
+msgctxt "NetworkOverview|"
+msgid "Lightning"
+msgstr "Lightning"
+
+msgctxt "NetworkOverview|"
+msgid "Trampoline"
+msgstr "Трамплин"
+
+msgctxt "NetworkOverview|"
+msgid "enabled"
+msgstr "включен"
+
+msgctxt "NetworkOverview|"
+msgid "Proxy"
+msgstr "Прокси"
+
+msgctxt "NetworkOverview|"
+msgid "disabled"
+msgstr "деактивирано"
+
+msgctxt "NetworkOverview|"
+msgid "Proxy server:"
+msgstr "Прокси сървър:"
+
+msgctxt "NetworkOverview|"
+msgid "Proxy type:"
+msgstr "Тип прокси:"
+
+msgctxt "NetworkOverview|"
+msgid "Server Settings"
+msgstr "Сървърни настройки"
+
+msgctxt "NetworkOverview|"
+msgid "Proxy Settings"
+msgstr "Прокси настройки"
+
+msgctxt "NewWalletWizard|"
+msgid "New Wallet"
+msgstr "Нов портфейл"
+
+msgctxt "NewWalletWizard|"
+msgid "Error"
+msgstr "Грешка"
+
+msgctxt "NostrConfigDialog|"
+msgid "Nostr relays"
+msgstr "Nostr ретранслатори"
+
+msgctxt "NostrConfigDialog|"
+msgid "Ok"
+msgstr "ОК"
+
+msgctxt "NostrSwapServersDialog|"
+msgid "Fee"
+msgstr "Такса"
+
+msgctxt "OpenChannelDialog|"
+msgid "Error"
+msgstr "Грешка"
+
+msgctxt "OpenWalletDialog|"
+msgid "Open Wallet"
+msgstr "Отваряне на портфейл"
+
+msgctxt "OpenWalletDialog|"
+msgid "Please enter password"
+msgstr "Моля, въведете парола"
+
+msgctxt "OpenWalletDialog|"
+msgid "Wallet <b>%1</b> requires password to unlock"
+msgstr "Портфейлът <b>%1</b> е с парола за отключване"
+
+msgctxt "OpenWalletDialog|"
+msgid "Password"
+msgstr "Парола"
+
+msgctxt "OpenWalletDialog|"
+msgid "Invalid Password"
+msgstr "Невалидна парола"
+
+msgctxt "OpenWalletDialog|"
+msgid "Unlock"
+msgstr "Отключи"
+
+msgctxt "OtpDialog|"
+msgid "Trustedcoin"
+msgstr "Trustedcoin"
+
+msgctxt "OtpDialog|"
+msgid "Enter Authenticator code"
+msgstr "Въведете кода за удостоверяване"
+
+msgctxt "PasswordDialog|"
+msgid "Enter Password"
+msgstr "Въведете парола"
+
+msgctxt "PasswordDialog|"
+msgid "Password"
+msgstr "Парола"
+
+msgctxt "PasswordDialog|"
+msgid "Password (again)"
+msgstr "Парола (отново)"
+
+msgctxt "PasswordDialog|"
+msgid "Ok"
+msgstr "ОК"
+
+msgctxt "Preferences|"
+msgid "Preferences"
+msgstr "Настройки"
+
+msgctxt "Preferences|"
+msgid "Language"
+msgstr "Език"
+
+msgctxt "Preferences|"
+msgid "Please restart Electrum to activate the new GUI settings"
+msgstr "Моля, рестартирайте Electrum, за да активирате новите настройки на графичния интерфейс"
+
+msgctxt "Preferences|"
+msgid "Base unit"
+msgstr "Основна единица"
+
+msgctxt "Preferences|"
+msgid "Fiat Currency"
+msgstr "Fiat валута"
+
+msgctxt "Preferences|"
+msgid "Historic rates"
+msgstr "Исторически курсове"
+
+msgctxt "Preferences|"
+msgid "Exchange rate provider"
+msgstr "Доставчик на обменен курс"
+
+msgctxt "Preferences|"
+msgid "Increase brightness when displaying QR codes"
+msgstr "Увеличена яркост при показване на QR кодове"
+
+msgctxt "Preferences|"
+msgid "Security"
+msgstr "Сигурност"
+
+msgctxt "Preferences|"
+msgid "Biometric authentication"
+msgstr "Биометрично удостоверяване"
+
+msgctxt "Preferences|"
+msgid "Lightning"
+msgstr "Lightning"
+
+msgctxt "Preferences|"
+msgid "Are you sure?"
+msgstr "Сигурни ли сте?"
+
+msgctxt "Preferences|"
+msgid "Electrum will have to download the Lightning Network graph, which is not recommended on mobile."
+msgstr "Electrum ще трябва да свали графа на Lightning Network, което не се препоръчва на мобилни устройства."
+
+msgctxt "Preferences|"
+msgid "Trampoline routing"
+msgstr "Трамплин маршрутизация"
+
+msgctxt "Preferences|"
+msgid "Advanced"
+msgstr "Разширени"
+
+msgctxt "ProxyConfig|"
+msgid "SOCKS5/TOR"
+msgstr "SOCKS5/TOR"
+
+msgctxt "ProxyConfig|"
+msgid "SOCKS4"
+msgstr "SOCKS4"
+
+msgctxt "ProxyConfig|"
+msgid "Address"
+msgstr "Адрес"
+
+msgctxt "ProxyConfig|"
+msgid "Port"
+msgstr "Порт"
+
+msgctxt "ProxyConfig|"
+msgid "Username"
+msgstr "Потребителско име"
+
+msgctxt "ProxyConfig|"
+msgid "Password"
+msgstr "Парола"
+
+msgctxt "ProxyConfigDialog|"
+msgid "Proxy settings"
+msgstr "Прокси настройки"
+
+msgctxt "ProxyConfigDialog|"
+msgid "Ok"
+msgstr "ОК"
+
+msgctxt "QRImage|"
+msgid "Data too big for QR"
+msgstr "Данните са твърде големи за QR"
+
+msgctxt "RbfBumpFeeDialog|"
+msgid "Method"
+msgstr "Метод"
+
+msgctxt "RbfBumpFeeDialog|"
+msgid "Options"
+msgstr "Опции"
+
+msgctxt "RbfBumpFeeDialog|"
+msgid "Ok"
+msgstr "ОК"
+
+msgctxt "RbfCancelDialog|"
+msgid "Ok"
+msgstr "ОК"
+
+msgctxt "ReceiveDetailsDialog|"
+msgid "Message"
+msgstr "Съобщение"
+
+msgctxt "ReceiveDetailsDialog|"
+msgid "Amount"
+msgstr "Сума"
+
+msgctxt "ReceiveDetailsDialog|"
+msgid "Lightning"
+msgstr "Lightning"
+
+msgctxt "ReceiveDetailsDialog|"
+msgid "Amount too low"
+msgstr "Твърде ниска сума"
+
+msgctxt "ReceiveDialog|"
+msgid "Status"
+msgstr "Състояние"
+
+msgctxt "ReceiveDialog|"
+msgid "Message"
+msgstr "Съобщение"
+
+msgctxt "ReceiveDialog|"
+msgid "Amount"
+msgstr "Сума"
+
+msgctxt "ReceiveDialog|"
+msgid "Copied!"
+msgstr "Копирано!"
+
+msgctxt "ReceiveRequests|"
+msgid "To access this list from the main screen, press and hold the Receive button"
+msgstr "За достъп до този списък от главния екран натиснете и задръжте бутона Получаване"
+
+msgctxt "ReceiveRequests|"
+msgid "Delete"
+msgstr "Изтрий"
+
+msgctxt "RequestExpiryComboBox|"
+msgid "10 minutes"
+msgstr "10 минути"
+
+msgctxt "RequestExpiryComboBox|"
+msgid "1 hour"
+msgstr "1 час"
+
+msgctxt "RequestExpiryComboBox|"
+msgid "1 day"
+msgstr "1 ден"
+
+msgctxt "RequestExpiryComboBox|"
+msgid "1 week"
+msgstr "1 седмица"
+
+msgctxt "RequestExpiryComboBox|"
+msgid "Never"
+msgstr "Никога"
+
+msgctxt "ScanDialog|"
+msgid "Cancel"
+msgstr "Отказ"
+
+msgctxt "SendDialog|"
+msgid "Paste"
+msgstr "Постави"
+
+msgctxt "ServerConfig|"
+msgid "Server"
+msgstr "Сървър"
+
+msgctxt "ServerConfig|"
+msgid "Servers"
+msgstr "Сървъри"
+
+msgctxt "ServerConfig|"
+msgid "Connected"
+msgstr "Свързан"
+
+msgctxt "ServerConfig|"
+msgid "Other known servers"
+msgstr "Други познати сървъри"
+
+msgctxt "ServerConfigDialog|"
+msgid "Server settings"
+msgstr "Сървърни настройки"
+
+msgctxt "ServerConfigDialog|"
+msgid "Ok"
+msgstr "ОК"
+
+msgctxt "ServerConnectModeComboBox|"
+msgid "Auto-connect"
+msgstr "Авто-свързване"
+
+msgctxt "ServerConnectWizard|"
+msgid "Network configuration"
+msgstr "Мрежова конфигурация"
+
+msgctxt "ServerConnectWizard|"
+msgid "Next"
+msgstr "Напред"
+
+msgctxt "SignVerifyMessageDialog|"
+msgid "Address"
+msgstr "Адрес"
+
+msgctxt "SignVerifyMessageDialog|"
+msgid "Message"
+msgstr "Съобщение"
+
+msgctxt "SignVerifyMessageDialog|"
+msgid "Signature"
+msgstr "Подпис"
+
+msgctxt "SignVerifyMessageDialog|"
+msgid "Sign"
+msgstr "Подпис"
+
+msgctxt "SignVerifyMessageDialog|"
+msgid "Verify"
+msgstr "Потвърждаване"
+
+msgctxt "SwapDialog|"
+msgid "Ok"
+msgstr "ОК"
+
+msgctxt "SwapDialog|"
+msgid "Cancel"
+msgstr "Отказ"
+
+msgctxt "SwapDialog|"
+msgid "Success!"
+msgstr "Успех!"
+
+msgctxt "SweepDialog|"
+msgid "Sweep private keys"
+msgstr "Усвояване на частни ключове"
+
+msgctxt "SweepDialog|"
+msgid "Error: invalid private key(s)"
+msgstr "Грешка: невалиден частен ключ(ове)"
+
+msgctxt "SweepDialog|"
+msgid "A few examples"
+msgstr "Няколко примери"
+
+msgctxt "TermsOfUseWizard|"
+msgid "Next"
+msgstr "Напред"
+
+msgctxt "TxDetails|"
+msgid "This transaction is still unconfirmed."
+msgstr "Тази транзакция все още не е потвърдена."
+
+msgctxt "TxDetails|"
+msgid "You can bump its fee to speed up its confirmation, or cancel this transaction."
+msgstr "Можете да увеличите нейната такса, за да ускорите нейното потвърждение, или да анулирате тази транзакция."
+
+msgctxt "TxDetails|"
+msgid "This transaction is local to your wallet. It has not been published yet."
+msgstr "Тази транзакция е локална за портфейла ви. Още не е публикувана."
+
+msgctxt "TxDetails|"
+msgid "This transaction is not fully signed and can be signed by this wallet."
+msgstr "Тази транзакция не е напълно подписана и може да бъде подписана от този портфейл."
+
+msgctxt "TxDetails|"
+msgid "This transaction is not fully signed."
+msgstr "Тази транзакция не е напълно подписана."
+
+msgctxt "TxDetails|"
+msgid "Present this transaction to the next cosigner."
+msgstr "Представете тази транзакция на следващия съподписващ."
+
+msgctxt "TxDetails|"
+msgid "Status"
+msgstr "Състояние"
+
+msgctxt "TxDetails|"
+msgid "Date"
+msgstr "Дата"
+
+msgctxt "TxDetails|"
+msgid "Label"
+msgstr "Етикет"
+
+msgctxt "TxDetails|"
+msgid "Technical properties"
+msgstr "Технически свойства"
+
+msgctxt "TxDetails|"
+msgid "Transaction ID"
+msgstr "ID на транзакция"
+
+msgctxt "TxDetails|"
+msgid "Sign"
+msgstr "Подпис"
+
+msgctxt "TxDetails|"
+msgid "Broadcast"
+msgstr "Излъчване"
+
+msgctxt "TxDetails|"
+msgid "This transaction should be signed. Present this QR code to the signing device"
+msgstr "Тази транзакция трябва да се подпише. Представете този QR код на подписващото устройство"
+
+msgctxt "TxDetails|"
+msgid "Note: this wallet can sign, but has not signed this transaction yet"
+msgstr "Забележка: този портфейл може да подписва, но все още не е подписал тази транзакция"
+
+msgctxt "TxDetails|"
+msgid "Transaction is partially signed by this wallet. Present this QR code to the next co-signer"
+msgstr "Транзакцията е частично подписана от този портфейл. Представете този QR код на следващия съподписващ"
+
+msgctxt "TxDetails|"
+msgid "Save"
+msgstr "Запазване"
+
+msgctxt "TxDetails|"
+msgid "Error"
+msgstr "Грешка"
+
+msgctxt "TxInput|"
+msgid "swap"
+msgstr "размени"
+
+msgctxt "TxInput|"
+msgid "unknown amount"
+msgstr "неизвестна сума"
+
+msgctxt "TxOutput|"
+msgid "swap"
+msgstr "размени"
+
+msgctxt "WCConfirmSeed|"
+msgid "Your seed is important!"
+msgstr "Вашият сийд е важен!"
+
+msgctxt "WCConfirmSeed|"
+msgid "To make sure that you have properly saved your seed, please retype it here."
+msgstr "За да сте сигурни, че правилно сте съхранили вашият сийд, моля препишете го тук."
+
+msgctxt "WCCosignerKeystore|"
+msgid "Master public key"
+msgstr "Главен публичен ключ"
+
+msgctxt "WCCosignerKeystore|"
+msgid "Add cosigner #%1 of %2 to your multi-sig wallet"
+msgstr "Добавете съподписващ #%1 от %2 към портфейла ви с множество подписи"
+
+msgctxt "WCCreateSeed|"
+msgid "Please save these %1 words on paper (order is important)."
+msgstr "Моля, запишете тези %1 думи на хартия (редът е важен)."
+
+msgctxt "WCCreateSeed|"
+msgid "This seed will allow you to recover your wallet in case of computer failure."
+msgstr "Този сийд ще ви позволи да възстановите вашият портфейл в случай на сриване на компютъра ви."
+
+msgctxt "WCCreateSeed|"
+msgid "WARNING"
+msgstr "ВНИМАНИЕ"
+
+msgctxt "WCCreateSeed|"
+msgid "Never type it on a website."
+msgstr "Никога не го пишете в уеб сайт."
+
+msgctxt "WCCreateSeed|"
+msgid "Do not store it electronically."
+msgstr "Не го съхранявай електронно."
+
+msgctxt "WCEnterExt|"
+msgid "Error: duplicate master public key"
+msgstr "Грешка: дублиране на главния публичен ключ"
+
+msgctxt "WCHaveMasterKey|"
+msgid "Error: invalid master key"
+msgstr "Грешка: невалиден главен ключ"
+
+msgctxt "WCHaveMasterKey|"
+msgid "Error: duplicate master public key"
+msgstr "Грешка: дублиране на главния публичен ключ"
+
+msgctxt "WCHaveMasterKey|"
+msgid "Master public key"
+msgstr "Главен публичен ключ"
+
+msgctxt "WCHaveMasterKey|"
+msgid "Please enter the master public key (xpub) of your cosigner."
+msgstr "Моля, въведете главният публичен ключ (xpub) на вашият съподписан портфейл."
+
+msgctxt "WCHaveMasterKey|"
+msgid "Enter their master private key (xprv) if you want to be able to sign for them."
+msgstr "Въведете главен частен ключ (xprv) ако искате да можете да се подписвате за тях."
+
+msgctxt "WCHaveSeed|"
+msgid "Error: duplicate master public key"
+msgstr "Грешка: дублиране на главния публичен ключ"
+
+msgctxt "WCHaveSeed|"
+msgid "Master public key"
+msgstr "Главен публичен ключ"
+
+msgctxt "WCMultisig|"
+msgid "Number of cosigners: %1"
+msgstr "Брой съподписващи: %1"
+
+msgctxt "WCMultisig|"
+msgid "Number of signatures: %1"
+msgstr "Брой подписи: %1"
+
+msgctxt "WCProxyConfig|"
+msgid "Proxy"
+msgstr "Прокси"
+
+msgctxt "WCScriptAndDerivation|"
+msgid "Error: duplicate master public key"
+msgstr "Грешка: дублиране на главния публичен ключ"
+
+msgctxt "WCScriptAndDerivation|"
+msgid "Choose the type of addresses in your wallet."
+msgstr "Изберете типа адреси в портфейла си."
+
+msgctxt "WCScriptAndDerivation|"
+msgid "If you are not sure what this is, leave this field unchanged."
+msgstr "Ако не сте сигурни какво е това, оставете това поле непроменено."
+
+msgctxt "WCServerConfig|"
+msgid "Server"
+msgstr "Сървър"
+
+msgctxt "WCWalletName|"
+msgid "Wallet name"
+msgstr "Име на портфейл"
+
+msgctxt "WCWalletPassword|"
+msgid "Enter password"
+msgstr "Въведете парола"
+
+msgctxt "WCWalletPassword|"
+msgid "Enter password (again)"
+msgstr "Въведете отново паролата"
+
+msgctxt "WCWalletPassword|"
+msgid "Passwords don't match"
+msgstr "Паролите не съвпадат"
+
+msgctxt "WCWalletPassword|"
+msgid "Password too short"
+msgstr "Паролата е твърде кратка"
+
+msgctxt "WCWalletType|"
+msgid "What kind of wallet do you want to create?"
+msgstr "Какъв вид портфейл искате да създадете?"
+
+msgctxt "WCWalletType|"
+msgid "Standard Wallet"
+msgstr "Стандартен портфейл"
+
+msgctxt "WCWalletType|"
+msgid "Wallet with two-factor authentication"
+msgstr "Портфейл с двуфакторно удостоверяване"
+
+msgctxt "WCWalletType|"
+msgid "Multi-signature wallet"
+msgstr "Портфейл с множество подписи"
+
+msgctxt "WCWelcome|"
+msgid "Configure Proxy"
+msgstr "Прокси конфигурация"
+
+msgctxt "WCWelcome|"
+msgid "Select Server"
+msgstr "Избор на сървър"
+
+msgctxt "WalletDetails|"
+msgid "Encrypted"
+msgstr "Шифрирано"
+
+msgctxt "WalletDetails|"
+msgid "Lightning"
+msgstr "Lightning"
+
+msgctxt "WalletDetails|"
+msgid "Seed"
+msgstr "Сийд"
+
+msgctxt "WalletDetails|"
+msgid "Name"
+msgstr "Име"
+
+msgctxt "WalletDetails|"
+msgid "2FA"
+msgstr "2FA"
+
+msgctxt "WalletDetails|"
+msgid "enabled"
+msgstr "включен"
+
+msgctxt "WalletDetails|"
+msgid "unknown"
+msgstr "неизвестен"
+
+msgctxt "WalletDetails|"
+msgid "Keystore"
+msgstr "Хранилище за ключове"
+
+msgctxt "WalletDetails|"
+msgid "Imported addresses"
+msgstr "Импортирани адреси"
+
+msgctxt "WalletDetails|"
+msgid "Imported keys"
+msgstr "Импортирани ключове"
+
+msgctxt "WalletDetails|"
+msgid "Change Password"
+msgstr "Промяна на парола"
+
+msgctxt "WalletDetails|"
+msgid "Success"
+msgstr "Успешно"
+
+msgctxt "WalletDetails|"
+msgid "Error"
+msgstr "Грешка"
+
+msgctxt "WalletDetails|"
+msgid "Warning"
+msgstr "Внимание"
+
+msgctxt "WalletDetails|"
+msgid "Biometric Authentication"
+msgstr "Биометрично удостоверяване"
+
+msgctxt "WalletMainView|"
+msgid "Sweep"
+msgstr "Усвояване"
+
+msgctxt "WalletMainView|"
+msgid "Addresses/Coins"
+msgstr "Адреси/Монети"
+
+msgctxt "WalletMainView|"
+msgid "Channels"
+msgstr "Канали"
+
+msgctxt "WalletMainView|"
+msgid "Other wallets"
+msgstr "Други портфейли"
+
+msgctxt "WalletMainView|"
+msgid "Receive"
+msgstr "Получаване"
+
+msgctxt "WalletMainView|"
+msgid "Send"
+msgstr "Изпращане"
+
+msgctxt "WalletMainView|"
+msgid "Error"
+msgstr "Грешка"
+
+msgctxt "WalletMainView|"
+msgid "Cannot import Channel Backup, Lightning not enabled."
+msgstr "Не може да се импортира резервно копие на канала, Lightning не е активиран."
+
+msgctxt "WalletMainView|"
+msgid "Transaction created. Present this QR code to one of the co-cigners or signing devices"
+msgstr "Транзакцията е създадена. Представете този QR код на един от съподписващите или подписващите устройства"
+
+msgctxt "WalletMainView|"
+msgid "Transaction created. Present this QR code to the signing device"
+msgstr "Транзакцията е създадена. Представете този QR код на подписващото устройство"
+
+msgctxt "WalletMainView|"
+msgid "Transaction created and partially signed by this wallet. Present this QR code to the next co-signer"
+msgstr "Транзакцията е създадена и частично подписана от този портфейл. Представете този QR код на следващия съподписващ"
+
+msgctxt "WalletMainView|"
+msgid "Transaction created but not signed by this wallet yet. Sign the transaction and present this QR code to the next co-signer"
+msgstr "Транзакцията е създадена, но все още не е подписана от този портфейл. Подпишете транзакцията и представете този QR код на следващия съподписващ"
+
+msgctxt "Wallets|"
+msgid "Wallets"
+msgstr "Портфейли"
+
+msgctxt "Wallets|"
+msgid "Current"
+msgstr "Текущ"
+
+msgctxt "Wallets|"
+msgid "Active"
+msgstr "Активен"
+
+msgctxt "Wizard|"
+msgid "Cancel"
+msgstr "Отказ"
+
+msgctxt "Wizard|"
+msgid "Back"
+msgstr "Обратно"
+
+msgctxt "Wizard|"
+msgid "Next"
+msgstr "Напред"
+
+msgctxt "Wizard|"
+msgid "Finish"
+msgstr "Готово"
+
+msgctxt "main|"
+msgid "Network"
+msgstr "Мрежа"
+
+msgctxt "main|"
+msgid "Preferences"
+msgstr "Настройки"
+
+msgctxt "main|"
+msgid "About"
+msgstr "Относно"
+
+msgctxt "main|"
+msgid "Error"
+msgstr "Грешка"
+
+msgctxt "main|"
+msgid "Close Electrum?"
+msgstr "Затваряне на Electrum?"
+
+msgctxt "main|"
+msgid "Invalid Password"
+msgstr "Невалидна парола"

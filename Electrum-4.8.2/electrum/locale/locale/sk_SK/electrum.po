@@ -1,0 +1,3956 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: electrum\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-02 08:02+0000\n"
+"PO-Revision-Date: 2026-07-02 08:02\n"
+"Last-Translator: \n"
+"Language-Team: Slovak\n"
+"Language: sk_SK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Qt-Contexts: true\n"
+"X-Electrum-SourceStringCount: 2738\n"
+"Plural-Forms: nplurals=4; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 3;\n"
+"X-Crowdin-Project: electrum\n"
+"X-Crowdin-Project-ID: 20482\n"
+"X-Crowdin-Language: sk\n"
+"X-Crowdin-File: /electrum-client/messages.pot\n"
+"X-Crowdin-File-ID: 68\n"
+
+msgid "Something went wrong while executing Electrum."
+msgstr "Pri vykonávaní aplikácie Electrum sa vyskytla chyba."
+
+msgid "Sorry!"
+msgstr "Prepáčte!"
+
+msgid "To help us diagnose and fix the problem, you can send us a bug report that contains useful debug information:"
+msgstr "Aby ste nám pomohli diagnostikovať a vyriešiť problém, môžete nám odoslať správu o chybe, ktorá obsahuje užitočné informácie o ladení:"
+
+msgid "Please briefly describe what led to the error (optional):"
+msgstr "Prosím, stručne popíšte, čo viedlo k chybe (voliteľné):"
+
+msgid "Do you want to send this report?"
+msgstr "Chcete odoslať túto správu?"
+
+msgid "Do not enter sensitive/private information here. The report will be visible on the public issue tracker."
+msgstr "Nezadávajte sem citlivé/osobné informácie. Správa bude viditeľná vo verejnom issue trackeri."
+
+msgid "Missing report URL."
+msgstr "Chýbajúca správa URL."
+
+msgid "unknown parser {!r} (choices: {})"
+msgstr "neznámy analyzátor {!r} (voľby: {})"
+
+msgid "Unexpected password hash version"
+msgstr "Neočakávaná verzia hašu hesla"
+
+msgid "You are most likely using an outdated version of Electrum. Please update."
+msgstr "Pravdepodobne používate zastaranú verziu aplikácie Electrum. Prosím, aktualizujte ju."
+
+msgid "Unsupported password hash version"
+msgstr "Nepodporovaná verzia hašu hesla"
+
+msgid "  (No FX rate available)"
+msgstr "  (Nie je k dispozícii výmenný kurz)"
+
+msgid "No data"
+msgstr "Žiadne údaje"
+
+msgid "ETA"
+msgstr "Odhadovaný čas"
+
+msgid "Mempool"
+msgstr "Mempool"
+
+msgid "Low fee"
+msgstr "Nízky poplatok"
+
+msgid "In the next block"
+msgstr "V ďalšom bloku"
+
+msgid "Within {} blocks"
+msgstr "V {} blokoch"
+
+msgid "Target"
+msgstr "Cieľ"
+
+msgid "Current rate"
+msgstr "Aktuálny kurz"
+
+msgid "Fixed rate"
+msgstr "Fixný kurz"
+
+msgid "Estimate"
+msgstr "Odhad"
+
+msgid "{} from tip"
+msgstr "{} od špičky"
+
+msgid "Try to raise your transaction fee, or use a server with a lower relay fee."
+msgstr "Skúste navýšiť transakčný poplatok alebo použite server s nižším prenosovým poplatkom."
+
+msgid "There was a problem with the automatic reporting:"
+msgstr "Vyskytol sa problém s automatickými hláseniami:"
+
+msgid "Please report this issue manually"
+msgstr "Nahláste tento problém manuálne"
+
+msgid "Wrong key type"
+msgstr "Nesprávny typ kľúča"
+
+msgid "Could not close channel: "
+msgstr "Nepodarilo sa zavrieť kanál: "
+
+msgid "This invoice has expired"
+msgstr "Táto faktúra exspirovala"
+
+msgid "Error"
+msgstr "Chyba"
+
+msgid "You are offline."
+msgstr "Ste offline."
+
+msgid "Are you sure you want to remove this transaction?"
+msgstr "Ste si istý/á, že chcete odstrániť túto transakciu?"
+
+msgid "Are you sure you want to remove this transaction and {} child transactions?"
+msgstr "Ste si istý/á, že chcete odstrániť túto transakciu a {} detských transakcií?"
+
+msgid "Warning"
+msgstr "Upozornenie"
+
+msgid "The new fee rate needs to be higher than the old fee rate."
+msgstr "Sadzba nového poplatku musí byť vyššia ako sadzba starého poplatku."
+
+msgid "Can't CPFP: unknown fee for parent transaction."
+msgstr "Nie je možné CPFP: neznámy poplatok za rodičovskú transakciu."
+
+msgid "Max fee exceeded"
+msgstr "Maximálny poplatok prekročený"
+
+msgid "Not enough funds"
+msgstr "Nedostatok prostriedkov"
+
+msgid "Amount"
+msgstr "Suma"
+
+msgid "Synchronizing..."
+msgstr "Synchronizuje sa..."
+
+msgid "Transaction could not be saved."
+msgstr "Transakciu sa nepodarilo uložiť."
+
+msgid "It conflicts with current history."
+msgstr "Je to v rozpore so súčasnou históriou."
+
+msgid "Network"
+msgstr "Sieť"
+
+msgid "Lightning Network"
+msgstr "Sieť Lightning"
+
+msgid "Show/Hide"
+msgstr "Zobraziť/Skryť"
+
+msgid "Close"
+msgstr "Zavrieť"
+
+msgid "Dark/Light"
+msgstr "Tmavé/Svetlé"
+
+msgid "Exit Electrum"
+msgstr "Ukončiť Electrum"
+
+msgid "Cannot load wallet"
+msgstr "Nie je možné načítať peňaženku"
+
+msgid "Address"
+msgstr "Adresa"
+
+msgid "Public keys"
+msgstr "Verejné kľúče"
+
+msgid "Redeem Script"
+msgstr "Redeem Script"
+
+msgid "Witness Script"
+msgstr "Svedecký skript"
+
+msgid "Derivation path"
+msgstr "Derivačná cesta"
+
+msgid "Unused"
+msgstr "Nepoužité"
+
+msgid "Funded"
+msgstr "Financované"
+
+msgid "Used"
+msgstr "Použité"
+
+msgid "Receiving"
+msgstr "Prijímajúce"
+
+msgid "Change"
+msgstr "Drobné"
+
+msgid "Fiat"
+msgstr "Fiat"
+
+msgid "Type"
+msgstr "Typ"
+
+msgid "Label"
+msgstr "Menovka"
+
+msgid "Balance"
+msgstr "Zostatok"
+
+msgid "Tx"
+msgstr "Tx"
+
+msgid "change"
+msgstr "drobné"
+
+msgid "receiving"
+msgstr "prijímajúca"
+
+msgid "Details"
+msgstr "Podrobnosti"
+
+msgid "Edit {}"
+msgstr "Upraviť {}"
+
+msgid "Private key"
+msgstr "Súkromný kľúč"
+
+msgid "Sign/verify message"
+msgstr "Podpísať/overiť správu"
+
+msgid "Encrypt/decrypt message"
+msgstr "Šifrovať/dešifrovať správu"
+
+msgid "Remove from wallet"
+msgstr "Odstrániť z peňaženky"
+
+msgid "View on block explorer"
+msgstr "Pozrieť v prieskumníkovi blokov"
+
+msgid "Freeze"
+msgstr "Zmraziť"
+
+msgid "Unfreeze"
+msgstr "Uvoľniť"
+
+msgid "Unconfirmed"
+msgstr "Nepotvrdené"
+
+msgid "Lightning"
+msgstr "Lightning"
+
+msgid "Channel Backup"
+msgstr "Zálohovanie kanálov"
+
+msgid "Payments (HTLCs):"
+msgstr "Platby (kontrakty HTLC):"
+
+msgid "Sent HTLC with ID {}"
+msgstr "Odoslaný kontrakt HTLC s ID {}"
+
+msgid "CLTV expiry"
+msgstr "Vypršanie CLTV"
+
+msgid "Payment hash"
+msgstr "Haš platby"
+
+msgid "Fulfilled HTLCs"
+msgstr "Splnené kontrakty HTLC"
+
+msgid "HTLCs in current commitment transaction"
+msgstr "Kontrakty HTLC v súčasnej záväzkovej transakcii"
+
+msgid "Failed HTLCs"
+msgstr "Zlyhané kontrakty HTLC"
+
+msgid "Remote Node ID"
+msgstr "ID vzdialeného uzla"
+
+msgid "Channel ID"
+msgstr "ID kanála"
+
+msgid "Short Channel ID"
+msgstr "Short Channel ID"
+
+msgid "Capacity"
+msgstr "Kapacita"
+
+msgid "Initiator:"
+msgstr "Iniciátor:"
+
+msgid "Can send"
+msgstr "Môže odosielať"
+
+msgid "Node alias"
+msgstr "Alias uzla"
+
+msgid "Status"
+msgstr "Stav"
+
+msgid "Please wait..."
+msgstr "Čakajte, prosím..."
+
+msgid "Force-close channel?"
+msgstr "Vynútiť zatvorenie kanála?"
+
+msgid "Force-close channel"
+msgstr "Vynútiť zatvorenie kanála"
+
+msgid "Are you sure you want to delete this channel? This will purge associated transactions from your wallet history."
+msgstr "Ste si istý/á, že chcete odstrániť tento kanál? Týmto sa vymažú z vašej histórie peňaženky súvisiace transakcie."
+
+msgid "Remove channel backup?"
+msgstr "Odstrániť zálohu kanála?"
+
+msgid "Node ID"
+msgstr "ID uzla"
+
+msgid "Long Channel ID"
+msgstr "ID dlhého kanálu"
+
+msgid "Request force-close"
+msgstr "Vyžiadané zatvorenie nasilu"
+
+msgid "Export backup"
+msgstr "Exportovať zálohu"
+
+msgid "Delete"
+msgstr "Odstrániť"
+
+msgid "This channel is frozen for sending. It will not be used for outgoing payments."
+msgstr "Tento kanál je zmrazený na odosielanie. Nebude sa používať na odchádzajúce platby."
+
+msgid "This channel is frozen for receiving. It will not be included in invoices."
+msgstr "Tento kanál je zmrazený pre príjem. Nebude zahrnutý do faktúr."
+
+msgid "can receive"
+msgstr "môže prijať"
+
+msgid "Lightning Network Statistics"
+msgstr "Štatistika siete Lightning"
+
+msgid "Nodes"
+msgstr "Uzly"
+
+msgid "Channels"
+msgstr "Kanály"
+
+msgid "To somewhat protect your privacy, Electrum tries to create change with similar precision to other outputs."
+msgstr "Pre istú ochranu vášho súkromia sa Electrum snaží tvoriť výdavok s presnosťou podobnou iným výstupom."
+
+msgid "At most 100 satoshis might be lost due to this rounding."
+msgstr "V dôsledku tohto zaokrúhlenia by ste mohli prísť maximálne o 100 satoshi."
+
+msgid "You can disable this setting in '{}'."
+msgstr "Toto nastavenie môžete vypnúť v „{}“."
+
+msgid "Preferences"
+msgstr "Predvoľby"
+
+msgid "Also, dust is not kept as change, but added to the fee."
+msgstr "Dust (prach) sa tiež neuchováva ako zvyšok, ale sa pridáva k poplatku."
+
+msgid "Also, when batching RBF transactions, BIP 125 imposes a lower bound on the fee."
+msgstr "Takisto pri dávkovaní transakcií RBF BIP 125 ukladá nižšiu spodnú hranicu pre poplatok."
+
+msgid "Fee rounding"
+msgstr "Zaokrúhľovanie poplatku"
+
+msgid "Additional {} satoshis are going to be added."
+msgstr "Pridá sa ďalších {} satoshi."
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Not available for this wallet."
+msgstr "Nie je k dispozícii pre túto peňaženku."
+
+msgid "Use change addresses"
+msgstr "Použiť adresu pre výdavok"
+
+msgid "Using change addresses makes it more difficult for other people to track your transactions."
+msgstr "Použitie adresy pre výdavok sťažuje druhým ľuďom sledovanie vašich transakcií."
+
+msgid "Use multiple change addresses"
+msgstr "Použiť niekoľko adries pre výdavok"
+
+msgid "In some cases, use up to 3 change addresses in order to break up large coin amounts and obfuscate the recipient address."
+msgstr "V niektorých prípadoch použite až 3 adresy pre výdavok, aby sa mohli veľké sumy mincí rozdeliť na menšie a aby sa ukryla adresa príjemcu."
+
+msgid "This may result in higher transactions fees."
+msgstr "Môže to mať za následok vyššie transakčné poplatky."
+
+msgid "You need to set a lower fee."
+msgstr "Musíte nastaviť nižší poplatok"
+
+msgid "Preparing transaction..."
+msgstr "Pripravuje sa transakcia..."
+
+msgid "You send"
+msgstr "Posielate"
+
+msgid "Mining fee"
+msgstr "Ťažobný poplatok"
+
+msgid "Amount to be sent"
+msgstr "Suma na odoslanie"
+
+msgid "Bitcoin transactions are in general not free. A transaction fee is paid by the sender of the funds."
+msgstr "Transakcie Bitcoinov všeobecne nie sú bezplatné. Poplatok za transakciu platí odosielateľ peňažných prostriedkov."
+
+msgid "The amount of fee can be decided freely by the sender. However, transactions with low fees take more time to be processed."
+msgstr "Výšku poplatku môže zvoliť sám odosielateľ. Spracovanie transakcie s nízkym poplatkom však môže trvať dlhšie."
+
+msgid "A suggested fee is automatically added to this field. You may override it. The suggested fee increases with the size of the transaction."
+msgstr "Navrhnutý poplatok sa automaticky pridáva k tomuto poľu. Môžete to prepísať. Navrhovaný poplatok sa zväčšuje s veľkosťou transakcie."
+
+msgid "Additional fees"
+msgstr "Dodatočné poplatky"
+
+msgid "Warning!"
+msgstr "Pozor!"
+
+msgid "Do not paste code here that you don't understand. Executing the wrong code could lead to your coins being irreversibly lost."
+msgstr "Nevkladajte sem kód, ktorému nerozumiete. Vykonanie chybného kódu by mohlo viesť k nezvratnej strate vašich mincí."
+
+msgid "Click here to hide this message."
+msgstr "Pre skrytie tejto správy kliknite sem."
+
+msgid "Name"
+msgstr "Meno"
+
+msgid "Copy {}"
+msgstr "Kopírovať {}"
+
+msgid "Pay to"
+msgstr "Príjemca"
+
+msgid "Import"
+msgstr "Importovať"
+
+msgid "Export"
+msgstr "Exportovať"
+
+msgid "An Error Occurred"
+msgstr "Vyskytla sa chyba"
+
+msgid "Show report contents"
+msgstr "Zobraziť obsah správy"
+
+msgid "Send Bug Report"
+msgstr "Odoslať správu o chybe"
+
+msgid "Not Now"
+msgstr "Nie teraz"
+
+msgid "Crash report"
+msgstr "Hlásenie o zlyhaní"
+
+msgid "Sending crash report..."
+msgstr "Odosiela sa správa o zlyhaní..."
+
+msgid "Report contents"
+msgstr "Obsah správy"
+
+msgid "Mempool based: fee rate is targeting a depth in the memory pool"
+msgstr "Založený na mempoole: sadzba poplatku sa odvíja od hĺbky fondu pamäti"
+
+msgid ""
+"This transaction is only available on your local machine.\n"
+"The currently connected server does not know about it.\n"
+"You can either broadcast it now, or simply remove it."
+msgstr ""
+"Táto transakcia je k dispozícii iba na vašom lokálnom počítači.\n"
+"Aktuálne pripojený server o nej nevie.\n"
+"Môžete ju teraz začať vysielať, alebo jednoducho odstrániť."
+
+msgid " confirmation"
+msgstr " potvrdenie"
+
+msgid "Value"
+msgstr "Hodnota"
+
+msgid "Acquisition price"
+msgstr "Obstarávacia cena"
+
+msgid "Capital Gains"
+msgstr "Kapitálové výnosy"
+
+msgid "Date"
+msgstr "Dátum"
+
+msgid "Description"
+msgstr "Popis"
+
+msgid "All"
+msgstr "Všetko"
+
+msgid "Custom"
+msgstr "Vlastné"
+
+msgid "None"
+msgstr "Žiadny"
+
+msgid "From"
+msgstr "Od"
+
+msgid "To"
+msgstr "Komu"
+
+msgid "&Summary"
+msgstr "&Zhrnutie"
+
+msgid "&Plot"
+msgstr "&Vykresliť"
+
+msgid "&Export"
+msgstr "&Exportovať"
+
+msgid "Select date"
+msgstr "Vybrať dátum"
+
+msgid "Nothing to summarize."
+msgstr "Nie je čo zhrnúť."
+
+msgid "Summary"
+msgstr "Zhrnutie"
+
+msgid "End"
+msgstr "Koniec"
+
+msgid "Copy"
+msgstr "Kopírovať"
+
+msgid "Payment Hash"
+msgstr "Haš platby"
+
+msgid "Preimage"
+msgstr "Predobraz - Preimage"
+
+msgid "View log"
+msgstr "Zobraziť denník"
+
+msgid "Remove"
+msgstr "Odstrániť"
+
+msgid "Transaction ID"
+msgstr "ID transakcie"
+
+msgid "View Channel"
+msgstr "Zobraziť kanál"
+
+msgid "Increase fee"
+msgstr "Navýšiť poplatok"
+
+msgid "Child pays for parent"
+msgstr "Dieťa platí za rodiča"
+
+msgid "View invoice"
+msgstr "Zobraziť faktúru"
+
+msgid "Please confirm"
+msgstr "Prosím, potvrďte"
+
+msgid "Export History"
+msgstr "Exportovať históriu"
+
+msgid "Select file to export your wallet transactions to"
+msgstr "Vybrať súbor do ktorého exportovať transakcie vašej peňaženky"
+
+msgid "Electrum was unable to produce a transaction export."
+msgstr "Electrum nemohol vytvoriť export transakcií."
+
+msgid "Unable to export history"
+msgstr "Neschopný exportovať históriu"
+
+msgid "Your wallet history has been successfully exported."
+msgstr "História vašej peňaženky bola úspešne exportovaná."
+
+msgid "Unknown"
+msgstr "Neznáme"
+
+msgid "Batch pay invoices"
+msgstr "Dávkové faktúry"
+
+msgid "Delete invoices"
+msgstr "Odstrániť faktúry"
+
+msgid "Pay"
+msgstr "Zaplatiť"
+
+msgid "Retry"
+msgstr "Opakovať"
+
+msgid "Payment log"
+msgstr "Denník platieb"
+
+msgid "Hops"
+msgstr "Skoky"
+
+msgid "Message"
+msgstr "Správa"
+
+msgid "{} nodes"
+msgstr "{} uzle(ov)"
+
+msgid "{} channels"
+msgstr "{} kanále(ov)"
+
+msgid "Connected to {} peers"
+msgstr "Pripojený k {0} partnerom"
+
+msgid "Requesting {} channels..."
+msgstr "Žiadam o {} kanále(ov) ..."
+
+msgid "Lightning Payment"
+msgstr "Platba Lightning"
+
+msgid "Raw"
+msgstr "Raw zdrojové dáta"
+
+msgid "Block height"
+msgstr "Výška bloku"
+
+msgid "History"
+msgstr "História"
+
+msgid "Send"
+msgstr "Odoslať"
+
+msgid "Receive"
+msgstr "Prijať"
+
+msgid "&Addresses"
+msgstr "&Adresy"
+
+msgid "Co&ins"
+msgstr "Mi&nce"
+
+msgid "Con&tacts"
+msgstr "Kon&takty"
+
+msgid "Con&sole"
+msgstr "Kon&zola"
+
+msgid "Enable update check"
+msgstr "Povoliť kontrolu aktualizácie"
+
+msgid "For security reasons we advise that you always use the latest version of Electrum."
+msgstr "Z bezpečnostných dôvodov vám odporúčame vždy používať najnovšiu verziu Electrum."
+
+msgid "Would you like to be notified when there is a newer version of Electrum available?"
+msgstr "Chceli by ste dostávať oznámenia, keď je k dispozícii novšia verzia Electrum?"
+
+msgid "Update to Electrum {} is available"
+msgstr "Je k dispozícii aktualizácia Electrum {}"
+
+msgid "watching only"
+msgstr "len pre čítanie"
+
+msgid "This wallet is watching-only."
+msgstr "Táto peňaženka je iba na sledovanie."
+
+msgid "This means you will not be able to spend Bitcoins with it."
+msgstr "Znamená to, že nebudete môcť minúť bitcoiny, ktoré obsahuje."
+
+msgid "Make sure you own the seed phrase or the private keys, before you request Bitcoins to be sent to this wallet."
+msgstr "Predtým, ako požiadate o zaslanie Bitcoinov do tejto peňaženky, sa uistite, že vlastníte seedovú frázu alebo súkromné kľúče."
+
+msgid "Watch-only wallet"
+msgstr "Peňaženka iba na sledovanie"
+
+msgid "You are in testnet mode."
+msgstr "Ste v testovacom režime."
+
+msgid "Testnet coins are worthless."
+msgstr "Testnetové mince sú bezcenné."
+
+msgid "Testnet is separate from the main Bitcoin network. It is used for testing."
+msgstr "Testnet funfuje nezávisle od hlavnej bitcoinovej siete a využíva sa na testovanie."
+
+msgid "Don't show this again."
+msgstr "Nabudúce nezobrazovať."
+
+msgid "Testnet"
+msgstr "Testnet"
+
+msgid "File Backup"
+msgstr "Záloha súboru"
+
+msgid "Backup directory"
+msgstr "Adresár zálohy"
+
+msgid "Please select a backup directory"
+msgstr "Vyberte záložný adresár"
+
+msgid "Note that lightning channels will be converted to channel backups."
+msgstr "Upozorňujeme, že Lightning kanály sa skonvertujú na zálohy kanálov."
+
+msgid "You cannot use channel backups to perform lightning payments."
+msgstr "Zálohovanie kanálov nemôžete použiť na vykonávanie lightning platieb."
+
+msgid "Channel backups can only be used to request your channels to be closed."
+msgstr "Zálohy kanálov je možné použiť iba na to, aby sa vaše kanály zatvorili."
+
+msgid "You need to configure a backup directory in your preferences"
+msgstr "Vo svojich predvoľbách musíte nakonfigurovať adresár zálohy"
+
+msgid "Electrum was unable to copy your wallet file to the specified location."
+msgstr "Electrum nedokázal skopírovať súbor s vašou peaňzenkou do uvedeného umiestnenia."
+
+msgid "Unable to create backup"
+msgstr "Nedá sa vytvoriť záloha"
+
+msgid "A copy of your wallet file was created in"
+msgstr "Kópia vášho súboru peňaženky sa vytvorila v"
+
+msgid "Wallet backup created"
+msgstr "Záloha peňaženky vytvorená"
+
+msgid "&File"
+msgstr "&Súbor"
+
+msgid "&Recently open"
+msgstr "&Naposledy otvorené"
+
+msgid "&Open"
+msgstr "&Otvoriť"
+
+msgid "&New/Restore"
+msgstr "&Nový/Obnoviť"
+
+msgid "&Save backup"
+msgstr "&Uložiť zálohu"
+
+msgid "&Quit"
+msgstr "&Skončiť"
+
+msgid "&Wallet"
+msgstr "&Peňaženka"
+
+msgid "&Information"
+msgstr "&Informácie"
+
+msgid "&Password"
+msgstr "&Heslo"
+
+msgid "&Seed"
+msgstr "&Seed"
+
+msgid "&Private keys"
+msgstr "&Súkromné kľúče"
+
+msgid "&Sweep"
+msgstr "Zhrnúť"
+
+msgid "&Import"
+msgstr "&Importovať"
+
+msgid "Import addresses"
+msgstr "Importovať adresy"
+
+msgid "&Labels"
+msgstr "&Menovky"
+
+msgid "Find"
+msgstr "Nájsť"
+
+msgid "&View"
+msgstr "&Zobraziť"
+
+msgid "&Tools"
+msgstr "&Nástroje"
+
+msgid "Electrum preferences"
+msgstr "Nastavenia programu Electrum"
+
+msgid "&Network"
+msgstr "&Sieť"
+
+msgid "&Plugins"
+msgstr "&Doplnky"
+
+msgid "&Sign/verify message"
+msgstr "&Podpísať/overiť správu"
+
+msgid "&Encrypt/decrypt message"
+msgstr "&Šifrovať/dešifrovať správu"
+
+msgid "&Load transaction"
+msgstr "&Načítať transakcie"
+
+msgid "&From file"
+msgstr "&Zo súboru"
+
+msgid "&From text"
+msgstr "&Z textu"
+
+msgid "&From the blockchain"
+msgstr "&Z blockchain"
+
+msgid "&From QR code"
+msgstr "&Z QR kódu"
+
+msgid "&Help"
+msgstr "&Pomoc"
+
+msgid "&About"
+msgstr "&O aplikácii"
+
+msgid "&Check for updates"
+msgstr "&Vyhľadať aktualizácie"
+
+msgid "&Official website"
+msgstr "&Oficiálna webstránka"
+
+msgid "&Documentation"
+msgstr "&Dokumentácia"
+
+msgid "&Bitcoin Paper"
+msgstr "&Bitcoin Paper"
+
+msgid "&Report Bug"
+msgstr "&Nahlásiť chybu v programe"
+
+msgid "&Donate to server"
+msgstr "&Prispieť na server"
+
+msgid "No donation address for this server"
+msgstr "Pri tomto serveri chýba adresa pre dary"
+
+msgid "Version"
+msgstr "Verzia"
+
+msgid "You do not need to perform regular backups, because your wallet can be recovered from a secret phrase that you can memorize or write on paper."
+msgstr "Nemusíte vykonávať pravidelné zálohy, pretože vašu peňaženku možno obnoviť z tajnej frázy, ktorú si môžete zapamätať alebo zapísať na papier."
+
+msgid "Uses icons from the Icons8 icon pack (icons8.com)."
+msgstr "Použite ikony z balíka ikon Icons8 (icons8.com)."
+
+msgid "Please report any bugs as issues on github:<br/>"
+msgstr "Akékoľvek chyby hláste na githube ako problémy:<br/>"
+
+msgid "Before reporting a bug, upgrade to the most recent version of Electrum (latest release or git HEAD), and include the version number in your report."
+msgstr "Pred nahlásením chyby upgradujte na najnovšiu verziu aplikácie Electrum (posledné vydanie alebo git HEAD) a uveďte číslo jej verzie vo svojom hlásení."
+
+msgid "Try to explain not only what the bug is, but how it occurs."
+msgstr "Pokúste sa objasniť nielen o akú chybu ide, ale tiež ako k nej dochádza."
+
+msgid "Reporting Bugs"
+msgstr "Nahlasovanie problémov"
+
+msgid "Offline"
+msgstr "Offline"
+
+msgid "Server is lagging ({} blocks)"
+msgstr "Server zaostáva (o {} blocks)"
+
+msgid "Not connected"
+msgstr "Nepripojené"
+
+msgid "proxy enabled"
+msgstr "proxy zapnuté"
+
+msgid "Lightning is disabled"
+msgstr "Služba Lightning je vypnutá"
+
+msgid "Payment failed"
+msgstr "Platba zlyhala"
+
+msgid "You can't broadcast a transaction without a live network connection."
+msgstr "Nemôžete odvysielať transakciu bez aktívneho sieťového pripojenia."
+
+msgid "Signing transaction..."
+msgstr "Podpisuje sa transakcia..."
+
+msgid "Could not open channel: {}"
+msgstr "Nepodarilo sa otvoriť kanál: {}"
+
+msgid "Opening channel..."
+msgstr "Otvára sa kanál..."
+
+msgid "Channel established."
+msgstr "Kanál bol vytvorený."
+
+msgid "Remote peer ID"
+msgstr "ID vzdialeného partnera"
+
+msgid "This channel will be usable after {} confirmations"
+msgstr "Tento kanál bude použiteľný po {} potvrdeniach"
+
+msgid "Please sign and broadcast the funding transaction"
+msgstr "Podpíšte a zverejnite dobíjaciu transakciu"
+
+msgid "Do you want to remove {} from your wallet?"
+msgstr "Chcete odstrániť {} zo svojej peňaženky?"
+
+msgid "Invalid Address"
+msgstr "Neplatná adresa"
+
+msgid "Remove {} from your list of contacts?"
+msgstr "Odstrániť {} z vášho zoznamu kontaktov?"
+
+msgid "Outputs"
+msgstr "Výstupy"
+
+msgid "Expires"
+msgstr "Platnosť vyprší"
+
+msgid "Password"
+msgstr "Heslo"
+
+msgid "Seed"
+msgstr "Seed"
+
+msgid "Reset"
+msgstr "Resetovať"
+
+msgid "The Lightning Network graph is fully synced."
+msgstr "Graf siete Lightning je úplne synchronizovaný."
+
+msgid ""
+"The Lightning Network graph is syncing...\n"
+"Payments are more likely to succeed with a more complete graph."
+msgstr ""
+"Graf Lightning Network sa synchronizuje ... \n"
+"Platby s úplnejším grafom majú väčšiu šancu na úspech."
+
+msgid "Failed to update password"
+msgstr "Nepodarilo sa aktualizovať heslo"
+
+msgid "Password was updated successfully"
+msgstr "Heslo bolo úspešne aktualizované"
+
+msgid "Password is disabled, this wallet is not protected"
+msgstr "Heslo je vypnuté, táto peňaženka nie je chránená"
+
+msgid "Success"
+msgstr "Úspech"
+
+msgid "New Contact"
+msgstr "Nový kontakt"
+
+msgid "Delete wallet file?"
+msgstr "Vymazať súbor peňaženky?"
+
+msgid "If your wallet contains funds, make sure you have saved its seed."
+msgstr "Ak vaša peňaženka obsahuje prostriedky, uistite sa, že ste si uložili jej seed."
+
+msgid "Wallet removed: {}"
+msgstr "Peňaženka odstránená: {}"
+
+msgid "Wallet file not found: {}"
+msgstr "Súbor peňaženky sa nenašiel: {}"
+
+msgid "This wallet has no seed"
+msgstr "Táto peňaženka nemá zdroj"
+
+msgid "QR code"
+msgstr "QR kód"
+
+msgid "Script type"
+msgstr "Typ skriptu"
+
+msgid "Signing with an address actually means signing with the corresponding private key, and verifying with the corresponding public key. The address you have entered does not have a unique public key, so these operations cannot be performed."
+msgstr "Podpisovanie adresou v skutočnosti znamená podpisovanie príslušným súkromným kľúčom a overovanie príslušným verejným kľúčom. Adresa, ktorú ste zadali, nemá jedinečný verejný kľúč, takže tieto operácie nemožno vykonať."
+
+msgid "The operation is undefined. Not just in Electrum, but in general."
+msgstr "Operácia je nedefinovaná. Nielen v Electrum, ale vo všeobecnosti."
+
+msgid "Invalid Bitcoin address."
+msgstr "Neplatná bitcoinová adresa."
+
+msgid "This is a watching-only wallet."
+msgstr "Toto je peňaženka iba na sledovanie."
+
+msgid "Address not in wallet."
+msgstr "Adresa nie je v peňaženke."
+
+msgid "Cannot sign messages with this type of address:"
+msgstr "Nie je možné podpísať správy s týmto typom adresy:"
+
+msgid "Signature verified"
+msgstr "Podpis overený"
+
+msgid "Wrong signature"
+msgstr "Nesprávny podpis"
+
+msgid "Sign/verify Message"
+msgstr "Podpísať/overiť správu"
+
+msgid "Signature"
+msgstr "Podpis"
+
+msgid "Sign"
+msgstr "Podpísať"
+
+msgid "Verify"
+msgstr "Overiť"
+
+msgid "Invalid Public key"
+msgstr "Neplatný verejný kľúč"
+
+msgid "Encrypt/decrypt Message"
+msgstr "Šifrovať/dešifrovať správu"
+
+msgid "Public key"
+msgstr "Verejný kľúč"
+
+msgid "Encrypted"
+msgstr "Šifrované"
+
+msgid "Encrypt"
+msgstr "Šifrovať"
+
+msgid "Decrypt"
+msgstr "Dešifrovať"
+
+msgid "Electrum was unable to parse your transaction"
+msgstr "Electrum nedokázal spracovať vašu transakciu"
+
+msgid "Select your transaction file"
+msgstr "Zvoľte váš súbor transakcie"
+
+msgid "Electrum was unable to open your transaction file"
+msgstr "Electrum nemohol otvoriť súbor vašich transakcií"
+
+msgid "Unable to read file or no transaction found"
+msgstr "Nie je možné prečítať súbor alebo sa nenašla žiadna transakcia"
+
+msgid "Input raw transaction"
+msgstr "Vloziť Raw transakciu"
+
+msgid "Transaction:"
+msgstr "Transakcia:"
+
+msgid "Load transaction"
+msgstr "Načítať transakciu"
+
+msgid "Lookup transaction"
+msgstr "Vyhľadaj transakciu"
+
+msgid "Error getting transaction from network"
+msgstr "Chyba pri získavaní transakcie zo siete"
+
+msgid "This is a watching-only wallet"
+msgstr "Toto je peňaženka len pre čítanie"
+
+msgid "WARNING: This is a multi-signature wallet."
+msgstr "UPOZORNENIE: Toto je viacpodpisová peňaženka."
+
+msgid "It cannot be \"backed up\" by simply exporting these private keys."
+msgstr "Nie je možné ju „zálohovať“ iba exportovaním týchto súkromných kľúčov."
+
+msgid "Private keys"
+msgstr "Súkromné kľúče"
+
+msgid "WARNING: ALL your private keys are secret."
+msgstr "UPOZORNENIE: VŠETKY vaše súkromné kľúče sú tajné."
+
+msgid "Exposing a single private key can compromise your entire wallet!"
+msgstr "Odhalenie jediného súkromného kľúča môže ohroziť celú vašu peňaženku!"
+
+msgid "In particular, DO NOT use 'redeem private key' services proposed by third parties."
+msgstr "Špeciálne, NEPOUŽÍVAJTE služby 'obnovy súkromných kľúčov' od tretích strán."
+
+msgid "Select file to export your private keys to"
+msgstr "Vybrať súbor do ktorého exportovať vaše súkromné kľúče"
+
+msgid "Electrum was unable to produce a private key-export."
+msgstr "Electrum nemohol vytvoriť export súkromného kľúča."
+
+msgid "Unable to create csv"
+msgstr "Nepodarilo sa vytvoriť CSV"
+
+msgid "Private keys exported."
+msgstr "Súkromné kľúče sa exportovali."
+
+msgid "labels"
+msgstr "menovky"
+
+msgid "invoices"
+msgstr "faktúry"
+
+msgid "contacts"
+msgstr "kontakty"
+
+msgid "Sweep private keys"
+msgstr "Vymiesť súkromné kľúče"
+
+msgid "Sweep"
+msgstr "Zmiesť"
+
+msgid "The following addresses were added"
+msgstr "Boli pridané tieto adresy"
+
+msgid "The following inputs could not be imported"
+msgstr "Nasledujúce vstupy nemohli byť importované"
+
+msgid "Enter addresses"
+msgstr "Zadajte adresu"
+
+msgid "Import private keys"
+msgstr "Importovať súkromné kľúče"
+
+msgid "Enter private keys"
+msgstr "Zadajte súkromné kľúče"
+
+msgid "Please restart Electrum to activate the new GUI settings"
+msgstr "Prosím reštartujte program Electrum pre uplatnenie zmien v nastavení GUI"
+
+msgid "Child Pays for Parent"
+msgstr "Dieťa platí za rodiča"
+
+msgid "Total size"
+msgstr "Celková veľkosť"
+
+msgid "Input amount"
+msgstr "Zadajte sumu"
+
+msgid "Output amount"
+msgstr "Suma výstupu"
+
+msgid "Fee for child"
+msgstr "Poplatok za dieťa"
+
+msgid "Total fee"
+msgstr "Celkový poplatok"
+
+msgid "Total feerate"
+msgstr "Celková sadzba poplatku"
+
+msgid "Transaction added to wallet history."
+msgstr "Transakcia bola pridaná do histórie peňaženky."
+
+msgid "Note: this is an offline transaction, if you want the network to see it, you need to broadcast it."
+msgstr "Poznámka: toto je offline transakcia. Ak chcete, aby ju sieť videla, musíte ju odvysielať."
+
+msgid "Certificate mismatch"
+msgstr "Nesúlad certifikátu"
+
+msgid "The SSL certificate provided by the main server did not match the fingerprint passed in with the --serverfingerprint option."
+msgstr "SSL certifikát poskytovaný hlavným serverom sa nezhodoval s odtlačkom odovzdaným so --serverfingerprint voľbou."
+
+msgid "Electrum will now exit."
+msgstr "Electrum sa teraz zavrie."
+
+msgid "Expired"
+msgstr "Exspirované"
+
+msgid "Server"
+msgstr "Server"
+
+msgid "Proxy"
+msgstr "Proxy"
+
+msgid "Height"
+msgstr "Výška"
+
+msgid "Use as server"
+msgstr "Použiť ako server"
+
+msgid "Follow this branch"
+msgstr "Sledovať túto vetvu"
+
+msgid "Connected nodes"
+msgstr "Pripojené uzle"
+
+msgid "Other known servers"
+msgstr "Iné známe servre"
+
+msgid "Use proxy"
+msgstr "Použite proxy"
+
+msgid "Proxy settings apply to all connections: with Electrum servers, but also with third-party services."
+msgstr "Nastavenia proxy sa vzťahujú na všetky pripojenia: k serverom Electrum, ale aj k službám tretích strán."
+
+msgid "This is the height of your local copy of the blockchain."
+msgstr "Toto je výška vašej lokálnej kópie blockchainu."
+
+msgid "Blockchain"
+msgstr "Blockchain"
+
+msgid "Open Channel"
+msgstr "Otvoriť kanál"
+
+msgid "Enter Remote Node ID or connection string or invoice"
+msgstr "Zadajte ID vzdialeného uzla alebo reťazec pripojenia alebo faktúru"
+
+msgid "Max"
+msgstr "Max"
+
+msgid "Clear"
+msgstr "Vymazať"
+
+msgid "Choose a password to encrypt your wallet keys."
+msgstr "Zvoľte heslo pre zašifrovanie kľúčov peňaženky."
+
+msgid "Leave this field empty if you want to disable encryption."
+msgstr "Ak chcete vypnúť šifrovanie, nechajte toto pole prázdne."
+
+msgid "Enter Password"
+msgstr "Zadať heslo"
+
+msgid "Change Password"
+msgstr "Zmeniť heslo"
+
+msgid "Enter Passphrase"
+msgstr "Zadajte prístupovú frázu"
+
+msgid "Passphrase:"
+msgstr "Prístupová fráza:"
+
+msgid "Confirm Passphrase:"
+msgstr "Povrdiť prístupovú frázu:"
+
+msgid "New Password:"
+msgstr "Nové heslo:"
+
+msgid "Password:"
+msgstr "Heslo:"
+
+msgid "Confirm Password:"
+msgstr "Potvrďte heslo:"
+
+msgid "Current Password:"
+msgstr "Aktuálne heslo:"
+
+msgid "Password Strength"
+msgstr "Sila hesla"
+
+msgid "Your wallet is not protected."
+msgstr "Vaša peňaženka nie je chránená."
+
+msgid "Use this dialog to add a password to your wallet."
+msgstr "Použite toto dialógové okno na pridanie hesla k svojej peňaženke."
+
+msgid "Your bitcoins are password protected. However, your wallet file is not encrypted."
+msgstr "Vaše bitcoiny sú chránené heslom. Avšak súbor vašej peňaženky nie je šifrovaný."
+
+msgid "Your wallet is password protected and encrypted."
+msgstr "Vaša peňaženka je chránená heslom a šifrovaná."
+
+msgid "Use this dialog to change your password."
+msgstr "Použite toto dialógové okno na zmenu svojho hesla."
+
+msgid "Your wallet file is NOT encrypted."
+msgstr "Vaša peňaženka NIE je šifrovaná."
+
+msgid "Please enter your password"
+msgstr "Zadajte svoje heslo"
+
+msgid "Requires"
+msgstr "Vyžaduje"
+
+msgid "Settings"
+msgstr "Nastavenia"
+
+msgid "Enabled"
+msgstr "Zapnuté"
+
+msgid "Disabled"
+msgstr "Vypnuté"
+
+msgid "Electrum Plugins"
+msgstr "Pluginy programu Electrum"
+
+msgid "Help"
+msgstr "Pomocník"
+
+msgid "Select where to save file"
+msgstr "Vybrať miesto uloženia súboru"
+
+msgid "QR code saved to file"
+msgstr "QR kód uložený do súboru"
+
+msgid "QR code copied to clipboard"
+msgstr "QR kód sa skopíroval do schránky"
+
+msgid "Text copied to clipboard"
+msgstr "Text sa skopíroval do schránky"
+
+msgid "Save"
+msgstr "Uložiť"
+
+msgid "Show as QR code"
+msgstr "Zobraziť ako QR kód"
+
+msgid "Payment Request"
+msgstr "Žiadosť o platbu"
+
+msgid "Increase your transaction's fee to improve its position in mempool."
+msgstr "Pre zlepšenie pozície vašej transakcie v mempoole navýšte jej poplatok."
+
+msgid "Bump Fee"
+msgstr "Navýšiť poplatok"
+
+msgid "Requested amount"
+msgstr "Vyžiadaná suma"
+
+msgid "This information is seen by the recipient if you send them a signed payment request."
+msgstr "Túto informáciu vidí príjemca, ak mu pošlete podpísanú žiadosť o platbu."
+
+msgid "The bitcoin address never expires and will always be part of this electrum wallet."
+msgstr "Bitcoinová adresa nikdy nevyprší a bude vždy súčasťou tejto peňaženky electrum."
+
+msgid "Error adding payment request"
+msgstr "Chyba pri pridávaní žiadosti o platbu"
+
+msgid "No more addresses in your wallet."
+msgstr "Vo vašej peňaženke nie sú ďalšie adresy."
+
+msgid "You are using a non-deterministic wallet, which cannot create new addresses."
+msgstr "Používate nedeterministickú peňaženku, ktorá nedokáže tvoriť nové adresy."
+
+msgid "If you want to create new addresses, use a deterministic wallet instead."
+msgstr "Ak si chcete vytvoriť nové adresy, použite namiesto toho deterministickú peňaženku."
+
+msgid ""
+"Warning: The next address will not be recovered automatically if you restore your wallet from seed; you may need to add it manually.\n"
+"\n"
+"This occurs because you have too many unused addresses in your wallet. To avoid this situation, use the existing addresses first.\n"
+"\n"
+"Create anyway?"
+msgstr ""
+"Upozornenie: Ďalšia adresa sa neobnoví automaticky, ak obnovíte peňaženku zo seedu; možno ju budete musieť pridať manuálne.\n"
+"\n"
+"Toto sa deje, lebo vo svojej peňaženke máte príliš veľa nepoužitých adries. Aby ste sa vyhli tejto situácii, použite najskôr existujúce adresy.\n"
+"\n"
+"Vytvoriť aj tak?"
+
+msgid "Delete requests"
+msgstr "Odstrániť žiadosti"
+
+msgid "You have multiple consecutive whitespaces or leading/trailing whitespaces in your passphrase."
+msgstr "Vaša prístupová fráza obsahuje niekoľko prázdnych znakov za sebou alebo medzeru navyše na začiatku alebo na konci slova."
+
+msgid "This is discouraged."
+msgstr "Neodporúča sa to."
+
+msgid "Due to a bug, old versions of Electrum will NOT be creating the same wallet as newer versions or other software."
+msgstr "Kvôli chybe staré verzie Electra NEbudú vytvárať rovnakú peňaženku ako novšie verzie alebo iný softvér."
+
+msgid "Please save these {0} words on paper (order is important). "
+msgstr "Zapíšte si týchto {0} slov na papier (poradie je dôležité). "
+
+msgid "This seed will allow you to recover your wallet in case of computer failure."
+msgstr "Tento zdroj vám umožní obnoviť vašu peňaženku v prípade poruchy počítača."
+
+msgid "WARNING"
+msgstr "UPOZORNENIE"
+
+msgid "Never disclose your seed."
+msgstr "Nikdy neprezrádzajte svoj seed."
+
+msgid "Never type it on a website."
+msgstr "Nikdy ho nezadávajte na webovej stránke."
+
+msgid "Do not store it electronically."
+msgstr "Neuchovávajte ho v elektronickej podobe."
+
+msgid "BIP39 seed"
+msgstr "Seed BIP39"
+
+msgid "Options"
+msgstr "Možnosti"
+
+msgid "Your seed extension is"
+msgstr "Vaše rozšírenie seedu je"
+
+msgid "Extend this seed with custom words"
+msgstr "Rozšíriť tento seed o vlastné slová"
+
+msgid "BIP39 seeds can be imported in Electrum, so that users can access funds locked in other wallets."
+msgstr "Seedy BIP39 možno importovať do Electra, aby používatelia mali prístup k prostriedkom uzamknutým v iných peňaženkách."
+
+msgid "However, we do not generate BIP39 seeds, because they do not meet our safety standard."
+msgstr "My však nevytvárame seedy BIP39, pretože nespĺňajú naše bezpečnostné normy."
+
+msgid "BIP39 seeds do not include a version number, which compromises compatibility with future software."
+msgstr "Seedy BIP39 neobsahujú číslo verzie, čo ohrozuje kompatibilitu s budúcim softvérom."
+
+msgid "We do not guarantee that BIP39 imports will always be supported in Electrum."
+msgstr "Negarantujeme, že importy BIP39 budú v Electre vždy podporované."
+
+msgid "Seed Type"
+msgstr "Typ seedu"
+
+msgid "Wallet with two-factor authentication"
+msgstr "Peňaženka s dvojfaktorovým overením"
+
+msgid "Standard wallet"
+msgstr "Štandardná peňaženka"
+
+msgid "Your wallet generation seed is:"
+msgstr "Váš seed tvorby peňaženky je:"
+
+msgid "Recipient of the funds."
+msgstr "Príjemca prostriedkov."
+
+msgid "Format: address, amount"
+msgstr "Formát: adresa, suma"
+
+msgid "Description of the transaction (not mandatory)."
+msgstr "Popis transakcie (nepovinné)."
+
+msgid "The description is not sent to the recipient of the funds. It is stored in your wallet file, and displayed in the 'History' tab."
+msgstr "Popis sa neposiela príjemcovi prostriedkov. Je uložený v súbore vašej peňaženky a zobrazovaný v záložke 'História'."
+
+msgid "Note that if you have frozen some of your addresses, the available funds will be lower than your total balance."
+msgstr "Ak ste zmrazili niektoré zo svojich adries, disponibilné prostriedky budú nižšie ako váš celkový zostatok."
+
+msgid "Keyboard shortcut: type \"!\" to send all your coins."
+msgstr "Klávesová skratka: napíšte \"!\" na odoslanie všetkých mincí."
+
+msgid "Invoices"
+msgstr "Faktúry"
+
+msgid "&Pay to many"
+msgstr "&Hromadná platba"
+
+msgid "No amount"
+msgstr "Žiadna suma"
+
+msgid "No outputs"
+msgstr "Žiadne výstupy"
+
+msgid "Bitcoin Address is None"
+msgstr "Nebola zadaná Bitcoin Adresa"
+
+msgid "Invalid Amount"
+msgstr "Neplatná suma"
+
+msgid "Invalid Lines found:"
+msgstr "Našli sa neplatné riadky:"
+
+msgid "Do you wish to continue?"
+msgstr "Želáte si pokračovať?"
+
+msgid "Payment request has expired"
+msgstr "Požiadavka na platbu expirovala"
+
+msgid "Invoice has expired"
+msgstr "Platnosť faktúry uplynula"
+
+msgid "Payment sent."
+msgstr "Platba odoslaná."
+
+msgid "Broadcasting transaction..."
+msgstr "Vysiela sa transakcia..."
+
+msgid "Enter a list of outputs in the 'Pay to' field."
+msgstr "Zadajte zoznam výstupov v poli „Príjemca“."
+
+msgid "One output per line."
+msgstr "Jeden výstup na riadok."
+
+msgid "You may load a CSV file using the file icon."
+msgstr "Súbor CSV môžete načítať pomocou ikony súboru."
+
+msgid "Base unit of your wallet."
+msgstr "Základná jednotka vašej peňaženky."
+
+msgid "This setting affects the Send tab, and all balance related fields."
+msgstr "Toto nastavenie má vplyv na kartu Odoslať a všetky polia súvisiace so zostatkom."
+
+msgid "Base unit"
+msgstr "Základná jednotka"
+
+msgid "Light"
+msgstr "Svetlý"
+
+msgid "Dark"
+msgstr "Tmavý"
+
+msgid "Fiat currency"
+msgstr "Fiat mena"
+
+msgid "Source"
+msgstr "Zdroj"
+
+msgid "You receive"
+msgstr "Príjmete"
+
+msgid "Fee"
+msgstr "Poplatok"
+
+msgid "Wallet change address"
+msgstr "Adresa peňaženky pre výdavok"
+
+msgid "TrustedCoin (2FA) fee for the next batch of transactions"
+msgstr "Poplatok TrustedCoin (2FA) pre ďalšiu dávku transakcií"
+
+msgid "Inputs"
+msgstr "Vstupy"
+
+msgid "Address Details"
+msgstr "Podrobnosti o adrese"
+
+msgid "Copy Address"
+msgstr "Kopírovať adresu"
+
+msgid "Electrum was unable to deserialize the transaction:"
+msgstr "Electru sa nepodarilo deserializovať transakciu:"
+
+msgid "Transaction ID:"
+msgstr "ID transakcie:"
+
+msgid "Broadcast"
+msgstr "Zverejniť"
+
+msgid "Merge signatures from"
+msgstr "Zlúčiť podpisy z"
+
+msgid "Join inputs/outputs"
+msgstr "Spojiť vstupy/výstupy"
+
+msgid "Combine"
+msgstr "Zlúčiť"
+
+msgid "This transaction is not saved. Close anyway?"
+msgstr "Táto transakcia nie je uložená. Chcete napriek tomu zavrieť?"
+
+msgid "Copy to clipboard"
+msgstr "Kopírovať do schránky"
+
+msgid "Transaction"
+msgstr "Transakcia"
+
+msgid "Failed to display QR code."
+msgstr "Zobrazenie QR kódu zlyhalo."
+
+msgid "Transaction is too large in size."
+msgstr "Transakcia má príliš veľkú veľkosť."
+
+msgid "Select where to save your transaction"
+msgstr "Vyberte kam uložiť vašu transakciu"
+
+msgid "Transaction exported successfully"
+msgstr "Transakcia bola úspešne exportovaná"
+
+msgid "Transaction to merge signatures from"
+msgstr "Transakcia, z ktorej sa majú zlúčiť podpisy"
+
+msgid "Error combining partial transactions"
+msgstr "Chyba pri zlučovaní čiastkových transakcií"
+
+msgid "Transaction to join with"
+msgstr "Transakcia na spojenie s"
+
+msgid "add inputs and outputs"
+msgstr "pridať vstupy a výstupy"
+
+msgid "Error joining partial transactions"
+msgstr "Chyba pri spájaní čiastkových transakcií"
+
+msgid "Date: {}"
+msgstr "Dátum: {}"
+
+msgid "True"
+msgstr "Áno"
+
+msgid "False"
+msgstr "Nie"
+
+msgid "At block height: {}"
+msgstr "Vo výške bloku: {}"
+
+msgid "Transaction unrelated to your wallet"
+msgstr "Transakcia nesúvisiaca s vašou peňaženkou"
+
+msgid "Amount received: {}"
+msgstr "Prijatá suma: {}"
+
+msgid "unknown"
+msgstr "neznámy"
+
+msgid "Update Check"
+msgstr "Kontrola aktualizácií"
+
+msgid "Current version: {}"
+msgstr "Aktuálna verzia: {}"
+
+msgid "Latest version: {}"
+msgstr "Najnovšia verzia: {}"
+
+msgid "Update check failed"
+msgstr "Kontrola aktualizácií zlyhala"
+
+msgid "Sorry, but we were unable to check for updates. Please try again later."
+msgstr "Je nám ľúto, ale nepodarilo sa nám skontrolovať aktualizácie. Skúste to znova neskôr."
+
+msgid "There is a new update available"
+msgstr "K dispozícii je nová aktualizácia"
+
+msgid "You can download the new version from {}."
+msgstr "Novú verziu si môžete stiahnuť z {}."
+
+msgid "Already up to date"
+msgstr "Už je v najnovšej verzii"
+
+msgid "You are already on the latest version of Electrum."
+msgstr "Už máte najnovšiu verziu Electrum."
+
+msgid "Checking for updates..."
+msgstr "Vyhľadávanie aktualizácií..."
+
+msgid "Please wait while Electrum checks for available updates."
+msgstr "Prosím, počkajte, kým Electrum vyhľadá dostupné aktualizácie."
+
+msgid "Info"
+msgstr "Info"
+
+msgid "Copy and Close"
+msgstr "Kopírovať a zavrieť"
+
+msgid "Cancel"
+msgstr "Zrušiť"
+
+msgid "Critical Error"
+msgstr "Kritická chyba"
+
+msgid "Information"
+msgstr "Informácie"
+
+msgid "Question"
+msgstr "Otázka"
+
+msgid "Please wait"
+msgstr "Čakajte, prosím"
+
+msgid "Format"
+msgstr "Formát"
+
+msgid "CSV"
+msgstr "CSV"
+
+msgid "json"
+msgstr "json"
+
+msgid "File"
+msgstr "Súbor"
+
+msgid "Error opening file"
+msgstr "Chyba pri otváraní súboru"
+
+msgid "Read file"
+msgstr "Čítať súbor"
+
+msgid "Open {} file"
+msgstr "Otvorte súbor {}"
+
+msgid "Your {} were successfully imported"
+msgstr "Vaše {} boli úspešne importované"
+
+msgid "Select file to save your {}"
+msgstr "Vyberte súbor pre uloženie svojho zariadenia {}"
+
+msgid "Your {0} were exported to '{1}'"
+msgstr "Váš {0} sa exportoval do „{1}“"
+
+msgid "Output point"
+msgstr "Bod výstupu"
+
+msgid "{} outputs available ({} total)"
+msgstr "{} výstupov k dispozícii ({} celkovo)"
+
+msgid "Coin control active"
+msgstr "Kontrola mincí aktívna"
+
+msgid "Coin selected to be spent"
+msgstr "Minca vybraná na minutie"
+
+msgid "Address is frozen"
+msgstr "Adresa je zmrazená"
+
+msgid "Freeze Coin"
+msgstr "Zmraziť mincu"
+
+msgid "Unfreeze Coin"
+msgstr "Uvoľniť mincu"
+
+msgid "Freeze Address"
+msgstr "Zmraziť adresu"
+
+msgid "Unfreeze Address"
+msgstr "Uvoľniť adresu"
+
+msgid "Freeze Coins"
+msgstr "Zmraziť mince"
+
+msgid "Unfreeze Coins"
+msgstr "Uvoľniť mince"
+
+msgid "Freeze Addresses"
+msgstr "Zmraziť adresy"
+
+msgid "Unfreeze Addresses"
+msgstr "Uvoľniť adresy"
+
+msgid "Wallet Information"
+msgstr "Informácie o peňaženke"
+
+msgid "watching-only"
+msgstr "len na sledovanie"
+
+msgid "Wallet name"
+msgstr "Názov peňaženky"
+
+msgid "Wallet type"
+msgstr "Typ peňaženky"
+
+msgid "Seed available"
+msgstr "Seed k dispozícii"
+
+msgid "Keystore type"
+msgstr "Typ úložiska kľúčov"
+
+msgid "No keystore"
+msgstr "Žiadne úložisko kľúčov"
+
+msgid "Lightning is currently restricted to HD wallets with p2wpkh addresses."
+msgstr "Lightning je v súčasnosti obmedzená na HD peňaženky ktoré používajú p2wpkh adresu ."
+
+msgid "Master Public Key"
+msgstr "Hlavný verejný kľúč"
+
+msgid "Keystore"
+msgstr "Úložisko kľúčov"
+
+msgid "Next"
+msgstr "Ďalej"
+
+msgid "WIF keys are typed in Electrum, based on script type."
+msgstr "Kľúče WIF sa zadávajú v aplikácii Electrum podľa typu skriptu."
+
+msgid "A few examples"
+msgstr "Niekoľko príkladov"
+
+msgid "Set wallet file encryption."
+msgstr "Nastaviť šifrovanie súboru peňaženky."
+
+msgid "Your wallet file does not contain secrets, mostly just metadata. "
+msgstr "Váš súbor peňaženky neobsahuje tajné kľúče, ale prevažne iba metadáta. "
+
+msgid "It also contains your master public key that allows watching your addresses."
+msgstr "Obsahuje tiež váš hlavný verejný kľúč, ktorý umožňuje sledovanie vašich adries."
+
+msgid ""
+"The wallet '{}' contains multiple accounts, which are no longer supported since Electrum 2.7.\n"
+"\n"
+"Do you want to split your wallet into multiple files?"
+msgstr ""
+"Peňaženka „{}“ obsahuje niekoľko účtov, ktoré už viac nie sú podporované od verzie Electrum 2.7.\n"
+"\n"
+"Chcete rozdeliť vašu peňaženku na niekoľko súborov?"
+
+msgid "Your accounts have been moved to"
+msgstr "Vaše účty sa presunuli do"
+
+msgid "Do you want to delete the old file"
+msgstr "Chcete vymazať starý súbor"
+
+msgid "The file was removed"
+msgstr "Súbor sa odstránil"
+
+msgid "Electrum wallet"
+msgstr "Peňaženka Electrum"
+
+msgid "Wallet"
+msgstr "Peňaženka"
+
+msgid "Choose..."
+msgstr "Vyberte..."
+
+msgid "Cannot read file"
+msgstr "Nie je možné čítať súbor"
+
+msgid "This file does not exist."
+msgstr "Tento súbor neexistuje."
+
+msgid "Press 'Next' to create this wallet, or choose another file."
+msgstr "Pre tvorbu tejto peňaženky stlačte „Ďalej“, alebo vyberte iný súbor."
+
+msgid "This file is encrypted with a password."
+msgstr "Tento súbor je šifrovaný heslom."
+
+msgid "This file is encrypted using a hardware device."
+msgstr "Tento súbor je šifrovaný pomocou hardvérového zariadenia."
+
+msgid "Press 'Next' to choose device to decrypt."
+msgstr "Pre výber zariadenia na zašifrovanie stlačte „Ďalej“."
+
+msgid "This file is already open in memory."
+msgstr "Tento súbor je už otvorený v pamäti."
+
+msgid "Create new wallet"
+msgstr "Vytvoriť novú peňaženku"
+
+msgid "What kind of wallet do you want to create?"
+msgstr "Aký typ peňaženky chcete vytvoriť?"
+
+msgid "Multi-signature wallet"
+msgstr "Viacpodpisová peňaženka"
+
+msgid "Import Bitcoin addresses or private keys"
+msgstr "Importovať bitcoinové adresy alebo súkromné kľúče"
+
+msgid "Do you want to create a new seed, or to restore a wallet using an existing seed?"
+msgstr "Chcete vytvoriť nový seed alebo obnoviť peňaženku s použitím existujúceho seedu?"
+
+msgid "Create a new seed"
+msgstr "Vytvoriť nový Seed"
+
+msgid "I already have a seed"
+msgstr "Už mám seed"
+
+msgid "Use a master key"
+msgstr "Použiť hlavný kľúč"
+
+msgid "Use a hardware device"
+msgstr "Použiť hardvérové zariadenie"
+
+msgid "Confirm Seed"
+msgstr "Potvrdiť seed"
+
+msgid "Your seed is important!"
+msgstr "Váš seed je dôležitý!"
+
+msgid "If you lose your seed, your money will be permanently lost."
+msgstr "Ak stratíte svoj seed, vaše peniaze sa tiež nenávratne stratia."
+
+msgid "To make sure that you have properly saved your seed, please retype it here."
+msgstr "Aby sme sa uistili že ste si riadne uložili zdroj, prosím opíšte ho sem."
+
+msgid "You may extend your seed with custom words."
+msgstr "Svoj seed môžete rozšíriť o vlastné slová."
+
+msgid "Your seed extension must be saved together with your seed."
+msgstr "Vaše rozšírenie seedu sa musí uložiť spolu s vaším seedom."
+
+msgid "Note that this is NOT your encryption password."
+msgstr "Toto NIE je vaše šifrovacie heslo."
+
+msgid "If you do not know what this is, leave this field empty."
+msgstr "Ak neviete, čo to znamená, nechajte toto pole prázdne."
+
+msgid "Confirm Seed Extension"
+msgstr "Potvrdiť rozšírenie seedu"
+
+msgid "Please type it here."
+msgstr "Zadajte ho, prosím, sem."
+
+msgid "Enter Seed"
+msgstr "Zadajte seed"
+
+msgid "Please enter your seed phrase in order to restore your wallet."
+msgstr "Pre obnovu vašej peňaženky zadajte, prosím, svoju seedovú frázu."
+
+msgid "Script type and Derivation path"
+msgstr "Typ skriptu a derivačná cesta"
+
+msgid "Choose the type of addresses in your wallet."
+msgstr "Vyberte typ adries vo vašej peňaženke."
+
+msgid "You can override the suggested derivation path."
+msgstr "Môžete prepísať navrhovanú derivačnú cestu."
+
+msgid "If you are not sure what this is, leave this field unchanged."
+msgstr "Ak nie ste si istý/á, čo to znamená, nechajte toto pole bez zmeny."
+
+msgid "Add a cosigner to your multi-sig wallet"
+msgstr "Pridať spolupodpisovateľa k vašej multi-sig peňaženke"
+
+msgid "Enter cosigner key"
+msgstr "Zadajte kľúč spolupodpisovateľa"
+
+msgid "Enter cosigner seed"
+msgstr "Zadajte seed spolupodpisovateľa"
+
+msgid "Cosign with hardware device"
+msgstr "Spolupodpísať s hardvérovým zariadením"
+
+msgid "Create keystore from a master key"
+msgstr "Vytvoriť úložisko kľúčov z hlavného kľúča"
+
+msgid "To create a watching-only wallet, please enter your master public key (xpub/ypub/zpub)."
+msgstr "Pre vytvorenie peňaženky iba na sledovanie zadajte, prosím, svoj hlavný verejný kľúč (xpub/ypub/zpub)."
+
+msgid "To create a spending wallet, please enter a master private key (xprv/yprv/zprv)."
+msgstr "Pre vytvorenie spotrebnej peňaženky zadajte, prosím, hlavný súkromný kľúč (xprv/yprv/zprv)."
+
+msgid "Please enter the master public key (xpub) of your cosigner."
+msgstr "Prosím, zadajte hlavný verejný kľúč (xpub) vášho spolupodpisovateľa."
+
+msgid "Enter their master private key (xprv) if you want to be able to sign for them."
+msgstr "Ak chcete za nich podpisovať, zadajte ich hlavný súkromný kľúč (xprv)."
+
+msgid "Multi-Signature Wallet"
+msgstr "Viacpodpisová peňaženka"
+
+msgid "Require {0} signatures"
+msgstr "Vyžadovať {0} podpisov"
+
+msgid "From {0} cosigners"
+msgstr "Od {0} spolupodpisovateľov"
+
+msgid "Warning: to be able to restore a multisig wallet, you should include the master public key for each cosigner in all of your backups."
+msgstr "Varovanie: Aby ste mohli obnoviť peňaženku s viacerými podpismi, mali by ste do všetkých svojich záloh zahrnúť hlavný verejný kľúč pre každého spolu-podpisovateľa."
+
+msgid "Choose the number of signatures needed to unlock funds in your wallet:"
+msgstr "Vyberte počet podpisov potrebných pre odomknutie prostriedkov vo vašej peňaženke:"
+
+msgid "Enter a list of Bitcoin addresses (this will create a watching-only wallet), or a list of private keys."
+msgstr "Zadajte zoznam bitcoinových adries (vytvorí sa peňaženka len na čítanie) alebo zoznam súkromných kľúčov."
+
+msgid "Choose Hardware Device"
+msgstr "Vyber Hardvérové Zariadenie"
+
+msgid "initialized"
+msgstr "inicializované"
+
+msgid "wiped"
+msgstr "vymazané"
+
+msgid "An unnamed {}"
+msgstr "{} bez názvu"
+
+msgid "Select a device"
+msgstr "Vyberte zariadenie"
+
+msgid "Scanning devices..."
+msgstr "Skenovanie zariadení ..."
+
+msgid "Error scanning devices"
+msgstr "Chyba pri kontrole zariadenia"
+
+msgid "You might have an incompatible library."
+msgstr "Možno máte nekompatibilnú knižnicu."
+
+msgid "No exceptions encountered."
+msgstr "Nevyskytli sa žiadne výnimky."
+
+msgid "No hardware device detected."
+msgstr "Nezistilo sa žiadne hardvérové zariadenie."
+
+msgid "If your device is not detected on Windows, go to \"Settings\", \"Devices\", \"Connected devices\", and do \"Remove device\". Then, plug your device again."
+msgstr "Ak vaše zariadenie systém Windows nerozozná, choďte do „Nastavenia“, „Zariadenia“, „Pripojené zariadenia“ a kliknite na „Odstrániť zariadenie“. Potom znova zapojte vaše zariadenie."
+
+msgid "While this is less than ideal, it might help if you run Electrum as Administrator."
+msgstr "Hoci to nie je zďaleka ideálne, môže pomôcť, ak spustíš Electrum ako Správca."
+
+msgid "On Linux, you might have to add a new permission to your udev rules."
+msgstr "Na Linuxe budete možno musieť pridať nové povolenie do vašich pravidiel udev."
+
+msgid "Debug message"
+msgstr "Správa o ladení"
+
+msgid "Back"
+msgstr "Späť"
+
+msgid "[h] - displays this help text"
+msgstr "[h] - zobrazí takýto pomocný text"
+
+msgid "[i] - display transaction history"
+msgstr "[i] - zobraziť históriu transakcií"
+
+msgid "[o] - enter payment order"
+msgstr "[o] - zadať platobný príkaz"
+
+msgid "[p] - print stored payment order"
+msgstr "[p] - vytlačiť uložený platobný príkaz"
+
+msgid "[s] - send stored payment order"
+msgstr "[s] - odoslať uložený platobný príkaz"
+
+msgid "[r] - show own receipt addresses"
+msgstr "[r] - zobraziť vlastné príjmové adresy"
+
+msgid "[c] - display contacts"
+msgstr "[c] - zobraziť kontakty"
+
+msgid "[b] - print server banner"
+msgstr "[b] - banner tlačového servera"
+
+msgid "[q] - quit"
+msgstr "[q] - skončiť"
+
+msgid "Invalid Bitcoin address"
+msgstr "Neplatná bitcoinová adresa"
+
+msgid "Invalid Fee"
+msgstr "Neplatný poplatok"
+
+msgid "Addresses"
+msgstr "Adresy"
+
+msgid "Contacts"
+msgstr "Kontakty"
+
+msgid "Banner"
+msgstr "Banner"
+
+msgid "Quit"
+msgstr "Ukončiť"
+
+msgid "[Clear]"
+msgstr "[Clear]"
+
+msgid "Invalid Bitcoin Address"
+msgstr "Neplatná bitcoinová adresa"
+
+msgid "Missing libraries for {}."
+msgstr "Chýbajú knižnice pre {}."
+
+msgid "Library version for '{}' is incompatible."
+msgstr "Verzia knižnice pre „{}“ je nekompatibilná."
+
+msgid "Make sure you install it with python3"
+msgstr "Uistite sa, že ho inštalujete pomocou python3"
+
+msgid "Only OP_RETURN scripts, with one constant push, are supported."
+msgstr "Podporované sú iba skripty OP_RETURN s jednou operáciou push pri konštante."
+
+msgid "Only OP_RETURN scripts are supported."
+msgstr "Podporované sú iba skripty OP_RETURN."
+
+msgid "OP_RETURN payload too large.\n"
+msgstr "Údajová časť OP_RETURN je príliš veľká.\n"
+
+msgid "Amount for OP_RETURN output must be zero."
+msgstr "Suma pre výstup OP_RETURN musí byť 0."
+
+msgid "The firmware of your hardware device is too old. If possible, you should upgrade it. You can ignore this error and try to continue, however things are likely to break."
+msgstr "Firmvér vášho hárdverového zariadenia je príliš starý. Ak je to možné, mali by ste ho aktualizovať. Túto chybu môžete ignorovať a pokúsiť sa pokračovať, no pravdepodobne veci nebudú fungovať správne."
+
+msgid "Ignore and continue?"
+msgstr "Ignorovať a pokračovať?"
+
+msgid "Please check your {} device"
+msgstr "Skontrolujte svoje zariadenie {}"
+
+msgid "Outdated device firmware"
+msgstr "Zastaraný firmvér zariadenia"
+
+msgid "Default"
+msgstr "Predvolené"
+
+msgid "Network request timed out."
+msgstr "Uplynul časový limit požiadavky siete."
+
+msgid "The server returned an unexpected transaction ID when broadcasting the transaction."
+msgstr "Server vrátil nečakané ID transakcie pri vysielaní tejto transakcie."
+
+msgid "Consider trying to connect to a different server, or updating Electrum."
+msgstr "Zvážte pokúsiť sa pripojiť na iný server alebo aktualizovať aplikáciu Electrum."
+
+msgid "The server returned an error when broadcasting the transaction."
+msgstr "Server vrátil chybu pri vysielaní transakcie."
+
+msgid "Unknown error when broadcasting the transaction."
+msgstr "Neznáma chyba pri vysielaní transakcie."
+
+msgid "Server returned unexpected transaction ID."
+msgstr "Server vrátil nečakané ID transakcie."
+
+msgid "Transaction uses non-standard version."
+msgstr "Transakcia používa neštandardnú verziu."
+
+msgid "The transaction was rejected because it is too large (in bytes)."
+msgstr "Transakcia bola odmietnutá pretože je príliš veľká (v bajtoch)."
+
+msgid "The transaction was rejected because it contains multiple OP_RETURN outputs."
+msgstr "Transakcia bola odmietnutá, pretože obsahuje niekoľko výstupov OP_RETURN."
+
+msgid "Unknown error"
+msgstr "Neznáma chyba"
+
+msgid "Paid"
+msgstr "Zaplatené"
+
+msgid "In progress"
+msgstr "Spracúva sa"
+
+msgid "Failed"
+msgstr "Neúspešné"
+
+msgid "Computing route..."
+msgstr "Prebieha výpočet trasy ..."
+
+msgid "Never"
+msgstr "Nikdy"
+
+msgid "10 minutes"
+msgstr "10 minút"
+
+msgid "1 hour"
+msgstr "1 hodina"
+
+msgid "1 day"
+msgstr "1 deň"
+
+msgid "1 week"
+msgstr "1 týždeň"
+
+msgid "No path found"
+msgstr "Nenašla sa žiadna cesta"
+
+msgid "Don't know any addresses for node:"
+msgstr "Nie sú známe žiadne adresy pre uzol:"
+
+msgid "Hostname does not resolve (getaddrinfo failed)"
+msgstr "Názov hostiteľa neodkazuje (funkcia getaddrinfo zlyhala)"
+
+msgid "Forwarding"
+msgstr "Preposielanie"
+
+msgid "Open channel"
+msgstr "Otvorený kanál"
+
+msgid "Close channel"
+msgstr "Zatvoriť kanál"
+
+msgid "open_channel timed out"
+msgstr "Uplynul časový limit open_channel"
+
+msgid "This invoice has been paid already"
+msgstr "Táto faktúra bola už uhradená"
+
+msgid "A payment was already initiated for this invoice"
+msgstr "Pre túto faktúru bola už platba iniciovaná"
+
+msgid "Missing amount"
+msgstr "Chýbajúca suma"
+
+msgid "Invoice wants us to risk locking funds for unreasonably long."
+msgstr "Faktúra obnáša riziko uzamknutia prostriedkov na neprimerane dlhú dobu."
+
+msgid "The server returned an error."
+msgstr "Server vrátil chybu."
+
+msgid "Disconnected"
+msgstr "Odpojené"
+
+msgid "Connected to {0} nodes."
+msgstr "Pripojené k {0} uzlom."
+
+msgid "Error parsing URI"
+msgstr "Chyba pri analýze URI"
+
+msgid "Nothing to plot."
+msgstr "Nie je čo vykresliť."
+
+msgid "A library is probably missing."
+msgstr "Pravdepodobne chýba knižnica."
+
+msgid ""
+"Electrum cannot pair with your {}.\n"
+"\n"
+"Before you request bitcoins to be sent to addresses in this wallet, ensure you can pair with your device, or that you have its seed (and passphrase, if any).  Otherwise all bitcoins you receive will be unspendable."
+msgstr ""
+"Electrum nie je možné spárovať s vaším zariadením {}.\n"
+"\n"
+"Predtým, ako požiadate o zaslanie bitcoinov na adresy v tejto peňaženke, uistite sa, že párovanie vášho zariadenia funguje alebo že máte jeho seed (a prístupovú frázu, ak existuje). Inak nubudete môcť minúť žiadne bitcoiny, ktoré obdržíte."
+
+msgid "Please insert your {}"
+msgstr "Vložte, prosím, svoje zariadenie {}"
+
+msgid "Verify the cable is connected and that no other application is using it."
+msgstr "Overte, či je kábel pripojený a či ho nepoužíva iná aplikácia."
+
+msgid "Try to connect again?"
+msgstr "Pokúsiť sa o pripojenie znovu?"
+
+msgid "Please select which {} device to use:"
+msgstr "Vyberte, ktoré so zariadení {} použiť:"
+
+msgid "Audio Modem Settings"
+msgstr "Nastavenia audio modemu"
+
+msgid "Bit rate [kbps]: "
+msgstr "Bitová rýchlosť [kbps]: "
+
+msgid "Read from microphone"
+msgstr "Čítať z mikrofónu"
+
+msgid "Send to speaker"
+msgstr "Odoslať reproduktoru"
+
+msgid "Message encryption, decryption and signing are currently not supported for {}"
+msgstr "Šifrovanie správ, dešifrovanie a podpisovanie v súčasnosti nie sú podporované pre {}"
+
+msgid "Showing address ..."
+msgstr "Adresa sa zobrazuje..."
+
+msgid "Show on {}"
+msgstr "Zobraziť na zariadení {}"
+
+msgid "BitBox02 Status"
+msgstr "Status BitBox02"
+
+msgid ""
+"Enter a descriptive name for your multisig account.\n"
+"You should later be able to use the name to uniquely identify this multisig account"
+msgstr ""
+"Zadajte popisný názov vášho účtu viacerých podpisov.\n"
+"Neskôr by ste mali mať možnosť použiť tento názov na jednoznačnú identifikáciu tohto účtu s viacerými podpismi"
+
+msgid "Invalid xpub magic. Make sure your {} device is set to the correct chain."
+msgstr "Neplatný xpub magic. Uistite sa, že vaše zariadenie {} je nastavené na správny reťazec."
+
+msgid "Encryption and decryption are currently not supported for {}"
+msgstr "Šifrovanie a dešifrovanie nie sú momentálne pre {} podporované"
+
+msgid "Error showing address"
+msgstr "Chyba pri zobrazení adresy"
+
+msgid "Make sure you have imported the correct wallet description file on the device for this multisig wallet."
+msgstr "Uistite sa, že ste pre túto multisig peňaženku importovali na zariadenie správny popisný súbor peňaženky."
+
+msgid "This function is only available for standard wallets when using {}."
+msgstr "Táto funkcia je dostupná iba pre štandardné peňaženky pri použití zariadenia {}."
+
+msgid "Select where to save the setup file"
+msgstr "Vybrať miesto uloženia inštalačného súboru"
+
+msgid "Coldcard Status"
+msgstr "Stav Coldcard"
+
+msgid "{} Settings"
+msgstr "Nastavenia zariadenia {}"
+
+msgid "Master Fingerprint"
+msgstr "Hlavný odtlačok"
+
+msgid "USB Serial"
+msgstr "USB port"
+
+msgid "Firmware Version"
+msgstr "Verzia firmvéru"
+
+msgid "Build Date"
+msgstr "Dátum zostavy"
+
+msgid "Bootloader"
+msgstr "Bootloader"
+
+msgid "Upgrade"
+msgstr "Upgradovať"
+
+msgid "Device communication error. Please unplug and replug your Digital Bitbox."
+msgstr "Chyba komunikácie zariadenia. Odpojte a znovu zapojte váš Digital Bitbox."
+
+msgid "Enter the password used when the backup was created:"
+msgstr "Zadajte heslo použité pri tvorbe zálohy:"
+
+msgid "Password must have at least 4 characters."
+msgstr "Heslo musí mať najmenej 4 znaky."
+
+msgid "Enter password:"
+msgstr "Zadajte heslo:"
+
+msgid "Password must have less than 64 characters."
+msgstr "Heslo musí mať menej ako 64 znakov."
+
+msgid "An uninitialized Digital Bitbox is detected."
+msgstr "Zistil sa neinicializovaný Digital Bitbox."
+
+msgid "Enter a new password below."
+msgstr "Zadajte nižšie nové heslo."
+
+msgid "REMEMBER THE PASSWORD!"
+msgstr "ZAPAMÄTAJTE SI HESLO!"
+
+msgid "You cannot access your coins or a backup without the password."
+msgstr "Bez hesla nemôžete pristupovať k svojim minciam, ani k zálohe."
+
+msgid "A backup is saved automatically when generating a new wallet."
+msgstr "Pri tvorbe novej peňaženky sa automaticky uloží záloha."
+
+msgid "Enter your Digital Bitbox password:"
+msgstr "Zadajte heslo vášho Digital Bitboxu:"
+
+msgid "Incorrect password entered."
+msgstr "Zadali ste nesprávne heslo."
+
+msgid "Unexpected error occurred."
+msgstr "Vyskytla sa neočakávaná chyba."
+
+msgid "The Digital Bitbox is already seeded. Choose an option:"
+msgstr "Zariadenie Digital Bitbox je už seedované. Vyberte možnosť:"
+
+msgid "Create a wallet using the current seed"
+msgstr "Vytvoriť peňaženku s použitím súčasného seedu"
+
+msgid "Erase the Digital Bitbox"
+msgstr "Vymažte Digital Bitbox"
+
+msgid "Full 2FA enabled. This is not supported yet."
+msgstr "Zapnuté úplné 2FA. Toto nie je ešte podporované."
+
+msgid "Choose how to initialize your Digital Bitbox:"
+msgstr "Vyberte si, ako chcete inicializovať svoj Digital Bitbox:"
+
+msgid "Generate a new random wallet"
+msgstr "Vytvoriť novú náhodnú peňaženku"
+
+msgid "Load a wallet from the micro SD card"
+msgstr "Načítať peňaženku z karty micro SD"
+
+msgid "Do not pair"
+msgstr "Nepárovať"
+
+msgid "Import pairing from the Digital Bitbox desktop app"
+msgstr "Importujte párovanie z apky Digital Bitboxu pre počítače"
+
+msgid "Mobile pairing options"
+msgstr "Možnosti párovania mobilných zariadení"
+
+msgid "Are you sure you want to erase the Digital Bitbox?"
+msgstr "Ste si istý/á, že chcete vymazať tento Digital Bitbox?"
+
+msgid "To continue, touch the Digital Bitbox's light for 3 seconds."
+msgstr "Pre pokračovanie sa dotknite svetla Digital Bitboxu na 3 sekundy."
+
+msgid "To cancel, briefly touch the light or wait for the timeout."
+msgstr "Pre zrušenie sa krátko dotknite svetla alebo počkajte na časový limit."
+
+msgid "Choose a backup file:"
+msgstr "Zvoľte záložný súbor:"
+
+msgid "Loading backup..."
+msgstr "Načítava sa záloha..."
+
+msgid "Could not sign message."
+msgstr "Nie je možné podpísať správu."
+
+msgid "Signing message ..."
+msgstr "Podpisuje sa správa..."
+
+msgid "To continue, touch the Digital Bitbox's blinking light for 3 seconds."
+msgstr "Pre pokračovanie sa dotknite blikajúceho svetla Digital Bitboxu na 3 sekundy."
+
+msgid "To cancel, briefly touch the blinking light or wait for the timeout."
+msgstr "Pre zrušenie sa krátko dotknite blikajúceho svetla alebo počkajte na časový limit."
+
+msgid "Could not sign message"
+msgstr "Nie je možné podpísať správu"
+
+msgid "Signing large transaction. Please be patient ..."
+msgstr "Podpisuje sa veľká transakcia. Prosím o strpenie..."
+
+msgid "(Touch {} of {})"
+msgstr "(Dotknite sa {} z {})"
+
+msgid "This function is only available after pairing your {} with a mobile device."
+msgstr "Táto funkcia je dostupná iba po spárovaní vášho zariadenia {} s mobilným zariadením."
+
+msgid "This function is only available for p2pkh keystores when using {}."
+msgstr "Táto funkcia je dostupná iba pre úložiská kľúčov p2pkh pri použití zariadenia {}."
+
+msgid "Encryption and decryption are not implemented by {}"
+msgstr "Šifrovanie a dešifrovanie nie sú v {} implementované"
+
+msgid "Confirm the transaction output on your {} device"
+msgstr "Potvrďte na svojom zariadení {} výstup transakcie"
+
+msgid "Confirm internal entropy on your {} device to begin"
+msgstr "Na začiatok potvrďte internú entropiu na vašom zariadení {}"
+
+msgid "Write down the seed word shown on your {}"
+msgstr "Zapíšte si slovo seedu zobrazené na vašom zariadení {}"
+
+msgid "Confirm on your {} that you want to wipe it clean"
+msgstr "Potvrďte na svojom zariadení {}, že ho chcete celkom vymazať"
+
+msgid "Confirm on your {} device the message to sign"
+msgstr "Potvrďte na svojom zariadení {} správu určenú na podpis"
+
+msgid "Confirm the total amount spent and the transaction fee on your {} device"
+msgstr "Potvrďte na svojom zariadení {} celkovú vynaloženú sumu a transakčný poplatok"
+
+msgid "Confirm wallet address on your {} device"
+msgstr "Potvrďte na svojom zariadení {} adresu peňaženky"
+
+msgid "Check your {} device to continue"
+msgstr "Pre pokračovanie vyberte svoje zariadenie {}"
+
+msgid "Enter a new PIN for your {}:"
+msgstr "Zadajte nový PIN pre {}:"
+
+msgid ""
+"Re-enter the new PIN for your {}.\n"
+"\n"
+"NOTE: the positions of the numbers have changed!"
+msgstr ""
+"Znovu zadajte nový PIN pre vaše zariadenie {}.\n"
+"\n"
+"POZNÁMKA: pozície čísel sa zmenili!"
+
+msgid "Enter your current {} PIN:"
+msgstr "Zadajte svoj aktuálny PIN {}:"
+
+msgid "The PIN cannot be longer than 9 characters."
+msgstr "PIN nemôže byť dlhší ako 9 znakov."
+
+msgid "Enter a passphrase to generate this wallet.  Each time you use this wallet your {} will prompt you for the passphrase.  If you forget the passphrase you cannot access the bitcoins in the wallet."
+msgstr "Pre vytvorenie tejto peňaženky zadajte prístupovú frázu. Vždy, keď budete používať túto peňaženku, vaše {} vás vyzve, aby ste zadali prístupovú frázu. Ak zabudnete prístupovú frázu, nebudete môcť pristupovať k bitcoinom v peňaženke."
+
+msgid "Enter the passphrase to unlock this wallet:"
+msgstr "Pre odomknutie tejto peňaženky zadajte prístupovú frázu:"
+
+msgid "Too long passphrase ({} > 50 chars)."
+msgstr "Príliš dlhá prístupová fráza ({} > 50 znakov)."
+
+msgid "Step {}/24.  Enter seed word as explained on your {}:"
+msgstr "Krok {}/24.  Zadajte slovo seedu podľa vášho zariadenia {}:"
+
+msgid "Confirm on your {} device to disable passphrases"
+msgstr "Potvrďte na svojom zariadení {} vypnutie prístupových fráz"
+
+msgid "Confirm on your {} device to enable passphrases"
+msgstr "Potvrďte na svojom zariadení {} zapnutie prístupových fráz"
+
+msgid "Confirm the new label on your {} device"
+msgstr "Potvrďte na svojom zariadení {} novú menovku"
+
+msgid "Confirm on your {} device to change your home screen"
+msgstr "Potvrďte na svojom zariadení {} zmenu domovskej obrazovky"
+
+msgid "Confirm on your {} device to disable PIN protection"
+msgstr "Potvrďte na svojom zariadení {} vypnutie ochrany PIN-om"
+
+msgid "Confirm on your {} device to change your PIN"
+msgstr "Potvrďte na svojom zariadení {} zmenu svojho PIN-u"
+
+msgid "Confirm on your {} device to set a PIN"
+msgstr "Potvrďte na svojom zariadení {} nastavenie PIN-u"
+
+msgid "Missing previous tx for legacy input."
+msgstr "Chýba predošlá transakcia pre staršiu verziu vstupu."
+
+msgid "Outdated {} firmware for device labelled {}. Please download the updated firmware from {}"
+msgstr "Zastaraný firmvér {} pre zariadenie s menovkou {}. Stiahnite si, prosím, aktualizovaný firmvér z {}"
+
+msgid "The device was disconnected."
+msgstr "Zariadenie bolo odpojené."
+
+msgid "Your device firmware is too old"
+msgstr "Firmvér vášho zariadenia je príliš starý"
+
+msgid "Passphrases allow you to access new wallets, each hidden behind a particular case-sensitive passphrase."
+msgstr "Prístupové frázy umožňujú prístup k novým peňaženkám - každá sa ukrýva za konkrétnou prístupovou frázou, pri ktorej sa rozlišujú veľké a malé písmená."
+
+msgid "You need to create a separate Electrum wallet for each passphrase you use as they each generate different addresses.  Changing your passphrase does not lose other wallets, each is still accessible behind its own passphrase."
+msgstr "Pre každú prístupovú frázu musíte vytvoriť samostatnú peňaženku Electrum, keďže každá fráza generuje odlišné adresy. Zmenou prístupovej frázy neprídete o ostatné peňaženky; každá z nich bude naďalej k dispozícii so svojou vlastnou prístupovou frázou."
+
+msgid "You should enable PIN protection.  Your PIN is the only protection for your bitcoins if your device is lost or stolen."
+msgstr "Mali by ste zapnúť ochranu PIN-om. PIN je totiž vašou jedinou ochranou voči krádeži bitcoinov v prípade straty alebo krádeže vášho zariadenia."
+
+msgid "If you forget a passphrase you will be unable to access any bitcoins in the wallet behind it.  A passphrase is not a PIN. Only change this if you are sure you understand it."
+msgstr "Ak zabudnete prístupovú frázu, stratíte prístup k bitcoinom v danej peňaženke. Prístupová fráza nie je PIN. Toto meňte iba ak ste si istý/á, že tomu rozumiete."
+
+msgid "KeepKey Seed Recovery"
+msgstr "Obnovenie seedu KeepKey"
+
+msgid "Accept Word"
+msgstr "Prijať slovo"
+
+msgid "Seed Entered"
+msgstr "Zadaný seed"
+
+msgid "Enter PIN"
+msgstr "Zadajte PIN"
+
+msgid "Enter a label to name your device:"
+msgstr "Pre pomenovanie vášho zariadenia zadajte menovku:"
+
+msgid "Select your seed length:"
+msgstr "Vyberte dĺžku vášho seedu:"
+
+msgid "{} words"
+msgstr "{} slov"
+
+msgid "Enable PIN protection"
+msgstr "Zapnúť ochranu PIN-om"
+
+msgid "Enter your BIP39 mnemonic:"
+msgstr "Zadajte mnemotechnický kód BIP39:"
+
+msgid "Enter the master private key beginning with xprv:"
+msgstr "Zadajte hlavný súkromný kľúč začínajúci na xprv:"
+
+msgid "Enter your PIN (digits 1-9):"
+msgstr "Zadajte váš PIN (číslice 1-9):"
+
+msgid "Enable passphrases"
+msgstr "Povoliť prístupové frázy"
+
+msgid "No"
+msgstr "Nie"
+
+msgid "Yes"
+msgstr "Áno"
+
+msgid "Enable Passphrases"
+msgstr "Povoliť prístupové frázy"
+
+msgid "Disable Passphrases"
+msgstr "Vypnúť prístupové frázy"
+
+msgid "Set a PIN"
+msgstr "Nastaviť PIN"
+
+msgid "Change PIN"
+msgstr "Zmeniť PIN"
+
+msgid "Confirm Toggle Passphrase Protection"
+msgstr "Potvrďte ochranu prepnutia prístupovej frázy"
+
+msgid "Are you sure you want to proceed?"
+msgstr "Ste si istý/á, že chcete pokračovať?"
+
+msgid "Confirm Device Wipe"
+msgstr "Potvrdiť vymazanie zariadenia"
+
+msgid ""
+"Are you SURE you want to wipe the device?\n"
+"Your wallet still has bitcoins in it!"
+msgstr ""
+"NAOZAJ si želáte vymazať toto zariadenie?\n"
+"Peňaženka stále obsahuje bitcoiny!"
+
+msgid "{:2d} minutes"
+msgstr "{:2d} minút"
+
+msgid "Device Label"
+msgstr "Menovka zariadenia"
+
+msgid "PIN set"
+msgstr "PIN nastavený"
+
+msgid "Passphrases"
+msgstr "Prístupové frázy"
+
+msgid "Device ID"
+msgstr "ID zariadenia"
+
+msgid "Bootloader Hash"
+msgstr "Hodnota hash bootloadera"
+
+msgid "Supported Coins"
+msgstr "Podporované mince"
+
+msgid "Language"
+msgstr "Jazyk"
+
+msgid "Initialized"
+msgstr "Inicializované"
+
+msgid "Name this {}.  If you have multiple devices their labels help distinguish them."
+msgstr "Pomenujte toto zariadenie {}. Ak máte viaceré zariadenia, menovky ich pomáhajú rozlišovať."
+
+msgid "Apply"
+msgstr "Použiť"
+
+msgid "PIN Protection"
+msgstr "Ochrana PIN-om"
+
+msgid "PIN protection is strongly recommended.  A PIN is your only protection against someone stealing your bitcoins if they obtain physical access to your {}."
+msgstr "Dôrazne sa odporúča ochrana PIN-om. PIN je vaša jediná ochrana voči krádeži bitcoinov v prípade, že niekto získa fyzický prístup k vášmu zariadeniu {}."
+
+msgid "Session Timeout"
+msgstr "Vypršanie platnosti relácie"
+
+msgid "Clear the session after the specified period of inactivity.  Once a session has timed out, your PIN and passphrase (if enabled) must be re-entered to use the device."
+msgstr "Vymažte reláciu po stanovenej dobe nečinnosti. Keď uplynie časový limit pre reláciu, musíte pre použitie zariadenia znova zadať svoj PIN a prístupovú frázu (ak je povolená)."
+
+msgid "Disable PIN"
+msgstr "Vypnúť PIN"
+
+msgid "If you disable your PIN, anyone with physical access to your {} device can spend your bitcoins."
+msgstr "Ak vypnete svoj PIN, ktokoľvek s fyzickým prístupom k vášmu zariadeniu {} bude môcť míňať vaše bitcoiny."
+
+msgid "Wipe Device"
+msgstr "Vymazať zariadenie"
+
+msgid "Wipe the device, removing all data from it.  The firmware is left unchanged."
+msgstr "Vymazaním zariadenia odstránite z neho všetky údaje. Firmvér zostane nezmenený."
+
+msgid "Only wipe a device if you have the recovery seed written down and the device wallet(s) are empty, otherwise the bitcoins will be lost forever."
+msgstr "Zariadenie vymažte iba ak ste si zapísali seed pre obnovu a zariadenie je prázdne, inak sa bitcoiny navždy stratia."
+
+msgid "Advanced"
+msgstr "Pokročilé"
+
+msgid ""
+"Choose how you want to initialize your {}.\n"
+"\n"
+"The first two methods are secure as no secret information is entered into your computer.\n"
+"\n"
+"For the last two methods you input secrets on your keyboard and upload them to your {}, and so you should only do those on a computer you know to be trustworthy and free of malware."
+msgstr ""
+"Vyberte, ako chcete inicializovať vaše zariadenie {}.\n"
+"\n"
+"Prvé dve metódy sú bezpečné, pretože sa pri nich do vášho počítača nezadávajú žiadne tajné informácie.\n"
+"\n"
+"Pri posledných dvoch metódach zadávate tajné kľúče na klávesnici a nahrávate ich do svojho zariadenia {}, takže by ste to mali vykonávať iba na počítači, o ktorom viete, že je dôveryhodný a neobsahuje malvér."
+
+msgid "Let the device generate a completely new seed randomly"
+msgstr "Nechajte zariadenie vytvoriť kompletne nový seed náhodne"
+
+msgid "Recover from a seed you have previously written down"
+msgstr "Obnoviť zo seedu, ktorý ste si predtým zapísali"
+
+msgid "Upload a BIP39 mnemonic to generate the seed"
+msgstr "Pre vytvorenie seedu nahrajte mnemotechnický kód BIP39"
+
+msgid "Upload a master private key"
+msgstr "Nahrajte hlavný súkromný kľúč"
+
+msgid "Error connecting to {} server"
+msgstr "Chyba pri pripájaní na server {}"
+
+msgid "Your labels have been synchronised."
+msgstr "Vaše menovky boli synchronizované."
+
+msgid "Error synchronising labels"
+msgstr "Chyba pri synchronizácii menoviek"
+
+msgid "Firmware version too old. Please update at"
+msgstr "Verzia firmvéru je príliš stará. Prosím, aktualizujte ho na"
+
+msgid "Firmware version (or \"Bitcoin\" app) too old for Segwit support. Please update at"
+msgstr "Verzia firmvéru (alebo „bitcoinovej“ apky) je príliš stará pre podporu Segwitu. Prosím, aktualizujte ho na"
+
+msgid "Your Ledger is locked. Please unlock it."
+msgstr "Vaše zariadenie Ledger je zamknuté. Prosím, odomknite ho."
+
+msgid "Your device might not have support for this functionality."
+msgstr "Vaše zariadenie nemusí mať podporu pre túto funkcionalitu."
+
+msgid "Confirm Transaction on your Ledger device..."
+msgstr "Potvrďte transakciu na svojom zariadení Ledger..."
+
+msgid "Cancelled by user"
+msgstr "Zrušené používateľom"
+
+msgid "Ledger Status"
+msgstr "Stav Ledgera"
+
+msgid "Send to cosigner"
+msgstr "Odoslať spolupodpisovateľovi"
+
+msgid "Do you want to open it now?"
+msgstr "Chcete ho teraz otvoriť?"
+
+msgid "{} encrypted for Revealer {}_{} saved as PNG and PDF at: "
+msgstr "{} šifrovaných pre Revealer {}_{} uložený ako PNG a PDF v: "
+
+msgid "Always check your backups."
+msgstr "Vždy si kontrolujte svoje zálohy."
+
+msgid "your seed extension will <b>not</b> be included in the encrypted backup."
+msgstr "vaše rozšírenie seedu <b>nebude</b> zahrnuté v šifrovanej zálohe."
+
+msgid "Digital Revealer ({}_{}) saved as PNG and PDF at:"
+msgstr "Digitálny Revealer ({}_{}) sa uložil ako PNG a PDF v:"
+
+msgid "Revealers starting with 0 are not secure due to a vulnerability."
+msgstr "Revealery začínajúce na 0 nie sú z dôvodu zraniteľnosti bezpečné."
+
+msgid "More info at: {}"
+msgstr "Viac info na: {}"
+
+msgid "Proceed at your own risk."
+msgstr "Pokračujte na vlastné riziko."
+
+msgid "This version supports a maximum of {} characters."
+msgstr "Táto verzia podporuje maximálne {} znakov."
+
+msgid "Encrypt {}'s seed"
+msgstr "Zašifrovať seed {}"
+
+msgid "Encrypt custom secret"
+msgstr "Zašifrovať vlastný tajný kľúč"
+
+msgid "Custom secret"
+msgstr "Vlastný tajný kľúč"
+
+msgid "seed"
+msgstr "seed"
+
+msgid "Calibration sheet"
+msgstr "Kalibračný list"
+
+msgid "Instructions:"
+msgstr "Inštrukcie:"
+
+msgid "2. Align your Revealer borderlines to the dashed lines on the top and left."
+msgstr "2. Priblížte okraje svojho Revealera k prerušovaným čiaram hore a vľavo."
+
+msgid "3. Press slightly the Revealer against the paper and read the numbers that best match on the opposite sides. "
+msgstr "3. Jemne pritlačte Revealer na papier a prečítajte čísla, ktoré sa najviac zhodujú s opačnou stranou. "
+
+msgid "4. Type the numbers in the software"
+msgstr "4. Zadajte čísla v softvéri"
+
+msgid "Revealer - Printer calibration settings"
+msgstr "Revealer - Kalibračné nastavenia tlačiarne"
+
+msgid "If you have an old printer, or want optimal precision"
+msgstr "Ak máte starú tlačiareň alebo ak chcete optimálnu presnosť"
+
+msgid "print the calibration pdf and follow the instructions "
+msgstr "vytlačte kalibračné pdf a riaďte sa jeho inštrukciami "
+
+msgid "Open calibration pdf"
+msgstr "Otvorte kalibračné pdf"
+
+msgid "Calibration values:"
+msgstr "Kalibračné hodnoty:"
+
+msgid "Right side"
+msgstr "Pravá strana"
+
+msgid "Bottom"
+msgstr "Spodok"
+
+msgid "Choose on your {} device where to enter your passphrase"
+msgstr "Zvoľte na svojom zariadení {}, kde zadať prístupovú frázu"
+
+msgid "{:d} words"
+msgstr "{:d} slov"
+
+msgid "Choose Homescreen"
+msgstr "Vybrať domovskú obrazovku"
+
+msgid "Homescreen"
+msgstr "Domovská obrazovka"
+
+msgid "Change..."
+msgstr "Zmeniť..."
+
+msgid "Required package 'PIL' is not available - Please install it."
+msgstr "Požadovaný balík „PIL“ nie je k dispozícii - Nainštalujte ho."
+
+msgid "You can set the homescreen on your device to personalize it.  You must choose a {} x {} monochrome black and white image."
+msgstr "V rámci personalizácie si môžete na svojom zariadení nastaviť domovskú obrazovku. Musíte si vybrať čiernobiely obrázok s veľkosťou {} x {}."
+
+msgid ""
+"You will be asked to enter 24 words regardless of your seed's actual length.  If you enter a word incorrectly or misspell it, you cannot change it or go back - you will need to start again from the beginning.\n"
+"\n"
+"So please enter the words carefully!"
+msgstr ""
+"Budete požiadaní o zadanie 24 slov bez ohľadu na skutočnú dĺžku vášho seedu. Ak zadáte slovo nesprávne alebo ho zle vyhláskujete, nemôžete ho zmeniť alebo ísť späť - budete musieť začať odznova.\n"
+"\n"
+"Zadávajte teda slová pozorne!"
+
+msgid "Complete the initialization process on your {} device"
+msgstr "Dokončite proces inicializácie na svojom zariadení {}"
+
+msgid "Please enter your passphrase on the {} device"
+msgstr "Prosím, zadajte svoju prístupovú frázu do zariadenia {}"
+
+msgid "Enter passphrase on device?"
+msgstr "Zadať prístupovú frázu na zariadení?"
+
+msgid ""
+"Enter the recovery words by pressing the buttons according to what the device shows on its display.  You can also use your NUMPAD.\n"
+"Press BACKSPACE to go back a choice or word.\n"
+msgstr ""
+"Zadajte slová pre obnovu stláčaním tlačidiel podľa toho, čo sa zobrazuje na displeji zariadenia.  Môžete tiež použiť klávesnicu NUMPAD.\n"
+"Ak sa chcete vrátiť o voľbu alebo slovo dozadu, stlačte BACKSPACE.\n"
+
+msgid ""
+"In seedless mode, the mnemonic seed words are never shown to the user.\n"
+"There is no backup, and the user has a proof of this.\n"
+"This is an advanced feature, only suggested to be used in redundant multisig setups."
+msgstr ""
+"V bezseedovom móde sa používateľovi nikdy nezobrazujú slová mnemotechnického seedu.\n"
+"Neexistuje tu žiadna záloha a používateľ má o tomto dôkaz.\n"
+"Toto je pokročilá funkcia, ktorú odporúčame používať iba pri nadbytočných multisig nastaveniach."
+
+msgid "Trezor Matrix Recovery"
+msgstr "Obnovenie matice Trezora"
+
+msgid "Enter Passphrase on Device"
+msgstr "Zadajte prístupovú frázu na zariadení"
+
+msgid "Select backup type:"
+msgstr "Vyberte typ zálohy:"
+
+msgid "Single seed (BIP39)"
+msgstr "Jediný seed (BIP39)"
+
+msgid "Shamir"
+msgstr "Shamir"
+
+msgid "Super Shamir"
+msgstr "Super Shamir"
+
+msgid "Select seed/share length:"
+msgstr "Vyberte dĺžku seedu alebo podielu:"
+
+msgid "Select seed length:"
+msgstr "Vyberte dĺžku seedu:"
+
+msgid "Select share length:"
+msgstr "Vyberte dĺžku podielu:"
+
+msgid "Show expert settings"
+msgstr "Zobraziť expertné nastavenia"
+
+msgid "Select recovery type:"
+msgstr "Vybrať typ obnovy:"
+
+msgid "Scrambled words"
+msgstr "Pomiešané slová"
+
+msgid "Matrix"
+msgstr "Matica"
+
+msgid "Firmware version too old."
+msgstr "Verzia firmvéru je príliš stará."
+
+msgid "Required package 'PIL' is not available - Please install it or use the Trezor website instead."
+msgstr "Požadovaný balík „PIL“ nie je k dispozícii - Nainštalujte ho alebo namiesto toho použite webovú stránku Trezoru."
+
+msgid "Choose how you want to initialize your {}."
+msgstr "Vyberte, ako chcete inicializovať svoj {}."
+
+msgid "Please enter your Google Authenticator code:"
+msgstr "Prosím, zadajte váš kód Google Authenticatora:"
+
+msgid "Error connecting to server"
+msgstr "Chyba pri pripájaní k serveru"
+
+msgid "Invalid one-time password."
+msgstr "Neplatné jednorazové heslo."
+
+msgid "This wallet was restored from seed, and it contains two master private keys."
+msgstr "Táto peňaženka bola obnovená zo seedu a obsahuje dva hlavné súkromné kľúče."
+
+msgid "Therefore, two-factor authentication is disabled."
+msgstr "Preto je dvojfaktorové overenie vypnuté."
+
+msgid "Waiting for TrustedCoin server to sign transaction..."
+msgstr "Čaká sa na podpísanie transakcie od TrustedCoin servera..."
+
+msgid "TrustedCoin"
+msgstr "TrustedCoin"
+
+msgid "Authorization"
+msgstr "Autorizácia"
+
+msgid "Please enter your Google Authenticator code"
+msgstr "Zadajte, prosím, váš kód Google Authenticatora"
+
+msgid "Code"
+msgstr "Kód"
+
+msgid "If you have lost your second factor, you need to restore your wallet from seed in order to request a new code."
+msgstr "Ak ste stratili svoj druhý faktor, pre vyžiadanie nového kódu musíte obnoviť svoju peňaženku zo seedu."
+
+msgid "Error getting TrustedCoin account info."
+msgstr "Vyskytla sa chyba pri získavaní informácií o účte TrustedCoin."
+
+msgid "If you keep experiencing network problems, try using a Tor proxy."
+msgstr "Ak pretrvávajú problémy so sieťou, skúste použiť Tor proxy."
+
+msgid "Requesting account info from TrustedCoin server..."
+msgstr "Prebieha vyžiadanie informácií o účte zo servera TrustedCoin..."
+
+msgid "Server not reachable."
+msgstr "Server je nedostupný."
+
+msgid "TrustedCoin Information"
+msgstr "Informácie o TrustedCoin"
+
+msgid "This wallet is protected by TrustedCoin's two-factor authentication."
+msgstr "Táto peňaženka je chránená dvojfaktorovým overením TrustedCoin."
+
+msgid "For more information, visit"
+msgstr "Pre viac informácií navštívte"
+
+msgid "TrustedCoin charges a small fee to co-sign transactions. The fee depends on how many prepaid transactions you buy. An extra output is added to your transaction every time you run out of prepaid transactions."
+msgstr "TrustedCoin si účtuje malý poplatok za spolupodpisovanie transakcií. Poplatok závisí od množstva predplatených transakcií, ktoré ste si zakúpili. Zakaždým, keď sa vám minú predplatené transakcie, pridá sa k vašej transakcii výstup navyše."
+
+msgid "Your wallet has {} prepaid transactions."
+msgstr "Vaša peňaženka má {} predplatených transakcií."
+
+msgid "Create or restore"
+msgstr "Vytvoriť alebo obnoviť"
+
+msgid "Then, enter your Google Authenticator code:"
+msgstr "Potom zadajte váš kód Google Authenticatora:"
+
+msgid "Google Authenticator code:"
+msgstr "Kód Google Authenticatora:"
+
+msgid "Restore 2FA wallet"
+msgstr "Obnoviť peňaženku 2FA"
+
+msgid "Your wallet file is: {}."
+msgstr "Váš súbor peňaženky je: {}."
+
+msgid "Two-factor authentication is a service provided by TrustedCoin.  It uses a multi-signature wallet, where you own 2 of 3 keys.  The third key is stored on a remote server that signs transactions on your behalf.  To use this service, you will need a smartphone with Google Authenticator installed."
+msgstr "Dvojfaktorové overenie je služba, ktorú poskytuje TrustedCoin.  Používa viacpodpisovú peňaženku, kde vlastníte 2 z 3 kľúčov.  Tretí kľúč je uložený na vzdialenom serveri, ktorý podpisuje transakcie vo vašom mene. Pre používanie tejto služby budete potrebovať smartfón s nainštalovanou aplikáciou Google Authenticator."
+
+msgid "A small fee will be charged on each transaction that uses the remote server.  You may check and modify your billing preferences once the installation is complete."
+msgstr "Pri každej transakcii, ktorá využíva vzdialený server, bude účtovaný malý poplatok. Po ukončení inštalácie si môžete skontrolovať a upraviť svoje nastavenia fakturácie."
+
+msgid "Note that your coins are not locked in this service.  You may withdraw your funds at any time and at no cost, without the remote server, by using the 'restore wallet' option with your wallet seed."
+msgstr "Vaše mince nie sú v tejto službe uzamknuté. Svoje prostriedky si môžete kedykoľvek bezplatne vybrať bez vzdialeného servera, s použitím voľby „obnoviť peňaženku“ so seedom vašej peňaženky."
+
+msgid "The next step will generate the seed of your wallet.  This seed will NOT be saved in your computer, and it must be stored on paper.  To be safe from malware, you may want to do this on an offline computer, and move your wallet later to an online computer."
+msgstr "V ďalšom kroku sa vytvorí seed vašej peňaženky. Tento sa NEuloží vo vašom počítači a musí sa uchovať na papieri. Ak sa chcete ochrániť pred malvérom, bude lepšie, keď to urobíte na offline počítači a neskôr presuniete svoju peňaženku na online počítač."
+
+msgid "Two-factor authentication is a service provided by TrustedCoin. To use it, you must have a separate device with Google Authenticator."
+msgstr "Dvojfaktoré overenie je služba, ktorú poskytuje TrustedCoin. Pre jej používanie musíte mať iné zariadenie s aplikáciou Google Authenticator."
+
+msgid "This service uses a multi-signature wallet, where you own 2 of 3 keys.  The third key is stored on a remote server that signs transactions on your behalf. A small fee will be charged on each transaction that uses the remote server."
+msgstr "Táto služba používa viacpodpisovú peňaženku, kde vlastníte 2 z 3 kľúčov.  Tretí kľúč je uložený na vzdialenom serveri, ktorý podpisuje transakcie vo vašom mene. Pri každej transakcii, ktorá používa vzdialený server, sa účtuje malý poplatok."
+
+msgid "Enter the seed for your 2-factor wallet:"
+msgstr "Zadajte seed pre svoju 2-faktorovú peňaženku:"
+
+msgid "Select server automatically"
+msgstr "Vybrať server automaticky"
+
+msgid "Spend only confirmed coins"
+msgstr "Minúť iba potvrdené mince"
+
+msgid "Spend only confirmed inputs."
+msgstr "Minúť iba potvrdené vstupy."
+
+msgid "Enable output value rounding"
+msgstr "Povoliť zaokrúhľovanie výstupnej hodnoty"
+
+msgid "Set the value of the change output so that it has similar precision to the other outputs."
+msgstr "Nastavte hodnotu výstupu výdavku, aby mala podobnú presnosť ako ostatné výstupy."
+
+msgid "This might improve your privacy somewhat."
+msgstr "Toto môže trocha vylepšiť vaše súkromie."
+
+msgid "If enabled, at most 100 satoshis might be lost due to this, per transaction."
+msgstr "Ak je zapnuté, môžete kvôli tomu prísť pri jednej transakcii o max. 100 satoshi."
+
+msgid "Color theme"
+msgstr "Farebný motív"
+
+msgid "For CoinJoin; strip privates"
+msgstr "Pre CoinJoin; zbaviť súkromných kľúčov"
+
+msgid "For hardware device; include xpubs"
+msgstr "Pre hardvérové zariadenie; zahrň verejné kľúče tzv. xpubs"
+
+msgid "Zeros after decimal point"
+msgstr "Nula za desatinnou čiarkou"
+
+msgid "Number of zeros displayed after the decimal point. For example, if this is set to 2, \"1.\" will be displayed as \"1.00\""
+msgstr "Počet núl za desatinnou čiarkou. Napr, ak je to nastavené na 2, \"1\" bude zobrazené ako \"1,00\""
+
+msgid "Online Block Explorer"
+msgstr "Online prieskumník blokov"
+
+msgid "Choose which online block explorer to use for functions that open a web browser"
+msgstr "Vyberte online prieskumník blokov na funkcie, ktoré otvárajú webový prehliadač"
+
+msgid "Video Device"
+msgstr "Videozariadenie"
+
+msgid "Install the zbar package to enable this."
+msgstr "Aby ste toto umožnili, nainštalujte balík zbar."
+
+msgid "OpenAlias record, used to receive coins and to sign payment requests."
+msgstr "Záznam OpenAlias, používaný na prijímanie mincí a podpisovanie žiadostí o platbu."
+
+msgid "The following alias providers are available:"
+msgstr "K dispozícii sú títo poskytovatelia aliasov:"
+
+msgid "Automatically check for software updates"
+msgstr "Automaticky vyhľadávať softvérové aktualizácie"
+
+msgid "Write logs to file"
+msgstr "Zapisovať denníky do súboru"
+
+msgid "Debug logs can be persisted to disk. These are useful for troubleshooting."
+msgstr "Denníky s informáciami o ladení možno uchovať na disku. Sú užitočné pri riešení problémov."
+
+msgid "Select which language is used in the GUI (after restart)."
+msgstr "Vyberte ktorý jazyk použiť v GUI (po reštarte)."
+
+msgid "Insufficient funds"
+msgstr "Nemáte dostatočnú sumu"
+
+msgid "Dynamic fee estimates not available"
+msgstr "Odhady dynamických poplatkov nie sú k dispozícii"
+
+msgid "Incorrect password"
+msgstr "Nesprávne heslo"
+
+msgid "Transaction is unrelated to this wallet."
+msgstr "Transakcia nesúvisí s touto peňaženkou."
+
+msgid "Failed to import from file."
+msgstr "Import zo súboru zlyhal."
+
+msgid "Failed to export to file."
+msgstr "Export do súboru zlyhal."
+
+msgid "No Data"
+msgstr "Žiadne údaje"
+
+msgid "Invalid JSON code."
+msgstr "Neplatný JSON kód."
+
+msgid "Not yet available"
+msgstr "Zatiaľ nie je k dispozícii"
+
+msgid "Unconfirmed parent"
+msgstr "Nepotvrdený rodič"
+
+msgid "Not Verified"
+msgstr "Neoverené"
+
+msgid "Local"
+msgstr "Miestne"
+
+msgid "Not enough funds on address."
+msgstr "Na adrese nie je dostatok prostriedkov."
+
+msgid "Cannot bump fee"
+msgstr "Poplatok sa nedá navýšiť"
+
+msgid "Wallet file corruption detected. Please restore your wallet from seed, and compare the addresses in both files"
+msgstr "Zistilo sa poškodenie súboru peňaženky. Prosím, obnovte vašu peňaženku zo seedu a porovnajte adresy v oboch súboroch"
+
+msgid "{} confirmations"
+msgstr "{} potvrdení"
+
+msgid "Not verified"
+msgstr "Neoverené"
+
+msgid "Signed"
+msgstr "Podpísané"
+
+msgid "Unsigned"
+msgstr "Nepodpísané"
+
+msgid "Partially signed"
+msgstr "Čiastočne podpísané"
+
+msgid ""
+"The fee could not be verified. Signing non-segwit inputs is risky:\n"
+"if this transaction was maliciously modified before you sign,\n"
+"you might end up paying a higher mining fee than displayed."
+msgstr ""
+"Poplatok sa nepodarilo overiť. Podpisovanie nesegwitových vstupov je riskantné:\n"
+"ak táto transakcia bola zlomyseľne upravená pred vaším podpisom,\n"
+"môžete v konečnom dôsledku zaplatiť vyšší ťažobný poplatok ako ten zobrazovaný."
+
+msgid "The fee for this transaction seems unusually high."
+msgstr "Poplatok za túto transakciu sa zdá byť nezvyčajne vysoký."
+
+msgid "This address has already been used. For better privacy, do not reuse it for new payments."
+msgstr "Táto adresa už bola použitá. Pre lepšie súkromie ju nepoužívaj opätovne na nové platby."
+
+msgid "New transaction: {}"
+msgstr "Nová transakcia: {}"
+
+msgid "invalid address"
+msgstr "neplatná adresa"
+
+msgid "address already in wallet"
+msgstr "adresa je už v peňaženke"
+
+msgctxt "About|"
+msgid "About Electrum"
+msgstr "O aplikácii Electrum"
+
+msgctxt "About|"
+msgid "Version"
+msgstr "Verzia"
+
+msgctxt "About|"
+msgid "Homepage"
+msgstr "Domovská stránka"
+
+msgctxt "About|"
+msgid "Distributed by Electrum Technologies GmbH"
+msgstr "Distribuuje Electrum Technologies GmbH"
+
+msgctxt "AddressDetails|"
+msgid "Address"
+msgstr "Adresa"
+
+msgctxt "AddressDetails|"
+msgid "Balance"
+msgstr "Zostatok"
+
+msgctxt "AddressDetails|"
+msgid "Transactions"
+msgstr "Transakcie"
+
+msgctxt "AddressDetails|"
+msgid "Label"
+msgstr "Menovka"
+
+msgctxt "AddressDetails|"
+msgid "Script type"
+msgstr "Typ skriptu"
+
+msgctxt "AddressDetails|"
+msgid "Derivation path"
+msgstr "Derivačná cesta"
+
+msgctxt "AddressDetails|"
+msgid "Public keys"
+msgstr "Verejné kľúče"
+
+msgctxt "AddressDetails|"
+msgid "Public key"
+msgstr "Verejný kľúč"
+
+msgctxt "AddressDetails|"
+msgid "Private key"
+msgstr "Súkromný kľúč"
+
+msgctxt "AddressDetails|"
+msgid "Delete"
+msgstr "Odstrániť"
+
+msgctxt "Addresses|"
+msgid "Addresses"
+msgstr "Adresy"
+
+msgctxt "Addresses|"
+msgid "Freeze"
+msgstr "Zmraziť"
+
+msgctxt "Addresses|"
+msgid "Unfreeze"
+msgstr "Uvoľniť"
+
+msgctxt "BalanceDetails|"
+msgid "Lightning"
+msgstr "Lightning"
+
+msgctxt "BalanceDetails|"
+msgid "Unconfirmed"
+msgstr "Nepotvrdené"
+
+msgctxt "BalanceDetails|"
+msgid "Can send"
+msgstr "Môže odosielať"
+
+msgctxt "BalanceDetails|"
+msgid "Open Channel"
+msgstr "Otvoriť kanál"
+
+msgctxt "BalanceSummary|"
+msgid "Balance"
+msgstr "Zostatok"
+
+msgctxt "BalanceSummary|"
+msgid "Lightning"
+msgstr "Lightning"
+
+msgctxt "BtcField|"
+msgid "Amount"
+msgstr "Suma"
+
+msgctxt "ChannelDetails|"
+msgid "Channel Backup"
+msgstr "Zálohovanie kanálov"
+
+msgctxt "ChannelDetails|"
+msgid "Capacity"
+msgstr "Kapacita"
+
+msgctxt "ChannelDetails|"
+msgid "Can send"
+msgstr "Môže odosielať"
+
+msgctxt "ChannelDetails|"
+msgid "Unfreeze"
+msgstr "Uvoľniť"
+
+msgctxt "ChannelDetails|"
+msgid "Freeze"
+msgstr "Zmraziť"
+
+msgctxt "ChannelDetails|"
+msgid "Close channel"
+msgstr "Zatvoriť kanál"
+
+msgctxt "Channels|"
+msgid "Open Channel"
+msgstr "Otvoriť kanál"
+
+msgctxt "CloseChannelDialog|"
+msgid "Close channel"
+msgstr "Zatvoriť kanál"
+
+msgctxt "CloseChannelDialog|"
+msgid "Channel closed"
+msgstr "Kanál zatvorený"
+
+msgctxt "ConfirmTxDialog|"
+msgid "Fee"
+msgstr "Poplatok"
+
+msgctxt "ConfirmTxDialog|"
+msgid "Options"
+msgstr "Možnosti"
+
+msgctxt "ConfirmTxDialog|"
+msgid "Use multiple change addresses"
+msgstr "Použiť niekoľko adries pre výdavok"
+
+msgctxt "ConfirmTxDialog|"
+msgid "In some cases, use up to 3 change addresses in order to break up large coin amounts and obfuscate the recipient address."
+msgstr "V niektorých prípadoch použite až 3 adresy pre výdavok, aby sa mohli veľké sumy mincí rozdeliť na menšie a aby sa ukryla adresa príjemcu."
+
+msgctxt "ConfirmTxDialog|"
+msgid "This may result in higher transactions fees."
+msgstr "Môže to mať za následok vyššie transakčné poplatky."
+
+msgctxt "CpfpBumpFeeDialog|"
+msgid "Bump Fee"
+msgstr "Navýšiť poplatok"
+
+msgctxt "CpfpBumpFeeDialog|"
+msgid "Fee for child"
+msgstr "Poplatok za dieťa"
+
+msgctxt "CpfpBumpFeeDialog|"
+msgid "Total size"
+msgstr "Celková veľkosť"
+
+msgctxt "CpfpBumpFeeDialog|"
+msgid "Total fee"
+msgstr "Celkový poplatok"
+
+msgctxt "ExceptionDialog|"
+msgid "Sorry!"
+msgstr "Prepáčte!"
+
+msgctxt "ExceptionDialog|"
+msgid "Something went wrong while executing Electrum."
+msgstr "Pri vykonávaní aplikácie Electrum sa vyskytla chyba."
+
+msgctxt "ExceptionDialog|"
+msgid "To help us diagnose and fix the problem, you can send us a bug report that contains useful debug information:"
+msgstr "Aby ste nám pomohli diagnostikovať a vyriešiť problém, môžete nám odoslať správu o chybe, ktorá obsahuje užitočné informácie o ladení:"
+
+msgctxt "ExceptionDialog|"
+msgid "Show report contents"
+msgstr "Zobraziť obsah správy"
+
+msgctxt "ExceptionDialog|"
+msgid "Please briefly describe what led to the error (optional):"
+msgstr "Prosím, stručne popíšte, čo viedlo k chybe (voliteľné):"
+
+msgctxt "ExceptionDialog|"
+msgid "Do you want to send this report?"
+msgstr "Chcete odoslať túto správu?"
+
+msgctxt "ExceptionDialog|"
+msgid "Send Bug Report"
+msgstr "Odoslať správu o chybe"
+
+msgctxt "ExceptionDialog|"
+msgid "Not Now"
+msgstr "Nie teraz"
+
+msgctxt "ExceptionDialog|"
+msgid "Error"
+msgstr "Chyba"
+
+msgctxt "ExportTxDialog|"
+msgid "Copy"
+msgstr "Kopírovať"
+
+msgctxt "FeeMethodComboBox|"
+msgid "ETA"
+msgstr "Odhadovaný čas"
+
+msgctxt "FeeMethodComboBox|"
+msgid "Mempool"
+msgstr "Mempool"
+
+msgctxt "FeePicker|"
+msgid "Target"
+msgstr "Cieľ"
+
+msgctxt "FeePicker|"
+msgid "Mining fee"
+msgstr "Ťažobný poplatok"
+
+msgctxt "FiatField|"
+msgid "Amount"
+msgstr "Suma"
+
+msgctxt "GenericShareDialog|"
+msgid "Copy"
+msgstr "Kopírovať"
+
+msgctxt "History|"
+msgid "Local"
+msgstr "Miestne"
+
+msgctxt "History|"
+msgid "Mempool"
+msgstr "Mempool"
+
+msgctxt "ImportAddressesKeysDialog|"
+msgid "Import"
+msgstr "Importovať"
+
+msgctxt "InvoiceDialog|"
+msgid "Address"
+msgstr "Adresa"
+
+msgctxt "InvoiceDialog|"
+msgid "Description"
+msgstr "Popis"
+
+msgctxt "InvoiceDialog|"
+msgid "Max"
+msgstr "Max"
+
+msgctxt "InvoiceDialog|"
+msgid "Payment hash"
+msgstr "Haš platby"
+
+msgctxt "InvoiceDialog|"
+msgid "Save"
+msgstr "Uložiť"
+
+msgctxt "InvoiceDialog|"
+msgid "Payment sent."
+msgstr "Platba odoslaná."
+
+msgctxt "Invoices|"
+msgid "Delete"
+msgstr "Odstrániť"
+
+msgctxt "LightningPaymentDetails|"
+msgid "Paid"
+msgstr "Zaplatené"
+
+msgctxt "LightningPaymentDetails|"
+msgid "Date"
+msgstr "Dátum"
+
+msgctxt "LightningPaymentDetails|"
+msgid "Label"
+msgstr "Menovka"
+
+msgctxt "LightningPaymentDetails|"
+msgid "Payment hash"
+msgstr "Haš platby"
+
+msgctxt "LightningPaymentDetails|"
+msgid "Preimage"
+msgstr "Predobraz - Preimage"
+
+msgctxt "LnurlPayRequestDialog|"
+msgid "Description"
+msgstr "Popis"
+
+msgctxt "LnurlPayRequestDialog|"
+msgid "Amount"
+msgstr "Suma"
+
+msgctxt "LnurlPayRequestDialog|"
+msgid "Message"
+msgstr "Správa"
+
+msgctxt "LnurlWithdrawRequestDialog|"
+msgid "Description"
+msgstr "Popis"
+
+msgctxt "LnurlWithdrawRequestDialog|"
+msgid "Amount"
+msgstr "Suma"
+
+msgctxt "MessageDialog|"
+msgid "Question"
+msgstr "Otázka"
+
+msgctxt "MessageDialog|"
+msgid "Message"
+msgstr "Správa"
+
+msgctxt "MessageDialog|"
+msgid "No"
+msgstr "Nie"
+
+msgctxt "MessageDialog|"
+msgid "Yes"
+msgstr "Áno"
+
+msgctxt "NetworkOverview|"
+msgid "Network"
+msgstr "Sieť"
+
+msgctxt "NetworkOverview|"
+msgid "Status"
+msgstr "Stav"
+
+msgctxt "NetworkOverview|"
+msgid "Server"
+msgstr "Server"
+
+msgctxt "NetworkOverview|"
+msgid "Lightning"
+msgstr "Lightning"
+
+msgctxt "NetworkOverview|"
+msgid "Gossip"
+msgstr "Klebety"
+
+msgctxt "NetworkOverview|"
+msgid "Proxy"
+msgstr "Proxy"
+
+msgctxt "NewWalletWizard|"
+msgid "Error"
+msgstr "Chyba"
+
+msgctxt "NostrSwapServersDialog|"
+msgid "Fee"
+msgstr "Poplatok"
+
+msgctxt "OpenChannelDialog|"
+msgid "Max"
+msgstr "Max"
+
+msgctxt "OpenChannelDialog|"
+msgid "Open Channel"
+msgstr "Otvoriť kanál"
+
+msgctxt "OpenChannelDialog|"
+msgid "Error"
+msgstr "Chyba"
+
+msgctxt "OpenChannelDialog|"
+msgid "Channel established."
+msgstr "Kanál bol vytvorený."
+
+msgctxt "OpenWalletDialog|"
+msgid "Password"
+msgstr "Heslo"
+
+msgctxt "PasswordDialog|"
+msgid "Enter Password"
+msgstr "Zadať heslo"
+
+msgctxt "PasswordDialog|"
+msgid "Password"
+msgstr "Heslo"
+
+msgctxt "Preferences|"
+msgid "Preferences"
+msgstr "Predvoľby"
+
+msgctxt "Preferences|"
+msgid "Language"
+msgstr "Jazyk"
+
+msgctxt "Preferences|"
+msgid "Please restart Electrum to activate the new GUI settings"
+msgstr "Prosím reštartujte program Electrum pre uplatnenie zmien v nastavení GUI"
+
+msgctxt "Preferences|"
+msgid "Base unit"
+msgstr "Základná jednotka"
+
+msgctxt "Preferences|"
+msgid "Lightning"
+msgstr "Lightning"
+
+msgctxt "Preferences|"
+msgid "Advanced"
+msgstr "Pokročilé"
+
+msgctxt "ProxyConfig|"
+msgid "Address"
+msgstr "Adresa"
+
+msgctxt "ProxyConfig|"
+msgid "Port"
+msgstr "Port"
+
+msgctxt "ProxyConfig|"
+msgid "Username"
+msgstr "Meno používateľa"
+
+msgctxt "ProxyConfig|"
+msgid "Password"
+msgstr "Heslo"
+
+msgctxt "RbfBumpFeeDialog|"
+msgid "Bump Fee"
+msgstr "Navýšiť poplatok"
+
+msgctxt "RbfBumpFeeDialog|"
+msgid "Options"
+msgstr "Možnosti"
+
+msgctxt "RbfBumpFeeDialog|"
+msgid "Enable output value rounding"
+msgstr "Povoliť zaokrúhľovanie výstupnej hodnoty"
+
+msgctxt "RbfBumpFeeDialog|"
+msgid "In some cases, use up to 3 change addresses in order to break up large coin amounts and obfuscate the recipient address."
+msgstr "V niektorých prípadoch použite až 3 adresy pre výdavok, aby sa mohli veľké sumy mincí rozdeliť na menšie a aby sa ukryla adresa príjemcu."
+
+msgctxt "RbfBumpFeeDialog|"
+msgid "This may result in higher transactions fees."
+msgstr "Môže to mať za následok vyššie transakčné poplatky."
+
+msgctxt "ReceiveDetailsDialog|"
+msgid "Message"
+msgstr "Správa"
+
+msgctxt "ReceiveDetailsDialog|"
+msgid "Amount"
+msgstr "Suma"
+
+msgctxt "ReceiveDetailsDialog|"
+msgid "Expires after"
+msgstr "Platnosť uplynie po"
+
+msgctxt "ReceiveDetailsDialog|"
+msgid "Lightning"
+msgstr "Lightning"
+
+msgctxt "ReceiveDialog|"
+msgid "Status"
+msgstr "Stav"
+
+msgctxt "ReceiveDialog|"
+msgid "Message"
+msgstr "Správa"
+
+msgctxt "ReceiveDialog|"
+msgid "Amount"
+msgstr "Suma"
+
+msgctxt "ReceiveDialog|"
+msgid "Payment Request"
+msgstr "Žiadosť o platbu"
+
+msgctxt "ReceiveRequests|"
+msgid "Delete"
+msgstr "Odstrániť"
+
+msgctxt "RequestExpiryComboBox|"
+msgid "10 minutes"
+msgstr "10 minút"
+
+msgctxt "RequestExpiryComboBox|"
+msgid "1 hour"
+msgstr "1 hodina"
+
+msgctxt "RequestExpiryComboBox|"
+msgid "1 day"
+msgstr "1 deň"
+
+msgctxt "RequestExpiryComboBox|"
+msgid "1 week"
+msgstr "1 týždeň"
+
+msgctxt "RequestExpiryComboBox|"
+msgid "Never"
+msgstr "Nikdy"
+
+msgctxt "ScanDialog|"
+msgid "Cancel"
+msgstr "Zrušiť"
+
+msgctxt "ServerConfig|"
+msgid "Server"
+msgstr "Server"
+
+msgctxt "ServerConfig|"
+msgid "Other known servers"
+msgstr "Iné známe servre"
+
+msgctxt "ServerConnectWizard|"
+msgid "Next"
+msgstr "Ďalej"
+
+msgctxt "SignVerifyMessageDialog|"
+msgid "Address"
+msgstr "Adresa"
+
+msgctxt "SignVerifyMessageDialog|"
+msgid "Message"
+msgstr "Správa"
+
+msgctxt "SignVerifyMessageDialog|"
+msgid "Signature"
+msgstr "Podpis"
+
+msgctxt "SignVerifyMessageDialog|"
+msgid "Sign"
+msgstr "Podpísať"
+
+msgctxt "SignVerifyMessageDialog|"
+msgid "Verify"
+msgstr "Overiť"
+
+msgctxt "SwapDialog|"
+msgid "You send"
+msgstr "Posielate"
+
+msgctxt "SwapDialog|"
+msgid "You receive"
+msgstr "Príjmete"
+
+msgctxt "SwapDialog|"
+msgid "Mining fee"
+msgstr "Ťažobný poplatok"
+
+msgctxt "SwapDialog|"
+msgid "Cancel"
+msgstr "Zrušiť"
+
+msgctxt "SweepDialog|"
+msgid "Sweep private keys"
+msgstr "Vymiesť súkromné kľúče"
+
+msgctxt "SweepDialog|"
+msgid "WIF keys are typed in Electrum, based on script type."
+msgstr "Kľúče WIF sa zadávajú v aplikácii Electrum podľa typu skriptu."
+
+msgctxt "SweepDialog|"
+msgid "A few examples"
+msgstr "Niekoľko príkladov"
+
+msgctxt "TermsOfUseWizard|"
+msgid "Next"
+msgstr "Ďalej"
+
+msgctxt "TxDetails|"
+msgid "Transaction is unrelated to this wallet."
+msgstr "Transakcia nesúvisí s touto peňaženkou."
+
+msgctxt "TxDetails|"
+msgid "Amount received in channels"
+msgstr "Suma prijatá v kanáloch"
+
+msgctxt "TxDetails|"
+msgid "Amount withdrawn from channels"
+msgstr "Suma vybraná z kanálov"
+
+msgctxt "TxDetails|"
+msgid "Status"
+msgstr "Stav"
+
+msgctxt "TxDetails|"
+msgid "Mempool depth"
+msgstr "Hĺbka mempoolu"
+
+msgctxt "TxDetails|"
+msgid "Date"
+msgstr "Dátum"
+
+msgctxt "TxDetails|"
+msgid "Label"
+msgstr "Menovka"
+
+msgctxt "TxDetails|"
+msgid "Transaction ID"
+msgstr "ID transakcie"
+
+msgctxt "TxDetails|"
+msgid "Sign"
+msgstr "Podpísať"
+
+msgctxt "TxDetails|"
+msgid "Broadcast"
+msgstr "Zverejniť"
+
+msgctxt "TxDetails|"
+msgid "Save"
+msgstr "Uložiť"
+
+msgctxt "TxDetails|"
+msgid "Transaction added to wallet history."
+msgstr "Transakcia bola pridaná do histórie peňaženky."
+
+msgctxt "TxDetails|"
+msgid "Note: this is an offline transaction, if you want the network to see it, you need to broadcast it."
+msgstr "Poznámka: toto je offline transakcia. Ak chcete, aby ju sieť videla, musíte ju odvysielať."
+
+msgctxt "TxDetails|"
+msgid "Error"
+msgstr "Chyba"
+
+msgctxt "WCConfirmSeed|"
+msgid "Your seed is important!"
+msgstr "Váš seed je dôležitý!"
+
+msgctxt "WCConfirmSeed|"
+msgid "If you lose your seed, your money will be permanently lost."
+msgstr "Ak stratíte svoj seed, vaše peniaze sa tiež nenávratne stratia."
+
+msgctxt "WCConfirmSeed|"
+msgid "To make sure that you have properly saved your seed, please retype it here."
+msgstr "Aby sme sa uistili že ste si riadne uložili zdroj, prosím opíšte ho sem."
+
+msgctxt "WCCreateSeed|"
+msgid "This seed will allow you to recover your wallet in case of computer failure."
+msgstr "Tento zdroj vám umožní obnoviť vašu peňaženku v prípade poruchy počítača."
+
+msgctxt "WCCreateSeed|"
+msgid "WARNING"
+msgstr "UPOZORNENIE"
+
+msgctxt "WCCreateSeed|"
+msgid "Never disclose your seed."
+msgstr "Nikdy neprezrádzajte svoj seed."
+
+msgctxt "WCCreateSeed|"
+msgid "Never type it on a website."
+msgstr "Nikdy ho nezadávajte na webovej stránke."
+
+msgctxt "WCCreateSeed|"
+msgid "Do not store it electronically."
+msgstr "Neuchovávajte ho v elektronickej podobe."
+
+msgctxt "WCCreateSeed|"
+msgid "Your wallet generation seed is:"
+msgstr "Váš seed tvorby peňaženky je:"
+
+msgctxt "WCEnterExt|"
+msgid "You may extend your seed with custom words."
+msgstr "Svoj seed môžete rozšíriť o vlastné slová."
+
+msgctxt "WCEnterExt|"
+msgid "Your seed extension must be saved together with your seed."
+msgstr "Vaše rozšírenie seedu sa musí uložiť spolu s vaším seedom."
+
+msgctxt "WCEnterExt|"
+msgid "Note that this is NOT your encryption password."
+msgstr "Toto NIE je vaše šifrovacie heslo."
+
+msgctxt "WCHaveMasterKey|"
+msgid "Please enter the master public key (xpub) of your cosigner."
+msgstr "Prosím, zadajte hlavný verejný kľúč (xpub) vášho spolupodpisovateľa."
+
+msgctxt "WCHaveMasterKey|"
+msgid "Enter their master private key (xprv) if you want to be able to sign for them."
+msgstr "Ak chcete za nich podpisovať, zadajte ich hlavný súkromný kľúč (xprv)."
+
+msgctxt "WCHaveSeed|"
+msgid "BIP39 seeds can be imported in Electrum, so that users can access funds locked in other wallets."
+msgstr "Seedy BIP39 možno importovať do Electra, aby používatelia mali prístup k prostriedkom uzamknutým v iných peňaženkách."
+
+msgctxt "WCHaveSeed|"
+msgid "BIP39 seeds do not include a version number, which compromises compatibility with future software."
+msgstr "Seedy BIP39 neobsahujú číslo verzie, čo ohrozuje kompatibilitu s budúcim softvérom."
+
+msgctxt "WCHaveSeed|"
+msgid "Seed Type"
+msgstr "Typ seedu"
+
+msgctxt "WCHaveSeed|"
+msgid "Enter cosigner seed"
+msgstr "Zadajte seed spolupodpisovateľa"
+
+msgctxt "WCImport|"
+msgid "Enter a list of Bitcoin addresses (this will create a watching-only wallet), or a list of private keys."
+msgstr "Zadajte zoznam bitcoinových adries (vytvorí sa peňaženka len na čítanie) alebo zoznam súkromných kľúčov."
+
+msgctxt "WCKeystoreType|"
+msgid "Create a new seed"
+msgstr "Vytvoriť nový Seed"
+
+msgctxt "WCKeystoreType|"
+msgid "I already have a seed"
+msgstr "Už mám seed"
+
+msgctxt "WCKeystoreType|"
+msgid "Use a master key"
+msgstr "Použiť hlavný kľúč"
+
+msgctxt "WCKeystoreType|"
+msgid "Use a hardware device"
+msgstr "Použiť hardvérové zariadenie"
+
+msgctxt "WCProxyConfig|"
+msgid "Proxy"
+msgstr "Proxy"
+
+msgctxt "WCScriptAndDerivation|"
+msgid "Choose the type of addresses in your wallet."
+msgstr "Vyberte typ adries vo vašej peňaženke."
+
+msgctxt "WCScriptAndDerivation|"
+msgid "You can override the suggested derivation path."
+msgstr "Môžete prepísať navrhovanú derivačnú cestu."
+
+msgctxt "WCScriptAndDerivation|"
+msgid "If you are not sure what this is, leave this field unchanged."
+msgstr "Ak nie ste si istý/á, čo to znamená, nechajte toto pole bez zmeny."
+
+msgctxt "WCScriptAndDerivation|"
+msgid "Derivation path"
+msgstr "Derivačná cesta"
+
+msgctxt "WCServerConfig|"
+msgid "Server"
+msgstr "Server"
+
+msgctxt "WCWalletName|"
+msgid "Wallet name"
+msgstr "Názov peňaženky"
+
+msgctxt "WCWalletType|"
+msgid "What kind of wallet do you want to create?"
+msgstr "Aký typ peňaženky chcete vytvoriť?"
+
+msgctxt "WCWalletType|"
+msgid "Wallet with two-factor authentication"
+msgstr "Peňaženka s dvojfaktorovým overením"
+
+msgctxt "WCWalletType|"
+msgid "Multi-signature wallet"
+msgstr "Viacpodpisová peňaženka"
+
+msgctxt "WCWalletType|"
+msgid "Import Bitcoin addresses or private keys"
+msgstr "Importovať bitcoinové adresy alebo súkromné kľúče"
+
+msgctxt "WalletDetails|"
+msgid "Encrypted"
+msgstr "Šifrované"
+
+msgctxt "WalletDetails|"
+msgid "Lightning"
+msgstr "Lightning"
+
+msgctxt "WalletDetails|"
+msgid "Seed"
+msgstr "Seed"
+
+msgctxt "WalletDetails|"
+msgid "Name"
+msgstr "Meno"
+
+msgctxt "WalletDetails|"
+msgid "unknown"
+msgstr "neznámy"
+
+msgctxt "WalletDetails|"
+msgid "Keystore"
+msgstr "Úložisko kľúčov"
+
+msgctxt "WalletDetails|"
+msgid "Keystore type"
+msgstr "Typ úložiska kľúčov"
+
+msgctxt "WalletDetails|"
+msgid "Master Public Key"
+msgstr "Hlavný verejný kľúč"
+
+msgctxt "WalletDetails|"
+msgid "Change Password"
+msgstr "Zmeniť heslo"
+
+msgctxt "WalletDetails|"
+msgid "Enter new password"
+msgstr "Zadajte nové heslo"
+
+msgctxt "WalletDetails|"
+msgid "Success"
+msgstr "Úspech"
+
+msgctxt "WalletDetails|"
+msgid "Error"
+msgstr "Chyba"
+
+msgctxt "WalletDetails|"
+msgid "Warning"
+msgstr "Upozornenie"
+
+msgctxt "WalletMainView|"
+msgid "Sweep"
+msgstr "Zmiesť"
+
+msgctxt "WalletMainView|"
+msgid "Channels"
+msgstr "Kanály"
+
+msgctxt "WalletMainView|"
+msgid "Receive"
+msgstr "Prijať"
+
+msgctxt "WalletMainView|"
+msgid "Send"
+msgstr "Odoslať"
+
+msgctxt "WalletMainView|"
+msgid "Error"
+msgstr "Chyba"
+
+msgctxt "WalletMainView|"
+msgid "Payment failed"
+msgstr "Platba zlyhala"
+
+msgctxt "Wallets|"
+msgid "Wallets"
+msgstr "Peňaženky"
+
+msgctxt "Wizard|"
+msgid "Cancel"
+msgstr "Zrušiť"
+
+msgctxt "Wizard|"
+msgid "Back"
+msgstr "Späť"
+
+msgctxt "Wizard|"
+msgid "Next"
+msgstr "Ďalej"
+
+msgctxt "main|"
+msgid "Network"
+msgstr "Sieť"
+
+msgctxt "main|"
+msgid "Preferences"
+msgstr "Predvoľby"
+
+msgctxt "main|"
+msgid "About"
+msgstr "O programe"
+
+msgctxt "main|"
+msgid "Error"
+msgstr "Chyba"
+
+msgctxt "main|"
+msgid "Payment failed"
+msgstr "Platba zlyhala"

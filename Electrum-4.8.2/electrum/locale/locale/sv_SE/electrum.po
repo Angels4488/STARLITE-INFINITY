@@ -1,0 +1,2000 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: electrum\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-02 08:02+0000\n"
+"PO-Revision-Date: 2026-07-02 08:02\n"
+"Last-Translator: \n"
+"Language-Team: Swedish\n"
+"Language: sv_SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Qt-Contexts: true\n"
+"X-Electrum-SourceStringCount: 2738\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: electrum\n"
+"X-Crowdin-Project-ID: 20482\n"
+"X-Crowdin-Language: sv-SE\n"
+"X-Crowdin-File: /electrum-client/messages.pot\n"
+"X-Crowdin-File-ID: 68\n"
+
+msgid "Do you want to send this report?"
+msgstr "Vill du skicka denna rapport?"
+
+msgid "  (No FX rate available)"
+msgstr "  (Ingen växlingskurs tillgänglig)"
+
+msgid "No data"
+msgstr "Ingen data"
+
+msgid "Low fee"
+msgstr "Låg avgift"
+
+msgid "In the next block"
+msgstr "I nästa block"
+
+msgid "Within {} blocks"
+msgstr "Inom {} block"
+
+msgid "Could not close channel: "
+msgstr "Det gick inte att stänga kanalen: "
+
+msgid "Insufficient balance"
+msgstr "Otillräckligt saldo"
+
+msgid "Error"
+msgstr "Fel"
+
+msgid "You are offline."
+msgstr "Du är offline."
+
+msgid "Are you sure you want to remove this transaction?"
+msgstr "Är det säkert att du vill ta bort denna transaktion?"
+
+msgid "Are you sure you want to remove this transaction and {} child transactions?"
+msgstr "Är det säkert att du vill ta bort denna transaktion och {} underordnade transaktioner?"
+
+msgid "Warning"
+msgstr "Varning"
+
+msgid "Amount"
+msgstr "Belopp"
+
+msgid "Synchronizing..."
+msgstr "Synkroniserar …"
+
+msgid "Transaction could not be saved."
+msgstr "Det gick inte att spara transaktionen."
+
+msgid "Lightning Network"
+msgstr "Lightning-nätverket"
+
+msgid "Show/Hide"
+msgstr "Dölj/Visa"
+
+msgid "Close"
+msgstr "Stäng"
+
+msgid "Dark/Light"
+msgstr "Mörk/Ljus"
+
+msgid "Exit Electrum"
+msgstr "Avsluta Electrum"
+
+msgid "Cannot load wallet"
+msgstr "Kan inte läsa in plånboken"
+
+msgid "Address"
+msgstr "Adress"
+
+msgid "Public keys"
+msgstr "Publika nycklar"
+
+msgid "Receiving"
+msgstr "Tar emot"
+
+msgid "Change"
+msgstr "Redigera"
+
+msgid "Fiat"
+msgstr "Fiat"
+
+msgid "Type"
+msgstr "Typ"
+
+msgid "Label"
+msgstr "Etikett"
+
+msgid "Balance"
+msgstr "Saldo"
+
+msgid "receiving"
+msgstr "Tar emot"
+
+msgid "Details"
+msgstr "Detaljer"
+
+msgid "Private key"
+msgstr "Privat nyckel"
+
+msgid "Sign/verify message"
+msgstr "Signera/verifiera meddelande"
+
+msgid "Encrypt/decrypt message"
+msgstr "Kryptera/dekryptera meddelande"
+
+msgid "Remove from wallet"
+msgstr "Ta bort från plånboken"
+
+msgid "View on block explorer"
+msgstr "Visa i blockutforskare"
+
+msgid "Wallet Balance"
+msgstr "Plånbokssaldo"
+
+msgid "Unconfirmed"
+msgstr "Obekräftad"
+
+msgid "Lightning"
+msgstr "Lightning"
+
+msgid "BIP39 Recovery"
+msgstr "BIP39-återställning"
+
+msgid "Scanning common paths for existing accounts..."
+msgstr "Skannar vanliga sökvägar efter existerande konton …"
+
+msgid "Choose an account to restore."
+msgstr "Välj ett konto att återskapa."
+
+msgid "Channel Backup"
+msgstr "Kanalsäkerhetskopia"
+
+msgid "A backup does not contain information about your local balance in the channel."
+msgstr "En säkerhetskopia innehåller inte någon information om ditt lokala saldo i kanalen."
+
+msgid "Channel ID"
+msgstr "Kanal-ID"
+
+msgid "Capacity"
+msgstr "Kapacitet"
+
+msgid "Local balance"
+msgstr "Lokalt saldo"
+
+msgid "Can send"
+msgstr "Kan skicka"
+
+msgid "Can receive"
+msgstr "Kan ta emot"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Please wait..."
+msgstr "Vänta …"
+
+msgid "Please create a backup of your wallet file!"
+msgstr "Skapa en säkerhetskopia av din plånboksfil!"
+
+msgid "Are you sure you want to delete this channel? This will purge associated transactions from your wallet history."
+msgstr "Är det säkert att du vill ta bort denna kanal? Detta kommer att ta bort tillhörande transaktioner från din plånboks historik."
+
+msgid "Delete"
+msgstr "Ta bort"
+
+msgid "can receive"
+msgstr "kan ta emot"
+
+msgid "Lightning Network Statistics"
+msgstr "Statistik för Lightning-nätverket"
+
+msgid "Channels"
+msgstr "Kanaler"
+
+msgid "At most 100 satoshis might be lost due to this rounding."
+msgstr "Högst 100 satoshi kan komma att förloras på grund av denna avrundning."
+
+msgid "Preferences"
+msgstr "Inställningar"
+
+msgid "Additional {} satoshis are going to be added."
+msgstr "Ytterligare {} satoshi kommer att läggas till."
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Not available for this wallet."
+msgstr "Inte tillgängligt för denna plånbok."
+
+msgid "Preparing transaction..."
+msgstr "Förbereder transaktion …"
+
+msgid "You send"
+msgstr "Du skickar"
+
+msgid "The amount to be received by the recipient."
+msgstr "Belopp som ska tas emot av mottagaren."
+
+msgid "Amount to be sent"
+msgstr "Belopp att skicka"
+
+msgid "Bitcoin transactions are in general not free. A transaction fee is paid by the sender of the funds."
+msgstr "Bitcointransaktioner är i allmänhet inte gratis. En transaktionsavgift betalas av avsändaren."
+
+msgid "A suggested fee is automatically added to this field. You may override it. The suggested fee increases with the size of the transaction."
+msgstr "En föreslagen avgift har automatiskt lagts till i detta fält. Du kan ändra den. Den föreslagna avgiften ökar med transaktionens storlek."
+
+msgid "Additional fees"
+msgstr "Ytterligare avgifter"
+
+msgid "Warning!"
+msgstr "Varning!"
+
+msgid "Click here to hide this message."
+msgstr "Klicka här för att dölja detta meddelande."
+
+msgid "Name"
+msgstr "Namn"
+
+msgid "Copy {}"
+msgstr "Kopiera {}"
+
+msgid "Pay to"
+msgstr "Betala till"
+
+msgid "Import"
+msgstr "Importera"
+
+msgid "Export"
+msgstr "Exportera"
+
+msgid "An Error Occurred"
+msgstr "Ett fel inträffade"
+
+msgid "Crash report"
+msgstr "Kraschrapport"
+
+msgid "Sending crash report..."
+msgstr "Skickar felrapport …"
+
+msgid " confirmation"
+msgstr " bekräftelse"
+
+msgid "Value"
+msgstr "Värde"
+
+msgid "Acquisition price"
+msgstr "Inköpspris"
+
+msgid "Capital Gains"
+msgstr "Kapitalvinst"
+
+msgid "Date"
+msgstr "Datum"
+
+msgid "Description"
+msgstr "Beskrivning"
+
+msgid "All"
+msgstr "Alla"
+
+msgid "Custom"
+msgstr "Anpassad"
+
+msgid "None"
+msgstr "Ingen"
+
+msgid "From"
+msgstr "Från"
+
+msgid "To"
+msgstr "Till"
+
+msgid "&Summary"
+msgstr "&Sammanfattning"
+
+msgid "&Export"
+msgstr "&Exportera"
+
+msgid "Select date"
+msgstr "Välj datum"
+
+msgid "Summary"
+msgstr "Sammanfattning"
+
+msgid "Begin"
+msgstr "Börja"
+
+msgid "BTC balance"
+msgstr "BTC-saldo"
+
+msgid "BTC incoming"
+msgstr "Inkommande BTC"
+
+msgid "BTC outgoing"
+msgstr "Utgående BTC"
+
+msgid "Cash flow"
+msgstr "Kassaflöde"
+
+msgid "Copy"
+msgstr "Kopiera"
+
+msgid "View log"
+msgstr "Visa logg"
+
+msgid "Remove"
+msgstr "Ta bort"
+
+msgid "Transaction ID"
+msgstr "Transaktions-ID"
+
+msgid "Increase fee"
+msgstr "Öka avgiften"
+
+msgid "Cancel (double-spend)"
+msgstr "Avbryt (dubbelspendering)"
+
+msgid "Please confirm"
+msgstr "Vänligen bekräfta"
+
+msgid "Export History"
+msgstr "Exportera historik"
+
+msgid "Unknown"
+msgstr "Okänd"
+
+msgid "Pay"
+msgstr "Betala"
+
+msgid "Message"
+msgstr "Meddelande"
+
+msgid "{} nodes"
+msgstr "{} noder"
+
+msgid "{} channels"
+msgstr "{} kanaler"
+
+msgid "Requesting {} channels..."
+msgstr "Begär {} kanaler …"
+
+msgid "Lightning Payment"
+msgstr "Lightning-betalning"
+
+msgid "Lightning Invoice"
+msgstr "Lightning-faktura"
+
+msgid "Block height"
+msgstr "Blockhöjd"
+
+msgid "History"
+msgstr "Historik"
+
+msgid "Send"
+msgstr "Skicka"
+
+msgid "Receive"
+msgstr "Ta emot"
+
+msgid "&Addresses"
+msgstr "&Adresser"
+
+msgid "Con&tacts"
+msgstr "Kon&takter"
+
+msgid "Con&sole"
+msgstr "Kon&sol"
+
+msgid "Don't show this again."
+msgstr "Visa inte detta igen."
+
+msgid "Testnet"
+msgstr "Testnet"
+
+msgid "Backup directory"
+msgstr "Katalog för säkerhetskopia"
+
+msgid "Channel backups can only be used to request your channels to be closed."
+msgstr "Kanalsäkerhetskopior kan bara användas för att begära att dina kanaler ska stängas."
+
+msgid "Backup not configured"
+msgstr "Säkerhetskopian är inte konfigurerad"
+
+msgid "A copy of your wallet file was created in"
+msgstr "En kopia av din plånboksfil skapades i"
+
+msgid "&File"
+msgstr "&Arkiv"
+
+msgid "&Recently open"
+msgstr "&Nyligen öppnade"
+
+msgid "&Open"
+msgstr "&Öppna"
+
+msgid "&New/Restore"
+msgstr "&Ny/återställ"
+
+msgid "&Save backup"
+msgstr "Spara säkerhetskopia"
+
+msgid "&Quit"
+msgstr "&Avsluta"
+
+msgid "&Wallet"
+msgstr "&Plånbok"
+
+msgid "&Information"
+msgstr "&Information"
+
+msgid "&Password"
+msgstr "&Lösenord"
+
+msgid "&Seed"
+msgstr "&Ordfras"
+
+msgid "&Private keys"
+msgstr "&Privata nycklar"
+
+msgid "&Sweep"
+msgstr "&Svep"
+
+msgid "&Import"
+msgstr "&Importera"
+
+msgid "Import addresses"
+msgstr "Importera adresser"
+
+msgid "&Labels"
+msgstr "&Etiketter"
+
+msgid "Find"
+msgstr "Sök"
+
+msgid "&View"
+msgstr "&Visa"
+
+msgid "&Tools"
+msgstr "&Verktyg"
+
+msgid "Electrum preferences"
+msgstr "Inställningar för Electrum"
+
+msgid "&Network"
+msgstr "&Nätverk"
+
+msgid "&Plugins"
+msgstr "&Plugin-program"
+
+msgid "&Sign/verify message"
+msgstr "&Signera/verifiera meddelande"
+
+msgid "&Encrypt/decrypt message"
+msgstr "&Kryptera/dekryptera meddelade"
+
+msgid "&Load transaction"
+msgstr "&Läs in transaktion"
+
+msgid "&From file"
+msgstr "&Från fil"
+
+msgid "&From text"
+msgstr "&Från text"
+
+msgid "&From the blockchain"
+msgstr "&Från blockkedjan"
+
+msgid "&From QR code"
+msgstr "&Från QR-kod"
+
+msgid "&Help"
+msgstr "&Hjälp"
+
+msgid "&About"
+msgstr "&Om"
+
+msgid "&Check for updates"
+msgstr "&Sök efter uppdateringar"
+
+msgid "&Official website"
+msgstr "&Officiell webbplats"
+
+msgid "&Documentation"
+msgstr "&Dokumentation"
+
+msgid "&Bitcoin Paper"
+msgstr "&Bitcoin papper"
+
+msgid "&Report Bug"
+msgstr "&Rapportera bugg"
+
+msgid "&Donate to server"
+msgstr "&Donera till server"
+
+msgid "Version"
+msgstr "Version"
+
+msgid "Uses icons from the Icons8 icon pack (icons8.com)."
+msgstr "Använder ikoner från paketet Icons8 (icons8.com)."
+
+msgid "Before reporting a bug, upgrade to the most recent version of Electrum (latest release or git HEAD), and include the version number in your report."
+msgstr "Innan du rapporterar ett fel ska du uppgradera till den senaste versionen av Electrum (senaste utgåva eller git HEAD), och inkludera versionsnumret i din felrapport."
+
+msgid "Reporting Bugs"
+msgstr "Rapportera bugg"
+
+msgid "Offline"
+msgstr "Frånkopplad"
+
+msgid "Not connected"
+msgstr "Inte ansluten"
+
+msgid "proxy enabled"
+msgstr "proxy aktiverad"
+
+msgid "Lightning is disabled"
+msgstr "Lightning är inaktiverat"
+
+msgid "Signing transaction..."
+msgstr "Signerar transaktion …"
+
+msgid "Could not open channel: {}"
+msgstr "Det gick inte att öppna kanalen: {}"
+
+msgid "Opening channel..."
+msgstr "Öppnar kanal …"
+
+msgid "Channel established."
+msgstr "Kanal etablerad."
+
+msgid "This channel will be usable after {} confirmations"
+msgstr "Denna kanal kan användas efter {} bekräftelser"
+
+msgid "Do you want to remove {} from your wallet?"
+msgstr "Vill du ta bort {} från din plånbok?"
+
+msgid "Invalid Address"
+msgstr "Ogiltig Adress"
+
+msgid "Expires"
+msgstr "Förfaller"
+
+msgid "Password"
+msgstr "Lösenord"
+
+msgid "Failed to update password"
+msgstr "Misslyckades att uppdatera lösenordet"
+
+msgid "Password was updated successfully"
+msgstr "Lösenordet har uppdaterats"
+
+msgid "Password is disabled, this wallet is not protected"
+msgstr "Lösenord är inaktiverat och denna plånbok är inte skyddad"
+
+msgid "New Contact"
+msgstr "Ny kontakt"
+
+msgid "Delete wallet file?"
+msgstr "Ta bort plånboksfil?"
+
+msgid "QR code"
+msgstr "QR-kod"
+
+msgid "Script type"
+msgstr "Scripttyp"
+
+msgid "Invalid Bitcoin address."
+msgstr "Ogiltig bitcoinadress."
+
+msgid "Address not in wallet."
+msgstr "Adressen finns inte i plånboken."
+
+msgid "Cannot sign messages with this type of address:"
+msgstr "Det går inte att signera meddelanden med denna adresstyp:"
+
+msgid "Wrong signature"
+msgstr "Fel signatur"
+
+msgid "Sign/verify Message"
+msgstr "Signera/verifiera meddelande"
+
+msgid "Verify"
+msgstr "Verifiera"
+
+msgid "Invalid Public key"
+msgstr "Ogiltig publik nyckel"
+
+msgid "Encrypt/decrypt Message"
+msgstr "Kryptera/dekryptera meddelande"
+
+msgid "Public key"
+msgstr "Publik nyckel"
+
+msgid "Encrypted"
+msgstr "Krypterad"
+
+msgid "Encrypt"
+msgstr "Kryptera"
+
+msgid "Decrypt"
+msgstr "Dekryptera"
+
+msgid "Transaction:"
+msgstr "Transaktion:"
+
+msgid "Load transaction"
+msgstr "Läs in transaktion"
+
+msgid "Channel Backup:"
+msgstr "Kanalsäkerhetskopia:"
+
+msgid "Private keys"
+msgstr "Privata nycklar"
+
+msgid "WARNING: ALL your private keys are secret."
+msgstr "VARNING: ALLA dina privata nycklar är hemliga."
+
+msgid "Private keys exported."
+msgstr "De privata nycklarna exporterades."
+
+msgid "labels"
+msgstr "etiketter"
+
+msgid "invoices"
+msgstr "fakturor"
+
+msgid "requests"
+msgstr "begäran"
+
+msgid "contacts"
+msgstr "kontakter"
+
+msgid "Enter addresses"
+msgstr "Ange adresser"
+
+msgid "Import private keys"
+msgstr "Importera privata nycklar"
+
+msgid "Enter private keys"
+msgstr "Ange privata nycklar"
+
+msgid "Please restart Electrum to activate the new GUI settings"
+msgstr "Du måste starta om Electrum för att de nya GUI-inställningarna ska börja gälla"
+
+msgid "Total size"
+msgstr "Total storlek"
+
+msgid "Input amount"
+msgstr "Ange belopp"
+
+msgid "Transaction added to wallet history."
+msgstr "Transaktionen har lagts till i plånbokens historik"
+
+msgid "Certificate mismatch"
+msgstr "Certifikaten matchar ej"
+
+msgid "Expired"
+msgstr "Förfallen"
+
+msgid "Server"
+msgstr "Server"
+
+msgid "Proxy"
+msgstr "Proxy"
+
+msgid "Height"
+msgstr "Höjd"
+
+msgid "Proxy settings apply to all connections: with Electrum servers, but also with third-party services."
+msgstr "Proxyinställningar gäller för alla anslutningar: med Electrum-servrar, men också med tredjeparttjänster."
+
+msgid "This is the height of your local copy of the blockchain."
+msgstr "Detta är höjden hos din lokala kopia av blockkedjan."
+
+msgid "Blockchain"
+msgstr "Blockkedja"
+
+msgid "Max"
+msgstr "Max"
+
+msgid "Clear"
+msgstr "Rensa"
+
+msgid "Amount too low"
+msgstr "Beloppet är för lågt"
+
+msgid "Choose a password to encrypt your wallet keys."
+msgstr "Välj ett lösenord för att kryptera dina plånboksnycklar."
+
+msgid "Leave this field empty if you want to disable encryption."
+msgstr "Lämna detta tomt för att inaktivera kryptering."
+
+msgid "Enter Password"
+msgstr "Ange lösenord"
+
+msgid "Change Password"
+msgstr "Byt lösenord"
+
+msgid "Enter Passphrase"
+msgstr "Ange lösenfras"
+
+msgid "Passphrase:"
+msgstr "Lösenfras:"
+
+msgid "Confirm Passphrase:"
+msgstr "Bekräfta lösenfras:"
+
+msgid "New Password:"
+msgstr "Nytt lösenord:"
+
+msgid "Password:"
+msgstr "Lösenord:"
+
+msgid "Confirm Password:"
+msgstr "Bekräfta lösenord:"
+
+msgid "Current Password:"
+msgstr "Nuvarande lösenord:"
+
+msgid "Your wallet is not protected."
+msgstr "Din plånbok är inte skyddad."
+
+msgid "Use this dialog to add a password to your wallet."
+msgstr "Använd denna dialog för att lägga till ett lösenord till din plånbok"
+
+msgid "Your wallet is password protected and encrypted."
+msgstr "Din plånbok är lösenordsskyddad och krypterad."
+
+msgid "Your wallet file is NOT encrypted."
+msgstr "Din plånboksfil är INTE krypterad."
+
+msgid "Please enter your password"
+msgstr "Ange ditt lösenord"
+
+msgid "Enable"
+msgstr "Aktivera"
+
+msgid "Settings"
+msgstr "Inställningar"
+
+msgid "Enabled"
+msgstr "Aktiverad"
+
+msgid "Disabled"
+msgstr "Inaktiverad"
+
+msgid "Help"
+msgstr "Hjälp"
+
+msgid "QR code saved to file"
+msgstr "QR-kod sparad till fil"
+
+msgid "QR code copied to clipboard"
+msgstr "QR-kod kopierades till urklipp"
+
+msgid "Text copied to clipboard"
+msgstr "Text kopierades till urklipp"
+
+msgid "Save"
+msgstr "Spara"
+
+msgid "&Flip horizontally"
+msgstr "&Vrid horisontellt"
+
+msgid "&Close"
+msgstr "&Stäng"
+
+msgid "Show as QR code"
+msgstr "Visa som QR-kod"
+
+msgid "Bump Fee"
+msgstr "Öka avgiften"
+
+msgid "Cancel transaction"
+msgstr "Avbryt transaktion"
+
+msgid "To channel"
+msgstr "Till kanal"
+
+msgid "Requested amount"
+msgstr "Begärt belopp"
+
+msgid "No more addresses in your wallet."
+msgstr "Inga fler adresser i din plånbok."
+
+msgid "You are using a non-deterministic wallet, which cannot create new addresses."
+msgstr "Du använder en icke-deterministisk plånbok, som inte kan skapa nya adresser."
+
+msgid "Due to a bug, old versions of Electrum will NOT be creating the same wallet as newer versions or other software."
+msgstr "På grund av en bugg skapar äldre versioner av Electrum INTE samma plånbok som nyare versioner eller annan programvara."
+
+msgid "Please save these {0} words on paper (order is important). "
+msgstr "Spara dessa {0} ord på papper (ordningen är viktig). "
+
+msgid "WARNING"
+msgstr "VARNING"
+
+msgid "Never type it on a website."
+msgstr "Skriv aldrig in det på någon webbplats."
+
+msgid "Do not store it electronically."
+msgstr "Spara inte detta elektroniskt."
+
+msgid "BIP39 seed"
+msgstr "BIP39 frö"
+
+msgid "Options"
+msgstr "Alternativ"
+
+msgid "Valid."
+msgstr "Giltig."
+
+msgid "Wallet with two-factor authentication"
+msgstr "Plånbok med tvåfaktorsautentisering"
+
+msgid "Standard wallet"
+msgstr "Standardplånbok"
+
+msgid "Format: address, amount"
+msgstr "Format: adress, belopp"
+
+msgid "Description of the transaction (not mandatory)."
+msgstr "Beskrivning av transaktionen (ej obligatorisk)."
+
+msgid "Invoices"
+msgstr "Fakturor"
+
+msgid "&Pay to many"
+msgstr "&Betala till flera"
+
+msgid "No amount"
+msgstr "Inget belopp"
+
+msgid "Bitcoin Address is None"
+msgstr "Bitcoinadressen är tom"
+
+msgid "Invalid Amount"
+msgstr "Ogiltigt belopp"
+
+msgid "Do you wish to continue?"
+msgstr "Vill du fortsätta?"
+
+msgid "Open a new channel"
+msgstr "Öppna en ny kanal."
+
+msgid "Payment sent."
+msgstr "Betalning skickad."
+
+msgid "Broadcasting transaction..."
+msgstr "Sänder transaktion …"
+
+msgid "You may load a CSV file using the file icon."
+msgstr "Du kan läsa in en CSV-fil genom att använda filikonen."
+
+msgid "Base unit of your wallet."
+msgstr "Basenhet för din plånbok."
+
+msgid "This setting affects the Send tab, and all balance related fields."
+msgstr "Denna inställning påverkar fliken Skicka, och alla fält som är relaterade till saldo."
+
+msgid "Base unit"
+msgstr "Basenhet"
+
+msgid "Light"
+msgstr "Ljust"
+
+msgid "Dark"
+msgstr "Mörk"
+
+msgid "Fiat currency"
+msgstr "Fiatvaluta"
+
+msgid "You receive"
+msgstr "Du tar emot"
+
+msgid "Fee"
+msgstr "Avgift"
+
+msgid "Change Address"
+msgstr "Ändra adress"
+
+msgid "Address Details"
+msgstr "Adressdetaljer"
+
+msgid "Copy Address"
+msgstr "Kopiera adress"
+
+msgid "Transaction ID:"
+msgstr "Transaktions-ID:"
+
+msgid "Broadcast"
+msgstr "Sänd"
+
+msgid "Copy to clipboard"
+msgstr "Kopiera till urklipp"
+
+msgid "Transaction"
+msgstr "Transaktion"
+
+msgid "Date: {}"
+msgstr "Datum: {}"
+
+msgid "True"
+msgstr "Sant"
+
+msgid "False"
+msgstr "Falskt"
+
+msgid "At block height: {}"
+msgstr "Vid blockhöjd: {}"
+
+msgid "Current version: {}"
+msgstr "Aktuell version: {}"
+
+msgid "There is a new update available"
+msgstr "Det finns en ny uppdatering tillgänglig"
+
+msgid "You can download the new version from {}."
+msgstr "Du kan ladda ner den nya versionen från {}."
+
+msgid "Already up to date"
+msgstr "Är redan den senaste versionen."
+
+msgid "You are already on the latest version of Electrum."
+msgstr "Du har redan den senaste versionen av Electrum."
+
+msgid "Checking for updates..."
+msgstr "Söker efter uppdateringar …"
+
+msgid "Copy and Close"
+msgstr "Kopiera och stäng"
+
+msgid "Cancel"
+msgstr "Avbryt"
+
+msgid "Critical Error"
+msgstr "Kritiskt fel"
+
+msgid "Information"
+msgstr "Information"
+
+msgid "Question"
+msgstr "Fråga"
+
+msgid "Please wait"
+msgstr "Vänta"
+
+msgid "CSV"
+msgstr "CSV"
+
+msgid "json"
+msgstr "json"
+
+msgid "Error opening file"
+msgstr "Fel uppstod när filen öppnades"
+
+msgid "Paste from clipboard"
+msgstr "Klistra in från urklipp"
+
+msgid "Read file"
+msgstr "Läs fil"
+
+msgid "Address is frozen"
+msgstr "Adressen är frusen"
+
+msgid "Wallet Information"
+msgstr "Plånboksinformation"
+
+msgid "Wallet name"
+msgstr "Plånboksnamn"
+
+msgid "Master Public Key"
+msgstr "Publik huvudnyckel"
+
+msgid "Next"
+msgstr "Nästa"
+
+msgid "A few examples"
+msgstr "Några exempel"
+
+msgid "Your accounts have been moved to"
+msgstr "Dina konton har flyttats till"
+
+msgid "Do you want to delete the old file"
+msgstr "Vill du ta bort den gamla filen"
+
+msgid "The file was removed"
+msgstr "Filen togs bort"
+
+msgid "Electrum wallet"
+msgstr "Electrum-plånbok"
+
+msgid "Wallet"
+msgstr "Plånbok"
+
+msgid "Choose..."
+msgstr "Välj …"
+
+msgid "Cannot read file"
+msgstr "Kan inte läsa fil"
+
+msgid "Press 'Next' to create this wallet, or choose another file."
+msgstr "Tryck 'Nästa' för att skapa denna plånbok, eller välj en annan fil."
+
+msgid "This file is encrypted using a hardware device."
+msgstr "Denna fil är krypterad med en maskinvaruenhet."
+
+msgid "Press 'Next' to choose device to decrypt."
+msgstr "Tryck 'Nästa' för att välja enhet som ska krypteras."
+
+msgid "Create new wallet"
+msgstr "Skapa ny plånbok"
+
+msgid "What kind of wallet do you want to create?"
+msgstr "Vilken typ av plånbok vill du skapa?"
+
+msgid "Import Bitcoin addresses or private keys"
+msgstr "Importera bitcoinadresser eller privata nycklar"
+
+msgid "Use a hardware device"
+msgstr "Använd maskinvaruenhet"
+
+msgid "Note that this is NOT your encryption password."
+msgstr "Observera att detta INTE är ditt krypteringslösenord."
+
+msgid "Enter Seed"
+msgstr "Ange ordfras"
+
+msgid "An unnamed {}"
+msgstr "En namnlös {}"
+
+msgid "Select a device"
+msgstr "Välj en enhet"
+
+msgid "Scanning devices..."
+msgstr "Skannar enheter …"
+
+msgid "No hardware device detected."
+msgstr "Ingen maskinvaruenhet kunde identifieras."
+
+msgid "Debug message"
+msgstr "Felsökningsmeddelande"
+
+msgid "Back"
+msgstr "Tillbaka"
+
+msgid "Invalid Bitcoin address"
+msgstr "Ogiltig bitcoinadress"
+
+msgid "Invalid Fee"
+msgstr "Ogiltig avgift"
+
+msgid "Addresses"
+msgstr "Adresser"
+
+msgid "Contacts"
+msgstr "Kontakter"
+
+msgid "Banner"
+msgstr "Annons"
+
+msgid "Clipboard"
+msgstr "Urklipp"
+
+msgid "Could not parse clipboard text"
+msgstr "Det gick inte att tolka texten i urklipp"
+
+msgid "Invalid Bitcoin Address"
+msgstr "Ogiltig bitcoinadress"
+
+msgid "Make sure you install it with python3"
+msgstr "Se till att du installerar den med python3"
+
+msgid "Default"
+msgstr "Standard"
+
+msgid "Consider trying to connect to a different server, or updating Electrum."
+msgstr "Överväg att ansluta till en annan server, eller att uppdatera Electrum."
+
+msgid "Paid"
+msgstr "Betald"
+
+msgid "Computing route..."
+msgstr "Beräknar rutt …"
+
+msgid "Never"
+msgstr "Aldrig"
+
+msgid "10 minutes"
+msgstr "10 minuter"
+
+msgid "1 hour"
+msgstr "1 timme"
+
+msgid "1 day"
+msgstr "1 dag"
+
+msgid "1 week"
+msgstr "1 vecka"
+
+msgid "A payment was already initiated for this invoice"
+msgstr "En betalning har redan initierats för denna faktura "
+
+msgid "Missing amount"
+msgstr "Belopp saknas"
+
+msgid "Disconnected"
+msgstr "Frånkopplad"
+
+msgid "Connected to {0} nodes."
+msgstr "Ansluten till {0} noder."
+
+msgid "Connected to {0} node."
+msgstr "Ansluten till {0}-nod."
+
+msgid "A library is probably missing."
+msgstr "Det saknas förmodligen något bibliotek."
+
+msgid "Try to connect again?"
+msgstr "Försök att ansluta igen?"
+
+msgid "Audio Modem Settings"
+msgstr "Inställningar för ljudmodem"
+
+msgid "Bit rate [kbps]: "
+msgstr "Bithastighet [kbps]:"
+
+msgid "Read from microphone"
+msgstr "Läs från mikrofon"
+
+msgid "Send to speaker"
+msgstr "Skicka till högtalare"
+
+msgid "Showing address ..."
+msgstr "Visar adress …"
+
+msgid "BitBox02 Status"
+msgstr "BitBox02-status"
+
+msgid "Encryption and decryption are currently not supported for {}"
+msgstr "För närvarande stöds inte kryptering och dekryptering för {}"
+
+msgid "{} Settings"
+msgstr "Inställningar"
+
+msgid "Bootloader"
+msgstr "Bootloader"
+
+msgid "Password must have at least 4 characters."
+msgstr "Lösenordet måste bestå av minst 4 tecken."
+
+msgid "Enter password:"
+msgstr "Ange lösenord:"
+
+msgid "Password must have less than 64 characters."
+msgstr "Lösenordet måste bestå av färre än 64 tecken."
+
+msgid "Enter a new password below."
+msgstr "Ange ett nytt lösenord nedan."
+
+msgid "A backup is saved automatically when generating a new wallet."
+msgstr "En säkerhetskopia sparas automatiskt när en ny plånbok skapas."
+
+msgid "Choose a backup file:"
+msgstr "Välj fil för säkerhetskopia "
+
+msgid "Loading backup..."
+msgstr "Läser in säkerhetskopia …"
+
+msgid "Could not sign message."
+msgstr "Det gick inte att signera meddelandet."
+
+msgid "Signing message ..."
+msgstr "Signerar meddelande …"
+
+msgid "Could not sign message"
+msgstr "Det gick inte att signera meddelandet"
+
+msgid "Signing large transaction. Please be patient ..."
+msgstr "Signerar stor transaktion. Ha tålamod …"
+
+msgid "(Touch {} of {})"
+msgstr "Rör vid {} av {})"
+
+msgid "Confirm wallet address on your {} device"
+msgstr "Bekräfta plånbokens adress på din {}-enhet"
+
+msgid "Check your {} device to continue"
+msgstr "Kontrollera din {}-enhet för att fortsätta"
+
+msgid "Enter a new PIN for your {}:"
+msgstr "Ange en ny PIN för din {}:"
+
+msgid "Enter the passphrase to unlock this wallet:"
+msgstr "Ange lösenfras för att låsa upp denna plånbok"
+
+msgid "Too long passphrase ({} > 50 chars)."
+msgstr "Lösenfrasen är för lång ({} > 50 tecken)."
+
+msgid "Confirm on your {} device to disable passphrases"
+msgstr "Bekräfta på din {}-enhet för att inaktivera lösenfraser"
+
+msgid "Confirm on your {} device to disable PIN protection"
+msgstr "Bekräfta på din {}-enhet för att inaktivera PIN-skydd"
+
+msgid "Accept Word"
+msgstr "Godkänn ord"
+
+msgid "Enter PIN"
+msgstr "Ange PIN"
+
+msgid "{} words"
+msgstr "{} ord"
+
+msgid "Enable PIN protection"
+msgstr "Aktivera PIN-skydd"
+
+msgid "Enable passphrases"
+msgstr "Aktivera lösenfraser"
+
+msgid "Yes"
+msgstr "Ja"
+
+msgid "Enable Passphrases"
+msgstr "Aktivera lösenfraser"
+
+msgid "Disable Passphrases"
+msgstr "Inaktivera lösenfras"
+
+msgid "Set a PIN"
+msgstr "Ange en PIN-kod"
+
+msgid "Change PIN"
+msgstr "Byt PIN-kod"
+
+msgid "Are you sure you want to proceed?"
+msgstr "Är det säkert att du vill fortsätta?"
+
+msgid ""
+"Are you SURE you want to wipe the device?\n"
+"Your wallet still has bitcoins in it!"
+msgstr ""
+"Är det SÄKERT att du vill rensa enheten?\n"
+"Det finns fortfarande Bitcoin i din plånbok!"
+
+msgid "{:2d} minutes"
+msgstr "{:2d} minuter"
+
+msgid "Passphrases"
+msgstr "Lösenfraser"
+
+msgid "Bootloader Hash"
+msgstr "Bootloader-hash"
+
+msgid "Language"
+msgstr "Språk"
+
+msgid "Apply"
+msgstr "Verkställ"
+
+msgid "Disable PIN"
+msgstr "Inaktivera PIN"
+
+msgid "If you disable your PIN, anyone with physical access to your {} device can spend your bitcoins."
+msgstr "Om du inaktiverar din PIN kan alla som har fysisk åtkomst till din {}-enhet spendera dina Bitcoin."
+
+msgid "Advanced"
+msgstr "Avancerat"
+
+msgid "Confirm Transaction on your Ledger device..."
+msgstr "Bekräfta transaktion på din Ledger …"
+
+msgid "Cancelled by user"
+msgstr "Avbruten av användaren"
+
+msgid "Do you want to open it now?"
+msgstr "Vill du öppna den nu?"
+
+msgid "Always check your backups."
+msgstr "Kontrollera alltid dina säkerhetskopior."
+
+msgid "Calibration sheet"
+msgstr "Kalibreringsark"
+
+msgid "4. Type the numbers in the software"
+msgstr "4. Skriv in siffrorna i programmet"
+
+msgid "Calibration values:"
+msgstr "Kalibreringsvärden"
+
+msgid "Bottom"
+msgstr "Nederst"
+
+msgid "{:d} words"
+msgstr "{:d} ord"
+
+msgid "Choose Homescreen"
+msgstr "Välj startskärm"
+
+msgid "Change..."
+msgstr "Ändra …"
+
+msgid "Show expert settings"
+msgstr "Visa expertinställningar"
+
+msgid "Select recovery type:"
+msgstr "Välj typ av återställning:"
+
+msgid "Choose how you want to initialize your {}."
+msgstr "Välj hur du vill initiera din {}."
+
+msgid "Please enter your Google Authenticator code:"
+msgstr "Ange koden från Google Authenticator:"
+
+msgid "Invalid one-time password."
+msgstr "Ogiltigt engångslösenord."
+
+msgid "Therefore, two-factor authentication is disabled."
+msgstr "Därför är tvåfaktorautentisering inaktiverat."
+
+msgid "Waiting for TrustedCoin server to sign transaction..."
+msgstr "Väntar på att TrustedCoin-servern ska signera transaktionen …"
+
+msgid "Authorization"
+msgstr "Auktorisering"
+
+msgid "Please enter your Google Authenticator code"
+msgstr "Ange koden från Google Authenticator"
+
+msgid "Code"
+msgstr "Kod"
+
+msgid "Requesting account info from TrustedCoin server..."
+msgstr "Begär kontoinformation från TrustedCoin-servern …"
+
+msgid "Create or restore"
+msgstr "Skapa eller återställ"
+
+msgid "Then, enter your Google Authenticator code:"
+msgstr "Ange därefter koden från Google Authenticator:"
+
+msgid "Your wallet file is: {}."
+msgstr "Din plånboksfil är: {}."
+
+msgid "A small fee will be charged on each transaction that uses the remote server.  You may check and modify your billing preferences once the installation is complete."
+msgstr "En liten avgift tas ut för varje transaktion som använder fjärrservern. Du kan kontrollera och ändra dina faktureringsinställningar när installationen är färdig."
+
+msgid "Color theme"
+msgstr "Färgtema"
+
+msgid "Add thousand separators to bitcoin amounts"
+msgstr "Lägg till tusentalsavgränsare till bitcoin-belopp"
+
+msgid "Online Block Explorer"
+msgstr "Blockutforskare på nätet"
+
+msgid "Choose which online block explorer to use for functions that open a web browser"
+msgstr "Välj vilken blockutforskare på nätet som ska användas för funktioner som öppnar en webbläsare"
+
+msgid "Automatically check for software updates"
+msgstr "Sök automatiskt efter programuppdateringar"
+
+msgid "Debug logs can be persisted to disk. These are useful for troubleshooting."
+msgstr "Debugloggar kan sparas till disk. De är användbara för felsökning."
+
+msgid "No Data"
+msgstr "Ingen Data"
+
+msgid "Invalid JSON code."
+msgstr "Ogiltig JSON-kod."
+
+msgid "Local"
+msgstr "Lokal"
+
+msgid "Cannot bump fee"
+msgstr "Det går inte att öka på avgiften"
+
+msgid "Cannot cancel transaction"
+msgstr "Det går inte att avbryta transaktionen"
+
+msgid "Cannot create child transaction"
+msgstr "Det går inte att skapa underordnad transaktion"
+
+msgid "{} confirmations"
+msgstr "{} bekräftelser"
+
+msgid "invalid address"
+msgstr "ogiltig adress"
+
+msgid "address already in wallet"
+msgstr "adressen finns redan i plånboken"
+
+msgctxt "About|"
+msgid "About Electrum"
+msgstr "Om Electrum"
+
+msgctxt "About|"
+msgid "Version"
+msgstr "Version"
+
+msgctxt "About|"
+msgid "Distributed by Electrum Technologies GmbH"
+msgstr "Distribueras av Electrum Technologies GmbH"
+
+msgctxt "AddressDetails|"
+msgid "Address"
+msgstr "Adress"
+
+msgctxt "AddressDetails|"
+msgid "Balance"
+msgstr "Saldo"
+
+msgctxt "AddressDetails|"
+msgid "Transactions"
+msgstr "Transaktioner"
+
+msgctxt "AddressDetails|"
+msgid "Label"
+msgstr "Etikett"
+
+msgctxt "AddressDetails|"
+msgid "Script type"
+msgstr "Scripttyp"
+
+msgctxt "AddressDetails|"
+msgid "Public keys"
+msgstr "Publika nycklar"
+
+msgctxt "AddressDetails|"
+msgid "Public key"
+msgstr "Publik nyckel"
+
+msgctxt "AddressDetails|"
+msgid "Private key"
+msgstr "Privat nyckel"
+
+msgctxt "AddressDetails|"
+msgid "Delete"
+msgstr "Ta bort"
+
+msgctxt "Addresses|"
+msgid "Addresses"
+msgstr "Adresser"
+
+msgctxt "BIP39RecoveryDialog|"
+msgid "Choose an account to restore."
+msgstr "Välj ett konto att återskapa."
+
+msgctxt "BalanceDetails|"
+msgid "Lightning"
+msgstr "Lightning"
+
+msgctxt "BalanceDetails|"
+msgid "Unconfirmed"
+msgstr "Obekräftad"
+
+msgctxt "BalanceDetails|"
+msgid "Can send"
+msgstr "Kan skicka"
+
+msgctxt "BalanceDetails|"
+msgid "Can receive"
+msgstr "Kan ta emot"
+
+msgctxt "BalanceSummary|"
+msgid "Balance"
+msgstr "Saldo"
+
+msgctxt "BalanceSummary|"
+msgid "Lightning"
+msgstr "Lightning"
+
+msgctxt "BtcField|"
+msgid "Amount"
+msgstr "Belopp"
+
+msgctxt "ChannelDetails|"
+msgid "Channel Backup"
+msgstr "Kanalsäkerhetskopia"
+
+msgctxt "ChannelDetails|"
+msgid "Capacity"
+msgstr "Kapacitet"
+
+msgctxt "ChannelDetails|"
+msgid "Local balance"
+msgstr "Lokalt saldo"
+
+msgctxt "ChannelDetails|"
+msgid "Can send"
+msgstr "Kan skicka"
+
+msgctxt "ChannelDetails|"
+msgid "Can receive"
+msgstr "Kan ta emot"
+
+msgctxt "ChannelDetails|"
+msgid "Backup"
+msgstr "Säkerhetskopiera"
+
+msgctxt "CloseChannelDialog|"
+msgid "Channel closed"
+msgstr "Kanalen stängd"
+
+msgctxt "ConfirmTxDialog|"
+msgid "Fee"
+msgstr "Avgift"
+
+msgctxt "ConfirmTxDialog|"
+msgid "Options"
+msgstr "Alternativ"
+
+msgctxt "CpfpBumpFeeDialog|"
+msgid "Bump Fee"
+msgstr "Öka avgiften"
+
+msgctxt "CpfpBumpFeeDialog|"
+msgid "Total size"
+msgstr "Total storlek"
+
+msgctxt "ExceptionDialog|"
+msgid "Do you want to send this report?"
+msgstr "Vill du skicka denna rapport?"
+
+msgctxt "ExceptionDialog|"
+msgid "Error"
+msgstr "Fel"
+
+msgctxt "ExportTxDialog|"
+msgid "Copy"
+msgstr "Kopiera"
+
+msgctxt "FiatField|"
+msgid "Amount"
+msgstr "Belopp"
+
+msgctxt "GenericShareDialog|"
+msgid "Copy"
+msgstr "Kopiera"
+
+msgctxt "History|"
+msgid "Local"
+msgstr "Lokal"
+
+msgctxt "History|"
+msgid "Today"
+msgstr "Idag"
+
+msgctxt "History|"
+msgid "Yesterday"
+msgstr "Igår"
+
+msgctxt "ImportAddressesKeysDialog|"
+msgid "Import"
+msgstr "Importera"
+
+msgctxt "InvoiceDialog|"
+msgid "Lightning Invoice"
+msgstr "Lightning-faktura"
+
+msgctxt "InvoiceDialog|"
+msgid "Address"
+msgstr "Adress"
+
+msgctxt "InvoiceDialog|"
+msgid "Description"
+msgstr "Beskrivning"
+
+msgctxt "InvoiceDialog|"
+msgid "Max"
+msgstr "Max"
+
+msgctxt "InvoiceDialog|"
+msgid "Save"
+msgstr "Spara"
+
+msgctxt "InvoiceDialog|"
+msgid "Payment sent."
+msgstr "Betalning skickad."
+
+msgctxt "Invoices|"
+msgid "Delete"
+msgstr "Ta bort"
+
+msgctxt "LightningPaymentDetails|"
+msgid "Paid"
+msgstr "Betald"
+
+msgctxt "LightningPaymentDetails|"
+msgid "Date"
+msgstr "Datum"
+
+msgctxt "LightningPaymentDetails|"
+msgid "Label"
+msgstr "Etikett"
+
+msgctxt "LnurlPayRequestDialog|"
+msgid "Description"
+msgstr "Beskrivning"
+
+msgctxt "LnurlPayRequestDialog|"
+msgid "Amount"
+msgstr "Belopp"
+
+msgctxt "LnurlPayRequestDialog|"
+msgid "Message"
+msgstr "Meddelande"
+
+msgctxt "LnurlWithdrawRequestDialog|"
+msgid "Description"
+msgstr "Beskrivning"
+
+msgctxt "LnurlWithdrawRequestDialog|"
+msgid "Amount"
+msgstr "Belopp"
+
+msgctxt "MessageDialog|"
+msgid "Question"
+msgstr "Fråga"
+
+msgctxt "MessageDialog|"
+msgid "Message"
+msgstr "Meddelande"
+
+msgctxt "MessageDialog|"
+msgid "Yes"
+msgstr "Ja"
+
+msgctxt "NetworkOverview|"
+msgid "Status"
+msgstr "Status"
+
+msgctxt "NetworkOverview|"
+msgid "Server"
+msgstr "Server"
+
+msgctxt "NetworkOverview|"
+msgid "Lightning"
+msgstr "Lightning"
+
+msgctxt "NetworkOverview|"
+msgid "Proxy"
+msgstr "Proxy"
+
+msgctxt "NetworkOverview|"
+msgid "disabled"
+msgstr "inaktiverad"
+
+msgctxt "NewWalletWizard|"
+msgid "Error"
+msgstr "Fel"
+
+msgctxt "NostrSwapServersDialog|"
+msgid "Fee"
+msgstr "Avgift"
+
+msgctxt "OpenChannelDialog|"
+msgid "Max"
+msgstr "Max"
+
+msgctxt "OpenChannelDialog|"
+msgid "Error"
+msgstr "Fel"
+
+msgctxt "OpenChannelDialog|"
+msgid "Channel established."
+msgstr "Kanal etablerad."
+
+msgctxt "OpenWalletDialog|"
+msgid "Password"
+msgstr "Lösenord"
+
+msgctxt "PasswordDialog|"
+msgid "Enter Password"
+msgstr "Ange lösenord"
+
+msgctxt "PasswordDialog|"
+msgid "Password"
+msgstr "Lösenord"
+
+msgctxt "Preferences|"
+msgid "Preferences"
+msgstr "Inställningar"
+
+msgctxt "Preferences|"
+msgid "Language"
+msgstr "Språk"
+
+msgctxt "Preferences|"
+msgid "Please restart Electrum to activate the new GUI settings"
+msgstr "Du måste starta om Electrum för att de nya GUI-inställningarna ska börja gälla"
+
+msgctxt "Preferences|"
+msgid "Base unit"
+msgstr "Basenhet"
+
+msgctxt "Preferences|"
+msgid "Lightning"
+msgstr "Lightning"
+
+msgctxt "Preferences|"
+msgid "Advanced"
+msgstr "Avancerat"
+
+msgctxt "ProxyConfig|"
+msgid "Address"
+msgstr "Adress"
+
+msgctxt "ProxyConfig|"
+msgid "Username"
+msgstr "Användarnamn"
+
+msgctxt "ProxyConfig|"
+msgid "Password"
+msgstr "Lösenord"
+
+msgctxt "RbfBumpFeeDialog|"
+msgid "Bump Fee"
+msgstr "Öka avgiften"
+
+msgctxt "RbfBumpFeeDialog|"
+msgid "Options"
+msgstr "Alternativ"
+
+msgctxt "ReceiveDetailsDialog|"
+msgid "Message"
+msgstr "Meddelande"
+
+msgctxt "ReceiveDetailsDialog|"
+msgid "Amount"
+msgstr "Belopp"
+
+msgctxt "ReceiveDetailsDialog|"
+msgid "Lightning"
+msgstr "Lightning"
+
+msgctxt "ReceiveDetailsDialog|"
+msgid "Amount too low"
+msgstr "Beloppet är för lågt"
+
+msgctxt "ReceiveDialog|"
+msgid "Status"
+msgstr "Status"
+
+msgctxt "ReceiveDialog|"
+msgid "Message"
+msgstr "Meddelande"
+
+msgctxt "ReceiveDialog|"
+msgid "Amount"
+msgstr "Belopp"
+
+msgctxt "ReceiveRequests|"
+msgid "Delete"
+msgstr "Ta bort"
+
+msgctxt "RequestExpiryComboBox|"
+msgid "10 minutes"
+msgstr "10 minuter"
+
+msgctxt "RequestExpiryComboBox|"
+msgid "1 hour"
+msgstr "1 timme"
+
+msgctxt "RequestExpiryComboBox|"
+msgid "1 day"
+msgstr "1 dag"
+
+msgctxt "RequestExpiryComboBox|"
+msgid "1 week"
+msgstr "1 vecka"
+
+msgctxt "RequestExpiryComboBox|"
+msgid "Never"
+msgstr "Aldrig"
+
+msgctxt "ScanDialog|"
+msgid "Cancel"
+msgstr "Avbryt"
+
+msgctxt "ServerConfig|"
+msgid "Server"
+msgstr "Server"
+
+msgctxt "ServerConnectWizard|"
+msgid "Next"
+msgstr "Nästa"
+
+msgctxt "SignVerifyMessageDialog|"
+msgid "Address"
+msgstr "Adress"
+
+msgctxt "SignVerifyMessageDialog|"
+msgid "Message"
+msgstr "Meddelande"
+
+msgctxt "SignVerifyMessageDialog|"
+msgid "Verify"
+msgstr "Verifiera"
+
+msgctxt "SwapDialog|"
+msgid "You send"
+msgstr "Du skickar"
+
+msgctxt "SwapDialog|"
+msgid "You receive"
+msgstr "Du tar emot"
+
+msgctxt "SwapDialog|"
+msgid "Cancel"
+msgstr "Avbryt"
+
+msgctxt "SweepDialog|"
+msgid "A few examples"
+msgstr "Några exempel"
+
+msgctxt "TermsOfUseWizard|"
+msgid "Next"
+msgstr "Nästa"
+
+msgctxt "TxDetails|"
+msgid "Amount received in channels"
+msgstr "Belopp som tagits emot i kanaler"
+
+msgctxt "TxDetails|"
+msgid "Amount withdrawn from channels"
+msgstr "Belopp som tagits ut från kanaler"
+
+msgctxt "TxDetails|"
+msgid "Status"
+msgstr "Status"
+
+msgctxt "TxDetails|"
+msgid "Date"
+msgstr "Datum"
+
+msgctxt "TxDetails|"
+msgid "Label"
+msgstr "Etikett"
+
+msgctxt "TxDetails|"
+msgid "Transaction ID"
+msgstr "Transaktions-ID"
+
+msgctxt "TxDetails|"
+msgid "Broadcast"
+msgstr "Sänd"
+
+msgctxt "TxDetails|"
+msgid "Save"
+msgstr "Spara"
+
+msgctxt "TxDetails|"
+msgid "Transaction added to wallet history."
+msgstr "Transaktionen har lagts till i plånbokens historik"
+
+msgctxt "TxDetails|"
+msgid "Error"
+msgstr "Fel"
+
+msgctxt "WCCreateSeed|"
+msgid "WARNING"
+msgstr "VARNING"
+
+msgctxt "WCCreateSeed|"
+msgid "Never type it on a website."
+msgstr "Skriv aldrig in det på någon webbplats."
+
+msgctxt "WCCreateSeed|"
+msgid "Do not store it electronically."
+msgstr "Spara inte detta elektroniskt."
+
+msgctxt "WCEnterExt|"
+msgid "Note that this is NOT your encryption password."
+msgstr "Observera att detta INTE är ditt krypteringslösenord."
+
+msgctxt "WCKeystoreType|"
+msgid "Use a hardware device"
+msgstr "Använd maskinvaruenhet"
+
+msgctxt "WCProxyConfig|"
+msgid "Proxy"
+msgstr "Proxy"
+
+msgctxt "WCServerConfig|"
+msgid "Server"
+msgstr "Server"
+
+msgctxt "WCWalletName|"
+msgid "Wallet name"
+msgstr "Plånboksnamn"
+
+msgctxt "WCWalletType|"
+msgid "What kind of wallet do you want to create?"
+msgstr "Vilken typ av plånbok vill du skapa?"
+
+msgctxt "WCWalletType|"
+msgid "Wallet with two-factor authentication"
+msgstr "Plånbok med tvåfaktorsautentisering"
+
+msgctxt "WCWalletType|"
+msgid "Import Bitcoin addresses or private keys"
+msgstr "Importera bitcoinadresser eller privata nycklar"
+
+msgctxt "WalletDetails|"
+msgid "Encrypted"
+msgstr "Krypterad"
+
+msgctxt "WalletDetails|"
+msgid "Lightning"
+msgstr "Lightning"
+
+msgctxt "WalletDetails|"
+msgid "Name"
+msgstr "Namn"
+
+msgctxt "WalletDetails|"
+msgid "Master Public Key"
+msgstr "Publik huvudnyckel"
+
+msgctxt "WalletDetails|"
+msgid "Change Password"
+msgstr "Byt lösenord"
+
+msgctxt "WalletDetails|"
+msgid "Error"
+msgstr "Fel"
+
+msgctxt "WalletDetails|"
+msgid "Warning"
+msgstr "Varning"
+
+msgctxt "WalletMainView|"
+msgid "Channels"
+msgstr "Kanaler"
+
+msgctxt "WalletMainView|"
+msgid "Receive"
+msgstr "Ta emot"
+
+msgctxt "WalletMainView|"
+msgid "Send"
+msgstr "Skicka"
+
+msgctxt "WalletMainView|"
+msgid "Error"
+msgstr "Fel"
+
+msgctxt "Wallets|"
+msgid "Wallets"
+msgstr "Plånböcker"
+
+msgctxt "Wizard|"
+msgid "Cancel"
+msgstr "Avbryt"
+
+msgctxt "Wizard|"
+msgid "Back"
+msgstr "Tillbaka"
+
+msgctxt "Wizard|"
+msgid "Next"
+msgstr "Nästa"
+
+msgctxt "main|"
+msgid "Preferences"
+msgstr "Inställningar"
+
+msgctxt "main|"
+msgid "About"
+msgstr "Om"
+
+msgctxt "main|"
+msgid "Error"
+msgstr "Fel"

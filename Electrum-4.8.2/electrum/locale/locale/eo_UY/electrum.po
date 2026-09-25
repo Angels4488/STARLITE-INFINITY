@@ -1,0 +1,234 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: electrum\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-02 08:02+0000\n"
+"PO-Revision-Date: 2026-07-02 08:02\n"
+"Last-Translator: \n"
+"Language-Team: Esperanto\n"
+"Language: eo_UY\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Qt-Contexts: true\n"
+"X-Electrum-SourceStringCount: 2738\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: electrum\n"
+"X-Crowdin-Project-ID: 20482\n"
+"X-Crowdin-Language: eo\n"
+"X-Crowdin-File: /electrum-client/messages.pot\n"
+"X-Crowdin-File-ID: 68\n"
+
+msgid "Error"
+msgstr "Eraro"
+
+msgid "Amount"
+msgstr "Sumo"
+
+msgid "Close"
+msgstr "Fermi"
+
+msgid "Address"
+msgstr "Adreso"
+
+msgid "Balance"
+msgstr "Bilanco"
+
+msgid "Details"
+msgstr "Detalo"
+
+msgid "Delete"
+msgstr "Forigi"
+
+msgid "Bitcoin transactions are in general not free. A transaction fee is paid by the sender of the funds."
+msgstr "Bitmonaj transakcioj ne estas senkosta ĝenerale. Sendanto pagis la transakcian honorarion por la kasoj."
+
+msgid "A suggested fee is automatically added to this field. You may override it. The suggested fee increases with the size of the transaction."
+msgstr "Sugestita honorario aldoniĝis aŭtomate al tiu kampo. Vi povas transpasi ĝin. La sugestita honorario pligrandiĝas kun la grando de la transakcio."
+
+msgid "Date"
+msgstr "Dato"
+
+msgid "Description"
+msgstr "Priskribo"
+
+msgid "&File"
+msgstr "&Dosiero"
+
+msgid "&Help"
+msgstr "&Helpo"
+
+msgid "&About"
+msgstr "&Pri"
+
+msgid "&Documentation"
+msgstr "&Dokumentaro"
+
+msgid "Encrypt/decrypt Message"
+msgstr "Ĉifri/malĉifri Mesaĝo"
+
+msgid "Encrypted"
+msgstr "Ĉifrita"
+
+msgid "Encrypt"
+msgstr "Ĉifri"
+
+msgid "Clear"
+msgstr "Vakigi"
+
+msgid "Description of the transaction (not mandatory)."
+msgstr "Priskribo de la transakcio (ne nepra)."
+
+msgid "Cancel"
+msgstr "Nuligi"
+
+msgid "Contacts"
+msgstr "Kontaktoj"
+
+msgid "1 hour"
+msgstr "1 horo"
+
+msgid "1 day"
+msgstr "1 tago"
+
+msgid "1 week"
+msgstr "1 semajno"
+
+msgctxt "AddressDetails|"
+msgid "Address"
+msgstr "Adreso"
+
+msgctxt "AddressDetails|"
+msgid "Balance"
+msgstr "Bilanco"
+
+msgctxt "AddressDetails|"
+msgid "Delete"
+msgstr "Forigi"
+
+msgctxt "BalanceSummary|"
+msgid "Balance"
+msgstr "Bilanco"
+
+msgctxt "BtcField|"
+msgid "Amount"
+msgstr "Sumo"
+
+msgctxt "ExceptionDialog|"
+msgid "Error"
+msgstr "Eraro"
+
+msgctxt "FiatField|"
+msgid "Amount"
+msgstr "Sumo"
+
+msgctxt "InvoiceDialog|"
+msgid "Address"
+msgstr "Adreso"
+
+msgctxt "InvoiceDialog|"
+msgid "Description"
+msgstr "Priskribo"
+
+msgctxt "Invoices|"
+msgid "Delete"
+msgstr "Forigi"
+
+msgctxt "LightningPaymentDetails|"
+msgid "Date"
+msgstr "Dato"
+
+msgctxt "LnurlPayRequestDialog|"
+msgid "Description"
+msgstr "Priskribo"
+
+msgctxt "LnurlPayRequestDialog|"
+msgid "Amount"
+msgstr "Sumo"
+
+msgctxt "LnurlWithdrawRequestDialog|"
+msgid "Description"
+msgstr "Priskribo"
+
+msgctxt "LnurlWithdrawRequestDialog|"
+msgid "Amount"
+msgstr "Sumo"
+
+msgctxt "NewWalletWizard|"
+msgid "Error"
+msgstr "Eraro"
+
+msgctxt "OpenChannelDialog|"
+msgid "Error"
+msgstr "Eraro"
+
+msgctxt "ProxyConfig|"
+msgid "Address"
+msgstr "Adreso"
+
+msgctxt "ReceiveDetailsDialog|"
+msgid "Amount"
+msgstr "Sumo"
+
+msgctxt "ReceiveDialog|"
+msgid "Amount"
+msgstr "Sumo"
+
+msgctxt "ReceiveRequests|"
+msgid "Delete"
+msgstr "Forigi"
+
+msgctxt "RequestExpiryComboBox|"
+msgid "1 hour"
+msgstr "1 horo"
+
+msgctxt "RequestExpiryComboBox|"
+msgid "1 day"
+msgstr "1 tago"
+
+msgctxt "RequestExpiryComboBox|"
+msgid "1 week"
+msgstr "1 semajno"
+
+msgctxt "ScanDialog|"
+msgid "Cancel"
+msgstr "Nuligi"
+
+msgctxt "SignVerifyMessageDialog|"
+msgid "Address"
+msgstr "Adreso"
+
+msgctxt "SwapDialog|"
+msgid "Cancel"
+msgstr "Nuligi"
+
+msgctxt "TxDetails|"
+msgid "Date"
+msgstr "Dato"
+
+msgctxt "TxDetails|"
+msgid "Error"
+msgstr "Eraro"
+
+msgctxt "WalletDetails|"
+msgid "Encrypted"
+msgstr "Ĉifrita"
+
+msgctxt "WalletDetails|"
+msgid "Error"
+msgstr "Eraro"
+
+msgctxt "WalletMainView|"
+msgid "Error"
+msgstr "Eraro"
+
+msgctxt "Wizard|"
+msgid "Cancel"
+msgstr "Nuligi"
+
+msgctxt "main|"
+msgid "Error"
+msgstr "Eraro"

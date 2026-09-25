@@ -1,0 +1,850 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: electrum\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-02 08:02+0000\n"
+"PO-Revision-Date: 2026-07-02 08:02\n"
+"Last-Translator: \n"
+"Language-Team: Thai\n"
+"Language: th_TH\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Qt-Contexts: true\n"
+"X-Electrum-SourceStringCount: 2738\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: electrum\n"
+"X-Crowdin-Project-ID: 20482\n"
+"X-Crowdin-Language: th\n"
+"X-Crowdin-File: /electrum-client/messages.pot\n"
+"X-Crowdin-File-ID: 68\n"
+
+msgid "If you force-close this channel, the funds you have in it will not be available for {} blocks."
+msgstr "หากคุณบังคับปิดแชนแนลนี้ เงินที่คุณมีอยู่จะไม่สามารถใช้ได้สำหรับ {} บล็อก "
+
+msgid "Could not close channel: "
+msgstr "ไม่สามารถปิดแชนแนลได้"
+
+msgid "Can't CPFP: unknown fee for parent transaction."
+msgstr "ไม่สามารถ CPFP: ค่าธรรมเนียมที่ไม่รู้จักสำหรับธุรกรรมหลัก"
+
+msgid "Close"
+msgstr "ปิด"
+
+msgid "Dark/Light"
+msgstr "โหมดมืด/สว่าง"
+
+msgid "Cannot load wallet"
+msgstr "ไม่สามารถเปิดกระเป๋าได้"
+
+msgid "Public keys"
+msgstr "คีย์สาธารณะ"
+
+msgid "Change"
+msgstr "เปลี่ยน"
+
+msgid "Balance"
+msgstr "Balance"
+
+msgid "Encrypt/decrypt message"
+msgstr "ข้อความ เข้ารหัส/ถอดรหัส"
+
+msgid "BIP39 Recovery"
+msgstr "การกู้คืน BIP39"
+
+msgid "Choose an account to restore."
+msgstr "เลือกบัญชีที่จะกู้คืน"
+
+msgid "Channel Backup"
+msgstr "แชนแนลสำรอง"
+
+msgid "CLTV expiry"
+msgstr "CLTV หมดอายุ"
+
+msgid "Channel ID"
+msgstr "ไอดีของช่อง"
+
+msgid "Capacity"
+msgstr "ความจุ"
+
+msgid "Can send"
+msgstr "สามารถส่ง"
+
+msgid "Can receive"
+msgstr "สามารถรับ"
+
+msgid "Force-close channel?"
+msgstr "บังคับปิดแชนแนล?"
+
+msgid "After that delay, funds will be swept to an address derived from your wallet seed."
+msgstr "หลังจากความล่าช้านั้น เงินจะถูกส่งไปยังที่อยู่ที่ได้รับจากวอลเล็ตของคุณ"
+
+msgid "Funds in this channel will not be recoverable from seed until they are swept back into your wallet, and might be lost if you lose your wallet file."
+msgstr "เงินในแชนแนลนี้จะไม่สามารถกู้คืนจาก seed ได้ จนกว่าจะถูกดึงเข้ากระเป๋าเงินของคุณ และอาจสูญหายได้ หากคุณทำไฟล์กระเป๋าเงินหาย"
+
+msgid "Force-close channel"
+msgstr "บังคับปิดแชนแนล"
+
+msgid "Are you sure you want to delete this channel? This will purge associated transactions from your wallet history."
+msgstr "แน่ใจไหมว่าต้องการลบช่องนี้ การดำเนินการนี้จะล้างธุรกรรมที่เกี่ยวข้องออกจากประวัติกระเป๋าเงินของคุณ"
+
+msgid "Channel is frozen for sending"
+msgstr "แชนแนลกำลังถูกระงับการส่ง"
+
+msgid "Cooperative close"
+msgstr "ความร่วมมืออย่างใกล้ชิด"
+
+msgid "Delete"
+msgstr "ลบ"
+
+msgid "Channels"
+msgstr "ช่อง"
+
+msgid "At most 100 satoshis might be lost due to this rounding."
+msgstr "อาจเสียไปอย่างมากที่สุด 100 satoshi เนื่องจากการปัดเศษนี้"
+
+msgid "Also, when batching RBF transactions, BIP 125 imposes a lower bound on the fee."
+msgstr "นอกจากนี้เมื่อทำธุรกรรม RBF เป็นชุด BIP 125 จะกำหนดขอบเขตค่าธรรมเนียมที่ต่ำกว่า"
+
+msgid "Bitcoin transactions are in general not free. A transaction fee is paid by the sender of the funds."
+msgstr "การทำธุรกรรม Bitcoin นั้นไม่ได้ฟรี และมีค่าธรรมเนียม ที่ผู้โอนจะต้องจ่าย."
+
+msgid "Click here to hide this message."
+msgstr "คลิกที่นี่เพื่อซ่อนข้อความนี้"
+
+msgid "Copy {}"
+msgstr "คัดลอก {}"
+
+msgid "Crash report"
+msgstr "รายงานความผิดพลาด"
+
+msgid " confirmation"
+msgstr "การยืนยัน"
+
+msgid "Capital Gains"
+msgstr "กำไรจากทุน"
+
+msgid "Date"
+msgstr "วันที่"
+
+msgid "Custom"
+msgstr "กำหนดเอง"
+
+msgid "Begin"
+msgstr "เริ่มต้น"
+
+msgid "End"
+msgstr "สิ้นสุด"
+
+msgid "BTC balance"
+msgstr "จำนวน BTC คงเหลือ"
+
+msgid "BTC Fiat price"
+msgstr "ราคา BTC"
+
+msgid "BTC incoming"
+msgstr "รับ BTC"
+
+msgid "BTC outgoing"
+msgstr "ส่ง BTC"
+
+msgid "Cash flow"
+msgstr "กระแสเงินสด"
+
+msgid "Copy"
+msgstr "คัดลอก"
+
+msgid "Child pays for parent"
+msgstr "Child Pays for Parent"
+
+msgid "Cancel (double-spend)"
+msgstr "ยกเลิก (มีการทำธุรกรรมซ้ำ)"
+
+msgid "Batch pay invoices"
+msgstr "ใบแจ้งหนี้แบบจ่ายเป็นชุด"
+
+msgid "Connected to {} peers"
+msgstr "เชื่อมต่อกับ {} เพียร์"
+
+msgid "Block height"
+msgstr "เลขที่บล็อค"
+
+msgid "Co&ins"
+msgstr "Co&ins"
+
+msgid "Con&tacts"
+msgstr "Con&tacts"
+
+msgid "Con&sole"
+msgstr "Con&sole"
+
+msgid "Enable update check"
+msgstr "เปิดใช้งานอัพเดทเช็ค"
+
+msgid "Backup directory"
+msgstr "ไดเรกทอรีสำรอง"
+
+msgid "Backup not configured"
+msgstr "ไม่ได้ตั้งค่าการสำรองข้อมูล"
+
+msgid "&Save backup"
+msgstr "บันทึกข้อมูลสำรอง"
+
+msgid "&From QR code"
+msgstr "&จากคิวอาร์โค้ด"
+
+msgid "&Check for updates"
+msgstr "Check for Updates"
+
+msgid "&Bitcoin Paper"
+msgstr "เอกสารเกี่ยวกับ บิตคอย"
+
+msgid "Before reporting a bug, upgrade to the most recent version of Electrum (latest release or git HEAD), and include the version number in your report."
+msgstr "ก่อนที่จะรายงานข้อบกพร่องให้อัปเกรด Electrum เป็นเวอร์ชันล่าสุด (รุ่นล่าสุดหรือ git HEAD) และระบุหมายเลขเวอร์ชันในรีพอร์ตของคุณ"
+
+msgid "Connected"
+msgstr "เชื่อมต่อแล้ว"
+
+msgid "Channel established."
+msgstr "ก่อตั้งช่องแล้ว"
+
+msgid "Password"
+msgstr "รหัสผ่าน:"
+
+msgid "Do you want to create your first channel?"
+msgstr "ต้องการสร้างแชนแนลแรกของคุณใช่หรือไม่?"
+
+msgid "QR code"
+msgstr "คิวอาร์โค้ด"
+
+msgid "Encrypt/decrypt Message"
+msgstr "ข้อความ เข้ารหัส/ถอดรหัส"
+
+msgid "Encrypted"
+msgstr "เข้ารหัส"
+
+msgid "Decrypt"
+msgstr "ถอดรหัส"
+
+msgid "Channel Backup:"
+msgstr "ช่องสำรอง:"
+
+msgid "Enter addresses"
+msgstr "ป้อนแอดเดรส"
+
+msgid "Enter private keys"
+msgstr "ป้อนไพรเวตคีย์"
+
+msgid "Child Pays for Parent"
+msgstr "Child Pays for Parent"
+
+msgid "A CPFP is a transaction that sends an unconfirmed output back to yourself, with a high fee. The goal is to have miners confirm the parent transaction in order to get the fee attached to the child transaction."
+msgstr "CPFP คือธุรกรรมที่ส่งผลลัพธ์ที่ไม่ได้รับการยืนยันกลับมาหาตัวคุณเองโดยมีค่าธรรมเนียมสูง เป้าหมายคือให้ผู้ขุดยืนยันธุรกรรมหลักเพื่อรับค่าธรรมเนียมที่แนบมากับธุรกรรมย่อย"
+
+msgid "Certificate mismatch"
+msgstr "ใบรับรองไม่ถูกต้อง"
+
+msgid "Proxy"
+msgstr "พร็อกซี"
+
+msgid "Connected nodes"
+msgstr "โหนดที่เชื่อมต่อ"
+
+msgid "Enter Remote Node ID or connection string or invoice"
+msgstr "ป้อน Remote Node ID หรือสตริงการเชื่อมต่อหรือใบแจ้งหนี้"
+
+msgid "Clear"
+msgstr "เคลียร์"
+
+msgid "Choose a password to encrypt your wallet keys."
+msgstr "เลือกรหัสผ่านเพื่อเข้ารหัสคีย์กระเป๋าเงินของคุณ"
+
+msgid "Enter Password"
+msgstr "ป้อนรหัสผ่าน"
+
+msgid "Change Password"
+msgstr "เปลี่ยนรหัสผ่าน"
+
+msgid "Enter Passphrase"
+msgstr "ป้อนข้อความรหัสผ่าน"
+
+msgid "Confirm Passphrase:"
+msgstr "ยืนยันรหัสผ่าน"
+
+msgid "New Password:"
+msgstr "รหัสผ่านใหม่"
+
+msgid "Password:"
+msgstr "รหัสผ่าน:"
+
+msgid "Confirm Password:"
+msgstr "ยืนยันรหัสผ่าน"
+
+msgid "Current Password:"
+msgstr "รหัสผ่านปัจจุบัน"
+
+msgid "Password Strength"
+msgstr "ความแข็งแรงของรหัสผ่าน"
+
+msgid "Please enter your password"
+msgstr "โปรดป้อนรหัสผ่านของคุณ"
+
+msgid "Enable"
+msgstr "เปิดใช้งาน"
+
+msgid "Enabled"
+msgstr "เปิดใช้งานแล้ว"
+
+msgid "Disabled"
+msgstr "ปิดใช้งาน"
+
+msgid "QR code saved to file"
+msgstr "คิวอาร์โค้ดถูกบันทึกลงในไฟล์"
+
+msgid "QR code copied to clipboard"
+msgstr "คัดลอกคิวอาร์โค้ดไปยังคลิปบอร์ดแล้ว"
+
+msgid "Copy Image"
+msgstr "คัดลอกภาพ"
+
+msgid "Copy Text"
+msgstr "คัดลอกข้อความ"
+
+msgid "QR Reader Error"
+msgstr "คิวอาร์โค้ดผิดพลาด"
+
+msgid "&Flip horizontally"
+msgstr "&พลิกในแนวนอน"
+
+msgid "&Close"
+msgstr "&ปิด"
+
+msgid "Cannot start QR scanner, no usable camera found."
+msgstr "ไม่สามารถแสกน QR Code, ไม่พบกล้อง."
+
+msgid "QR code scanner failed to map video frame"
+msgstr "ตัวสแกนคิวอาร์โค้ดล้มเหลวจากการจับเฟรมวิดีโอ"
+
+msgid "Bump Fee"
+msgstr "ค่าธรรมเนียมเพิ่มเติม"
+
+msgid "Cancel transaction"
+msgstr "ยกเลิกธุรกรรม"
+
+msgid "BIP39 seed"
+msgstr "เมล็ดพันธุ์ BIP39"
+
+msgid "BIP39 seeds can be imported in Electrum, so that users can access funds locked in other wallets."
+msgstr "เมล็ดพันธุ์ BIP39 สามารถนำเข้าใน Electrum เพื่อให้ผู้ใช้สามารถเข้าถึงเงินที่ถูกล็อคไว้ในกระเป๋าสตางค์อื่น ๆ"
+
+msgid "BIP39 seeds do not include a version number, which compromises compatibility with future software."
+msgstr "เมล็ดพันธุ์ BIP39 ไม่มีหมายเลขเวอร์ชันซึ่งทำให้ความเข้ากันได้กับซอฟต์แวร์ในอนาคตลดลง"
+
+msgid "2fa fee: {} (for the next batch of transactions)"
+msgstr "ค่าธรรมเนียม 2fa: {} (สำหรับธุรกรรมชุดถัดไป)"
+
+msgid "Bitcoin Address is None"
+msgstr "ไม่มีที่อยู่ Bitcoin"
+
+msgid "Base unit of your wallet."
+msgstr "หน่วยฐานของกระเป๋าเงินของคุณ"
+
+msgid "Base unit"
+msgstr "หน่วยฐาน"
+
+msgid "Dark"
+msgstr "โหมดมืด"
+
+msgid "Custom URL"
+msgstr "URL ที่กำหนดเอง"
+
+msgid "Change Address"
+msgstr "เปลี่ยนที่อยู่แอดเดรส"
+
+msgid "Address Details"
+msgstr "รายละเอียดที่อยู่"
+
+msgid "Copy Address"
+msgstr "คัดลอกแอดเดรส"
+
+msgid "Combine"
+msgstr "รวมกัน"
+
+msgid "Copy to clipboard"
+msgstr "คัดลอกไปยังคลิปบอร์ด"
+
+msgid "Date: {}"
+msgstr "วันที่: {}"
+
+msgid "At block height: {}"
+msgstr "ที่ความสูงบล็อก: {}"
+
+msgid "Current version: {}"
+msgstr "เวอร์ชั่นปัจจุบัน: {}"
+
+msgid "Already up to date"
+msgstr "ทันสมัยแล้ว"
+
+msgid "Checking for updates..."
+msgstr "ตรวจหาการอัพเดท..."
+
+msgid "Copy and Close"
+msgstr "คัดลอกและปิด"
+
+msgid "Cancel"
+msgstr "ยกเลิก"
+
+msgid "Critical Error"
+msgstr "ข้อผิดพลาดร้ายแรง"
+
+msgid "CSV"
+msgstr "CSV"
+
+msgid "Coin control active"
+msgstr "เปิดใช้งานการควบคุมเหรียญ"
+
+msgid "Coin selected to be spent"
+msgstr "เลือกเหรียญที่จะใช้จ่าย"
+
+msgid "Address is frozen"
+msgstr "Adresa e blocată"
+
+msgid "Choose..."
+msgstr "เลือก..."
+
+msgid "Cannot read file"
+msgstr "ไม่สามารถอ่านไฟล์ได้"
+
+msgid "Create new wallet"
+msgstr "สร้างกระเป๋าใหม่"
+
+msgid "Create a new seed"
+msgstr "สร้าง Seed ใหม่"
+
+msgid "Confirm Seed"
+msgstr "ยืนยัน Seed"
+
+msgid "Enter Seed"
+msgstr "ป้อน Seed"
+
+msgid "Choose the type of addresses in your wallet."
+msgstr "เลือกประเภทที่อยู่ในกระเป๋าเงินของคุณ"
+
+msgid "Choose the number of signatures needed to unlock funds in your wallet:"
+msgstr "เลือกจำนวนลายเซ็นที่จำเป็นในการปลดล็อกเงินในกระเป๋าเงินของคุณ:"
+
+msgid "Enter a list of Bitcoin addresses (this will create a watching-only wallet), or a list of private keys."
+msgstr "ป้อนรายการแอดเดรส Bitcoin (ซึ่งจะสร้างวอลเล็ตสำหรับดูเท่านั้น) หรือรายการไพรเวทคีย์"
+
+msgid "Back"
+msgstr "กลับ"
+
+msgid "Contacts"
+msgstr "รายชื่อผู้ติดต่อ"
+
+msgid "Banner"
+msgstr "แบนเนอร์"
+
+msgid "Default"
+msgstr "ค่าเริ่มต้น"
+
+msgid "Consider trying to connect to a different server, or updating Electrum."
+msgstr "ลองเชื่อมต่อกับเซิร์ฟเวอร์อื่น หรืออัปเดต Electrum"
+
+msgid "10 minutes"
+msgstr "10 นาที"
+
+msgid "Address unknown for node:"
+msgstr "ไม่ทราบที่อยู่สำหรับโหนด:"
+
+msgid "Close channel"
+msgstr "ปิดช่อง"
+
+msgid "A payment was already initiated for this invoice"
+msgstr "มีการเริ่มการชำระเงินสำหรับใบแจ้งหนี้นี้แล้ว"
+
+msgid "A previous attempt to pay this invoice did not clear"
+msgstr "ความพยายามครั้งก่อนในการชำระใบแจ้งหนี้นี้ไม่ชัดเจน"
+
+msgid "Disconnected"
+msgstr "ปิดการเชื่อมต่อ"
+
+msgid "Connected to {0} nodes."
+msgstr "เชื่อมต่อกับ {0} โหนด"
+
+msgid "Connected to {0} node."
+msgstr "เชื่อมต่อกับโหนด {0}"
+
+msgid "Audio Modem Settings"
+msgstr "การตั้งค่าโมเด็มเสียง"
+
+msgid "Bit rate [kbps]: "
+msgstr "อัตราบิต [kbps]:"
+
+msgid "BitBox02 Status"
+msgstr "สถานะ BitBox02"
+
+msgid ""
+"Enter a descriptive name for your multisig account.\n"
+"You should later be able to use the name to uniquely identify this multisig account"
+msgstr ""
+"ป้อนชื่อที่สื่อความหมายสำหรับบัญชี multisig ของคุณ\n"
+" คุณควรจะสามารถใช้ชื่อนี้เพื่อระบุบัญชี multisig นี้ได้ในภายหลัง"
+
+msgid "Encryption and decryption are currently not supported for {}"
+msgstr "ขณะนี้ยังไม่รองรับการเข้ารหัสและถอดรหัสสำหรับ {}"
+
+msgid "Coldcard Status"
+msgstr "สถานะ Coldcard"
+
+msgid "Enter password:"
+msgstr "ป้อนรหัสผ่าน"
+
+msgid "Create a wallet using the current seed"
+msgstr "สร้างกระเป๋าโดยใช้ Seed ที่มีอยู่"
+
+msgid "Choose how to initialize your Digital Bitbox:"
+msgstr "เลือกวิธีเริ่มต้น Digital Bitbox ของคุณ:"
+
+msgid "Choose a backup file:"
+msgstr "เลือกไฟล์สำรอง:"
+
+msgid "Encryption and decryption are not implemented by {}"
+msgstr "การเข้ารหัสและถอดรหัสไม่ได้ใช้งานโดย {}"
+
+msgid "Confirm on your {} that you want to wipe it clean"
+msgstr "กรุณายืนยันบนอุปกรณ์ {} เพื่อทำการล้างข้อมูล"
+
+msgid "Confirm on your {} device the message to sign"
+msgstr "กรุณายืนยันบนอุปกรณ์ {} เพื่อทำการยืนยันตัวตน"
+
+msgid "Confirm the total amount spent and the transaction fee on your {} device"
+msgstr "กรุณายืนยัน ธุรกรรมและค่าธรรมเนียม บนอุปกรณ์ {}"
+
+msgid "Check your {} device to continue"
+msgstr "ตรวจสอบอุปกรณ์ {} ของคุณเพื่อดำเนินการต่อ"
+
+msgid "Confirm on your {} device to disable passphrases"
+msgstr "กรุณายืนยันบนอุปกรณ์ {} เพื่อปิดการยืนยันด้วยรหัสผ่าน"
+
+msgid "Confirm on your {} device to enable passphrases"
+msgstr "กรุณายืนยันบนอุปกรณ์ {} เพื่อเปิดการยืนยันด้วยรหัสผ่าน"
+
+msgid "Confirm the new label on your {} device"
+msgstr "กรุณายืนยันบนอุปกรณ์ {} เพื่อทำการเปลี่ยนชื่อ"
+
+msgid "Confirm on your {} device to change your home screen"
+msgstr "กรุณายืนยันบนอุปกรณ์ {} เพื่อทำการเปลี่ยนหน้าหลัก"
+
+msgid "Confirm on your {} device to disable PIN protection"
+msgstr "กรุณายืนยันบนอุปกรณ์ {} เพื่อปิดการยืนยันด้วย PIN"
+
+msgid "Confirm on your {} device to change your PIN"
+msgstr "กรุณายืนยันบนอุปกรณ์ {} เพื่อทำการเปลี่ยน PIN"
+
+msgid "Confirm on your {} device to set a PIN"
+msgstr "กรุณายืนยันบนอุปกรณ์ {} เพื่อตั้ง PIN"
+
+msgid "Enter PIN"
+msgstr "ป้อน PIN"
+
+msgid "Enter a label to name your device:"
+msgstr "ป้อนป้ายกำกับเพื่อตั้งชื่ออุปกรณ์ของคุณ:"
+
+msgid "Enable passphrases"
+msgstr "เปิดใช้งานพาสเฟส"
+
+msgid "Change PIN"
+msgstr "เปลี่ยน PIN"
+
+msgid "Confirm Device Wipe"
+msgstr "ยืนยันการล้างข้อมูลอุปกรณ์"
+
+msgid "Clear the session after the specified period of inactivity.  Once a session has timed out, your PIN and passphrase (if enabled) must be re-entered to use the device."
+msgstr "ล้างเซสชันหลังจากไม่มีการใช้งานในช่วงเวลาที่กำหนด เมื่อเซสชันหมดเวลา PIN และรหัสผ่านของคุณ (หากเปิดใช้งาน) จะต้องถูกป้อนอีกครั้งเพื่อใช้อุปกรณ์"
+
+msgid ""
+"Choose how you want to initialize your {}.\n"
+"\n"
+"The first two methods are secure as no secret information is entered into your computer.\n"
+"\n"
+"For the last two methods you input secrets on your keyboard and upload them to your {}, and so you should only do those on a computer you know to be trustworthy and free of malware."
+msgstr ""
+"เลือกวิธีที่คุณต้องการเริ่มต้น {}.\n"
+"\n"
+" สองวิธีแรกจะปลอดภัยเนื่องจากไม่มีการป้อนข้อมูลลับลงในคอมพิวเตอร์ของคุณ \n"
+"\n"
+" สำหรับสองวิธีสุดท้ายที่คุณป้อนข้อมูลลับบนแป้นพิมพ์ของคุณและอัปโหลดไปยัง {} ของคุณ, ดังนั้นคุณควรทำเฉพาะในคอมพิวเตอร์ที่คุณรู้ว่าน่าเชื่อถือและปราศจากมัลแวร์"
+
+msgid "Confirm Transaction on your Ledger device..."
+msgstr "กรุณายืนยันธุรกรรมบน Ledger ของคุณ..."
+
+msgid "Cancelled by user"
+msgstr "ยกเลิกโดยผู้ใช้"
+
+msgid "Always check your backups."
+msgstr "ตรวจสอบข้อมูลสำรองของคุณเสมอ"
+
+msgid "Calibration sheet"
+msgstr "แผ่นสอบเทียบ"
+
+msgid "Calibration values:"
+msgstr "ค่าการปรับเทียบ"
+
+msgid "Choose on your {} device where to enter your passphrase"
+msgstr "เลือกบนอุปกรณ์ {} ของคุณที่จะป้อนรหัสผ่านของคุณ"
+
+msgid "Choose Homescreen"
+msgstr "เลือกหน้าจอหลัก"
+
+msgid "Change..."
+msgstr "เปลี่ยน..."
+
+msgid "Complete the initialization process on your {} device"
+msgstr "ทำตามขั้นตอนการเริ่มต้นบนอุปกรณ์ {} ของคุณ"
+
+msgid "Enter Passphrase on Device"
+msgstr "ป้อนข้อความรหัสผ่านบนอุปกรณ์"
+
+msgid "Choose how you want to initialize your {}."
+msgstr "เลือกวิธีที่คุณต้องการเริ่มต้น {} ของคุณ."
+
+msgid "Authorization"
+msgstr "การอนุญาต"
+
+msgid "Code"
+msgstr "โค้ด"
+
+msgid "Create or restore"
+msgstr "สร้าง หรือกู้คืน"
+
+msgid "Cannot start QR scanner: initialization failed."
+msgstr "ไม่สามารถแสกน QR Code ได้."
+
+msgid "Color theme"
+msgstr "ธีมสี"
+
+msgid "Add thousand separators to bitcoin amounts"
+msgstr "เพิ่มตัวคั่นพันตัวในจำนวน bitcoin"
+
+msgid "Choose which online block explorer to use for functions that open a web browser"
+msgstr "เลือกว่าจะใช้ block explorer ออนไลน์ใดสำหรับฟังก์ชันที่เปิดเว็บเบราว์เซอร์"
+
+msgid "Automatically check for software updates"
+msgstr "ตรวจสอบการอัปเดตซอฟต์แวร์โดยอัตโนมัติ"
+
+msgid "Cannot cancel transaction"
+msgstr "ไม่สามรถยกเลิกธุรกรรมได้"
+
+msgid "Cannot create child transaction"
+msgstr "ไม่สามารถสร้างธุรกรรมย่อยได้"
+
+msgid "All outputs are non-change is_mine"
+msgstr "เอาต์พุตทั้งหมดไม่เปลี่ยนแปลง is_mine"
+
+msgctxt "AddressDetails|"
+msgid "Balance"
+msgstr "Balance"
+
+msgctxt "AddressDetails|"
+msgid "Public keys"
+msgstr "คีย์สาธารณะ"
+
+msgctxt "AddressDetails|"
+msgid "Delete"
+msgstr "ลบ"
+
+msgctxt "BIP39RecoveryDialog|"
+msgid "Choose an account to restore."
+msgstr "เลือกบัญชีที่จะกู้คืน"
+
+msgctxt "BalanceDetails|"
+msgid "Can send"
+msgstr "สามารถส่ง"
+
+msgctxt "BalanceDetails|"
+msgid "Can receive"
+msgstr "สามารถรับ"
+
+msgctxt "BalanceSummary|"
+msgid "Balance"
+msgstr "Balance"
+
+msgctxt "ChannelDetails|"
+msgid "Channel Backup"
+msgstr "แชนแนลสำรอง"
+
+msgctxt "ChannelDetails|"
+msgid "Capacity"
+msgstr "ความจุ"
+
+msgctxt "ChannelDetails|"
+msgid "Can send"
+msgstr "สามารถส่ง"
+
+msgctxt "ChannelDetails|"
+msgid "Can receive"
+msgstr "สามารถรับ"
+
+msgctxt "ChannelDetails|"
+msgid "Backup"
+msgstr "สำรองข้อมูล"
+
+msgctxt "ChannelDetails|"
+msgid "Close channel"
+msgstr "ปิดช่อง"
+
+msgctxt "Channels|"
+msgid "Do you want to create your first channel?"
+msgstr "ต้องการสร้างแชนแนลแรกของคุณใช่หรือไม่?"
+
+msgctxt "CloseChannelDialog|"
+msgid "Cooperative close"
+msgstr "ความร่วมมืออย่างใกล้ชิด"
+
+msgctxt "CloseChannelDialog|"
+msgid "Close channel"
+msgstr "ปิดช่อง"
+
+msgctxt "CloseChannelDialog|"
+msgid "Channel closed"
+msgstr "แชนแนลปิดแล้ว"
+
+msgctxt "CpfpBumpFeeDialog|"
+msgid "Bump Fee"
+msgstr "ค่าธรรมเนียมเพิ่มเติม"
+
+msgctxt "CpfpBumpFeeDialog|"
+msgid "A CPFP is a transaction that sends an unconfirmed output back to yourself, with a high fee. The goal is to have miners confirm the parent transaction in order to get the fee attached to the child transaction."
+msgstr "CPFP คือธุรกรรมที่ส่งผลลัพธ์ที่ไม่ได้รับการยืนยันกลับมาหาตัวคุณเองโดยมีค่าธรรมเนียมสูง เป้าหมายคือให้ผู้ขุดยืนยันธุรกรรมหลักเพื่อรับค่าธรรมเนียมที่แนบมากับธุรกรรมย่อย"
+
+msgctxt "ExportTxDialog|"
+msgid "Copy"
+msgstr "คัดลอก"
+
+msgctxt "GenericShareDialog|"
+msgid "Copy"
+msgstr "คัดลอก"
+
+msgctxt "Invoices|"
+msgid "Delete"
+msgstr "ลบ"
+
+msgctxt "LightningPaymentDetails|"
+msgid "Date"
+msgstr "วันที่"
+
+msgctxt "NetworkOverview|"
+msgid "Proxy"
+msgstr "พร็อกซี"
+
+msgctxt "OpenChannelDialog|"
+msgid "Channel established."
+msgstr "ก่อตั้งช่องแล้ว"
+
+msgctxt "OpenWalletDialog|"
+msgid "Password"
+msgstr "รหัสผ่าน:"
+
+msgctxt "PasswordDialog|"
+msgid "Enter Password"
+msgstr "ป้อนรหัสผ่าน"
+
+msgctxt "PasswordDialog|"
+msgid "Password"
+msgstr "รหัสผ่าน:"
+
+msgctxt "Preferences|"
+msgid "Base unit"
+msgstr "หน่วยฐาน"
+
+msgctxt "ProxyConfig|"
+msgid "Port"
+msgstr "พอร์ท"
+
+msgctxt "ProxyConfig|"
+msgid "Password"
+msgstr "รหัสผ่าน:"
+
+msgctxt "RbfBumpFeeDialog|"
+msgid "Bump Fee"
+msgstr "ค่าธรรมเนียมเพิ่มเติม"
+
+msgctxt "ReceiveRequests|"
+msgid "Delete"
+msgstr "ลบ"
+
+msgctxt "RequestExpiryComboBox|"
+msgid "10 minutes"
+msgstr "10 นาที"
+
+msgctxt "ScanDialog|"
+msgid "Cancel"
+msgstr "ยกเลิก"
+
+msgctxt "ServerConfig|"
+msgid "Connected"
+msgstr "เชื่อมต่อแล้ว"
+
+msgctxt "SwapDialog|"
+msgid "Cancel"
+msgstr "ยกเลิก"
+
+msgctxt "TxDetails|"
+msgid "Amount received in channels"
+msgstr "จำนวนเงินที่ได้รับในช่อง"
+
+msgctxt "TxDetails|"
+msgid "Amount withdrawn from channels"
+msgstr "จำนวนเงินที่ถอนออกจากช่อง"
+
+msgctxt "TxDetails|"
+msgid "Date"
+msgstr "วันที่"
+
+msgctxt "WCHaveSeed|"
+msgid "BIP39 seeds can be imported in Electrum, so that users can access funds locked in other wallets."
+msgstr "เมล็ดพันธุ์ BIP39 สามารถนำเข้าใน Electrum เพื่อให้ผู้ใช้สามารถเข้าถึงเงินที่ถูกล็อคไว้ในกระเป๋าสตางค์อื่น ๆ"
+
+msgctxt "WCHaveSeed|"
+msgid "BIP39 seeds do not include a version number, which compromises compatibility with future software."
+msgstr "เมล็ดพันธุ์ BIP39 ไม่มีหมายเลขเวอร์ชันซึ่งทำให้ความเข้ากันได้กับซอฟต์แวร์ในอนาคตลดลง"
+
+msgctxt "WCImport|"
+msgid "Enter a list of Bitcoin addresses (this will create a watching-only wallet), or a list of private keys."
+msgstr "ป้อนรายการแอดเดรส Bitcoin (ซึ่งจะสร้างวอลเล็ตสำหรับดูเท่านั้น) หรือรายการไพรเวทคีย์"
+
+msgctxt "WCKeystoreType|"
+msgid "Create a new seed"
+msgstr "สร้าง Seed ใหม่"
+
+msgctxt "WCProxyConfig|"
+msgid "Proxy"
+msgstr "พร็อกซี"
+
+msgctxt "WCScriptAndDerivation|"
+msgid "Choose the type of addresses in your wallet."
+msgstr "เลือกประเภทที่อยู่ในกระเป๋าเงินของคุณ"
+
+msgctxt "WalletDetails|"
+msgid "Encrypted"
+msgstr "เข้ารหัส"
+
+msgctxt "WalletDetails|"
+msgid "Change Password"
+msgstr "เปลี่ยนรหัสผ่าน"
+
+msgctxt "WalletMainView|"
+msgid "Channels"
+msgstr "ช่อง"
+
+msgctxt "Wizard|"
+msgid "Cancel"
+msgstr "ยกเลิก"
+
+msgctxt "Wizard|"
+msgid "Back"
+msgstr "กลับ"

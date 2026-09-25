@@ -1,0 +1,9026 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: electrum\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-02 08:02+0000\n"
+"PO-Revision-Date: 2026-07-02 08:02\n"
+"Last-Translator: \n"
+"Language-Team: Serbian (Latin)\n"
+"Language: sr_CS\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Qt-Contexts: true\n"
+"X-Electrum-SourceStringCount: 2738\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Crowdin-Project: electrum\n"
+"X-Crowdin-Project-ID: 20482\n"
+"X-Crowdin-Language: sr-CS\n"
+"X-Crowdin-File: /electrum-client/messages.pot\n"
+"X-Crowdin-File-ID: 68\n"
+
+msgid "Something went wrong while executing Electrum."
+msgstr ""
+
+msgid "Sorry!"
+msgstr ""
+
+msgid "To help us diagnose and fix the problem, you can send us a bug report that contains useful debug information:"
+msgstr ""
+
+msgid "Please briefly describe what led to the error (optional):"
+msgstr ""
+
+msgid "Do you want to send this report?"
+msgstr ""
+
+msgid "Do not enter sensitive/private information here. The report will be visible on the public issue tracker."
+msgstr ""
+
+msgid "Missing report URL."
+msgstr ""
+
+msgid "Thanks for reporting this issue!"
+msgstr ""
+
+msgid "unknown parser {!r} (choices: {})"
+msgstr ""
+
+msgid "Unexpected password hash version"
+msgstr ""
+
+msgid "You are most likely using an outdated version of Electrum. Please update."
+msgstr ""
+
+msgid "Unsupported password hash version"
+msgstr ""
+
+msgid "  (No FX rate available)"
+msgstr ""
+
+msgid "No data"
+msgstr ""
+
+msgid "FIXED"
+msgstr ""
+
+msgid "Feerate"
+msgstr ""
+
+msgid "ETA"
+msgstr ""
+
+msgid "Mempool"
+msgstr ""
+
+msgid "Low fee"
+msgstr ""
+
+msgid "In the next block"
+msgstr ""
+
+msgid "Within one day"
+msgstr ""
+
+msgid "Within one week"
+msgstr ""
+
+msgid "Within {} blocks"
+msgstr ""
+
+msgid "Target"
+msgstr ""
+
+msgid "Current rate"
+msgstr ""
+
+msgid "Fixed rate"
+msgstr ""
+
+msgid "Estimate"
+msgstr ""
+
+msgid "{} from tip"
+msgstr ""
+
+msgid "&Undo"
+msgstr ""
+
+msgid "&Redo"
+msgstr ""
+
+msgid "Cu&t"
+msgstr ""
+
+msgid "&Copy"
+msgstr ""
+
+msgid "&Paste"
+msgstr ""
+
+msgid "Select All"
+msgstr ""
+
+msgid "Copy &Link Location"
+msgstr ""
+
+msgid "Cannot draw QR code"
+msgstr ""
+
+msgid "Not enough space available."
+msgstr ""
+
+msgid "Your node will negotiate the transaction fee with the remote node. This method of closing the channel usually results in the lowest fees."
+msgstr ""
+
+msgid "If you request a force-close, your node will pretend that it has lost its data and ask the remote node to broadcast their latest state. Doing so from time to time helps make sure that nodes are honest, because your node can punish them if they broadcast a revoked state."
+msgstr ""
+
+msgid "The channel you created is not recoverable from seed.\n"
+"To prevent fund losses, please save this backup on another device.\n"
+"It may be imported in another Electrum wallet with the same seed."
+msgstr ""
+
+msgid "Electrum uses static channel backups. If you lose your wallet file, you will need to request your channel to be force-closed by the remote peer in order to recover your funds. This assumes that the remote peer is reachable, and has not lost its own data."
+msgstr ""
+
+msgid "Warning: Third-party plugins have access to your wallet!"
+msgstr ""
+
+msgid "Installing this plugin will grant third-party software access to your wallet. You must trust the plugin not to be malicious."
+msgstr ""
+
+msgid "You should at minimum check who the author of the plugin is, and be careful of imposters."
+msgstr ""
+
+msgid "Third-party plugins are not endorsed by Electrum."
+msgstr ""
+
+msgid "Electrum will not be responsible in case of theft, loss of funds or privacy that might result from third-party plugins."
+msgstr ""
+
+msgid "To install this plugin, please enter your plugin authorization password"
+msgstr ""
+
+msgid "Another instance of this wallet (same seed) has an open channel with the same remote node. If you create this channel, you will not be able to use both wallets at the same time.\n\n"
+"Are you sure?"
+msgstr ""
+
+msgid "Channel backups can be imported in another instance of the same wallet."
+msgstr ""
+
+msgid "In the Electrum mobile app, use the 'Send' button to scan this QR code."
+msgstr ""
+
+msgid "Please note that channel backups cannot be used to restore your channels."
+msgstr ""
+
+msgid "If you lose your wallet file, the only thing you can do with a backup is to request your channel to be closed, so that your funds will be sent on-chain."
+msgstr ""
+
+msgid "This summary covers only on-chain transactions (no lightning!). Capital gains are computed by attaching an acquisition price to each UTXO in the wallet, and uses the order of blockchain events (not FIFO)."
+msgstr ""
+
+msgid "This channel is with a non-trampoline node; it cannot be used if trampoline is enabled.\n"
+"If you want to keep using this channel, you need to disable trampoline routing in your preferences."
+msgstr ""
+
+msgid "When you freeze an address, the funds in that address will not be used for sending bitcoins."
+msgstr ""
+
+msgid "When you freeze a coin, it will not be used for sending bitcoins."
+msgstr ""
+
+msgid "Your funding transaction has been broadcast."
+msgstr ""
+
+msgid "Please remain online until the funding transaction is confirmed."
+msgstr ""
+
+msgid "The swap will be finalized once your transaction is confirmed."
+msgstr ""
+
+msgid "After the funding transaction is mined, the server will reveal the preimage needed to fulfill the pending received lightning HTLCs. The HTLCs expire in {} blocks. You will need to be online after the funding transaction is confirmed but before the HTLCs expire, to claim your money. If you go offline for several days while the swap is pending, you risk losing the swap amount!"
+msgstr ""
+
+msgid "The funding transaction has been detected."
+msgstr ""
+
+msgid "Your claiming transaction will be broadcast when the funding transaction is confirmed."
+msgstr ""
+
+msgid "If you go offline before broadcasting the claiming transaction and let the swap time out, you will not get back the already pre-paid mining fees."
+msgstr ""
+
+msgid "You will need to come back online after the commitment transaction is confirmed, in order to broadcast second-stage htlc transactions."
+msgstr ""
+
+msgid "If you remain offline for more than {} blocks, your channel counterparty will be able to sweep those funds."
+msgstr ""
+
+msgid "You will need to come back online after the funding transaction is confirmed, in order to settle the swap."
+msgstr ""
+
+msgid "If you remain offline for more than {} blocks, your channel will be force closed and you might lose the funds you sent in the swap."
+msgstr ""
+
+msgid "If you remain offline for more than {} blocks, the swap will be cancelled and you will lose the prepaid mining fees."
+msgstr ""
+
+msgid "You do not have enough on-chain funds to protect your Lightning channels."
+msgstr ""
+
+msgid "You should have at least {} on-chain in order to be able to sweep channel outputs."
+msgstr ""
+
+msgid "Auto-connect"
+msgstr ""
+
+msgid "Manual server selection"
+msgstr ""
+
+msgid "Connect only to a single server"
+msgstr ""
+
+msgid "Electrum connects to a unique server in order to receive your transaction history. This server will learn your wallet addresses."
+msgstr ""
+
+msgid "In addition to your history server, Electrum will try to maintain connections with ~10 extra servers, in order to download block headers and find out the longest blockchain. These servers are only used for block header notifications and fee estimates; they do not learn your wallet addresses. Getting block headers from multiple sources is useful to detect lagging servers and forks. Fork detection is security-critical for determining number of confirmations."
+msgstr ""
+
+msgid "Electrum will always use a history server that is on the longest blockchain. If your current server is unresponsive or lagging, Electrum will switch to another server."
+msgstr ""
+
+msgid "Electrum will stay with the server you selected. It will warn you if your server is lagging."
+msgstr ""
+
+msgid "Electrum will stay with the server you selected, and it will not connect to additional nodes. This will disable fork detection. This mode is only intended for connecting to your own fully trusted server. Using this option on a public server is a security risk and is discouraged."
+msgstr ""
+
+msgid "Submarine Payments use a reverse submarine swap to do on-chain transactions directly from your lightning balance."
+msgstr ""
+
+msgid "Submarine Payments happen in two stages. In the first stage, your wallet sends a lightning payment to the submarine swap provider. The swap provider will lock funds to a funding output in an on-chain transaction (the funding transaction)."
+msgstr ""
+
+msgid "Once the funding transaction has one confirmation, your wallet will broadcast a claim transaction as the second stage of the payment. This claim transaction spends the funding output to the payee's address."
+msgstr ""
+
+msgid "Warning:"
+msgstr ""
+
+msgid "The funding transaction is not visible to the payee. They will only see a pending transaction in the mempool after your wallet broadcasts the claim transaction. Since confirmation of the funding transaction can take over 30 minutes, avoid using Submarine Payments when the payee expects to see the transaction within a limited time frame (e.g., an online shop checkout). Use a regular on-chain payment instead."
+msgstr ""
+
+msgid "This transaction requires a higher fee, or it will not be propagated by your current server."
+msgstr ""
+
+msgid "Try to raise your transaction fee, or use a server with a lower relay fee."
+msgstr ""
+
+msgid "There was a problem with the automatic reporting:"
+msgstr ""
+
+msgid "Please report this issue manually"
+msgstr ""
+
+msgid "Confirm your identity"
+msgstr ""
+
+msgid "Not a master key"
+msgstr ""
+
+msgid "Wrong key type"
+msgstr ""
+
+msgid "Unsupported wallet type"
+msgstr ""
+
+msgid "If you force-close this channel, the funds you have in it will not be available for {} blocks."
+msgstr ""
+
+msgid "During that time, funds will not be recoverable from your seed, and may be lost if you lose your device."
+msgstr ""
+
+msgid "To prevent that, please save this channel backup."
+msgstr ""
+
+msgid "It may be imported in another wallet with the same seed."
+msgstr ""
+
+msgid "Close Lightning channel?"
+msgstr ""
+
+msgid "Could not close channel: "
+msgstr ""
+
+msgid "Minimum required amount: {}"
+msgstr ""
+
+msgid "Amount is above maximum channel size: {}"
+msgstr ""
+
+msgid "Open Lightning channel?"
+msgstr ""
+
+msgid "Could not connect to channel peer"
+msgstr ""
+
+msgid "File not found"
+msgstr ""
+
+msgid "Could not read/write file"
+msgstr ""
+
+msgid "Could not open wallet: {}"
+msgstr ""
+
+msgid "There are still channels that are not fully closed"
+msgstr ""
+
+msgid "There are still unpaid requests. Really delete?"
+msgstr ""
+
+msgid "There are still coins present in this wallet. Really delete?"
+msgstr ""
+
+msgid "Really delete this wallet?"
+msgstr ""
+
+msgid "Problem deleting wallet"
+msgstr ""
+
+msgid "Error renaming wallet:\n"
+msgstr ""
+
+msgid "Payment failed: "
+msgstr ""
+
+msgid "Enter the amount you want to send"
+msgstr ""
+
+msgid "This invoice has expired"
+msgstr ""
+
+msgid "This invoice was already paid"
+msgstr ""
+
+msgid "Payment in progress..."
+msgstr ""
+
+msgid "broadcasting"
+msgstr ""
+
+msgid "broadcast successfully"
+msgstr ""
+
+msgid "waiting for confirmation"
+msgstr ""
+
+msgid "Invoice has unknown status"
+msgstr ""
+
+msgid "Paid!"
+msgstr ""
+
+msgid "Cannot pay less than the amount specified in the invoice"
+msgstr ""
+
+msgid "Connecting to Lightning peers..."
+msgstr ""
+
+msgid "Connecting to Lightning peer..."
+msgstr ""
+
+msgid "Insufficient balance"
+msgstr ""
+
+msgid "Unknown invoice"
+msgstr ""
+
+msgid "Detected valid Lightning invoice, but Lightning not enabled for wallet and no fallback address found."
+msgstr ""
+
+msgid "Detected valid Lightning invoice, but there are no open channels"
+msgstr ""
+
+msgid "Could not resolve address"
+msgstr ""
+
+msgid "Could not resolve LNURL"
+msgstr ""
+
+msgid "Could not resolve"
+msgstr ""
+
+msgid "The platform QR detection library is not available."
+msgstr ""
+
+msgid "Scan a QR code."
+msgstr ""
+
+msgid "Failed to create payment request for withdrawal: {}"
+msgstr ""
+
+msgid "Move the slider to set the amount and direction of the swap."
+msgstr ""
+
+msgid "Swapping lightning funds for onchain funds will increase your capacity to receive lightning payments."
+msgstr ""
+
+msgid "Initializing..."
+msgstr ""
+
+msgid "Error"
+msgstr ""
+
+msgid "Could not connect to a Nostr relay."
+msgstr ""
+
+msgid "Please check your relays and network connection"
+msgstr ""
+
+msgid "Could not find a swap provider."
+msgstr ""
+
+msgid "No swap provider selected."
+msgstr ""
+
+msgid "Select one of the available swap providers."
+msgstr ""
+
+msgid "Performing swap..."
+msgstr ""
+
+msgid "Success!"
+msgstr ""
+
+msgid "Swap failed!"
+msgstr ""
+
+msgid "Swap cancelled"
+msgstr ""
+
+msgid "Timeout"
+msgstr ""
+
+msgid "You are offline."
+msgstr ""
+
+msgid "Confirm Lightning swap?"
+msgstr ""
+
+msgid "removed"
+msgstr ""
+
+msgid "Are you sure you want to remove this transaction?"
+msgstr ""
+
+msgid "Are you sure you want to remove this transaction and {} child transactions?"
+msgstr ""
+
+msgid "Warning"
+msgstr ""
+
+msgid "No dynamic fee estimates available"
+msgstr ""
+
+msgid "Could not spend max: a security reserve of {} was kept for your Lightning channels."
+msgstr ""
+
+msgid "Base transaction has been mined"
+msgstr ""
+
+msgid "Base transaction disappeared"
+msgstr ""
+
+msgid "Cannot determine dynamic fees, not connected"
+msgstr ""
+
+msgid "The new fee rate needs to be higher than the old fee rate."
+msgstr ""
+
+msgid "Transaction is missing info from network"
+msgstr ""
+
+msgid "Can't CPFP: unknown fee for parent transaction."
+msgstr ""
+
+msgid "No fee"
+msgstr ""
+
+msgid "Max fee exceeded"
+msgstr ""
+
+msgid "Combined feerate should be greater than the parent tx feerate"
+msgstr ""
+
+msgid "Network error"
+msgstr ""
+
+msgid "Not enough funds"
+msgstr ""
+
+msgid "Sweep transaction"
+msgstr ""
+
+msgid "Amount"
+msgstr ""
+
+msgid "Synchronizing..."
+msgstr ""
+
+msgid "Sign and send on-chain transaction?"
+msgstr ""
+
+msgid "Sign on-chain transaction?"
+msgstr ""
+
+msgid "Transaction could not be saved."
+msgstr ""
+
+msgid "It conflicts with current history."
+msgstr ""
+
+msgid "Pay lightning invoice?"
+msgstr ""
+
+msgid "No address available."
+msgstr ""
+
+msgid "All your addresses are used in pending requests."
+msgstr ""
+
+msgid "To see the list, press and hold the Receive button."
+msgstr ""
+
+msgid "Error creating payment request"
+msgstr ""
+
+msgid "Sign message?"
+msgstr ""
+
+msgid "Weak"
+msgstr ""
+
+msgid "Medium"
+msgstr ""
+
+msgid "Strong"
+msgstr ""
+
+msgid "Very Strong"
+msgstr ""
+
+msgid "Plugins"
+msgstr ""
+
+msgid "Network"
+msgstr ""
+
+msgid "Lightning Network"
+msgstr ""
+
+msgid "Show/Hide"
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+msgid "Dark/Light"
+msgstr ""
+
+msgid "Exit Electrum"
+msgstr ""
+
+msgid "Cannot load wallet"
+msgstr ""
+
+msgid "Updated 'Pay To' field to handle external URI"
+msgstr ""
+
+msgid "Text copied to Clipboard"
+msgstr ""
+
+msgid "{} copied to Clipboard"
+msgstr ""
+
+msgid "Error starting Electrum"
+msgstr ""
+
+msgid "An error occurred"
+msgstr ""
+
+msgid "Address"
+msgstr ""
+
+msgid "Public keys"
+msgstr ""
+
+msgid "Public Key"
+msgstr ""
+
+msgid "Redeem Script"
+msgstr ""
+
+msgid "Witness Script"
+msgstr ""
+
+msgid "Derivation path"
+msgstr ""
+
+msgid "All status"
+msgstr ""
+
+msgid "Unused"
+msgstr ""
+
+msgid "Funded"
+msgstr ""
+
+msgid "Used"
+msgstr ""
+
+msgid "Funded or Unused"
+msgstr ""
+
+msgid "All types"
+msgstr ""
+
+msgid "Receiving"
+msgstr ""
+
+msgid "Change"
+msgstr ""
+
+msgid "Show Filter"
+msgstr ""
+
+msgid "Fiat"
+msgstr ""
+
+msgid "Type"
+msgstr ""
+
+msgid "Label"
+msgstr ""
+
+msgid "Balance"
+msgstr ""
+
+msgid "Tx"
+msgstr ""
+
+msgid "change"
+msgstr ""
+
+msgid "receiving"
+msgstr ""
+
+msgid "{} addresses"
+msgstr ""
+
+msgid "Details"
+msgstr ""
+
+msgid "Edit {}"
+msgstr ""
+
+msgid "Private key"
+msgstr ""
+
+msgid "Sign/verify message"
+msgstr ""
+
+msgid "Encrypt/decrypt message"
+msgstr ""
+
+msgid "Remove from wallet"
+msgstr ""
+
+msgid "View on block explorer"
+msgstr ""
+
+msgid "Freeze"
+msgstr ""
+
+msgid "Unfreeze"
+msgstr ""
+
+msgid "Remove from coin control"
+msgstr ""
+
+msgid "Add to coin control"
+msgstr ""
+
+msgid "Wallet Balance"
+msgstr ""
+
+msgid "Frozen"
+msgstr ""
+
+msgid "Unmatured"
+msgstr ""
+
+msgid "Unconfirmed"
+msgstr ""
+
+msgid "On-chain"
+msgstr ""
+
+msgid "Lightning"
+msgstr ""
+
+msgid "Lightning frozen"
+msgstr ""
+
+msgid "Lightning (frozen)"
+msgstr ""
+
+msgid "Swap"
+msgstr ""
+
+msgid "BIP39 Recovery"
+msgstr ""
+
+msgid "Scanning common paths for existing accounts..."
+msgstr ""
+
+msgid "No existing accounts found."
+msgstr ""
+
+msgid "Choose an account to restore."
+msgstr ""
+
+msgid "Error: Account discovery failed."
+msgstr ""
+
+msgid "Lightning Channel"
+msgstr ""
+
+msgid "Channel Backup"
+msgstr ""
+
+msgid "This is a channel backup."
+msgstr ""
+
+msgid "It shows a channel that was opened with another instance of this wallet"
+msgstr ""
+
+msgid "A backup does not contain information about your local balance in the channel."
+msgstr ""
+
+msgid "You can use it to request a force close."
+msgstr ""
+
+msgid "Channel stats"
+msgstr ""
+
+msgid "Payments (HTLCs):"
+msgstr ""
+
+msgid "Sent HTLC with ID {}"
+msgstr ""
+
+msgid "CLTV expiry"
+msgstr ""
+
+msgid "Payment hash"
+msgstr ""
+
+msgid "Fulfilled HTLCs"
+msgstr ""
+
+msgid "HTLCs in current commitment transaction"
+msgstr ""
+
+msgid "Failed HTLCs"
+msgstr ""
+
+msgid "Transaction not found."
+msgstr ""
+
+msgid "Remote Node ID"
+msgstr ""
+
+msgid "Remote Node"
+msgstr ""
+
+msgid "Channel ID"
+msgstr ""
+
+msgid "Short Channel ID"
+msgstr ""
+
+msgid "State"
+msgstr ""
+
+msgid "Remote peer sent error [DO NOT TRUST]"
+msgstr ""
+
+msgid "Capacity"
+msgstr ""
+
+msgid "Channel type:"
+msgstr ""
+
+msgid "Initiator:"
+msgstr ""
+
+msgid "Funding Outpoint"
+msgstr ""
+
+msgid "Closing Transaction"
+msgstr ""
+
+msgid "Local balance"
+msgstr ""
+
+msgid "Remote balance"
+msgstr ""
+
+msgid "Can send"
+msgstr ""
+
+msgid "Can receive"
+msgstr ""
+
+msgid "Local reserve"
+msgstr ""
+
+msgid "Remote reserve:"
+msgstr ""
+
+msgid "Local dust limit"
+msgstr ""
+
+msgid "Remote dust limit"
+msgstr ""
+
+msgid "Total sent"
+msgstr ""
+
+msgid "Total received"
+msgstr ""
+
+msgid "Remote force-close CSV delay"
+msgstr ""
+
+msgid "Force-close CSV delay imposed on them"
+msgstr ""
+
+msgid "Local force-close CSV delay"
+msgstr ""
+
+msgid "Force-close CSV delay imposed on us"
+msgstr ""
+
+msgid "{} blocks"
+msgstr ""
+
+msgid "Current feerate"
+msgstr ""
+
+msgid "Node alias"
+msgstr ""
+
+msgid "Status"
+msgstr ""
+
+msgid "Cooperative close?"
+msgstr ""
+
+msgid "Please wait..."
+msgstr ""
+
+msgid "Force-close channel?"
+msgstr ""
+
+msgid "After that delay, funds will be swept to an address derived from your wallet seed."
+msgstr ""
+
+msgid "Please create a backup of your wallet file!"
+msgstr ""
+
+msgid "Funds in this channel will not be recoverable from seed until they are swept back into your wallet, and might be lost if you lose your wallet file."
+msgstr ""
+
+msgid "To prevent that, you should save a backup of your wallet on another device."
+msgstr ""
+
+msgid "Force-close channel"
+msgstr ""
+
+msgid "Are you sure you want to delete this channel? This will purge associated transactions from your wallet history."
+msgstr ""
+
+msgid "Remove channel backup?"
+msgstr ""
+
+msgid "Request force-close from remote peer?"
+msgstr ""
+
+msgid "Request scheduled"
+msgstr ""
+
+msgid "Channel is frozen for sending"
+msgstr ""
+
+msgid "Rebalance channels"
+msgstr ""
+
+msgid "Node ID"
+msgstr ""
+
+msgid "Long Channel ID"
+msgstr ""
+
+msgid "Freeze for sending"
+msgstr ""
+
+msgid "Unfreeze for sending"
+msgstr ""
+
+msgid "Freeze for receiving"
+msgstr ""
+
+msgid "Unfreeze for receiving"
+msgstr ""
+
+msgid "Cooperative close"
+msgstr ""
+
+msgid "Force-close"
+msgstr ""
+
+msgid "Request force-close"
+msgstr ""
+
+msgid "Export backup"
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid "This channel is frozen for sending. It will not be used for outgoing payments."
+msgstr ""
+
+msgid "This channel is frozen for receiving. It will not be included in invoices."
+msgstr ""
+
+msgid "can receive"
+msgstr ""
+
+msgid "Submarine swap"
+msgstr ""
+
+msgid "Import channel backup"
+msgstr ""
+
+msgid "New Channel"
+msgstr ""
+
+msgid "Lightning is not available for this wallet."
+msgstr ""
+
+msgid "Open a channel to send payments over the Lightning network."
+msgstr ""
+
+msgid "Lightning Network Statistics"
+msgstr ""
+
+msgid "Nodes"
+msgstr ""
+
+msgid "Channels"
+msgstr ""
+
+msgid "This is a channel"
+msgstr ""
+
+msgid "This is a static channel backup"
+msgstr ""
+
+msgid "The channel peer can route Trampoline payments."
+msgstr ""
+
+msgid "This channel cannot be recovered from your seed. You must back it up manually."
+msgstr ""
+
+msgid "LockTime"
+msgstr ""
+
+msgid "To somewhat protect your privacy, Electrum tries to create change with similar precision to other outputs."
+msgstr ""
+
+msgid "At most 100 satoshis might be lost due to this rounding."
+msgstr ""
+
+msgid "You can disable this setting in '{}'."
+msgstr ""
+
+msgid "Preferences"
+msgstr ""
+
+msgid "Also, dust is not kept as change, but added to the fee."
+msgstr ""
+
+msgid "Also, when batching RBF transactions, BIP 125 imposes a lower bound on the fee."
+msgstr ""
+
+msgid "Fee rounding"
+msgstr ""
+
+msgid "Onchain Transaction"
+msgstr ""
+
+msgid "Submarine Payment"
+msgstr ""
+
+msgid "Submarine Payments don't support multiple outputs (Pay-to-many)."
+msgstr ""
+
+msgid "Submarine Payments don't support 'Max' value spends."
+msgstr ""
+
+msgid "Additional {} satoshis are going to be added."
+msgstr ""
+
+msgid "Preview"
+msgstr ""
+
+msgid "OK"
+msgstr ""
+
+msgid "Do not batch"
+msgstr ""
+
+msgid "Batch with"
+msgstr ""
+
+msgid "Not available for this wallet."
+msgstr ""
+
+msgid "Requires a wallet with Lightning network support."
+msgstr ""
+
+msgid "Use change addresses"
+msgstr ""
+
+msgid "Using change addresses makes it more difficult for other people to track your transactions."
+msgstr ""
+
+msgid "Use multiple change addresses"
+msgstr ""
+
+msgid "In some cases, use up to 3 change addresses in order to break up large coin amounts and obfuscate the recipient address."
+msgstr ""
+
+msgid "This may result in higher transactions fees."
+msgstr ""
+
+msgid "Tools"
+msgstr ""
+
+msgid "Not enough funds."
+msgstr ""
+
+msgid "Change your settings to allow spending unconfirmed coins."
+msgstr ""
+
+msgid "You need to set a lower fee."
+msgstr ""
+
+msgid "Can be unfrozen in the Addresses or in the Coins tab"
+msgstr ""
+
+msgid "Preparing transaction..."
+msgstr ""
+
+msgid "Fee estimates not available. Please set a fixed fee or feerate."
+msgstr ""
+
+msgid "Lightning is not enabled."
+msgstr ""
+
+msgid "This transaction will spend unconfirmed coins."
+msgstr ""
+
+msgid "This payment will be merged with another existing transaction."
+msgstr ""
+
+msgid "This transaction has {} change outputs."
+msgstr ""
+
+msgid "Make sure you pay enough mining fees; you will not be able to bump the fee later."
+msgstr ""
+
+msgid "Can't show preview when sending change to lightning"
+msgstr ""
+
+msgid "You send"
+msgstr ""
+
+msgid "They receive"
+msgstr ""
+
+msgid "Swap fee"
+msgstr ""
+
+msgid "Mining fee"
+msgstr ""
+
+msgid "Connecting, please wait..."
+msgstr ""
+
+msgid "Initiating Submarine Payment..."
+msgstr ""
+
+msgid "Submarine Payment failed:"
+msgstr ""
+
+msgid "Enable Lightning in the 'Channels' tab to use Submarine Swaps."
+msgstr ""
+
+msgid "Submarine swap provider unavailable."
+msgstr ""
+
+msgid "Couldn't connect to your swap provider. Please select a different provider."
+msgstr ""
+
+msgid "Please select a submarine swap provider."
+msgstr ""
+
+msgid "Payment amount below the minimum possible swap amount."
+msgstr ""
+
+msgid "Minimum amount: {}"
+msgstr ""
+
+msgid "You need to send a higher amount to be able to do a Submarine Payment."
+msgstr ""
+
+msgid "You don't have enough outgoing capacity in your lightning channels."
+msgstr ""
+
+msgid "Your lightning channels can send: {}"
+msgstr ""
+
+msgid "For this transaction you need: {}"
+msgstr ""
+
+msgid "To add outgoing capacity you can open a new lightning channel or do a submarine swap."
+msgstr ""
+
+msgid "The selected swap provider is unable to offer a forward swap of this value."
+msgstr ""
+
+msgid "Available liquidity"
+msgstr ""
+
+msgid "In order to continue select a different provider or try to send a smaller amount."
+msgstr ""
+
+msgid "Submarine Payment not possible:"
+msgstr ""
+
+msgid "Requesting swap invoice..."
+msgstr ""
+
+msgid "New Transaction"
+msgstr ""
+
+msgid "The amount to be received by the recipient."
+msgstr ""
+
+msgid "Fees are paid by the sender."
+msgstr ""
+
+msgid "Amount to be sent"
+msgstr ""
+
+msgid "Bitcoin transactions are in general not free. A transaction fee is paid by the sender of the funds."
+msgstr ""
+
+msgid "The amount of fee can be decided freely by the sender. However, transactions with low fees take more time to be processed."
+msgstr ""
+
+msgid "A suggested fee is automatically added to this field. You may override it. The suggested fee increases with the size of the transaction."
+msgstr ""
+
+msgid "Mining Fee"
+msgstr ""
+
+msgid "Fee policy"
+msgstr ""
+
+msgid "Additional fees"
+msgstr ""
+
+msgid "Warning!"
+msgstr ""
+
+msgid "Do not paste code here that you don't understand. Executing the wrong code could lead to your coins being irreversibly lost."
+msgstr ""
+
+msgid "Click here to hide this message."
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Copy {}"
+msgstr ""
+
+msgid "Pay to"
+msgstr ""
+
+msgid "&New contact"
+msgstr ""
+
+msgid "Import"
+msgstr ""
+
+msgid "Export"
+msgstr ""
+
+msgid "An Error Occurred"
+msgstr ""
+
+msgid "Show report contents"
+msgstr ""
+
+msgid "Send Bug Report"
+msgstr ""
+
+msgid "Not Now"
+msgstr ""
+
+msgid "Crash report"
+msgstr ""
+
+msgid "Sending crash report..."
+msgstr ""
+
+msgid "Report contents"
+msgstr ""
+
+msgid "Feerate: the fee slider uses static feerate values"
+msgstr ""
+
+msgid "ETA: fee rate is based on average confirmation time estimates"
+msgstr ""
+
+msgid "Mempool based: fee rate is targeting a depth in the memory pool"
+msgstr ""
+
+msgid "This transaction is only available on your local machine.\n"
+"The currently connected server does not know about it.\n"
+"You can either broadcast it now, or simply remove it."
+msgstr ""
+
+msgid " confirmation"
+msgstr ""
+
+msgid "{} transactions"
+msgstr ""
+
+msgid "Value"
+msgstr ""
+
+msgid "Acquisition price"
+msgstr ""
+
+msgid "Capital Gains"
+msgstr ""
+
+msgid "Date"
+msgstr ""
+
+msgid "Description"
+msgstr ""
+
+msgid "All"
+msgstr ""
+
+msgid "Custom"
+msgstr ""
+
+msgid "None"
+msgstr ""
+
+msgid "From"
+msgstr ""
+
+msgid "To"
+msgstr ""
+
+msgid "Filter by Date"
+msgstr ""
+
+msgid "Show Fiat Values"
+msgstr ""
+
+msgid "&Summary"
+msgstr ""
+
+msgid "&Plot"
+msgstr ""
+
+msgid "&Export"
+msgstr ""
+
+msgid "Select date"
+msgstr ""
+
+msgid "Enable fiat exchange rate with history."
+msgstr ""
+
+msgid "Nothing to summarize."
+msgstr ""
+
+msgid "Summary"
+msgstr ""
+
+msgid "Begin"
+msgstr ""
+
+msgid "End"
+msgstr ""
+
+msgid "BTC balance"
+msgstr ""
+
+msgid "BTC Fiat price"
+msgstr ""
+
+msgid "Fiat balance"
+msgstr ""
+
+msgid "Unrealized capital gains"
+msgstr ""
+
+msgid "BTC incoming"
+msgstr ""
+
+msgid "Fiat incoming"
+msgstr ""
+
+msgid "BTC outgoing"
+msgstr ""
+
+msgid "Fiat outgoing"
+msgstr ""
+
+msgid "Realized capital gains"
+msgstr ""
+
+msgid "Cash flow"
+msgstr ""
+
+msgid "This feature requires the 'matplotlib' Python library which is not included in Electrum by default."
+msgstr ""
+
+msgid "If you run Electrum from source you can install matplotlib to use this feature."
+msgstr ""
+
+msgid "It is not possible to install matplotlib inside the binary executables (e.g. AppImage or Windows installation)."
+msgstr ""
+
+msgid "Copy"
+msgstr ""
+
+msgid "Payment Hash"
+msgstr ""
+
+msgid "Preimage"
+msgstr ""
+
+msgid "View log"
+msgstr ""
+
+msgid "Remove"
+msgstr ""
+
+msgid "Transaction ID"
+msgstr ""
+
+msgid "Edit"
+msgstr ""
+
+msgid "{}"
+msgstr ""
+
+msgid "View Channel"
+msgstr ""
+
+msgid "Increase fee"
+msgstr ""
+
+msgid "Child pays for parent"
+msgstr ""
+
+msgid "Cancel (double-spend)"
+msgstr ""
+
+msgid "View invoice"
+msgstr ""
+
+msgid "Related invoices"
+msgstr ""
+
+msgid "Please confirm"
+msgstr ""
+
+msgid "Export History"
+msgstr ""
+
+msgid "Select file to export your wallet transactions to"
+msgstr ""
+
+msgid "Electrum was unable to produce a transaction export."
+msgstr ""
+
+msgid "Unable to export history"
+msgstr ""
+
+msgid "Your wallet history has been successfully exported."
+msgstr ""
+
+msgid "Unknown"
+msgstr ""
+
+msgid "Batch pay invoices"
+msgstr ""
+
+msgid "Delete invoices"
+msgstr ""
+
+msgid "Pay"
+msgstr ""
+
+msgid "Retry"
+msgstr ""
+
+msgid "Payment log"
+msgstr ""
+
+msgid "Hops"
+msgstr ""
+
+msgid "Message"
+msgstr ""
+
+msgid "Lightning gossip not active."
+msgstr ""
+
+msgid "{} nodes"
+msgstr ""
+
+msgid "{} channels"
+msgstr ""
+
+msgid "Connected to {} peers"
+msgstr ""
+
+msgid "Requesting {} channels..."
+msgstr ""
+
+msgid "Lightning Payment"
+msgstr ""
+
+msgid "Fee: {}"
+msgstr ""
+
+msgid "Description:"
+msgstr ""
+
+msgid "Lightning Invoice"
+msgstr ""
+
+msgid "Raw"
+msgstr ""
+
+msgid "Block height"
+msgstr ""
+
+msgid "History"
+msgstr ""
+
+msgid "Send"
+msgstr ""
+
+msgid "Receive"
+msgstr ""
+
+msgid "&Addresses"
+msgstr ""
+
+msgid "Co&ins"
+msgstr ""
+
+msgid "Con&tacts"
+msgstr ""
+
+msgid "Con&sole"
+msgstr ""
+
+msgid "&Notes"
+msgstr ""
+
+msgid "Enable update check"
+msgstr ""
+
+msgid "For security reasons we advise that you always use the latest version of Electrum."
+msgstr ""
+
+msgid "Would you like to be notified when there is a newer version of Electrum available?"
+msgstr ""
+
+msgid "Update to Electrum {} is available"
+msgstr ""
+
+msgid "Your wallet is locked."
+msgstr ""
+
+msgid "If you unlock it, its password will not be required to sign transactions."
+msgstr ""
+
+msgid "Enter your password to unlock your wallet:"
+msgstr ""
+
+msgid "Lock"
+msgstr ""
+
+msgid "Unlock"
+msgstr ""
+
+msgid "Your wallet is unlocked."
+msgstr ""
+
+msgid "Its password will not be required to sign transactions."
+msgstr ""
+
+msgid "Its password will be required to sign transactions."
+msgstr ""
+
+msgid "Your password is needed to sign the following transactions:"
+msgstr ""
+
+msgid "watching only"
+msgstr ""
+
+msgid "This wallet is watching-only."
+msgstr ""
+
+msgid "This means you will not be able to spend Bitcoins with it."
+msgstr ""
+
+msgid "Make sure you own the seed phrase or the private keys, before you request Bitcoins to be sent to this wallet."
+msgstr ""
+
+msgid "Watch-only wallet"
+msgstr ""
+
+msgid "You are in testnet mode."
+msgstr ""
+
+msgid "Testnet coins are worthless."
+msgstr ""
+
+msgid "Testnet is separate from the main Bitcoin network. It is used for testing."
+msgstr ""
+
+msgid "Don't show this again."
+msgstr ""
+
+msgid "Testnet"
+msgstr ""
+
+msgid "File Backup"
+msgstr ""
+
+msgid "Backup directory"
+msgstr ""
+
+msgid "Please select a backup directory"
+msgstr ""
+
+msgid "Note that lightning channels will be converted to channel backups."
+msgstr ""
+
+msgid "You cannot use channel backups to perform lightning payments."
+msgstr ""
+
+msgid "Channel backups can only be used to request your channels to be closed."
+msgstr ""
+
+msgid "You need to configure a backup directory in your preferences"
+msgstr ""
+
+msgid "Backup not configured"
+msgstr ""
+
+msgid "Electrum was unable to copy your wallet file to the specified location."
+msgstr ""
+
+msgid "Unable to create backup"
+msgstr ""
+
+msgid "A copy of your wallet file was created in"
+msgstr ""
+
+msgid "Wallet backup created"
+msgstr ""
+
+msgid "&File"
+msgstr ""
+
+msgid "&Recently open"
+msgstr ""
+
+msgid "&Open"
+msgstr ""
+
+msgid "&New/Restore"
+msgstr ""
+
+msgid "&Save backup"
+msgstr ""
+
+msgid "&Quit"
+msgstr ""
+
+msgid "&Wallet"
+msgstr ""
+
+msgid "&Information"
+msgstr ""
+
+msgid "&Password"
+msgstr ""
+
+msgid "&Unlock"
+msgstr ""
+
+msgid "&Seed"
+msgstr ""
+
+msgid "&Private keys"
+msgstr ""
+
+msgid "&Sweep"
+msgstr ""
+
+msgid "&Import"
+msgstr ""
+
+msgid "Import addresses"
+msgstr ""
+
+msgid "&Labels"
+msgstr ""
+
+msgid "Find"
+msgstr ""
+
+msgid "&View"
+msgstr ""
+
+msgid "&Tools"
+msgstr ""
+
+msgid "Electrum preferences"
+msgstr ""
+
+msgid "&Network"
+msgstr ""
+
+msgid "&Plugins"
+msgstr ""
+
+msgid "&Sign/verify message"
+msgstr ""
+
+msgid "&Encrypt/decrypt message"
+msgstr ""
+
+msgid "&Load transaction"
+msgstr ""
+
+msgid "&From file"
+msgstr ""
+
+msgid "&From text"
+msgstr ""
+
+msgid "&From the blockchain"
+msgstr ""
+
+msgid "&From QR code"
+msgstr ""
+
+msgid "&Help"
+msgstr ""
+
+msgid "&About"
+msgstr ""
+
+msgid "&Changelog"
+msgstr ""
+
+msgid "&Check for updates"
+msgstr ""
+
+msgid "&Official website"
+msgstr ""
+
+msgid "&Documentation"
+msgstr ""
+
+msgid "&Bitcoin Paper"
+msgstr ""
+
+msgid "&Report Bug"
+msgstr ""
+
+msgid "&Donate to server"
+msgstr ""
+
+msgid "No donation address for this server"
+msgstr ""
+
+msgid "Version"
+msgstr ""
+
+msgid "Electrum's focus is speed, with low resource usage and simplifying Bitcoin."
+msgstr ""
+
+msgid "You do not need to perform regular backups, because your wallet can be recovered from a secret phrase that you can memorize or write on paper."
+msgstr ""
+
+msgid "Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the Bitcoin system."
+msgstr ""
+
+msgid "Uses icons from the Icons8 icon pack (icons8.com)."
+msgstr ""
+
+msgid "Fetching Bitcoin Paper..."
+msgstr ""
+
+msgid "Please report any bugs as issues on github:<br/>"
+msgstr ""
+
+msgid "Before reporting a bug, upgrade to the most recent version of Electrum (latest release or git HEAD), and include the version number in your report."
+msgstr ""
+
+msgid "Try to explain not only what the bug is, but how it occurs."
+msgstr ""
+
+msgid "Reporting Bugs"
+msgstr ""
+
+msgid "Offline"
+msgstr ""
+
+msgid "Server is lagging ({} blocks)"
+msgstr ""
+
+msgid "Connected"
+msgstr ""
+
+msgid "Not connected"
+msgstr ""
+
+msgid "proxy enabled"
+msgstr ""
+
+msgid "tasks"
+msgstr ""
+
+msgid "Lightning is disabled"
+msgstr ""
+
+msgid "You do not have liquidity in your active channels."
+msgstr ""
+
+msgid "Swap server is active"
+msgstr ""
+
+msgid "Electrum uses Nostr in order to find liquidity providers."
+msgstr ""
+
+msgid "Do you want to enable Nostr?"
+msgstr ""
+
+msgid "Payment received"
+msgstr ""
+
+msgid "Payment sent"
+msgstr ""
+
+msgid "Payment failed"
+msgstr ""
+
+msgid "You can't broadcast a transaction without a live network connection."
+msgstr ""
+
+msgid "Signing transaction..."
+msgstr ""
+
+msgid "Could not open channel: {}"
+msgstr ""
+
+msgid "Opening channel..."
+msgstr ""
+
+msgid "Alternatively, you can save a backup of your wallet file from the File menu"
+msgstr ""
+
+msgid "Save channel backup"
+msgstr ""
+
+msgid "Channel established."
+msgstr ""
+
+msgid "Remote peer ID"
+msgstr ""
+
+msgid "This channel will be usable after {} confirmations"
+msgstr ""
+
+msgid "Please sign and broadcast the funding transaction"
+msgstr ""
+
+msgid "Do you want to remove {} from your wallet?"
+msgstr ""
+
+msgid "Invalid Address"
+msgstr ""
+
+msgid "Remove {} from your list of contacts?"
+msgstr ""
+
+msgid "Onchain Invoice"
+msgstr ""
+
+msgid "Outputs"
+msgstr ""
+
+msgid "Expires"
+msgstr ""
+
+msgid "Creation time"
+msgstr ""
+
+msgid "Expiration time"
+msgstr ""
+
+msgid "Features"
+msgstr ""
+
+msgid "Fallback address"
+msgstr ""
+
+msgid "Text"
+msgstr ""
+
+msgid "Routing Hints"
+msgstr ""
+
+msgid "Password required"
+msgstr ""
+
+msgid "Password"
+msgstr ""
+
+msgid "Seed"
+msgstr ""
+
+msgid "Tor"
+msgstr ""
+
+msgid "Reset"
+msgstr ""
+
+msgid "The Lightning Network graph is fully synced."
+msgstr ""
+
+msgid "The Lightning Network graph is syncing...\n"
+"Payments are more likely to succeed with a more complete graph."
+msgstr ""
+
+msgid "Failed to update password"
+msgstr ""
+
+msgid "Password was updated successfully"
+msgstr ""
+
+msgid "Password is disabled, this wallet is not protected"
+msgstr ""
+
+msgid "Success"
+msgstr ""
+
+msgid "You need at least {} to open a channel."
+msgstr ""
+
+msgid "Do you want to create your first channel?"
+msgstr ""
+
+msgid "New Contact"
+msgstr ""
+
+msgid "Bitcoin- or Lightning address"
+msgstr ""
+
+msgid "Lightning is not enabled because this wallet was created with an old version of Electrum. Create lightning keys?"
+msgstr ""
+
+msgid "Warning: this wallet type does not support channel recovery from seed. You will need to backup your wallet every time you create a new channel. Create lightning keys?"
+msgstr ""
+
+msgid "Lightning keys have been initialized."
+msgstr ""
+
+msgid "Delete wallet file?"
+msgstr ""
+
+msgid "If your wallet contains funds, make sure you have saved its seed."
+msgstr ""
+
+msgid "Wallet removed: {}"
+msgstr ""
+
+msgid "Wallet file not found: {}"
+msgstr ""
+
+msgid "This wallet has no seed"
+msgstr ""
+
+msgid "QR code"
+msgstr ""
+
+msgid "Script type"
+msgstr ""
+
+msgid "Signing with an address actually means signing with the corresponding private key, and verifying with the corresponding public key. The address you have entered does not have a unique public key, so these operations cannot be performed."
+msgstr ""
+
+msgid "The operation is undefined. Not just in Electrum, but in general."
+msgstr ""
+
+msgid "Invalid Bitcoin address."
+msgstr ""
+
+msgid "This is a watching-only wallet."
+msgstr ""
+
+msgid "Address not in wallet."
+msgstr ""
+
+msgid "Cannot sign messages with this type of address:"
+msgstr ""
+
+msgid "Signature verified"
+msgstr ""
+
+msgid "Wrong signature"
+msgstr ""
+
+msgid "Sign/verify Message"
+msgstr ""
+
+msgid "Signature"
+msgstr ""
+
+msgid "Sign"
+msgstr ""
+
+msgid "Verify"
+msgstr ""
+
+msgid "Invalid Public key"
+msgstr ""
+
+msgid "Encrypt/decrypt Message"
+msgstr ""
+
+msgid "Public key"
+msgstr ""
+
+msgid "Encrypted"
+msgstr ""
+
+msgid "Encrypt"
+msgstr ""
+
+msgid "Decrypt"
+msgstr ""
+
+msgid "Electrum was unable to parse your transaction"
+msgstr ""
+
+msgid "Select your transaction file"
+msgstr ""
+
+msgid "Electrum was unable to open your transaction file"
+msgstr ""
+
+msgid "Unable to read file or no transaction found"
+msgstr ""
+
+msgid "Input raw transaction"
+msgstr ""
+
+msgid "Transaction:"
+msgstr ""
+
+msgid "Load transaction"
+msgstr ""
+
+msgid "Input channel backup"
+msgstr ""
+
+msgid "Channel Backup:"
+msgstr ""
+
+msgid "Load backup"
+msgstr ""
+
+msgid "Lookup transaction"
+msgstr ""
+
+msgid "Error getting transaction from network"
+msgstr ""
+
+msgid "This is a watching-only wallet"
+msgstr ""
+
+msgid "WARNING: This is a multi-signature wallet."
+msgstr ""
+
+msgid "It cannot be \"backed up\" by simply exporting these private keys."
+msgstr ""
+
+msgid "Private keys"
+msgstr ""
+
+msgid "WARNING: ALL your private keys are secret."
+msgstr ""
+
+msgid "Exposing a single private key can compromise your entire wallet!"
+msgstr ""
+
+msgid "In particular, DO NOT use 'redeem private key' services proposed by third parties."
+msgstr ""
+
+msgid "Select file to export your private keys to"
+msgstr ""
+
+msgid "Electrum was unable to produce a private key-export."
+msgstr ""
+
+msgid "Unable to create csv"
+msgstr ""
+
+msgid "Private keys exported."
+msgstr ""
+
+msgid "labels"
+msgstr ""
+
+msgid "invoices"
+msgstr ""
+
+msgid "requests"
+msgstr ""
+
+msgid "contacts"
+msgstr ""
+
+msgid "Sweep private keys"
+msgstr ""
+
+msgid "Enter private keys to sweep coins from:"
+msgstr ""
+
+msgid "Send to address"
+msgstr ""
+
+msgid "Sweep"
+msgstr ""
+
+msgid "Preparing sweep transaction..."
+msgstr ""
+
+msgid "The following addresses were added"
+msgstr ""
+
+msgid "The following inputs could not be imported"
+msgstr ""
+
+msgid "Enter addresses"
+msgstr ""
+
+msgid "Import private keys"
+msgstr ""
+
+msgid "Enter private keys"
+msgstr ""
+
+msgid "Please restart Electrum to activate the new GUI settings"
+msgstr ""
+
+msgid "Are you sure you want to close Electrum?"
+msgstr ""
+
+msgid "An ongoing operation requires you to stay online."
+msgstr ""
+
+msgid "Pending channel force-close"
+msgstr ""
+
+msgid "Pending submarine swap"
+msgstr ""
+
+msgid "Child Pays for Parent"
+msgstr ""
+
+msgid "A CPFP is a transaction that sends an unconfirmed output back to yourself, with a high fee. The goal is to have miners confirm the parent transaction in order to get the fee attached to the child transaction."
+msgstr ""
+
+msgid "The proposed fee is computed using your fee/kB settings, applied to the total size of both child and parent transactions. After you broadcast a CPFP transaction, it is normal to see a new unconfirmed transaction in your history."
+msgstr ""
+
+msgid "Total size"
+msgstr ""
+
+msgid "Input amount"
+msgstr ""
+
+msgid "Output amount"
+msgstr ""
+
+msgid "Fee for child"
+msgstr ""
+
+msgid "Total fee"
+msgstr ""
+
+msgid "Total feerate"
+msgstr ""
+
+msgid "Transaction added to wallet history."
+msgstr ""
+
+msgid "Note: this is an offline transaction, if you want the network to see it, you need to broadcast it."
+msgstr ""
+
+msgid "Certificate mismatch"
+msgstr ""
+
+msgid "The SSL certificate provided by the main server did not match the fingerprint passed in with the --serverfingerprint option."
+msgstr ""
+
+msgid "Electrum will now exit."
+msgstr ""
+
+msgid "Expired"
+msgstr ""
+
+msgid "Funding transaction"
+msgstr ""
+
+msgid "Lightning funds were not received."
+msgstr ""
+
+msgid "Server"
+msgstr ""
+
+msgid "Nostr"
+msgstr ""
+
+msgid "Proxy"
+msgstr ""
+
+msgid "Height"
+msgstr ""
+
+msgid "Use as server"
+msgstr ""
+
+msgid "Remove from bookmarks"
+msgstr ""
+
+msgid "Bookmark this server"
+msgstr ""
+
+msgid "Follow this branch"
+msgstr ""
+
+msgid "Connected nodes"
+msgstr ""
+
+msgid "Other known servers"
+msgstr ""
+
+msgid "Use proxy"
+msgstr ""
+
+msgid "Proxy username"
+msgstr ""
+
+msgid "Proxy password"
+msgstr ""
+
+msgid "Proxy settings apply to all connections: with Electrum servers, but also with third-party services."
+msgstr ""
+
+msgid "Detect Tor proxy"
+msgstr ""
+
+msgid "Connection mode"
+msgstr ""
+
+msgid "This is the height of your local copy of the blockchain."
+msgstr ""
+
+msgid "Blockchain"
+msgstr ""
+
+msgid "Fork detection disabled"
+msgstr ""
+
+msgid "Fork detected at block {0}"
+msgstr ""
+
+msgid "You are following branch {}"
+msgstr ""
+
+msgid "Your server is on branch {0} ({1} blocks)"
+msgstr ""
+
+msgid "Add"
+msgstr ""
+
+msgid "Open Channel"
+msgstr ""
+
+msgid "Choose a remote node and an amount to fund the channel."
+msgstr ""
+
+msgid "Enter Remote Node ID or connection string or invoice"
+msgstr ""
+
+msgid "Suggest Peer"
+msgstr ""
+
+msgid "Min"
+msgstr ""
+
+msgid "Max"
+msgstr ""
+
+msgid "Clear"
+msgstr ""
+
+msgid "Couldn't find suitable peer yet, try again later."
+msgstr ""
+
+msgid "Amount too low"
+msgstr ""
+
+msgid "Choose a password to encrypt your wallet keys."
+msgstr ""
+
+msgid "Leave this field empty if you want to disable encryption."
+msgstr ""
+
+msgid "Enter Password"
+msgstr ""
+
+msgid "Change Password"
+msgstr ""
+
+msgid "Enter Passphrase"
+msgstr ""
+
+msgid "Passphrase:"
+msgstr ""
+
+msgid "Confirm Passphrase:"
+msgstr ""
+
+msgid "New Password:"
+msgstr ""
+
+msgid "Password:"
+msgstr ""
+
+msgid "Confirm Password:"
+msgstr ""
+
+msgid "Current Password:"
+msgstr ""
+
+msgid "Password Strength"
+msgstr ""
+
+msgid "Encrypt wallet file using hardware wallet device"
+msgstr ""
+
+msgid "If you enable this setting, you will need your hardware device to open your wallet."
+msgstr ""
+
+msgid "Your wallet is not protected."
+msgstr ""
+
+msgid "Use this dialog to add a password to your wallet."
+msgstr ""
+
+msgid "Your bitcoins are password protected. However, your wallet file is not encrypted."
+msgstr ""
+
+msgid "Your wallet is password protected and encrypted."
+msgstr ""
+
+msgid "Use this dialog to change your password."
+msgstr ""
+
+msgid "Your wallet file is NOT encrypted."
+msgstr ""
+
+msgid "Your wallet file is encrypted with your hardware device."
+msgstr ""
+
+msgid "Your wallet file is password-encrypted."
+msgstr ""
+
+msgid "Please enter your password"
+msgstr ""
+
+msgid "Author"
+msgstr ""
+
+msgid "Requires"
+msgstr ""
+
+msgid "Disable"
+msgstr ""
+
+msgid "Enable"
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "This plugin requires installation of additional dependencies."
+msgstr ""
+
+msgid "For Electrum to recognize external packages, you need to run it from source."
+msgstr ""
+
+msgid "Enabled"
+msgstr ""
+
+msgid "Disabled"
+msgstr ""
+
+msgid "Electrum Plugins"
+msgstr ""
+
+msgid "Help"
+msgstr ""
+
+msgid "Visit plugins website"
+msgstr ""
+
+msgid "Try Auto-Reset"
+msgstr ""
+
+msgid "Auto-Reset not possible. Delete the file manually."
+msgstr ""
+
+msgid "Auto-Reset successful. You can now setup a new password."
+msgstr ""
+
+msgid "Incorrect password."
+msgstr ""
+
+msgid "Your plugin authorization password is required to install plugins."
+msgstr ""
+
+msgid "If you need to reset it, remove the following file:"
+msgstr ""
+
+msgid "In order to install third-party plugins, you need to choose a plugin authorization password."
+msgstr ""
+
+msgid "Its purpose is to prevent unauthorized users (or malware) from installing plugins."
+msgstr ""
+
+msgid "Your plugins key is:"
+msgstr ""
+
+msgid "This key has been copied to your clipboard. Please save it in:"
+msgstr ""
+
+msgid "Try Auto-Setup"
+msgstr ""
+
+msgid "Auto-Setup not possible. Try the manual setup."
+msgstr ""
+
+msgid "Auto-Setup successful. You can now install plugins."
+msgstr ""
+
+msgid "Select your plugin zipfile"
+msgstr ""
+
+msgid "Plugin already installed."
+msgstr ""
+
+msgid "Could not copy plugin file {} into directory {}:\n\n"
+"{}"
+msgstr ""
+
+msgid "Remove plugin '{}'?"
+msgstr ""
+
+msgid "Select where to save file"
+msgstr ""
+
+msgid "QR code saved to file"
+msgstr ""
+
+msgid "QR code copied to clipboard"
+msgstr ""
+
+msgid "Text copied to clipboard"
+msgstr ""
+
+msgid "Copy Image"
+msgstr ""
+
+msgid "Copy Text"
+msgstr ""
+
+msgid "Save"
+msgstr ""
+
+msgid "QR Reader Error"
+msgstr ""
+
+msgid "QR reader failed to load. This may happen if you are using an older version of PyQt."
+msgstr ""
+
+msgid "Missing camera permission."
+msgstr ""
+
+msgid "Scan QR Code"
+msgstr ""
+
+msgid "&Flip horizontally"
+msgstr ""
+
+msgid "&Close"
+msgstr ""
+
+msgid "Cannot start QR scanner, no usable camera found."
+msgstr ""
+
+msgid "Too few QR codes detected."
+msgstr ""
+
+msgid "Too many QR codes detected."
+msgstr ""
+
+msgid "QR code scanner for video frame with invalid pixel format"
+msgstr ""
+
+msgid "QR code scanner failed to map video frame"
+msgstr ""
+
+msgid "Show as QR code"
+msgstr ""
+
+msgid "Read QR code from screen"
+msgstr ""
+
+msgid "Read QR code from file"
+msgstr ""
+
+msgid "Read text from file"
+msgstr ""
+
+msgid "Payment Request"
+msgstr ""
+
+msgid "Method"
+msgstr ""
+
+msgid "Current fee"
+msgstr ""
+
+msgid "New fee"
+msgstr ""
+
+msgid "Fee target"
+msgstr ""
+
+msgid "No fee rate"
+msgstr ""
+
+msgid "You will pay {} more."
+msgstr ""
+
+msgid "The recipient will receive {} less."
+msgstr ""
+
+msgid "Increase your transaction's fee to improve its position in mempool."
+msgstr ""
+
+msgid "Bump Fee"
+msgstr ""
+
+msgid "Cancel an unconfirmed transaction by replacing it with a higher-fee transaction that spends back to your wallet."
+msgstr ""
+
+msgid "Cancel transaction"
+msgstr ""
+
+msgid "Rebalance your channels in order to increase your sending or receiving capacity"
+msgstr ""
+
+msgid "From channel"
+msgstr ""
+
+msgid "To channel"
+msgstr ""
+
+msgid "Rebalancing channels"
+msgstr ""
+
+msgid "Requested amount"
+msgstr ""
+
+msgid "Expiry"
+msgstr ""
+
+msgid "Onchain"
+msgstr ""
+
+msgid "Request"
+msgstr ""
+
+msgid "Accept"
+msgstr ""
+
+msgid "Requests"
+msgstr ""
+
+msgid "Switch between text and QR code view"
+msgstr ""
+
+msgid "Show detached QR code window"
+msgstr ""
+
+msgid "Import requests"
+msgstr ""
+
+msgid "Export requests"
+msgstr ""
+
+msgid "Delete expired requests"
+msgstr ""
+
+msgid "Expiration period of your request."
+msgstr ""
+
+msgid "This information is seen by the recipient if you send them a signed payment request."
+msgstr ""
+
+msgid "For on-chain requests, the address gets reserved until expiration. After that, it might get reused."
+msgstr ""
+
+msgid "The bitcoin address never expires and will always be part of this electrum wallet."
+msgstr ""
+
+msgid "You can reuse a bitcoin address any number of times but it is not good for your privacy."
+msgstr ""
+
+msgid "For Lightning requests, payments will not be accepted after the expiration."
+msgstr ""
+
+msgid "Bitcoin URI"
+msgstr ""
+
+msgid "Lightning Request"
+msgstr ""
+
+msgid "Amount too small to be received onchain"
+msgstr ""
+
+msgid "Error adding payment request"
+msgstr ""
+
+msgid "No more addresses in your wallet."
+msgstr ""
+
+msgid "You are using a non-deterministic wallet, which cannot create new addresses."
+msgstr ""
+
+msgid "If you want to create new addresses, use a deterministic wallet instead."
+msgstr ""
+
+msgid "Creating a new payment request will reuse one of your addresses and overwrite an existing request. Continue anyway?"
+msgstr ""
+
+msgid "Warning: The next address will not be recovered automatically if you restore your wallet from seed; you may need to add it manually.\n\n"
+"This occurs because you have too many unused addresses in your wallet. To avoid this situation, use the existing addresses first.\n\n"
+"Create anyway?"
+msgstr ""
+
+msgid "Delete requests"
+msgstr ""
+
+msgid "You have multiple consecutive whitespaces or leading/trailing whitespaces in your passphrase."
+msgstr ""
+
+msgid "This is discouraged."
+msgstr ""
+
+msgid "Due to a bug, old versions of Electrum will NOT be creating the same wallet as newer versions or other software."
+msgstr ""
+
+msgid "Please save these {0} words on paper (order is important). "
+msgstr ""
+
+msgid "This seed will allow you to recover your wallet in case of computer failure."
+msgstr ""
+
+msgid "WARNING"
+msgstr ""
+
+msgid "Never disclose your seed."
+msgstr ""
+
+msgid "Never type it on a website."
+msgstr ""
+
+msgid "Do not store it electronically."
+msgstr ""
+
+msgid "BIP39 seed"
+msgstr ""
+
+msgid "SLIP39 seed"
+msgstr ""
+
+msgid "Options"
+msgstr ""
+
+msgid "Your seed extension is"
+msgstr ""
+
+msgid "Previous share"
+msgstr ""
+
+msgid "Next share"
+msgstr ""
+
+msgid "Seed Options"
+msgstr ""
+
+msgid "Extend this seed with custom words"
+msgstr ""
+
+msgid "Seed type"
+msgstr ""
+
+msgid "BIP39 seeds can be imported in Electrum, so that users can access funds locked in other wallets."
+msgstr ""
+
+msgid "However, we do not generate BIP39 seeds, because they do not meet our safety standard."
+msgstr ""
+
+msgid "BIP39 seeds do not include a version number, which compromises compatibility with future software."
+msgstr ""
+
+msgid "We do not guarantee that BIP39 imports will always be supported in Electrum."
+msgstr ""
+
+msgid "SLIP39 seeds can be imported in Electrum, so that users can access funds locked in other wallets."
+msgstr ""
+
+msgid "However, we do not generate SLIP39 seeds."
+msgstr ""
+
+msgid "BIP39 checksum failed"
+msgstr ""
+
+msgid "Unknown BIP39 wordlist"
+msgstr ""
+
+msgid "Valid."
+msgstr ""
+
+msgid "SLIP39 share"
+msgstr ""
+
+msgid "Seed Type"
+msgstr ""
+
+msgid "Wallet with two-factor authentication"
+msgstr ""
+
+msgid "Standard wallet"
+msgstr ""
+
+msgid "Looks like you have entered a valid seed of type '{}' but this dialog does not support such seeds."
+msgstr ""
+
+msgid "If unsure, try restoring as '{}'."
+msgstr ""
+
+msgid "Your wallet generation seed is:"
+msgstr ""
+
+msgid "Recipient of the funds."
+msgstr ""
+
+msgid "This field can contain:"
+msgstr ""
+
+msgid "- a Bitcoin address or BIP21 URI"
+msgstr ""
+
+msgid "- a Lightning invoice"
+msgstr ""
+
+msgid "- a label from your list of contacts"
+msgstr ""
+
+msgid "- an openalias"
+msgstr ""
+
+msgid "- an arbitrary on-chain script, e.g.:"
+msgstr ""
+
+msgid "You can also pay to many outputs in a single transaction, specifying one output per line."
+msgstr ""
+
+msgid "Format: address, amount"
+msgstr ""
+
+msgid "To set the amount to 'max', use the '!' special character."
+msgstr ""
+
+msgid "Integers weights can also be used in conjunction with '!', e.g. set one amount to '2!' and another to '3!' to split your coins 40-60."
+msgstr ""
+
+msgid "Description of the transaction (not mandatory)."
+msgstr ""
+
+msgid "The description is not sent to the recipient of the funds. It is stored in your wallet file, and displayed in the 'History' tab."
+msgstr ""
+
+msgid "Comment for recipient"
+msgstr ""
+
+msgid "Comment"
+msgstr ""
+
+msgid "Note that if you have frozen some of your addresses, the available funds will be lower than your total balance."
+msgstr ""
+
+msgid "Keyboard shortcut: type \"!\" to send all your coins."
+msgstr ""
+
+msgid "Paste"
+msgstr ""
+
+msgid "Paste invoice from clipboard"
+msgstr ""
+
+msgid "Invoices"
+msgstr ""
+
+msgid "&Pay to many"
+msgstr ""
+
+msgid "Import invoices"
+msgstr ""
+
+msgid "Export invoices"
+msgstr ""
+
+msgid "Invalid payment identifier on clipboard"
+msgstr ""
+
+msgid "Invalid payment identifier"
+msgstr ""
+
+msgid "Mining fee: {} (can be adjusted on next screen)"
+msgstr ""
+
+msgid "2fa fee: {} (for the next batch of transactions)"
+msgstr ""
+
+msgid "Some coins are frozen: {} (can be unfrozen in the Addresses or in the Coins tab)"
+msgstr ""
+
+msgid "Max comment length: {} characters"
+msgstr ""
+
+msgid "Amount must be between {} and {} sat."
+msgstr ""
+
+msgid "Invoice already paid"
+msgstr ""
+
+msgid "No amount"
+msgstr ""
+
+msgid "No outputs"
+msgstr ""
+
+msgid "Bitcoin Address is None"
+msgstr ""
+
+msgid "Invalid Amount"
+msgstr ""
+
+msgid "Failed to parse 'Pay to' line"
+msgstr ""
+
+msgid "Invalid Lines found:"
+msgstr ""
+
+msgid "Do you wish to continue?"
+msgstr ""
+
+msgid "Payment request has expired"
+msgstr ""
+
+msgid "Rebalance existing channels"
+msgstr ""
+
+msgid "Move funds between your channels in order to increase your sending capacity."
+msgstr ""
+
+msgid "Open a new channel"
+msgstr ""
+
+msgid "You will be able to pay once the channel is open."
+msgstr ""
+
+msgid "Swap onchain funds for lightning funds"
+msgstr ""
+
+msgid "You will be able to pay once the swap is confirmed."
+msgstr ""
+
+msgid "You cannot pay that invoice using Lightning."
+msgstr ""
+
+msgid "Your channels can send {}."
+msgstr ""
+
+msgid "This will send {} to the recipient"
+msgstr ""
+
+msgid "Max routing fee"
+msgstr ""
+
+msgid "{}% of payment"
+msgstr ""
+
+msgid "Sending payment"
+msgstr ""
+
+msgid "Awaiting lightning payment..."
+msgstr ""
+
+msgid "Invoice has expired"
+msgstr ""
+
+msgid "Payment sent."
+msgstr ""
+
+msgid "Broadcasting transaction..."
+msgstr ""
+
+msgid "Enter a list of outputs in the 'Pay to' field."
+msgstr ""
+
+msgid "One output per line."
+msgstr ""
+
+msgid "You may load a CSV file using the file icon."
+msgstr ""
+
+msgid "Pay to many"
+msgstr ""
+
+msgid "Cannot request lightning withdrawal, wallet has no lightning channels."
+msgstr ""
+
+msgid "Lightning Withdrawal"
+msgstr ""
+
+msgid "Provider"
+msgstr ""
+
+msgid "Too little incoming liquidity to satisfy this withdrawal request."
+msgstr ""
+
+msgid "Can receive: {}"
+msgstr ""
+
+msgid "Minimum withdrawal amount: {}"
+msgstr ""
+
+msgid "Do a submarine swap in the 'Channels' tab to get more incoming liquidity."
+msgstr ""
+
+msgid "Range"
+msgstr ""
+
+msgid "The maximum withdrawable amount is larger than what your channels can receive. You may need to do a submarine swap to increase your incoming liquidity."
+msgstr ""
+
+msgid "Request Withdrawal"
+msgstr ""
+
+msgid "Enter a valid amount. You entered: {}"
+msgstr ""
+
+msgid "Requesting lightning withdrawal..."
+msgstr ""
+
+msgid "Are you sure you want to disable trampoline?"
+msgstr ""
+
+msgid "Without this option, Electrum will need to sync with the Lightning network on every start."
+msgstr ""
+
+msgid "This may impact the reliability of your payments."
+msgstr ""
+
+msgid "Base unit of your wallet."
+msgstr ""
+
+msgid "This setting affects the Send tab, and all balance related fields."
+msgstr ""
+
+msgid "Base unit"
+msgstr ""
+
+msgid "Light"
+msgstr ""
+
+msgid "Dark"
+msgstr ""
+
+msgid "This option is only available on Windows"
+msgstr ""
+
+msgid "Custom URL"
+msgstr ""
+
+msgid "Fiat currency"
+msgstr ""
+
+msgid "Source"
+msgstr ""
+
+msgid "Appearance"
+msgstr ""
+
+msgid "Units"
+msgstr ""
+
+msgid "Misc"
+msgstr ""
+
+msgid "The requested amount is higher than what you can receive in your currently open channels.\n"
+"If you continue, your funds will be locked until the remote server can find a path to pay you.\n"
+"If the swap cannot be performed after 24h, you will be refunded.\n"
+"Do you want to continue?"
+msgstr ""
+
+msgid "Fetching..."
+msgstr ""
+
+msgid "swap providers"
+msgstr ""
+
+msgid "swap provider"
+msgstr ""
+
+msgid "Submarine Swap"
+msgstr ""
+
+msgid "You receive"
+msgstr ""
+
+msgid "Swap limits"
+msgstr ""
+
+msgid "Server fee"
+msgstr ""
+
+msgid "reverse"
+msgstr ""
+
+msgid "forward"
+msgstr ""
+
+msgid "No {} swap possible with this provider"
+msgstr ""
+
+msgid "no input"
+msgstr ""
+
+msgid "Initiating swap..."
+msgstr ""
+
+msgid "Awaiting swap payment..."
+msgstr ""
+
+msgid "Pubkey"
+msgstr ""
+
+msgid "Fee"
+msgstr ""
+
+msgid "Max Forward"
+msgstr ""
+
+msgid "Max Reverse"
+msgstr ""
+
+msgid "Last seen"
+msgstr ""
+
+msgid "Choose Swap Provider"
+msgstr ""
+
+msgid "Please choose a provider from this list."
+msgstr ""
+
+msgid "Note that fees and liquidity may be updated frequently."
+msgstr ""
+
+msgid "Wallet Address"
+msgstr ""
+
+msgid "Wallet receiving address"
+msgstr ""
+
+msgid "Change Address"
+msgstr ""
+
+msgid "Wallet change address"
+msgstr ""
+
+msgid "Accounting Address"
+msgstr ""
+
+msgid "Address from which funds were swept to your wallet."
+msgstr ""
+
+msgid "TrustedCoin (2FA) batch fee"
+msgstr ""
+
+msgid "TrustedCoin (2FA) fee for the next batch of transactions"
+msgstr ""
+
+msgid "Submarine swap address"
+msgstr ""
+
+msgid "Inputs"
+msgstr ""
+
+msgid "Click to open, right-click for menu"
+msgstr ""
+
+msgid "Tx Input #{}"
+msgstr ""
+
+msgid "Coinbase Input"
+msgstr ""
+
+msgid "Show Prev Tx"
+msgstr ""
+
+msgid "Copy Outpoint"
+msgstr ""
+
+msgid "Address Details"
+msgstr ""
+
+msgid "Copy Address"
+msgstr ""
+
+msgid "Copy Amount"
+msgstr ""
+
+msgid "Tx Output #{}"
+msgstr ""
+
+msgid "Copy scriptPubKey"
+msgstr ""
+
+msgid "Electrum was unable to deserialize the transaction:"
+msgstr ""
+
+msgid "Transaction ID:"
+msgstr ""
+
+msgid "Broadcast"
+msgstr ""
+
+msgid "Add to History"
+msgstr ""
+
+msgid "Include SLIP-19 ownership proofs"
+msgstr ""
+
+msgid "Some cosigners (e.g. Trezor) might require this for coinjoins."
+msgstr ""
+
+msgid "Share"
+msgstr ""
+
+msgid "Merge signatures from"
+msgstr ""
+
+msgid "Join inputs/outputs"
+msgstr ""
+
+msgid "Combine"
+msgstr ""
+
+msgid "Adding info to tx, from network..."
+msgstr ""
+
+msgid "This transaction is not saved. Close anyway?"
+msgstr ""
+
+msgid "Copy to clipboard"
+msgstr ""
+
+msgid "Save to file"
+msgstr ""
+
+msgid "Adding SLIP-19 ownership proofs to transaction..."
+msgstr ""
+
+msgid "Transaction"
+msgstr ""
+
+msgid "Warning: Some data (prev txs / \"full utxos\") was left out of the QR code as it would not fit. This might cause issues if signing offline. As a workaround, try exporting the tx as file or text instead."
+msgstr ""
+
+msgid "Failed to display QR code."
+msgstr ""
+
+msgid "Transaction is too large in size."
+msgstr ""
+
+msgid "Are you sure you want to sign this transaction?"
+msgstr ""
+
+msgid "Select where to save your transaction"
+msgstr ""
+
+msgid "Transaction exported successfully"
+msgstr ""
+
+msgid "Transaction to merge signatures from"
+msgstr ""
+
+msgid "Error combining partial transactions"
+msgstr ""
+
+msgid "Transaction to join with"
+msgstr ""
+
+msgid "add inputs and outputs"
+msgstr ""
+
+msgid "Error joining partial transactions"
+msgstr ""
+
+msgid "Status: {}"
+msgstr ""
+
+msgid "Date: {}"
+msgstr ""
+
+msgid "Position in mempool: {}"
+msgstr ""
+
+msgid "height"
+msgstr ""
+
+msgid "LockTime: {} ({})"
+msgstr ""
+
+msgid "Relative locktime: {}"
+msgstr ""
+
+msgid "Replace by fee: {}"
+msgstr ""
+
+msgid "True"
+msgstr ""
+
+msgid "False"
+msgstr ""
+
+msgid "At block height: {}"
+msgstr ""
+
+msgid "Transaction unrelated to your wallet"
+msgstr ""
+
+msgid "Amount received: {}"
+msgstr ""
+
+msgid "Amount sent: {}"
+msgstr ""
+
+msgid "Size: {} {}"
+msgstr ""
+
+msgid "Downloading input data... {}"
+msgstr ""
+
+msgid "error"
+msgstr ""
+
+msgid "unknown"
+msgstr ""
+
+msgid "Amount received in channels: {}"
+msgstr ""
+
+msgid "Amount withdrawn from channels: {}"
+msgstr ""
+
+msgid "Add transaction to history, without broadcasting it"
+msgstr ""
+
+msgid "Transaction already in history or not yet signed."
+msgstr ""
+
+msgid "Update Check"
+msgstr ""
+
+msgid "Current version: {}"
+msgstr ""
+
+msgid "Latest version: {}"
+msgstr ""
+
+msgid "Update check failed"
+msgstr ""
+
+msgid "Sorry, but we were unable to check for updates. Please try again later."
+msgstr ""
+
+msgid "There is a new update available"
+msgstr ""
+
+msgid "You can download the new version from {}."
+msgstr ""
+
+msgid "Already up to date"
+msgstr ""
+
+msgid "You are already on the latest version of Electrum."
+msgstr ""
+
+msgid "Checking for updates..."
+msgstr ""
+
+msgid "Please wait while Electrum checks for available updates."
+msgstr ""
+
+msgid "Info"
+msgstr ""
+
+msgid "Copy and Close"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Critical Error"
+msgstr ""
+
+msgid "Information"
+msgstr ""
+
+msgid "Question"
+msgstr ""
+
+msgid "Please wait"
+msgstr ""
+
+msgid "Get wallet address"
+msgstr ""
+
+msgid "Format"
+msgstr ""
+
+msgid "CSV"
+msgstr ""
+
+msgid "json"
+msgstr ""
+
+msgid "File"
+msgstr ""
+
+msgid "Read QR code with camera"
+msgstr ""
+
+msgid "Failed to take screenshot."
+msgstr ""
+
+msgid "Unable to scan image."
+msgstr ""
+
+msgid "More than one QR code was found on the screen."
+msgstr ""
+
+msgid "No QR code was found on the screen."
+msgstr ""
+
+msgid "Invalid payment identifier in QR"
+msgstr ""
+
+msgid "Error opening file"
+msgstr ""
+
+msgid "Invalid payment identifier in file"
+msgstr ""
+
+msgid "Select image file"
+msgstr ""
+
+msgid "Failed to open image file."
+msgstr ""
+
+msgid "No QR code was found in the image."
+msgstr ""
+
+msgid "More than one QR code was found in the image."
+msgstr ""
+
+msgid "Couldn't set result"
+msgstr ""
+
+msgid "Paste from clipboard"
+msgstr ""
+
+msgid "Read file"
+msgstr ""
+
+msgid "Other options"
+msgstr ""
+
+msgid "Open {} file"
+msgstr ""
+
+msgid "Your {} were successfully imported"
+msgstr ""
+
+msgid "Select file to save your {}"
+msgstr ""
+
+msgid "Your {0} were exported to '{1}'"
+msgstr ""
+
+msgid "Coin Privacy Analysis"
+msgstr ""
+
+msgid "Direct parent"
+msgstr ""
+
+msgid "Address reuse"
+msgstr ""
+
+msgid "Output point"
+msgstr ""
+
+msgid "This UTXO has {} parent transactions in your wallet."
+msgstr ""
+
+msgid "This does not include transactions that are downstream of address reuse."
+msgstr ""
+
+msgid "Parents"
+msgstr ""
+
+msgid "Coin control"
+msgstr ""
+
+msgid "{} unspent transaction outputs"
+msgstr ""
+
+msgid "{} outputs available ({} total)"
+msgstr ""
+
+msgid "Coin control active"
+msgstr ""
+
+msgid "Coin selected to be spent"
+msgstr ""
+
+msgid "Address is frozen"
+msgstr ""
+
+msgid "You need to select coins from the list first.\n"
+"Use ctrl+left mouse button to select multiple items"
+msgstr ""
+
+msgid "Clipboard doesn't contain a valid address"
+msgstr ""
+
+msgid "Privacy analysis"
+msgstr ""
+
+msgid "Long Output point"
+msgstr ""
+
+msgid "Fully spend"
+msgstr ""
+
+msgid "send to address in clipboard"
+msgstr ""
+
+msgid "in new channel"
+msgstr ""
+
+msgid "in submarine swap"
+msgstr ""
+
+msgid "Freeze Coin"
+msgstr ""
+
+msgid "Unfreeze Coin"
+msgstr ""
+
+msgid "Freeze Address"
+msgstr ""
+
+msgid "Unfreeze Address"
+msgstr ""
+
+msgid "Freeze Coins"
+msgstr ""
+
+msgid "Unfreeze Coins"
+msgstr ""
+
+msgid "Freeze Addresses"
+msgstr ""
+
+msgid "Unfreeze Addresses"
+msgstr ""
+
+msgid "Wallet Information"
+msgstr ""
+
+msgid "watching-only"
+msgstr ""
+
+msgid "Wallet name"
+msgstr ""
+
+msgid "File created"
+msgstr ""
+
+msgid "Wallet type"
+msgstr ""
+
+msgid "Seed available"
+msgstr ""
+
+msgid "Keystore type"
+msgstr ""
+
+msgid "No keystore"
+msgstr ""
+
+msgid "Your channels cannot be recovered from seed, because they were created with an old version of Electrum. This means that you must save a backup of your wallet every time you create a new channel.\n\n"
+"If you want this wallet to have recoverable channels, you must close your existing channels and restore this wallet from seed"
+msgstr ""
+
+msgid "Your channels cannot be recovered from seed. This means that you must save a backup of your wallet every time you create a new channel.\n\n"
+"If you want to have recoverable channels, you must create a new wallet with an Electrum seed"
+msgstr ""
+
+msgid "Lightning Node ID:"
+msgstr ""
+
+msgid "Lightning is currently restricted to HD wallets with p2wpkh addresses."
+msgstr ""
+
+msgid "This keystore is watching-only (disabled)"
+msgstr ""
+
+msgid "This keystore is active (enabled)"
+msgstr ""
+
+msgid "Master Public Key"
+msgstr ""
+
+msgid "Cosigner"
+msgstr ""
+
+msgid "Keystore"
+msgstr ""
+
+msgid "Cannot disable keystore: You have active lightning channels"
+msgstr ""
+
+msgid "Disable keystore? This will make the keystore watching-only."
+msgstr ""
+
+msgid "Note that this will disable wallet file encryption, because it uses your hardware wallet device."
+msgstr ""
+
+msgid "Keystore not found in this wallet"
+msgstr ""
+
+msgid "Network and server configuration"
+msgstr ""
+
+msgid "Next"
+msgstr ""
+
+msgid "Electrum Bitcoin Wallet"
+msgstr ""
+
+msgid "Optional settings to customize your network connection"
+msgstr ""
+
+msgid "Use Proxy"
+msgstr ""
+
+msgid "Select Electrum Server"
+msgstr ""
+
+msgid "If you are unsure what these options are, leave them unchecked."
+msgstr ""
+
+msgid "Terms of Use"
+msgstr ""
+
+msgid "I Accept"
+msgstr ""
+
+msgid "Electrum Terms of Use"
+msgstr ""
+
+msgid "WIF keys are typed in Electrum, based on script type."
+msgstr ""
+
+msgid "A few examples"
+msgstr ""
+
+msgid "Set wallet file encryption."
+msgstr ""
+
+msgid "Your wallet file does not contain secrets, mostly just metadata. "
+msgstr ""
+
+msgid "It also contains your master public key that allows watching your addresses."
+msgstr ""
+
+msgid "Extend wallet keystore"
+msgstr ""
+
+msgid "Create/Restore wallet"
+msgstr ""
+
+msgid "The wallet '{}' contains multiple accounts, which are no longer supported since Electrum 2.7.\n\n"
+"Do you want to split your wallet into multiple files?"
+msgstr ""
+
+msgid "Your accounts have been moved to"
+msgstr ""
+
+msgid "Do you want to delete the old file"
+msgstr ""
+
+msgid "The file was removed"
+msgstr ""
+
+msgid "Electrum wallet"
+msgstr ""
+
+msgid "Wallet"
+msgstr ""
+
+msgid "Choose..."
+msgstr ""
+
+msgid "New"
+msgstr ""
+
+msgid "Cannot read file"
+msgstr ""
+
+msgid "This file does not exist."
+msgstr ""
+
+msgid "Press 'Next' to create this wallet, or choose another file."
+msgstr ""
+
+msgid "This file is encrypted with a password."
+msgstr ""
+
+msgid "This file is encrypted using a hardware device."
+msgstr ""
+
+msgid "Press 'Next' to choose device to decrypt."
+msgstr ""
+
+msgid "Press 'Finish' to open this wallet."
+msgstr ""
+
+msgid "This file is already open in memory."
+msgstr ""
+
+msgid "Press 'Finish' to create/focus window."
+msgstr ""
+
+msgid "Note: this wallet file is outside the default wallets folder."
+msgstr ""
+
+msgid "Create new wallet"
+msgstr ""
+
+msgid "What kind of wallet do you want to create?"
+msgstr ""
+
+msgid "Multi-signature wallet"
+msgstr ""
+
+msgid "Import Bitcoin addresses or private keys"
+msgstr ""
+
+msgid "Do you want to create a new seed, or to restore a wallet using an existing seed?"
+msgstr ""
+
+msgid "Create a new seed"
+msgstr ""
+
+msgid "I already have a seed"
+msgstr ""
+
+msgid "Use a master key"
+msgstr ""
+
+msgid "Use a hardware device"
+msgstr ""
+
+msgid "What type of signing method do you want to add?"
+msgstr ""
+
+msgid "Enter seed"
+msgstr ""
+
+msgid "Wallet Seed"
+msgstr ""
+
+msgid "Confirm Seed"
+msgstr ""
+
+msgid "Your seed is important!"
+msgstr ""
+
+msgid "If you lose your seed, your money will be permanently lost."
+msgstr ""
+
+msgid "To make sure that you have properly saved your seed, please retype it here."
+msgstr ""
+
+msgid "Seed Extension"
+msgstr ""
+
+msgid "You may extend your seed with custom words."
+msgstr ""
+
+msgid "Your seed extension must be saved together with your seed."
+msgstr ""
+
+msgid "Note that this is NOT your encryption password."
+msgstr ""
+
+msgid "If you do not know what this is, leave this field empty."
+msgstr ""
+
+msgid "Confirm Seed Extension"
+msgstr ""
+
+msgid "Please type it here."
+msgstr ""
+
+msgid "Enter Seed"
+msgstr ""
+
+msgid "Please enter your seed phrase in order to restore your wallet."
+msgstr ""
+
+msgid "Script type and Derivation path"
+msgstr ""
+
+msgid "Choose the type of addresses in your wallet."
+msgstr ""
+
+msgid "You can override the suggested derivation path."
+msgstr ""
+
+msgid "If you are not sure what this is, leave this field unchanged."
+msgstr ""
+
+msgid "Detect Existing Accounts"
+msgstr ""
+
+msgid "Or"
+msgstr ""
+
+msgid "Invalid derivation path"
+msgstr ""
+
+msgid "Add a cosigner to your multi-sig wallet"
+msgstr ""
+
+msgid "Enter cosigner key"
+msgstr ""
+
+msgid "Enter cosigner seed"
+msgstr ""
+
+msgid "Cosign with hardware device"
+msgstr ""
+
+msgid "Add Cosigner {}"
+msgstr ""
+
+msgid "Below is your master public key. Please share it with your cosigners"
+msgstr ""
+
+msgid "Create keystore from a master key"
+msgstr ""
+
+msgid "To create a watching-only wallet, please enter your master public key (xpub/ypub/zpub)."
+msgstr ""
+
+msgid "To create a spending wallet, please enter a master private key (xprv/yprv/zprv)."
+msgstr ""
+
+msgid "Please enter your master private key (xprv)."
+msgstr ""
+
+msgid "You can also enter a public key (xpub) here, but be aware you will then create a watch-only wallet if all cosigners are added using public keys"
+msgstr ""
+
+msgid "Please enter the master public key (xpub) of your cosigner."
+msgstr ""
+
+msgid "Enter their master private key (xprv) if you want to be able to sign for them."
+msgstr ""
+
+msgid "Multi-Signature Wallet"
+msgstr ""
+
+msgid "Require {0} signatures"
+msgstr ""
+
+msgid "From {0} cosigners"
+msgstr ""
+
+msgid "Warning: to be able to restore a multisig wallet, you should include the master public key for each cosigner in all of your backups."
+msgstr ""
+
+msgid "Choose the number of signatures needed to unlock funds in your wallet:"
+msgstr ""
+
+msgid "Import Bitcoin Addresses or Private Keys"
+msgstr ""
+
+msgid "Enter a list of Bitcoin addresses (this will create a watching-only wallet), or a list of private keys."
+msgstr ""
+
+msgid "Wallet Password"
+msgstr ""
+
+msgid "Choose Hardware Device"
+msgstr ""
+
+msgid "Rescan devices"
+msgstr ""
+
+msgid "Add plugin"
+msgstr ""
+
+msgid "initialized"
+msgstr ""
+
+msgid "wiped"
+msgstr ""
+
+msgid "An unnamed {}"
+msgstr ""
+
+msgid "Select a device"
+msgstr ""
+
+msgid "Scanning devices..."
+msgstr ""
+
+msgid "Error scanning devices"
+msgstr ""
+
+msgid "You might have an incompatible library."
+msgstr ""
+
+msgid "No exceptions encountered."
+msgstr ""
+
+msgid "No hardware device detected."
+msgstr ""
+
+msgid "If your device is not detected on Windows, go to \"Settings\", \"Devices\", \"Connected devices\", and do \"Remove device\". Then, plug your device again."
+msgstr ""
+
+msgid "While this is less than ideal, it might help if you run Electrum as Administrator."
+msgstr ""
+
+msgid "On Linux, you might have to add a new permission to your udev rules."
+msgstr ""
+
+msgid "Debug message"
+msgstr ""
+
+msgid "Encrypt using hardware"
+msgstr ""
+
+msgid "Client for hardware device was unpaired."
+msgstr ""
+
+msgid "Unlocking hardware"
+msgstr ""
+
+msgid "Hardware successfully unlocked"
+msgstr ""
+
+msgid "Unlocking {} ({})"
+msgstr ""
+
+msgid "This hardware device could not decrypt this wallet. Is it the correct one?"
+msgstr ""
+
+msgid "Retrieving extended public key from hardware"
+msgstr ""
+
+msgid "Hardware keystore added to wallet"
+msgstr ""
+
+msgid "Retrieving extended public key from {} ({})"
+msgstr ""
+
+msgid "This type of script is not supported with {}"
+msgstr ""
+
+msgid "Could not add hardware keystore to wallet"
+msgstr ""
+
+msgid "Hardware not initialized"
+msgstr ""
+
+msgid "This {} is not initialized. Use manufacturer tooling to initialize the device."
+msgstr ""
+
+msgid "Finish"
+msgstr ""
+
+msgid "Back"
+msgstr ""
+
+msgid "[h] - displays this help text"
+msgstr ""
+
+msgid "[i] - display transaction history"
+msgstr ""
+
+msgid "[o] - enter payment order"
+msgstr ""
+
+msgid "[p] - print stored payment order"
+msgstr ""
+
+msgid "[s] - send stored payment order"
+msgstr ""
+
+msgid "[r] - show own receipt addresses"
+msgstr ""
+
+msgid "[c] - display contacts"
+msgstr ""
+
+msgid "[b] - print server banner"
+msgstr ""
+
+msgid "[q] - quit"
+msgstr ""
+
+msgid "Invalid Bitcoin address"
+msgstr ""
+
+msgid "Invalid Fee"
+msgstr ""
+
+msgid "Addresses"
+msgstr ""
+
+msgid "Coins"
+msgstr ""
+
+msgid "Contacts"
+msgstr ""
+
+msgid "Banner"
+msgstr ""
+
+msgid "Clipboard"
+msgstr ""
+
+msgid "Quit"
+msgstr ""
+
+msgid "[Clear]"
+msgstr ""
+
+msgid "[Onchain]"
+msgstr ""
+
+msgid "[Lightning]"
+msgstr ""
+
+msgid "[Paste]"
+msgstr ""
+
+msgid "[Save]"
+msgstr ""
+
+msgid "[Pay]"
+msgstr ""
+
+msgid "No more unused address"
+msgstr ""
+
+msgid "Lightning is disabled on this wallet"
+msgstr ""
+
+msgid "Could not parse clipboard text"
+msgstr ""
+
+msgid "Invalid Bitcoin Address"
+msgstr ""
+
+msgid "Missing libraries for {}."
+msgstr ""
+
+msgid "Library version for '{}' is incompatible."
+msgstr ""
+
+msgid "Make sure you install it with python3"
+msgstr ""
+
+msgid "Only OP_RETURN scripts, with one constant push, are supported."
+msgstr ""
+
+msgid "Only OP_RETURN scripts are supported."
+msgstr ""
+
+msgid "OP_RETURN payload too large.\n"
+msgstr ""
+
+msgid "Amount for OP_RETURN output must be zero."
+msgstr ""
+
+msgid "The firmware of your hardware device is too old. If possible, you should upgrade it. You can ignore this error and try to continue, however things are likely to break."
+msgstr ""
+
+msgid "Ignore and continue?"
+msgstr ""
+
+msgid "Please check your {} device"
+msgstr ""
+
+msgid "Outdated device firmware"
+msgstr ""
+
+msgid "Show address on {}"
+msgstr ""
+
+msgid "Default"
+msgstr ""
+
+msgid "Network request timed out."
+msgstr ""
+
+msgid "The server returned an unexpected transaction ID when broadcasting the transaction."
+msgstr ""
+
+msgid "Consider trying to connect to a different server, or updating Electrum."
+msgstr ""
+
+msgid "The server returned an error when broadcasting the transaction."
+msgstr ""
+
+msgid "Unknown error when broadcasting the transaction."
+msgstr ""
+
+msgid "Server returned unexpected transaction ID."
+msgstr ""
+
+msgid "Your transaction is paying a fee that is so low that the bitcoin node cannot fit it into its mempool. The mempool is already full of hundreds of megabytes of transactions that all pay higher fees. Try to increase the fee."
+msgstr ""
+
+msgid "Your transaction is trying to replace another one in the mempool but it does not meet the rules to do so. Try to increase the fee."
+msgstr ""
+
+msgid "You might have a local transaction in your wallet that this transaction builds on top. You need to either broadcast or remove the local tx."
+msgstr ""
+
+msgid "Transaction uses non-standard version."
+msgstr ""
+
+msgid "The transaction was rejected because it is too large (in bytes)."
+msgstr ""
+
+msgid "Some of the outputs pay to a non-standard script."
+msgstr ""
+
+msgid "Transaction could not be broadcast due to dust outputs.\n"
+"Some of the outputs are too small in value, probably lower than 1000 satoshis.\n"
+"Check the units, make sure you haven't confused e.g. mBTC and BTC."
+msgstr ""
+
+msgid "The transaction was rejected because it contains multiple OP_RETURN outputs."
+msgstr ""
+
+msgid "Unknown error"
+msgstr ""
+
+msgid "Unpaid"
+msgstr ""
+
+msgid "Paid"
+msgstr ""
+
+msgid "In progress"
+msgstr ""
+
+msgid "Broadcasting"
+msgstr ""
+
+msgid "Broadcast successfully"
+msgstr ""
+
+msgid "Failed"
+msgstr ""
+
+msgid "Computing route..."
+msgstr ""
+
+msgid "Never"
+msgstr ""
+
+msgid "10 minutes"
+msgstr ""
+
+msgid "1 hour"
+msgstr ""
+
+msgid "1 day"
+msgstr ""
+
+msgid "1 week"
+msgstr ""
+
+msgid "Destination node"
+msgstr ""
+
+msgid "No path found"
+msgstr ""
+
+msgid "Fee budget exceeded"
+msgstr ""
+
+msgid "Address unknown for node:"
+msgstr ""
+
+msgid "Don't know any addresses for node:"
+msgstr ""
+
+msgid ".onion address, but no proxy configured"
+msgstr ""
+
+msgid "Hostname does not resolve (getaddrinfo failed)"
+msgstr ""
+
+msgid "Forwarding"
+msgstr ""
+
+msgid "Open channel"
+msgstr ""
+
+msgid "Close channel"
+msgstr ""
+
+msgid "Requested channel capacity is over maximum."
+msgstr ""
+
+msgid "add peer timed out"
+msgstr ""
+
+msgid "open_channel timed out"
+msgstr ""
+
+msgid "This invoice has been paid already"
+msgstr ""
+
+msgid "A payment was already initiated for this invoice"
+msgstr ""
+
+msgid "A previous attempt to pay this invoice did not clear"
+msgstr ""
+
+msgid "Missing amount"
+msgstr ""
+
+msgid "Invoice wants us to risk locking funds for unreasonably long."
+msgstr ""
+
+msgid "Please enable gossip"
+msgstr ""
+
+msgid "The server returned an error."
+msgstr ""
+
+msgid "Disconnected"
+msgstr ""
+
+msgid "Connecting"
+msgstr ""
+
+msgid "Connected to {0} nodes."
+msgstr ""
+
+msgid "Connected to {0} node."
+msgstr ""
+
+msgid "Error parsing LNURL"
+msgstr ""
+
+msgid "Error parsing URI"
+msgstr ""
+
+msgid "Error parsing Lightning invoice"
+msgstr ""
+
+msgid "Invoice requires unknown or incompatible Lightning feature"
+msgstr ""
+
+msgid "Nothing to plot."
+msgstr ""
+
+msgid "This file can be edited with Regedit"
+msgstr ""
+
+msgid "The file must have root permissions"
+msgstr ""
+
+msgid "To set it you can also use the Auto-Setup or run the following terminal command"
+msgstr ""
+
+msgid "Handler not found for {}"
+msgstr ""
+
+msgid "A library is probably missing."
+msgstr ""
+
+msgid "Electrum cannot pair with your {}.\n\n"
+"Before you request bitcoins to be sent to addresses in this wallet, ensure you can pair with your device, or that you have its seed (and passphrase, if any).  Otherwise all bitcoins you receive will be unspendable."
+msgstr ""
+
+msgid "Please insert your {}"
+msgstr ""
+
+msgid "Verify the cable is connected and that no other application is using it."
+msgstr ""
+
+msgid "Try to connect again?"
+msgstr ""
+
+msgid "Could not automatically pair with device for given keystore."
+msgstr ""
+
+msgid "Please select which {} device to use:"
+msgstr ""
+
+msgid "Or click cancel to skip this keystore instead."
+msgstr ""
+
+msgid "Audio Modem Settings"
+msgstr ""
+
+msgid "Bit rate [kbps]: "
+msgstr ""
+
+msgid "Read from microphone"
+msgstr ""
+
+msgid "Send to speaker"
+msgstr ""
+
+msgid "Failed to register multisig\n"
+"account configuration on BitBox02"
+msgstr ""
+
+msgid "Missing previous tx."
+msgstr ""
+
+msgid "Invalid input script type: {} is not supported by the BitBox02"
+msgstr ""
+
+msgid "Received unsupported output type during transaction signing: {} is not supported by the BitBox02"
+msgstr ""
+
+msgid "The BitBox02 does not support signing messages for this address type: {}"
+msgstr ""
+
+msgid "Message encryption, decryption and signing are currently not supported for {}"
+msgstr ""
+
+msgid "The {} only supports message signing on mainnet."
+msgstr ""
+
+msgid "Showing address ..."
+msgstr ""
+
+msgid "Show on {}"
+msgstr ""
+
+msgid "BitBox02 Status"
+msgstr ""
+
+msgid "Enter a descriptive name for your multisig account.\n"
+"You should later be able to use the name to uniquely identify this multisig account"
+msgstr ""
+
+msgid "Cancelled"
+msgstr ""
+
+msgid "Invalid xpub magic. Make sure your {} device is set to the correct chain."
+msgstr ""
+
+msgid "You might have to unplug and plug it in again."
+msgstr ""
+
+msgid "Encryption and decryption are currently not supported for {}"
+msgstr ""
+
+msgid "Error showing address"
+msgstr ""
+
+msgid "Make sure you have imported the correct wallet description file on the device for this multisig wallet."
+msgstr ""
+
+msgid "This function is only available for standard wallets when using {}."
+msgstr ""
+
+msgid "Export multisig for Coldcard as file"
+msgstr ""
+
+msgid "Export multisig to Coldcard via USB"
+msgstr ""
+
+msgid "Wallet setup file '{}' imported successfully."
+msgstr ""
+
+msgid "Confirm import on your {} device."
+msgstr ""
+
+msgid "Select where to save the setup file"
+msgstr ""
+
+msgid "Wallet setup file '{}' exported successfully"
+msgstr ""
+
+msgid "Coldcard Status"
+msgstr ""
+
+msgid "{} Settings"
+msgstr ""
+
+msgid "Master Fingerprint"
+msgstr ""
+
+msgid "USB Serial"
+msgstr ""
+
+msgid "Firmware Version"
+msgstr ""
+
+msgid "Build Date"
+msgstr ""
+
+msgid "Bootloader"
+msgstr ""
+
+msgid "Upgrade"
+msgstr ""
+
+msgid "This device does not reveal xpubs corresponding to non-hardened paths"
+msgstr ""
+
+msgid "Device communication error. Please unplug and replug your Digital Bitbox."
+msgstr ""
+
+msgid "Enter the password used when the backup was created:"
+msgstr ""
+
+msgid "Password must have at least 4 characters."
+msgstr ""
+
+msgid "Enter password:"
+msgstr ""
+
+msgid "Password must have less than 64 characters."
+msgstr ""
+
+msgid "An uninitialized Digital Bitbox is detected."
+msgstr ""
+
+msgid "Enter a new password below."
+msgstr ""
+
+msgid "REMEMBER THE PASSWORD!"
+msgstr ""
+
+msgid "You cannot access your coins or a backup without the password."
+msgstr ""
+
+msgid "A backup is saved automatically when generating a new wallet."
+msgstr ""
+
+msgid "Enter your Digital Bitbox password:"
+msgstr ""
+
+msgid "Incorrect password entered."
+msgstr ""
+
+msgid "Unexpected error occurred."
+msgstr ""
+
+msgid "The Digital Bitbox is already seeded. Choose an option:"
+msgstr ""
+
+msgid "Create a wallet using the current seed"
+msgstr ""
+
+msgid "Erase the Digital Bitbox"
+msgstr ""
+
+msgid "Full 2FA enabled. This is not supported yet."
+msgstr ""
+
+msgid "Choose how to initialize your Digital Bitbox:"
+msgstr ""
+
+msgid "Generate a new random wallet"
+msgstr ""
+
+msgid "Load a wallet from the micro SD card"
+msgstr ""
+
+msgid "Do not pair"
+msgstr ""
+
+msgid "Import pairing from the Digital Bitbox desktop app"
+msgstr ""
+
+msgid "Mobile pairing options"
+msgstr ""
+
+msgid "Are you sure you want to erase the Digital Bitbox?"
+msgstr ""
+
+msgid "To continue, touch the Digital Bitbox's light for 3 seconds."
+msgstr ""
+
+msgid "To cancel, briefly touch the light or wait for the timeout."
+msgstr ""
+
+msgid "Choose a backup file:"
+msgstr ""
+
+msgid "Loading backup..."
+msgstr ""
+
+msgid "Could not sign message."
+msgstr ""
+
+msgid "Signing message ..."
+msgstr ""
+
+msgid "To continue, touch the Digital Bitbox's blinking light for 3 seconds."
+msgstr ""
+
+msgid "To cancel, briefly touch the blinking light or wait for the timeout."
+msgstr ""
+
+msgid "Could not sign message"
+msgstr ""
+
+msgid "Signing large transaction. Please be patient ..."
+msgstr ""
+
+msgid "(Touch {} of {})"
+msgstr ""
+
+msgid "This function is only available after pairing your {} with a mobile device."
+msgstr ""
+
+msgid "This function is only available for p2pkh keystores when using {}."
+msgstr ""
+
+msgid "Device erased"
+msgstr ""
+
+msgid "Encryption and decryption are not implemented by {}"
+msgstr ""
+
+msgid "Please confirm signing the message with your Jade device..."
+msgstr ""
+
+msgid "Preparing to sign transaction ..."
+msgstr ""
+
+msgid "Please confirm the transaction details on your Jade device..."
+msgstr ""
+
+msgid "Please confirm the multisig wallet details on your Jade device..."
+msgstr ""
+
+msgid "Outdated {} firmware for device labelled {}. Please update using a Blockstream Green companion app"
+msgstr ""
+
+msgid "The address generated by {} does not match!"
+msgstr ""
+
+msgid "Jade Status"
+msgstr ""
+
+msgid "Confirm the transaction output on your {} device"
+msgstr ""
+
+msgid "Confirm internal entropy on your {} device to begin"
+msgstr ""
+
+msgid "Write down the seed word shown on your {}"
+msgstr ""
+
+msgid "Confirm on your {} that you want to wipe it clean"
+msgstr ""
+
+msgid "Confirm on your {} device the message to sign"
+msgstr ""
+
+msgid "Confirm the total amount spent and the transaction fee on your {} device"
+msgstr ""
+
+msgid "Confirm wallet address on your {} device"
+msgstr ""
+
+msgid "Check your {} device to continue"
+msgstr ""
+
+msgid "Enter a new PIN for your {}:"
+msgstr ""
+
+msgid "Re-enter the new PIN for your {}.\n\n"
+"NOTE: the positions of the numbers have changed!"
+msgstr ""
+
+msgid "Enter your current {} PIN:"
+msgstr ""
+
+msgid "The PIN cannot be longer than 9 characters."
+msgstr ""
+
+msgid "Enter a passphrase to generate this wallet.  Each time you use this wallet your {} will prompt you for the passphrase.  If you forget the passphrase you cannot access the bitcoins in the wallet."
+msgstr ""
+
+msgid "Enter the passphrase to unlock this wallet:"
+msgstr ""
+
+msgid "Too long passphrase ({} > 50 chars)."
+msgstr ""
+
+msgid "Step {}/24.  Enter seed word as explained on your {}:"
+msgstr ""
+
+msgid "Confirm on your {} device to disable passphrases"
+msgstr ""
+
+msgid "Confirm on your {} device to enable passphrases"
+msgstr ""
+
+msgid "Confirm the new label on your {} device"
+msgstr ""
+
+msgid "Confirm on your {} device to change your home screen"
+msgstr ""
+
+msgid "Confirm on your {} device to disable PIN protection"
+msgstr ""
+
+msgid "Confirm on your {} device to change your PIN"
+msgstr ""
+
+msgid "Confirm on your {} device to set a PIN"
+msgstr ""
+
+msgid "Missing previous tx for legacy input."
+msgstr ""
+
+msgid "Outdated {} firmware for device labelled {}. Please download the updated firmware from {}"
+msgstr ""
+
+msgid "The device was disconnected."
+msgstr ""
+
+msgid "Your device firmware is too old"
+msgstr ""
+
+msgid "Passphrases allow you to access new wallets, each hidden behind a particular case-sensitive passphrase."
+msgstr ""
+
+msgid "You need to create a separate Electrum wallet for each passphrase you use as they each generate different addresses.  Changing your passphrase does not lose other wallets, each is still accessible behind its own passphrase."
+msgstr ""
+
+msgid "You should enable PIN protection.  Your PIN is the only protection for your bitcoins if your device is lost or stolen."
+msgstr ""
+
+msgid "If you forget a passphrase you will be unable to access any bitcoins in the wallet behind it.  A passphrase is not a PIN. Only change this if you are sure you understand it."
+msgstr ""
+
+msgid "KeepKey Seed Recovery"
+msgstr ""
+
+msgid "Accept Word"
+msgstr ""
+
+msgid "Seed Entered"
+msgstr ""
+
+msgid "Enter PIN"
+msgstr ""
+
+msgid "Enter a label to name your device:"
+msgstr ""
+
+msgid "Select your seed length:"
+msgstr ""
+
+msgid "{} words"
+msgstr ""
+
+msgid "Enable PIN protection"
+msgstr ""
+
+msgid "Enter your BIP39 mnemonic:"
+msgstr ""
+
+msgid "Enter the master private key beginning with xprv:"
+msgstr ""
+
+msgid "Enter your PIN (digits 1-9):"
+msgstr ""
+
+msgid "Enable passphrases"
+msgstr ""
+
+msgid "No"
+msgstr ""
+
+msgid "Yes"
+msgstr ""
+
+msgid "Enable Passphrases"
+msgstr ""
+
+msgid "Disable Passphrases"
+msgstr ""
+
+msgid "Set a PIN"
+msgstr ""
+
+msgid "Change PIN"
+msgstr ""
+
+msgid "Confirm Toggle Passphrase Protection"
+msgstr ""
+
+msgid "After disabling passphrases, you can only pair this Electrum wallet if it had an empty passphrase.  If its passphrase was not empty, you will need to create a new wallet.  You can use this wallet again at any time by re-enabling passphrases and entering its passphrase."
+msgstr ""
+
+msgid "Your current Electrum wallet can only be used with an empty passphrase.  You must create a separate wallet for other passphrases as each one generates a new set of addresses."
+msgstr ""
+
+msgid "Are you sure you want to proceed?"
+msgstr ""
+
+msgid "Confirm Device Wipe"
+msgstr ""
+
+msgid "Are you SURE you want to wipe the device?\n"
+"Your wallet still has bitcoins in it!"
+msgstr ""
+
+msgid "{:2d} minutes"
+msgstr ""
+
+msgid "Device Label"
+msgstr ""
+
+msgid "PIN set"
+msgstr ""
+
+msgid "Passphrases"
+msgstr ""
+
+msgid "Device ID"
+msgstr ""
+
+msgid "Bootloader Hash"
+msgstr ""
+
+msgid "Supported Coins"
+msgstr ""
+
+msgid "Language"
+msgstr ""
+
+msgid "Initialized"
+msgstr ""
+
+msgid "Name this {}.  If you have multiple devices their labels help distinguish them."
+msgstr ""
+
+msgid "Apply"
+msgstr ""
+
+msgid "PIN Protection"
+msgstr ""
+
+msgid "PIN protection is strongly recommended.  A PIN is your only protection against someone stealing your bitcoins if they obtain physical access to your {}."
+msgstr ""
+
+msgid "Session Timeout"
+msgstr ""
+
+msgid "Clear the session after the specified period of inactivity.  Once a session has timed out, your PIN and passphrase (if enabled) must be re-entered to use the device."
+msgstr ""
+
+msgid "Disable PIN"
+msgstr ""
+
+msgid "If you disable your PIN, anyone with physical access to your {} device can spend your bitcoins."
+msgstr ""
+
+msgid "Wipe Device"
+msgstr ""
+
+msgid "Wipe the device, removing all data from it.  The firmware is left unchanged."
+msgstr ""
+
+msgid "Only wipe a device if you have the recovery seed written down and the device wallet(s) are empty, otherwise the bitcoins will be lost forever."
+msgstr ""
+
+msgid "Advanced"
+msgstr ""
+
+msgid "KeepKey Setup"
+msgstr ""
+
+msgid "Choose how you want to initialize your {}.\n\n"
+"The first two methods are secure as no secret information is entered into your computer.\n\n"
+"For the last two methods you input secrets on your keyboard and upload them to your {}, and so you should only do those on a computer you know to be trustworthy and free of malware."
+msgstr ""
+
+msgid "Let the device generate a completely new seed randomly"
+msgstr ""
+
+msgid "Recover from a seed you have previously written down"
+msgstr ""
+
+msgid "Upload a BIP39 mnemonic to generate the seed"
+msgstr ""
+
+msgid "Upload a master private key"
+msgstr ""
+
+msgid "Error connecting to {} server"
+msgstr ""
+
+msgid "LabelSync Plugin"
+msgstr ""
+
+msgid "Labels uploaded"
+msgstr ""
+
+msgid "Labels downloaded"
+msgstr ""
+
+msgid "Your labels have been synchronised."
+msgstr ""
+
+msgid "Error synchronising labels"
+msgstr ""
+
+msgid "Firmware version too old. Please update at"
+msgstr ""
+
+msgid "Firmware version (or \"Bitcoin\" app) too old for Segwit support. Please update at"
+msgstr ""
+
+msgid "Your Ledger is locked. Please unlock it."
+msgstr ""
+
+msgid "Communication with Ledger failed. Open the Bitcoin app and try again."
+msgstr ""
+
+msgid "Your device might not have support for this functionality."
+msgstr ""
+
+msgid "Preparing transaction inputs..."
+msgstr ""
+
+msgid "Confirm Transaction on your Ledger device..."
+msgstr ""
+
+msgid "Cancelled by user"
+msgstr ""
+
+msgid "Unsupported derivation path: {}"
+msgstr ""
+
+msgid "Coinbase not supported"
+msgstr ""
+
+msgid "Input {} has a non_witness_utxo with the wrong hash"
+msgstr ""
+
+msgid "Cannot have witness v1+ in p2sh"
+msgstr ""
+
+msgid "Unable to sign this transaction"
+msgstr ""
+
+msgid "Ledger Status"
+msgstr ""
+
+msgid "{} plugin requires a lightning enabled wallet. Open a lightning-enabled wallet first."
+msgstr ""
+
+msgid "Nostr Wallet Connect"
+msgstr ""
+
+msgid "Budget [{}]"
+msgstr ""
+
+msgid "never"
+msgstr ""
+
+msgid "unlimited"
+msgstr ""
+
+msgid "Create"
+msgstr ""
+
+msgid "This plugin allows you to create Nostr Wallet Connect connections and remote control your wallet using Nostr NIP-47."
+msgstr ""
+
+msgid "Most NWC clients only use a single of your relays, so ensure the relays accept your events."
+msgstr ""
+
+msgid "Supported NIP-47 methods: {}"
+msgstr ""
+
+msgid "Existing Connections:"
+msgstr ""
+
+msgid "Enter NWC connection parameters"
+msgstr ""
+
+msgid "Connection Name (required):"
+msgstr ""
+
+msgid "Daily Satoshi Budget (optional):"
+msgstr ""
+
+msgid "Valid for seconds (optional):"
+msgstr ""
+
+msgid "Main NWC Relay:"
+msgstr ""
+
+msgid "Most clients only use the first relay url encoded in the connection string."
+msgstr ""
+
+msgid "The selected relay will be put first in the connection string."
+msgstr ""
+
+msgid "Connection name is required"
+msgstr ""
+
+msgid "Failed to create connection"
+msgstr ""
+
+msgid "New NWC Connection"
+msgstr ""
+
+msgid "Scan this QR code with your nwc client:"
+msgstr ""
+
+msgid "Or copy this connection string:"
+msgstr ""
+
+msgid "After closing this window you won't be able to access the connection string again!"
+msgstr ""
+
+msgid "Unable to deserialize the transaction:"
+msgstr ""
+
+msgid "Send to cosigner"
+msgstr ""
+
+msgid "Sending transaction to your Nostr relays..."
+msgstr ""
+
+msgid "relay timeout"
+msgstr ""
+
+msgid "Your transaction was sent to your cosigners via Nostr."
+msgstr ""
+
+msgid "A transaction was received from your cosigner."
+msgstr ""
+
+msgid "A transaction was received from your cosigner with label: <br/><big>{}</big><br/>"
+msgstr ""
+
+msgid "Do you want to open it now?"
+msgstr ""
+
+msgid "Revealer is a tool to encrypt your secrets visually."
+msgstr ""
+
+msgid "Revealer is based on the scheme 'Visual Cryptography' by Moni Naor and Adi Shamir."
+msgstr ""
+
+msgid "Each Revealer has a unique code. It starts with a version number, then 128 bits of entropy encoded in hex format, and the last three digits as a checksum."
+msgstr ""
+
+msgid "This code is visible in the bottom right corner of the Revealer."
+msgstr ""
+
+msgid "With the 128bits of entropy as a random seed, the software generates a noise image."
+msgstr ""
+
+msgid "In the following step your secret is encrypted into a second image."
+msgstr ""
+
+msgid "Then you can print those two images on transparent film."
+msgstr ""
+
+msgid "To decrypt the secret, you need to overlay the two films, then your secret will become visible."
+msgstr ""
+
+msgid "You can calibrate your printer in the plugin settings to achieve better print quality."
+msgstr ""
+
+msgid "To encrypt a secret, you must first create or load a noise file."
+msgstr ""
+
+msgid "Click the button above or type an existing revealer code in the box below."
+msgstr ""
+
+msgid "Create a new Revealer noise file"
+msgstr ""
+
+msgid "{} encrypted for Revealer {}_{} saved as PNG and PDF at: "
+msgstr ""
+
+msgid "Always check your backups."
+msgstr ""
+
+msgid "your seed extension will <b>not</b> be included in the encrypted backup."
+msgstr ""
+
+msgid "Digital Revealer ({}_{}) saved as PNG and PDF at:"
+msgstr ""
+
+msgid "Revealers starting with 0 are not secure due to a vulnerability."
+msgstr ""
+
+msgid "More info at: {}"
+msgstr ""
+
+msgid "Proceed at your own risk."
+msgstr ""
+
+msgid "Ready to encrypt for revealer {}."
+msgstr ""
+
+msgid "Click the button above to encrypt the seed or type a custom alphanumerical secret below."
+msgstr ""
+
+msgid "This version supports a maximum of {} characters."
+msgstr ""
+
+msgid "Warning "
+msgstr ""
+
+msgid "each Revealer is a one-time-pad, use it for a single secret."
+msgstr ""
+
+msgid "Encrypt {}'s seed"
+msgstr ""
+
+msgid "Encrypt custom secret"
+msgstr ""
+
+msgid "Custom secret"
+msgstr ""
+
+msgid "seed"
+msgstr ""
+
+msgid "Calibration sheet"
+msgstr ""
+
+msgid "Instructions:"
+msgstr ""
+
+msgid "1. Place this paper on a flat and well illuminated surface."
+msgstr ""
+
+msgid "2. Align your Revealer borderlines to the dashed lines on the top and left."
+msgstr ""
+
+msgid "3. Press slightly the Revealer against the paper and read the numbers that best match on the opposite sides. "
+msgstr ""
+
+msgid "4. Type the numbers in the software"
+msgstr ""
+
+msgid "Revealer - Printer calibration settings"
+msgstr ""
+
+msgid "If you have an old printer, or want optimal precision"
+msgstr ""
+
+msgid "print the calibration pdf and follow the instructions "
+msgstr ""
+
+msgid "Open calibration pdf"
+msgstr ""
+
+msgid "Calibration values:"
+msgstr ""
+
+msgid "Right side"
+msgstr ""
+
+msgid "Bottom"
+msgstr ""
+
+msgid "Choose on your {} device where to enter your passphrase"
+msgstr ""
+
+msgid "{:d} words"
+msgstr ""
+
+msgid "Choose Homescreen"
+msgstr ""
+
+msgid "Homescreen"
+msgstr ""
+
+msgid "Change..."
+msgstr ""
+
+msgid "Required package 'PIL' is not available - Please install it."
+msgstr ""
+
+msgid "You can set the homescreen on your device to personalize it.  You must choose a {} x {} monochrome black and white image."
+msgstr ""
+
+msgid "Safe-T Setup"
+msgstr ""
+
+msgid "You will be asked to enter 24 words regardless of your seed's actual length.  If you enter a word incorrectly or misspell it, you cannot change it or go back - you will need to start again from the beginning.\n\n"
+"So please enter the words carefully!"
+msgstr ""
+
+msgid "I understand that the Timelock Recovery plan will be broken if I keep using this wallet"
+msgstr ""
+
+msgid "What Is Timelock Recovery?"
+msgstr ""
+
+msgid "To create a recovery plan, enter a recipient and a cancellation time window"
+msgstr ""
+
+msgid "✓ Signed"
+msgstr ""
+
+msgid "Not enough funds to create the transactions."
+msgstr ""
+
+msgid "This is a watching-only wallet. You must sign the transactions externally - use the View button of each transaction."
+msgstr ""
+
+msgid "Recipient of the funds"
+msgstr ""
+
+msgid "Recipient of the funds, after the cancellation time window has expired"
+msgstr ""
+
+msgid "This field must contain a single Bitcoin address, or multiple lines in the format: 'address, amount'."
+msgstr ""
+
+msgid "If multiple lines are used, at least one line must be set to 'max', using the '!' special character."
+msgstr ""
+
+msgid "Cancellation time-window (days)"
+msgstr ""
+
+msgid "After broadcasting the Alert Transaction, you have a limited time to cancel the transaction."
+msgstr ""
+
+msgid "Value must be between {} and {} days."
+msgstr ""
+
+msgid "Create a cancellation transaction"
+msgstr ""
+
+msgid "If the Alert transaction is has been broadcast against your intention, you will be able to broadcast the Cancellation transaction within {} days, to invalidate the Recovery transaction and keep the funds in this wallet - without the need to restore the seed of this wallet (i.e. in case you have split or hidden it)."
+msgstr ""
+
+msgid "However, if the seed of this wallet is lost, broadcasting the Cancellation transaction might lock the funds on this wallet forever."
+msgstr ""
+
+msgid "Alert transaction"
+msgstr ""
+
+msgid "View"
+msgstr ""
+
+msgid "Recovery transaction"
+msgstr ""
+
+msgid "Cancellation transaction"
+msgstr ""
+
+msgid "Invalid address."
+msgstr ""
+
+msgid "At least one line must be set to max spend ('!' in the amount column)."
+msgstr ""
+
+msgid "Recovery should only send to addresses."
+msgstr ""
+
+msgid "Recovery should not send to same wallet."
+msgstr ""
+
+msgid "Invalid address type - must be a Bitcoin address."
+msgstr ""
+
+msgid "Alert transaction signing was not completed"
+msgstr ""
+
+msgid "Recovery transaction signing was not completed"
+msgstr ""
+
+msgid "Cancellation transaction signing was not completed"
+msgstr ""
+
+msgid "Recovery Plan ID"
+msgstr ""
+
+msgid "Unique identifier for this recovery plan"
+msgstr ""
+
+msgid "Created At"
+msgstr ""
+
+msgid "Date and time when this recovery plan was created"
+msgstr ""
+
+msgid "Alert Address"
+msgstr ""
+
+msgid "This address in your wallet will receive the funds when the Alert Transaction is broadcast."
+msgstr ""
+
+msgid "Cancellation Address"
+msgstr ""
+
+msgid "This address in your wallet will receive the funds when the Cancellation transaction is broadcast."
+msgstr ""
+
+msgid "Alert Transaction ID"
+msgstr ""
+
+msgid "ID of the Alert transaction"
+msgstr ""
+
+msgid "Recovery Transaction ID"
+msgstr ""
+
+msgid "ID of the Recovery transaction"
+msgstr ""
+
+msgid "Cancellation Transaction ID"
+msgstr ""
+
+msgid "ID of the Cancellation transaction"
+msgstr ""
+
+msgid "Save as PDF"
+msgstr ""
+
+msgid "Save as JSON"
+msgstr ""
+
+msgid "Save Recovery Plan"
+msgstr ""
+
+msgid "Save Cancellation Plan"
+msgstr ""
+
+msgid "Are you sure you want to close this dialog without saving any of the files?"
+msgstr ""
+
+msgid "Are you sure you want to close this dialog without saving the cancellation-plan?"
+msgstr ""
+
+msgid "Are you sure you want to close this dialog without saving the recovery-plan?"
+msgstr ""
+
+msgid "Save Recovery Plan JSON..."
+msgstr ""
+
+msgid "JSON files (*.json)"
+msgstr ""
+
+msgid "File saved successfully"
+msgstr ""
+
+msgid "Error saving file"
+msgstr ""
+
+msgid "Save Cancellation Plan JSON..."
+msgstr ""
+
+msgid "Save Recovery Plan PDF..."
+msgstr ""
+
+msgid "PDF files (*.pdf)"
+msgstr ""
+
+msgid "Save Cancellation Plan PDF..."
+msgstr ""
+
+msgid "Complete the initialization process on your {} device"
+msgstr ""
+
+msgid "Please enter your passphrase on the {} device"
+msgstr ""
+
+msgid "Enter 6-digit pairing code:"
+msgstr ""
+
+msgid "The PIN cannot be longer than {} characters."
+msgstr ""
+
+msgid "Enter passphrase on device?"
+msgstr ""
+
+msgid "Enter the recovery words by pressing the buttons according to what the device shows on its display.  You can also use your NUMPAD.\n"
+"Press BACKSPACE to go back a choice or word.\n"
+msgstr ""
+
+msgid "In seedless mode, the mnemonic seed words are never shown to the user.\n"
+"There is no backup, and the user has a proof of this.\n"
+"This is an advanced feature, only suggested to be used in redundant multisig setups."
+msgstr ""
+
+msgid "Trezor Matrix Recovery"
+msgstr ""
+
+msgid "Enter Passphrase on Device"
+msgstr ""
+
+msgid "Select backup type:"
+msgstr ""
+
+msgid "Single seed (BIP39)"
+msgstr ""
+
+msgid "Shamir"
+msgstr ""
+
+msgid "Super Shamir"
+msgstr ""
+
+msgid "Select seed/share length:"
+msgstr ""
+
+msgid "Select seed length:"
+msgstr ""
+
+msgid "Select share length:"
+msgstr ""
+
+msgid "Show expert settings"
+msgstr ""
+
+msgid "Select recovery type:"
+msgstr ""
+
+msgid "Scrambled words"
+msgstr ""
+
+msgid "Matrix"
+msgstr ""
+
+msgid "Enable seedless mode"
+msgstr ""
+
+msgid "Firmware version too old."
+msgstr ""
+
+msgid "Required package 'PIL' is not available - Please install it or use the Trezor website instead."
+msgstr ""
+
+msgid "Trezor Setup"
+msgstr ""
+
+msgid "Looks like your device is in bootloader mode. Try reconnecting it.\n"
+"If you haven't installed a firmware on it yet, you can download it from {}"
+msgstr ""
+
+msgid "Choose how you want to initialize your {}."
+msgstr ""
+
+msgid "Trezor Pairing"
+msgstr ""
+
+msgid "Please enter your Google Authenticator code:"
+msgstr ""
+
+msgid "Error connecting to server"
+msgstr ""
+
+msgid "Invalid one-time password."
+msgstr ""
+
+msgid "This wallet was restored from seed, and it contains two master private keys."
+msgstr ""
+
+msgid "Therefore, two-factor authentication is disabled."
+msgstr ""
+
+msgid "No auth code"
+msgstr ""
+
+msgid "Service Error"
+msgstr ""
+
+msgid "Waiting for TrustedCoin server to sign transaction..."
+msgstr ""
+
+msgid "TrustedCoin"
+msgstr ""
+
+msgid "Authorization"
+msgstr ""
+
+msgid "Please enter your Google Authenticator code"
+msgstr ""
+
+msgid "Code"
+msgstr ""
+
+msgid "If you have lost your second factor, you need to restore your wallet from seed in order to request a new code."
+msgstr ""
+
+msgid "Error getting TrustedCoin account info."
+msgstr ""
+
+msgid "If you keep experiencing network problems, try using a Tor proxy."
+msgstr ""
+
+msgid "Requesting account info from TrustedCoin server..."
+msgstr ""
+
+msgid "Server not reachable."
+msgstr ""
+
+msgid "TrustedCoin Information"
+msgstr ""
+
+msgid "This wallet is protected by TrustedCoin's two-factor authentication."
+msgstr ""
+
+msgid "For more information, visit"
+msgstr ""
+
+msgid "TrustedCoin charges a small fee to co-sign transactions. The fee depends on how many prepaid transactions you buy. An extra output is added to your transaction every time you run out of prepaid transactions."
+msgstr ""
+
+msgid "Your wallet has {} prepaid transactions."
+msgstr ""
+
+msgid "Disclaimer"
+msgstr ""
+
+msgid "Create or restore"
+msgstr ""
+
+msgid "Do you want to create a new seed, or restore a wallet using an existing seed?"
+msgstr ""
+
+msgid "Terms and conditions"
+msgstr ""
+
+msgid "Authenticator secret"
+msgstr ""
+
+msgid "Enter or scan into authenticator app. Then authenticate below"
+msgstr ""
+
+msgid "This wallet is already registered with TrustedCoin."
+msgstr ""
+
+msgid "If you still have your OTP secret, then authenticate below to finalize wallet creation"
+msgstr ""
+
+msgid "Then, enter your Google Authenticator code:"
+msgstr ""
+
+msgid "Google Authenticator code:"
+msgstr ""
+
+msgid "If you have lost your OTP secret, click the button below to request a new secret from the server."
+msgstr ""
+
+msgid "Authenticate below to finalize wallet creation"
+msgstr ""
+
+msgid "Restore 2FA wallet"
+msgstr ""
+
+msgid "Keep"
+msgstr ""
+
+msgid "Continue Online"
+msgstr ""
+
+msgid "Go online to complete wallet creation"
+msgstr ""
+
+msgid "Your wallet file is: {}."
+msgstr ""
+
+msgid "You need to be online in order to complete the creation of your wallet. If you want to continue online, keep the checkbox checked and press Next."
+msgstr ""
+
+msgid "If you want this system to stay offline and continue the completion of the wallet on an online system, uncheck the checkbox and press Finish."
+msgstr ""
+
+msgid "Unlock Keystore"
+msgstr ""
+
+msgid "Two-factor authentication is a service provided by TrustedCoin.  It uses a multi-signature wallet, where you own 2 of 3 keys.  The third key is stored on a remote server that signs transactions on your behalf.  To use this service, you will need a smartphone with Google Authenticator installed."
+msgstr ""
+
+msgid "A small fee will be charged on each transaction that uses the remote server.  You may check and modify your billing preferences once the installation is complete."
+msgstr ""
+
+msgid "Note that your coins are not locked in this service.  You may withdraw your funds at any time and at no cost, without the remote server, by using the 'restore wallet' option with your wallet seed."
+msgstr ""
+
+msgid "The next step will generate the seed of your wallet.  This seed will NOT be saved in your computer, and it must be stored on paper.  To be safe from malware, you may want to do this on an offline computer, and move your wallet later to an online computer."
+msgstr ""
+
+msgid "Two-factor authentication is a service provided by TrustedCoin. To use it, you must have a separate device with Google Authenticator."
+msgstr ""
+
+msgid "This service uses a multi-signature wallet, where you own 2 of 3 keys.  The third key is stored on a remote server that signs transactions on your behalf. A small fee will be charged on each transaction that uses the remote server."
+msgstr ""
+
+msgid "Enter the seed for your 2-factor wallet:"
+msgstr ""
+
+msgid "Cannot start QR scanner: zbar not available."
+msgstr ""
+
+msgid "Cannot start QR scanner: initialization failed."
+msgstr ""
+
+msgid "Make sure you have a camera connected and enabled."
+msgstr ""
+
+msgid "Select server automatically"
+msgstr ""
+
+msgid "If auto-connect is enabled, Electrum will always use a server that is on the longest blockchain. If it is disabled, you have to choose a server you want to use. Electrum will warn you if your server is lagging."
+msgstr ""
+
+msgid "Only connect to one server (full trust)"
+msgstr ""
+
+msgid "This is only intended for connecting to your own fully trusted server. Using this option on a public server is a security risk and is discouraged.\n\n"
+"By default, Electrum tries to maintain connections to ~10 servers. One of these nodes gets selected to be the history server and will learn the wallet addresses. All the other nodes are *only* used for block header notifications. \n\n"
+"Getting block headers from multiple sources is useful to detect lagging servers, chain splits, and forks. Chain split detection is security-critical for determining number of confirmations."
+msgstr ""
+
+msgid "Merge duplicate outputs"
+msgstr ""
+
+msgid "Merge transaction outputs that pay to the same address into a single output that pays the sum of the original amounts."
+msgstr ""
+
+msgid "Spend only confirmed coins"
+msgstr ""
+
+msgid "Spend only confirmed inputs."
+msgstr ""
+
+msgid "Enable output value rounding"
+msgstr ""
+
+msgid "Set the value of the change output so that it has similar precision to the other outputs."
+msgstr ""
+
+msgid "This might improve your privacy somewhat."
+msgstr ""
+
+msgid "If enabled, at most 100 satoshis might be lost due to this, per transaction."
+msgstr ""
+
+msgid "Send change to Lightning"
+msgstr ""
+
+msgid "If possible, send the change of this transaction to your channels, with a submarine swap"
+msgstr ""
+
+msgid "Submarine Payments"
+msgstr ""
+
+msgid "Send onchain payments directly from your Lightning balance with a submarine swap. This allows you to do onchain transactions even if your entire wallet balance is inside Lightning channels."
+msgstr ""
+
+msgid "Avoid spending from used addresses"
+msgstr ""
+
+msgid "Automatically freeze coins received to already used addresses.\n"
+"This can eliminate a serious privacy issue where a malicious user can track your spends by sending small payments\n"
+"to a previously-paid address of yours that would then be included with unrelated inputs in your future payments."
+msgstr ""
+
+msgid "Allows partial updates to be written to disk for the wallet DB.\n"
+"If disabled, the full wallet file is written to disk for every change. Experimental."
+msgstr ""
+
+msgid "Download historical rates"
+msgstr ""
+
+msgid "Show Capital Gains"
+msgstr ""
+
+msgid "Show Fiat balances"
+msgstr ""
+
+msgid "By default the client does not listen on any port for incoming BOLT-08 transports.\n"
+"Set this to an interface:port combination, such as 'localhost:9735', to open a port and start listening.\n\n"
+"Note: if you open multiple lightning wallets, they will all try to bind the same port, conflict, and only the first will succeed."
+msgstr ""
+
+msgid "Use trampoline routing"
+msgstr ""
+
+msgid "Lightning payments require finding a path through the Lightning Network. You may use trampoline routing, or local routing (gossip).\n\n"
+"Downloading the network gossip uses quite some bandwidth and storage, and is not recommended on mobile devices. If you use trampoline, you can only open channels with trampoline nodes."
+msgstr ""
+
+msgid "Create recoverable channels"
+msgstr ""
+
+msgid "Add extra data to your channel funding transactions, so that a static backup can be recovered from your seed.\n\n"
+"Note that static backups only allow you to request a force-close with the remote node. This assumes that the remote node is still online, did not lose its data, and accepts to force close the channel.\n\n"
+"If this is enabled, other nodes cannot open a channel to you. Channel recovery data is encrypted, so that only your wallet can decrypt it. However, blockchain analysis will be able to tell that the transaction was probably created by Electrum."
+msgstr ""
+
+msgid "Max lightning fees to pay"
+msgstr ""
+
+msgid "When sending lightning payments, this value is an upper bound for the fees we allow paying, proportional to the payment amount. The fees are paid in addition to the payment amount, by the sender.\n\n"
+"Warning: setting this to too low will result in lots of payment failures."
+msgstr ""
+
+msgid "Max lightning fees to pay for small payments"
+msgstr ""
+
+msgid "Color theme"
+msgstr ""
+
+msgid "Download missing data"
+msgstr ""
+
+msgid "Download parent transactions from the network.\n"
+"Allows filling in missing fee and input details."
+msgstr ""
+
+msgid "For CoinJoin; strip privates"
+msgstr ""
+
+msgid "For hardware device; include xpubs"
+msgstr ""
+
+msgid "Show inputs and outputs"
+msgstr ""
+
+msgid "Edit fees manually"
+msgstr ""
+
+msgid "Edit Locktime"
+msgstr ""
+
+msgid "Prevent screenshots"
+msgstr ""
+
+msgid "Signals Windows to disallow recordings and screenshots of the application window. There is no guarantee Windows will respect this signal."
+msgstr ""
+
+msgid "Zeros after decimal point"
+msgstr ""
+
+msgid "Number of zeros displayed after the decimal point. For example, if this is set to 2, \"1.\" will be displayed as \"1.00\""
+msgstr ""
+
+msgid "Show Lightning amounts with msat precision"
+msgstr ""
+
+msgid "Add thousand separators to bitcoin amounts"
+msgstr ""
+
+msgid "Online Block Explorer"
+msgstr ""
+
+msgid "Choose which online block explorer to use for functions that open a web browser"
+msgstr ""
+
+msgid "Video Device"
+msgstr ""
+
+msgid "For scanning QR codes."
+msgstr ""
+
+msgid "Install the zbar package to enable this."
+msgstr ""
+
+msgid "OpenAlias record, used to receive coins and to sign payment requests."
+msgstr ""
+
+msgid "The following alias providers are available:"
+msgstr ""
+
+msgid "Automatically check for software updates"
+msgstr ""
+
+msgid "Write logs to file"
+msgstr ""
+
+msgid "Debug logs can be persisted to disk. These are useful for troubleshooting."
+msgstr ""
+
+msgid "Old log files get deleted on startup, with only the newest few being kept."
+msgstr ""
+
+msgid "Old log files get deleted on startup. This value limits the max total size of the old log files kept, and also separately the max size of the current log file. Hence, the max disk usage will be twice this value."
+msgstr ""
+
+msgid "Select which language is used in the GUI (after restart)."
+msgstr ""
+
+msgid "Nostr relays"
+msgstr ""
+
+msgid "Nostr relays are used to send and receive submarine swap offers."
+msgstr ""
+
+msgid "These relays are also used for some plugins, e.g. Nostr Wallet Connect or Nostr Cosigner"
+msgstr ""
+
+msgid "Amount that must be kept on-chain in order to sweep anchor output channels"
+msgstr ""
+
+msgid "Do not set this below dust limit"
+msgstr ""
+
+msgid "Too short."
+msgstr ""
+
+msgid "Invalid length."
+msgstr ""
+
+msgid "Invalid mnemonic checksum."
+msgstr ""
+
+msgid "Invalid mnemonic group threshold."
+msgstr ""
+
+msgid "Invalid mnemonic padding."
+msgstr ""
+
+msgid "No valid shares."
+msgstr ""
+
+msgid "Share #{} is not part of the current set."
+msgstr ""
+
+msgid "Share #{} is a duplicate of share #{}."
+msgstr ""
+
+msgid "Completed {} of {} groups needed"
+msgstr ""
+
+msgid "Some shares are invalid."
+msgstr ""
+
+msgid "The set is complete!"
+msgstr ""
+
+msgid "{} shares from group {}"
+msgstr ""
+
+msgid "{} of {} shares needed from group {}"
+msgstr ""
+
+msgid "Invalid mnemonic word"
+msgstr ""
+
+msgid "The swap server errored or is unreachable."
+msgstr ""
+
+msgid "Fetching submarine swap providers..."
+msgstr ""
+
+msgid "Will send change to lightning"
+msgstr ""
+
+msgid "Swap fees:"
+msgstr ""
+
+msgid "No change output, so no need for swap"
+msgstr ""
+
+msgid "Your channels cannot receive this amount."
+msgstr ""
+
+msgid "Below the swap providers minimum value of {}."
+msgstr ""
+
+msgid "Change amount exceeds the swap providers maximum value of {}."
+msgstr ""
+
+msgid "Will not send change to Lightning"
+msgstr ""
+
+msgid "Total swap costs are insane."
+msgstr ""
+
+msgid "Swap amount outside of providers limits"
+msgstr ""
+
+msgid "min"
+msgstr ""
+
+msgid "max"
+msgstr ""
+
+msgid "Mining fee requested by swap-server larger than what was announced in their offer."
+msgstr ""
+
+msgid "Claim transaction"
+msgstr ""
+
+msgid "waiting for funding tx confirmation"
+msgstr ""
+
+msgid "Refund transaction"
+msgstr ""
+
+msgid "Swap transport failed."
+msgstr ""
+
+msgid "Insufficient funds"
+msgstr ""
+
+msgid "The fee for the transaction is higher than the funds gained from it."
+msgstr ""
+
+msgid "Dynamic fee estimates not available"
+msgstr ""
+
+msgid "Incorrect password"
+msgstr ""
+
+msgid "Transaction is unrelated to this wallet."
+msgstr ""
+
+msgid "Failed to import from file."
+msgstr ""
+
+msgid "Failed to export to file."
+msgstr ""
+
+msgid "No Data"
+msgstr ""
+
+msgid "{} ago"
+msgstr ""
+
+msgid "in {}"
+msgstr ""
+
+msgid "{} seconds"
+msgstr ""
+
+msgid "less than a minute"
+msgstr ""
+
+msgid "about {} minutes"
+msgstr ""
+
+msgid "about 1 hour"
+msgstr ""
+
+msgid "about {} hours"
+msgstr ""
+
+msgid "about 1 day"
+msgstr ""
+
+msgid "about {} days"
+msgstr ""
+
+msgid "about 1 month"
+msgstr ""
+
+msgid "about {} months"
+msgstr ""
+
+msgid "about 1 year"
+msgstr ""
+
+msgid "over {} years"
+msgstr ""
+
+msgid "Invalid JSON code."
+msgstr ""
+
+msgid "Not yet available"
+msgstr ""
+
+msgid "Unconfirmed parent"
+msgstr ""
+
+msgid "Not Verified"
+msgstr ""
+
+msgid "Local"
+msgstr ""
+
+msgid "Unsupported script-type ({}) for sweeping."
+msgstr ""
+
+msgid "No inputs found."
+msgstr ""
+
+msgid "Not enough funds on address."
+msgstr ""
+
+msgid "Cannot bump fee"
+msgstr ""
+
+msgid "Cannot cancel transaction"
+msgstr ""
+
+msgid "Cannot create child transaction"
+msgstr ""
+
+msgid "Wallet file corruption detected. Please restore your wallet from seed, and compare the addresses in both files"
+msgstr ""
+
+msgid "Preserve payment"
+msgstr ""
+
+msgid "Decrease payment"
+msgstr ""
+
+msgid "Invalid bitcoin address: {}"
+msgstr ""
+
+msgid "Address not in wallet: {}"
+msgstr ""
+
+msgid "{} confirmations"
+msgstr ""
+
+msgid "Not verified"
+msgstr ""
+
+msgid "Local (future: {})"
+msgstr ""
+
+msgid "in {} blocks"
+msgstr ""
+
+msgid "Signed"
+msgstr ""
+
+msgid "Unsigned"
+msgstr ""
+
+msgid "Partially signed"
+msgstr ""
+
+msgid "Invalid invoice format"
+msgstr ""
+
+msgid "Transaction is final"
+msgstr ""
+
+msgid "All outputs are non-change is_mine"
+msgstr ""
+
+msgid "Could not figure out which outputs to keep"
+msgstr ""
+
+msgid "Could not find suitable outputs"
+msgstr ""
+
+msgid "Could not find suitable output"
+msgstr ""
+
+msgid "Could not find coins for output"
+msgstr ""
+
+msgid "The output value remaining after fee is too low."
+msgstr ""
+
+msgid "The fee could not be verified!"
+msgstr ""
+
+msgid "Some inputs use non-default sighash flags, which might affect the fee."
+msgstr ""
+
+msgid "The input amounts could not be verified as the previous transactions are missing.\n"
+"The amount of money being spent CANNOT be verified."
+msgstr ""
+
+msgid "The fee could not be verified. Signing non-segwit inputs is risky:\n"
+"if this transaction was maliciously modified before you sign,\n"
+"you might end up paying a higher mining fee than displayed."
+msgstr ""
+
+msgid "If you received this transaction from an untrusted device, do not accept to sign it more than once,\n"
+"otherwise you could end up paying a different fee."
+msgstr ""
+
+msgid "Input {} is marked SIGHASH_NONE."
+msgstr ""
+
+msgid "Input {} is marked SIGHASH_SINGLE."
+msgstr ""
+
+msgid "Input {} is marked SIGHASH_ANYONECANPAY."
+msgstr ""
+
+msgid "Fatal"
+msgstr ""
+
+msgid "Danger! This transaction uses non-default sighash flags!"
+msgstr ""
+
+msgid "below relay fee"
+msgstr ""
+
+msgid "The fee for this transaction seems unusually high."
+msgstr ""
+
+msgid "({}% of amount)"
+msgstr ""
+
+msgid "high fee ratio"
+msgstr ""
+
+msgid "(feerate: {})"
+msgstr ""
+
+msgid "high fee rate"
+msgstr ""
+
+msgid "This request has expired"
+msgstr ""
+
+msgid "This request cannot be paid on-chain"
+msgstr ""
+
+msgid "This request does not have a Lightning invoice."
+msgstr ""
+
+msgid "This address has already been used. For better privacy, do not reuse it for new payments."
+msgstr ""
+
+msgid "You must have an open Lightning channel to receive payments."
+msgstr ""
+
+msgid "You must be online to receive Lightning payments."
+msgstr ""
+
+msgid "Cannot receive this payment. Request at least {} to purchase a Lightning channel from your service provider."
+msgstr ""
+
+msgid "Receiving this payment will purchase a payment channel from your "
+msgstr ""
+
+msgid "You do not have enough capacity to receive with Lightning."
+msgstr ""
+
+msgid "You may have enough capacity if you rebalance your channels."
+msgstr ""
+
+msgid "You may have enough capacity if you swap some of your funds."
+msgstr ""
+
+msgid "({} are frozen)"
+msgstr ""
+
+msgid "{} new transactions:"
+msgstr ""
+
+msgid "Total amount sent {}"
+msgstr ""
+
+msgid "Total amount received {}"
+msgstr ""
+
+msgid "Total balance change: {}"
+msgstr ""
+
+msgid "sent {}"
+msgstr ""
+
+msgid "received {}"
+msgstr ""
+
+msgid "New transaction: {}"
+msgstr ""
+
+msgid "invalid address"
+msgstr ""
+
+msgid "address already in wallet"
+msgstr ""
+
+msgid "Cannot delete last remaining address from wallet"
+msgstr ""
+
+msgid "This wallet file was created for a different network/chain.\n"
+"Current chain: {}"
+msgstr ""
+
+msgid "Duplicate master keys"
+msgstr ""
+
+msgid "Heterogenous master keys"
+msgstr ""
+
+msgid "File already exists at path: {}"
+msgstr ""
+
+msgid "Importing individual private keys of type '{}' is not supported."
+msgstr ""
+
+msgid "Wrong key type {}"
+msgstr ""
+
+msgid "Multisig wallet needs to have homogeneous xpub types."
+msgstr ""
+
+msgctxt "About|"
+msgid "About Electrum"
+msgstr ""
+
+msgctxt "About|"
+msgid "Version"
+msgstr ""
+
+msgctxt "About|"
+msgid "Protocol version"
+msgstr ""
+
+msgctxt "About|"
+msgid "Qt Version"
+msgstr ""
+
+msgctxt "About|"
+msgid "PyQt Version"
+msgstr ""
+
+msgctxt "About|"
+msgid "License"
+msgstr ""
+
+msgctxt "About|"
+msgid "MIT License"
+msgstr ""
+
+msgctxt "About|"
+msgid "Homepage"
+msgstr ""
+
+msgctxt "About|"
+msgid "Developers"
+msgstr ""
+
+msgctxt "About|"
+msgid "Distributed by Electrum Technologies GmbH"
+msgstr ""
+
+msgctxt "AddressDelegate|"
+msgid "<no label>"
+msgstr ""
+
+msgctxt "AddressDelegate|"
+msgid "tx"
+msgstr ""
+
+msgctxt "AddressDetails|"
+msgid "Address details"
+msgstr ""
+
+msgctxt "AddressDetails|"
+msgid "Address"
+msgstr ""
+
+msgctxt "AddressDetails|"
+msgid "Frozen"
+msgstr ""
+
+msgctxt "AddressDetails|"
+msgid "Balance"
+msgstr ""
+
+msgctxt "AddressDetails|"
+msgid "Transactions"
+msgstr ""
+
+msgctxt "AddressDetails|"
+msgid "Label"
+msgstr ""
+
+msgctxt "AddressDetails|"
+msgid "Technical Properties"
+msgstr ""
+
+msgctxt "AddressDetails|"
+msgid "Script type"
+msgstr ""
+
+msgctxt "AddressDetails|"
+msgid "Derivation path"
+msgstr ""
+
+msgctxt "AddressDetails|"
+msgid "Public keys"
+msgstr ""
+
+msgctxt "AddressDetails|"
+msgid "Public key"
+msgstr ""
+
+msgctxt "AddressDetails|"
+msgid "Private key"
+msgstr ""
+
+msgctxt "AddressDetails|"
+msgid "Tap to show private key"
+msgstr ""
+
+msgctxt "AddressDetails|"
+msgid "Unfreeze address"
+msgstr ""
+
+msgctxt "AddressDetails|"
+msgid "Freeze address"
+msgstr ""
+
+msgctxt "AddressDetails|"
+msgid "Sign/Verify"
+msgstr ""
+
+msgctxt "AddressDetails|"
+msgid "Delete"
+msgstr ""
+
+msgctxt "AddressDetails|"
+msgid "Are you sure you want to delete this address from the wallet?"
+msgstr ""
+
+msgctxt "Addresses|"
+msgid "Show Used"
+msgstr ""
+
+msgctxt "Addresses|"
+msgid "Show"
+msgstr ""
+
+msgctxt "Addresses|"
+msgid "Addresses"
+msgstr ""
+
+msgctxt "Addresses|"
+msgid "Coins"
+msgstr ""
+
+msgctxt "Addresses|"
+msgid "Both"
+msgstr ""
+
+msgctxt "Addresses|"
+msgid "search"
+msgstr ""
+
+msgctxt "Addresses|"
+msgid "Freeze"
+msgstr ""
+
+msgctxt "Addresses|"
+msgid "Unfreeze"
+msgstr ""
+
+msgctxt "Addresses|"
+msgid "receive addresses"
+msgstr ""
+
+msgctxt "Addresses|"
+msgid "change addresses"
+msgstr ""
+
+msgctxt "Addresses|"
+msgid "imported addresses"
+msgstr ""
+
+msgctxt "Addresses|"
+msgid "addresses"
+msgstr ""
+
+msgctxt "BIP39RecoveryDialog|"
+msgid "Detect BIP39 accounts"
+msgstr ""
+
+msgctxt "BIP39RecoveryDialog|"
+msgid "Scanning for accounts..."
+msgstr ""
+
+msgctxt "BIP39RecoveryDialog|"
+msgid "Choose an account to restore."
+msgstr ""
+
+msgctxt "BIP39RecoveryDialog|"
+msgid "No existing accounts found."
+msgstr ""
+
+msgctxt "BIP39RecoveryDialog|"
+msgid "Recovery failed"
+msgstr ""
+
+msgctxt "BIP39RecoveryDialog|"
+msgid "Recovery cancelled"
+msgstr ""
+
+msgctxt "BIP39RecoveryDialog|"
+msgid "script type"
+msgstr ""
+
+msgctxt "BIP39RecoveryDialog|"
+msgid "derivation path"
+msgstr ""
+
+msgctxt "BalanceDetails|"
+msgid "Your wallet is not synchronized. The displayed balance may be inaccurate."
+msgstr ""
+
+msgctxt "BalanceDetails|"
+msgid "Your wallet is not connected to an Electrum server. The displayed balance may be outdated."
+msgstr ""
+
+msgctxt "BalanceDetails|"
+msgid "Wallet balance"
+msgstr ""
+
+msgctxt "BalanceDetails|"
+msgid "Lightning"
+msgstr ""
+
+msgctxt "BalanceDetails|"
+msgid "On-chain"
+msgstr ""
+
+msgctxt "BalanceDetails|"
+msgid "On-chain (frozen)"
+msgstr ""
+
+msgctxt "BalanceDetails|"
+msgid "Unconfirmed"
+msgstr ""
+
+msgctxt "BalanceDetails|"
+msgid "Unmatured"
+msgstr ""
+
+msgctxt "BalanceDetails|"
+msgid "Frozen Lightning"
+msgstr ""
+
+msgctxt "BalanceDetails|"
+msgid "Total"
+msgstr ""
+
+msgctxt "BalanceDetails|"
+msgid "Frozen"
+msgstr ""
+
+msgctxt "BalanceDetails|"
+msgid "Lightning Liquidity"
+msgstr ""
+
+msgctxt "BalanceDetails|"
+msgid "Can send"
+msgstr ""
+
+msgctxt "BalanceDetails|"
+msgid "Can receive"
+msgstr ""
+
+msgctxt "BalanceDetails|"
+msgid "Lightning swap"
+msgstr ""
+
+msgctxt "BalanceDetails|"
+msgid "Open Channel"
+msgstr ""
+
+msgctxt "BalanceSummary|"
+msgid "Balance"
+msgstr ""
+
+msgctxt "BalanceSummary|"
+msgid "Lightning"
+msgstr ""
+
+msgctxt "BalanceSummary|"
+msgid "On-chain"
+msgstr ""
+
+msgctxt "BtcField|"
+msgid "Amount"
+msgstr ""
+
+msgctxt "ChannelDetails|"
+msgid "Lightning Channel"
+msgstr ""
+
+msgctxt "ChannelDetails|"
+msgid "Channel Backup"
+msgstr ""
+
+msgctxt "ChannelDetails|"
+msgid "Node name"
+msgstr ""
+
+msgctxt "ChannelDetails|"
+msgid "State"
+msgstr ""
+
+msgctxt "ChannelDetails|"
+msgid "Capacity and ratio"
+msgstr ""
+
+msgctxt "ChannelDetails|"
+msgid "Capacity"
+msgstr ""
+
+msgctxt "ChannelDetails|"
+msgid "Local balance"
+msgstr ""
+
+msgctxt "ChannelDetails|"
+msgid "n/a (channel not open)"
+msgstr ""
+
+msgctxt "ChannelDetails|"
+msgid "Can send"
+msgstr ""
+
+msgctxt "ChannelDetails|"
+msgid "n/a (frozen)"
+msgstr ""
+
+msgctxt "ChannelDetails|"
+msgid "Unfreeze"
+msgstr ""
+
+msgctxt "ChannelDetails|"
+msgid "Freeze"
+msgstr ""
+
+msgctxt "ChannelDetails|"
+msgid "Can receive"
+msgstr ""
+
+msgctxt "ChannelDetails|"
+msgid "Technical properties"
+msgstr ""
+
+msgctxt "ChannelDetails|"
+msgid "Short channel ID"
+msgstr ""
+
+msgctxt "ChannelDetails|"
+msgid "Local SCID alias"
+msgstr ""
+
+msgctxt "ChannelDetails|"
+msgid "Remote SCID alias"
+msgstr ""
+
+msgctxt "ChannelDetails|"
+msgid "Initiator"
+msgstr ""
+
+msgctxt "ChannelDetails|"
+msgid "Channel type"
+msgstr ""
+
+msgctxt "ChannelDetails|"
+msgid "Current feerate"
+msgstr ""
+
+msgctxt "ChannelDetails|"
+msgid "Backup type"
+msgstr ""
+
+msgctxt "ChannelDetails|"
+msgid "imported"
+msgstr ""
+
+msgctxt "ChannelDetails|"
+msgid "on-chain"
+msgstr ""
+
+msgctxt "ChannelDetails|"
+msgid "Remote node ID"
+msgstr ""
+
+msgctxt "ChannelDetails|"
+msgid "Channel node ID"
+msgstr ""
+
+msgctxt "ChannelDetails|"
+msgid "Funding Outpoint"
+msgstr ""
+
+msgctxt "ChannelDetails|"
+msgid "Closing transaction"
+msgstr ""
+
+msgctxt "ChannelDetails|"
+msgid "Channel close transaction"
+msgstr ""
+
+msgctxt "ChannelDetails|"
+msgid "Backup"
+msgstr ""
+
+msgctxt "ChannelDetails|"
+msgid "Channel Backup for %1"
+msgstr ""
+
+msgctxt "ChannelDetails|"
+msgid "Close channel"
+msgstr ""
+
+msgctxt "ChannelDetails|"
+msgid "Delete channel"
+msgstr ""
+
+msgctxt "ChannelDetails|"
+msgid "Are you sure?"
+msgstr ""
+
+msgctxt "ChannelDetails|"
+msgid "This will purge associated transactions from your wallet history."
+msgstr ""
+
+msgctxt "ChannelDetails|"
+msgid "Cannot unfreeze channel"
+msgstr ""
+
+msgctxt "ChannelDetails|"
+msgid "Non-Trampoline channels cannot be used for sending while in trampoline mode."
+msgstr ""
+
+msgctxt "ChannelDetails|"
+msgid "Disable trampoline mode to enable sending from this channel."
+msgstr ""
+
+msgctxt "ChannelOpenProgressDialog|"
+msgid "Opening Channel..."
+msgstr ""
+
+msgctxt "ChannelOpenProgressDialog|"
+msgid "Success!"
+msgstr ""
+
+msgctxt "ChannelOpenProgressDialog|"
+msgid "Problem opening channel"
+msgstr ""
+
+msgctxt "ChannelOpenProgressDialog|"
+msgid "Save Channel Backup"
+msgstr ""
+
+msgctxt "ChannelOpenProgressDialog|"
+msgid "The channel you created is not recoverable from seed."
+msgstr ""
+
+msgctxt "ChannelOpenProgressDialog|"
+msgid "To prevent fund losses, please save this backup on another device."
+msgstr ""
+
+msgctxt "ChannelOpenProgressDialog|"
+msgid "It may be imported in another Electrum wallet with the same seed."
+msgstr ""
+
+msgctxt "Channels|"
+msgid "Lightning Channels"
+msgstr ""
+
+msgctxt "Channels|"
+msgid "You have %1 open channels"
+msgstr ""
+
+msgctxt "Channels|"
+msgid "You can send"
+msgstr ""
+
+msgctxt "Channels|"
+msgid "You can receive"
+msgstr ""
+
+msgctxt "Channels|"
+msgid "Channel backups"
+msgstr ""
+
+msgctxt "Channels|"
+msgid "No Lightning channels yet in this wallet"
+msgstr ""
+
+msgctxt "Channels|"
+msgid "Swap"
+msgstr ""
+
+msgctxt "Channels|"
+msgid "Open Channel"
+msgstr ""
+
+msgctxt "Channels|"
+msgid "Do you want to create your first channel?"
+msgstr ""
+
+msgctxt "CloseChannelDialog|"
+msgid "Close Channel"
+msgstr ""
+
+msgctxt "CloseChannelDialog|"
+msgid "Channel name"
+msgstr ""
+
+msgctxt "CloseChannelDialog|"
+msgid "Short channel ID"
+msgstr ""
+
+msgctxt "CloseChannelDialog|"
+msgid "Remote node ID"
+msgstr ""
+
+msgctxt "CloseChannelDialog|"
+msgid "Choose closing method"
+msgstr ""
+
+msgctxt "CloseChannelDialog|"
+msgid "Cooperative close"
+msgstr ""
+
+msgctxt "CloseChannelDialog|"
+msgid "Request Force-close"
+msgstr ""
+
+msgctxt "CloseChannelDialog|"
+msgid "Local Force-close"
+msgstr ""
+
+msgctxt "CloseChannelDialog|"
+msgid "Closing..."
+msgstr ""
+
+msgctxt "CloseChannelDialog|"
+msgid "Close channel"
+msgstr ""
+
+msgctxt "CloseChannelDialog|"
+msgid "Save channel backup and force close"
+msgstr ""
+
+msgctxt "CloseChannelDialog|"
+msgid "Channel closed. You may need to wait at least %1 blocks, because of CSV delays"
+msgstr ""
+
+msgctxt "CloseChannelDialog|"
+msgid "Request sent"
+msgstr ""
+
+msgctxt "CloseChannelDialog|"
+msgid "Channel closed"
+msgstr ""
+
+msgctxt "ConfirmTxDialog|"
+msgid "Transaction Fee"
+msgstr ""
+
+msgctxt "ConfirmTxDialog|"
+msgid "Amount to send"
+msgstr ""
+
+msgctxt "ConfirmTxDialog|"
+msgid "Fee"
+msgstr ""
+
+msgctxt "ConfirmTxDialog|"
+msgid "Extra fee"
+msgstr ""
+
+msgctxt "ConfirmTxDialog|"
+msgid "Options"
+msgstr ""
+
+msgctxt "ConfirmTxDialog|"
+msgid "Use multiple change addresses"
+msgstr ""
+
+msgctxt "ConfirmTxDialog|"
+msgid "In some cases, use up to 3 change addresses in order to break up large coin amounts and obfuscate the recipient address."
+msgstr ""
+
+msgctxt "ConfirmTxDialog|"
+msgid "This may result in higher transactions fees."
+msgstr ""
+
+msgctxt "ConfirmTxDialog|"
+msgid "Inputs (%1)"
+msgstr ""
+
+msgctxt "ConfirmTxDialog|"
+msgid "Outputs (%1)"
+msgstr ""
+
+msgctxt "ConfirmTxDialog|"
+msgid "Finalize..."
+msgstr ""
+
+msgctxt "ConfirmTxDialog|"
+msgid "Pay..."
+msgstr ""
+
+msgctxt "CpfpBumpFeeDialog|"
+msgid "Bump Fee"
+msgstr ""
+
+msgctxt "CpfpBumpFeeDialog|"
+msgid "A CPFP is a transaction that sends an unconfirmed output back to yourself, with a high fee."
+msgstr ""
+
+msgctxt "CpfpBumpFeeDialog|"
+msgid "CPFP - Child Pays For Parent"
+msgstr ""
+
+msgctxt "CpfpBumpFeeDialog|"
+msgid "A CPFP is a transaction that sends an unconfirmed output back to yourself, with a high fee. The goal is to have miners confirm the parent transaction in order to get the fee attached to the child transaction."
+msgstr ""
+
+msgctxt "CpfpBumpFeeDialog|"
+msgid "The proposed fee is computed using your fee/vkB settings, applied to the total size of both child and parent transactions. After you broadcast a CPFP transaction, it is normal to see a new unconfirmed transaction in your history."
+msgstr ""
+
+msgctxt "CpfpBumpFeeDialog|"
+msgid "Child tx fee"
+msgstr ""
+
+msgctxt "CpfpBumpFeeDialog|"
+msgid "Target total"
+msgstr ""
+
+msgctxt "CpfpBumpFeeDialog|"
+msgid "Fee for child"
+msgstr ""
+
+msgctxt "CpfpBumpFeeDialog|"
+msgid "Fee rate for child"
+msgstr ""
+
+msgctxt "CpfpBumpFeeDialog|"
+msgid "Total"
+msgstr ""
+
+msgctxt "CpfpBumpFeeDialog|"
+msgid "Total size"
+msgstr ""
+
+msgctxt "CpfpBumpFeeDialog|"
+msgid "Total fee"
+msgstr ""
+
+msgctxt "CpfpBumpFeeDialog|"
+msgid "Total fee rate"
+msgstr ""
+
+msgctxt "CpfpBumpFeeDialog|"
+msgid "Inputs (%1)"
+msgstr ""
+
+msgctxt "CpfpBumpFeeDialog|"
+msgid "Outputs (%1)"
+msgstr ""
+
+msgctxt "CpfpBumpFeeDialog|"
+msgid "Ok"
+msgstr ""
+
+msgctxt "ExceptionDialog|"
+msgid "Sorry!"
+msgstr ""
+
+msgctxt "ExceptionDialog|"
+msgid "Something went wrong while executing Electrum."
+msgstr ""
+
+msgctxt "ExceptionDialog|"
+msgid "To help us diagnose and fix the problem, you can send us a bug report that contains useful debug information:"
+msgstr ""
+
+msgctxt "ExceptionDialog|"
+msgid "Show report contents"
+msgstr ""
+
+msgctxt "ExceptionDialog|"
+msgid "Please briefly describe what led to the error (optional):"
+msgstr ""
+
+msgctxt "ExceptionDialog|"
+msgid "Do you want to send this report?"
+msgstr ""
+
+msgctxt "ExceptionDialog|"
+msgid "Send Bug Report"
+msgstr ""
+
+msgctxt "ExceptionDialog|"
+msgid "Confirm to send bugreport?"
+msgstr ""
+
+msgctxt "ExceptionDialog|"
+msgid "Not Now"
+msgstr ""
+
+msgctxt "ExceptionDialog|"
+msgid "Error"
+msgstr ""
+
+msgctxt "ExportTxDialog|"
+msgid "Share Transaction"
+msgstr ""
+
+msgctxt "ExportTxDialog|"
+msgid "Copy"
+msgstr ""
+
+msgctxt "ExportTxDialog|"
+msgid "Copied!"
+msgstr ""
+
+msgctxt "ExportTxDialog|"
+msgid "Share"
+msgstr ""
+
+msgctxt "FeeMethodComboBox|"
+msgid "ETA"
+msgstr ""
+
+msgctxt "FeeMethodComboBox|"
+msgid "Mempool"
+msgstr ""
+
+msgctxt "FeeMethodComboBox|"
+msgid "Feerate"
+msgstr ""
+
+msgctxt "FeeMethodComboBox|"
+msgid "Manual"
+msgstr ""
+
+msgctxt "FeePicker|"
+msgid "Target"
+msgstr ""
+
+msgctxt "FeePicker|"
+msgid "Mining fee"
+msgstr ""
+
+msgctxt "FeePicker|"
+msgid "Fee rate"
+msgstr ""
+
+msgctxt "FeePicker|"
+msgid "Rate"
+msgstr ""
+
+msgctxt "FeePicker|"
+msgid "Total"
+msgstr ""
+
+msgctxt "FiatField|"
+msgid "Amount"
+msgstr ""
+
+msgctxt "GenericShareDialog|"
+msgid "Copy"
+msgstr ""
+
+msgctxt "GenericShareDialog|"
+msgid "Copied!"
+msgstr ""
+
+msgctxt "GenericShareDialog|"
+msgid "Share"
+msgstr ""
+
+msgctxt "History|"
+msgid "Local"
+msgstr ""
+
+msgctxt "History|"
+msgid "Mempool"
+msgstr ""
+
+msgctxt "History|"
+msgid "Today"
+msgstr ""
+
+msgctxt "History|"
+msgid "Yesterday"
+msgstr ""
+
+msgctxt "History|"
+msgid "Last week"
+msgstr ""
+
+msgctxt "History|"
+msgid "Last month"
+msgstr ""
+
+msgctxt "History|"
+msgid "Older"
+msgstr ""
+
+msgctxt "History|"
+msgid "No transactions in this wallet yet"
+msgstr ""
+
+msgctxt "HistoryItemDelegate|"
+msgid "<no label>"
+msgstr ""
+
+msgctxt "ImportAddressesKeysDialog|"
+msgid "Import additional addresses"
+msgstr ""
+
+msgctxt "ImportAddressesKeysDialog|"
+msgid "Import additional keys"
+msgstr ""
+
+msgctxt "ImportAddressesKeysDialog|"
+msgid "Enter, paste or scan additional addresses"
+msgstr ""
+
+msgctxt "ImportAddressesKeysDialog|"
+msgid "Enter, paste or scan additional private keys"
+msgstr ""
+
+msgctxt "ImportAddressesKeysDialog|"
+msgid "You can add multiple, each on a separate line."
+msgstr ""
+
+msgctxt "ImportAddressesKeysDialog|"
+msgid "Scan another address"
+msgstr ""
+
+msgctxt "ImportAddressesKeysDialog|"
+msgid "Scan another private key"
+msgstr ""
+
+msgctxt "ImportAddressesKeysDialog|"
+msgid "Import"
+msgstr ""
+
+msgctxt "InvoiceDialog|"
+msgid "On-chain Invoice"
+msgstr ""
+
+msgctxt "InvoiceDialog|"
+msgid "Lightning Invoice"
+msgstr ""
+
+msgctxt "InvoiceDialog|"
+msgid "Address"
+msgstr ""
+
+msgctxt "InvoiceDialog|"
+msgid "Description"
+msgstr ""
+
+msgctxt "InvoiceDialog|"
+msgid "Amount to send"
+msgstr ""
+
+msgctxt "InvoiceDialog|"
+msgid "All on-chain funds"
+msgstr ""
+
+msgctxt "InvoiceDialog|"
+msgid "not specified"
+msgstr ""
+
+msgctxt "InvoiceDialog|"
+msgid "Max"
+msgstr ""
+
+msgctxt "InvoiceDialog|"
+msgid "Technical properties"
+msgstr ""
+
+msgctxt "InvoiceDialog|"
+msgid "Recipient Pubkey"
+msgstr ""
+
+msgctxt "InvoiceDialog|"
+msgid "Node public key"
+msgstr ""
+
+msgctxt "InvoiceDialog|"
+msgid "Payment hash"
+msgstr ""
+
+msgctxt "InvoiceDialog|"
+msgid "Routing hints"
+msgstr ""
+
+msgctxt "InvoiceDialog|"
+msgid "Fallback address"
+msgstr ""
+
+msgctxt "InvoiceDialog|"
+msgid "Save"
+msgstr ""
+
+msgctxt "InvoiceDialog|"
+msgid "Pay..."
+msgstr ""
+
+msgctxt "InvoiceDialog|"
+msgid "Payment sent."
+msgstr ""
+
+msgctxt "Invoices|"
+msgid "To access this list from the main screen, press and hold the Send button"
+msgstr ""
+
+msgctxt "Invoices|"
+msgid "Saved Invoices"
+msgstr ""
+
+msgctxt "Invoices|"
+msgid "Delete"
+msgstr ""
+
+msgctxt "Invoices|"
+msgid "View"
+msgstr ""
+
+msgctxt "LightningPaymentDetails|"
+msgid "Lightning payment details"
+msgstr ""
+
+msgctxt "LightningPaymentDetails|"
+msgid "Paid"
+msgstr ""
+
+msgctxt "LightningPaymentDetails|"
+msgid "Date"
+msgstr ""
+
+msgctxt "LightningPaymentDetails|"
+msgid "Amount received"
+msgstr ""
+
+msgctxt "LightningPaymentDetails|"
+msgid "Amount sent"
+msgstr ""
+
+msgctxt "LightningPaymentDetails|"
+msgid "Transaction fee"
+msgstr ""
+
+msgctxt "LightningPaymentDetails|"
+msgid "Label"
+msgstr ""
+
+msgctxt "LightningPaymentDetails|"
+msgid "Technical properties"
+msgstr ""
+
+msgctxt "LightningPaymentDetails|"
+msgid "Payment hash"
+msgstr ""
+
+msgctxt "LightningPaymentDetails|"
+msgid "Preimage"
+msgstr ""
+
+msgctxt "LnurlPayRequestDialog|"
+msgid "LNURL Payment request"
+msgstr ""
+
+msgctxt "LnurlPayRequestDialog|"
+msgid "Amount must be between %1 and %2 %3"
+msgstr ""
+
+msgctxt "LnurlPayRequestDialog|"
+msgid "Provider"
+msgstr ""
+
+msgctxt "LnurlPayRequestDialog|"
+msgid "Description"
+msgstr ""
+
+msgctxt "LnurlPayRequestDialog|"
+msgid "Amount"
+msgstr ""
+
+msgctxt "LnurlPayRequestDialog|"
+msgid "Message"
+msgstr ""
+
+msgctxt "LnurlPayRequestDialog|"
+msgid "Enter an (optional) message for the receiver"
+msgstr ""
+
+msgctxt "LnurlPayRequestDialog|"
+msgid "%1 characters remaining"
+msgstr ""
+
+msgctxt "LnurlPayRequestDialog|"
+msgid "Pay..."
+msgstr ""
+
+msgctxt "LnurlWithdrawRequestDialog|"
+msgid "LNURL Withdraw request"
+msgstr ""
+
+msgctxt "LnurlWithdrawRequestDialog|"
+msgid "Too little incoming liquidity to satisfy this withdrawal request."
+msgstr ""
+
+msgctxt "LnurlWithdrawRequestDialog|"
+msgid "Can receive: %1"
+msgstr ""
+
+msgctxt "LnurlWithdrawRequestDialog|"
+msgid "Minimum withdrawal amount: %1"
+msgstr ""
+
+msgctxt "LnurlWithdrawRequestDialog|"
+msgid "Do a submarine swap in the 'Channels' tab to get more incoming liquidity."
+msgstr ""
+
+msgctxt "LnurlWithdrawRequestDialog|"
+msgid "Amount must be between %1 and %2 %3"
+msgstr ""
+
+msgctxt "LnurlWithdrawRequestDialog|"
+msgid "The maximum withdrawable amount (%1) is larger than what your channels can receive (%2)."
+msgstr ""
+
+msgctxt "LnurlWithdrawRequestDialog|"
+msgid "You may need to do a submarine swap to increase your incoming liquidity."
+msgstr ""
+
+msgctxt "LnurlWithdrawRequestDialog|"
+msgid "Provider"
+msgstr ""
+
+msgctxt "LnurlWithdrawRequestDialog|"
+msgid "Description"
+msgstr ""
+
+msgctxt "LnurlWithdrawRequestDialog|"
+msgid "Amount"
+msgstr ""
+
+msgctxt "LnurlWithdrawRequestDialog|"
+msgid "Withdraw..."
+msgstr ""
+
+msgctxt "LoadingWalletDialog|"
+msgid "Loading Wallet"
+msgstr ""
+
+msgctxt "MessageDialog|"
+msgid "Question"
+msgstr ""
+
+msgctxt "MessageDialog|"
+msgid "Message"
+msgstr ""
+
+msgctxt "MessageDialog|"
+msgid "Ok"
+msgstr ""
+
+msgctxt "MessageDialog|"
+msgid "No"
+msgstr ""
+
+msgctxt "MessageDialog|"
+msgid "Yes"
+msgstr ""
+
+msgctxt "NetworkOverview|"
+msgid "Network"
+msgstr ""
+
+msgctxt "NetworkOverview|"
+msgid "On-chain"
+msgstr ""
+
+msgctxt "NetworkOverview|"
+msgid "Status"
+msgstr ""
+
+msgctxt "NetworkOverview|"
+msgid "Server"
+msgstr ""
+
+msgctxt "NetworkOverview|"
+msgid "Local Height:"
+msgstr ""
+
+msgctxt "NetworkOverview|"
+msgid "Server Height:"
+msgstr ""
+
+msgctxt "NetworkOverview|"
+msgid "Chain tips:"
+msgstr ""
+
+msgctxt "NetworkOverview|"
+msgid "Mempool fees"
+msgstr ""
+
+msgctxt "NetworkOverview|"
+msgid "%1 around depth %2"
+msgstr ""
+
+msgctxt "NetworkOverview|"
+msgid "Lightning"
+msgstr ""
+
+msgctxt "NetworkOverview|"
+msgid "Gossip"
+msgstr ""
+
+msgctxt "NetworkOverview|"
+msgid "Trampoline"
+msgstr ""
+
+msgctxt "NetworkOverview|"
+msgid "%1 peers"
+msgstr ""
+
+msgctxt "NetworkOverview|"
+msgid "%1 channels to fetch"
+msgstr ""
+
+msgctxt "NetworkOverview|"
+msgid "%1 nodes, %2 channels"
+msgstr ""
+
+msgctxt "NetworkOverview|"
+msgid "enabled"
+msgstr ""
+
+msgctxt "NetworkOverview|"
+msgid "Channel peers:"
+msgstr ""
+
+msgctxt "NetworkOverview|"
+msgid "Proxy"
+msgstr ""
+
+msgctxt "NetworkOverview|"
+msgid "disabled"
+msgstr ""
+
+msgctxt "NetworkOverview|"
+msgid "Proxy server:"
+msgstr ""
+
+msgctxt "NetworkOverview|"
+msgid "Proxy type:"
+msgstr ""
+
+msgctxt "NetworkOverview|"
+msgid "Server Settings"
+msgstr ""
+
+msgctxt "NetworkOverview|"
+msgid "Proxy Settings"
+msgstr ""
+
+msgctxt "NetworkOverview|"
+msgid "Nostr Settings"
+msgstr ""
+
+msgctxt "NewWalletWizard|"
+msgid "New Wallet"
+msgstr ""
+
+msgctxt "NewWalletWizard|"
+msgid "Error"
+msgstr ""
+
+msgctxt "NostrConfigDialog|"
+msgid "Nostr relays"
+msgstr ""
+
+msgctxt "NostrConfigDialog|"
+msgid "Nostr relays are used to send and receive submarine swap offers."
+msgstr ""
+
+msgctxt "NostrConfigDialog|"
+msgid "For multisig wallets, nostr is also used to relay transactions to your co-signers."
+msgstr ""
+
+msgctxt "NostrConfigDialog|"
+msgid "Connections to nostr are only made when required, and ephemerally."
+msgstr ""
+
+msgctxt "NostrConfigDialog|"
+msgid "Enter the list of Nostr relays"
+msgstr ""
+
+msgctxt "NostrConfigDialog|"
+msgid "Ok"
+msgstr ""
+
+msgctxt "NostrSwapServersDialog|"
+msgid "Select Swap Provider"
+msgstr ""
+
+msgctxt "NostrSwapServersDialog|"
+msgid "Pubkey"
+msgstr ""
+
+msgctxt "NostrSwapServersDialog|"
+msgid "Fee"
+msgstr ""
+
+msgctxt "NostrSwapServersDialog|"
+msgid "Last seen"
+msgstr ""
+
+msgctxt "NostrSwapServersDialog|"
+msgid "Max Forward"
+msgstr ""
+
+msgctxt "NostrSwapServersDialog|"
+msgid "Max Reverse"
+msgstr ""
+
+msgctxt "NostrSwapServersDialog|"
+msgid "No swap providers found"
+msgstr ""
+
+msgctxt "OpenChannelDialog|"
+msgid "Open Lightning Channel"
+msgstr ""
+
+msgctxt "OpenChannelDialog|"
+msgid "Your channels cannot be recovered from seed, because they were created with an old version of Electrum."
+msgstr ""
+
+msgctxt "OpenChannelDialog|"
+msgid "This means that you must save a backup of your wallet every time you create a new channel."
+msgstr ""
+
+msgctxt "OpenChannelDialog|"
+msgid "If you want this wallet to have recoverable channels, you must close your existing channels and restore this wallet from seed."
+msgstr ""
+
+msgctxt "OpenChannelDialog|"
+msgid "Your channels cannot be recovered from seed."
+msgstr ""
+
+msgctxt "OpenChannelDialog|"
+msgid "If you want to have recoverable channels, you must create a new wallet with an Electrum seed"
+msgstr ""
+
+msgctxt "OpenChannelDialog|"
+msgid "You currently have recoverable channels setting disabled."
+msgstr ""
+
+msgctxt "OpenChannelDialog|"
+msgid "This means your channels cannot be recovered from seed."
+msgstr ""
+
+msgctxt "OpenChannelDialog|"
+msgid "Paste or scan node uri/pubkey"
+msgstr ""
+
+msgctxt "OpenChannelDialog|"
+msgid "Invalid node-id or connect string"
+msgstr ""
+
+msgctxt "OpenChannelDialog|"
+msgid "Scan a node-id or a connect string"
+msgstr ""
+
+msgctxt "OpenChannelDialog|"
+msgid "Max"
+msgstr ""
+
+msgctxt "OpenChannelDialog|"
+msgid "Open Channel..."
+msgstr ""
+
+msgctxt "OpenChannelDialog|"
+msgid "Channel capacity"
+msgstr ""
+
+msgctxt "OpenChannelDialog|"
+msgid "Open Channel"
+msgstr ""
+
+msgctxt "OpenChannelDialog|"
+msgid "Error"
+msgstr ""
+
+msgctxt "OpenChannelDialog|"
+msgid "Channel established."
+msgstr ""
+
+msgctxt "OpenChannelDialog|"
+msgid "This channel will be usable after %1 confirmations"
+msgstr ""
+
+msgctxt "OpenChannelDialog|"
+msgid "Please sign and broadcast the funding transaction."
+msgstr ""
+
+msgctxt "OpenWalletDialog|"
+msgid "Open Wallet"
+msgstr ""
+
+msgctxt "OpenWalletDialog|"
+msgid "Please enter password"
+msgstr ""
+
+msgctxt "OpenWalletDialog|"
+msgid "Wallet <b>%1</b> requires password to unlock"
+msgstr ""
+
+msgctxt "OpenWalletDialog|"
+msgid "Password"
+msgstr ""
+
+msgctxt "OpenWalletDialog|"
+msgid "Invalid Password"
+msgstr ""
+
+msgctxt "OpenWalletDialog|"
+msgid "Unlock"
+msgstr ""
+
+msgctxt "OtpDialog|"
+msgid "Trustedcoin"
+msgstr ""
+
+msgctxt "OtpDialog|"
+msgid "Enter Authenticator code"
+msgstr ""
+
+msgctxt "PasswordDialog|"
+msgid "Enter Password"
+msgstr ""
+
+msgctxt "PasswordDialog|"
+msgid "Password"
+msgstr ""
+
+msgctxt "PasswordDialog|"
+msgid "Password (again)"
+msgstr ""
+
+msgctxt "PasswordDialog|"
+msgid "Strength"
+msgstr ""
+
+msgctxt "PasswordDialog|"
+msgid "Ok"
+msgstr ""
+
+msgctxt "PasswordStrengthIndicator|"
+msgid "Weak"
+msgstr ""
+
+msgctxt "PasswordStrengthIndicator|"
+msgid "Medium"
+msgstr ""
+
+msgctxt "PasswordStrengthIndicator|"
+msgid "Strong"
+msgstr ""
+
+msgctxt "PasswordStrengthIndicator|"
+msgid "Very Strong"
+msgstr ""
+
+msgctxt "Preferences|"
+msgid "Preferences"
+msgstr ""
+
+msgctxt "Preferences|"
+msgid "User Interface"
+msgstr ""
+
+msgctxt "Preferences|"
+msgid "Language"
+msgstr ""
+
+msgctxt "Preferences|"
+msgid "Please restart Electrum to activate the new GUI settings"
+msgstr ""
+
+msgctxt "Preferences|"
+msgid "Base unit"
+msgstr ""
+
+msgctxt "Preferences|"
+msgid "Add thousands separators to bitcoin amounts"
+msgstr ""
+
+msgctxt "Preferences|"
+msgid "Fiat Currency"
+msgstr ""
+
+msgctxt "Preferences|"
+msgid "Historic rates"
+msgstr ""
+
+msgctxt "Preferences|"
+msgid "Exchange rate provider"
+msgstr ""
+
+msgctxt "Preferences|"
+msgid "Synchronize labels"
+msgstr ""
+
+msgctxt "Preferences|"
+msgid "Nostr Cosigner"
+msgstr ""
+
+msgctxt "Preferences|"
+msgid "Increase brightness when displaying QR codes"
+msgstr ""
+
+msgctxt "Preferences|"
+msgid "Security"
+msgstr ""
+
+msgctxt "Preferences|"
+msgid "Request authentication for payments"
+msgstr ""
+
+msgctxt "Preferences|"
+msgid "Failed to enable biometric authentication: "
+msgstr ""
+
+msgctxt "Preferences|"
+msgid "Unavailable"
+msgstr ""
+
+msgctxt "Preferences|"
+msgid "Cannot activate biometric authentication because you have wallets with different passwords."
+msgstr ""
+
+msgctxt "Preferences|"
+msgid "To use biometric authentication you first need to change all wallet passwords to the same password."
+msgstr ""
+
+msgctxt "Preferences|"
+msgid "Biometric authentication"
+msgstr ""
+
+msgctxt "Preferences|"
+msgid "Protect secrets from screenshots"
+msgstr ""
+
+msgctxt "Preferences|"
+msgid "Wallet behavior"
+msgstr ""
+
+msgctxt "Preferences|"
+msgid "Spend unconfirmed"
+msgstr ""
+
+msgctxt "Preferences|"
+msgid "Lightning"
+msgstr ""
+
+msgctxt "Preferences|"
+msgid "<b>%1%</b> of payment"
+msgstr ""
+
+msgctxt "Preferences|"
+msgid "Are you sure?"
+msgstr ""
+
+msgctxt "Preferences|"
+msgid "Electrum will have to download the Lightning Network graph, which is not recommended on mobile."
+msgstr ""
+
+msgctxt "Preferences|"
+msgid "Trampoline routing"
+msgstr ""
+
+msgctxt "Preferences|"
+msgid "This option allows you to recover your lightning funds if you lose your device, or if you uninstall this app while lightning channels are active. Do not disable it unless you know how to recover channels from backups."
+msgstr ""
+
+msgctxt "Preferences|"
+msgid "Create recoverable channels"
+msgstr ""
+
+msgctxt "Preferences|"
+msgid "Advanced"
+msgstr ""
+
+msgctxt "Preferences|"
+msgid "Enable debug logs (for developers)"
+msgstr ""
+
+msgctxt "ProxyConfig|"
+msgid "SOCKS5/TOR"
+msgstr ""
+
+msgctxt "ProxyConfig|"
+msgid "SOCKS4"
+msgstr ""
+
+msgctxt "ProxyConfig|"
+msgid "Enable Proxy"
+msgstr ""
+
+msgctxt "ProxyConfig|"
+msgid "Address"
+msgstr ""
+
+msgctxt "ProxyConfig|"
+msgid "Port"
+msgstr ""
+
+msgctxt "ProxyConfig|"
+msgid "Authentication"
+msgstr ""
+
+msgctxt "ProxyConfig|"
+msgid "Username"
+msgstr ""
+
+msgctxt "ProxyConfig|"
+msgid "Password"
+msgstr ""
+
+msgctxt "ProxyConfig|"
+msgid "Detect Tor proxy"
+msgstr ""
+
+msgctxt "ProxyConfigDialog|"
+msgid "Proxy settings"
+msgstr ""
+
+msgctxt "ProxyConfigDialog|"
+msgid "Ok"
+msgstr ""
+
+msgctxt "QRImage|"
+msgid "Data too big for QR"
+msgstr ""
+
+msgctxt "RbfBumpFeeDialog|"
+msgid "Bump Fee"
+msgstr ""
+
+msgctxt "RbfBumpFeeDialog|"
+msgid "Move the slider to increase your transaction's fee. This will improve its position in the mempool"
+msgstr ""
+
+msgctxt "RbfBumpFeeDialog|"
+msgid "Method"
+msgstr ""
+
+msgctxt "RbfBumpFeeDialog|"
+msgid "Old fee"
+msgstr ""
+
+msgctxt "RbfBumpFeeDialog|"
+msgid "Old fee rate"
+msgstr ""
+
+msgctxt "RbfBumpFeeDialog|"
+msgid "New fee"
+msgstr ""
+
+msgctxt "RbfBumpFeeDialog|"
+msgid "Options"
+msgstr ""
+
+msgctxt "RbfBumpFeeDialog|"
+msgid "Enable output value rounding"
+msgstr ""
+
+msgctxt "RbfBumpFeeDialog|"
+msgid "In some cases, use up to 3 change addresses in order to break up large coin amounts and obfuscate the recipient address."
+msgstr ""
+
+msgctxt "RbfBumpFeeDialog|"
+msgid "This may result in higher transactions fees."
+msgstr ""
+
+msgctxt "RbfBumpFeeDialog|"
+msgid "Inputs (%1)"
+msgstr ""
+
+msgctxt "RbfBumpFeeDialog|"
+msgid "Outputs (%1)"
+msgstr ""
+
+msgctxt "RbfBumpFeeDialog|"
+msgid "Ok"
+msgstr ""
+
+msgctxt "RbfCancelDialog|"
+msgid "Cancel Transaction"
+msgstr ""
+
+msgctxt "RbfCancelDialog|"
+msgid "Cancel an unconfirmed transaction by double-spending its inputs back to your wallet with a higher fee."
+msgstr ""
+
+msgctxt "RbfCancelDialog|"
+msgid "Old fee"
+msgstr ""
+
+msgctxt "RbfCancelDialog|"
+msgid "Old fee rate"
+msgstr ""
+
+msgctxt "RbfCancelDialog|"
+msgid "New fee"
+msgstr ""
+
+msgctxt "RbfCancelDialog|"
+msgid "Inputs (%1)"
+msgstr ""
+
+msgctxt "RbfCancelDialog|"
+msgid "Outputs (%1)"
+msgstr ""
+
+msgctxt "RbfCancelDialog|"
+msgid "Ok"
+msgstr ""
+
+msgctxt "ReceiveDetailsDialog|"
+msgid "Create Invoice"
+msgstr ""
+
+msgctxt "ReceiveDetailsDialog|"
+msgid "Message"
+msgstr ""
+
+msgctxt "ReceiveDetailsDialog|"
+msgid "Description of payment request"
+msgstr ""
+
+msgctxt "ReceiveDetailsDialog|"
+msgid "Amount"
+msgstr ""
+
+msgctxt "ReceiveDetailsDialog|"
+msgid "Expires after"
+msgstr ""
+
+msgctxt "ReceiveDetailsDialog|"
+msgid "Onchain"
+msgstr ""
+
+msgctxt "ReceiveDetailsDialog|"
+msgid "Lightning"
+msgstr ""
+
+msgctxt "ReceiveDetailsDialog|"
+msgid "Confirm just-in-time channel"
+msgstr ""
+
+msgctxt "ReceiveDetailsDialog|"
+msgid "Receiving this payment will purchase a Lightning channel from your service provider."
+msgstr ""
+
+msgctxt "ReceiveDetailsDialog|"
+msgid "Fees will be deducted from the payment."
+msgstr ""
+
+msgctxt "ReceiveDetailsDialog|"
+msgid "Do you want to continue?"
+msgstr ""
+
+msgctxt "ReceiveDetailsDialog|"
+msgid "Amount too low"
+msgstr ""
+
+msgctxt "ReceiveDetailsDialog|"
+msgid "You don't have channels with enough inbound liquidity to receive this payment."
+msgstr ""
+
+msgctxt "ReceiveDetailsDialog|"
+msgid "Request at least %1 to open a channel just-in-time."
+msgstr ""
+
+msgctxt "ReceiveDialog|"
+msgid "Receive Payment"
+msgstr ""
+
+msgctxt "ReceiveDialog|"
+msgid "Status"
+msgstr ""
+
+msgctxt "ReceiveDialog|"
+msgid "Message"
+msgstr ""
+
+msgctxt "ReceiveDialog|"
+msgid "unspecified"
+msgstr ""
+
+msgctxt "ReceiveDialog|"
+msgid "Amount"
+msgstr ""
+
+msgctxt "ReceiveDialog|"
+msgid "Copied!"
+msgstr ""
+
+msgctxt "ReceiveDialog|"
+msgid "Payment Request"
+msgstr ""
+
+msgctxt "ReceiveDialog|"
+msgid "Onchain address"
+msgstr ""
+
+msgctxt "ReceiveRequests|"
+msgid "To access this list from the main screen, press and hold the Receive button"
+msgstr ""
+
+msgctxt "ReceiveRequests|"
+msgid "Pending payment requests"
+msgstr ""
+
+msgctxt "ReceiveRequests|"
+msgid "Delete"
+msgstr ""
+
+msgctxt "ReceiveRequests|"
+msgid "View"
+msgstr ""
+
+msgctxt "RequestExpiryComboBox|"
+msgid "10 minutes"
+msgstr ""
+
+msgctxt "RequestExpiryComboBox|"
+msgid "1 hour"
+msgstr ""
+
+msgctxt "RequestExpiryComboBox|"
+msgid "1 day"
+msgstr ""
+
+msgctxt "RequestExpiryComboBox|"
+msgid "1 week"
+msgstr ""
+
+msgctxt "RequestExpiryComboBox|"
+msgid "Never"
+msgstr ""
+
+msgctxt "ScanDialog|"
+msgid "Cancel"
+msgstr ""
+
+msgctxt "SendDialog|"
+msgid "Scan an Invoice, an Address, an LNURL, a PSBT or a Channel Backup"
+msgstr ""
+
+msgctxt "SendDialog|"
+msgid "Scan an Invoice, an Address, an LNURL or a PSBT"
+msgstr ""
+
+msgctxt "SendDialog|"
+msgid "Paste"
+msgstr ""
+
+msgctxt "ServerConfig|"
+msgid "Connection mode"
+msgstr ""
+
+msgctxt "ServerConfig|"
+msgid "Server"
+msgstr ""
+
+msgctxt "ServerConfig|"
+msgid "Servers"
+msgstr ""
+
+msgctxt "ServerConfig|"
+msgid "Connected @%1"
+msgstr ""
+
+msgctxt "ServerConfig|"
+msgid "Connected"
+msgstr ""
+
+msgctxt "ServerConfig|"
+msgid "Other known servers"
+msgstr ""
+
+msgctxt "ServerConfigDialog|"
+msgid "Server settings"
+msgstr ""
+
+msgctxt "ServerConfigDialog|"
+msgid "Ok"
+msgstr ""
+
+msgctxt "ServerConnectModeComboBox|"
+msgid "Auto-connect"
+msgstr ""
+
+msgctxt "ServerConnectModeComboBox|"
+msgid "Manual server selection"
+msgstr ""
+
+msgctxt "ServerConnectModeComboBox|"
+msgid "Connect only to a single server"
+msgstr ""
+
+msgctxt "ServerConnectWizard|"
+msgid "Network configuration"
+msgstr ""
+
+msgctxt "ServerConnectWizard|"
+msgid "Next"
+msgstr ""
+
+msgctxt "SignVerifyMessageDialog|"
+msgid "Sign/Verify Message"
+msgstr ""
+
+msgctxt "SignVerifyMessageDialog|"
+msgid "Address"
+msgstr ""
+
+msgctxt "SignVerifyMessageDialog|"
+msgid "Message"
+msgstr ""
+
+msgctxt "SignVerifyMessageDialog|"
+msgid "Signature"
+msgstr ""
+
+msgctxt "SignVerifyMessageDialog|"
+msgid "Valid!"
+msgstr ""
+
+msgctxt "SignVerifyMessageDialog|"
+msgid "Invalid!"
+msgstr ""
+
+msgctxt "SignVerifyMessageDialog|"
+msgid "Message signature"
+msgstr ""
+
+msgctxt "SignVerifyMessageDialog|"
+msgid "Sign"
+msgstr ""
+
+msgctxt "SignVerifyMessageDialog|"
+msgid "Verify"
+msgstr ""
+
+msgctxt "SwapDialog|"
+msgid "Lightning Swap"
+msgstr ""
+
+msgctxt "SwapDialog|"
+msgid "You send"
+msgstr ""
+
+msgctxt "SwapDialog|"
+msgid "You receive"
+msgstr ""
+
+msgctxt "SwapDialog|"
+msgid "Server fee"
+msgstr ""
+
+msgctxt "SwapDialog|"
+msgid "Mining fee"
+msgstr ""
+
+msgctxt "SwapDialog|"
+msgid "Add receiving capacity"
+msgstr ""
+
+msgctxt "SwapDialog|"
+msgid "Add sending capacity"
+msgstr ""
+
+msgctxt "SwapDialog|"
+msgid "Choose swap provider"
+msgstr ""
+
+msgctxt "SwapDialog|"
+msgid "Ok"
+msgstr ""
+
+msgctxt "SwapDialog|"
+msgid "Cancel"
+msgstr ""
+
+msgctxt "SwapDialog|"
+msgid "Success!"
+msgstr ""
+
+msgctxt "SweepDialog|"
+msgid "Sweep private keys"
+msgstr ""
+
+msgctxt "SweepDialog|"
+msgid "Error: invalid private key(s)"
+msgstr ""
+
+msgctxt "SweepDialog|"
+msgid "Enter the list of private keys to sweep into this wallet"
+msgstr ""
+
+msgctxt "SweepDialog|"
+msgid "This will create a transaction sending all funds associated with the private keys to the current wallet"
+msgstr ""
+
+msgctxt "SweepDialog|"
+msgid "WIF keys are typed in Electrum, based on script type."
+msgstr ""
+
+msgctxt "SweepDialog|"
+msgid "A few examples"
+msgstr ""
+
+msgctxt "SweepDialog|"
+msgid "Scan a private key"
+msgstr ""
+
+msgctxt "SweepDialog|"
+msgid "Sweep..."
+msgstr ""
+
+msgctxt "TermsOfUseWizard|"
+msgid "Next"
+msgstr ""
+
+msgctxt "TxDetails|"
+msgid "On-chain Transaction"
+msgstr ""
+
+msgctxt "TxDetails|"
+msgid "Transaction is unrelated to this wallet."
+msgstr ""
+
+msgctxt "TxDetails|"
+msgid "This transaction has been replaced or removed and is no longer valid"
+msgstr ""
+
+msgctxt "TxDetails|"
+msgid "This transaction is still unconfirmed."
+msgstr ""
+
+msgctxt "TxDetails|"
+msgid "You can bump its fee to speed up its confirmation, or cancel this transaction."
+msgstr ""
+
+msgctxt "TxDetails|"
+msgid "You can bump its fee to speed up its confirmation."
+msgstr ""
+
+msgctxt "TxDetails|"
+msgid "This transaction is local to your wallet and locked for the next %1 blocks."
+msgstr ""
+
+msgctxt "TxDetails|"
+msgid "This transaction is local to your wallet. It has not been published yet."
+msgstr ""
+
+msgctxt "TxDetails|"
+msgid "This transaction is not fully signed and can be signed by this wallet."
+msgstr ""
+
+msgctxt "TxDetails|"
+msgid "This transaction is not fully signed."
+msgstr ""
+
+msgctxt "TxDetails|"
+msgid "Present this transaction to the signing wallet."
+msgstr ""
+
+msgctxt "TxDetails|"
+msgid "Present this transaction to the next cosigner."
+msgstr ""
+
+msgctxt "TxDetails|"
+msgid "Amount received onchain"
+msgstr ""
+
+msgctxt "TxDetails|"
+msgid "Amount sent onchain"
+msgstr ""
+
+msgctxt "TxDetails|"
+msgid "Amount received in channels"
+msgstr ""
+
+msgctxt "TxDetails|"
+msgid "Amount withdrawn from channels"
+msgstr ""
+
+msgctxt "TxDetails|"
+msgid "Transaction fee"
+msgstr ""
+
+msgctxt "TxDetails|"
+msgid "Transaction fee rate"
+msgstr ""
+
+msgctxt "TxDetails|"
+msgid "Status"
+msgstr ""
+
+msgctxt "TxDetails|"
+msgid "Mempool depth"
+msgstr ""
+
+msgctxt "TxDetails|"
+msgid "Date"
+msgstr ""
+
+msgctxt "TxDetails|"
+msgid "Label"
+msgstr ""
+
+msgctxt "TxDetails|"
+msgid "Technical properties"
+msgstr ""
+
+msgctxt "TxDetails|"
+msgid "Mined at"
+msgstr ""
+
+msgctxt "TxDetails|"
+msgid "Transaction ID"
+msgstr ""
+
+msgctxt "TxDetails|"
+msgid "Inputs (%1)"
+msgstr ""
+
+msgctxt "TxDetails|"
+msgid "Outputs (%1)"
+msgstr ""
+
+msgctxt "TxDetails|"
+msgid "Bump fee..."
+msgstr ""
+
+msgctxt "TxDetails|"
+msgid "Cancel Tx..."
+msgstr ""
+
+msgctxt "TxDetails|"
+msgid "Sign..."
+msgstr ""
+
+msgctxt "TxDetails|"
+msgid "Sign"
+msgstr ""
+
+msgctxt "TxDetails|"
+msgid "Confirm signing transaction despite warnings?"
+msgstr ""
+
+msgctxt "TxDetails|"
+msgid "Broadcast"
+msgstr ""
+
+msgctxt "TxDetails|"
+msgid "Share..."
+msgstr ""
+
+msgctxt "TxDetails|"
+msgid "This transaction is fully signed, but can only be broadcast after %1 blocks."
+msgstr ""
+
+msgctxt "TxDetails|"
+msgid "This transaction is fully signed, but has not been broadcast yet."
+msgstr ""
+
+msgctxt "TxDetails|"
+msgid "This transaction should be signed. Present this QR code to the signing device"
+msgstr ""
+
+msgctxt "TxDetails|"
+msgid "Note: this wallet can sign, but has not signed this transaction yet"
+msgstr ""
+
+msgctxt "TxDetails|"
+msgid "Transaction is partially signed by this wallet. Present this QR code to the next co-signer"
+msgstr ""
+
+msgctxt "TxDetails|"
+msgid "Save"
+msgstr ""
+
+msgctxt "TxDetails|"
+msgid "Remove..."
+msgstr ""
+
+msgctxt "TxDetails|"
+msgid "Transaction added to wallet history."
+msgstr ""
+
+msgctxt "TxDetails|"
+msgid "Note: this is an offline transaction, if you want the network to see it, you need to broadcast it."
+msgstr ""
+
+msgctxt "TxDetails|"
+msgid "Error"
+msgstr ""
+
+msgctxt "TxDetails|"
+msgid "Transaction was broadcast successfully"
+msgstr ""
+
+msgctxt "TxDetails|"
+msgid "Broadcast of transaction failed"
+msgstr ""
+
+msgctxt "TxDetails|"
+msgid "Transaction fee updated."
+msgstr ""
+
+msgctxt "TxDetails|"
+msgid "You still need to sign and broadcast this transaction."
+msgstr ""
+
+msgctxt "TxDetails|"
+msgid "CPFP fee bump transaction created."
+msgstr ""
+
+msgctxt "TxDetails|"
+msgid "Cancel transaction created."
+msgstr ""
+
+msgctxt "TxInput|"
+msgid "mine"
+msgstr ""
+
+msgctxt "TxInput|"
+msgid "swap"
+msgstr ""
+
+msgctxt "TxInput|"
+msgid "accounting"
+msgstr ""
+
+msgctxt "TxInput|"
+msgid "unknown amount"
+msgstr ""
+
+msgctxt "TxInput|"
+msgid "address unknown"
+msgstr ""
+
+msgctxt "TxOutput|"
+msgid "reserve"
+msgstr ""
+
+msgctxt "TxOutput|"
+msgid "accounting"
+msgstr ""
+
+msgctxt "TxOutput|"
+msgid "mine"
+msgstr ""
+
+msgctxt "TxOutput|"
+msgid "swap"
+msgstr ""
+
+msgctxt "TxOutput|"
+msgid "billing"
+msgstr ""
+
+msgctxt "TxOutput|"
+msgid "Tx Output"
+msgstr ""
+
+msgctxt "WCConfirmExt|"
+msgid "Please enter your custom word(s) a second time:"
+msgstr ""
+
+msgctxt "WCConfirmExt|"
+msgid "Enter your custom word(s) here"
+msgstr ""
+
+msgctxt "WCConfirmSeed|"
+msgid "Your seed is important!"
+msgstr ""
+
+msgctxt "WCConfirmSeed|"
+msgid "If you lose your seed, your money will be permanently lost."
+msgstr ""
+
+msgctxt "WCConfirmSeed|"
+msgid "To make sure that you have properly saved your seed, please retype it here."
+msgstr ""
+
+msgctxt "WCConfirmSeed|"
+msgid "Confirm your seed (re-enter)"
+msgstr ""
+
+msgctxt "WCConfirmSeed|"
+msgid "Enter your seed"
+msgstr ""
+
+msgctxt "WCCosignerKeystore|"
+msgid "Here is your master public key. Please share it with your cosigners"
+msgstr ""
+
+msgctxt "WCCosignerKeystore|"
+msgid "Master public key"
+msgstr ""
+
+msgctxt "WCCosignerKeystore|"
+msgid "Add cosigner #%1 of %2 to your multi-sig wallet"
+msgstr ""
+
+msgctxt "WCCosignerKeystore|"
+msgid "Cosigner key"
+msgstr ""
+
+msgctxt "WCCosignerKeystore|"
+msgid "Cosigner seed"
+msgstr ""
+
+msgctxt "WCCreateSeed|"
+msgid "Please save these %1 words on paper (order is important)."
+msgstr ""
+
+msgctxt "WCCreateSeed|"
+msgid "This seed will allow you to recover your wallet in case of computer failure."
+msgstr ""
+
+msgctxt "WCCreateSeed|"
+msgid "WARNING"
+msgstr ""
+
+msgctxt "WCCreateSeed|"
+msgid "Never disclose your seed."
+msgstr ""
+
+msgctxt "WCCreateSeed|"
+msgid "Never type it on a website."
+msgstr ""
+
+msgctxt "WCCreateSeed|"
+msgid "Do not store it electronically."
+msgstr ""
+
+msgctxt "WCCreateSeed|"
+msgid "Your wallet generation seed is:"
+msgstr ""
+
+msgctxt "WCEnterExt|"
+msgid "Error: duplicate master public key"
+msgstr ""
+
+msgctxt "WCEnterExt|"
+msgid "You may extend your seed with custom words."
+msgstr ""
+
+msgctxt "WCEnterExt|"
+msgid "Your seed extension must be saved together with your seed."
+msgstr ""
+
+msgctxt "WCEnterExt|"
+msgid "Note that this is NOT your encryption password."
+msgstr ""
+
+msgctxt "WCEnterExt|"
+msgid "Do not enable it unless you know what it does!"
+msgstr ""
+
+msgctxt "WCEnterExt|"
+msgid "Extend seed with custom words"
+msgstr ""
+
+msgctxt "WCEnterExt|"
+msgid "Enter your custom word(s)"
+msgstr ""
+
+msgctxt "WCHaveMasterKey|"
+msgid "Error: invalid master key"
+msgstr ""
+
+msgctxt "WCHaveMasterKey|"
+msgid "Error: duplicate master public key"
+msgstr ""
+
+msgctxt "WCHaveMasterKey|"
+msgid "Error: master public key types do not match"
+msgstr ""
+
+msgctxt "WCHaveMasterKey|"
+msgid "Here is your master public key. Please share it with your cosigners"
+msgstr ""
+
+msgctxt "WCHaveMasterKey|"
+msgid "Master public key"
+msgstr ""
+
+msgctxt "WCHaveMasterKey|"
+msgid "Cosigner #%1 of %2"
+msgstr ""
+
+msgctxt "WCHaveMasterKey|"
+msgid "Please enter the master public key (xpub) of your cosigner."
+msgstr ""
+
+msgctxt "WCHaveMasterKey|"
+msgid "Enter their master private key (xprv) if you want to be able to sign for them."
+msgstr ""
+
+msgctxt "WCHaveMasterKey|"
+msgid "Please enter your master private key (xprv)."
+msgstr ""
+
+msgctxt "WCHaveMasterKey|"
+msgid "You can also enter a public key (xpub) here, but be aware you will then create a watch-only wallet if all cosigners are added using public keys"
+msgstr ""
+
+msgctxt "WCHaveMasterKey|"
+msgid "Scan a cosigner master public key"
+msgstr ""
+
+msgctxt "WCHaveMasterKey|"
+msgid "Scan a master key"
+msgstr ""
+
+msgctxt "WCHaveSeed|"
+msgid "Electrum seeds are the default seed type."
+msgstr ""
+
+msgctxt "WCHaveSeed|"
+msgid "If you are restoring from a seed previously created by Electrum, choose this option"
+msgstr ""
+
+msgctxt "WCHaveSeed|"
+msgid "BIP39 seeds can be imported in Electrum, so that users can access funds locked in other wallets."
+msgstr ""
+
+msgctxt "WCHaveSeed|"
+msgid "BIP39 seeds do not include a version number, which compromises compatibility with future software."
+msgstr ""
+
+msgctxt "WCHaveSeed|"
+msgid "SLIP39 seeds can be imported in Electrum, so that users can access funds locked in other wallets."
+msgstr ""
+
+msgctxt "WCHaveSeed|"
+msgid "Error: duplicate master public key"
+msgstr ""
+
+msgctxt "WCHaveSeed|"
+msgid "Error: master public key types do not match"
+msgstr ""
+
+msgctxt "WCHaveSeed|"
+msgid "Here is your master public key. Please share it with your cosigners"
+msgstr ""
+
+msgctxt "WCHaveSeed|"
+msgid "Master public key"
+msgstr ""
+
+msgctxt "WCHaveSeed|"
+msgid "Cosigner #%1 of %2"
+msgstr ""
+
+msgctxt "WCHaveSeed|"
+msgid "Seed Type"
+msgstr ""
+
+msgctxt "WCHaveSeed|"
+msgid "Enter cosigner seed"
+msgstr ""
+
+msgctxt "WCHaveSeed|"
+msgid "Enter your seed"
+msgstr ""
+
+msgctxt "WCImport|"
+msgid "Enter a list of Bitcoin addresses (this will create a watching-only wallet), or a list of private keys."
+msgstr ""
+
+msgctxt "WCImport|"
+msgid "Scan another address"
+msgstr ""
+
+msgctxt "WCImport|"
+msgid "Scan another private key"
+msgstr ""
+
+msgctxt "WCImport|"
+msgid "Scan a private key or an address"
+msgstr ""
+
+msgctxt "WCKeystoreType|"
+msgid "Do you want to create a new seed, restore using an existing seed, or restore from master key?"
+msgstr ""
+
+msgctxt "WCKeystoreType|"
+msgid "Create a new seed"
+msgstr ""
+
+msgctxt "WCKeystoreType|"
+msgid "I already have a seed"
+msgstr ""
+
+msgctxt "WCKeystoreType|"
+msgid "Use a master key"
+msgstr ""
+
+msgctxt "WCKeystoreType|"
+msgid "Use a hardware device"
+msgstr ""
+
+msgctxt "WCMultisig|"
+msgid "Choose the number of participants, and the number of signatures needed to unlock funds in your wallet."
+msgstr ""
+
+msgctxt "WCMultisig|"
+msgid "Number of cosigners: %1"
+msgstr ""
+
+msgctxt "WCMultisig|"
+msgid "Number of signatures: %1"
+msgstr ""
+
+msgctxt "WCProxyConfig|"
+msgid "Proxy"
+msgstr ""
+
+msgctxt "WCScriptAndDerivation|"
+msgid "Invalid derivation path"
+msgstr ""
+
+msgctxt "WCScriptAndDerivation|"
+msgid "Error: duplicate master public key"
+msgstr ""
+
+msgctxt "WCScriptAndDerivation|"
+msgid "Error: master public key types do not match"
+msgstr ""
+
+msgctxt "WCScriptAndDerivation|"
+msgid "Choose the type of addresses in your wallet."
+msgstr ""
+
+msgctxt "WCScriptAndDerivation|"
+msgid "legacy (p2pkh)"
+msgstr ""
+
+msgctxt "WCScriptAndDerivation|"
+msgid "wrapped segwit (p2wpkh-p2sh)"
+msgstr ""
+
+msgctxt "WCScriptAndDerivation|"
+msgid "native segwit (p2wpkh)"
+msgstr ""
+
+msgctxt "WCScriptAndDerivation|"
+msgid "legacy multisig (p2sh)"
+msgstr ""
+
+msgctxt "WCScriptAndDerivation|"
+msgid "p2sh-segwit multisig (p2wsh-p2sh)"
+msgstr ""
+
+msgctxt "WCScriptAndDerivation|"
+msgid "native segwit multisig (p2wsh)"
+msgstr ""
+
+msgctxt "WCScriptAndDerivation|"
+msgid "You can override the suggested derivation path."
+msgstr ""
+
+msgctxt "WCScriptAndDerivation|"
+msgid "If you are not sure what this is, leave this field unchanged."
+msgstr ""
+
+msgctxt "WCScriptAndDerivation|"
+msgid "Derivation path"
+msgstr ""
+
+msgctxt "WCScriptAndDerivation|"
+msgid "Detect Existing Accounts"
+msgstr ""
+
+msgctxt "WCServerConfig|"
+msgid "Server"
+msgstr ""
+
+msgctxt "WCTermsOfUseRequest|"
+msgid "Terms of Use"
+msgstr ""
+
+msgctxt "WCWalletName|"
+msgid "Wallet name"
+msgstr ""
+
+msgctxt "WCWalletPassword|"
+msgid "Enter a password to secure access to your wallet"
+msgstr ""
+
+msgctxt "WCWalletPassword|"
+msgid "Enter your existing wallet password"
+msgstr ""
+
+msgctxt "WCWalletPassword|"
+msgid "Enter password"
+msgstr ""
+
+msgctxt "WCWalletPassword|"
+msgid "Enter password (again)"
+msgstr ""
+
+msgctxt "WCWalletPassword|"
+msgid "Strength"
+msgstr ""
+
+msgctxt "WCWalletPassword|"
+msgid "Passwords don't match"
+msgstr ""
+
+msgctxt "WCWalletPassword|"
+msgid "Password too short"
+msgstr ""
+
+msgctxt "WCWalletPassword|"
+msgid "Use the password of any existing wallet."
+msgstr ""
+
+msgctxt "WCWalletPassword|"
+msgid "Creating new wallets with different passwords is not supported."
+msgstr ""
+
+msgctxt "WCWalletPassword|"
+msgid "Password does not match any existing wallets password."
+msgstr ""
+
+msgctxt "WCWalletType|"
+msgid "What kind of wallet do you want to create?"
+msgstr ""
+
+msgctxt "WCWalletType|"
+msgid "Standard Wallet"
+msgstr ""
+
+msgctxt "WCWalletType|"
+msgid "Wallet with two-factor authentication"
+msgstr ""
+
+msgctxt "WCWalletType|"
+msgid "Multi-signature wallet"
+msgstr ""
+
+msgctxt "WCWalletType|"
+msgid "Import Bitcoin addresses or private keys"
+msgstr ""
+
+msgctxt "WCWelcome|"
+msgid "Network Configuration"
+msgstr ""
+
+msgctxt "WCWelcome|"
+msgid "Optional settings to customize your network connection"
+msgstr ""
+
+msgctxt "WCWelcome|"
+msgid "Configure Proxy"
+msgstr ""
+
+msgctxt "WCWelcome|"
+msgid "Select Server"
+msgstr ""
+
+msgctxt "WCWelcome|"
+msgid "If you are unsure what this is, leave them unchecked and Electrum will automatically select servers."
+msgstr ""
+
+msgctxt "WalletDetails|"
+msgid "Enable Lightning for this wallet?"
+msgstr ""
+
+msgctxt "WalletDetails|"
+msgid "Wallet details"
+msgstr ""
+
+msgctxt "WalletDetails|"
+msgid "HD"
+msgstr ""
+
+msgctxt "WalletDetails|"
+msgid "Watch only"
+msgstr ""
+
+msgctxt "WalletDetails|"
+msgid "Encrypted"
+msgstr ""
+
+msgctxt "WalletDetails|"
+msgid "HW"
+msgstr ""
+
+msgctxt "WalletDetails|"
+msgid "Lightning"
+msgstr ""
+
+msgctxt "WalletDetails|"
+msgid "Seed"
+msgstr ""
+
+msgctxt "WalletDetails|"
+msgid "Name"
+msgstr ""
+
+msgctxt "WalletDetails|"
+msgid "Tap to show seed"
+msgstr ""
+
+msgctxt "WalletDetails|"
+msgid "Seed Extension"
+msgstr ""
+
+msgctxt "WalletDetails|"
+msgid "Lightning Node ID"
+msgstr ""
+
+msgctxt "WalletDetails|"
+msgid "2FA"
+msgstr ""
+
+msgctxt "WalletDetails|"
+msgid "disabled (can sign without server)"
+msgstr ""
+
+msgctxt "WalletDetails|"
+msgid "enabled"
+msgstr ""
+
+msgctxt "WalletDetails|"
+msgid "Remaining TX"
+msgstr ""
+
+msgctxt "WalletDetails|"
+msgid "unknown"
+msgstr ""
+
+msgctxt "WalletDetails|"
+msgid "Billing"
+msgstr ""
+
+msgctxt "WalletDetails|"
+msgid "Keystore"
+msgstr ""
+
+msgctxt "WalletDetails|"
+msgid "Keystore type"
+msgstr ""
+
+msgctxt "WalletDetails|"
+msgid "Imported addresses"
+msgstr ""
+
+msgctxt "WalletDetails|"
+msgid "Imported keys"
+msgstr ""
+
+msgctxt "WalletDetails|"
+msgid "Derivation prefix"
+msgstr ""
+
+msgctxt "WalletDetails|"
+msgid "BIP32 fingerprint"
+msgstr ""
+
+msgctxt "WalletDetails|"
+msgid "Master Public Key"
+msgstr ""
+
+msgctxt "WalletDetails|"
+msgid "Delete Wallet..."
+msgstr ""
+
+msgctxt "WalletDetails|"
+msgid "Change Password"
+msgstr ""
+
+msgctxt "WalletDetails|"
+msgid "Add addresses"
+msgstr ""
+
+msgctxt "WalletDetails|"
+msgid "Add keys"
+msgstr ""
+
+msgctxt "WalletDetails|"
+msgid "Enable Lightning"
+msgstr ""
+
+msgctxt "WalletDetails|"
+msgid "Enter new password"
+msgstr ""
+
+msgctxt "WalletDetails|"
+msgid "If you forget your password, you'll need to restore from seed. Please make sure you have your seed stored safely"
+msgstr ""
+
+msgctxt "WalletDetails|"
+msgid "Success"
+msgstr ""
+
+msgctxt "WalletDetails|"
+msgid "Error"
+msgstr ""
+
+msgctxt "WalletDetails|"
+msgid "Password changed"
+msgstr ""
+
+msgctxt "WalletDetails|"
+msgid "Password change failed"
+msgstr ""
+
+msgctxt "WalletDetails|"
+msgid "Warning"
+msgstr ""
+
+msgctxt "WalletDetails|"
+msgid "The new password needs to match the password of any other existing wallet."
+msgstr ""
+
+msgctxt "WalletDetails|"
+msgid "You need to use the password of any other existing wallet."
+msgstr ""
+
+msgctxt "WalletDetails|"
+msgid "Using different wallet passwords is not supported."
+msgstr ""
+
+msgctxt "WalletDetails|"
+msgid "Biometric Authentication"
+msgstr ""
+
+msgctxt "WalletDetails|"
+msgid "Biometric authentication disabled. You can enable it again in the settings."
+msgstr ""
+
+msgctxt "WalletDetails|"
+msgid "Failed to update biometric authentication to new password: "
+msgstr ""
+
+msgctxt "WalletMainView|"
+msgid "Scan an Invoice, an Address, an LNURL, a PSBT or a Channel Backup"
+msgstr ""
+
+msgctxt "WalletMainView|"
+msgid "Scan an Invoice, an Address, an LNURL or a PSBT"
+msgstr ""
+
+msgctxt "WalletMainView|"
+msgid "Import Channel Backup?"
+msgstr ""
+
+msgctxt "WalletMainView|"
+msgid "Warning: Some data (prev txs / \"full utxos\") was left out of the QR code as it would not fit."
+msgstr ""
+
+msgctxt "WalletMainView|"
+msgid "This might cause issues if signing offline."
+msgstr ""
+
+msgctxt "WalletMainView|"
+msgid "As a workaround, copy to clipboard or use the Share option instead."
+msgstr ""
+
+msgctxt "WalletMainView|"
+msgid "Sweep transaction"
+msgstr ""
+
+msgctxt "WalletMainView|"
+msgid "Total sweep amount"
+msgstr ""
+
+msgctxt "WalletMainView|"
+msgid "Sweep..."
+msgstr ""
+
+msgctxt "WalletMainView|"
+msgid "Sweep"
+msgstr ""
+
+msgctxt "WalletMainView|"
+msgid "Confirm Sweep"
+msgstr ""
+
+msgctxt "WalletMainView|"
+msgid "Current wallet is watch-only. You might not be able to spend from these addresses.\n\n"
+"Are you sure?"
+msgstr ""
+
+msgctxt "WalletMainView|"
+msgid "Wallet details"
+msgstr ""
+
+msgctxt "WalletMainView|"
+msgid "Addresses/Coins"
+msgstr ""
+
+msgctxt "WalletMainView|"
+msgid "Channels"
+msgstr ""
+
+msgctxt "WalletMainView|"
+msgid "Sign/Verify Message"
+msgstr ""
+
+msgctxt "WalletMainView|"
+msgid "Verify Message"
+msgstr ""
+
+msgctxt "WalletMainView|"
+msgid "Sweep key(s)"
+msgstr ""
+
+msgctxt "WalletMainView|"
+msgid "Other wallets"
+msgstr ""
+
+msgctxt "WalletMainView|"
+msgid "Receive"
+msgstr ""
+
+msgctxt "WalletMainView|"
+msgid "Send"
+msgstr ""
+
+msgctxt "WalletMainView|"
+msgid "Error"
+msgstr ""
+
+msgctxt "WalletMainView|"
+msgid "Cannot save invoice"
+msgstr ""
+
+msgctxt "WalletMainView|"
+msgid "Payment failed"
+msgstr ""
+
+msgctxt "WalletMainView|"
+msgid "You do not have enough on-chain funds to protect your Lightning channels."
+msgstr ""
+
+msgctxt "WalletMainView|"
+msgid "You should have at least %1 on-chain in order to be able to sweep channel outputs."
+msgstr ""
+
+msgctxt "WalletMainView|"
+msgid "Do you want to perform a swap?"
+msgstr ""
+
+msgctxt "WalletMainView|"
+msgid "Insufficient balance to pay over Lightning. Pay on-chain instead?"
+msgstr ""
+
+msgctxt "WalletMainView|"
+msgid "Cannot import Channel Backup, Lightning not enabled."
+msgstr ""
+
+msgctxt "WalletMainView|"
+msgid "Confirm Payment"
+msgstr ""
+
+msgctxt "WalletMainView|"
+msgid "Transaction created. Present this QR code to one of the co-cigners or signing devices"
+msgstr ""
+
+msgctxt "WalletMainView|"
+msgid "Transaction created. Present this QR code to the signing device"
+msgstr ""
+
+msgctxt "WalletMainView|"
+msgid "Transaction created and partially signed by this wallet. Present this QR code to the next co-signer"
+msgstr ""
+
+msgctxt "WalletMainView|"
+msgid "Transaction created but not signed by this wallet yet. Sign the transaction and present this QR code to the next co-signer"
+msgstr ""
+
+msgctxt "WalletMainView|"
+msgid "Could not sign tx"
+msgstr ""
+
+msgctxt "Wallets|"
+msgid "Wallets"
+msgstr ""
+
+msgctxt "Wallets|"
+msgid "Current"
+msgstr ""
+
+msgctxt "Wallets|"
+msgid "Active"
+msgstr ""
+
+msgctxt "Wallets|"
+msgid "Not loaded"
+msgstr ""
+
+msgctxt "Wallets|"
+msgid "Create Wallet"
+msgstr ""
+
+msgctxt "Wallets|"
+msgid "Wallet unlock required"
+msgstr ""
+
+msgctxt "Wallets|"
+msgid "You have to unlock any existing wallet first before creating a new wallet."
+msgstr ""
+
+msgctxt "Wizard|"
+msgid "Cancel"
+msgstr ""
+
+msgctxt "Wizard|"
+msgid "Back"
+msgstr ""
+
+msgctxt "Wizard|"
+msgid "Next"
+msgstr ""
+
+msgctxt "Wizard|"
+msgid "Finish"
+msgstr ""
+
+msgctxt "main|"
+msgid "Network"
+msgstr ""
+
+msgctxt "main|"
+msgid "Preferences"
+msgstr ""
+
+msgctxt "main|"
+msgid "About"
+msgstr ""
+
+msgctxt "main|"
+msgid "Error"
+msgstr ""
+
+msgctxt "main|"
+msgid "Close Electrum?"
+msgstr ""
+
+msgctxt "main|"
+msgid "Payment succeeded"
+msgstr ""
+
+msgctxt "main|"
+msgid "Payment failed"
+msgstr ""
+
+msgctxt "main|"
+msgid "Invalid Password"
+msgstr ""
+

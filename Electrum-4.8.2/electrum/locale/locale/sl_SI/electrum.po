@@ -1,0 +1,274 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: electrum\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-02 08:02+0000\n"
+"PO-Revision-Date: 2026-07-02 08:02\n"
+"Last-Translator: \n"
+"Language-Team: Slovenian\n"
+"Language: sl_SI\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Qt-Contexts: true\n"
+"X-Electrum-SourceStringCount: 2738\n"
+"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3;\n"
+"X-Crowdin-Project: electrum\n"
+"X-Crowdin-Project-ID: 20482\n"
+"X-Crowdin-Language: sl\n"
+"X-Crowdin-File: /electrum-client/messages.pot\n"
+"X-Crowdin-File-ID: 68\n"
+
+msgid "Error"
+msgstr "Napaka"
+
+msgid "Not enough funds"
+msgstr "Premalo sredstev"
+
+msgid "Amount"
+msgstr "Znesek"
+
+msgid "Synchronizing..."
+msgstr "Sinhroniziram..."
+
+msgid "Address"
+msgstr "Naslov"
+
+msgid "Balance"
+msgstr "Stanje"
+
+msgid "OK"
+msgstr "V redu"
+
+msgid "Pay to"
+msgstr "Prejemnik"
+
+msgid "Description"
+msgstr "Opis"
+
+msgid "Message"
+msgstr "Sporočilo"
+
+msgid "History"
+msgstr "Zgodovina"
+
+msgid "Send"
+msgstr "Pošlji"
+
+msgid "Receive"
+msgstr "Prejmi"
+
+msgid "&Documentation"
+msgstr "Dokumentacija"
+
+msgid "Not connected"
+msgstr "Niste povezani"
+
+msgid "Invalid Address"
+msgstr "Neveljaven naslov"
+
+msgid "Password"
+msgstr "Geslo"
+
+msgid "New Contact"
+msgstr "Nov kontakt"
+
+msgid "Please enter your password"
+msgstr "Prosim vnesite geslo"
+
+msgid "Save"
+msgstr "Shrani"
+
+msgid "Invalid Amount"
+msgstr "Neveljaven znesek"
+
+msgid "Payment sent."
+msgstr "Nakazilo je poslano."
+
+msgid "Fee"
+msgstr "Provizija"
+
+msgid "Invalid Bitcoin Address"
+msgstr "Neveljaven Bitcoin naslov"
+
+msgid "10 minutes"
+msgstr "10 minut"
+
+msgid "1 hour"
+msgstr "1 ura"
+
+msgid "1 day"
+msgstr "1 dan"
+
+msgid "1 week"
+msgstr "1 teden"
+
+msgid "Number of zeros displayed after the decimal point. For example, if this is set to 2, \"1.\" will be displayed as \"1.00\""
+msgstr "Število decimalk"
+
+msgctxt "AddressDetails|"
+msgid "Address"
+msgstr "Naslov"
+
+msgctxt "AddressDetails|"
+msgid "Balance"
+msgstr "Stanje"
+
+msgctxt "BalanceSummary|"
+msgid "Balance"
+msgstr "Stanje"
+
+msgctxt "BtcField|"
+msgid "Amount"
+msgstr "Znesek"
+
+msgctxt "ConfirmTxDialog|"
+msgid "Fee"
+msgstr "Provizija"
+
+msgctxt "ExceptionDialog|"
+msgid "Error"
+msgstr "Napaka"
+
+msgctxt "FiatField|"
+msgid "Amount"
+msgstr "Znesek"
+
+msgctxt "InvoiceDialog|"
+msgid "Address"
+msgstr "Naslov"
+
+msgctxt "InvoiceDialog|"
+msgid "Description"
+msgstr "Opis"
+
+msgctxt "InvoiceDialog|"
+msgid "Save"
+msgstr "Shrani"
+
+msgctxt "InvoiceDialog|"
+msgid "Payment sent."
+msgstr "Nakazilo je poslano."
+
+msgctxt "LnurlPayRequestDialog|"
+msgid "Description"
+msgstr "Opis"
+
+msgctxt "LnurlPayRequestDialog|"
+msgid "Amount"
+msgstr "Znesek"
+
+msgctxt "LnurlPayRequestDialog|"
+msgid "Message"
+msgstr "Sporočilo"
+
+msgctxt "LnurlWithdrawRequestDialog|"
+msgid "Description"
+msgstr "Opis"
+
+msgctxt "LnurlWithdrawRequestDialog|"
+msgid "Amount"
+msgstr "Znesek"
+
+msgctxt "MessageDialog|"
+msgid "Message"
+msgstr "Sporočilo"
+
+msgctxt "NewWalletWizard|"
+msgid "Error"
+msgstr "Napaka"
+
+msgctxt "NostrSwapServersDialog|"
+msgid "Fee"
+msgstr "Provizija"
+
+msgctxt "OpenChannelDialog|"
+msgid "Error"
+msgstr "Napaka"
+
+msgctxt "OpenWalletDialog|"
+msgid "Password"
+msgstr "Geslo"
+
+msgctxt "PasswordDialog|"
+msgid "Password"
+msgstr "Geslo"
+
+msgctxt "ProxyConfig|"
+msgid "Address"
+msgstr "Naslov"
+
+msgctxt "ProxyConfig|"
+msgid "Password"
+msgstr "Geslo"
+
+msgctxt "ReceiveDetailsDialog|"
+msgid "Message"
+msgstr "Sporočilo"
+
+msgctxt "ReceiveDetailsDialog|"
+msgid "Amount"
+msgstr "Znesek"
+
+msgctxt "ReceiveDialog|"
+msgid "Message"
+msgstr "Sporočilo"
+
+msgctxt "ReceiveDialog|"
+msgid "Amount"
+msgstr "Znesek"
+
+msgctxt "RequestExpiryComboBox|"
+msgid "10 minutes"
+msgstr "10 minut"
+
+msgctxt "RequestExpiryComboBox|"
+msgid "1 hour"
+msgstr "1 ura"
+
+msgctxt "RequestExpiryComboBox|"
+msgid "1 day"
+msgstr "1 dan"
+
+msgctxt "RequestExpiryComboBox|"
+msgid "1 week"
+msgstr "1 teden"
+
+msgctxt "SignVerifyMessageDialog|"
+msgid "Address"
+msgstr "Naslov"
+
+msgctxt "SignVerifyMessageDialog|"
+msgid "Message"
+msgstr "Sporočilo"
+
+msgctxt "TxDetails|"
+msgid "Save"
+msgstr "Shrani"
+
+msgctxt "TxDetails|"
+msgid "Error"
+msgstr "Napaka"
+
+msgctxt "WalletDetails|"
+msgid "Error"
+msgstr "Napaka"
+
+msgctxt "WalletMainView|"
+msgid "Receive"
+msgstr "Prejmi"
+
+msgctxt "WalletMainView|"
+msgid "Send"
+msgstr "Pošlji"
+
+msgctxt "WalletMainView|"
+msgid "Error"
+msgstr "Napaka"
+
+msgctxt "main|"
+msgid "Error"
+msgstr "Napaka"

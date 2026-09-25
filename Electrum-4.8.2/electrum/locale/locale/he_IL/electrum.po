@@ -1,0 +1,3794 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: electrum\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-02 08:02+0000\n"
+"PO-Revision-Date: 2026-07-02 08:02\n"
+"Last-Translator: \n"
+"Language-Team: Hebrew\n"
+"Language: he_IL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Qt-Contexts: true\n"
+"X-Electrum-SourceStringCount: 2738\n"
+"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3;\n"
+"X-Crowdin-Project: electrum\n"
+"X-Crowdin-Project-ID: 20482\n"
+"X-Crowdin-Language: he\n"
+"X-Crowdin-File: /electrum-client/messages.pot\n"
+"X-Crowdin-File-ID: 68\n"
+
+msgid "Something went wrong while executing Electrum."
+msgstr "משהו השתבש במהלך הרצת אלקטרום."
+
+msgid "Sorry!"
+msgstr "מצטערים!"
+
+msgid "To help us diagnose and fix the problem, you can send us a bug report that contains useful debug information:"
+msgstr "כדי לעזור לנו לאבחן ולתקן את הבעיה, תוכל לשלוח אלינו דו\"ח באגים שיכיל בתוכו מידע דיבוג שימושי:"
+
+msgid "Please briefly describe what led to the error (optional):"
+msgstr "נא לתאר בקצרה מה הוביל לשגיאה (לא חובה):"
+
+msgid "Do you want to send this report?"
+msgstr "האם ברצונך לשלוח את הדו\"ח הזה?"
+
+msgid "Do not enter sensitive/private information here. The report will be visible on the public issue tracker."
+msgstr "לא להזין מידע רגיש/פרטי כאן. הדו\"ח יופיע לעיני כל במעקב העניינים הציבורי."
+
+msgid "Missing report URL."
+msgstr "חסר הURL של הדו\"ח."
+
+msgid "  (No FX rate available)"
+msgstr "(שער המרה לא זמין)"
+
+msgid "No data"
+msgstr "אין נתונים"
+
+msgid "ETA"
+msgstr "זמן הגעה משוער"
+
+msgid "Mempool"
+msgstr "מאגר העסקאות הלא מאושרות"
+
+msgid "Low fee"
+msgstr "עמלה נמוכה"
+
+msgid "In the next block"
+msgstr "בבלוק הבא"
+
+msgid "Within {} blocks"
+msgstr "תוך {} בלוקים"
+
+msgid "Target"
+msgstr "יעד"
+
+msgid "Current rate"
+msgstr "תעריף נוכחי"
+
+msgid "Fixed rate"
+msgstr "שיעור קבוע"
+
+msgid "Estimate"
+msgstr "הערכה"
+
+msgid "Please note that channel backups cannot be used to restore your channels."
+msgstr "נא לשים לב שלא ניתן להשתמש בגיבויי ערוץ כדי לשחזר את הערוצים שלך."
+
+msgid "If you lose your wallet file, the only thing you can do with a backup is to request your channel to be closed, so that your funds will be sent on-chain."
+msgstr "אם אתה מאבד את קובץ הארנק שלך, הדבר היחיד שתוכל לעשות עם גיבוי הוא לבקש סגירת הערוץ שלך, כדי שממונך יישלח על השרשרת."
+
+msgid "This transaction requires a higher fee, or it will not be propagated by your current server."
+msgstr "העסקה הזאת מצריכה עמלה גבוהה יותר, אחרת היא לא תופץ על ידי השרת הנוכחי שלך."
+
+msgid "There was a problem with the automatic reporting:"
+msgstr "היתה בעיה עם הדיווח האוטומטי:"
+
+msgid "Please report this issue manually"
+msgstr "נא לדווח על עניין זה באופן ידני"
+
+msgid "If you force-close this channel, the funds you have in it will not be available for {} blocks."
+msgstr "אם תסגור בכוח את הערוץ הזה, הממון הנמצא בו לא יהיה זמין למשך {} בלוקים."
+
+msgid "During that time, funds will not be recoverable from your seed, and may be lost if you lose your device."
+msgstr "במשך הזמן ההוא, לא יהיה ניתן לשחזר ממון מהזרע שלך, ועלולים ללכת לאיבוד אם תאבד את ההֶתְקֵן שלך."
+
+msgid "To prevent that, please save this channel backup."
+msgstr "כדי למנוע זאת, נא לשמור את גיבוי הערוץ הזה."
+
+msgid "It may be imported in another wallet with the same seed."
+msgstr "ניתן לייבא אותו לארנק אחר עם אותו זרע."
+
+msgid "Could not close channel: "
+msgstr "לא מצליח לסגור ערוץ:"
+
+msgid "This invoice has expired"
+msgstr "פג תוקף החשבונית הזאת"
+
+msgid "Error"
+msgstr "שגיאה"
+
+msgid "Are you sure you want to remove this transaction?"
+msgstr "האם אתה בטוח שברצונך למחוק עסקה זו?"
+
+msgid "Are you sure you want to remove this transaction and {} child transactions?"
+msgstr "האם אתה בטוח שברצונך להסיר את העסקה הזאת ו {} העסקאות הבנויות עליה?"
+
+msgid "Warning"
+msgstr "אזהרה"
+
+msgid "The new fee rate needs to be higher than the old fee rate."
+msgstr "שיעור העמלה החדש חייב להיות גבוה יותר משיעור העמלה הישן."
+
+msgid "Can't CPFP: unknown fee for parent transaction."
+msgstr "לא ניתן לבצע תשלום עבור הורה על ידי צאצא (CPFP): עמלה לא ידועה לעסקת הורה"
+
+msgid "Max fee exceeded"
+msgstr "עברת את העמלה המקסימלית"
+
+msgid "Not enough funds"
+msgstr "אין מספיק כסף"
+
+msgid "Amount"
+msgstr "סכום"
+
+msgid "Synchronizing..."
+msgstr "מסנכרן..."
+
+msgid "Transaction could not be saved."
+msgstr "לא ניתן לשמור את העסקה."
+
+msgid "It conflicts with current history."
+msgstr "הוא סותר את ההיסטוריה הנוכחית."
+
+msgid "Pay lightning invoice?"
+msgstr "לשלם חשבונית לייטנינג?"
+
+msgid "Network"
+msgstr "רשת"
+
+msgid "Lightning Network"
+msgstr "רשת לייטנינג"
+
+msgid "Show/Hide"
+msgstr "הצגה / הסתרה"
+
+msgid "Close"
+msgstr "סגירה"
+
+msgid "Dark/Light"
+msgstr "כהה\\בהיר"
+
+msgid "Exit Electrum"
+msgstr "צא מאלקטרום"
+
+msgid "Cannot load wallet"
+msgstr "לא ניתן לטעון ארנק"
+
+msgid "Address"
+msgstr "כתובת"
+
+msgid "Public keys"
+msgstr "מפתחות ציבוריים"
+
+msgid "Redeem Script"
+msgstr "תסריט פדיון"
+
+msgid "Witness Script"
+msgstr "תסריט Witness"
+
+msgid "Derivation path"
+msgstr "נתיב גזירה"
+
+msgid "Unused"
+msgstr "לא בשימוש"
+
+msgid "Funded"
+msgstr "ממומן"
+
+msgid "Receiving"
+msgstr "מקבל"
+
+msgid "Change"
+msgstr "עודף"
+
+msgid "Fiat"
+msgstr "פיאט"
+
+msgid "Label"
+msgstr "תווית"
+
+msgid "Balance"
+msgstr "מאזן"
+
+msgid "Details"
+msgstr "פרטים"
+
+msgid "Edit {}"
+msgstr "ערוך {}"
+
+msgid "Private key"
+msgstr "מפתח פרטי"
+
+msgid "Sign/verify message"
+msgstr "חתום/וודא הודעה"
+
+msgid "Encrypt/decrypt message"
+msgstr "הצפן/פענח הודעה"
+
+msgid "Remove from wallet"
+msgstr "הסר מהארנק"
+
+msgid "View on block explorer"
+msgstr "צפייה על סורק בלוקים"
+
+msgid "Freeze"
+msgstr "להקפיא"
+
+msgid "Unfreeze"
+msgstr "הפשרה"
+
+msgid "Unconfirmed"
+msgstr "לא מאושר"
+
+msgid "Lightning"
+msgstr "לייטנינג"
+
+msgid "BIP39 Recovery"
+msgstr "שחזור BIP39"
+
+msgid "Scanning common paths for existing accounts..."
+msgstr "סורק מסלולים משותפים לחשבונות קיימים..."
+
+msgid "No existing accounts found."
+msgstr "לא נמצאו חשבונות קיימים."
+
+msgid "Choose an account to restore."
+msgstr "בחירת חשבון לשחזור"
+
+msgid "Error: Account discovery failed."
+msgstr "שגיאה: גלוי חשבון נכשל."
+
+msgid "Channel Backup"
+msgstr "גיבוי ערוץ"
+
+msgid "Payments (HTLCs):"
+msgstr "תשלומים (חוזים-מגובבים-נעולים-בזמן HTLCs)"
+
+msgid "Sent HTLC with ID {}"
+msgstr "שלח חוזה-מגובב-נעול-בזמן (HTLC) עם מזהה {}"
+
+msgid "CLTV expiry"
+msgstr "תפוגת CLTV"
+
+msgid "Payment hash"
+msgstr "גיבוב תשלום"
+
+msgid "Fulfilled HTLCs"
+msgstr "חוזים נעולים-בזמן מגובבים (HTLC) משולמים"
+
+msgid "HTLCs in current commitment transaction"
+msgstr "חוזים נעולים-בזמן מגובבים (HTLC) בעסקת ההתחייבות הנוכחית"
+
+msgid "Failed HTLCs"
+msgstr "חוזים נעולים-בזמן מגובבים (HTLC) נכשלים"
+
+msgid "Remote Node ID"
+msgstr "מזהה צומת מרוחק"
+
+msgid "Channel ID"
+msgstr "מזהה ערוץ"
+
+msgid "Short Channel ID"
+msgstr "מזהה ערוץ מקוצר"
+
+msgid "Capacity"
+msgstr "קיבולת"
+
+msgid "Initiator:"
+msgstr "יוזם:"
+
+msgid "Can send"
+msgstr "ניתן לשלוח"
+
+msgid "Can receive"
+msgstr "ניתן לקבל"
+
+msgid "Node alias"
+msgstr "שם צומת"
+
+msgid "Status"
+msgstr "מצב"
+
+msgid "Please wait..."
+msgstr "המתן בבקשה..."
+
+msgid "Force-close channel?"
+msgstr "לסגור-בכפייה ערוץ?"
+
+msgid "After that delay, funds will be swept to an address derived from your wallet seed."
+msgstr "לאחר עיכוב זה, הכסף יועבר לכתובת הנגזרת מזרע הארנק שלך."
+
+msgid "Please create a backup of your wallet file!"
+msgstr "נא ליצור גיבוי של קובץ הארנק שלך!"
+
+msgid "Funds in this channel will not be recoverable from seed until they are swept back into your wallet, and might be lost if you lose your wallet file."
+msgstr "לא יהיה ניתן לשחזר את הממון בערוץ הזה מהזרע עד שהוא ירוקן בחזרה לארנקך, ואולי הוא ילך לאיבוד אם תאבד את קובץ הארנק שלך."
+
+msgid "To prevent that, you should save a backup of your wallet on another device."
+msgstr "כדי למנוע זאת, כדאי שתשמור גיבוי של הארנק שלך על התקן אחר."
+
+msgid "Force-close channel"
+msgstr "סגור-בכפייה ערוץ"
+
+msgid "Are you sure you want to delete this channel? This will purge associated transactions from your wallet history."
+msgstr "האם אתה בטוח שאתה רוצה להסיר את הערוץ הזה? זה ימחוק לחלוטין עסקאות שייכות מהיסתוריית הארנק שלך."
+
+msgid "Remove channel backup?"
+msgstr "להסיר גיבוי ערוץ?"
+
+msgid "Channel is frozen for sending"
+msgstr "ערוץ מוקפא לשליחות"
+
+msgid "Node ID"
+msgstr "מזהה צומת"
+
+msgid "Long Channel ID"
+msgstr "מזהה ערוץ ארוך"
+
+msgid "Cooperative close"
+msgstr "סגירה בהסכמה"
+
+msgid "Export backup"
+msgstr "ייצא גיבוי"
+
+msgid "Delete"
+msgstr "מחיקה"
+
+msgid "This channel is frozen for sending. It will not be used for outgoing payments."
+msgstr "הערוץ הזה קפוא ולא יכול לשלוח. הוא לא יהיה בשימוש עבור תשלומים יוצאים."
+
+msgid "This channel is frozen for receiving. It will not be included in invoices."
+msgstr "הערוץ הזה קפוא ולא יכול לקבל. הוא לא יופיע בחשבוניות. "
+
+msgid "Import channel backup"
+msgstr "ייבא גיבוי ערוץ"
+
+msgid "Lightning Network Statistics"
+msgstr "נתוני רשת לייטנינג"
+
+msgid "Nodes"
+msgstr "צמתים"
+
+msgid "Channels"
+msgstr "ערוצים"
+
+msgid "This is a channel"
+msgstr "זהו ערוץ"
+
+msgid "This is a static channel backup"
+msgstr "זהו גיבוי ערוץ קבוע"
+
+msgid "The channel peer can route Trampoline payments."
+msgstr "ערוץ עמית יכול לנתב תשלומי טרמפולינה."
+
+msgid "This channel cannot be recovered from your seed. You must back it up manually."
+msgstr "לא ניתן לשחזר את הערוץ הזה מהזרע שלך. תצטרך לגבות אותו באופן ידני."
+
+msgid "To somewhat protect your privacy, Electrum tries to create change with similar precision to other outputs."
+msgstr "כדי לשמור במשהו על הפרטיות שלך, אלקטרום משתדל ליצור עודף באותה רמה של דיוק של פלטים אחרים."
+
+msgid "At most 100 satoshis might be lost due to this rounding."
+msgstr "לכל היותר 100 סטושים אולי ילכו לאיבוד כתוצאה מהעיגול הזה."
+
+msgid "Preferences"
+msgstr "העדפות"
+
+msgid "Also, dust is not kept as change, but added to the fee."
+msgstr "גם, סכומים זעירים במיוחד (\"אבק\") לא נשמרים כעודף, אלא מוספים לעמלה."
+
+msgid "Also, when batching RBF transactions, BIP 125 imposes a lower bound on the fee."
+msgstr "גם, באַצְוַת עסקאות RBF, מחייב BIP 125 עמלת מינימום."
+
+msgid "Fee rounding"
+msgstr "עיגול עמלה"
+
+msgid "Additional {} satoshis are going to be added."
+msgstr "{} סטושים נוספים יתווספו."
+
+msgid "OK"
+msgstr "בסדר"
+
+msgid "Not available for this wallet."
+msgstr "לא זמין לארנק זה."
+
+msgid "In some cases, use up to 3 change addresses in order to break up large coin amounts and obfuscate the recipient address."
+msgstr "במקרים מסויימים, השתמש בעד 3 כתובות עודף כדי לחלק סכומי מטבע גדולים ולטשטש את כתובת המקבל."
+
+msgid "This may result in higher transactions fees."
+msgstr "דבר זה עלול לגרום לעמלות עסקה גבוהות יותר."
+
+msgid "Preparing transaction..."
+msgstr "מכין עסקה..."
+
+msgid "Mining fee"
+msgstr "עמלת כרייה"
+
+msgid "Amount to be sent"
+msgstr "סכום שישלח"
+
+msgid "Bitcoin transactions are in general not free. A transaction fee is paid by the sender of the funds."
+msgstr "עסקאות ביטקוין הן בדרך כלל לא בחינם. עמלת עסקה משולמת על ידי שולח הכסף."
+
+msgid "The amount of fee can be decided freely by the sender. However, transactions with low fees take more time to be processed."
+msgstr "סכום העמלה יכול להקבע באופן חופשי על ידי השולח. אמנם, לוקח יותר זמן לעבד עסקאות עם עמלות נמוכות."
+
+msgid "A suggested fee is automatically added to this field. You may override it. The suggested fee increases with the size of the transaction."
+msgstr "באופן אוטומטי תופיע עמלה מומלצת בשדה הזה. אתה יכול לשנות אותה. העמלה המומלצת עולה ככל שהעסקה גדולה יותר."
+
+msgid "Additional fees"
+msgstr "עמלות נוספות"
+
+msgid "Warning!"
+msgstr "אזהרה!"
+
+msgid "Do not paste code here that you don't understand. Executing the wrong code could lead to your coins being irreversibly lost."
+msgstr "לא להדביק כאן קוד שאתם לא מבינים. הרצת הפקודה הלא נכונה עלולה להביא לאיבוד בלתי הפיך של המטבעות שלכם."
+
+msgid "Click here to hide this message."
+msgstr "לחצו כאן כדי להסתיר הודעה זו."
+
+msgid "Name"
+msgstr "שם"
+
+msgid "Copy {}"
+msgstr "העתקת {}"
+
+msgid "Pay to"
+msgstr "לשלם ל-"
+
+msgid "&New contact"
+msgstr "איש קשר חדש"
+
+msgid "Import"
+msgstr "ייבא"
+
+msgid "Export"
+msgstr "ייצא"
+
+msgid "An Error Occurred"
+msgstr "אירעה שגיאה"
+
+msgid "Send Bug Report"
+msgstr "שלח דו\"ח באג"
+
+msgid "Not Now"
+msgstr "לא עכשיו"
+
+msgid "Crash report"
+msgstr "דו\"ח קריסה"
+
+msgid "Sending crash report..."
+msgstr "שולח דו\"ח קריסה..."
+
+msgid "Report contents"
+msgstr "דווח על התוכן"
+
+msgid "ETA: fee rate is based on average confirmation time estimates"
+msgstr "זמן הגעה משוער: גובה עמלה מבוסס על הערכות זמן אישור ממוצעות"
+
+msgid "Mempool based: fee rate is targeting a depth in the memory pool"
+msgstr "מבוסס מאגר העסקאות הלא-מאושרות: שיעור העמלה מכֻוָון לעומק מסוים במאגר העסקאות הלא-מאושרות"
+
+msgid ""
+"This transaction is only available on your local machine.\n"
+"The currently connected server does not know about it.\n"
+"You can either broadcast it now, or simply remove it."
+msgstr ""
+"העסקה הזאת זמינה רק על המכונה המקומית שלך.\n"
+"השרת שמחובר כעת לא יודע עליה.\n"
+"אתה יכול או לשדר אותה עכשיו, או פשוט להסיר אותה."
+
+msgid " confirmation"
+msgstr "אישור"
+
+msgid "Value"
+msgstr "ערך"
+
+msgid "Acquisition price"
+msgstr "מחיר רכישה"
+
+msgid "Capital Gains"
+msgstr "רווחי הון"
+
+msgid "Date"
+msgstr "תאריך"
+
+msgid "Description"
+msgstr "תיאור"
+
+msgid "All"
+msgstr "הכל"
+
+msgid "Custom"
+msgstr "מותאם"
+
+msgid "None"
+msgstr "ללא"
+
+msgid "From"
+msgstr "מ-"
+
+msgid "To"
+msgstr "אל"
+
+msgid "&Summary"
+msgstr "&סיכום"
+
+msgid "&Plot"
+msgstr "&תכנון"
+
+msgid "&Export"
+msgstr "ייצוא"
+
+msgid "Select date"
+msgstr "בחר תאריך"
+
+msgid "Enable fiat exchange rate with history."
+msgstr "הפעל שער המרת פיאט עם ההיסטוריה."
+
+msgid "Nothing to summarize."
+msgstr "אין מה לסכם."
+
+msgid "Summary"
+msgstr "סיכום"
+
+msgid "Begin"
+msgstr "התחל"
+
+msgid "End"
+msgstr "סוף"
+
+msgid "BTC balance"
+msgstr "יתרת BTC"
+
+msgid "BTC Fiat price"
+msgstr "מחיר ביטקוין-פיאט"
+
+msgid "Fiat balance"
+msgstr "יתרת פיאט"
+
+msgid "BTC incoming"
+msgstr "BTC נכנס"
+
+msgid "Fiat incoming"
+msgstr "פיאט נכנס"
+
+msgid "BTC outgoing"
+msgstr "BTC יוצא"
+
+msgid "Fiat outgoing"
+msgstr "פיאט יוצא"
+
+msgid "Realized capital gains"
+msgstr "רווחי הון ממומשים"
+
+msgid "Cash flow"
+msgstr "תזרים מזומנים"
+
+msgid "Copy"
+msgstr "העתקה"
+
+msgid "Payment Hash"
+msgstr "גיבוב תשלום"
+
+msgid "View log"
+msgstr "צפייה ביומן"
+
+msgid "Remove"
+msgstr "הסר"
+
+msgid "Transaction ID"
+msgstr "מזהה עסקה"
+
+msgid "View Channel"
+msgstr "הצג ערוץ"
+
+msgid "Increase fee"
+msgstr "הגדל עמלה"
+
+msgid "Child pays for parent"
+msgstr "ילד משלם עבור הורה"
+
+msgid "Cancel (double-spend)"
+msgstr "ביטול (בזבוז-כפול)"
+
+msgid "View invoice"
+msgstr "צפיה בחשבונית"
+
+msgid "Related invoices"
+msgstr "חשבוניות קשורות"
+
+msgid "Please confirm"
+msgstr "נא לאשר"
+
+msgid "Export History"
+msgstr "ייצא היסטוריה"
+
+msgid "Select file to export your wallet transactions to"
+msgstr "בחר קובץ אליו לייצא את עסקאות ארנקך"
+
+msgid "Electrum was unable to produce a transaction export."
+msgstr "אלקטרום לא הצליח לייצר ייצוא עסקה."
+
+msgid "Unknown"
+msgstr "לא ידוע"
+
+msgid "Batch pay invoices"
+msgstr "חשבוניות תשלומי אָצְוָה"
+
+msgid "Delete invoices"
+msgstr "מחיקת חשבוניות"
+
+msgid "Pay"
+msgstr "שלם"
+
+msgid "Retry"
+msgstr "נסה שוב"
+
+msgid "Payment log"
+msgstr "היסטוריית תשלומים"
+
+msgid "Hops"
+msgstr "דילוגים"
+
+msgid "Message"
+msgstr "הודעה"
+
+msgid "Lightning gossip not active."
+msgstr "רכילות ברק לא פעילה."
+
+msgid "Connected to {} peers"
+msgstr "מחובר ל{} עמיתים"
+
+msgid "Requesting {} channels..."
+msgstr "מבקש {} ערוצים..."
+
+msgid "Lightning Payment"
+msgstr "תשלום לייטנינג"
+
+msgid "Lightning Invoice"
+msgstr "חשבונית לייטנינג"
+
+msgid "Raw"
+msgstr "גולמי"
+
+msgid "Block height"
+msgstr "גובה בלוק"
+
+msgid "History"
+msgstr "היסטוריה"
+
+msgid "Send"
+msgstr "שלח"
+
+msgid "Receive"
+msgstr "קבל"
+
+msgid "&Addresses"
+msgstr "כתובות"
+
+msgid "Co&ins"
+msgstr "מט&בעות"
+
+msgid "Con&tacts"
+msgstr "אנשי &קשר"
+
+msgid "Con&sole"
+msgstr "מ&סוף"
+
+msgid "&Notes"
+msgstr "הערות"
+
+msgid "Enable update check"
+msgstr "אפשור בדיקת עדכונים"
+
+msgid "For security reasons we advise that you always use the latest version of Electrum."
+msgstr "מטעמי אבטחה אנו ממליצים להשתמש בגירסה המעודכנת ביותר של אלקטרום."
+
+msgid "Would you like to be notified when there is a newer version of Electrum available?"
+msgstr "האם ברצונך לקבל הודעה כאשר גירסה חדשה של אלקטרום תהיה זמינה?"
+
+msgid "Update to Electrum {} is available"
+msgstr "עדכון לאלקטרום {} זמין"
+
+msgid "This wallet is watching-only."
+msgstr "הארנק הזה הוא לצפייה-בלבד."
+
+msgid "This means you will not be able to spend Bitcoins with it."
+msgstr "משמעות הדבר היא שלא תוכל לבזבז ביטקוינים איתו."
+
+msgid "Make sure you own the seed phrase or the private keys, before you request Bitcoins to be sent to this wallet."
+msgstr "וודא שאתה הבעלים של הזרע או המפתחות הפרטיים, לפני שאתה מבקש שיישלחו ביטקוינים לארנק הזה."
+
+msgid "Watch-only wallet"
+msgstr "ארנק לצפייה-בלבד"
+
+msgid "Don't show this again."
+msgstr "אל תציג את זה שוב."
+
+msgid "File Backup"
+msgstr "גיבוי קובץ"
+
+msgid "Backup directory"
+msgstr "ספריית גיבוי"
+
+msgid "Please select a backup directory"
+msgstr "נא לבחור תיקיית גיבוי"
+
+msgid "Note that lightning channels will be converted to channel backups."
+msgstr "שים לב שערוצי לייטנינג יומרו לגיבויי ערוץ."
+
+msgid "Channel backups can only be used to request your channels to be closed."
+msgstr "ניתן להשתמש בגיבויי ערוץ רק לצורך בקשת סגירת הערוצים שלך."
+
+msgid "Backup not configured"
+msgstr "גיבוי לא הוגדר"
+
+msgid "Electrum was unable to copy your wallet file to the specified location."
+msgstr "אלקטרום לא הצליח להעתיק את קובץ הארנק שלך למיקום שהוגדר."
+
+msgid "A copy of your wallet file was created in"
+msgstr "העתק של קובץ הארנק שלך נוצר ב"
+
+msgid "Wallet backup created"
+msgstr "גיבוי ארנק נוצר"
+
+msgid "&File"
+msgstr "קובץ"
+
+msgid "&Recently open"
+msgstr "&נפתח לאחרונה"
+
+msgid "&Open"
+msgstr "&פתיחה"
+
+msgid "&New/Restore"
+msgstr "&חדש/שחזור"
+
+msgid "&Save backup"
+msgstr "שמירת גיבוי"
+
+msgid "&Quit"
+msgstr "&יציאה"
+
+msgid "&Wallet"
+msgstr "&ארנק"
+
+msgid "&Information"
+msgstr "&מידע"
+
+msgid "&Password"
+msgstr "&סיסמה"
+
+msgid "&Seed"
+msgstr "&גרעין"
+
+msgid "&Private keys"
+msgstr "&מפתחות פרטיים"
+
+msgid "&Sweep"
+msgstr "&ריקון"
+
+msgid "&Import"
+msgstr "&ייבוא"
+
+msgid "Import addresses"
+msgstr "ייבא כתובות"
+
+msgid "&Labels"
+msgstr "&תוויות"
+
+msgid "Find"
+msgstr "חפש"
+
+msgid "&View"
+msgstr "&תצוגה"
+
+msgid "&Tools"
+msgstr "&כלים"
+
+msgid "Electrum preferences"
+msgstr "העדפות אלקטרום"
+
+msgid "&Network"
+msgstr "&רשת"
+
+msgid "&Plugins"
+msgstr "&תוספים"
+
+msgid "&Sign/verify message"
+msgstr "&חתימה/אימות הודעה"
+
+msgid "&Encrypt/decrypt message"
+msgstr "הצפן/פענח הודעה"
+
+msgid "&Load transaction"
+msgstr "&טעינת עסקה"
+
+msgid "&From file"
+msgstr "מתוך קובץ"
+
+msgid "&From text"
+msgstr "מתוך טקסט"
+
+msgid "&From the blockchain"
+msgstr "מהבלוקצ'יין"
+
+msgid "&From QR code"
+msgstr "מקוד QR"
+
+msgid "&Help"
+msgstr "&עזרה"
+
+msgid "&About"
+msgstr "אודות"
+
+msgid "&Check for updates"
+msgstr "בדוק עדכונים"
+
+msgid "&Official website"
+msgstr "&אתר רשמי"
+
+msgid "&Documentation"
+msgstr "תיעוד"
+
+msgid "&Report Bug"
+msgstr "&דווח על תקלה"
+
+msgid "&Donate to server"
+msgstr "תרום לשרת"
+
+msgid "No donation address for this server"
+msgstr "אין כתובת תרומות לשרת הזה"
+
+msgid "Please report any bugs as issues on github:<br/>"
+msgstr "נא לדווח על באגים כלשהם כissue על github:<br/>"
+
+msgid "Before reporting a bug, upgrade to the most recent version of Electrum (latest release or git HEAD), and include the version number in your report."
+msgstr "לפני שאתם מדווחים על תקלה, שדרגו לגרסה המעודכנת ביותר של אלקטרום (השחרור האחרון או git HEAD), וכללו את מספר הגרסה בדיווח שלכם."
+
+msgid "Reporting Bugs"
+msgstr "דיווח על באגים"
+
+msgid "Offline"
+msgstr "לא מחובר"
+
+msgid "Server is lagging ({} blocks)"
+msgstr "שרת מפגר ({} בלוקים)"
+
+msgid "Not connected"
+msgstr "לא מחובר"
+
+msgid "Lightning is disabled"
+msgstr "לייטנינג מושבת"
+
+msgid "Payment failed"
+msgstr "התשלום נכשל"
+
+msgid "Signing transaction..."
+msgstr "חותם עסקה..."
+
+msgid "Could not open channel: {}"
+msgstr "לא מצליח לפתוח ערוץ: {}"
+
+msgid "Opening channel..."
+msgstr "פותח ערוץ..."
+
+msgid "Save channel backup"
+msgstr "שמירת גיבוי ערוץ"
+
+msgid "Channel established."
+msgstr "ערוץ נוצר."
+
+msgid "Remote peer ID"
+msgstr "מזהה צומת מרוחק"
+
+msgid "This channel will be usable after {} confirmations"
+msgstr "יהיה ניתן להשתמש בערוץ הזה לאחר {} אישורים"
+
+msgid "Please sign and broadcast the funding transaction"
+msgstr "נא לחתום על ולשדר את עסקת המימון"
+
+msgid "Do you want to remove {} from your wallet?"
+msgstr "האם ברצונך להסיר את {} מארנקך?"
+
+msgid "Invalid Address"
+msgstr "כתובת לא תקינה"
+
+msgid "Remove {} from your list of contacts?"
+msgstr "הסר {} מרשימת אנשי קשר שלך?"
+
+msgid "Onchain Invoice"
+msgstr "חשבונית שרשרתית"
+
+msgid "Outputs"
+msgstr "פלטים"
+
+msgid "Expires"
+msgstr "בתוקף עד:"
+
+msgid "Password"
+msgstr "סיסמה"
+
+msgid "Seed"
+msgstr "זרע"
+
+msgid "Reset"
+msgstr "איפוס"
+
+msgid ""
+"The Lightning Network graph is syncing...\n"
+"Payments are more likely to succeed with a more complete graph."
+msgstr ""
+"תרשים רשת הלייטנינג מסתנכרן...\n"
+"תשלומים עלולים להצליח יותר עם תרשים יותר מקיף."
+
+msgid "Failed to update password"
+msgstr "עדכון הסיסמה נכשל"
+
+msgid "Password was updated successfully"
+msgstr "הסיסמה עודכנה בהצלחה"
+
+msgid "Password is disabled, this wallet is not protected"
+msgstr "סיסמה מושבתת, הארנק הזה לא מוגן."
+
+msgid "Success"
+msgstr "הצלחה"
+
+msgid "Do you want to create your first channel?"
+msgstr "האם ברצונך ליצור את הערוץ הראשון שלך?"
+
+msgid "New Contact"
+msgstr "איש קשר חדש"
+
+msgid "Lightning is not enabled because this wallet was created with an old version of Electrum. Create lightning keys?"
+msgstr "לייטנינג לא מופעל כי הארנק הזה נוצר על ידי גירסה ישנה של אלקטרום. ליצור מפתחות לייטנינג?"
+
+msgid "Lightning keys have been initialized."
+msgstr "מפתחות לייטנינג אותחלו."
+
+msgid "Delete wallet file?"
+msgstr "מחיקת קובץ ארנק?"
+
+msgid "If your wallet contains funds, make sure you have saved its seed."
+msgstr "אם יש כסף בארנק שלך, וודא ששמרת את הזרע שלו."
+
+msgid "Wallet removed: {}"
+msgstr "הוסר ארנק: {}"
+
+msgid "Wallet file not found: {}"
+msgstr "קובץ ארנק לא נמצא: {}"
+
+msgid "This wallet has no seed"
+msgstr "לארנק הזה אין זרע"
+
+msgid "QR code"
+msgstr "קוד QR"
+
+msgid "Script type"
+msgstr "סוג תסריט"
+
+msgid "Signing with an address actually means signing with the corresponding private key, and verifying with the corresponding public key. The address you have entered does not have a unique public key, so these operations cannot be performed."
+msgstr "בפועל, חתימה באמצעות כתובת משמעותה חתימה עם המפתח הפרטי התואם, וווידוא באמצעות המפתח הציבורי התואם. לכתובת שהזנת אין מפתח ציבורי ייחודי, לכן הפעולות האלה לא יכולות להתבצע."
+
+msgid "The operation is undefined. Not just in Electrum, but in general."
+msgstr "הפעולה הזאת לא מוגדרת. לא רק באלקטרום, אלא בכלל."
+
+msgid "Invalid Bitcoin address."
+msgstr "כתובת ביטקוין לא תקינה"
+
+msgid "This is a watching-only wallet."
+msgstr "זהו ארנק לצפייה-בלבד."
+
+msgid "Address not in wallet."
+msgstr "כתובת אינה בארנק."
+
+msgid "Cannot sign messages with this type of address:"
+msgstr "לא ניתן לחתום על הודעות עם סוג זה של כתובת:"
+
+msgid "Signature verified"
+msgstr "חתימה וודאה"
+
+msgid "Sign/verify Message"
+msgstr "חתום/וודא הודעה"
+
+msgid "Signature"
+msgstr "חתימה"
+
+msgid "Sign"
+msgstr "חתום"
+
+msgid "Verify"
+msgstr "אימות"
+
+msgid "Invalid Public key"
+msgstr "מפתח ציבורי לא תקין"
+
+msgid "Encrypt/decrypt Message"
+msgstr "הצפן/פענח הודעה"
+
+msgid "Public key"
+msgstr "מפתח ציבורי"
+
+msgid "Encrypted"
+msgstr "מוצפן"
+
+msgid "Encrypt"
+msgstr "הצפנה"
+
+msgid "Decrypt"
+msgstr "פענוח"
+
+msgid "Electrum was unable to parse your transaction"
+msgstr "אלקטרום לא הצליח לקרוא את העסקה שלך"
+
+msgid "Select your transaction file"
+msgstr "בחר את קובץ העסקאות שלך"
+
+msgid "Electrum was unable to open your transaction file"
+msgstr "אלקטרום לא הצליח לפתוח את קובץ העסקאות שלך"
+
+msgid "Input raw transaction"
+msgstr "העתקת עסקה גולמית"
+
+msgid "Transaction:"
+msgstr "עסקה:"
+
+msgid "Load transaction"
+msgstr "טען עסקה"
+
+msgid "Input channel backup"
+msgstr "גיבוי ערוצי קלט"
+
+msgid "Channel Backup:"
+msgstr "גיבוי ערוץ:"
+
+msgid "Load backup"
+msgstr "טען גיבוי"
+
+msgid "Lookup transaction"
+msgstr "חיפוש פעולה"
+
+msgid "Error getting transaction from network"
+msgstr "שגיאה בהורדת העסקה מהרשת"
+
+msgid "This is a watching-only wallet"
+msgstr "זהו ארנק לצפייה-בלבד"
+
+msgid "WARNING: This is a multi-signature wallet."
+msgstr "אזהרה: זהו ארנק רב-חתימתי."
+
+msgid "It cannot be \"backed up\" by simply exporting these private keys."
+msgstr "לא ניתן \"לגבות\" אותו רק על ידי ייצוא המפתחות הפרטיים האלה."
+
+msgid "Private keys"
+msgstr "מפתחות פרטיים"
+
+msgid "WARNING: ALL your private keys are secret."
+msgstr "אזהרה: כל המפתחות הפרטיים שלך הם סודיים."
+
+msgid "Exposing a single private key can compromise your entire wallet!"
+msgstr "חשיפת מפתח פרטי אחד בודד יכולה לגרום לפריצת כל הארנק שלך!"
+
+msgid "In particular, DO NOT use 'redeem private key' services proposed by third parties."
+msgstr "במיוחד, *אין* להשתמש בשירותי 'פדיית מפתח פרטי' המוצעים על ידי צדדי ג'."
+
+msgid "Select file to export your private keys to"
+msgstr "בחר קובץ אליו לייצא את המפתחות הפרטיים שלך"
+
+msgid "Electrum was unable to produce a private key-export."
+msgstr "אלקטרום לא הצליח לייצר ייצוא של מפתח פרטי."
+
+msgid "Private keys exported."
+msgstr "מפתחות פרטיים יוצאו."
+
+msgid "Sweep private keys"
+msgstr "רקן מפתחות פרטיים"
+
+msgid "Sweep"
+msgstr "ריקון"
+
+msgid "Preparing sweep transaction..."
+msgstr "מכין עסקת ריקון..."
+
+msgid "The following addresses were added"
+msgstr "הכתובות דלהלן נוספו"
+
+msgid "The following inputs could not be imported"
+msgstr "לא ניתן לייבא את הקלטים הבאים"
+
+msgid "Enter addresses"
+msgstr "הזן כתובות"
+
+msgid "Import private keys"
+msgstr "ייבא מפתחות פרטיים"
+
+msgid "Enter private keys"
+msgstr "הזן מפתחות פרטיים"
+
+msgid "Please restart Electrum to activate the new GUI settings"
+msgstr "נא לכבות ולהדליק מחדש את אלקטרום כדי להפעיל את הגדרות הממשק הגרפי החדשות"
+
+msgid "Child Pays for Parent"
+msgstr "ילד משלם עבור הורה"
+
+msgid "Total size"
+msgstr "גודל כולל"
+
+msgid "Input amount"
+msgstr "סכום הקלט"
+
+msgid "Output amount"
+msgstr "סכום פלט"
+
+msgid "Fee for child"
+msgstr "עמלה של צאצא"
+
+msgid "Total fee"
+msgstr "סך כל העמלה"
+
+msgid "Total feerate"
+msgstr "סך כל שיעור העמלה"
+
+msgid "Transaction added to wallet history."
+msgstr "עסקה נוספה להיסטוריית ארנק"
+
+msgid "Note: this is an offline transaction, if you want the network to see it, you need to broadcast it."
+msgstr "שים לב: זוהי עסקה שמנותקת מהרשת, אם ברצונך שהרשת תראה אותה, תצטרך לשדר אותה."
+
+msgid "Certificate mismatch"
+msgstr "תעודה לא תואמת"
+
+msgid "The SSL certificate provided by the main server did not match the fingerprint passed in with the --serverfingerprint option."
+msgstr "תעודת הSSL שסופקה על ידי השרת הראשי לא תואמת את טביעת האצבע שהועברה דרך אפשרות ה serverfingerprint--."
+
+msgid "Electrum will now exit."
+msgstr "אלקטרום עכשיו הולך להכבות."
+
+msgid "Expired"
+msgstr "פג התוקף"
+
+msgid "Server"
+msgstr "שרת"
+
+msgid "Proxy"
+msgstr "פרוקסי"
+
+msgid "Height"
+msgstr "גובה"
+
+msgid "Follow this branch"
+msgstr "עקוב אחר ענף זה"
+
+msgid "Connected nodes"
+msgstr "צמתים מחוברים"
+
+msgid "Other known servers"
+msgstr "שרתים ידועים אחרים"
+
+msgid "Proxy settings apply to all connections: with Electrum servers, but also with third-party services."
+msgstr "הגדרות פרוקסי מיושמות בכל ההתחברויות: עם שרתי אלקטרום וגם עם שירותי צד ג'."
+
+msgid "This is the height of your local copy of the blockchain."
+msgstr "זה הגובה של העותק המקומי שלך של שרשרת הבלוקים."
+
+msgid "Blockchain"
+msgstr "שרשרת בלוקים"
+
+msgid "Open Channel"
+msgstr "פתח ערוץ"
+
+msgid "Enter Remote Node ID or connection string or invoice"
+msgstr "הזן מזהה של צומת מרוחק או מחרוזת התחברות או חשבונית"
+
+msgid "Suggest Peer"
+msgstr "הצע עמית"
+
+msgid "Max"
+msgstr "מירבי"
+
+msgid "Clear"
+msgstr "ניקוי"
+
+msgid "Choose a password to encrypt your wallet keys."
+msgstr "בחרו סיסמה להצפנת מפתחות הארנק שלכם."
+
+msgid "Leave this field empty if you want to disable encryption."
+msgstr "השאר את השדה הזה ריק אם ברצונך להשבית הצפנה."
+
+msgid "Enter Password"
+msgstr "הזן סיסמה"
+
+msgid "Change Password"
+msgstr "שינוי סיסמה"
+
+msgid "Enter Passphrase"
+msgstr "הזן ביטוי סודי"
+
+msgid "Passphrase:"
+msgstr "ביטוי סודי:"
+
+msgid "Confirm Passphrase:"
+msgstr "אימות Passphrase:"
+
+msgid "New Password:"
+msgstr "סיסמה חדשה:"
+
+msgid "Password:"
+msgstr "סיסמה:"
+
+msgid "Confirm Password:"
+msgstr "אימות סיסמה:"
+
+msgid "Current Password:"
+msgstr "סיסמה נוכחית:"
+
+msgid "Password Strength"
+msgstr "חוזק סיסמה"
+
+msgid "Please enter your password"
+msgstr "אנא הזן את סיסמתך"
+
+msgid "Requires"
+msgstr "דורש"
+
+msgid "Enable"
+msgstr "הפעל"
+
+msgid "Settings"
+msgstr "הגדרות"
+
+msgid "Enabled"
+msgstr "מאופשר"
+
+msgid "Disabled"
+msgstr "מושבת"
+
+msgid "Electrum Plugins"
+msgstr "תוספי אלקטרום"
+
+msgid "Help"
+msgstr "עזרה"
+
+msgid "Select where to save file"
+msgstr "בחר מיקום שמירת הקובץ"
+
+msgid "QR code saved to file"
+msgstr "קוד QR נשמר לקובץ"
+
+msgid "QR code copied to clipboard"
+msgstr "קוד QR הועתק ללוח"
+
+msgid "Text copied to clipboard"
+msgstr "הטקסט הועתק ללוח"
+
+msgid "Copy Image"
+msgstr "העתקת תמונה"
+
+msgid "Copy Text"
+msgstr "העתקת תמליל"
+
+msgid "Save"
+msgstr "שמירה"
+
+msgid "&Flip horizontally"
+msgstr "הפוך אופקית"
+
+msgid "Show as QR code"
+msgstr "הצג כקוד QR"
+
+msgid "Payment Request"
+msgstr "בקשת תשלום"
+
+msgid "Increase your transaction's fee to improve its position in mempool."
+msgstr "הגדל את העמלה של עסקתך כדי לשפר את מיקומו במאגר העסקאות הלא מאושרות (mempool)."
+
+msgid "Bump Fee"
+msgstr "הקפצת עמלה"
+
+msgid "Cancel transaction"
+msgstr "ביטול העברה"
+
+msgid "Requested amount"
+msgstr "כמות המבוקשת"
+
+msgid "Requests"
+msgstr "בקשות"
+
+msgid "This information is seen by the recipient if you send them a signed payment request."
+msgstr "המקבל יראה את המידע הזה אם אתם שולחים אליו בקשת תשלום חתומה."
+
+msgid "For on-chain requests, the address gets reserved until expiration. After that, it might get reused."
+msgstr "לבקשות בשרשרת, הכתובת נשמרת עד שפג תקפה. לאחר מכן, אולי ייעשה בה שימוש חוזר."
+
+msgid "The bitcoin address never expires and will always be part of this electrum wallet."
+msgstr "כתובת הביטקוין לעולם לא פגה ותמיד תהיה חלק מארנק אלקטרום זה."
+
+msgid "For Lightning requests, payments will not be accepted after the expiration."
+msgstr "עבור בקשות לייטנינג, תשלומים לא יתקבלו לאחר שיפוג התוקף."
+
+msgid "Error adding payment request"
+msgstr "שגיאה בהוספת חשבונית"
+
+msgid "No more addresses in your wallet."
+msgstr "אין עוד כתובות בארנקך."
+
+msgid "If you want to create new addresses, use a deterministic wallet instead."
+msgstr "אם ברצונך לייצר כתובות חדשות, השתמש בארנק דטרמיניסטי במקום."
+
+msgid "Creating a new payment request will reuse one of your addresses and overwrite an existing request. Continue anyway?"
+msgstr "יצירת חשבונית חדשה תעשה שימוש חוזר באחת הכתובות שלכם ותמחק חשבונית קיימת. להמשיך בכל זאת?"
+
+msgid ""
+"Warning: The next address will not be recovered automatically if you restore your wallet from seed; you may need to add it manually.\n"
+"\n"
+"This occurs because you have too many unused addresses in your wallet. To avoid this situation, use the existing addresses first.\n"
+"\n"
+"Create anyway?"
+msgstr ""
+"אזהרה: הכתובת הבאה לא תשוחזר באופן אוטומטי אם תשחזר את ארנקך מזרע; אולי תצטרך להוסיף אותה ידנית.\n"
+"\n"
+"זה קורה מפני שיש בארנקך יותר מדי כתובות שלא נעשה בהן שימוש. כדי למנוע מצב זה, השתמש קודם כל בכתובות קיימות.\n"
+"\n"
+"ליצור בכל זאת?"
+
+msgid "Delete requests"
+msgstr "מחיקת בקשות"
+
+msgid "This is discouraged."
+msgstr "זה לא מומלץ."
+
+msgid "Due to a bug, old versions of Electrum will NOT be creating the same wallet as newer versions or other software."
+msgstr "בגלל באג, גירסאות ישנות של אלקטרום *לא* יצרו את אותו סוג ארנק כמו הגירסאות החדשות או תוכנות אחרות."
+
+msgid "Please save these {0} words on paper (order is important). "
+msgstr "נא לשמור את {0} מילים האלה על דף נייר (הסדר הוא חשוב)."
+
+msgid "This seed will allow you to recover your wallet in case of computer failure."
+msgstr "הזרע הזה יאפשר לך לשחזר את ארנקך במקרה של קריסת מחשב."
+
+msgid "WARNING"
+msgstr "אזהרה"
+
+msgid "Never disclose your seed."
+msgstr "לעולם לא לחשוף את הזרע שלך."
+
+msgid "Never type it on a website."
+msgstr "לעולם לא להקליד אותו על אתר אינטרנט."
+
+msgid "Do not store it electronically."
+msgstr "לא לאחסן באופן אלקטרוני."
+
+msgid "BIP39 seed"
+msgstr "זרע BIP39"
+
+msgid "Options"
+msgstr "אפשרויות"
+
+msgid "Extend this seed with custom words"
+msgstr "הארך את הזרע הזה עם מילים לבחירתך"
+
+msgid "BIP39 seeds can be imported in Electrum, so that users can access funds locked in other wallets."
+msgstr "ניתן לייבא זרעי BIP39 באלקטרום, כך שמשתמשים יכולים לגשת לכסף שננעל בארנקים אחרים."
+
+msgid "However, we do not generate BIP39 seeds, because they do not meet our safety standard."
+msgstr "אמנם, אנחנו לא מפיקים זרעי BIP39, כי הם לא עומדים בתנאי הבטיחות שלנו."
+
+msgid "BIP39 seeds do not include a version number, which compromises compatibility with future software."
+msgstr "זרעי BIP39 לא מגיעים עם מספר גירסה, מה שפוגע ביכולת שלהם להתאים לתוכנות בעתיד"
+
+msgid "We do not guarantee that BIP39 imports will always be supported in Electrum."
+msgstr "אנחנו לא מבטיחים שייבואי BIP39 תמיד יהיו נתמכים באלקטרום."
+
+msgid "Seed Type"
+msgstr "סוג זרע"
+
+msgid "Wallet with two-factor authentication"
+msgstr "ארנק עם אימות דו-שלבי"
+
+msgid "Standard wallet"
+msgstr "ארנק רגיל"
+
+msgid "Recipient of the funds."
+msgstr "מקבל הכספים."
+
+msgid "- a label from your list of contacts"
+msgstr "הסר {} מרשימת אנשי קשר שלך?"
+
+msgid "Format: address, amount"
+msgstr "מבנה: כתובת, סכום"
+
+msgid "Description of the transaction (not mandatory)."
+msgstr "תיאור של העברה (לא חובה)"
+
+msgid "The description is not sent to the recipient of the funds. It is stored in your wallet file, and displayed in the 'History' tab."
+msgstr "התיאור לא נשלח למקבל הכסף. הוא נשמר בקובץ ארנקך, ומופיע בתווית ה'היסטוריה'."
+
+msgid "Note that if you have frozen some of your addresses, the available funds will be lower than your total balance."
+msgstr "שים לב שאם הקפאת חלק מהכתובות שלך, הכסף שיהיה זמין יהיה נמוך מהיתרה שלך."
+
+msgid "Keyboard shortcut: type \"!\" to send all your coins."
+msgstr "מקש קיצור דרך: הקלד \"!\" לשלוח את כל המטבעות שלך."
+
+msgid "Invoices"
+msgstr "חשבוניות"
+
+msgid "&Pay to many"
+msgstr "&תשלום לרבים"
+
+msgid "No amount"
+msgstr "אין סכום"
+
+msgid "No outputs"
+msgstr "אין פלטים"
+
+msgid "Bitcoin Address is None"
+msgstr "כתובת ביטקוין לא קיים"
+
+msgid "Invalid Amount"
+msgstr "סכום לא תקין"
+
+msgid "Failed to parse 'Pay to' line"
+msgstr "קריאת שורת 'שלם ל-' נכשלה"
+
+msgid "Invalid Lines found:"
+msgstr "שורות לא תקינות נמצאו:"
+
+msgid "Do you wish to continue?"
+msgstr "האם ברצונך להמשיך?"
+
+msgid "Payment request has expired"
+msgstr "פג תוקפה של בקשת התשלום"
+
+msgid "Invoice has expired"
+msgstr "פג תוקף חשבונית"
+
+msgid "Payment sent."
+msgstr "תשלום נשלח."
+
+msgid "Broadcasting transaction..."
+msgstr "משדרת העברה..."
+
+msgid "Enter a list of outputs in the 'Pay to' field."
+msgstr "הזן רשימה של פלטים בשדה 'שלם ל-'."
+
+msgid "One output per line."
+msgstr "פלט אחד לשורה."
+
+msgid "Base unit of your wallet."
+msgstr "יחידת הבסיס של ארנקך."
+
+msgid "This setting affects the Send tab, and all balance related fields."
+msgstr "ההגדרה הזאת משפיעה על תווית ה'שלח', ועל כל השדות הקשורים ליתרה."
+
+msgid "Base unit"
+msgstr "יחידת בסיס"
+
+msgid "Light"
+msgstr "בהיר"
+
+msgid "Dark"
+msgstr "כהה"
+
+msgid "Custom URL"
+msgstr "כתובת URL מותאמת"
+
+msgid "Fiat currency"
+msgstr "מטבע הפיאט"
+
+msgid "Source"
+msgstr "מקור"
+
+msgid "Submarine Swap"
+msgstr "החלפת צוללת"
+
+msgid "Server fee"
+msgstr "עמלת שרת"
+
+msgid "Fee"
+msgstr "עמלה"
+
+msgid "Change Address"
+msgstr "כתובת עודף"
+
+msgid "Wallet change address"
+msgstr "כתובת ארנק לעודף"
+
+msgid "Inputs"
+msgstr "קלטים"
+
+msgid "Address Details"
+msgstr "פרטי כתובת"
+
+msgid "Copy Address"
+msgstr "העתקת כתובת"
+
+msgid "Electrum was unable to deserialize the transaction:"
+msgstr "אלקטרום לא הצליח לעשות דה-סריאליזציה לעסקה:"
+
+msgid "Transaction ID:"
+msgstr "מזהה עסקה:"
+
+msgid "Broadcast"
+msgstr "שידור"
+
+msgid "Merge signatures from"
+msgstr "מַזֵּג חתימות מ-"
+
+msgid "Join inputs/outputs"
+msgstr "חבר קלטים/פלטים"
+
+msgid "Combine"
+msgstr "שילוב"
+
+msgid "This transaction is not saved. Close anyway?"
+msgstr "העסקה הזאת לא נשמרה. לסגור בכל זאת?"
+
+msgid "Copy to clipboard"
+msgstr "העתקה ללוח גזירים"
+
+msgid "Transaction"
+msgstr "עסקה"
+
+msgid "Failed to display QR code."
+msgstr "הצגת קוד QR נכשל."
+
+msgid "Transaction is too large in size."
+msgstr "גודל העסקה גדול מדי."
+
+msgid "Select where to save your transaction"
+msgstr "בחר איפה לשמור את עסקתך"
+
+msgid "Transaction exported successfully"
+msgstr "עסקה יוצאה בהצלחה"
+
+msgid "Transaction to merge signatures from"
+msgstr "עסקה ממנה למזג חתימות"
+
+msgid "Error combining partial transactions"
+msgstr "שגיאה בחיבור עסקאות חלקיות"
+
+msgid "Transaction to join with"
+msgstr "עסקה איתה להתחבר"
+
+msgid "Error joining partial transactions"
+msgstr "שגיאה בחיבור עסקאות חלקיות"
+
+msgid "Date: {}"
+msgstr "תאריך: {}"
+
+msgid "False"
+msgstr "לא נכון"
+
+msgid "At block height: {}"
+msgstr "בגובה בלוק: {}"
+
+msgid "Transaction unrelated to your wallet"
+msgstr "עסקה לא קשורה לארנקך"
+
+msgid "Update Check"
+msgstr "בדיקת עדכון"
+
+msgid "Current version: {}"
+msgstr "גרסה נוכחית: {}"
+
+msgid "Latest version: {}"
+msgstr "הגירסה האחרונה: {}"
+
+msgid "Update check failed"
+msgstr "בדיקת העדכון נכשלה"
+
+msgid "Sorry, but we were unable to check for updates. Please try again later."
+msgstr "מצטערים, אבל לא יכולנו לבדוק אם יש עדכונים. נא לנסות שוב במועד מאוחר יותר."
+
+msgid "There is a new update available"
+msgstr "יש עדכון חדש זמין"
+
+msgid "Already up to date"
+msgstr "כבר מעודכן"
+
+msgid "Checking for updates..."
+msgstr "בדיקת עדכונים..."
+
+msgid "Please wait while Electrum checks for available updates."
+msgstr "נא להמתין בזמן שאלקטרום מחפש עידכונים זמינים."
+
+msgid "Info"
+msgstr "מידע"
+
+msgid "Copy and Close"
+msgstr "העתקה וסגירה"
+
+msgid "Cancel"
+msgstr "ביטול"
+
+msgid "Critical Error"
+msgstr "שגיאה קריטית"
+
+msgid "Information"
+msgstr "מידע"
+
+msgid "Question"
+msgstr "שאלה"
+
+msgid "Please wait"
+msgstr "אנא המתן"
+
+msgid "Format"
+msgstr "מבנה"
+
+msgid "CSV"
+msgstr "CSV"
+
+msgid "File"
+msgstr "קובץ"
+
+msgid "Error opening file"
+msgstr "שגיאה בפתיחת קובץ"
+
+msgid "Paste from clipboard"
+msgstr "הדבק מהלוח"
+
+msgid "Read file"
+msgstr "קרא קובץ"
+
+msgid "Open {} file"
+msgstr "פתח קובץ {}"
+
+msgid "Select file to save your {}"
+msgstr "בחר קובץ עליו לשמור ה{} שלך"
+
+msgid "Output point"
+msgstr "נקודת פלט"
+
+msgid "Coin control active"
+msgstr "שליטת מטבעות מופעלת"
+
+msgid "Coin selected to be spent"
+msgstr "מטבע נבחר לבזבוז"
+
+msgid "Address is frozen"
+msgstr "כתובת מוקפאת"
+
+msgid "Freeze Coin"
+msgstr "הקפאת מטבע"
+
+msgid "Unfreeze Coin"
+msgstr "הפשרת מטבע"
+
+msgid "Freeze Address"
+msgstr "הקפאת כתובת"
+
+msgid "Unfreeze Address"
+msgstr "הפשרת כתובת"
+
+msgid "Freeze Coins"
+msgstr "הקפאת מטבעות"
+
+msgid "Unfreeze Coins"
+msgstr "הפשרת מטבעות"
+
+msgid "Freeze Addresses"
+msgstr "הקפאת כתובות"
+
+msgid "Unfreeze Addresses"
+msgstr "הפשרת כתובות"
+
+msgid "Wallet Information"
+msgstr "מידע ארנק"
+
+msgid "Wallet name"
+msgstr "שם ארנק"
+
+msgid "Wallet type"
+msgstr "סוג ארנק"
+
+msgid "Seed available"
+msgstr "זרע זמין"
+
+msgid "Keystore type"
+msgstr "סוג אחסון-מפתחות"
+
+msgid "No keystore"
+msgstr "אין אחסון-מפתחות"
+
+msgid "Lightning Node ID:"
+msgstr "מזהה צומת לייטנינג:"
+
+msgid "Lightning is currently restricted to HD wallets with p2wpkh addresses."
+msgstr "לייטנינג כרגע מוגבל לארנקי HD עם כתובות מסוג p2wpkh."
+
+msgid "Master Public Key"
+msgstr "מפתח ציבורי ראשי"
+
+msgid "Keystore"
+msgstr "אחסון-מפתחות"
+
+msgid "Next"
+msgstr "הבא"
+
+msgid "WIF keys are typed in Electrum, based on script type."
+msgstr "יש סוגים שונים של מפתחות WIF, המבוססים על סוג תסריט."
+
+msgid "A few examples"
+msgstr "כמה דוגמאות"
+
+msgid "Set wallet file encryption."
+msgstr "בחר הצפנת קובץ הארנק."
+
+msgid "It also contains your master public key that allows watching your addresses."
+msgstr "זה גם כולל את המפתח הציבורי הראשי שלך המאפשר לך לצפות בכתובות שלך."
+
+msgid ""
+"The wallet '{}' contains multiple accounts, which are no longer supported since Electrum 2.7.\n"
+"\n"
+"Do you want to split your wallet into multiple files?"
+msgstr ""
+"ארנק '{}' מכיל חשבונות מרובים, שאינם נתמכים כבר מאלקטרום 2.7.\n"
+"\n"
+"האם ברצונך לחלק את ארנקך לכמה קבצים?"
+
+msgid "Do you want to delete the old file"
+msgstr "האם ברצונך למחוק את הקובץ הישן?"
+
+msgid "The file was removed"
+msgstr "הקובץ הוסר"
+
+msgid "Electrum wallet"
+msgstr "ארנק אלקטרום"
+
+msgid "Wallet"
+msgstr "ארנק"
+
+msgid "Choose..."
+msgstr "בחירה..."
+
+msgid "Cannot read file"
+msgstr "לא ניתן לקרוא קובץ"
+
+msgid "This file does not exist."
+msgstr "הקובץ הזה לא קיים."
+
+msgid "Press 'Next' to create this wallet, or choose another file."
+msgstr "לחץ על 'הבא' כדי ליצור ארנק זה, או בחר קובץ אחר."
+
+msgid "This file is encrypted with a password."
+msgstr "הקובץ הזה מוצפן באמצעות סיסמה."
+
+msgid "This file is encrypted using a hardware device."
+msgstr "הקובץ הזה מוצפן באמצעות התקן חומרה."
+
+msgid "Press 'Next' to choose device to decrypt."
+msgstr "לחץ על 'הבא' כדי לבחור את ההתקן לפענח."
+
+msgid "This file is already open in memory."
+msgstr "הקובץ הזה כבר נפתח בזיכרון."
+
+msgid "Create new wallet"
+msgstr "יצירת ארנק חדש"
+
+msgid "What kind of wallet do you want to create?"
+msgstr "איזה סוג ארנק ברצונך ליצור?"
+
+msgid "Multi-signature wallet"
+msgstr "ארנק רב-חתימתי"
+
+msgid "Import Bitcoin addresses or private keys"
+msgstr "ייבא כתובות או מפתחות פרטיים ביטקוין"
+
+msgid "Do you want to create a new seed, or to restore a wallet using an existing seed?"
+msgstr "האם ברצונך ליצור זרע חדש, או לשחזר ארנק עם זרע קיים?"
+
+msgid "Create a new seed"
+msgstr "יצירת גרעין חדש"
+
+msgid "I already have a seed"
+msgstr "יש לי כבר זרע"
+
+msgid "Confirm Seed"
+msgstr "אימות גרעין"
+
+msgid "If you lose your seed, your money will be permanently lost."
+msgstr "אם אתה מאבד את הזרע שלך, הכסף שלך ילך לאיבוד לתמיד."
+
+msgid "To make sure that you have properly saved your seed, please retype it here."
+msgstr "כדי לוודא ששמרת נכון את הזרע שלך, נא להזין אותו פה שוב."
+
+msgid "Note that this is NOT your encryption password."
+msgstr "שים לב שזה *לא* סיסמת ההצפנה שלך."
+
+msgid "If you do not know what this is, leave this field empty."
+msgstr "אם אתה לא בטוח מה זה, השאר את השדה הזה ריק."
+
+msgid "Confirm Seed Extension"
+msgstr "אימות הרחבת גרעין"
+
+msgid "Please type it here."
+msgstr "נא להקליד אותה כאן."
+
+msgid "Enter Seed"
+msgstr "הזן זרע"
+
+msgid "Please enter your seed phrase in order to restore your wallet."
+msgstr "נא להזין את מילות הזרע שלך כדי לשחזר את ארנקך."
+
+msgid "Script type and Derivation path"
+msgstr "סוג תסריט ואופן גזירה"
+
+msgid "Choose the type of addresses in your wallet."
+msgstr "בחרו את סוג הכתובות בארנקכם."
+
+msgid "If you are not sure what this is, leave this field unchanged."
+msgstr "אם אתה לא בטוח מה זה, השאר את השדה הזה כמו שהוא."
+
+msgid "Detect Existing Accounts"
+msgstr "גילוי חשבונות קיימים"
+
+msgid "Or"
+msgstr "או"
+
+msgid "Add a cosigner to your multi-sig wallet"
+msgstr "הוסף חותֵם-במשותף לארנק הרב-חתימתי שלך"
+
+msgid "Enter cosigner key"
+msgstr "הזן מפתח חותם-במשותף"
+
+msgid "Enter cosigner seed"
+msgstr "הזן זרע חותם-במשותף"
+
+msgid "Cosign with hardware device"
+msgstr "חתום במשותף עם ארנק חומרה"
+
+msgid "Create keystore from a master key"
+msgstr "צור אחסון-מפתח ממפתח ראשי"
+
+msgid "To create a watching-only wallet, please enter your master public key (xpub/ypub/zpub)."
+msgstr "כדי ליצור ארנק לצפייה-בלבד, נא להזין מפתח ציבורי ראשי (xpub/ypub/zpub)."
+
+msgid "To create a spending wallet, please enter a master private key (xprv/yprv/zprv)."
+msgstr "כדי ליצור ארנק לתשלומים, נא להזין מפתח פרטי ראשי (xprv/yprv/zprv)."
+
+msgid "Please enter the master public key (xpub) of your cosigner."
+msgstr "נא הזן את המפתח הציבורי הראשי (xpub) של החותם-במשותף שלך."
+
+msgid "Enter their master private key (xprv) if you want to be able to sign for them."
+msgstr "הזן את המפתח הפרטי הראשי (xprv) אם ברצונך שיהיה לך היכולת לחתום עבורם."
+
+msgid "Multi-Signature Wallet"
+msgstr "ארנק רב-חתימתי"
+
+msgid "Require {0} signatures"
+msgstr "לדרוש {0} חתימות"
+
+msgid "From {0} cosigners"
+msgstr "מ {0} חותמים-במשותף"
+
+msgid "Warning: to be able to restore a multisig wallet, you should include the master public key for each cosigner in all of your backups."
+msgstr "אזהרה: כדי שתוכל לשחזר ארנק רב-חתימתי, אתה צריך לכלול את המפתח הציבורי הראשי של כל חותם-במשותף בכל הגיבויים שלך."
+
+msgid "Choose the number of signatures needed to unlock funds in your wallet:"
+msgstr "בחרו את מספר החתימות הדרושות כדי לשחרר את הכספים בארנקכם:"
+
+msgid "Enter a list of Bitcoin addresses (this will create a watching-only wallet), or a list of private keys."
+msgstr "הזן רשימה של כתובות ביטקוין (מה שיצור ארנק לצפייה-בלבד), או רשימה של מפתחות פרטיים."
+
+msgid "An unnamed {}"
+msgstr "{} ללא שם"
+
+msgid "Select a device"
+msgstr "בחר התקן"
+
+msgid "Scanning devices..."
+msgstr "סורק התקנים..."
+
+msgid "Error scanning devices"
+msgstr "שגיאה בסריקת הֶתְקֵנִים"
+
+msgid "No exceptions encountered."
+msgstr "ללא תקלות."
+
+msgid "No hardware device detected."
+msgstr "לא זוהה התקן חומרה."
+
+msgid "If your device is not detected on Windows, go to \"Settings\", \"Devices\", \"Connected devices\", and do \"Remove device\". Then, plug your device again."
+msgstr "אם ווינדוס לא מבחין בהֶתְקֵן שלך, לך ל\"הגדרות\", \"התקנים\", \"התקנים מחוברים\", ובצע \"הסר התקן\". אחרי כן, חבר את ההתקן שלך שוב."
+
+msgid "While this is less than ideal, it might help if you run Electrum as Administrator."
+msgstr "אמנם זה לא אידיאלי, אבל אולי יעזור אם תריץ את אלקטרום כמנהל."
+
+msgid "On Linux, you might have to add a new permission to your udev rules."
+msgstr "בלינוקס, יתכן ותצטרכו להוסיף הרשאה חדשה לחוקי ה- udev שלכם."
+
+msgid "Debug message"
+msgstr "הודעת דיבג"
+
+msgid "Back"
+msgstr "חזור"
+
+msgid "Invalid Bitcoin address"
+msgstr "כתובת ביטקוין לא תקינה"
+
+msgid "Invalid Fee"
+msgstr "עמלה לא תקינה"
+
+msgid "Addresses"
+msgstr "כתובות"
+
+msgid "Contacts"
+msgstr "אנשי קשר"
+
+msgid "Banner"
+msgstr "באנר"
+
+msgid "Quit"
+msgstr "יציאה"
+
+msgid "Invalid Bitcoin Address"
+msgstr "כתובת ביטקוין לא תקינה"
+
+msgid "Missing libraries for {}."
+msgstr "ספריות חסרות ל{}."
+
+msgid "Library version for '{}' is incompatible."
+msgstr "גירסת הספרייה ל'{}' לא תואמת."
+
+msgid "Make sure you install it with python3"
+msgstr "וודא שאתה מתקין אותו עם python3"
+
+msgid "Only OP_RETURN scripts, with one constant push, are supported."
+msgstr "תסריטי OP_RETURN בלבד, עם קבוע אחד בOP_PUSHDATA, נתמכים."
+
+msgid "Only OP_RETURN scripts are supported."
+msgstr "תסריטי OP_RETURN בלבד נתמכים."
+
+msgid "OP_RETURN payload too large.\n"
+msgstr "מטען OP_RETURN גדול מדי.\n"
+
+msgid "Amount for OP_RETURN output must be zero."
+msgstr "סכום עבור פלט OP_RETURN חייב להיות אפס."
+
+msgid "The firmware of your hardware device is too old. If possible, you should upgrade it. You can ignore this error and try to continue, however things are likely to break."
+msgstr "קושחת התקן החומרה שלך ישנה מדי. אם זה אפשרי, יש לעדכן אותה. תוכל להתעלם מההודעה הזאת ולנסות להמשיך, אך העניינים עלולים להשתבש. "
+
+msgid "Ignore and continue?"
+msgstr "להתעלם ולהמשיך?"
+
+msgid "Please check your {} device"
+msgstr "נא לבדוק את התקן ה{} שלך"
+
+msgid "Outdated device firmware"
+msgstr "קושחת ההתקן לא מעודכנת"
+
+msgid "Default"
+msgstr "ברירת מחדל"
+
+msgid "Network request timed out."
+msgstr "תם הזמן לבקשת רשת."
+
+msgid "The server returned an unexpected transaction ID when broadcasting the transaction."
+msgstr "השרת החזיר מזהה עסקה לא כמצופה בעת שידור העסקה."
+
+msgid "Consider trying to connect to a different server, or updating Electrum."
+msgstr "אולי נסה להתחבר לשרת אחר, או לעדכן את אלקטרום."
+
+msgid "The server returned an error when broadcasting the transaction."
+msgstr "השרת החזיר שגיאה בזמן שידור העסקה."
+
+msgid "Unknown error when broadcasting the transaction."
+msgstr "שגיאה לא מוכרת בעת שידור העסקה."
+
+msgid "Server returned unexpected transaction ID."
+msgstr "שרת החזיר מזהה עסקה בלתי צפוי."
+
+msgid "Your transaction is paying a fee that is so low that the bitcoin node cannot fit it into its mempool. The mempool is already full of hundreds of megabytes of transactions that all pay higher fees. Try to increase the fee."
+msgstr "העסקה שלך משלמת עמלה שכל כך נמוכה שצומת הביטקוין לא יכול לכלול אותה במאגר העסקאות הלא מאושרות. המאגר כבר מלא במאות מגה-בייטים של עסקאות המשלמות עמלה גבוהה יותר. נסה להגדיל את העמלה."
+
+msgid "Your transaction is trying to replace another one in the mempool but it does not meet the rules to do so. Try to increase the fee."
+msgstr "עסקתך מנסה להחליף אחת אחרת במאגר העסקאות הלא מאושרות אך היא לא עומדת בחוקים המתאימים. נסה להגדיל עמלה."
+
+msgid "Transaction uses non-standard version."
+msgstr "עסקה עושה שימוש בגירסה לא-סטנדרטית."
+
+msgid "The transaction was rejected because it is too large (in bytes)."
+msgstr "העסקה נדחתה כי היא גדולה מדי (בבייטים)."
+
+msgid "Some of the outputs pay to a non-standard script."
+msgstr "חלק מהפלטים משלמים לתסריט לא-סטנדרטי."
+
+msgid ""
+"Transaction could not be broadcast due to dust outputs.\n"
+"Some of the outputs are too small in value, probably lower than 1000 satoshis.\n"
+"Check the units, make sure you haven't confused e.g. mBTC and BTC."
+msgstr ""
+"לא ניתן לשדר את העסקה בגלל פלטי אבק.\n"
+"חלק מהפלטים בעלי ערך קטנים מדי, כנראה פחות מ1000 סאטושים.\n"
+"בדוק את היחידות, וודא שלא התבלבלת בין, נניח, mBTC לBTC."
+
+msgid "The transaction was rejected because it contains multiple OP_RETURN outputs."
+msgstr "העסקה נדחתה כי היא מכילה כמה פלטי OP_RETURN."
+
+msgid "Unknown error"
+msgstr "שגיאה לא ידועה"
+
+msgid "Unpaid"
+msgstr "לא שולם"
+
+msgid "Paid"
+msgstr "שולם"
+
+msgid "In progress"
+msgstr "בביצוע"
+
+msgid "Failed"
+msgstr "נכשל"
+
+msgid "Computing route..."
+msgstr "מחשבת מסלול..."
+
+msgid "Never"
+msgstr "אף פעם"
+
+msgid "10 minutes"
+msgstr "10 דקות"
+
+msgid "1 hour"
+msgstr "&שעה אחת"
+
+msgid "1 day"
+msgstr "&יום אחד"
+
+msgid "1 week"
+msgstr "שבוע אחד"
+
+msgid "Destination node"
+msgstr "צומת יעד"
+
+msgid "No path found"
+msgstr "לא נמצא מסלול"
+
+msgid "Address unknown for node:"
+msgstr "כתובת אינה ידועה לצומת:"
+
+msgid "Don't know any addresses for node:"
+msgstr "לא מכיר אף כתובת לצומת:"
+
+msgid "Hostname does not resolve (getaddrinfo failed)"
+msgstr "שם שרת לא טוב (נכשל getaddrinfo)"
+
+msgid "Forwarding"
+msgstr "להעביר הלאה"
+
+msgid "Open channel"
+msgstr "פתח ערוץ"
+
+msgid "Close channel"
+msgstr "סגירת ערוץ"
+
+msgid "This invoice has been paid already"
+msgstr "החשבונית הזאת שולמה כבר"
+
+msgid "A payment was already initiated for this invoice"
+msgstr "כבר אותחל תשלום עבור חשבונית זו"
+
+msgid "A previous attempt to pay this invoice did not clear"
+msgstr "ניסיון קודם לשלם חשבונית זו לא הצליח"
+
+msgid "Missing amount"
+msgstr "סכום חסר"
+
+msgid "Invoice wants us to risk locking funds for unreasonably long."
+msgstr "חשבונית מבקשת מאיתנו לנעול כסף למשך זמן לא סביר."
+
+msgid "The server returned an error."
+msgstr "השרת החזיר שגיאה."
+
+msgid "Disconnected"
+msgstr "מנותק"
+
+msgid "Connected to {0} nodes."
+msgstr "מחובר לצמתים {0}."
+
+msgid "Connected to {0} node."
+msgstr "מחובר לצומת {0}."
+
+msgid "Error parsing URI"
+msgstr "שגיאה בקריאת URI"
+
+msgid "Nothing to plot."
+msgstr "אין עבור מה להכין תרשים."
+
+msgid "A library is probably missing."
+msgstr "כנראה שחסרה ספרייה."
+
+msgid ""
+"Electrum cannot pair with your {}.\n"
+"\n"
+"Before you request bitcoins to be sent to addresses in this wallet, ensure you can pair with your device, or that you have its seed (and passphrase, if any).  Otherwise all bitcoins you receive will be unspendable."
+msgstr ""
+"אלקטרום לא יכול להזדווג עם {} שלך.\n"
+"\n"
+"לפני שאתה מבקש שיישלחו ביטקוינים לכתובות בארנק הזה, וודא כי אתה יכול להזדווג עם הֶתְקֵנְךָ, או שיש לך את הזרע ברשותך (וביטוי סודי, אם יש). אחרת הביטקוינים שתקבל לא יהיו ניתנים לבזבוז."
+
+msgid "Please insert your {}"
+msgstr "נא להכניס את ה{} שלך"
+
+msgid "Please select which {} device to use:"
+msgstr "נא לבחור באיזה התקן {} להשתמש:"
+
+msgid "Audio Modem Settings"
+msgstr "הגדרות מודם שמע"
+
+msgid "Bit rate [kbps]: "
+msgstr "קצב נתונים [kbps]:"
+
+msgid "Read from microphone"
+msgstr "קרא ממיקרופון"
+
+msgid "Send to speaker"
+msgstr "שלח לרמקול"
+
+msgid "Missing previous tx."
+msgstr "עסקה קודמת חסרה."
+
+msgid "Message encryption, decryption and signing are currently not supported for {}"
+msgstr "הצפנת, פענוח וחתימת הודעות כרגע לא נתמכות ב{}"
+
+msgid "Showing address ..."
+msgstr "מציג כתובת..."
+
+msgid "BitBox02 Status"
+msgstr "מצב BitBox02"
+
+msgid ""
+"Enter a descriptive name for your multisig account.\n"
+"You should later be able to use the name to uniquely identify this multisig account"
+msgstr ""
+"הזן שם מתאר לחשבון הרב-חתימתי שלך.\n"
+"אתה תהיה אמור בזמן מאוחר יותר להשתמש בשם הזה כדי לזהות באופן ייחודי את החשבון הרב-חתימתי הזה"
+
+msgid "Invalid xpub magic. Make sure your {} device is set to the correct chain."
+msgstr "קסם xpub לא תקין. וודא שהתקן ה{} שלך מוגדר לשרשרת הנכונה."
+
+msgid "Encryption and decryption are currently not supported for {}"
+msgstr "הצפנה ופיענוח כרגע לא נתמכים עבור {}"
+
+msgid "Error showing address"
+msgstr "שגיאה בהצגת כתובת"
+
+msgid "Make sure you have imported the correct wallet description file on the device for this multisig wallet."
+msgstr "וודא שייבאת מההתקן את קובץ תיאור הארנק הנכון לארנק הרב-חתימתי הזה."
+
+msgid "This function is only available for standard wallets when using {}."
+msgstr "הפעולה הזאת רק אפשרית לארנקים רגילים כשמשתמשים ב{}."
+
+msgid "Select where to save the setup file"
+msgstr "בחר מיקום שמירת קובץ ההתקנה"
+
+msgid "Coldcard Status"
+msgstr "מצב Coldcard"
+
+msgid "Master Fingerprint"
+msgstr "טביעת אצבע ראשית"
+
+msgid "Firmware Version"
+msgstr "גרסת קוׁשְׁחָה"
+
+msgid "Build Date"
+msgstr "תאריך הגרסה"
+
+msgid "Bootloader"
+msgstr "מנהל אתחול (bootloader)"
+
+msgid "Upgrade"
+msgstr "שדרוג"
+
+msgid "Device communication error. Please unplug and replug your Digital Bitbox."
+msgstr "שגיאת תקשורת עם התקן. נא לנתק ולחבר מחדש את הDigital Bitbox שלך."
+
+msgid "Enter the password used when the backup was created:"
+msgstr "הזן את הסיסמה שנשתמשה כשהגיבוי נוצר:"
+
+msgid "Password must have at least 4 characters."
+msgstr "הסיסמה צריכה להיות לפחות 4 תווים."
+
+msgid "Enter password:"
+msgstr "הזן סיסמה:"
+
+msgid "Password must have less than 64 characters."
+msgstr "הסיסמה צריכה להיות פחות מ64 תווים."
+
+msgid "An uninitialized Digital Bitbox is detected."
+msgstr "זוהה Digital Bitbox לא מאותחל."
+
+msgid "Enter a new password below."
+msgstr "הזן סיסמה חדשה למטה."
+
+msgid "REMEMBER THE PASSWORD!"
+msgstr "זכור את הסיסמה!"
+
+msgid "A backup is saved automatically when generating a new wallet."
+msgstr "גיבוי אוטומטי נשמר כשנוצר ארנק חדש."
+
+msgid "Enter your Digital Bitbox password:"
+msgstr "הזן את סיסמת הDigital Bitbox שלך:"
+
+msgid "Incorrect password entered."
+msgstr "הוזנה סיסמה שגויה."
+
+msgid "Create a wallet using the current seed"
+msgstr "יצירת ארנק בעזרת הגרעין הנוכחי"
+
+msgid "Erase the Digital Bitbox"
+msgstr "מחק את הDigital Bitbox"
+
+msgid "Full 2FA enabled. This is not supported yet."
+msgstr "אימות דו-שלבי מלא פעיל. זה עוד לא נתמך."
+
+msgid "Choose how to initialize your Digital Bitbox:"
+msgstr "בחרו איך לאתחל את ה- Digital Bitbox שלכם:"
+
+msgid "Generate a new random wallet"
+msgstr "צור ארנק אקראי חדש"
+
+msgid "Load a wallet from the micro SD card"
+msgstr "הטען ארנק מכרטיס המיקרו SD "
+
+msgid "Do not pair"
+msgstr "לא לזווג"
+
+msgid "Import pairing from the Digital Bitbox desktop app"
+msgstr "ייבא זיווג מיישום הDigital Bitbox "
+
+msgid "Mobile pairing options"
+msgstr "אפשרויות זיווג נייד"
+
+msgid "Are you sure you want to erase the Digital Bitbox?"
+msgstr "האם אתה בטוח שברצונך למחוק את הDigital Bitbox?"
+
+msgid "To continue, touch the Digital Bitbox's light for 3 seconds."
+msgstr "כדי להמשיך, יש לגעת באור המהבהב של הDigital Bitbox לשלוש שניות."
+
+msgid "To cancel, briefly touch the light or wait for the timeout."
+msgstr "כדי לבטל, יש לגעת בקצרה באור המהבהב או לחכות עד שתם הזמן."
+
+msgid "Choose a backup file:"
+msgstr "בחירת קובץ גיבוי:"
+
+msgid "Loading backup..."
+msgstr "טוען גיבוי..."
+
+msgid "Could not sign message."
+msgstr "לא ניתן לחתום על הודעה."
+
+msgid "Signing message ..."
+msgstr "חותם הודעה..."
+
+msgid "To continue, touch the Digital Bitbox's blinking light for 3 seconds."
+msgstr "כדי להמשיך, יש לגעת באור המהבהב של הDigital Bitbox לשלוש שניות."
+
+msgid "To cancel, briefly touch the blinking light or wait for the timeout."
+msgstr "כדי לבטל, יש לגעת בקצרה באור המהבהב או לחכות עד שתם הזמן."
+
+msgid "Could not sign message"
+msgstr "לא ניתן לחתום על הודעה"
+
+msgid "Signing large transaction. Please be patient ..."
+msgstr "חותם על עסקה גדולה. נא להיות סבלני..."
+
+msgid "This function is only available after pairing your {} with a mobile device."
+msgstr "הפעולה הזאת אפשרית רק לאחר זיווג ה{} שלך עם מכשיר נייד."
+
+msgid "This function is only available for p2pkh keystores when using {}."
+msgstr "הפעולה הזאת אפשרית רק לאחסון-מפתחות מסוג p2pkh כשמשתמשים ב{}."
+
+msgid "Encryption and decryption are not implemented by {}"
+msgstr "הצפנה ופיענוח לא ממומשים על ידי {}"
+
+msgid "Confirm the transaction output on your {} device"
+msgstr "אשר את פלט העסקה על מכשירך {}"
+
+msgid "Confirm internal entropy on your {} device to begin"
+msgstr "אשר את האנטרופיה הפנימית של מכשירך {} כדי להתחיל"
+
+msgid "Write down the seed word shown on your {}"
+msgstr "רשום את מילת הזרע המופיעה על ה{} שלך"
+
+msgid "Confirm on your {} that you want to wipe it clean"
+msgstr "אשר על {} שברצונך למחוק אותו לחלוטין"
+
+msgid "Confirm on your {} device the message to sign"
+msgstr "אשר את ההודעה אותה אתה רוצה לחתום על מכשירך {}"
+
+msgid "Confirm the total amount spent and the transaction fee on your {} device"
+msgstr "אשר את הסכום הכולל ששולם ואת עמלת העסקה על מכשירך {}"
+
+msgid "Confirm wallet address on your {} device"
+msgstr "אשר כתובת הארנק על מכשירך {}"
+
+msgid "Check your {} device to continue"
+msgstr "בדוק את מכשירך {} כדי להמשיך"
+
+msgid "Enter a new PIN for your {}:"
+msgstr "הזן מספר זהוי אישי חדש ל{} שלך:"
+
+msgid ""
+"Re-enter the new PIN for your {}.\n"
+"\n"
+"NOTE: the positions of the numbers have changed!"
+msgstr ""
+"הזן מחדש את מספר הזהוי החדש בשביל ה{} שלך.\n"
+"\n"
+"הערה: מיקום הספרות השתנה!"
+
+msgid "Enter your current {} PIN:"
+msgstr "הזן את מספר הזהוי של {} הנוכחי שלך:"
+
+msgid "The PIN cannot be longer than 9 characters."
+msgstr "אורך מספר הזהוי לא יכול להיות מ9 תווים."
+
+msgid "Enter a passphrase to generate this wallet.  Each time you use this wallet your {} will prompt you for the passphrase.  If you forget the passphrase you cannot access the bitcoins in the wallet."
+msgstr "הזן ביטוי סודי כדי לייצר את הארנק הזה. כל פעם שתשתמש בארנק הזה ה{} שלך יבקש ממך את הביטוי הסודי. אם אתה שוכח את הביטוי הסודי לא תהיה לך גישה לביטקוינים בארנק."
+
+msgid "Enter the passphrase to unlock this wallet:"
+msgstr "הזן את הביטוי הסודי כדי לפתוח את הארנק הזה:"
+
+msgid "Too long passphrase ({} > 50 chars)."
+msgstr "ביטוי סודי ארוך מדי ({} > 50 תווים)."
+
+msgid "Step {}/24.  Enter seed word as explained on your {}:"
+msgstr "שלב {}/24. הקש מילת זרע כפי שהוסבר ב{} שלך:"
+
+msgid "Confirm on your {} device to disable passphrases"
+msgstr "עליך לאשר ביטול ביטויים סודיים על מכשירך {}"
+
+msgid "Confirm on your {} device to enable passphrases"
+msgstr "עליך לאשר הפעלת ביטויים סודיים על מכשירך {}"
+
+msgid "Confirm the new label on your {} device"
+msgstr "אשר את התווית החדשה על מכשירך {}"
+
+msgid "Confirm on your {} device to change your home screen"
+msgstr "עליך לאשר שינוי מסך הבית שלך על מכשירך {}"
+
+msgid "Confirm on your {} device to disable PIN protection"
+msgstr "עליך לאשר ביטול הגנה באמצעות מספר זהוי על מכשירך {}"
+
+msgid "Confirm on your {} device to change your PIN"
+msgstr "עליך לאשר שינוי מספר הזהוי שלך על מכשירך {}"
+
+msgid "Confirm on your {} device to set a PIN"
+msgstr "עליך לאשר יצירת מספר זהוי על מכשירך {}"
+
+msgid "Missing previous tx for legacy input."
+msgstr "עסקה קודמת חסרה לקלט מורשה."
+
+msgid "Outdated {} firmware for device labelled {}. Please download the updated firmware from {}"
+msgstr "קושחת {} לא מעודכנת עבור התקן עם תווית {}. נא להוריד את הקושחה מעודכנת מ{}"
+
+msgid "The device was disconnected."
+msgstr "ההתקן נותק."
+
+msgid "Passphrases allow you to access new wallets, each hidden behind a particular case-sensitive passphrase."
+msgstr "ביטויים סודיים מאפשרים לך לגשת לארנקים חדשים, כל אחד מוסתר מאחורי ביטוי סודי רגיש-צורת-אות."
+
+msgid "If you forget a passphrase you will be unable to access any bitcoins in the wallet behind it.  A passphrase is not a PIN. Only change this if you are sure you understand it."
+msgstr "אם אתה שוכח ביטוי סודי לא תהיה לך גישה לביטקוינים בארנק עליו הוא מגן. ביטוי סודי אינו מספר זהוי. תשנה את זה רק אם אתה בטוח שאתה מבין במה מדובר."
+
+msgid "KeepKey Seed Recovery"
+msgstr "שחזור זרע KeepKey"
+
+msgid "Accept Word"
+msgstr "קבל מילה"
+
+msgid "Seed Entered"
+msgstr "הוזן זרע"
+
+msgid "Enter PIN"
+msgstr "הזן מספר זהוי"
+
+msgid "Enter a label to name your device:"
+msgstr "הזן תווית כדי לקרוא שם להתקן שלך:"
+
+msgid "Select your seed length:"
+msgstr "בחר אורך הזרע שלך:"
+
+msgid "{} words"
+msgstr "{} מילים"
+
+msgid "Enable PIN protection"
+msgstr "אפשור הגנת מספר זיהוי אישי"
+
+msgid "Enter your BIP39 mnemonic:"
+msgstr "הזן את זרע הBIP39 שלך:"
+
+msgid "Enter the master private key beginning with xprv:"
+msgstr "הזן את המפתח הפרטי הראשי שמתחיל עם xprv:"
+
+msgid "Enter your PIN (digits 1-9):"
+msgstr "הזן את מספר הזהוי שלך (ספרות 1-9):"
+
+msgid "Enable passphrases"
+msgstr "הפעל ביטויים סודיים"
+
+msgid "No"
+msgstr "לא"
+
+msgid "Enable Passphrases"
+msgstr "הפעל ביטויים סודיים"
+
+msgid "Disable Passphrases"
+msgstr "השבת ביטויים סודיים"
+
+msgid "Set a PIN"
+msgstr "בחר מספר זהוי"
+
+msgid "Change PIN"
+msgstr "שינוי קוד זיהוי אישי"
+
+msgid "Confirm Toggle Passphrase Protection"
+msgstr "אשרו מצב מוגן לביטוי סודי "
+
+msgid "Are you sure you want to proceed?"
+msgstr "האם אתה בטוח שברצונך להמשיך?"
+
+msgid "Confirm Device Wipe"
+msgstr "אישור מחיקת מכשיר"
+
+msgid ""
+"Are you SURE you want to wipe the device?\n"
+"Your wallet still has bitcoins in it!"
+msgstr ""
+"אתה בטוח שאתה רוצה למחוק את המכשיר? \n"
+" עדיין יש ביטקויינים בארנק שלך!"
+
+msgid "Device Label"
+msgstr "תווית התקן"
+
+msgid "PIN set"
+msgstr "מספר זהוי הוגדר"
+
+msgid "Passphrases"
+msgstr "ביטויים סודיים"
+
+msgid "Device ID"
+msgstr "מזהה מכשיר"
+
+msgid "Bootloader Hash"
+msgstr "גיבוב Bootloader"
+
+msgid "Supported Coins"
+msgstr "מטבעות נתמכים"
+
+msgid "Language"
+msgstr "שפה"
+
+msgid "Initialized"
+msgstr "מאותחל"
+
+msgid "Name this {}.  If you have multiple devices their labels help distinguish them."
+msgstr "תן שם ל {} הזה. אם יש לך מספר התקנים התוויות שלהם עוזרות להבחין בינם."
+
+msgid "Apply"
+msgstr "החל"
+
+msgid "PIN Protection"
+msgstr "אבטחת מספר זהוי"
+
+msgid "PIN protection is strongly recommended.  A PIN is your only protection against someone stealing your bitcoins if they obtain physical access to your {}."
+msgstr "הגנה באמצעות מספר זהוי היא מאד מומלצת. מספר זהוי הוא ההגנה היחידה שלך מפני גניבת הביטקוינים שלך על ידי מי שמצליח להשיג גישה פיזית ל{} שלך."
+
+msgid "Session Timeout"
+msgstr "תם הזמן הקצוב לפעילות"
+
+msgid "Clear the session after the specified period of inactivity.  Once a session has timed out, your PIN and passphrase (if enabled) must be re-entered to use the device."
+msgstr "אַפֵּס את שהותך בארנק לאחר זמן מוגדר של אי-פעילות. ברגע שזמן שהותך תם, תצטרך להזין מחדש את מספר הזהוי וביטוי הסודי (לא הזרע) שלך בשביל להשתמש במכשיר."
+
+msgid "Disable PIN"
+msgstr "השבת מספר זהוי אישי"
+
+msgid "If you disable your PIN, anyone with physical access to your {} device can spend your bitcoins."
+msgstr "אם משביתים את מספר הזהוי, כל אחד עם גישה פיזית להֶתְקֵנְךָ {} יוכל לבזבז את הביטקוינים שלך."
+
+msgid "Wipe Device"
+msgstr "מחק תוכן ההתקן"
+
+msgid "Wipe the device, removing all data from it.  The firmware is left unchanged."
+msgstr "מחק תוכן ההתקן, כאשר כל הנתונים עליו יוסרו. הקושחה נשארת כפי שהיא."
+
+msgid "Only wipe a device if you have the recovery seed written down and the device wallet(s) are empty, otherwise the bitcoins will be lost forever."
+msgstr "מחק התקן רק אם ברשותך הזרע שיחזור רשום על דף נייר וארנק(י) ההתקן ריק(ים), אחרת הביטקוינים ילכו לאיבוד לתמיד."
+
+msgid "Advanced"
+msgstr "מתקדם"
+
+msgid ""
+"Choose how you want to initialize your {}.\n"
+"\n"
+"The first two methods are secure as no secret information is entered into your computer.\n"
+"\n"
+"For the last two methods you input secrets on your keyboard and upload them to your {}, and so you should only do those on a computer you know to be trustworthy and free of malware."
+msgstr ""
+"בחר איך ברצונך לאתחל את ה {} שלך. \n"
+"\n"
+" שתי הדרכים הראשונות הן בטוחות כי שום מידע סודי לא מוזן למחשב שלך. \n"
+"\n"
+" עבור שתי הדרכים האחרונות אתה מזין סודות במקלדת שלך ומעלה אותם ל {} שלך, ולכן השתמש בהן רק על מחשב שידוע לכם שהוא בטוח ואמין."
+
+msgid "Let the device generate a completely new seed randomly"
+msgstr "תן להֶתְקֵן לייצר זרע אקראי חדש לגמרי"
+
+msgid "Recover from a seed you have previously written down"
+msgstr "שחזר מזרע שכבר רשמת על דף נייר"
+
+msgid "Upload a master private key"
+msgstr "העלה מפתח פרטי ראשי."
+
+msgid "Error connecting to {} server"
+msgstr "שגיאה בהתחברות ל{} שרת"
+
+msgid "Error synchronising labels"
+msgstr "שגיאה בסינכרון תוויות"
+
+msgid "Firmware version too old. Please update at"
+msgstr "גרסת קוׁשְׁחָה מיושנת מדי. נא לעדכן ב-"
+
+msgid "Firmware version (or \"Bitcoin\" app) too old for Segwit support. Please update at"
+msgstr "גרסת קוׁשְׁחָה (או אפליקציית ביטקוין) מיושנת מדי בשביל תמיכה בסגוויט. נא לעדכן ב-"
+
+msgid "Confirm Transaction on your Ledger device..."
+msgstr "אשר עסקה על מכשיר הלדג'ר שלך"
+
+msgid "Cancelled by user"
+msgstr "בוטל על ידי המשתמש"
+
+msgid "Ledger Status"
+msgstr "מצב הלדג'ר"
+
+msgid "Send to cosigner"
+msgstr "שלח לחותם-במשותף"
+
+msgid "Do you want to open it now?"
+msgstr "האם ברצונך לפתוח אותו עכשיו?"
+
+msgid "Always check your backups."
+msgstr "תמיד בדוקו את הגיבויים שלכם."
+
+msgid "More info at: {}"
+msgstr "מידע נוסף ב: {}"
+
+msgid "Proceed at your own risk."
+msgstr "המשך על אחריותך בלבד."
+
+msgid "This version supports a maximum of {} characters."
+msgstr "הגירסה הזאת תומכת לכל היותר ב{} תווים."
+
+msgid "Encrypt {}'s seed"
+msgstr "הצפן הזרע של {}"
+
+msgid "Encrypt custom secret"
+msgstr "הצפנת סוד מותאם"
+
+msgid "Custom secret"
+msgstr "סוד מותאם"
+
+msgid "Calibration sheet"
+msgstr "גיליון כיול"
+
+msgid "Instructions:"
+msgstr "הוראות:"
+
+msgid "If you have an old printer, or want optimal precision"
+msgstr "אם יש לך מדפסת ישנה, או מעוניין בדיוק אופטי."
+
+msgid "Calibration values:"
+msgstr "ערכי כיול:"
+
+msgid "Right side"
+msgstr "צד ימין"
+
+msgid "Bottom"
+msgstr "למטה"
+
+msgid "Choose on your {} device where to enter your passphrase"
+msgstr "בחרו על מכשירכם {} איפה להזין את ביטוי הסודי שלכם"
+
+msgid "Choose Homescreen"
+msgstr "בחירת מסך בית"
+
+msgid "Homescreen"
+msgstr "מסך הבית"
+
+msgid "Change..."
+msgstr "שינוי..."
+
+msgid "Required package 'PIL' is not available - Please install it."
+msgstr "החבילה הנדרשת 'PIL' לא זמינה - נא להתקין אותה."
+
+msgid "Complete the initialization process on your {} device"
+msgstr "סיימו את תהליך האתחול במכשירכם {}"
+
+msgid "Please enter your passphrase on the {} device"
+msgstr "נא הזן את הביטוי הסודי שלך על התקן ה{}"
+
+msgid "Enter passphrase on device?"
+msgstr "הזן ביטוי סודי על הֶתְקֵן?"
+
+msgid ""
+"Enter the recovery words by pressing the buttons according to what the device shows on its display.  You can also use your NUMPAD.\n"
+"Press BACKSPACE to go back a choice or word.\n"
+msgstr ""
+"הזן את מילות השחזור על ידי לחיצה בכפתורים כפי שמופיע על צג ההֶתְקֵן. תוכל גם להשתמש במקשי פד הספרות.\n"
+"לחץ על מקש BACKSPACE כדי לחזור אחורה.\n"
+
+msgid ""
+"In seedless mode, the mnemonic seed words are never shown to the user.\n"
+"There is no backup, and the user has a proof of this.\n"
+"This is an advanced feature, only suggested to be used in redundant multisig setups."
+msgstr ""
+"במצב ללא-זרע, המשתמש לעולם לא יראה את מילות מנמוניקת הזרע.\n"
+"אין גיבוי, ולמשתמש יש הוכחה לכך.\n"
+"זהו מאפיין מתקדם, שמומלץ להשתמש בו רק במצב בו לאחד החותמים של ארנק רב-חתימתי יש יותר ממפתח פרטי אחד (לאותו ארנק)."
+
+msgid "Trezor Matrix Recovery"
+msgstr "שחזור מטריצת טרזור"
+
+msgid "Enter Passphrase on Device"
+msgstr "הזן ביטוי סודי על הֶתְקֵן"
+
+msgid "Select backup type:"
+msgstr "בחר סוג גיבוי:"
+
+msgid "Single seed (BIP39)"
+msgstr "זרע בודד (BIP39)"
+
+msgid "Shamir"
+msgstr "שמיר"
+
+msgid "Select seed length:"
+msgstr "בחר אורך הזרע:"
+
+msgid "Show expert settings"
+msgstr "הצגת אפשרויות מתקדמות"
+
+msgid "Select recovery type:"
+msgstr "בחר סוג השחזור:"
+
+msgid "Scrambled words"
+msgstr "מילים מבולבלות"
+
+msgid "Matrix"
+msgstr "מטריצה"
+
+msgid "Firmware version too old."
+msgstr "גרסת קוׁשְׁחָה מיושנת מדי."
+
+msgid "Required package 'PIL' is not available - Please install it or use the Trezor website instead."
+msgstr "החבילה הנדרשת 'PIL' לא זמינה - נא להתקין אותה או להשתמש באתר של טרזור במקום."
+
+msgid "Choose how you want to initialize your {}."
+msgstr "בחרו איך תרצו לאתחל את {} שלכם."
+
+msgid "Please enter your Google Authenticator code:"
+msgstr "נא הזן את קוד המאמת גוגל שלך"
+
+msgid "Error connecting to server"
+msgstr "שגיאה בהתחברות לשרת"
+
+msgid "Invalid one-time password."
+msgstr "סיסמה חד-פעמית לא תקינה."
+
+msgid "This wallet was restored from seed, and it contains two master private keys."
+msgstr "הארנק הזה שוחזר מזרע, והוא מכיל שני מפתחות פרטיים ראשיים."
+
+msgid "Therefore, two-factor authentication is disabled."
+msgstr "לכן, אימות דו-שלבי מושבתת."
+
+msgid "Waiting for TrustedCoin server to sign transaction..."
+msgstr "ממתין לשרת הTrustedCoin לחתום על עסקה..."
+
+msgid "Authorization"
+msgstr "הרשאה"
+
+msgid "Please enter your Google Authenticator code"
+msgstr "נא הזן את קוד המאמת גוגל שלך"
+
+msgid "Code"
+msgstr "קוד"
+
+msgid "If you have lost your second factor, you need to restore your wallet from seed in order to request a new code."
+msgstr "אם איבדת את השלב השני, תצטרך לשחזר את ארנקך מהזרע כדי לבקש קוד חדש."
+
+msgid "Error getting TrustedCoin account info."
+msgstr "שגיאה בהורדת מידע של חשבון TrustedCoin."
+
+msgid "If you keep experiencing network problems, try using a Tor proxy."
+msgstr "אם אתה ממשיך לחוות בעיות בהתחברות לרשת, נסה להשתמש בפרוקסי Tor."
+
+msgid "Requesting account info from TrustedCoin server..."
+msgstr "מבקש מידע החשבון משרת הTrustedCoin..."
+
+msgid "Server not reachable."
+msgstr "שרת לא ניתן להשגה."
+
+msgid "This wallet is protected by TrustedCoin's two-factor authentication."
+msgstr "הארנק הזה מוגן על ידי האימות הדו-שלבי של TrustedCoin."
+
+msgid "For more information, visit"
+msgstr "למידע נוסף, בקרו"
+
+msgid "Create or restore"
+msgstr "יצירה או שיחזור"
+
+msgid "Then, enter your Google Authenticator code:"
+msgstr "אז, הזן את קוד מאמת גוגל שלך:"
+
+msgid "Google Authenticator code:"
+msgstr "קוד מאמת גוגל:"
+
+msgid "Restore 2FA wallet"
+msgstr "שחזר ארנק בעל אימות דו-שלבי"
+
+msgid "A small fee will be charged on each transaction that uses the remote server.  You may check and modify your billing preferences once the installation is complete."
+msgstr "עמלה קטנה תחויב בגין כל עסקה העושה שימוש בשרת המרוחק. תוכל לבדוק ולשנות את העדפות החיובים שלך לאחר שההתקנה תושלם."
+
+msgid "Note that your coins are not locked in this service.  You may withdraw your funds at any time and at no cost, without the remote server, by using the 'restore wallet' option with your wallet seed."
+msgstr "שים לב שהמטבעות שלך לא נעולים בשירות הזה. אתה רשאי למשוך את כספך אימתי שתרצה וללא עלות, ללא השרת המרוחק, על ידי שימוש באפשרות ה'שחזר ארנק' עם זרע הארנק שלך."
+
+msgid "The next step will generate the seed of your wallet.  This seed will NOT be saved in your computer, and it must be stored on paper.  To be safe from malware, you may want to do this on an offline computer, and move your wallet later to an online computer."
+msgstr "בשלב הבא יווצר הזרע של ארנקך. הזרע הזה *לא* יישמר על מחשבך, וחייבים לשמור אותו על דף נייר. כדי להיות מוגנים מתוכנות זדוניות, אולי תרצה לעשות זאת על מחשב שלא מחובר לאינטרנט, ולאחר מכן להעביר את ארנקך למחשב המחובר לאינטרנט."
+
+msgid "This service uses a multi-signature wallet, where you own 2 of 3 keys.  The third key is stored on a remote server that signs transactions on your behalf. A small fee will be charged on each transaction that uses the remote server."
+msgstr "השירות הזה עושה שימוש בארנק רב-חתימתי, כאשר אתה הבעלים של 2 מתוך 3 המפתחות. המפתח השלישי מאוחסן על שרת מרוחק החותם על עסקאות עבורך. עמלה קטנה תִגָּבֵה על כל עסקה העושה שימוש בשרת המרוחק."
+
+msgid "Enter the seed for your 2-factor wallet:"
+msgstr "הזן את הזרע לארנק הדו-שלבי שלך:"
+
+msgid "Cannot start QR scanner: initialization failed."
+msgstr "לא ניתן להפעיל את סורק הQR: איתחול נכשל."
+
+msgid "Make sure you have a camera connected and enabled."
+msgstr "וודא שיש לך מצלמה מחוברת ומופעלת."
+
+msgid "Select server automatically"
+msgstr "בחירת שרת באופן אוטומטי"
+
+msgid "Spend only confirmed coins"
+msgstr "הוציא רק מטבעות מוֻודאים"
+
+msgid "Spend only confirmed inputs."
+msgstr "הוציא רק קלטים מוֻודאים."
+
+msgid "Enable output value rounding"
+msgstr "אפשור עיגול ערך פלט"
+
+msgid "Set the value of the change output so that it has similar precision to the other outputs."
+msgstr "בחר את ערך פלט העודף כדי שיהיה לו אותה רמת דיוק כמו לשאר הפלטים."
+
+msgid "This might improve your privacy somewhat."
+msgstr "דבר זה אולי ישפר את הפרטיות שלך במידה מסוימת."
+
+msgid "If enabled, at most 100 satoshis might be lost due to this, per transaction."
+msgstr "אם מופעל, ככל היותר ילכו לאיבוד אולי 100 סטושים כתוצאה מכך, לעסקה. "
+
+msgid "Create recoverable channels"
+msgstr "צור ערוצים הניתנים לשחזור"
+
+msgid "Color theme"
+msgstr "תבנית צבע"
+
+msgid "For hardware device; include xpubs"
+msgstr "להֶתְקֵן חומרה; לכלול xpub"
+
+msgid "Number of zeros displayed after the decimal point. For example, if this is set to 2, \"1.\" will be displayed as \"1.00\""
+msgstr "מספר האפסים לאחר הנקודה העשרונית. לדוגמה, אם נבחר 2, \"1\" יוצג כ\"1.00\""
+
+msgid "Online Block Explorer"
+msgstr "סורק בלוקים אינטרנטי"
+
+msgid "Choose which online block explorer to use for functions that open a web browser"
+msgstr "בחר באיזה סורק בלוקים להשתמש עבור פקודות שפותחות דפדפן אינטרנט"
+
+msgid "Install the zbar package to enable this."
+msgstr "התקן חבילת zbar כדי להפעיל את זה."
+
+msgid "OpenAlias record, used to receive coins and to sign payment requests."
+msgstr "רשומת OpenAlias, בה משתמשים לקבלת מטבעות ולחתום על בקשות תשלום."
+
+msgid "The following alias providers are available:"
+msgstr "ספקי כינויים הבאים הם זמינים:"
+
+msgid "Automatically check for software updates"
+msgstr "בדיקה אוטומטית של עדכוני תוכנה"
+
+msgid "Debug logs can be persisted to disk. These are useful for troubleshooting."
+msgstr "יומני debug יכולים להשמר באופן קבוע לכונן. הם שימושיים לטיפול בתקלות."
+
+msgid "Select which language is used in the GUI (after restart)."
+msgstr "בחר באיזו שפה להשתמש בממשק הגרפי (לאחר הפעלה מחדש)."
+
+msgid "Insufficient funds"
+msgstr "אין מספיק כסף"
+
+msgid "Dynamic fee estimates not available"
+msgstr "הערכות עמלה משתנה לא זמינים"
+
+msgid "Incorrect password"
+msgstr "סיסמה שגויה"
+
+msgid "Transaction is unrelated to this wallet."
+msgstr "עסקה לא קשורה לארנק זה."
+
+msgid "Failed to import from file."
+msgstr "ייבוא מקובץ נכשל."
+
+msgid "Failed to export to file."
+msgstr "ייצוא לקובץ נכשל."
+
+msgid "No Data"
+msgstr "אין נתונים"
+
+msgid "Invalid JSON code."
+msgstr "קוד JSON לא תקין."
+
+msgid "Not yet available"
+msgstr "עדיין לא זמין"
+
+msgid "Not Verified"
+msgstr "לא מאומת"
+
+msgid "Local"
+msgstr "מקומי"
+
+msgid "No inputs found."
+msgstr "לא נמצאו קלטים."
+
+msgid "Not enough funds on address."
+msgstr "אין מספיק כסף בכתובת."
+
+msgid "Cannot bump fee"
+msgstr "לא ניתן להקפיץ עמלה"
+
+msgid "Cannot cancel transaction"
+msgstr "לא ניתן לבטל העברה"
+
+msgid "Cannot create child transaction"
+msgstr "לא ניתן ליצור העברה בת"
+
+msgid "Wallet file corruption detected. Please restore your wallet from seed, and compare the addresses in both files"
+msgstr "אובחן קובץ ארנק משובש. נא לשחזר את ארנקך מזרע, והשווה את הכתובות בשני הקבצים"
+
+msgid "Not verified"
+msgstr "לא אומת"
+
+msgid "Signed"
+msgstr "חתום"
+
+msgid "Unsigned"
+msgstr "לא חתום"
+
+msgid "Partially signed"
+msgstr "חתום באופן חלקי"
+
+msgid "Transaction is final"
+msgstr "העסקה היא סופית"
+
+msgid "Could not figure out which outputs to keep"
+msgstr "לא מצליח להבין על אילו פלטים לשמור"
+
+msgid "Could not find suitable outputs"
+msgstr "לא מצליח למצוא פלטים מתאימים"
+
+msgid "Could not find suitable output"
+msgstr "לא מצליח למצוא פלט מתאים"
+
+msgid "Could not find coins for output"
+msgstr "לא מצליח למצוא מטבעות עבור פלט"
+
+msgid "The output value remaining after fee is too low."
+msgstr "ערך הפלט הנותר לאחר עמלה הוא נמוך מדי."
+
+msgid ""
+"The input amounts could not be verified as the previous transactions are missing.\n"
+"The amount of money being spent CANNOT be verified."
+msgstr ""
+"לא היה ניתן לוודא את סכומי הקלטים מפני שהעסקאות הקודמות חסרות.\n"
+"לא ניתן לוודא את סכום הכסף שמבוזבז."
+
+msgid ""
+"The fee could not be verified. Signing non-segwit inputs is risky:\n"
+"if this transaction was maliciously modified before you sign,\n"
+"you might end up paying a higher mining fee than displayed."
+msgstr ""
+"לא היה ניתן לוודא את העמלה . יש סיכון בחתימה על קלטים שאינם סגוויט:\n"
+"אם העסקה שונתה באופן זדוני לפני שאתה חותם,\n"
+"אתה אולי תשלם עמלת כרייה גבוהה יותר ממה שמופיע."
+
+msgid ""
+"If you received this transaction from an untrusted device, do not accept to sign it more than once,\n"
+"otherwise you could end up paying a different fee."
+msgstr ""
+"אם קיבלת את העסקה הזאת מהתקן לא אמין, אל תסכים לחתום עליה יותר מפעם אחת,\n"
+"אחרת יהיה מצב שתשלם עמלה שונה."
+
+msgid "The fee for this transaction seems unusually high."
+msgstr "העמלה לעסקה הזאת נראית גבוהה באופן חריג."
+
+msgid "({}% of amount)"
+msgstr "({}% of amount)"
+
+msgid "This address has already been used. For better privacy, do not reuse it for new payments."
+msgstr "כבר נעשה שימוש בכתובת הזאת. לפרטיות משופרת, אין להשתמש בה שוב לתשלומים חדשים."
+
+msgid "New transaction: {}"
+msgstr "עסקה חדשה: {}"
+
+msgctxt "About|"
+msgid "About Electrum"
+msgstr "אודות Electrum"
+
+msgctxt "About|"
+msgid "Homepage"
+msgstr "דף הבית"
+
+msgctxt "About|"
+msgid "Distributed by Electrum Technologies GmbH"
+msgstr "מופץ על ידי Electrum Technologies GmbH"
+
+msgctxt "AddressDetails|"
+msgid "Address"
+msgstr "כתובת"
+
+msgctxt "AddressDetails|"
+msgid "Balance"
+msgstr "מאזן"
+
+msgctxt "AddressDetails|"
+msgid "Transactions"
+msgstr "עסקאות"
+
+msgctxt "AddressDetails|"
+msgid "Label"
+msgstr "תווית"
+
+msgctxt "AddressDetails|"
+msgid "Script type"
+msgstr "סוג תסריט"
+
+msgctxt "AddressDetails|"
+msgid "Derivation path"
+msgstr "נתיב גזירה"
+
+msgctxt "AddressDetails|"
+msgid "Public keys"
+msgstr "מפתחות ציבוריים"
+
+msgctxt "AddressDetails|"
+msgid "Public key"
+msgstr "מפתח ציבורי"
+
+msgctxt "AddressDetails|"
+msgid "Private key"
+msgstr "מפתח פרטי"
+
+msgctxt "AddressDetails|"
+msgid "Delete"
+msgstr "מחיקה"
+
+msgctxt "Addresses|"
+msgid "Addresses"
+msgstr "כתובות"
+
+msgctxt "Addresses|"
+msgid "Freeze"
+msgstr "להקפיא"
+
+msgctxt "Addresses|"
+msgid "Unfreeze"
+msgstr "הפשרה"
+
+msgctxt "BIP39RecoveryDialog|"
+msgid "Choose an account to restore."
+msgstr "בחירת חשבון לשחזור"
+
+msgctxt "BIP39RecoveryDialog|"
+msgid "No existing accounts found."
+msgstr "לא נמצאו חשבונות קיימים."
+
+msgctxt "BalanceDetails|"
+msgid "Lightning"
+msgstr "לייטנינג"
+
+msgctxt "BalanceDetails|"
+msgid "Unconfirmed"
+msgstr "לא מאושר"
+
+msgctxt "BalanceDetails|"
+msgid "Can send"
+msgstr "ניתן לשלוח"
+
+msgctxt "BalanceDetails|"
+msgid "Can receive"
+msgstr "ניתן לקבל"
+
+msgctxt "BalanceDetails|"
+msgid "Open Channel"
+msgstr "פתח ערוץ"
+
+msgctxt "BalanceSummary|"
+msgid "Balance"
+msgstr "מאזן"
+
+msgctxt "BalanceSummary|"
+msgid "Lightning"
+msgstr "לייטנינג"
+
+msgctxt "BtcField|"
+msgid "Amount"
+msgstr "סכום"
+
+msgctxt "ChannelDetails|"
+msgid "Channel Backup"
+msgstr "גיבוי ערוץ"
+
+msgctxt "ChannelDetails|"
+msgid "Capacity"
+msgstr "קיבולת"
+
+msgctxt "ChannelDetails|"
+msgid "Can send"
+msgstr "ניתן לשלוח"
+
+msgctxt "ChannelDetails|"
+msgid "Unfreeze"
+msgstr "הפשרה"
+
+msgctxt "ChannelDetails|"
+msgid "Freeze"
+msgstr "להקפיא"
+
+msgctxt "ChannelDetails|"
+msgid "Can receive"
+msgstr "ניתן לקבל"
+
+msgctxt "ChannelDetails|"
+msgid "Close channel"
+msgstr "סגירת ערוץ"
+
+msgctxt "Channels|"
+msgid "Open Channel"
+msgstr "פתח ערוץ"
+
+msgctxt "Channels|"
+msgid "Do you want to create your first channel?"
+msgstr "האם ברצונך ליצור את הערוץ הראשון שלך?"
+
+msgctxt "CloseChannelDialog|"
+msgid "Cooperative close"
+msgstr "סגירה בהסכמה"
+
+msgctxt "CloseChannelDialog|"
+msgid "Close channel"
+msgstr "סגירת ערוץ"
+
+msgctxt "CloseChannelDialog|"
+msgid "Request sent"
+msgstr "בקשה נשלחה"
+
+msgctxt "CloseChannelDialog|"
+msgid "Channel closed"
+msgstr "ערוץ נסגר"
+
+msgctxt "ConfirmTxDialog|"
+msgid "Fee"
+msgstr "עמלה"
+
+msgctxt "ConfirmTxDialog|"
+msgid "Options"
+msgstr "אפשרויות"
+
+msgctxt "ConfirmTxDialog|"
+msgid "In some cases, use up to 3 change addresses in order to break up large coin amounts and obfuscate the recipient address."
+msgstr "במקרים מסויימים, השתמש בעד 3 כתובות עודף כדי לחלק סכומי מטבע גדולים ולטשטש את כתובת המקבל."
+
+msgctxt "ConfirmTxDialog|"
+msgid "This may result in higher transactions fees."
+msgstr "דבר זה עלול לגרום לעמלות עסקה גבוהות יותר."
+
+msgctxt "CpfpBumpFeeDialog|"
+msgid "Bump Fee"
+msgstr "הקפצת עמלה"
+
+msgctxt "CpfpBumpFeeDialog|"
+msgid "Fee for child"
+msgstr "עמלה של צאצא"
+
+msgctxt "CpfpBumpFeeDialog|"
+msgid "Total size"
+msgstr "גודל כולל"
+
+msgctxt "CpfpBumpFeeDialog|"
+msgid "Total fee"
+msgstr "סך כל העמלה"
+
+msgctxt "ExceptionDialog|"
+msgid "Sorry!"
+msgstr "מצטערים!"
+
+msgctxt "ExceptionDialog|"
+msgid "Something went wrong while executing Electrum."
+msgstr "משהו השתבש במהלך הרצת אלקטרום."
+
+msgctxt "ExceptionDialog|"
+msgid "To help us diagnose and fix the problem, you can send us a bug report that contains useful debug information:"
+msgstr "כדי לעזור לנו לאבחן ולתקן את הבעיה, תוכל לשלוח אלינו דו\"ח באגים שיכיל בתוכו מידע דיבוג שימושי:"
+
+msgctxt "ExceptionDialog|"
+msgid "Please briefly describe what led to the error (optional):"
+msgstr "נא לתאר בקצרה מה הוביל לשגיאה (לא חובה):"
+
+msgctxt "ExceptionDialog|"
+msgid "Do you want to send this report?"
+msgstr "האם ברצונך לשלוח את הדו\"ח הזה?"
+
+msgctxt "ExceptionDialog|"
+msgid "Send Bug Report"
+msgstr "שלח דו\"ח באג"
+
+msgctxt "ExceptionDialog|"
+msgid "Not Now"
+msgstr "לא עכשיו"
+
+msgctxt "ExceptionDialog|"
+msgid "Error"
+msgstr "שגיאה"
+
+msgctxt "ExportTxDialog|"
+msgid "Copy"
+msgstr "העתקה"
+
+msgctxt "FeeMethodComboBox|"
+msgid "ETA"
+msgstr "זמן הגעה משוער"
+
+msgctxt "FeeMethodComboBox|"
+msgid "Mempool"
+msgstr "מאגר העסקאות הלא מאושרות"
+
+msgctxt "FeePicker|"
+msgid "Target"
+msgstr "יעד"
+
+msgctxt "FeePicker|"
+msgid "Mining fee"
+msgstr "עמלת כרייה"
+
+msgctxt "FiatField|"
+msgid "Amount"
+msgstr "סכום"
+
+msgctxt "GenericShareDialog|"
+msgid "Copy"
+msgstr "העתקה"
+
+msgctxt "History|"
+msgid "Local"
+msgstr "מקומי"
+
+msgctxt "History|"
+msgid "Mempool"
+msgstr "מאגר העסקאות הלא מאושרות"
+
+msgctxt "ImportAddressesKeysDialog|"
+msgid "Import"
+msgstr "ייבא"
+
+msgctxt "InvoiceDialog|"
+msgid "Lightning Invoice"
+msgstr "חשבונית לייטנינג"
+
+msgctxt "InvoiceDialog|"
+msgid "Address"
+msgstr "כתובת"
+
+msgctxt "InvoiceDialog|"
+msgid "Description"
+msgstr "תיאור"
+
+msgctxt "InvoiceDialog|"
+msgid "Max"
+msgstr "מירבי"
+
+msgctxt "InvoiceDialog|"
+msgid "Payment hash"
+msgstr "גיבוב תשלום"
+
+msgctxt "InvoiceDialog|"
+msgid "Save"
+msgstr "שמירה"
+
+msgctxt "InvoiceDialog|"
+msgid "Payment sent."
+msgstr "תשלום נשלח."
+
+msgctxt "Invoices|"
+msgid "Delete"
+msgstr "מחיקה"
+
+msgctxt "LightningPaymentDetails|"
+msgid "Paid"
+msgstr "שולם"
+
+msgctxt "LightningPaymentDetails|"
+msgid "Date"
+msgstr "תאריך"
+
+msgctxt "LightningPaymentDetails|"
+msgid "Label"
+msgstr "תווית"
+
+msgctxt "LightningPaymentDetails|"
+msgid "Payment hash"
+msgstr "גיבוב תשלום"
+
+msgctxt "LnurlPayRequestDialog|"
+msgid "Description"
+msgstr "תיאור"
+
+msgctxt "LnurlPayRequestDialog|"
+msgid "Amount"
+msgstr "סכום"
+
+msgctxt "LnurlPayRequestDialog|"
+msgid "Message"
+msgstr "הודעה"
+
+msgctxt "LnurlWithdrawRequestDialog|"
+msgid "Description"
+msgstr "תיאור"
+
+msgctxt "LnurlWithdrawRequestDialog|"
+msgid "Amount"
+msgstr "סכום"
+
+msgctxt "MessageDialog|"
+msgid "Question"
+msgstr "שאלה"
+
+msgctxt "MessageDialog|"
+msgid "Message"
+msgstr "הודעה"
+
+msgctxt "MessageDialog|"
+msgid "No"
+msgstr "לא"
+
+msgctxt "NetworkOverview|"
+msgid "Network"
+msgstr "רשת"
+
+msgctxt "NetworkOverview|"
+msgid "Status"
+msgstr "מצב"
+
+msgctxt "NetworkOverview|"
+msgid "Server"
+msgstr "שרת"
+
+msgctxt "NetworkOverview|"
+msgid "Lightning"
+msgstr "לייטנינג"
+
+msgctxt "NetworkOverview|"
+msgid "Gossip"
+msgstr "רכילות"
+
+msgctxt "NetworkOverview|"
+msgid "Proxy"
+msgstr "פרוקסי"
+
+msgctxt "NewWalletWizard|"
+msgid "Error"
+msgstr "שגיאה"
+
+msgctxt "NostrSwapServersDialog|"
+msgid "Fee"
+msgstr "עמלה"
+
+msgctxt "OpenChannelDialog|"
+msgid "Max"
+msgstr "מירבי"
+
+msgctxt "OpenChannelDialog|"
+msgid "Open Channel"
+msgstr "פתח ערוץ"
+
+msgctxt "OpenChannelDialog|"
+msgid "Error"
+msgstr "שגיאה"
+
+msgctxt "OpenChannelDialog|"
+msgid "Channel established."
+msgstr "ערוץ נוצר."
+
+msgctxt "OpenWalletDialog|"
+msgid "Password"
+msgstr "סיסמה"
+
+msgctxt "PasswordDialog|"
+msgid "Enter Password"
+msgstr "הזן סיסמה"
+
+msgctxt "PasswordDialog|"
+msgid "Password"
+msgstr "סיסמה"
+
+msgctxt "Preferences|"
+msgid "Preferences"
+msgstr "העדפות"
+
+msgctxt "Preferences|"
+msgid "Language"
+msgstr "שפה"
+
+msgctxt "Preferences|"
+msgid "Please restart Electrum to activate the new GUI settings"
+msgstr "נא לכבות ולהדליק מחדש את אלקטרום כדי להפעיל את הגדרות הממשק הגרפי החדשות"
+
+msgctxt "Preferences|"
+msgid "Base unit"
+msgstr "יחידת בסיס"
+
+msgctxt "Preferences|"
+msgid "Lightning"
+msgstr "לייטנינג"
+
+msgctxt "Preferences|"
+msgid "Create recoverable channels"
+msgstr "צור ערוצים הניתנים לשחזור"
+
+msgctxt "Preferences|"
+msgid "Advanced"
+msgstr "מתקדם"
+
+msgctxt "ProxyConfig|"
+msgid "Address"
+msgstr "כתובת"
+
+msgctxt "ProxyConfig|"
+msgid "Port"
+msgstr "פורט"
+
+msgctxt "ProxyConfig|"
+msgid "Password"
+msgstr "סיסמה"
+
+msgctxt "RbfBumpFeeDialog|"
+msgid "Bump Fee"
+msgstr "הקפצת עמלה"
+
+msgctxt "RbfBumpFeeDialog|"
+msgid "Options"
+msgstr "אפשרויות"
+
+msgctxt "RbfBumpFeeDialog|"
+msgid "Enable output value rounding"
+msgstr "אפשור עיגול ערך פלט"
+
+msgctxt "RbfBumpFeeDialog|"
+msgid "In some cases, use up to 3 change addresses in order to break up large coin amounts and obfuscate the recipient address."
+msgstr "במקרים מסויימים, השתמש בעד 3 כתובות עודף כדי לחלק סכומי מטבע גדולים ולטשטש את כתובת המקבל."
+
+msgctxt "RbfBumpFeeDialog|"
+msgid "This may result in higher transactions fees."
+msgstr "דבר זה עלול לגרום לעמלות עסקה גבוהות יותר."
+
+msgctxt "ReceiveDetailsDialog|"
+msgid "Message"
+msgstr "הודעה"
+
+msgctxt "ReceiveDetailsDialog|"
+msgid "Amount"
+msgstr "סכום"
+
+msgctxt "ReceiveDetailsDialog|"
+msgid "Expires after"
+msgstr "פג התוקף לאחר"
+
+msgctxt "ReceiveDetailsDialog|"
+msgid "Lightning"
+msgstr "לייטנינג"
+
+msgctxt "ReceiveDialog|"
+msgid "Status"
+msgstr "מצב"
+
+msgctxt "ReceiveDialog|"
+msgid "Message"
+msgstr "הודעה"
+
+msgctxt "ReceiveDialog|"
+msgid "Amount"
+msgstr "סכום"
+
+msgctxt "ReceiveDialog|"
+msgid "Payment Request"
+msgstr "בקשת תשלום"
+
+msgctxt "ReceiveRequests|"
+msgid "Delete"
+msgstr "מחיקה"
+
+msgctxt "RequestExpiryComboBox|"
+msgid "10 minutes"
+msgstr "10 דקות"
+
+msgctxt "RequestExpiryComboBox|"
+msgid "1 hour"
+msgstr "&שעה אחת"
+
+msgctxt "RequestExpiryComboBox|"
+msgid "1 day"
+msgstr "&יום אחד"
+
+msgctxt "RequestExpiryComboBox|"
+msgid "1 week"
+msgstr "שבוע אחד"
+
+msgctxt "RequestExpiryComboBox|"
+msgid "Never"
+msgstr "אף פעם"
+
+msgctxt "ScanDialog|"
+msgid "Cancel"
+msgstr "ביטול"
+
+msgctxt "ServerConfig|"
+msgid "Server"
+msgstr "שרת"
+
+msgctxt "ServerConfig|"
+msgid "Other known servers"
+msgstr "שרתים ידועים אחרים"
+
+msgctxt "ServerConnectWizard|"
+msgid "Next"
+msgstr "הבא"
+
+msgctxt "SignVerifyMessageDialog|"
+msgid "Address"
+msgstr "כתובת"
+
+msgctxt "SignVerifyMessageDialog|"
+msgid "Message"
+msgstr "הודעה"
+
+msgctxt "SignVerifyMessageDialog|"
+msgid "Signature"
+msgstr "חתימה"
+
+msgctxt "SignVerifyMessageDialog|"
+msgid "Sign"
+msgstr "חתום"
+
+msgctxt "SignVerifyMessageDialog|"
+msgid "Verify"
+msgstr "אימות"
+
+msgctxt "SwapDialog|"
+msgid "Server fee"
+msgstr "עמלת שרת"
+
+msgctxt "SwapDialog|"
+msgid "Mining fee"
+msgstr "עמלת כרייה"
+
+msgctxt "SwapDialog|"
+msgid "Cancel"
+msgstr "ביטול"
+
+msgctxt "SweepDialog|"
+msgid "Sweep private keys"
+msgstr "רקן מפתחות פרטיים"
+
+msgctxt "SweepDialog|"
+msgid "WIF keys are typed in Electrum, based on script type."
+msgstr "יש סוגים שונים של מפתחות WIF, המבוססים על סוג תסריט."
+
+msgctxt "SweepDialog|"
+msgid "A few examples"
+msgstr "כמה דוגמאות"
+
+msgctxt "TermsOfUseWizard|"
+msgid "Next"
+msgstr "הבא"
+
+msgctxt "TxDetails|"
+msgid "Transaction is unrelated to this wallet."
+msgstr "עסקה לא קשורה לארנק זה."
+
+msgctxt "TxDetails|"
+msgid "Amount received in channels"
+msgstr "סכום שהתקבל בערוצים"
+
+msgctxt "TxDetails|"
+msgid "Amount withdrawn from channels"
+msgstr "סכום הנמשך מערוצים"
+
+msgctxt "TxDetails|"
+msgid "Status"
+msgstr "מצב"
+
+msgctxt "TxDetails|"
+msgid "Mempool depth"
+msgstr "עומק מאגר העסקאות הלא-מאושרות"
+
+msgctxt "TxDetails|"
+msgid "Date"
+msgstr "תאריך"
+
+msgctxt "TxDetails|"
+msgid "Label"
+msgstr "תווית"
+
+msgctxt "TxDetails|"
+msgid "Transaction ID"
+msgstr "מזהה עסקה"
+
+msgctxt "TxDetails|"
+msgid "Sign"
+msgstr "חתום"
+
+msgctxt "TxDetails|"
+msgid "Broadcast"
+msgstr "שידור"
+
+msgctxt "TxDetails|"
+msgid "Save"
+msgstr "שמירה"
+
+msgctxt "TxDetails|"
+msgid "Transaction added to wallet history."
+msgstr "עסקה נוספה להיסטוריית ארנק"
+
+msgctxt "TxDetails|"
+msgid "Note: this is an offline transaction, if you want the network to see it, you need to broadcast it."
+msgstr "שים לב: זוהי עסקה שמנותקת מהרשת, אם ברצונך שהרשת תראה אותה, תצטרך לשדר אותה."
+
+msgctxt "TxDetails|"
+msgid "Error"
+msgstr "שגיאה"
+
+msgctxt "WCConfirmSeed|"
+msgid "If you lose your seed, your money will be permanently lost."
+msgstr "אם אתה מאבד את הזרע שלך, הכסף שלך ילך לאיבוד לתמיד."
+
+msgctxt "WCConfirmSeed|"
+msgid "To make sure that you have properly saved your seed, please retype it here."
+msgstr "כדי לוודא ששמרת נכון את הזרע שלך, נא להזין אותו פה שוב."
+
+msgctxt "WCCreateSeed|"
+msgid "This seed will allow you to recover your wallet in case of computer failure."
+msgstr "הזרע הזה יאפשר לך לשחזר את ארנקך במקרה של קריסת מחשב."
+
+msgctxt "WCCreateSeed|"
+msgid "WARNING"
+msgstr "אזהרה"
+
+msgctxt "WCCreateSeed|"
+msgid "Never disclose your seed."
+msgstr "לעולם לא לחשוף את הזרע שלך."
+
+msgctxt "WCCreateSeed|"
+msgid "Never type it on a website."
+msgstr "לעולם לא להקליד אותו על אתר אינטרנט."
+
+msgctxt "WCCreateSeed|"
+msgid "Do not store it electronically."
+msgstr "לא לאחסן באופן אלקטרוני."
+
+msgctxt "WCEnterExt|"
+msgid "Note that this is NOT your encryption password."
+msgstr "שים לב שזה *לא* סיסמת ההצפנה שלך."
+
+msgctxt "WCHaveMasterKey|"
+msgid "Please enter the master public key (xpub) of your cosigner."
+msgstr "נא הזן את המפתח הציבורי הראשי (xpub) של החותם-במשותף שלך."
+
+msgctxt "WCHaveMasterKey|"
+msgid "Enter their master private key (xprv) if you want to be able to sign for them."
+msgstr "הזן את המפתח הפרטי הראשי (xprv) אם ברצונך שיהיה לך היכולת לחתום עבורם."
+
+msgctxt "WCHaveSeed|"
+msgid "BIP39 seeds can be imported in Electrum, so that users can access funds locked in other wallets."
+msgstr "ניתן לייבא זרעי BIP39 באלקטרום, כך שמשתמשים יכולים לגשת לכסף שננעל בארנקים אחרים."
+
+msgctxt "WCHaveSeed|"
+msgid "BIP39 seeds do not include a version number, which compromises compatibility with future software."
+msgstr "זרעי BIP39 לא מגיעים עם מספר גירסה, מה שפוגע ביכולת שלהם להתאים לתוכנות בעתיד"
+
+msgctxt "WCHaveSeed|"
+msgid "Seed Type"
+msgstr "סוג זרע"
+
+msgctxt "WCHaveSeed|"
+msgid "Enter cosigner seed"
+msgstr "הזן זרע חותם-במשותף"
+
+msgctxt "WCImport|"
+msgid "Enter a list of Bitcoin addresses (this will create a watching-only wallet), or a list of private keys."
+msgstr "הזן רשימה של כתובות ביטקוין (מה שיצור ארנק לצפייה-בלבד), או רשימה של מפתחות פרטיים."
+
+msgctxt "WCKeystoreType|"
+msgid "Create a new seed"
+msgstr "יצירת גרעין חדש"
+
+msgctxt "WCKeystoreType|"
+msgid "I already have a seed"
+msgstr "יש לי כבר זרע"
+
+msgctxt "WCProxyConfig|"
+msgid "Proxy"
+msgstr "פרוקסי"
+
+msgctxt "WCScriptAndDerivation|"
+msgid "Choose the type of addresses in your wallet."
+msgstr "בחרו את סוג הכתובות בארנקכם."
+
+msgctxt "WCScriptAndDerivation|"
+msgid "If you are not sure what this is, leave this field unchanged."
+msgstr "אם אתה לא בטוח מה זה, השאר את השדה הזה כמו שהוא."
+
+msgctxt "WCScriptAndDerivation|"
+msgid "Derivation path"
+msgstr "נתיב גזירה"
+
+msgctxt "WCScriptAndDerivation|"
+msgid "Detect Existing Accounts"
+msgstr "גילוי חשבונות קיימים"
+
+msgctxt "WCServerConfig|"
+msgid "Server"
+msgstr "שרת"
+
+msgctxt "WCWalletName|"
+msgid "Wallet name"
+msgstr "שם ארנק"
+
+msgctxt "WCWalletType|"
+msgid "What kind of wallet do you want to create?"
+msgstr "איזה סוג ארנק ברצונך ליצור?"
+
+msgctxt "WCWalletType|"
+msgid "Wallet with two-factor authentication"
+msgstr "ארנק עם אימות דו-שלבי"
+
+msgctxt "WCWalletType|"
+msgid "Multi-signature wallet"
+msgstr "ארנק רב-חתימתי"
+
+msgctxt "WCWalletType|"
+msgid "Import Bitcoin addresses or private keys"
+msgstr "ייבא כתובות או מפתחות פרטיים ביטקוין"
+
+msgctxt "WalletDetails|"
+msgid "Encrypted"
+msgstr "מוצפן"
+
+msgctxt "WalletDetails|"
+msgid "Lightning"
+msgstr "לייטנינג"
+
+msgctxt "WalletDetails|"
+msgid "Seed"
+msgstr "זרע"
+
+msgctxt "WalletDetails|"
+msgid "Name"
+msgstr "שם"
+
+msgctxt "WalletDetails|"
+msgid "Keystore"
+msgstr "אחסון-מפתחות"
+
+msgctxt "WalletDetails|"
+msgid "Keystore type"
+msgstr "סוג אחסון-מפתחות"
+
+msgctxt "WalletDetails|"
+msgid "Master Public Key"
+msgstr "מפתח ציבורי ראשי"
+
+msgctxt "WalletDetails|"
+msgid "Change Password"
+msgstr "שינוי סיסמה"
+
+msgctxt "WalletDetails|"
+msgid "Enter new password"
+msgstr "הזן סיסמה חדשה"
+
+msgctxt "WalletDetails|"
+msgid "Success"
+msgstr "הצלחה"
+
+msgctxt "WalletDetails|"
+msgid "Error"
+msgstr "שגיאה"
+
+msgctxt "WalletDetails|"
+msgid "Warning"
+msgstr "אזהרה"
+
+msgctxt "WalletMainView|"
+msgid "Sweep"
+msgstr "ריקון"
+
+msgctxt "WalletMainView|"
+msgid "Channels"
+msgstr "ערוצים"
+
+msgctxt "WalletMainView|"
+msgid "Receive"
+msgstr "קבל"
+
+msgctxt "WalletMainView|"
+msgid "Send"
+msgstr "שלח"
+
+msgctxt "WalletMainView|"
+msgid "Error"
+msgstr "שגיאה"
+
+msgctxt "WalletMainView|"
+msgid "Payment failed"
+msgstr "התשלום נכשל"
+
+msgctxt "Wallets|"
+msgid "Wallets"
+msgstr "ארנקים"
+
+msgctxt "Wizard|"
+msgid "Cancel"
+msgstr "ביטול"
+
+msgctxt "Wizard|"
+msgid "Back"
+msgstr "חזור"
+
+msgctxt "Wizard|"
+msgid "Next"
+msgstr "הבא"
+
+msgctxt "main|"
+msgid "Network"
+msgstr "רשת"
+
+msgctxt "main|"
+msgid "Preferences"
+msgstr "העדפות"
+
+msgctxt "main|"
+msgid "About"
+msgstr "אודות"
+
+msgctxt "main|"
+msgid "Error"
+msgstr "שגיאה"
+
+msgctxt "main|"
+msgid "Payment failed"
+msgstr "התשלום נכשל"
