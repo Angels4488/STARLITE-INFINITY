@@ -3,7 +3,6 @@
     "bitcoin-core": "^5.0.0",
     "mcp-meta-ai": "^0.0.1",
     "meta-ai-sdk": "^0.0.7",
-    "metaai": "^1.0.0",
     "trezor": "^1.0.0"
   }
 }
